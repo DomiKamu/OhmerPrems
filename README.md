@@ -51,7 +51,7 @@ The dot-matrix display (DMD) reports the current selected channel (number at top
 
 ## Free demo
 
-Free *OhmerPrems* are available for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases" page](https://github.com/DomiKamu/OhmerPremsDemo/releases). They'll not available from VCV Plugins website and, by this way, cannot be installed via Rack's Plugin Manager. Sorry.
+Free *OhmerPrems* are available for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases" page](https://github.com/DomiKamu/OhmerPrems/releases). They'll not available from VCV Plugins website and, by this way, cannot be installed via Rack's Plugin Manager. Sorry.
 
 
 
@@ -59,7 +59,7 @@ Free *OhmerPrems* are available for Windows, MacOS and Linux platforms, and can 
 
 Full versions of OhmerPrems modules are accessible only for *Prems* members (download link to full version are always sent by email).
 
-The registration fee to become "Prems" member is actually **$10 or 8 €**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. Delivery delay for new members is less than 24 hours. Indicated price may change, however (this doesn't concern previously registered Prems members, of course).
+The registration fee to become "Prems" member is actually **8 €**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currency, do a conversion to euro. Delivery delay to OhmerPrems members is less than 24 hours (4-6 hours in general). Indicated price may change, however (this doesn't concern previously registered OhmerPrems members, of course!).
 
 Obviously all Prems members will benefit all lifetime updates/upgrades and future *OhmerPrems* modules, without additional charge!
 
@@ -67,8 +67,8 @@ Obviously all Prems members will benefit all lifetime updates/upgrades and futur
 
 ## License Clauses
 
-All ***OhmerPrems*** (even free/demo modules) are under proprietary license.
-Full version is watermaked, must not be distributed.
+All ***OhmerPrems*** (even free/demo modules) remains under **proprietary license**.
+Plugin full version is watermaked, must not be distributed (can be used on machines you're owning only).
 All graphic materials and related resources cannot be used for derivative works.
 
 
