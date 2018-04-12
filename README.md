@@ -63,6 +63,8 @@ The registration fee to become *OhmerPrems* member is **8 €**, via [PayPal](ht
 
 Obviously all *OhmerPrems* members will benefit all lifetime updates/upgrades and future *OhmerPrems* modules (full versions), without any additional charge!
 
+**To OhmerPrems members**: be careful in case you'll share your patches (.vcv files) on patchstorage (or equivalent) website: by using drum machine(s) provided by full version only, please keep in mind all users don't have full version, too, and in this case, channels using drum machines from full version will return to "DMX Kick 1" automatically! Thanks.
+
 
 
 ## License Clauses
