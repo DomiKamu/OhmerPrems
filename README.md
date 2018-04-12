@@ -51,24 +51,24 @@ The dot-matrix display (DMD) reports the current selected channel (number indica
 
 ## Free demo
 
-Free *OhmerPrems* are available for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases" page](https://github.com/DomiKamu/OhmerPrems/releases). They'll not available from "VCV Plugins" website and, by this way, cannot be installed via Rack's Plugin Manager. Maybe later... but not sure.
+Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases). page. This plugin isn't available from "VCV Plugins" website and, by this way, cannot be installed via Rack's Plugin Manager.
 
 
 
-## Full version (Prems members)
+## Full version (OhmerPrems members only)
 
-Full versions of OhmerPrems modules are accessible only to *OhmerPrems* members (download link to full & user-customized version are **always** sent by email, including updates).
+Full version of OhmerPrems plugin (modules) is accessible only for *OhmerPrems* members (download link to full personal version is **always** sent by email, including future updates).
 
-The registration fee to become OhmerPrems member is actually **8 €**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currency, please do a *conversion to euro* first. Delivery delay to OhmerPrems members is less than 24 hours (4-6 hours, in general). Indicated price may change, however (of course, this doesn't concern previously registered OhmerPrems members!).
+The registration fee to become *OhmerPrems* member is **8 €**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currencies, please do a *conversion to euro* first. Delivery delay to OhmerPrems members is less than 24 hours (2 to 6 hours, in general). Indicated price may change, depending stuff behind OhmerPrems plugin/modules (of course, this doesn't concern previously registered OhmerPrems members!).
 
-Obviously all OhmerPrems members will benefit all lifetime updates/upgrades and future *OhmerPrems* modules, without any additional charge!
+Obviously all *OhmerPrems* members will benefit all lifetime updates/upgrades and future *OhmerPrems* modules (full versions), without any additional charge!
 
 
 
 ## License Clauses
 
-All ***OhmerPrems*** modules (even free/demo modules) remain under **proprietary license**.
-Full version of plugin is watermaked, and of course, cannot be distributed (it can be used on machines you're owning exclusively).
+All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
+Full version is watermaked, and of course, cannot be distributed (it can be used on all machines you're owning, exclusively).
 All graphic materials and related resources cannot be used for derivative works.
 
 
