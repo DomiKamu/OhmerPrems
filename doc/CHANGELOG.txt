@@ -1,0 +1,20 @@
+==============================================================================================================================
+CHANGELOG
+==============================================================================================================================
+
+Release v0.6.4 (WORK IN PROGRESS...):
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Release v0.6.3 (April 7th, 2018):
+
+- QuadPercs: initial release.
+
+------------------------------------------------------------------------------------------------------------------------------
+TODO LIST / PLANNED:
+------------------------------------------------------------------------------------------------------------------------------
+
+- QuadPercs registered/full: when using "Initialize" menu, the module returns to demo! Not applicable if you'll add another
+  QuadPercs module on rack, concerns only initialized!
+- QuadPercs: when selecting another drum machine, select nearest instrument, or lastest in worst case.
