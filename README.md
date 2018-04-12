@@ -41,8 +41,8 @@ For each channel (labeled 1 to 4), you can find - from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
 - Red LED, indicating currently selected channel (when lit fixed), or when editing channel (while blinking).
-- Momentary button to select active channel (if its LED is off). When pressing button on active channel, the LED blinks, indicating channel edit. The related item to edit also blink in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its preset (instrument). Turn the encoder clockwise or counter-clockwise to select next or previous drum machine, or its preset. No need to validate, choice is immediately applied (while LED blinks, if you don't touch the encoder or any button, the edit mode stops after 30 seconds, kind of timeout).
-- An ***output*** jack (monophonic sound) can be connected to a mixer, effect, etc.
+- Momentary button to select active channel (if its LED is off). When pressing button on active channel, the LED blinks, indicating channel edit. The related item to edit also blink in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument. Turn the **rotary encoder** clockwise or counter-clockwise to select next / previous drum machine, or its instrument. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), if you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (it's a kind of timeout). **Rotary encoder doesn't have effect while LED doesn't blink**, to avoid unwanted changes.
+- An ***output*** jack (monophonic sound) can be connected to a mixer, effect, modulator input, etc.
 
 The dot-matrix display (DMD) reports the current selected channel (number indicated at top-left, like channel red LED does), the current loaded drum machine for active (selected) channel, and its current instrument.
 
@@ -63,7 +63,7 @@ The registration fee to become *OhmerPrems* member is **8 €**, via [PayPal](ht
 
 Obviously all *OhmerPrems* members will benefit all lifetime updates/upgrades and future *OhmerPrems* modules (full versions), without any additional charge!
 
-**To OhmerPrems members**: be careful in case you'll share your patches (.vcv files) on patchstorage (or equivalent) website: by using drum machine(s) provided by full version only, please keep in mind all users don't have full version, too, and in this case, channels using drum machines from full version will return to "DMX Kick 1" automatically! Thanks.
+**To OhmerPrems members**: be careful in case you'll share your patches (.vcv files) on patchstorage (or equivalent) website, using full version of QuadPercs: by using drum machine(s) provided by full version only, please keep in mind all users don't have the full version, too, and in this case, channels using drum machines included in full version will return automatically to "Oberh. DMX Kick 1"! Thanks to consider this.
 
 
 
