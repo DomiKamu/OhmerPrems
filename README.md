@@ -26,7 +26,7 @@ Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
 QuadPercs is a **quadruple-channel drum** module, providing 4 independent drum/percussion channels, each having its own drum machine and its related instrument.
 
-QuadPercs is available from OhmerPrems plugin, as free version (limited to 4 drum machines), and as full version (for OhmerPrems members only). Full version offers all 16 drum machines, instead of 4.
+QuadPercs is available from OhmerPrems plugin, as free version (limited to 4 drum machines) to any public, and as full version for OhmerPrems members. Full version offers all 16 drum machines, instead of 4 provided by free version.
 
 Free version: Oberheim DMX, LinnDrum, Roland 707, and Roland 808, for a total of 90 instruments.
 
