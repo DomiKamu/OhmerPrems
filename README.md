@@ -81,8 +81,8 @@ Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrade
 ## License Clauses
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
-Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (it can be used on all machines you're owning, exclusively). Please read LICENSE.txt enclosed in your downloaded package.
-All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus.
+Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE.txt" enclosed in your downloaded package.
+All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
 
 
 
