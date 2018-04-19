@@ -22,30 +22,28 @@ Some YouTube videos, here:
 
 ------
 
-###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins***" directory, never touch "***Ohmer***" subdirectory if exists (in case you're already using regular Ohmer Modules, like KlokSpid, Metriks, RKD, Splitter 1x9, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing "***Ohmer***" directory, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID PROBLEMS!
+###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing "***Ohmer***", anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES!
 
-"***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file).
+"***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members).
 
-When installed, from Rack's browser, QuadPercs module (and any OhmerPrems module) is listed from "Ohmer Modules". QuadPercs module is also listed from "Drum" and "Quad" tags/categories.
+When installed, from Rack's browser, QuadPercs module is listed from "Ohmer Modules". QuadPercs module is also listed from "Drum" and "Quad" when you're browsing by tags.
 
 ------
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
-Basically, QuadPercs is a 10 HP **quad-channel drum** module, providing 4 independent drum/percussion channels, each having its own drum machine (and its related instrument).
+Basically, QuadPercs is a 10 HP **quad-channel drum** module, providing 4 independent drum/percussion channels, each having its own (sample-based) drum machine, and its related instrument.
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
 - free version (limited to 4 drum machines) to any who want to try it (fully usable, no other limitation).
 - full version, reserved to *OhmerPrems* members.
 
-Full version offers all 16 drum machines (instead of 4 provided by free edition).
-
 Free version: Oberheim DMX, LinnDrum, Roland 707, and Roland 808 (for a total of 90 instruments).
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
-QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid bad noise when you're changing drum machine and/or instrument).
+QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid bad noised when you're changing drum machine and/or its instrument).
 
 **VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if Rack engine is set to another sample rate, the module is automatically disabled: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz", because internal samples are 44100Hz only (no internal re-sampling yet). Changing Rack's sample rate to 44100Hz will return QuadPercs module(s) as operational.
 
@@ -62,7 +60,7 @@ The dot-matrix display (DMD) reports the current selected channel (number indica
 
 
 
-## Free demo
+## Free version
 
 Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository. This plugin isn't available from "VCV Plugins" website and, by this way, cannot be installed via Rack's Plugin Manager.
 
