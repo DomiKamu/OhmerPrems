@@ -1,6 +1,6 @@
-# ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium modules)
+# ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
-*Pre-made README...*
+*OhmerPrems* is both Premium (for suscribers) and free module, designed for VCV Rack v0.6.
 
 
 
