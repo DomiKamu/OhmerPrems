@@ -4,11 +4,11 @@
 
 Actually *OhmerPrems* plugin is containing **QuadPercs** module. A bigger model is in "designing" phase...
 
+![QuadPercs - All models](./doc/images/QPCS_all_models.png)
+
 
 
 Some YouTube videos, here:
-
-
 
 [QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/7e7qjuJyDj0) 
 
