@@ -32,19 +32,24 @@ When installed, from Rack's browser, QuadPercs module (and any OhmerPrems module
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
-QuadPercs is a **quadruple-channel drum** module, providing 4 independent drum/percussion channels, each having its own drum machine and its related instrument.
+Basically, QuadPercs is a 10 HP **quad-channel drum** module, providing 4 independent drum/percussion channels, each having its own drum machine (and its related instrument).
 
-QuadPercs is available from OhmerPrems plugin, as free version (limited to 4 drum machines) to any public, and as full version for OhmerPrems members. Full version offers all 16 drum machines, instead of 4 provided by free version.
+QuadPercs module is available from OhmerPrems plugin, as both:
 
-Free version: Oberheim DMX, LinnDrum, Roland 707, and Roland 808, for a total of 90 instruments.
+- free version (limited to 4 drum machines) to any who want to try it (fully usable, no other limitation).
+- full version, reserved to *OhmerPrems* members.
+
+Full version offers all 16 drum machines (instead of 4 provided by free edition).
+
+Free version: Oberheim DMX, LinnDrum, Roland 707, and Roland 808 (for a total of 90 instruments).
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
-QuadPercs is a 10 HP width, embedding all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop (when you change drum machine and/or instrument).
+QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid bad noise when you're changing drum machine and/or instrument).
 
-**VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if Rack engine is set to another sample rate, the module is automatically disabled (all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz"), because internal samples are 44100Hz only (no internal re-sampling yet).
+**VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if Rack engine is set to another sample rate, the module is automatically disabled: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz", because internal samples are 44100Hz only (no internal re-sampling yet). Changing Rack's sample rate to 44100Hz will return QuadPercs module(s) as operational.
 
-QuadPercs is easy to use. The main key are... four buttons (one per channel). Default channel is always 4.
+QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 4.
 For each channel, labeled 1 to 4, you can find from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
