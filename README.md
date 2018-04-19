@@ -34,13 +34,13 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 QuadPercs is a 10 HP width, embedding all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop (when you change drum machine and/or instrument).
 
-**VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if Rack engine is set to another samplerate, the module is automatically disabled (all channel LEDs are on, display indicates 44100Hz).
+**VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if Rack engine is set to another sample rate, the module is automatically disabled (all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz"), because internal samples are 44100Hz only (no internal re-sampling yet).
 
-QuadPercs is easy to use. The main key are... four buttons (one per channel). Default channel is 4.
-For each channel (labeled 1 to 4), you can find - from left to right:
+QuadPercs is easy to use. The main key are... four buttons (one per channel). Default channel is always 4.
+For each channel, labeled 1 to 4, you can find from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
-- Red LED, indicating currently selected channel (when lit fixed), or when editing channel (while blinking).
+- Red LED, indicating currently selected channel (when lit), or when editing channel (while blinking).
 - Momentary button to select active channel (if its LED is off). When pressing button on active channel, the LED blinks, indicating channel edit. The related item to edit also blink in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument. Turn the **rotary encoder** clockwise or counter-clockwise to select next / previous drum machine, or its instrument. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), if you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (it's a kind of timeout). **Rotary encoder doesn't have effect while LED doesn't blink**, to avoid unwanted changes.
 - An ***output*** jack (monophonic sound) can be connected to a mixer, effect, modulator input, etc.
 
