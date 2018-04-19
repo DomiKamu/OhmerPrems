@@ -2,6 +2,12 @@
 
 *OhmerPrems* is both Premium (for suscribers) and free plugin/modules, designed for VCV Rack v0.6.
 
+Actually *OhmerPrems* plugin is containing **QuadPercs** module. A bigger model is in "designing" phase...
+
+
+
+Some YouTube videos, here:
+
 
 
 [QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/7e7qjuJyDj0) 
@@ -11,6 +17,8 @@
 [QuadPercs module in action, YouTube video made by Omar Brown (Thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
 [QuadPercs modules in action, YouTube video made by Billy Sorel (Thanks mon Ami!)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
+
+
 
 ------
 
