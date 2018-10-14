@@ -1,4 +1,4 @@
-**BE CAREFUL - CAUTION - ATTENTION:** New subscriptions are postponed to November 1st, 2018 (apologizes for this delay, for now I'm away from my development computer). Actually, any PayPal are refund.
+**VERY IMPORTANT!:** all developments/maintenances and new subscriptions are postponed until December 1st 2018. For now, I'm away from my development computer. **BTW any PayPal will be refund.** Please apologize. Dominique.
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
