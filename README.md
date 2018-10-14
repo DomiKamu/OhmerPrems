@@ -1,4 +1,4 @@
-**VERY IMPORTANT!:** all developments/maintenances and new subscriptions are postponed until December 1st 2018. For now, I'm away from my development computer. **BTW any PayPal will be refund.** Please apologize. Dominique.
+**VERY IMPORTANT!:** all developments/maintenances **and new OhmerPrems subscriptions** are frozen until December 1st 2018. For now, I'm away from my development computer. **BTW, any PayPal will be refund.** Please apologize. Dominique.
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
