@@ -1,4 +1,4 @@
-**VERY IMPORTANT!:** all developments/maintenances **and new OhmerPrems subscriptions** are frozen until v1 conversion is done. OhmerPrems (for now contain QuadPercs module) conversion against Rack 1.0 API (and enhancements) are in progress....
+**VERY IMPORTANT!:** all developments/maintenances **and new OhmerPrems subscriptions** are frozen until v1 conversion is entirely done. OhmerPrems (for now contain QuadPercs module only) conversion against Rack 1.0 API (and enhancements) will be done after Ohmer Modules (in order to be more familiar with new v1.0 API). Thanks for your patience!
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
