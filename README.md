@@ -1,16 +1,16 @@
-**VCV RACK V1.0:** OhmerPrems modules (for now QuadPercs module) are (is) **almost finished for VCV Rack v1.0.0**. This plugin will be available in couple of days (probably June 22 or 23) for OhmerPrems members. Free version is available for Windows platform (see "Releases"). OhmerPrems members will receive an email for download (many thanks in advance for your patience!)
+**VCV RACK V1.0:** OhmerPrems modules (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows for now). Full version will be available in couple of days (I hope June 22 or 23) for OhmerPrems members. Free version is available for Windows platform (see "Releases" tab, lastest release). OhmerPrems members will receive an email for download (many thanks in advance for your patience!)
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
-*OhmerPrems* is both Premium (for suscribers) and free plugin/modules, designed for VCV Rack v0.6.x **and now v1.0.0**.
+*OhmerPrems* is both Premium (for suscribers) and free plugin/modules, designed for VCV Rack v0.6.x **and new v1.0.0!**.
 
-Actually *OhmerPrems* plugin is containing **QuadPercs** module.
+Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modules are under consideration.
 
 ![QuadPercs - All models](./doc/images/QPCS_all_models.png)
 (this image comes from VCV Rack v1.0.0)
 
 
-Some YouTube videos, here:
+Some YouTube videos (made from VCV Rack v0.6), here:
 
 [QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/7e7qjuJyDj0) 
 
@@ -24,9 +24,9 @@ Some YouTube videos, here:
 
 ------
 
-###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing "***Ohmer***", anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES!
+###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing "***Ohmer***", anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES!
 
-"***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members).
+"***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members). Free version is smaller because samples of unavailable drum machines are removed.
 
 When installed, from Rack's browser, QuadPercs module is listed from "Ohmer Modules". QuadPercs module is also listed from "Drum" and "Quad" when you're browsing by tags.
 
