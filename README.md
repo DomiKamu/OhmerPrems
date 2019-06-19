@@ -2,12 +2,12 @@
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
-*OhmerPrems* is both Premium (for suscribers) and free plugin/modules, designed for VCV Rack v0.6.x **and v1.0.0**.
+*OhmerPrems* is both Premium (for suscribers) and free plugin/modules, designed for VCV Rack v0.6.x **and now v1.0.0**.
 
 Actually *OhmerPrems* plugin is containing **QuadPercs** module.
 
 ![QuadPercs - All models](./doc/images/QPCS_all_models.png)
-
+(this image comes from VCV Rack v1.0.0)
 
 
 Some YouTube videos, here:
@@ -84,6 +84,6 @@ Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrade
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE.txt" enclosed in your downloaded package.
-All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer). SVG graphics named 'XB_....svg' are designed by Xavier Belmont (ask him the permission if you'll want to use them in your productions).
+All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer). SVG graphics named 'XB_....svg' are designed by Xavier Belmont (ask him the permission if you'll want to use them in your productions). Thanks Xavier!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository.
