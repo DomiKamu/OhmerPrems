@@ -1,4 +1,4 @@
-**VERY IMPORTANT!:** all developments/maintenances **and new OhmerPrems subscriptions** are frozen until v1 conversion is entirely done. OhmerPrems (for now contain QuadPercs module only) conversion against Rack 1.0 API (and enhancements) will be done after Ohmer Modules (in order to be more familiar with new v1.0 API). Thanks for your patience!
+**VCV RACK V1.0:** OhmerPrems modules (for now QuadPercs module) are (is) **almost finished for VCV Rack v1.0.0***. This plugin will be available in couple of days (probably June 22 or 23), here for freeware (limited). OhmerPrems members will receive an email for download. Many thanks for your patience!
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
@@ -72,7 +72,7 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 Full version of OhmerPrems plugin (modules) is accessible only for *OhmerPrems* members (download link pointing to full personal version is **always** sent by email, including future updates).
 
-The registration fee to become *OhmerPrems* member is **8 €**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currencies, please do a *conversion to euro/EUR* first. Delivery delay to OhmerPrems members is less than 24 hours (2 to 6 hours, in general). Indicated price may change, depending stuff behind OhmerPrems plugin/modules (of course, this doesn't concern previously registered OhmerPrems members!).
+The registration fee to become *OhmerPrems* member is now **12 €**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currencies, please do a *conversion to euro/EUR* first. Delivery delay to OhmerPrems members is less than 24 hours (2 to 6 hours, in general). Indicated price may change, depending stuff behind OhmerPrems plugin/modules (of course, this doesn't concern previously registered OhmerPrems members!).
 
 Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (in full versions), without any additional charge!
 
