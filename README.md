@@ -4,7 +4,7 @@
 
 *OhmerPrems* is both Premium (for suscribers) and free plugin/modules, designed for VCV Rack v0.6.x **and v1.0.0**.
 
-Actually *OhmerPrems* plugin is containing **QuadPercs** module. A bigger model is in "designing" phase...
+Actually *OhmerPrems* plugin is containing **QuadPercs** module.
 
 ![QuadPercs - All models](./doc/images/QPCS_all_models.png)
 
