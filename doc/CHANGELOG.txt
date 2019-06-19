@@ -2,8 +2,18 @@
 CHANGELOG
 ==============================================================================================================================
 
-Release v0.6.4 (WORK IN PROGRESS...):
+Release v1.0.0 (June 19th, 2019):
 
+- QuadPercs source redesigned against VCV Rack v1.0.0.
+- Fixed possible memory leaks.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Release v0.6.4 (April 12th, 2018):
+
+- QuadPercs (registered full): fixed issue (discovered by chance) when using "Initialize" context menu, QuadPercs module
+  returns to free/demo! Not applicable if you'll add another QuadPercs module on rack, concerns only initialized! Also, when
+  saved ".vcv" patch is reloaded, QuadPercs works again as full version. FIXED!
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,6 +25,5 @@ Release v0.6.3 (April 7th, 2018):
 TODO LIST / PLANNED:
 ------------------------------------------------------------------------------------------------------------------------------
 
-- QuadPercs registered/full: when using "Initialize" menu, the module returns to demo! Not applicable if you'll add another
-  QuadPercs module on rack, concerns only initialized!
-- QuadPercs: when selecting another drum machine, select nearest instrument, or lastest in worst case.
+- QuadPercs: when selecting another drum machine, select nearest instrument (or lastest used, if not equivalent/similar).
+- Some GFX enhancements (the buttons, in particular).
