@@ -84,8 +84,6 @@ Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrade
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE.txt" enclosed in your downloaded package.
-All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
-
-
+All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer). SVG graphics named 'XB_....svg' are designed by Xavier Belmont (ask him the permission if you'll want to use them in your productions).
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository.
