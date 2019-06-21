@@ -47,11 +47,11 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid bad noised when you're changing drum machine and/or its instrument). Like KlokSpid and Metriks modules (provided from Ohmer Modules), QuadPercs is available as six models, shown by screen capture, top of this document, can be changed via right-click (context) menu.
 
-**VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if Rack engine is set to another sample rate, the module is automatically disabled: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz", because internal samples are 44100Hz only (no internal re-sampling yet). Changing Rack's sample rate to 44100Hz will return QuadPercs module(s) as operational.
+**VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if VCV Rack engine is set to another sample rate, the module is automatically disabled: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz", because internal samples are 44100Hz only (no internal re-sampling yet, but under consideration). Changing Rack's sample rate to 44100Hz will return QuadPercs module(s) as operational immediatly.
 
-QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (for version designed for VCV Rack v0.6.x, default channel was 4 instead).
+QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (for version designed for VCV Rack v0.6.x, default channel was 4, instead).
 
-For each channel (labeled 1 to 4 from top to bottom), you can find, from left to right:
+For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
 - Red LED, indicating currently selected channel (when lit), or when editing channel (while blinking).
