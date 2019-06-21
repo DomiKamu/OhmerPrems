@@ -2,7 +2,14 @@
 CHANGELOG
 ==============================================================================================================================
 
-Release v1.0.0 (June 19th, 2019):
+Release v1.0.1 (June 21st, 2019) for VCV Rack v1.0.0:
+
+- Dynamic ports (gold jacks for Signature-line models only, otherwise silver jacks).
+- Gold screws was reworked a bit...
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Release v1.0.0 (June 19th, 2019) for VCV Rack v1.0.0:
 
 - QuadPercs source redesigned against VCV Rack v1.0.0.
 - Fixed possible memory leaks.
@@ -25,5 +32,6 @@ Release v0.6.3 (April 7th, 2018):
 TODO LIST / PLANNED:
 ------------------------------------------------------------------------------------------------------------------------------
 
-- QuadPercs: when selecting another drum machine, select nearest instrument (or lastest used, if not equivalent/similar).
-- Some GFX enhancements (the buttons, in particular).
+- Some GFX enhancements (all buttons in particular).
+- Dynamic ports (gold jacks for Signature-line models only, otherwise silver jacks).
+- QuadPercs: when selecting another drum machine, select similar instrument (if no lastest used).
