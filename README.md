@@ -1,4 +1,4 @@
-**VCV RACK V1.0:** OhmerPrems modules (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows for now). Full version will be available in couple of days (I hope June 22 or 23) for OhmerPrems members. Free version is available for Windows platform (see "Releases" tab, lastest release). OhmerPrems members will receive an email for download (many thanks in advance for your patience!)
+**VCV RACK V1.0:** OhmerPrems modules (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows for now). Full version will be available in couple of days (I hope June 22nd or 23rd) for OhmerPrems members. Free version is available for Windows platform (see "Releases" tab, lastest release). OhmerPrems members will receive an email for download (many thanks in advance for your patience!)
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
