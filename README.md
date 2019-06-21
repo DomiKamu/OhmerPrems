@@ -6,7 +6,7 @@
 
 Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modules are under consideration.
 
-![QuadPercs - All models](./doc/images/QuadPercs_all_models.png)
+![](./doc/images/QuadPercs_all_models.png)
 note this image comes from version designed for VCV Rack v1.0.0
 
 
