@@ -10,7 +10,7 @@ Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modul
 (note this image comes from version designed for VCV Rack v1.0.0)
 
 
-Some YouTube videos (made from VCV Rack v0.6), here:
+Some YouTube videos (made from VCV Rack v0.6.x), here:
 
 [QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/7e7qjuJyDj0) 
 
@@ -24,11 +24,11 @@ Some YouTube videos (made from VCV Rack v0.6), here:
 
 ------
 
-###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing "***Ohmer***", anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES!
+###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
 
 "***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members). Free version plugin.dll/plugin.so/plugin.dylib is smaller than full equivalent, because unavailble samples for disabled drum machines aren't implemented.
 
-When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed into "Drum" category when you're browsing by tags.
+When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed into "Drum" and/or "Quad" categories when you're browsing by tags.
 
 ------
 
@@ -49,8 +49,9 @@ QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for b
 
 **VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if Rack engine is set to another sample rate, the module is automatically disabled: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz", because internal samples are 44100Hz only (no internal re-sampling yet). Changing Rack's sample rate to 44100Hz will return QuadPercs module(s) as operational.
 
-QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 4.
-For each channel, labeled 1 to 4, you can find from left to right:
+QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (for version designed for VCV Rack v0.6.x, default channel was 4 instead).
+
+For each channel (labeled 1 to 4 from top to bottom), you can find, from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
 - Red LED, indicating currently selected channel (when lit), or when editing channel (while blinking).
@@ -64,7 +65,7 @@ The dot-matrix display (DMD) reports the current selected channel (number indica
 
 ## Free version
 
-Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository. This plugin isn't available from "VCV Plugins" website and, by this way, cannot be installed via Rack's Plugin Manager.
+Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository. This plugin isn't available yet from "Plugins Library" website and, by this way, cannot be installed via Rack's Plugin Manager (but this feature comin' soon).
 
 
 
