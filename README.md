@@ -5,6 +5,7 @@
 **Enhancements for future v1.0.2:**
 - By using "Randomize" command from module's context-menu or by pressing Ctrl+R over module (Command+R on Mac), random drum machine + random drumkit (for related drum machine) are applied, per channel. _Status: Implemented._
 - Redesigned gold/silver buttons (stuff will be made by Xavier Belmont - TIA). _Status: Pending._
+- Next versions will appears as **OhmerPrems-Free** from VCV Plugin Library. _Status: Fixed (plugin.json)_ Not applicable for full versions.
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
