@@ -32,6 +32,7 @@ Release v0.6.3 (April 7th, 2018):
 TODO LIST / PLANNED:
 ------------------------------------------------------------------------------------------------------------------------------
 
-- Some GFX enhancements (all buttons in particular).
-- Dynamic ports (gold jacks for Signature-line models only, otherwise silver jacks).
+- Some GFX enhancements (silver/gold buttons in particular, perhaps screws too).
 - QuadPercs: when selecting another drum machine, select similar instrument (if no lastest used).
+- Idea by Omar Brown: random machine/drumkit for all 4 channels (via context-menu).
+- Resampling "on-the-fly" algo, for sampleRate higher than default 44.1 kHz.
