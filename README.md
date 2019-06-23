@@ -49,7 +49,7 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument). Like KlokSpid module (provided from Ohmer Modules), QuadPercs is available as six models, shown by screen capture, top of this document, can be changed via right-click (context) menu.
 
-**VERY IMPORTANT: QuadPercs operates at 44100Hz only!** if VCV Rack engine is set to another sample rate, the module is automatically disabled: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz", because internal samples are 44100Hz only (no internal re-sampling yet, but still under consideration). Changing Rack's sample rate to 44100Hz will return QuadPercs module(s) as operational immediatly.
+**VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONY!** if VCV Rack engine's sample rate is set to another than 44.1 kHz, the module stops immediately: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz !!SAMPLE RATE!!", because internal samples are 44100Hz only (to operate at higher sample rates, internal resampling algo must be implemented, **this feature is under consideration and it's my priority on QuadPercs ToDo list!**). Changing Rack engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational immediatly.
 
 QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (previous versions designed for VCV Rack v0.6.x, default channel was 4, instead).
 
@@ -75,9 +75,9 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 Full version of OhmerPrems plugin (modules) is accessible only for *OhmerPrems* members (download link pointing to full personal version is **always** sent by email, including future updates).
 
-The registration fee to become *OhmerPrems* member is now **12 EUR**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currencies, please do a *conversion to euro/EUR* first. Delivery delay to OhmerPrems members is less than 24 hours (2 to 6 hours, in general).
+The registration fee to become *OhmerPrems* member is now **10 EUR**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currencies, please do a *conversion to euro/EUR* first. Delivery delay to OhmerPrems members is less than 24 hours (2 to 6 hours, in general).
 
-Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (in full versions), without any additional charge!
+Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions), without any additional charge!
 
 **To OhmerPrems members**: be careful in case you'll share your patches (.vcv files) on patchstorage (or equivalent) website, by using drum machine(s) provided in full version of QuadPercs, please keep in mind all users don't have the full version, too, and in this case, channels using drum machines included in full version (but not in free) will return automatically to default "Oberh. DMX Kick 1"! So, thanks in advance to consider it!
 
@@ -87,7 +87,7 @@ Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrade
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE.txt" enclosed in your downloaded package.
-All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer). SVG graphics named 'XB_....svg' are designed by Xavier Belmont (ask him the permission if you'll want to use them in your productions). Thanks Xavier!
-Thanks to Marc Boulé (author of ImpromptuModular) for code who permit to swap ports SVG textures (silver or gold).
+All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer). All SVG graphics named 'XB_....svg' are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your productions). Thanks Xavier!
+Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics plugins) for C++ code who permit to swap ports SVG metal textures (silver, gold) "on-the-fly", like push buttons and screws...
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository.
