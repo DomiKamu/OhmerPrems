@@ -55,7 +55,11 @@ QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for b
 
 ![](doc/images/Sample_Rate_44100_Message.png)
 
-***VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONY!*** if VCV Rack engine's sample rate is set to another than 44.1 kHz, the module stops immediately: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz !!SAMPLE RATE!!", because internal samples are 44100Hz only (to operate at higher sample rates, internal resampling algo must be implemented, **this feature is under consideration and it's my priority on QuadPercs ToDo list!**). Changing Rack engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational immediatly.
+## VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONY!
+
+if VCV Rack engine's sample rate is set to another than 44.1 kHz, the module stops immediately: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz !!SAMPLE RATE!!", because internal samples are 44100Hz only (to operate at higher sample rates, internal resampling algo must be implemented, **this feature is under consideration but requires upsampling + filtering techniques**). 
+
+Changing Rack engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational immediately (see picture just above!)
 
 QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (previous versions designed for VCV Rack v0.6.x, default channel was 4, instead).
 
