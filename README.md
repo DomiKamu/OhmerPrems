@@ -1,4 +1,4 @@
-**@ OHMERPREMS MEMBERS:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux) are uploaded to respective user areas. Also, an email was sent to each member. Enjoy!
+**@ OHMERPREMS MEMBERS:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux, plugin version 1.0.1) are uploaded to respective user areas. Also, an email was sent to each member. Enjoy!
 
 **VCV RACK V1.0:** OhmerPrems modules v1.0.1 (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about v0.6.4 (and older)**.
 
@@ -53,6 +53,8 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument). Like KlokSpid module (provided from Ohmer Modules), QuadPercs is available as six models, shown by screen capture, top of this document, can be changed via right-click (context) menu.
 
+![](doc/images/Sample_Rate_44100_Message.png)
+
 ***VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONY!*** if VCV Rack engine's sample rate is set to another than 44.1 kHz, the module stops immediately: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz !!SAMPLE RATE!!", because internal samples are 44100Hz only (to operate at higher sample rates, internal resampling algo must be implemented, **this feature is under consideration and it's my priority on QuadPercs ToDo list!**). Changing Rack engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational immediatly.
 
 QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (previous versions designed for VCV Rack v0.6.x, default channel was 4, instead).
@@ -90,8 +92,13 @@ Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrade
 ## License Clauses
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
-Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE.txt" enclosed in your downloaded package.
-All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer). All SVG graphics named 'XB_....svg' are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your productions). Thanks Xavier!
+
+Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package.
+
+All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
+
+All SVG graphics named 'XB_....svg' are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your productions). Thanks Xavier!
+
 Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics plugins) for C++ code who permit to swap ports SVG metal textures (silver, gold) "on-the-fly", like push buttons and screws...
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository.
