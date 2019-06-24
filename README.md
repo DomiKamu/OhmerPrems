@@ -2,9 +2,9 @@
 
 **VCV RACK V1.0:** OhmerPrems modules v1.0.1 (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about v0.6.4 (and older)**.
 
-**Enhancements for future v1.0.2 (planned begin of July):**
+**Enhancements for future v1.0.2 (planned first week of July):**
 - By using "Randomize" command from module's context-menu or by pressing Ctrl+R over module (Command+R on Mac), random drum machine + random drumkit (for related drum machine) are applied, per channel. _Status: Implemented._
-- Redesigned gold/silver buttons (stuff will be made by Xavier Belmont - TIA). _Status: Pending._
+- Redesigned gold/silver buttons (stuff will be made by Xavier Belmont - TIA). _Status: Implemented._
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
@@ -53,7 +53,7 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument). Like KlokSpid module (provided from Ohmer Modules), QuadPercs is available as six models, shown by screen capture, top of this document, can be changed via right-click (context) menu.
 
-**VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONY!** if VCV Rack engine's sample rate is set to another than 44.1 kHz, the module stops immediately: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz !!SAMPLE RATE!!", because internal samples are 44100Hz only (to operate at higher sample rates, internal resampling algo must be implemented, **this feature is under consideration and it's my priority on QuadPercs ToDo list!**). Changing Rack engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational immediatly.
+***VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONY!*** if VCV Rack engine's sample rate is set to another than 44.1 kHz, the module stops immediately: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz !!SAMPLE RATE!!", because internal samples are 44100Hz only (to operate at higher sample rates, internal resampling algo must be implemented, **this feature is under consideration and it's my priority on QuadPercs ToDo list!**). Changing Rack engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational immediatly.
 
 QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (previous versions designed for VCV Rack v0.6.x, default channel was 4, instead).
 
