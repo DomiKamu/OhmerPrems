@@ -3,8 +3,10 @@
 **VCV RACK V1.0:** OhmerPrems modules v1.0.1 (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about v0.6.4 (and older)**.
 
 **Enhancements for future v1.0.2 (planned first week of July):**
-- By using "Randomize" command from module's context-menu or by pressing Ctrl+R over module (Command+R on Mac), random drum machine + random drumkit (for related drum machine) are applied, per channel. _Status: Implemented._
-- Redesigned gold/silver buttons (stuff will be made by Xavier Belmont - TIA). _Status: Implemented._
+- By using "Randomize" command from module's context-menu or by pressing Ctrl+R over module (Command+R on Mac), random drum machine + random drumkit (for related drum machine) are applied, per channel. **_Status: Implemented._**
+- Redesigned gold/silver buttons (stuff made by Xavier Belmont - Thanks!). **_Status: Implemented._**
+- Revamped error message while VCV Engine's sample rate isn't 44.1 kHz. **_Status: Implemented._**
+- Binaries for MacOS X and Linux platforms (both free and "base" for full). **_Status: Pending..._**
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
@@ -25,8 +27,6 @@ Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
 [QuadPercs module in action, YouTube video made by Omar Brown (Thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
 [QuadPercs modules in action, YouTube video made by Billy Sorel (Thanks mon Ami!)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
-
-
 
 ------
 
@@ -51,35 +51,51 @@ Free version: Oberheim DMX, LinnDrum, Roland 707, and Roland 808 (for a total of
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
-QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument). Like KlokSpid module (provided from Ohmer Modules), QuadPercs is available as six models, shown by screen capture, top of this document, can be changed via right-click (context) menu.
+QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly). Like KlokSpid module (provided from Ohmer Modules), QuadPercs is available as six models, shown by screen capture, top of this document, model can be changed via right-click (context) menu.
+
+------
+
+## VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONLY!
+
+if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module becomes _"inop."_ (inoperative) immediately: in this case, all channel LEDs blink fast, the upper line on display indicates **!!MODULE INOP.!!** (as fast blinking message), and instructions are given on the second line of display.
 
 ![](doc/images/Sample_Rate_44100_Message.png)
 
-## VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONY!
+This limitation is, for now, mandatory, to avoid... unrealistic drumkit sounds!
 
-if VCV Rack engine's sample rate is set to another than 44.1 kHz, the module stops immediately: all channel LEDs are turned on, and its dot-matrix display indicates "44100Hz !!SAMPLE RATE!!", because internal samples are 44100Hz only (to operate at higher sample rates, internal resampling algo must be implemented, **this feature is under consideration but requires upsampling + filtering techniques**). 
+To operate properly at higher sample rates, internal upsampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature is under consideration**. 
 
-Changing Rack engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational immediately (see picture just above!)
+Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational, immediately. However, your output module (such VCV Core AUDIO-8 or AUDIO-16) can be set to any sample rate (QuadPercs modules isn't affected).
 
-QuadPercs is very easy to use. The main key are... four buttons (one per channel). Default channel is always 1 (previous versions designed for VCV Rack v0.6.x, default channel was 4, instead).
+------
+
+## How to use QuadPercs
+
+QuadPercs module is, in fact, very easy to use.
+
+The main key are... four buttons (one per drum channel). Default channel is always 1.
 
 For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
 - Red LED, indicating currently selected channel (when lit), or when editing channel (while blinking).
-- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, the LED blinks, indicating channel edit. The related item to edit also blink in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument. Turn the **rotary encoder** clockwise or counter-clockwise to select next / previous drum machine, or its instrument. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), if you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (it's a kind of timeout). **Rotary encoder doesn't have effect while LED doesn't blink**, to avoid unwanted changes.
-- An ***output*** jack (monophonic sound) can be connected to a mixer, effect, modulator input, etc.
+- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, the LED turns blink, indicating channel edit. The related item to edit also blinks in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument (drumkit). Turn the **rotary encoder** clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit) for current drum machine. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (timeout). **Rotary encoder doesn't have effect while LED doesn't blink**, in order to avoid unwanted changes.
+- An ***output*** jack (delivers monophonic sound) can be connected to a mixer, effect, modulator input...
 
 The dot-matrix display (DMD) reports the current selected channel (number indicated at top-left, channel LED does exactly the same thing), the current loaded drum machine for active (selected) channel, and its current instrument.
 
+This module supports monophonic cables only.
 
+------
 
 
 ## Free version
 
-Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository. This plugin isn't available yet from "Plugins Library" website and, by this way, cannot be installed via Rack's Plugin Manager (but this feature comin' soon).
+Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://vcvrack.com/plugins.html#ohmer) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation and updates).
 
+**CAUTION: this is free version, by the way not applicable for OhmerPrems members!**
 
+------
 
 ## Full version (OhmerPrems members only)
 
@@ -91,7 +107,7 @@ Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrade
 
 **To OhmerPrems members**: be careful in case you'll share your patches (.vcv files) on patchstorage (or equivalent) website, by using drum machine(s) provided in full version of QuadPercs, please keep in mind all users don't have the full version, too, and in this case, channels using drum machines included in full version (but not in free) will return automatically to default "Oberh. DMX Kick 1"! So, thanks in advance to consider it!
 
-
+------
 
 ## License Clauses
 
@@ -101,8 +117,8 @@ Full version is watermaked for each member, and of course, cannot be shared, sol
 
 All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
 
-All SVG graphics named 'XB_....svg' are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your productions). Thanks Xavier!
+All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your productions). Thanks a lot, Xavier!
 
-Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics plugins) for C++ code who permit to swap ports SVG metal textures (silver, gold) "on-the-fly", like push buttons and screws...
+Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository.
