@@ -3,10 +3,11 @@
 **VCV RACK V1.0:** OhmerPrems modules v1.0.1 (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about v0.6.4 (and older)**.
 
 **Enhancements for future v1.0.2 (planned first week of July):**
-- By using "Randomize" command from module's context-menu or by pressing Ctrl+R over module (Command+R on Mac), random drum machine + random drumkit (for related drum machine) are applied, per channel. **_Status: Implemented._**
+- By using "Randomize" command from module's context-menu, or by pressing Ctrl+R over module (Command+R on Mac), random drum machine + random drumkit (for related drum machine) are applied, for each channel. **_Status: Implemented._**
 - Redesigned gold/silver buttons (stuff made by Xavier Belmont - Thanks!). **_Status: Implemented._**
 - Revamped error message while VCV Engine's sample rate isn't 44.1 kHz. **_Status: Implemented._**
 - Binaries for MacOS X and Linux platforms (both free and "base" for full). **_Status: Pending..._**
+- [VCV Plugin Library](https://vcvrack.com/plugins.htm) integration (free version only). **_Status: Pending..._**
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
