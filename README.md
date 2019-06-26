@@ -7,7 +7,7 @@
 - Redesigned gold/silver buttons (stuff made by Xavier Belmont - Thanks!). **_Status: Implemented._**
 - Revamped error message while VCV Engine's sample rate isn't 44.1 kHz. **_Status: Implemented._**
 - By using "Initialize" command from module's context-menu, or by pressing Ctrl+I over module (Command+I on Mac), all channels are set to default Oberheim DMX Kick 1. However, the model (aka the GUI panel) still unchanged, however. ***Status: Implemented.***
-- Preset management (by Copy/Paste over QuadPercs modules, or Preset>Load to retrieve a previously saved .vcvm preset file - useful if you'd like to create your own QuadPercs templates! ***Status: Development in progress...***
+- Preset management (by Copy/Paste over QuadPercs modules, or Preset>Load to retrieve a previously saved .vcvm preset file - useful if you'd like to create your own QuadPercs templates! ***Status: Implemented...***
 - Binaries for MacOS X and Linux platforms (both free and "base" for full). **_Status: Pending..._**
 - [VCV Plugin Library](https://vcvrack.com/plugins.htm) integration (free version only). **_Status: Pending..._**
 
