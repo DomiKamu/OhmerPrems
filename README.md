@@ -82,7 +82,7 @@ The dot-matrix display (DMD) reports the current selected channel (number indica
 
 This module supports monophonic cables only.
 
-Since OhmerPrems v1.0.2, both Initialize, Randomize and Preset (from file, or via copy/paste) from context-menu, are fully supported.
+<u>Since OhmerPrems v1.0.2</u>, both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
 ------
 
