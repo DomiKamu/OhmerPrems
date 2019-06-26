@@ -11,7 +11,7 @@
 Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modules are under consideration.
 
 ![](doc/images/QuadPercs_All_Models.png)
-_(note this image comes from OhmerPrems v1.0.1, VCV Rack v1.0.0 Windows)_
+_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows)_
 
 
 Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
@@ -81,6 +81,8 @@ For each channel (labeled 1 to 4, from top to bottom), you can find, from left t
 The dot-matrix display (DMD) reports the current selected channel (number indicated at top-left, channel LED does exactly the same thing), the current loaded drum machine for active (selected) channel, and its current instrument.
 
 This module supports monophonic cables only.
+
+Since OhmerPrems v1.0.2, both Initialize, Randomize and Preset (from file, or via copy/paste) from context-menu, are fully supported.
 
 ------
 
