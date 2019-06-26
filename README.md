@@ -1,6 +1,6 @@
 **@ OHMERPREMS MEMBERS:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux, plugin version 1.0.2) to respective user areas **was uploaded.** Also, a confirmation email was sent to every member. Enjoy!
 
-**VCV RACK V1.0:** OhmerPrems modules v1.0.2 (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about v0.6.4 (and older)**.
+**VCV RACK V1.0:** OhmerPrems modules v1.0.2 (for now QuadPercs module) are (is) available for VCV Rack v1.0.0 (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_, for manual install/update). **They're no more maintenance concerning v0.6.4 (and older), but v0.6.4 release remains alive for VCV Rack 0.6.x users, however.**
 
 
 
