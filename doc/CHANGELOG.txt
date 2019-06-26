@@ -2,6 +2,17 @@
 CHANGELOG
 ==============================================================================================================================
 
+Release v1.0.2 (June 26th, 2019) for VCV Rack v1.0.0:
+
+- Random machine/drumkit, for all 4 channels (via context-menu > Randomize / Ctrl+R). Idea by Omar Brown, Thanks!
+- Initialize (reset) all machines/drumkits to default Oberh. DMX Kick 1 (via context-menu > Randomize / Ctrl+I). Model isn't
+  affected by reset (it's a developer choice).
+- Module presets (via context-menu Preset, also via copy/paste accross QuadPercs modoles) now is fully implemented.
+- Reworked displayed messages on DMD (dot-matrix display) while VCV Rack engine's sample rate is not 44.1 kHz, now messages
+  are dynamic (instructions are displayed on second line of DMD).
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v1.0.1 (June 21st, 2019) for VCV Rack v1.0.0:
 
 - Dynamic ports (gold jacks for Signature-line models only, otherwise silver jacks).
@@ -34,5 +45,4 @@ TODO LIST / PLANNED:
 
 - Some GFX enhancements (silver/gold buttons in particular, perhaps screws too).
 - QuadPercs: when selecting another drum machine, select similar instrument (if no lastest used).
-- Idea by Omar Brown: random machine/drumkit for all 4 channels (via context-menu).
 - Resampling "on-the-fly" algo, for sampleRate higher than default 44.1 kHz.
