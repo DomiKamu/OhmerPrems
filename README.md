@@ -1,6 +1,6 @@
 **@ OHMERPREMS MEMBERS:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux, plugin version 1.0.2) **will** are uploaded to respective user areas. Also, an email will be sent to each member. Final worlds for you: obviously, do not activate/download OhmerPrems Free from your VCV Plugin Library account, to avoid to install the free (limited) version instead of full. Enjoy!
 
-**VCV RACK V1.1.x:** OhmerPrems modules v1.1.0 (for now QuadPercs module) are (is) available for VCV Rack **v1.1.0** (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about older versions**.
+**VCV RACK V1.1.x:** OhmerPrems plugin v1.0.2 (for now, QuadPercs module) is available for VCV Rack **v1.x.x** (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about older 0.6 versions**.
 
 
 
@@ -15,32 +15,34 @@ _(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows)_
 
 Some YouTube videos (was made from VCV Rack v0.6 but still valid). **English and French "tutos" was updated to VCV Rack v1.1.0 (July 2019)**:
 
-[QuadPercs module tutorial from my YouTube channel (English, 13 min.)](https://youtu.be/7e7qjuJyDj0) 
+[QuadPercs module tutorial from my YouTube channel (English, 29 min.)](https://youtu.be/K51tFtwiisY) 
 
-[Tutoriel du module QuadPercs 1.1.0 sur ma chaîne YouTube (Français/French, 30 mins.)](https://youtu.be/bAZPvrXWTXg)
+[Tutoriel du module QuadPercs sur ma chaîne YouTube (Français/French, 30 mins.)](https://youtu.be/bAZPvrXWTXg)
 
-[QuadPercs module in action (VCV Rack 0.6), YouTube video made by Omar Brown (thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
+[QuadPercs module in action (VCV Rack 0.6), YouTube video made by **Omar Brown** (thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
-[QuadPercs modules in action (VCV Rack v0.6), YouTube video made by Billy Sorel (merci !)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
+[QuadPercs modules in action (VCV Rack v0.6), YouTube video made by **Billy Sorel** (merci !)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
 
 ------
 
-###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
+###### <u>ABOUT INSTALLATION:</u> from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" folder (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, Splitter 1x9 etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
 
 "***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members). Free version plugin.dll/plugin.so/plugin.dylib is smaller than full version equivalent, because unavailable samples (for disabled drum machines) aren't implemented.
 
-When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed into "Drum" and/or "Quad" categories when you're browsing by tags.
+When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed as "Drum" and/or "Quad" categories when you're browsing <u>by tags</u>.
+
+Obviously, you can use both OhmerPrems plugin (either Full **<u>OR</u>** Free - *OhmerPrems* folder) and Ohmer Modules (*Ohmer* folder) together!
 
 ------
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
-Basically, QuadPercs is a 10 HP **quad-channel drum** module, providing 4 independent drum/percussion channels, each having its own (sample-based) drum machine, and its related instrument.
+Basically, QuadPercs is a 10 HP **quad-channel drum/percussion** module, providing 4 independent drum/percussion channels, each having its own (sample-based) drum machine, and its related instrument (aka drumkit).
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
 - free version (limited to 4 drum machines) to any who want to try it (fully usable, no other limitation).
-- full version (all 16 drum machines), reserved to *OhmerPrems* members.
+- full version (all 16 drum machines), reserved to *OhmerPrems* members only.
 
 Free version: Oberheim DMX, LinnDrum, Roland 707, and Roland 808 (for a total of 90 instruments).
 
