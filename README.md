@@ -1,6 +1,6 @@
 **@ OHMERPREMS MEMBERS:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux, plugin version 1.0.2) **will** are uploaded to respective user areas. Also, an email will be sent to each member. Final worlds for you: obviously, do not activate/download OhmerPrems Free from your VCV Plugin Library account, to avoid to install the free (limited) version instead of full. Enjoy!
 
-**VCV RACK V1.1.x:** OhmerPrems plugin v1.0.2 (for now, QuadPercs module) is available for VCV Rack **v1.x.x** (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about older 0.6 versions**.
+**VCV RACK v1:** OhmerPrems plugin v1.0.2 (for now, QuadPercs module) is available for VCV Rack **v1.x.x** (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version (only) is available for all platforms either from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) or "Releases" on this GitHub repository (downloads from _lastest release_). **No more maintenance about older 0.6 versions**.
 
 
 
@@ -13,15 +13,15 @@ Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modul
 ![](doc/images/QuadPercs_All_Models.png)
 _(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows)_
 
-Some YouTube videos (was made from VCV Rack v0.6 but still valid). **English and French "tutos" was updated to VCV Rack v1.1.0 (July 2019)**:
+Some YouTube videos (was made from VCV Rack v0.6 but still valid). **English and French "tutos" was updated to VCV Rack v1.1.0 (July 1st, 2019)**:
 
-[QuadPercs module tutorial from my YouTube channel "DoMiNo-MAO" (English, 29 min.)](https://youtu.be/K51tFtwiisY) 
+[QuadPercs module (v1) tutorial from my YouTube channel "DoMiNo-MAO" (English, 29 min.)](https://youtu.be/K51tFtwiisY) 
 
-[Tutoriel du module QuadPercs sur ma chaîne YouTube "DoMiNo-MAO" (Français/French, 30 mins.)](https://youtu.be/bAZPvrXWTXg)
+[Tutoriel du module QuadPercs (v1) sur ma chaîne YouTube "DoMiNo-MAO" (Français/French, 30 mins.)](https://youtu.be/bAZPvrXWTXg)
 
-[QuadPercs module in action (VCV Rack 0.6), YouTube video made by **Omar Brown** (thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
+[QuadPercs module in action (VCV Rack 0.6, 2018), YouTube video made by **Omar Brown** (thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
-[QuadPercs modules in action (VCV Rack v0.6), YouTube video made by **Billy Sorel** (merci !)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
+[QuadPercs modules in action (VCV Rack v0.6, 2018), YouTube video made by **Billy Sorel** (merci !)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
 
 ------
 
@@ -31,7 +31,7 @@ Some YouTube videos (was made from VCV Rack v0.6 but still valid). **English and
 
 When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed as "Drum" and/or "Quad" categories when you're browsing by tags.
 
-Obviously, you can use both OhmerPrems plugin (either Full **<u>OR</u>** Free - *OhmerPrems* folder) and Ohmer Modules plugin (*Ohmer* folder) together!
+Obviously, you can use both OhmerPrems plugin (either Full **OR** Free - *OhmerPrems* folder) and Ohmer Modules plugin (*Ohmer* folder) together!
 
 ------
 
