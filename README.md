@@ -15,9 +15,9 @@ _(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows)_
 
 Some YouTube videos (was made from VCV Rack v0.6 but still valid). **English and French "tutos" was updated to VCV Rack v1.1.0 (July 2019)**:
 
-[QuadPercs module tutorial from my YouTube channel (English, 29 min.)](https://youtu.be/K51tFtwiisY) 
+[QuadPercs module tutorial from my YouTube channel "DoMiNo-MAO" (English, 29 min.)](https://youtu.be/K51tFtwiisY) 
 
-[Tutoriel du module QuadPercs sur ma chaîne YouTube (Français/French, 30 mins.)](https://youtu.be/bAZPvrXWTXg)
+[Tutoriel du module QuadPercs sur ma chaîne YouTube "DoMiNo-MAO" (Français/French, 30 mins.)](https://youtu.be/bAZPvrXWTXg)
 
 [QuadPercs module in action (VCV Rack 0.6), YouTube video made by **Omar Brown** (thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
@@ -25,13 +25,13 @@ Some YouTube videos (was made from VCV Rack v0.6 but still valid). **English and
 
 ------
 
-###### <u>ABOUT INSTALLATION:</u> from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" folder (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, Splitter 1x9 etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
+###### ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" folder (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, Splitter 1x9 etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
 
 "***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members). Free version plugin.dll/plugin.so/plugin.dylib is smaller than full version equivalent, because unavailable samples (for disabled drum machines) aren't implemented.
 
-When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed as "Drum" and/or "Quad" categories when you're browsing <u>by tags</u>.
+When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed as "Drum" and/or "Quad" categories when you're browsing by tags.
 
-Obviously, you can use both OhmerPrems plugin (either Full **<u>OR</u>** Free - *OhmerPrems* folder) and Ohmer Modules (*Ohmer* folder) together!
+Obviously, you can use both OhmerPrems plugin (either Full **<u>OR</u>** Free - *OhmerPrems* folder) and Ohmer Modules plugin (*Ohmer* folder) together!
 
 ------
 
@@ -83,7 +83,7 @@ The dot-matrix display (DMD) reports the current selected channel (number indica
 
 This module supports monophonic cables only.
 
-<u>Since OhmerPrems v1.0.2</u>, both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
+Since OhmerPrems v1.0.2, both *Initialize*, *Randomize* and *Preset* (via copy/paste, or .vcvm module preset file) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported!
 
 ------
 
@@ -92,7 +92,7 @@ This module supports monophonic cables only.
 
 Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://vcvrack.com/plugins.html#ohmer) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation and updates).
 
-**CAUTION: this is free version, by the way not applicable for OhmerPrems members!**
+**CAUTION: this is free version, by the way it's not applicable for OhmerPrems members!**
 
 ------
 
