@@ -11,7 +11,7 @@
 Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modules are under consideration.
 
 ![](doc/images/QuadPercs_All_Models.png)
-_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.1.6 Windows)_
+_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows)_
 
 
 Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
