@@ -1,41 +1,42 @@
-**VCV RACK v1:** OhmerPrems plugin v1.0.2 (for now, QuadPercs module) is available for VCV Rack **v1.x.x** (Windows, Mac and Linux). Full version for each OhmerPrems member is also available (please see your mailbox). Free version (only) is available for all platforms either from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) or "Releases" on this GitHub repository (downloads from _lastest release_).
+**@ OHMERPREMS MEMBERS:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux, plugin version 2.0.0) **will** are uploaded to your respective user areas from October 5th, 2021. Also, an email will be sent to each member. Enjoy!
+
+**VCV RACK V2:** OhmerPrems modules v2.0.0 BETA (for now QuadPercs module) remains available for VCV Rack v1.1.6 (Windows, Mac and Linux), and v2.x (Windows at the moment). Full version for each OhmerPrems member is also available (please check your mailbox from October 5th, not before). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **Old v0.6.4 and previous are cancelled**.
 
 
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
-*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack v1.
+*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for incoming VCV Rack v2.x.
 
 Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modules are under consideration.
 
 ![](doc/images/QuadPercs_All_Models.png)
-_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows)_
+_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.1.6 Windows)_
 
-Some YouTube videos (was made from VCV Rack v0.6 but still valid). **English and French "tutos" was updated to VCV Rack v1.1.0 (July 1st, 2019)**:
 
-[QuadPercs module (v1) tutorial from my YouTube channel "DoMiNo-MAO" (English, 29 min.)](https://youtu.be/K51tFtwiisY) 
+Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
 
-[Tutoriel du module QuadPercs (v1) sur ma chaîne YouTube "DoMiNo-MAO" (Français/French, 30 mins.)](https://youtu.be/bAZPvrXWTXg)
+[QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/7e7qjuJyDj0) 
 
-[QuadPercs module in action (VCV Rack 0.6, 2018), YouTube video made by **Omar Brown** (thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
+[Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube (Français, 1080p, 13 mins.)](https://youtu.be/jkP7m8JSPrk)
 
-[QuadPercs modules in action (VCV Rack v0.6, 2018), YouTube video made by **Billy Sorel** (merci !)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
+[QuadPercs module in action, YouTube video made by Omar Brown (Thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
+
+[QuadPercs modules in action, YouTube video made by Billy Sorel (Thanks mon Ami!)](https://www.youtube.com/watch?v=-_YcB-VNbCE)
 
 ------
 
-###### ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" folder (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, Splitter 1x9 etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
+###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
 
-"***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members). Free version plugin.dll/plugin.so/plugin.dylib is smaller than full version equivalent, because unavailable samples (for disabled drum machines) aren't implemented.
+"***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members). Free version plugin.dll/plugin.so/plugin.dylib is smaller than full equivalent, because unavailble samples for disabled drum machines aren't implemented.
 
-When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed as "Drum" and/or "Quad" categories when you're browsing by tags.
-
-Obviously, you can use both OhmerPrems plugin (either Full **OR** Free - *OhmerPrems* folder) and Ohmer Modules plugin (*Ohmer* folder) together!
+When installed, from Rack's browser, QuadPercs module is listed by Brands into "Ohmer Modules". QuadPercs module is also listed into "Drum" and/or "Quad" categories when you're browsing by tags.
 
 ------
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
-Basically, QuadPercs is a 10 HP **quad-channel drum/percussion** module, providing 4 independent drum/percussion channels, each having its own (sample-based) drum machine, and its related instrument (aka drumkit).
+Basically, QuadPercs is a 10 HP **quad-channel drum** module, providing 4 independent drum/percussion channels, each having its own (sample-based) drum machine, and its related instrument.
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
@@ -52,15 +53,15 @@ QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for b
 
 ## VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONLY!
 
-if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module becomes _"inop."_ (inoperative) immediately: in this case, all channel LEDs blink fast, the upper line on display indicates **!!MODULE INOP.!!** (module inoperative) as fast blinking message, and instructions are given on the second line of the DMD!
+if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module becomes _"inop."_ (inoperative) immediately: in this case, all channel LEDs blink fast, the upper line on display indicates **!!MODULE INOP.!!** (as fast blinking message), and instructions are given on the second line of display.
 
 ![](doc/images/Sample_Rate_44100_Message.png)
 
-This limitation is, for now, mandatory, to avoid... unrealistic drumkit sounds (played too quickly)!
+This limitation is, for now, mandatory, to avoid... unrealistic drumkit sounds!
 
-Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational, immediately.
+To operate properly at higher sample rates, internal upsampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature is under consideration**. 
 
-However, output module (**AUDIO-8** or **AUDIO-16**, from Core) can be set to any sample rate, depending your output (audio interface, bridge to DAW) can support. In this case, QuadPercs module works normally.
+Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational, immediately. However, your output module (such VCV Core AUDIO-8 or AUDIO-16) can be set to any sample rate (QuadPercs modules isn't affected).
 
 ------
 
@@ -81,7 +82,7 @@ The dot-matrix display (DMD) reports the current selected channel (number indica
 
 This module supports monophonic cables only.
 
-Since OhmerPrems v1.0.2, both *Initialize*, *Randomize* and *Preset* (via copy/paste, or .vcvm module preset file) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported!
+<u>Since OhmerPrems v1.0.2</u>, both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
 ------
 
@@ -90,7 +91,7 @@ Since OhmerPrems v1.0.2, both *Initialize*, *Randomize* and *Preset* (via copy/p
 
 Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://vcvrack.com/plugins.html#ohmer) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation and updates).
 
-**CAUTION: this is free version, by the way it's not applicable for OhmerPrems members!**
+**CAUTION: this is free version, by the way not applicable for OhmerPrems members!**
 
 ------
 
