@@ -2,6 +2,10 @@
 CHANGELOG
 ==============================================================================================================================
 
+Pre-release v2.0.0 (October 1st, 2021) for VCV Rack v2.0.0 Beta.
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v1.0.2 (June 26th, 2019) for VCV Rack v1.0.0:
 
 - Random machine/drumkit, for all 4 channels (via context-menu > Randomize / Ctrl+R). Idea by Omar Brown, Thanks!
