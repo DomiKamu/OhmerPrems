@@ -1,6 +1,6 @@
 **@ OHMERPREMS MEMBERS:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux, plugin version 2.0.0) **will** are uploaded to your respective user areas from October 5th, 2021. Also, an email will be sent to each member. Enjoy!
 
-**VCV RACK V2:** OhmerPrems modules v2.0.0 BETA (for now QuadPercs module) remains available for VCV Rack v1.1.6 (Windows, Mac and Linux), and v2.x (Windows at the moment). Full version for each OhmerPrems member is also available (please check your mailbox from October 5th, not before). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **Old v0.6.4 and previous are cancelled**.
+**VCV RACK V2:** OhmerPrems modules v2.0.0 BETA (for now QuadPercs module) remains available for VCV Rack v1.1.6 (Windows, Mac and Linux), and VCV Rack v2.x (BETA at the moment). Full version for each OhmerPrems member is also available (please check your mailbox from October 5th, not before). Free version is available for all platforms from [VCV Plugin Library](https://vcvrack.com/plugins.html#Ohmer) - or from "Releases" on this GitHub repository (downloads from _lastest release_). **Old v0.6.4 and previous are cancelled**.
 
 
 
@@ -11,7 +11,7 @@
 Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modules are under consideration.
 
 ![](doc/images/QuadPercs_All_Models.png)
-_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows)_
+_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows, but remains valid for more recent versions)_
 
 
 Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
@@ -24,7 +24,7 @@ Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
 
 ------
 
-###### IMPORTANT - ABOUT INSTALLATION: from your "***documents/Rack/plugins-v1***" directory, if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, Metriks, RKD, etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
+###### IMPORTANT - ABOUT INSTALLATION: from your "***Rack2/plugins***", if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, RKD, BRK, Metriks etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
 
 "***OhmerPrems***" subdirectory hosts either free or full version (simply delete existing "OhmerPrems" directory first, then replace it by provided from downloaded full version .zip archive file, for OhmerPrems members). Free version plugin.dll/plugin.so/plugin.dylib is smaller than full equivalent, because unavailble samples for disabled drum machines aren't implemented.
 
@@ -111,10 +111,10 @@ All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 
 Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package.
 
-All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
+All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer & OhmerPrems developer).
 
 All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your productions). Thanks a lot, Xavier!
 
-Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
+Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository.
