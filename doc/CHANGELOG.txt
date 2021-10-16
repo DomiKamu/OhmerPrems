@@ -2,7 +2,14 @@
 CHANGELOG
 ==============================================================================================================================
 
-Pre-release v2.0.0 (October 1st, 2021) for VCV Rack v2.0.0 Beta.
+Pre-release v2.0.0-beta 3 (October 16th, 2021) for VCV Rack v2.0.0 Beta-phase.
+
+- Added new KordZ module, but remains as WORK IN PROGRESS... Work as "demo" (expiration after 60~120 seconds) for OhmerPrems
+  Free (without license key).
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Pre-release v2.0.0 (October 1st, 2021) for VCV Rack v2.0.0 Beta-phase.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
