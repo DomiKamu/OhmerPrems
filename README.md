@@ -94,7 +94,7 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 Full version of OhmerPrems plugin (modules) is accessible only for *OhmerPrems* members (download link pointing to full personal version is **always** sent by email, including future updates).
 
-The registration fee to become *OhmerPrems* member is now **10 EUR**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currencies, please do a *conversion to euro/EUR* first. Delivery delay to OhmerPrems members is less than 24 hours (2 to 6 hours, in general).
+The registration fee to become *OhmerPrems* member is now **15 EUR**, via [PayPal](https://www.paypal.me/DominiqueCAMUS) only. For other currencies, please do a *conversion to euro/EUR* first! Delivery delay to OhmerPrems members is less than 24 hours (upto 12 hours, in general).
 
 Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions), without any additional charge!
 
