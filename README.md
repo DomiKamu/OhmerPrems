@@ -114,4 +114,6 @@ All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him 
 
 Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
-Feature requests, suggestions, and bug reports are welcome on this GitHub repository.
+Thanks to **Steve Baker** for MacOS builds.
+
+Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
