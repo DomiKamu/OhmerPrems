@@ -57,9 +57,9 @@ if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module
 
 This limitation is, for now, mandatory, to avoid... unrealistic drumkit sounds!
 
-To operate properly at higher sample rates, internal upsampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature is under consideration**. 
+To operate properly at higher sample rates, internal resampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature remains under consideration**. 
 
-Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational, immediately. However, your output module (such VCV Core AUDIO-8 or AUDIO-16) can be set to any sample rate (QuadPercs modules isn't affected).
+Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational, immediately. However, your output module (such VCV Core AUDIO-2, AUDIO-8, or AUDIO-16) can be set to any sample rate (QuadPercs modules in your rack aren't affected).
 
 ------
 
