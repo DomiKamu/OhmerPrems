@@ -1,4 +1,7 @@
-**@ OHMERPREMS MEMBERS AND RACK V2:** Packages for each member (containing user-customized plugin for Windows, Mac and Linux, plugin version 2.0.0 BETA) was uploaded to your respective user areas. New links was inside email (sent today October 5th, 2021). Enjoy!
+**@ EVERYONE** I'm away from my development computer during (undetermined) weeks/months. Ohmer and OhmerPrems developments are postponed. However, compiled (binaries) will be continued (but "as is" ) by Steve Baker and Marc Boulé. At the moment, I can't accept new OhmerPrems members (I'm not able to generate license files). Sorry for my absence for "long" delay. Actual members can continuue to use OhmerPrems modules as full version (license files was sent to every member by email).
+----------
+----------
+----------
 
 
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
