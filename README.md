@@ -10,9 +10,9 @@ _(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows, 
 
 Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
 
-[QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/7e7qjuJyDj0) 
+[QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
 
-[Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube (Français, 1080p, 13 mins.)](https://youtu.be/jkP7m8JSPrk)
+[Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube (Français, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
 
 [QuadPercs module in action, YouTube video made by Omar Brown (Thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
