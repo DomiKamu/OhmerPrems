@@ -81,19 +81,15 @@ This module supports monophonic cables only.
 
 ## Free version
 
-Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://vcvrack.com/plugins.html#ohmer) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation and updates).
-
-**CAUTION: this is free version, by the way not applicable for OhmerPrems members!**
+Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation and updates).
 
 ------
 
 ## Full version (OhmerPrems members only)
 
-Full version of OhmerPrems plugin (modules) is accessible only for *OhmerPrems* members (download link pointing to full personal version is **always** sent by email, including future updates).
+Since Rack 2, the plugin is the same than free version, except a license key is sent to OhmerPrems members, by email.
 
-I CAN'T ACCEPT/PROCESS NEW REGISTRATIONS AT THE MOMENT, UNTIL ANOTHER NOTIFICATION HERE! SORRY.
-
-Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions), without any additional charge!
+Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (aka full versions), without any additional charge!
 
 **To OhmerPrems members**: be careful in case you'll share your patches (.vcv files) on patchstorage (or equivalent) website, by using drum machine(s) provided in full version of QuadPercs, please keep in mind all users don't have the full version, too, and in this case, channels using drum machines included in full version (but not in free) will return automatically to default "Oberh. DMX Kick 1"! So, thanks in advance to consider it!
 
