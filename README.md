@@ -1,6 +1,6 @@
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
 
-*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for incoming VCV Rack v2.x.
+*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
 
 Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modules are under consideration.
 
@@ -8,7 +8,7 @@ Actually *OhmerPrems* plugin is containing **QuadPercs** module only. More modul
 _(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows, but remains valid for more recent versions)_
 
 
-Some YouTube videos (made from VCV Rack v0.6 but still valid), here:
+Some YouTube videos (made from old VCV Rack v0.6, but still valid), here:
 
 [QuadPercs module presentation/tutorial from my YouTube channel (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
 
