@@ -2,6 +2,13 @@
 CHANGELOG
 ==============================================================================================================================
 
+Pre-release v2.2.2 (Januay 11th, 2023) for VCV Rack v2.
+
+- QuadPercs free now is 5 instruments, instead of 4 (Drumulator as 2023 gift).
+- Disabled instruments (free version) can are selected, but they are muted (no sound).
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Pre-release v2.0.0-beta 3 (October 16th, 2021) for VCV Rack v2.0.0 Beta-phase.
 
 - Added new KordZ module, but remains as WORK IN PROGRESS... Work as "demo" (expiration after 60~120 seconds) for OhmerPrems
