@@ -16,6 +16,8 @@ Some YouTube videos (made from old VCV Rack v0.6, but still valid), here:
 
 [QuadPercs module in action, YouTube video made by Omar Brown (Thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
+[KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1 min. 17)](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
+
 ------
 
 ###### IMPORTANT - ABOUT INSTALLATION: from your "***Rack2/plugins***", if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, RKD, BRK, Metriks etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
