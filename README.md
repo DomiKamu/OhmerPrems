@@ -35,7 +35,7 @@ QuadPercs module is available from OhmerPrems plugin, as both:
 - free version (limited to **5** working drum machines) to any who want to try it (fully usable, no other limitation). Other drum machines are muted.
 - full version (all 16 drum machines), reserved to *OhmerPrems* members only.
 
-Free version: Oberheim DMX, **Drumulator**, LinnDrum, Roland 707, and Roland 808 (for a total of 90 instruments).
+Free version: Oberheim DMX, **Drumulator**, LinnDrum, Roland 707, and Roland 808 (for a total of 102 instruments).
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
@@ -51,7 +51,7 @@ if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module
 
 This limitation is, for now, mandatory, to avoid... unrealistic drumkit sounds!
 
-To operate properly at higher sample rates, internal resampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature remains under consideration**. 
+To operate properly at higher sample rates, internal resampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature remains under investigation**. 
 
 Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational, immediately. However, your output module (such VCV Core AUDIO-2, AUDIO-8, or AUDIO-16) can be set to any sample rate (QuadPercs modules in your rack aren't affected).
 
