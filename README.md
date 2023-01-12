@@ -28,7 +28,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 When installed, from VCV Rack module browser, QuadPercs and KordZ modules are listed (by brand, into "Ohmer Modules"). QuadPercs module is also listed as "Drum" and "Quad" categories when you're browsing by tags, KordZ module as "Visual" and "Polyphonic".
 
-## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION
+## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION?
 
 Over **any OhmerPrems module**, just do a right-click mouse button to bring the context-menu. At the bottom of this menu, if the grayed entry indicates **License:** (followed by your partial license key), that meaning your plugin runs as full version.
 
