@@ -1,20 +1,20 @@
-# ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium module + free)
+# ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium modules)
 
-*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
+*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2 Free and Pro editions.
 
-Actually *OhmerPrems* plugin is containing **QuadPercs** and (WIP) **KordZ** modules. More modules are under consideration.
+Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration.
 
 **QuadPercs** module:
 
 ![](doc/images/QuadPercs_All_Models.png)
 
-Some YouTube videos (made from old VCV Rack v0.6, but still valid), here:
+Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
-[QuadPercs module presentation/tutorial from my YouTube channel DoMiNo-MAO (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
+[QuadPercs module presentation/tutorial from my YouTube channel "DoMiNo-MAO" (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
 
-[Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube DoMiNo-MAO (Français, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
+[Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube "DoMiNo-MAO" (Français, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
 
-[QuadPercs module in action, YouTube video made by Omar Brown (Thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
+[QuadPercs module in action, YouTube video made by Omar Brown (**thanks** Omar!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
 **KordZ** module:
 
@@ -32,18 +32,18 @@ When installed, from VCV Rack module browser, QuadPercs and KordZ modules are li
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
-Basically, QuadPercs is a 10 HP **quad-channel drum** module, providing 4 independent drum/percussion channels, each having its own (sample-based) drum machine, and its related instrument.
+Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 independent drum machine channels, each having its own (sample-based) drum machine, and its related instrument.
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
-- free version (limited to **5** working drum machines) to any who want to try it (fully usable, no other limitation). Other drum machines are muted.
-- full version (all 16 drum machines), reserved to *OhmerPrems* members only.
+- free version (limited to **5** working drum machines) to any who want to try it (fully usable, no other limitation). Other drum machines can be selected, but are muted (no audio output).
+- full version (all 16 drum machines), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations.
 
-Free version: Oberheim DMX, **Drumulator**, LinnDrum, Roland 707, and Roland 808 (for a total of 102 instruments).
+Free version: Oberheim DMX, **Drumulator** (since Jan. 2023), LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments.
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
-QuadPercs embeds all drum samples (44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly). Like KlokSpid module (provided from Ohmer Modules), QuadPercs is available as six models, shown by screen capture, top of this document, model can be changed via right-click (context) menu.
+QuadPercs embeds all drum samples (44.1 kHz 16-bit mono FLAC, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly).
 
 ------
 
@@ -85,15 +85,15 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 
 ## Free version
 
-Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation and updates).
+Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation/updates, by copying downloaded **.vcvplugin** file).
 
 ------
 
 ## Full version (OhmerPrems members only)
 
-Since Rack 2, the plugin is the same than free version, except a license key is sent to OhmerPrems members, by email. The license key unlocks all modules as full version.
+Since VCV Rack 2, the plugin is the same than free version, except a personal license key is sent to OhmerPrems members, by email. The personal license key unlocks all modules to full version.
 
-Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (aka full versions), without any additional charge!
+Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
 ------
 
@@ -101,11 +101,11 @@ Obviously all *OhmerPrems* members will benefit all **lifetime** updates/upgrade
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 
-Full version is watermaked for each member, and of course, cannot be shared, sold or distributed to any third party (obviously, it can be used on all owned computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package.
+Full version is granted for each member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license key can be used on ALL owned computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
 
 All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer & OhmerPrems developer).
 
-All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your productions). Thanks a lot, Xavier!
+All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your developments). Thanks a lot, Xavier!
 
 Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
