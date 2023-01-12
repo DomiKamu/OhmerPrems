@@ -32,7 +32,7 @@ When installed, from VCV Rack module browser, QuadPercs and KordZ modules are li
 
 Over **any OhmerPrems module**, just do a right-click mouse button over to bring the context-menu. At the bottom of this menu, if (grayed) entry indicate **License:** (followed by your partial license key), that means your plugin runs as full version.
 
-Otherwise, the grayed menu entry indicates **Free** (followed by limitation type).
+Otherwise, the grayed menu entry indicates **Free**, followed by limitation type (eg. 2-min time limit).
 
 ![](doc/images/OhmerPrems_Free.png)
 
