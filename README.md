@@ -4,7 +4,7 @@
 
 Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration.
 
-**QuadPercs** module:
+**QuadPercs** module (all six models):
 
 ![](doc/images/QuadPercs_All_Models.png)
 
@@ -14,13 +14,13 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube "DoMiNo-MAO" (Français, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
 
-[QuadPercs module in action, YouTube video made by Omar Brown (**thanks** Omar!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
+[QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
-**KordZ** module:
+**KordZ** module (all six models):
 
 ![](doc/images/KordZ_All_Models.png)
 
-[KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1 min. 17)](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
+[KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
 
 ------
 
@@ -28,7 +28,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 When installed, from VCV Rack module browser, QuadPercs and KordZ modules are listed (by brand, into "Ohmer Modules"). QuadPercs module is also listed as "Drum" and "Quad" categories when you're browsing by tags, KordZ module as "Visual" and "Polyphonic".
 
-## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION
+## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION##
 
 Over **any OhmerPrems module**, just do a right-click mouse button over to bring the context-menu. At the bottom of this menu, if (grayed) entry indicate **License:** (followed by your partial license key), that means your plugin runs as full version.
 
