@@ -109,7 +109,14 @@ Since VCV Rack 2, the plugin is the same than free version, except a personal li
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
-To become *OhmerPrems* member, simply send me **10 euros** (please convert to euros first if your currency is different) to (https://www.paypal.com/paypalme/DominiqueCAMUS). Don't forget to indicate your first & last name, and your valid email address. Also in free message, please specify **OhmerPrems**. Thanks you in advance!
+To become *OhmerPrems* member, simply send me **10 euros** (if required, please convert your local currency first, to fit with 10+ euros, otherwise your payment will be refunded) to (https://www.paypal.com/paypalme/DominiqueCAMUS).
+
+Don't forget to indicate:
+- your first & last name.
+- your valid email address.
+- in the free message, please specify **OhmerPrems** or something similar.
+
+New suscription requires from 24 to 48 hours after PayPal confirmation.
 
 ------
 
