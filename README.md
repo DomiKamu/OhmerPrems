@@ -34,7 +34,7 @@ Over **any OhmerPrems module**, just do a right-click mouse button over to bring
 
 Otherwise, the grayed menu entry indicates **Free** (followed by limitation type).
 
-![[OhmerPrems_Free.png]]
+![](doc/images/OhmerPrems_Free.png)
 
 ------
 FROM THIS POINT, THIS DOCUMENT WILL BE ENHANCED
