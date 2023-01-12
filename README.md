@@ -1,6 +1,6 @@
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium modules)
 
-*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2 Free and Pro editions.
+*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
 
 Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration.
 
