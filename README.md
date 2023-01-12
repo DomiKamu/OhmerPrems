@@ -28,6 +28,17 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 When installed, from VCV Rack module browser, QuadPercs and KordZ modules are listed (by brand, into "Ohmer Modules"). QuadPercs module is also listed as "Drum" and "Quad" categories when you're browsing by tags, KordZ module as "Visual" and "Polyphonic".
 
+## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION
+
+Over **any OhmerPrems module**, just do a right-click mouse button over to bring the context-menu. At the bottom of this menu, if (grayed) entry indicate **License:** (followed by your partial license key), that means your plugin runs as full version.
+
+Otherwise, the grayed menu entry indicates **Free** (followed by limitation type).
+
+![[OhmerPrems_Free.png]]
+
+------
+FROM THIS POINT, THIS DOCUMENT WILL BE ENHANCED
+
 ------
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
@@ -44,6 +55,9 @@ Free version: Oberheim DMX, **Drumulator** (since Jan. 2023), LinnDrum, Roland 7
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
 QuadPercs embeds all drum samples (44.1 kHz 16-bit mono FLAC, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly).
+
+
+
 
 ------
 
