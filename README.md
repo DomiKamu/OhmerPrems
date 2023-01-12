@@ -4,9 +4,9 @@
 
 Actually *OhmerPrems* plugin is containing **QuadPercs** and (WIP) **KordZ** modules. More modules are under consideration.
 
-![](doc/images/QuadPercs_All_Models.png)
-_(please note this image comes from OhmerPrems v1.0.2, VCV Rack v1.0.0 Windows, but remains valid for more recent versions)_
+**QuadPercs** module:
 
+![](doc/images/QuadPercs_All_Models.png)
 
 Some YouTube videos (made from old VCV Rack v0.6, but still valid), here:
 
@@ -16,15 +16,17 @@ Some YouTube videos (made from old VCV Rack v0.6, but still valid), here:
 
 [QuadPercs module in action, YouTube video made by Omar Brown (Thanks!)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
+**KordZ** module:
+
+![](doc/images/KordZ_All_Models.png)
+
 [KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1 min. 17)](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
 
 ------
 
-###### IMPORTANT - ABOUT INSTALLATION: from your "***Rack2/plugins***", if existing, never touch "***Ohmer***" subdirectory (in case you're already using regular "Ohmer Modules", like KlokSpid, RKD, BRK, Metriks etc), so please understand "***OhmerPrems***" is a SEPARATE plugin and never replace (or merge) with existing other folder, anyway! PLEASE ALWAYS USE DIRECTORY NAMES PROVIDED FROM RESPECTIVE DOWNLOADED .ZIP FILES TO AVOID ISSUES/CONFICTS!
+"***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, all modules work as free version (with limitations, depending the module) . Full version requires a personal license key (the license key is sent by email during OhmerPrems subscription).
 
-"***OhmerPrems***" subdirectory hosts either free/full version. Full version requires a license key.
-
-When installed, from Rack's browser, QuadPercs and KordZ modules are listed, by Brands, into "Ohmer Modules". QuadPercs module is also listed into "Drum" and/or "Quad" categories when you're browsing by tags. KordZ as "Visual" and/or "Polyphonic" tags.
+When installed, from VCV Rack module browser, QuadPercs and KordZ modules are listed (by brand, into "Ohmer Modules"). QuadPercs module is also listed as "Drum" and "Quad" categories when you're browsing by tags, KordZ module as "Visual" and "Polyphonic".
 
 ------
 
