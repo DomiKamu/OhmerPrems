@@ -56,7 +56,7 @@ Free version: Oberheim DMX, **Drumulator** (since Jan. 2023), LinnDrum, Roland 7
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
-QuadPercs embeds all drum samples (44.1 kHz 16-bit mono FLAC, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly).
+QuadPercs embeds all drum samples (WAV 44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly).
 
 
 
