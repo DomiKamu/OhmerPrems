@@ -10,7 +10,7 @@ Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (wo
 
 ![](doc/images/QuadPercs_All_Models.png)
 
-Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
+Some YouTube videos (made from old VCV Rack v0.6/v1.0, but they're still valid for VCV Rack 2), here:
 
 [QuadPercs module presentation/tutorial from my YouTube channel "DoMiNo-MAO" (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
 
