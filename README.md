@@ -6,7 +6,7 @@
 
 Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration in the future.
 
-**QuadPercs** module (all six liveries - only panel, display, jacks and screws differ, instruments are identical):
+**QuadPercs** module (all six liveries - only panel, display, jacks and screws differ, features are strictly identical regardless the livery):
 
 ![](doc/images/QuadPercs_All_Models.png)
 
