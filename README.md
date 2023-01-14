@@ -6,11 +6,9 @@
 
 Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration in the future.
 
-**QuadPercs** module (all six models):
+**QuadPercs** module (all six liveries):
 
 ![](doc/images/QuadPercs_All_Models.png)
-
-(All models above are, obviously, strictly identical: only panel, display, jacks and screws are different)
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
@@ -20,7 +18,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
-**KordZ** module (all six models):
+**KordZ** module (all six liveries):
 
 ![](doc/images/KordZ_All_Models.png)
 
