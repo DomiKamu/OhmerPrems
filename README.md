@@ -9,6 +9,7 @@ Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (wo
 **QuadPercs** module (all six models):
 
 ![](doc/images/QuadPercs_All_Models.png)
+(All models are, obviously, strictly identical - only panel, display, jacks and screws are different)
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
@@ -81,14 +82,14 @@ Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs mo
 
 QuadPercs module is, in fact, very easy to use.
 
-The main key are... four buttons (one per drum channel). Default channel is always 1.
+The main key are... four buttons (one per drum channel). Each drum channel is independant, all can play simultaneously.
 
 For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
 - Red LED, indicating currently selected channel (when lit), or when editing channel (while blinking).
-- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, the LED turns blink, indicating channel edit. The related item to edit also blinks in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument (drumkit). Turn the **rotary encoder** clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit) for current drum machine. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (timeout). **Rotary encoder doesn't have effect while LED doesn't blink**, in order to avoid unwanted changes.
-- An ***output*** jack (delivers monophonic audio sound) can be connected to a mixer, effect, modulator input...
+- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, the LED turns blink, indicating channel edit. The related item to edit also blinks in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument (drumkit). Turn the **rotary encoder** clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit) for current drum machine. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (timeout). **Rotary encoder do anything while LED doesn't blink**, in order to avoid unwanted changes.
+- An ***output*** jack, who delivers monophonic audio sound, can be connected to a mixer, audio effect, envelope, modulator input...
 
 The dot-matrix display (DMD) reports the current selected channel (number indicated at top-left, channel LED does exactly the same thing), the current loaded drum machine for active (selected) channel, and its current instrument.
 
