@@ -2,9 +2,9 @@
 
 **LAST-MINUTE INFO: at the moment, from OhmerPrems plugin v2.2.2, please don't use KordZ module, due to possible VCV Rack crashes in certain circumstances. However, QuadPercs module remains operational. Thanks, and apologizes. Hope it will be fixed.**
 
-*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
+*OhmerPrems* is both Premium (for subscribers) and free modules, designed for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration.
+Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration in the future.
 
 **QuadPercs** module (all six models):
 
