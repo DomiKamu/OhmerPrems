@@ -9,7 +9,8 @@ Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (wo
 **QuadPercs** module (all six models):
 
 ![](doc/images/QuadPercs_All_Models.png)
-(All models are, obviously, strictly identical - only panel, display, jacks and screws are different)
+
+(All models above are, obviously, strictly identical: only panel, display, jacks and screws are different)
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
