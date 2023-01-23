@@ -28,9 +28,9 @@ Modules by night! Now QuadPercs and KordZ modules are designed for VCV Rack's **
 
 You can notice the "Absolute Night" model is the lone who have a (yellow) backlit dot-matrix display!
 
-"Signature"-line luxury models (Dark, Deepblue and Carbon) are using plasma-gas dot-matrix display (DMD), also visible by night.
+"Signature"-line luxury models (Dark, Deepblue and Carbon) are using plasma-gas dot-matrix display (DMD), also visible by night. Concerning "Classic" and "Stage Repro" models, the display is LCD-based, without backlight.
 
-Also, the KordZ module by night! (please notice the coloured sector in Circle of 5ths will be added later - WIP).
+Also, the KordZ modules by night! (please notice the "coloured" sector - who indicates the detected note/interval/chord - in Circle of 5ths - will be added later (work in progress).
 
 ![](doc/images/KordZ_Dark_Room.png)
 
