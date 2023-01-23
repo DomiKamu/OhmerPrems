@@ -30,6 +30,10 @@ You can notice the "Absolute Night" model is the lone who have a (yellow) backli
 
 "Signature"-line luxury models (Dark, Deepblue and Carbon) are using plasma-gas dot-matrix display (DMD), also visible by night.
 
+Also, the KordZ module by night! (please notice the coloured sector in Circle of 5ths will be added later - WIP).
+
+![](doc/images/KordZ_Dark_Room.png)
+
 ------
 
 "***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, all modules work as free version (with limitations, depending the module) . Full version requires a personal license key (the license key is sent by email during OhmerPrems subscription).
