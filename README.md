@@ -24,7 +24,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 Modules by night! Now QuadPercs and KordZ modules are designed for VCV Rack's Room brightness feature (often named _Night Mode_):
 
-![](doc/images/QuadPercs_Dark_Room.png.png)
+![](doc/images/QuadPercs_Dark_Room.png)
 
 You can notice the "Absolute Night" model is the lone model who have a (yellow) backlit display!
 
