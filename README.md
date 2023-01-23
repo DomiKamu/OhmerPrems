@@ -1,16 +1,14 @@
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium modules)
 
-**LAST-MINUTE INFO: at the moment, from OhmerPrems plugin v2.2.2, please don't use KordZ module, due to possible VCV Rack crashes in certain circumstances. However, QuadPercs module remains operational. Thanks, and apologizes. Hope it will be fixed.**
+*OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
 
-*OhmerPrems* is both Premium (for subscribers) and free modules, designed for VCV Rack 2.
+Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration.
 
-Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration in the future.
-
-**QuadPercs** module (all six liveries - only panel, display, jacks and screws differ, features are strictly identical regardless the livery):
+**QuadPercs** module (all six models):
 
 ![](doc/images/QuadPercs_All_Models.png)
 
-Some YouTube videos (made from old VCV Rack v0.6/v1.0, but they're still valid for VCV Rack 2), here:
+Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
 [QuadPercs module presentation/tutorial from my YouTube channel "DoMiNo-MAO" (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
 
@@ -18,11 +16,19 @@ Some YouTube videos (made from old VCV Rack v0.6/v1.0, but they're still valid f
 
 [QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
-**KordZ** module (all six liveries):
+**KordZ** module (all six models):
 
 ![](doc/images/KordZ_All_Models.png)
 
 [KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
+
+Modules by night! Now QuadPercs and KordZ modules are designed for VCV Rack's Room brightness feature (often named _Night Mode_):
+
+![](doc/images/QuadPercs_Dark_Room.png.png)
+
+You can notice the "Absolute Night" model is the lone model who have a (yellow) backlit display!
+
+"Signature"-line models are using plasma-gas dot-matrix display, visible by night.
 
 ------
 
@@ -56,7 +62,7 @@ Free version: Oberheim DMX, **Drumulator** (since Jan. 2023), LinnDrum, Roland 7
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
 
-QuadPercs embeds all drum samples (WAV 44.1 kHz 16-bit mono, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly).
+QuadPercs embeds all drum samples (44.1 kHz 16-bit mono FLAC, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly).
 
 
 
@@ -65,11 +71,7 @@ QuadPercs embeds all drum samples (WAV 44.1 kHz 16-bit mono, streamed from RAM f
 
 ## VERY IMPORTANT: QuadPercs operates at 44.1 kHz ONLY!
 
-if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module becomes _"inop."_ (inoperative) immediately: in this case, all channel LEDs blink fast, the upper line on display indicates **!!MODULE INOP.!!** (as fast blinking message), and instructions are given on the second line of display.
-
-![](doc/images/Sample_Rate_44100_Message.png)
-
-This limitation is, for now, mandatory, to avoid... unrealistic drumkit sounds!
+if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module will produces erratic drum sounds.
 
 To operate properly at higher sample rates, internal resampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature remains under investigation**. 
 
@@ -81,14 +83,14 @@ Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs mo
 
 QuadPercs module is, in fact, very easy to use.
 
-The main key are... four buttons (one per drum channel). Each drum channel is independant, all can play simultaneously.
+The main key are... four buttons (one per drum channel). Default channel is always 1.
 
 For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
 - Red LED, indicating currently selected channel (when lit), or when editing channel (while blinking).
-- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, the LED turns blink, indicating channel edit. The related item to edit also blinks in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument (drumkit). Turn the **rotary encoder** clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit) for current drum machine. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (timeout). **Rotary encoder do anything while LED doesn't blink**, in order to avoid unwanted changes.
-- An ***output*** jack, who delivers monophonic audio sound, can be connected to a mixer, audio effect, envelope, modulator input...
+- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, the LED turns blink, indicating channel edit. The related item to edit also blinks in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument (drumkit). Turn the **rotary encoder** clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit) for current drum machine. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (timeout). **Rotary encoder doesn't have effect while LED doesn't blink**, in order to avoid unwanted changes.
+- An ***output*** jack (delivers monophonic audio sound) can be connected to a mixer, effect, modulator input...
 
 The dot-matrix display (DMD) reports the current selected channel (number indicated at top-left, channel LED does exactly the same thing), the current loaded drum machine for active (selected) channel, and its current instrument.
 
@@ -107,7 +109,7 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 ## Full version (OhmerPrems members only)
 
-Since VCV Rack 2, the plugin is the same than free version, except a personal license key is sent to OhmerPrems members, by email. The personal license key unlocks all modules to full version.
+Since VCV Rack 2, the plugin is EXACTLY the same than free version, except a personal license key is sent to OhmerPrems members (by email). The personal license key unlocks all modules to full unrestricted version.
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
