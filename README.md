@@ -100,22 +100,22 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 
 ## Free version
 
-Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation/updates, by copying downloaded **.vcvplugin** file).
+Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation/updates, by download/copy **.vcvplugin** file).
 
 ------
 
 ## Full version (OhmerPrems members only)
 
-Since VCV Rack 2, the plugin is EXACTLY the same than free version, except a personal license key is sent to OhmerPrems members (by email). The personal license key unlocks all modules to full unrestricted version.
+Since VCV Rack 2, the plugin is EXACTLY the same than free version, except a personal license key is sent to OhmerPrems members (by email). The license key unlocks all modules to full (unrestricted) version.
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
-To become *OhmerPrems* member, simply send me **10 euros** (if required, please convert your local currency first, to fit with 10+ euros, otherwise your payment will not be accepted) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
+To become *OhmerPrems* member, simply send me **12 euros** (if required, please convert your local currency first, to fit with 12+ euros, otherwise your payment will not be accepted) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
-Don't forget to indicate:
+Very important: don't forget to indicate:
 - your first and last name.
 - your valid email address (required to send your personal license key & instructions).
-- also in the  message, please specify **OhmerPrems member** (or something similar, to avoid possible confusion).
+- also in the message, please specify **OhmerPrems member** (or something similar, to avoid possible confusion), thank you in advance.
 
 New suscription requires from 24 to 48 hours after PayPal confirmation (in genereal, less than a day). **Incomplete fee informations or/and payment less than 10 euros is refurbished**. Thank you for your understanding.
 
@@ -125,9 +125,9 @@ New suscription requires from 24 to 48 hours after PayPal confirmation (in gener
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 
-Full version is granted for each member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license key can be used on ALL owned computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
+Full version is granted for each OhmerPrems member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license key can be used on ALL owned computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
 
-All graphic materials, Ohmer logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer & OhmerPrems developer).
+All graphic materials, the "Ohmer" logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
 
 All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your developments). Thanks a lot, Xavier!
 
