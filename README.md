@@ -26,9 +26,9 @@ Modules by night! Now QuadPercs and KordZ modules are designed for VCV Rack's **
 
 ![](doc/images/QuadPercs_Dark_Room.png)
 
-You can notice the "Absolute Night" model is the lone model who have a (yellow) backlit display!
+You can notice the "Absolute Night" model is the lone who have a (yellow) backlit dot-matrix display!
 
-"Signature"-line models are using plasma-gas dot-matrix display, visible by night.
+"Signature"-line luxury models (Dark, Deepblue and Carbon) are using plasma-gas dot-matrix display (DMD), also visible by night.
 
 ------
 
