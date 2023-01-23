@@ -2,6 +2,19 @@
 CHANGELOG
 ==============================================================================================================================
 
+Release v2.2.3 (Januay 23rd, 2023) for VCV Rack v2.
+
+- QuadPercs, KordZ: plasma-gas dot-matrix displays for "Signature"-line modules now are visible in dark room.
+  "Absolute Night" model for QuadPercs and KordZ modules, the yellow-backlight LCD dot-matrix-display is visible in dark room.
+- KordZ: SELF-TEST routine is removed (cancelled).
+- KordZ: chord dictionary lookup entirely redeveloped and optimized.
+- KordZ: crashes (in some circumstances), from chord dictionnary function, seems fixed!
+- KordZ: contextual menu for notation now is "English (C..A B)" or "Latina (Do..La Si)", instead of "French".
+- KordZ: displayed messages concerning decoded notes/intervals/chords are enhanced.
+- KordZ: error messages about missing patch cords(s) are displayed as fast blinking. ACTivity LED stays red during error.
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Pre-release v2.2.2 (Januay 12th, 2023) for VCV Rack v2.
 
 - QuadPercs Free now is 5 instruments (instead of 4 in previous releases): Drumulator is given as 2023 gift ;)
@@ -61,10 +74,11 @@ Release v0.6.3 (April 7th, 2018):
 
 - QuadPercs: initial release.
 
-------------------------------------------------------------------------------------------------------------------------------
-TODO LIST / PLANNED:
-------------------------------------------------------------------------------------------------------------------------------
+==============================================================================================================================
+TODO LIST
+==============================================================================================================================
 
-- Some GFX enhancements (silver/gold buttons in particular, perhaps screws too).
-- QuadPercs: when selecting another drum machine, select similar instrument (if no lastest used).
-- Resampling "on-the-fly" algo, for sampleRate higher than default 44.1 kHz.
+- QuadPercs: 48kHz (engine samplerate) consideration, by oversampling/filtering "on-the-fly" algo for 48kHz Engine sampleRate.
+- QuadPercs: when selecting another drum machine, select similar instrument (if not lastest was previously used).
+- KordZ: the colored plate in Circle of 5th must be visible in dark room condition.
+- KordZ: enhance the chord dictionnary, add 4-note chords analysis (and perhaps 5-note chords, too).
