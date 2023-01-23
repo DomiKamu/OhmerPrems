@@ -44,11 +44,6 @@ Otherwise, the same grayed menu entry indicates **Free**, followed by limitation
 
 ![](doc/images/OhmerPrems_Free.png)
 
-------
-FROM THIS POINT, THIS DOCUMENT WILL BE ENHANCED (WORK IN PROGRESS)
-
-------
-
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
 Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 independent drum machine channels, each having its own (sample-based) drum machine, and its related instrument.
@@ -64,7 +59,7 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 QuadPercs embeds all drum samples (44.1 kHz 16-bit mono FLAC, streamed from RAM for best performance), with anti-pop feature (to avoid weak noises when you're changing drum machine and/or its instrument on the fly).
 
-
+KordZ module presentation coming soon...
 
 
 ------
@@ -75,7 +70,7 @@ if VCV Rack Engine's sample rate is set to **another than 44.1 kHz**, the module
 
 To operate properly at higher sample rates, internal resampling (+ filtering/FIR) algorithm must be efficiently implemented. **This feature remains under investigation**. 
 
-Changing VCV Rack Engine's sample rate back to 44.1 kHz will return QuadPercs module(s) as operational, immediately. However, your output module (such VCV Core AUDIO-2, AUDIO-8, or AUDIO-16) can be set to any sample rate (QuadPercs modules in your rack aren't affected).
+However, your output module (such VCV Core AUDIO-2, AUDIO-8, or AUDIO-16) can be set to any sample rate (depending your audio interface capabilities), while Engine samplerate is set to 44.1 kHz.
 
 ------
 
