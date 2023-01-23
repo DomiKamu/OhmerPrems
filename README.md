@@ -4,7 +4,7 @@
 
 Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration.
 
-**QuadPercs** module (all six models):
+**QuadPercs** module (all six liveries: Classic beige, Stage Repro, Absolute Night, Dark "Signature", Deepblue "Signature", Carbon "Signature"):
 
 ![](doc/images/QuadPercs_All_Models.png)
 
