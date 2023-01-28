@@ -2,7 +2,7 @@
 CHANGELOG
 ==============================================================================================================================
 
-Pre-release v2.2.4 (January 28th, 2023) for VCV Rack v2.
+Release v2.2.4 (January 28th, 2023) for VCV Rack v2.
 
 - QuadPercs: new segment-LED display (above channel #1 output jack). It indicates the volume level for active channel.
   value is percentage (from 0 to 100, default is 50%).
