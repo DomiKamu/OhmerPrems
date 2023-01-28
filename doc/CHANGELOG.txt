@@ -2,6 +2,22 @@
 CHANGELOG
 ==============================================================================================================================
 
+Pre-release v2.2.4 (January 28th, 2023) for VCV Rack v2.
+
+- QuadPercs: new segment-LED display (above channel #1 output jack). It indicates the volume level for active channel.
+  value is percentage (from 0 to 100, default is 50%).
+  Output level % for current channel can be changed by moving the rotary encoder, while the channel LED is not blinking.
+- QuadPercs, KordZ: disabled display(s) while the module is bypassed (nothing displayed).
+  for "Absolute Night" models: the yellow-backlit DMD is turned off while the module is bypassed.
+- KordZ: if not connected (no patchchord), the module is unpowered and entirely turned off (either enabled or/and bypassed).
+- KordZ (Free version): the "Expired..." blinking message is removed (because the module is off/unpowered).
+- KordZ: redesigned coloured root note plates (cosmetic).
+- KordZ: coloured root note plates now are visible in dark room condition.
+- QuadPercs: module cosmetic while bypassed (for all six models).
+- QuadPercs: all four LEDs now are correctly (vertically) aligned with related button, thick channel line, and jacks.
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.2.3 (Januay 23rd, 2023) for VCV Rack v2.
 
 - QuadPercs, KordZ: plasma-gas dot-matrix displays for "Signature"-line modules now are visible in dark room.
@@ -78,7 +94,7 @@ Release v0.6.3 (April 7th, 2018):
 TODO LIST
 ==============================================================================================================================
 
+- KordZ: intervals (2-notes) must be revised...
+- KordZ: add 4-note chords (tetrads) analysis.
 - QuadPercs: 48kHz (engine samplerate) consideration, by oversampling/filtering "on-the-fly" algo for 48kHz Engine sampleRate.
 - QuadPercs: when selecting another drum machine, select similar instrument (if not lastest was previously used).
-- KordZ: the colored plate in Circle of 5th must be visible in dark room condition.
-- KordZ: enhance the chord dictionnary, add 4-note chords analysis (and perhaps 5-note chords, too).
