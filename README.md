@@ -116,12 +116,12 @@ Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrad
 
 To become *OhmerPrems* member, simply send me **12 euros** (if required, please convert your local currency first, to fit with 12+ euros, otherwise your payment will not be accepted) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
-Very important: don't forget to indicate:
+**Very important: don't forget to indicate:**
 - your first and last name.
 - your valid email address (required to send your personal license key & instructions).
-- also in the message, please specify **OhmerPrems member** (or something similar, to avoid possible confusion), thank you in advance.
+- also in the message, please specify **OhmerPrems member** (or something similar), to avoid possible confusion. Thank you in advance!
 
-New suscription requires from 24 to 48 hours after PayPal confirmation (in genereal, less than a day). **Incomplete fee informations or/and payment less than 10 euros is refurbished**. Thank you for your understanding.
+New subscription requires from 24 to 48 hours after PayPal confirmation (in genereal, less than 24 hours). **Incomplete fee informations or/and payment less than 12 euros is refurbished**. Thank you for your understanding.
 
 ------
 
