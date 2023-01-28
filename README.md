@@ -22,7 +22,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
 
-Modules by night! Now QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (often named _Night mode_):
+Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (often named _Night mode_):
 
 ![](doc/images/QuadPercs_Dark_Room.png)(You can notice the *Absolute Night* model is the lone who have a yellow backligth dot-matrix display!)
 
