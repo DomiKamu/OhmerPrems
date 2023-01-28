@@ -1,0 +1,30 @@
+---------------------------------------------------------------------------------------------------------------------
+License clause for OhmerPrems - full registered version (reserved to OhmerPrems member only)
+---------------------------------------------------------------------------------------------------------------------
+
+TERMS/CONDITIONS
+
+- This OhmerPrems plugin is licensed.
+
+- This plugin uses encrypted algorithms, using parts of your personal data, mainly to avoid piracy.
+
+- The purchase of this plugin by a user grants one license, for personal usage only (any machines you're owning).
+
+- The license permits usage on all operating systems (Windows, Macinthosh, Linux) owned by the user, provided the
+  primary user is the license holder.
+
+- You are not allowed to remove or modify any copyright informations about this plugin.
+
+- You may not disassemble, decompile, or do reverse engineering against binaries.
+
+- You may not distribute any material, including binaries, graphics files, logos... provided along this plugin.
+  "XB_*.svg" graphics are designed by Xavier Belmont. Ask him the permission if you'll want to use them.
+
+- You aren't allowed to distribute, exchange, share or sell your personal license key to any third party.
+
+- License will be immediatly revoked in case of infraction, and may be subject to legal proceedings.
+
+Dominique CAMUS
+Ohmer Modules
+https://github.com/DomiKamu/OhmerPrems
+Contact: domi.camus@free.fr
