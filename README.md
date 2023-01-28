@@ -68,9 +68,9 @@ KordZ module presentation coming soon...
 
 ## VERY IMPORTANT: QuadPercs operates correctly at 44.1 kHz
 
-if **Engine sample rate** from VCV Rack is set to **another than 44.1 kHz**, the module will produces **erratic drum sounds**!
+if **Engine sample rate** from VCV Rack is set to **another than 44.1 kHz**, the module will output **erratic/unrealistic sounds**!
 
-I highly recommend to set the engine sample rate at 44.1 kHz. However, your output module (such VCV Core AUDIO-2, AUDIO-8, or AUDIO-16) can be set to any sample rate (depending your audio interface capabilities), while Engine sample rate is set to 44.1 kHz.
+I highly recommend to set the engine sample rate at 44.1 kHz while using QuadPercs module(s) in current rack. However, your output module (such **AUDIO-2**, **AUDIO-8**, or **AUDIO-16**) can be set to any sample rate you want (depending your audio interface capabilities), as long as Engine sample rate is set to 44.1 kHz.
 
 ------
 
