@@ -23,7 +23,8 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (often named _Night mode_):
 
 ![](doc/images/QuadPercs_Dark_Room.png)
-(You can notice the *Absolute Night* model is the lone who have a yellow backligth dot-matrix display!)
+
+(You can notice the *Absolute Night* model is the lone having a yellow backligth dot-matrix display!)
 
 "Signature"-line luxury models (Dark, Deepblue and Carbon) are using plasma-gas dot-matrix display (DMD), also visible by night. Concerning "Classic" and "Stage Repro" models, the display is LCD-based, without backlight (they're not visible by night).
 
