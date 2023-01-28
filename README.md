@@ -2,7 +2,10 @@
 
 *OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of two modules: **QuadPercs** , and (work-in-progress) **KordZ**.
+Actually, *OhmerPrems* plugin is a set of two modules:
+- **QuadPercs** a quad-channel drum machines.
+- **KordZ** a mono-/polyphonic notes/intervals/triads display (1V/octave based).
+
 
 **QuadPercs** module (all six liveries: Classic beige, Stage Repro, Absolute Night, Dark "Signature", Deepblue "Signature", Carbon "Signature"):
 ![](doc/images/QuadPercs_All_Models.png)(Notice the 4th module - _Absolute Night_ model, like 3rd, is bypassed: display, LED and backlight turned off!)
