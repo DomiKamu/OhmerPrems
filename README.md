@@ -2,7 +2,7 @@
 
 *OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is containing two modules: **QuadPercs** , and (work-in-progress) **KordZ**. More modules are under consideration.
+Actually, *OhmerPrems* plugin is a set of two modules: **QuadPercs** , and (work-in-progress) **KordZ**.
 
 **QuadPercs** module (all six liveries: Classic beige, Stage Repro, Absolute Night, Dark "Signature", Deepblue "Signature", Carbon "Signature"):
 
