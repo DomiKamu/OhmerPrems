@@ -85,6 +85,8 @@ For each channel (labeled 1 to 4, from top to bottom), you can find, from left t
 
 The dot-matrix display (DMD) reports the current selected channel (number indicated at top-left, channel LED does exactly the same thing), the current loaded drum machine for active (selected) channel, and its current instrument.
 
+Despite one channel can be selected at time (for level changing, or instrument selection), all four channels are able to play simultaneously.
+
 This module supports monophonic cables only (polyphony is never required for drum element).
 
 Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
