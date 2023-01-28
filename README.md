@@ -22,7 +22,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
 
-Modules by night! Now QuadPercs and KordZ modules are designed for VCV Rack's **Room brightness** feature (often named _Night mode_):
+Modules by night! Now QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (often named _Night mode_):
 
 ![](doc/images/QuadPercs_Dark_Room.png)
 
@@ -30,7 +30,7 @@ You can notice the "Absolute Night" model is the lone who have a (yellow) backli
 
 "Signature"-line luxury models (Dark, Deepblue and Carbon) are using plasma-gas dot-matrix display (DMD), also visible by night. Concerning "Classic" and "Stage Repro" models, the display is LCD-based, without backlight.
 
-Also, the KordZ modules by night! (please notice the "coloured" sector - who indicates the detected note/interval/chord - in Circle of 5ths - will be added later (work in progress).
+Also, the KordZ modules by night (VCV Rack 2's *Room brightness* feature):
 
 ![](doc/images/KordZ_Dark_Room.png)
 
