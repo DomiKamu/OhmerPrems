@@ -133,6 +133,8 @@ All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him 
 
 Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
+Thanks to **Paul Bacon** (author of excellent Bacon Music plugins, and working hard on SurgeXT) for C++ coding tips who permit to display coloured textures (Kordz's circle of fifths) in dark/night mode.
+
 Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
