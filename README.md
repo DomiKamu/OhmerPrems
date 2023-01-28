@@ -6,7 +6,7 @@ Actually, *OhmerPrems* plugin is a set of two modules: **QuadPercs** , and (work
 
 **QuadPercs** module (all six liveries: Classic beige, Stage Repro, Absolute Night, Dark "Signature", Deepblue "Signature", Carbon "Signature"):
 
-![](doc/images/QuadPercs_All_Models.png)(Notice the 4th module is bypassed: display and backlight turned off!)
+![](doc/images/QuadPercs_All_Models.png)(Notice the 4th module - _Absolute Night_ model, like 3rd, is bypassed: display, LED and backlight turned off!)
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
