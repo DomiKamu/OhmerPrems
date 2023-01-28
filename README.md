@@ -5,7 +5,6 @@
 Actually, *OhmerPrems* plugin is a set of two modules: **QuadPercs** , and (work-in-progress) **KordZ**.
 
 **QuadPercs** module (all six liveries: Classic beige, Stage Repro, Absolute Night, Dark "Signature", Deepblue "Signature", Carbon "Signature"):
-
 ![](doc/images/QuadPercs_All_Models.png)(Notice the 4th module - _Absolute Night_ model, like 3rd, is bypassed: display, LED and backlight turned off!)
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
@@ -17,7 +16,6 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 [QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
 **KordZ** module (all six liveries - same than QuadPercs module), reduced room brightness:
-
 ![](doc/images/KordZ_All_Models.png)
 
 [KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
