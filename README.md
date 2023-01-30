@@ -7,8 +7,8 @@ Actually, *OhmerPrems* plugin is a set of two modules:
 - **KordZ** a mono-/polyphonic notes/intervals/triads display (1V/octave based).
 
 
-**QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Dark "Signature", Deepblue "Signature", Carbon "Signature":
-![](doc/images/QuadPercs_All_Models.png)(Notice the 4th module - _Absolute Night_ model, like 3rd, is bypassed: display, LED and backlight turned off!)
+**QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
+![](doc/images/QuadPercs_All_Models.png)(Notice the 4th module - _Absolute Night_ model is same than 3rd, but while bypassed: display, LED and backlight are turned off!)
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
