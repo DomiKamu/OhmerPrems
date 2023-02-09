@@ -4,7 +4,7 @@
 
 Actually, *OhmerPrems* plugin is a set of two modules:
 - **QuadPercs** a quad-channel drum machines.
-- **KordZ** a mono-/polyphonic notes/intervals/triads display (1V/octave based).
+- **KordZ** a mono-/polyphonic notes/intervals/triads display (1V/octave based) - remaining in development.
 
 
 **QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
@@ -52,8 +52,8 @@ Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 indepen
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
-- free version (limited to **5** working drum machines) to any who want to try it (fully usable, no other limitation). Other drum machines can be selected, but are muted (no audio output).
-- full version (all 16 drum machines), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations.
+- free version (limited to **5** working drum machines, operating at 44.1 kHz only) to any who want to try it (fully usable, no other limitation). Other drum machines can be selected, but are muted (no audio output).
+- full version (all 16 drum machines, from 44.1 to 192 kHz), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations.
 
 Free version: Oberheim DMX, **Drumulator** (since Jan. 2023), LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments.
 
@@ -89,12 +89,7 @@ This module supports monophonic cables only (polyphony is never required for dru
 
 Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
-**VERY IMPORTANT:** if **Engine sample rate** from VCV Rack is set to **another than 44.1 kHz**, the module will output **erratic/unrealistic sounds**, because all drum machines was sampled @ 44.1 kHz.
-
-I highly recommend to set the engine sample rate at 44.1 kHz while using QuadPercs module(s) in current rack (except if you'll want to experiment different sounds).
-
-However, your audio output module (such **AUDIO-2**, **AUDIO-8**, or **AUDIO-16**) can be set to any sample rate you want (depending your audio interface capabilities), as long as Engine sample rate is set to 44.1 kHz.
-
+QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited at 44.1 kHz only), thanks to external pre-computed sample tables - made by fabulous iZotope suite - who permit to keep the sound quality on any sample rate!
 
 ------
 
