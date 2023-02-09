@@ -10,7 +10,7 @@ Pre-Release v2.2.5 (February 9th, 2023) for VCV Rack v2.
 - KordZ: all suspended triads are assumed as "Suspended 4" (sus4). Some sus2 are inverted sus4.
 - KordZ: triad detection enhancements, in particular for "Aug" (augmented don't have inversions).
 - QuadPercs operates from 44.1 to 192 kHz, via external PCM table files.
-- QuadPercs: typo "Bell" instead of "Bell 1" for RY-30 (because "Bell" is alone for this drum machine).
+- QuadPercs: fixed typo "Bell" on DMD, instead of "Bell 1", for Yamaha RY-30 (because "Bell" is alone for this drum machine).
 
 ------------------------------------------------------------------------------------------------------------------------------
 
