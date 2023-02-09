@@ -2,6 +2,18 @@
 CHANGELOG
 ==============================================================================================================================
 
+Pre-Release v2.2.5 (February 9th, 2023) for VCV Rack v2.
+
+- KordZ: intervals are revisited a bit, in particular multiple octaves/basses in chords.
+- KordZ: notes table construction was entirely redeveloped and optimized for better CPU usage.
+- KordZ: added "Major(b5) triads (based on Plugin Boutique's Scaler 2 results).
+- KordZ: all suspended triads are assumed as "Suspended 4" (sus4). Some sus2 are inverted sus4.
+- KordZ: triad detection enhancements, in particular for "Aug" (augmented don't have inversions).
+- QuadPercs operates from 44.1 to 192 kHz, via external PCM table files.
+- QuadPercs: typo "Bell" instead of "Bell 1" for RY-30 (because "Bell" is alone for this drum machine).
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.2.4 (January 28th, 2023) for VCV Rack v2.
 
 - QuadPercs: new segment-LED display (above channel #1 output jack). It indicates the volume level for active channel.
@@ -94,7 +106,6 @@ Release v0.6.3 (April 7th, 2018):
 TODO LIST
 ==============================================================================================================================
 
-- KordZ: intervals (2-notes) must be revised...
+- Kords: kind of "grace display delay" when chord is "reduced" (aka when a gate in chord is released).
 - KordZ: add 4-note chords (tetrads) analysis.
-- QuadPercs: 48kHz (engine samplerate) consideration, by oversampling/filtering "on-the-fly" algo for 48kHz Engine sampleRate.
 - QuadPercs: when selecting another drum machine, select similar instrument (if not lastest was previously used).
