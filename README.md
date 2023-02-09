@@ -40,7 +40,7 @@ When installed, from VCV Rack module browser, QuadPercs and KordZ modules are li
 
 ## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION?
 
-Over **any OhmerPrems module**, just do a right-click mouse button to bring the context-menu. At the bottom of this menu, if the grayed entry indicates **License:** (followed by your partial license key), that meaning all your modules run as full version, as expected!
+Over **any OhmerPrems module** (for now, Kord or QuadPercs), just do a right-click mouse button to bring the context-menu. At the bottom of this menu, if the grayed entry indicates **License:** (followed by your partial license key), that meaning all your modules run as full version, as expected!
 
 Otherwise, the same grayed menu entry indicates **Free**, followed by limitation type (between brackets).
 
