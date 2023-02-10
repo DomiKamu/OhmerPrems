@@ -12,7 +12,7 @@ Release v2.2.5 (February 10th, 2023) for VCV Rack v2.
 - QuadPercs operates from 44.1 to 192 kHz, via external PCM table files (44.1/48 kHz restriction for Free version).
 - QuadPercs: renamed "Bell 1" to "Bell" for Yamaha RY-30 (because only one "Bell" instrument for this drum machine).
 - QuadPercs: now the volume level is displayed in main DMD while the mouse cursor flies over the continuous encoder.
-- QuadPercs: useless segment-LED display (above channel #1 output jack) removed.
+- QuadPercs: useless segment-LED display (above channel #1 output jack, introduced in previous version) is removed.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -110,4 +110,5 @@ TODO LIST
 
 - Kords: kind of "grace display delay" when chord is "reduced" (aka when a gate in chord is released).
 - KordZ: add 4-note chords (tetrads) analysis.
+- QuadPercs: anti-pop feature (while changing instrument) must be enhanced a bit.
 - QuadPercs: when selecting another drum machine, select similar instrument (if not lastest was previously used).
