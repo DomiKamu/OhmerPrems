@@ -8,7 +8,7 @@ Actually, *OhmerPrems* plugin is a set of two modules:
 
 
 **QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
-![](doc/images/QuadPercs_All_Models.png)(Notice the 4th module - _Absolute Night_ model is same than 3rd, but while bypassed: display, LED and backlight are turned off!)
+![](doc/images/QuadPercs_All_Models.png)(Notice the right side module - Carbon "Signature" - is displaying the volume level % while the mouse cursor flies over the continuous encoder).
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
