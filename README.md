@@ -27,7 +27,7 @@ Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room 
 
 ![](doc/images/QuadPercs_Dark_Room.png)
 
-You can notice the *Absolute Night* model is the lone having a yellow backligth dot-matrix display. "Signature"-line luxury models (Dark "Signature", Deepblue "Signature" and Carbon "Signature") are using plasma-gas dot-matrix display (DMD), visible in dark room/night. The first two models, "Classic" and "Stage Repro" use a standard LCD-based without backlight, so they're not visible by night.
+You can notice the *Absolute Night* model is the lone embedding a yellow backligth dot-matrix display (DMD). "Signature"-line luxury models (Dark "Signature", Deepblue "Signature" and Carbon "Signature") are using plasma-gas dot-matrix display (DMD) instead of LCD, visible in dark room/night. The first two models, "Classic" and "Stage Repro", use a standard LCD-based without backlight, by this way, they're not visible by night!
 
 The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%):
 ![](doc/images/KordZ_Dark_Room.png)
