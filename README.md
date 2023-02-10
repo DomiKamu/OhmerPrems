@@ -10,8 +10,6 @@ Actually, *OhmerPrems* plugin is a set of two modules:
 **QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
 ![](doc/images/QuadPercs_All_Models.png)
 
-(Notice the right side module - Carbon "Signature" - is displaying the volume level % while the mouse cursor flies over the continuous encoder).
-
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
 [**VIDEO**: QuadPercs module presentation/tutorial from my YouTube channel "DoMiNo-MAO" (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
@@ -57,9 +55,9 @@ QuadPercs module is available from OhmerPrems plugin, as both:
 - free version (limited to **5** working drum machines, operating at 44.1 kHz only) to any who want to try it (fully usable, no other limitation). Other drum machines can be selected, but are muted (no audio output).
 - full version (all 16 drum machines, from 44.1 to 192 kHz), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations.
 
-Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments.
+Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments. 44.1 and 48kHz sample rates only.
 
-Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**
+Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, 44.1 kHz to 192 kHz sample rates.
 
 QuadPercs embeds all drum samples (44.1 ~ 192 kHz 16-bit mono PCM) via external PCM table files (220MB after installation).
 
@@ -78,7 +76,6 @@ For each channel (labeled 1 to 4, from top to bottom), you can find, from left t
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
 - Red LED, indicating selected channel (when lit), or when editing channel (while blinking).
-- Small cyan segment-LED display above OUT jacks indicates the volume level for selected channel.
 - Volume level (from 0% to 100%, default 50%) can be changed by turning the **rotary encoder**.
 - Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, the LED turns blink, indicating channel edit. The related item to edit also blinks in dot-matrix display (DMD). When drum machine name is blinking, press the channel button (again) to change its instrument (drumkit). Turn the **rotary encoder** clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit) for current drum machine. No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the rotary encoder nor any button, the edit mode ends - automatically - after 30 seconds (timeout).
 - An ***output*** jack delivers monophonic audio, it can be connected to a mixer, effect, modulator input...
@@ -91,7 +88,7 @@ This module supports monophonic cables only (polyphony is never required for dru
 
 Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
-QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited at 44.1 kHz only), thanks to external pre-computed sample tables - made by fabulous iZotope suite - who permit to keep the sound quality on any sample rate!
+QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited to max. 48 kHz, higher sample rates are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality on every sample rate!
 
 ------
 
