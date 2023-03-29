@@ -2,10 +2,13 @@
 
 *OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of two modules:
+Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
+- **FroeZe** a 64-step 16-track 128-pattern drum-based sequencer (triggers, or audio outputs).
+- **FroeZe-X", an expander module for FroeZe sequencer, for additional outputs + edit features (along, right side of FroeZe module).
 - **QuadPercs** a quad-channel drum machines.
 - **KordZ** a mono-/polyphonic notes/intervals/triads display (1V/octave based) - remaining in development.
 
+**FroeZe** & **FroeZe-X** modules: serie of video tutorials (as "manual") are coming soon!
 
 **QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
 ![](doc/images/QuadPercs_All_Models.png)
