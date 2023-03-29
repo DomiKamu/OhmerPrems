@@ -2,6 +2,17 @@
 CHANGELOG
 ==============================================================================================================================
 
+Release v2.2.7 (March 29th, 2023) for VCV Rack v2.
+
+- Introducing FroeZe module: 128-pattern 16-track 64-step drum-based sequencer module, and its expander: FroeZe-X.
+- QuadPercs: cosmetic concerning channel button labels (all was named "Channel 1").
+- QuadPercs, KordZ: cosmetic on contextual menu.
+- QuadPercs: level bar added below the volume level (lower part of the DMD).
+- KordZ: fixed: the DMD backlight when the module is disabled or bypassed ("Absolute Night" model).
+- KordZ: fixed: possible remanent coloured sector in circle when the module is bypassed while analyzing fast arpeggios.
+- IMPORTANT NOTE: KordZ development is "frozen" until mid-May 2023.
+
+------------------------------------------------------------------------------------------------------------------------------
 Release v2.2.5 (February 10th, 2023) for VCV Rack v2.
 
 - KordZ: intervals are revisited a bit, in particular multiple octaves/basses in chords.
@@ -9,10 +20,9 @@ Release v2.2.5 (February 10th, 2023) for VCV Rack v2.
 - KordZ: added "Major(b5) triads (based on Plugin Boutique's Scaler 2 results).
 - KordZ: all suspended triads are assumed as "Suspended 4" (sus4). Some sus2 are inverted sus4.
 - KordZ: triad detection enhancements, in particular for "Aug" (augmented don't have inversions).
-- QuadPercs operates from 44.1 to 192 kHz, via external PCM table files (44.1/48 kHz restriction for Free version).
+- QuadPercs operates from 44.1 to 192 kHz, via external PCM table files (44.1 kHz restriction for Free version).
 - QuadPercs: renamed "Bell 1" to "Bell" for Yamaha RY-30 (because only one "Bell" instrument for this drum machine).
 - QuadPercs: now the volume level is displayed in main DMD while the mouse cursor flies over the continuous encoder.
-- QuadPercs: useless segment-LED display (above channel #1 output jack, introduced in previous version) is removed.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
