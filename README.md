@@ -65,7 +65,7 @@ More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
 
 ## **QuadPercs module**
 
-All six models (aka GUI themes, identical to FroeZe/FroeZe-X/Kordz/QuadPercs modules): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", and Carbon "Signature":
+All six models (aka GUI themes, identical to FroeZe/FroeZe-X, and KordZ modules): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", and Carbon "Signature":
 
 ![](doc/images/QuadPercs_All_Models.png)
 
@@ -77,7 +77,29 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [**VIDEO**: QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
-Please scroll this page, below, for a "Quicky" guide!
+## Quicky Guide - How to use QuadPercs module
+
+QuadPercs module is, in fact, very easy to use!
+
+The main key are... four buttons (one per drumming channel), and the continuous encoder. Default channel is always 1.
+
+For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
+
+- An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
+- Red LED, indicating selected channel (when lit), or when editing channel (while blinking).
+- Volume level (from 0% to 100%, default is always 50%) can be changed by turning the **continuous encoder** (while the channel LED isn't blinking). By approaching the mouse cursor near the encoder, the current level is indicated in the dot-matrix display (DMD).
+- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, its LED blinks, indicating channel edit. The related item to edit also blinks in dot-matrix display. When the drum machine name is blinking, press the channel button again to change its related instrument (drumkit). Turn the encoder clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit). No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the encoder or any button, the edit mode exits automatically after 30 seconds timeout.
+- An ***output*** jack delivers monophonic audio, it can be connected to output of VCV's AUDIO module, mixer, audio effect, envelope generator or any modulator you want...
+
+The dot-matrix display reports the current selected channel (number indicated at top-left, channel LED is doing exactly the same thing), the current loaded drum machine for active (selected) channel, and its current instrument.
+
+Despite one channel can be selected at time (for level changing, or instrument selection), all four channels are able to play simultaneously, obviously.
+
+This module supports monophonic cables only (because polyphony is never required for drum element).
+
+Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
+
+QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
 
 ----
 
@@ -129,32 +151,6 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 QuadPercs embeds all drum samples (44.1 ~ 192 kHz 16-bit mono PCM) via external PCM table files (220MB after installation).
 
 KordZ module presentation coming soon...
-
-----
-
-## Quicky - How to use QuadPercs
-
-QuadPercs module is, in fact, very easy to use.
-
-The main key are... four buttons (one per drum channel), and the continuous encoder. Default channel is always 1.
-
-For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
-
-- An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
-- Red LED, indicating selected channel (when lit), or when editing channel (while blinking).
-- Volume level (from 0% to 100%, default is always 50%) can be changed by turning the **continuous encoder** (while the channel LED isn't blinking). By approaching the mouse cursor near the encoder, the current level is indicated in the dot-matrix display (DMD).
-- Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, its LED blinks, indicating channel edit. The related item to edit also blinks in dot-matrix display. When the drum machine name is blinking, press the channel button again to change its related instrument (drumkit). Turn the encoder clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit). No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the encoder or any button, the edit mode exits automatically after 30 seconds timeout.
-- An ***output*** jack delivers monophonic audio, it can be connected to output of VCV's AUDIO module, mixer, audio effect, envelope generator or any modulator you want...
-
-The dot-matrix display reports the current selected channel (number indicated at top-left, channel LED is doing exactly the same thing), the current loaded drum machine for active (selected) channel, and its current instrument.
-
-Despite one channel can be selected at time (for level changing, or instrument selection), all four channels are able to play simultaneously, obviously.
-
-This module supports monophonic cables only (because polyphony is never required for drum element).
-
-Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
-
-QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
 
 ----
 
