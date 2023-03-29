@@ -8,6 +8,8 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 - **QuadPercs** a quad-channel drum machines.
 - **KordZ** a mono-/polyphonic notes/intervals/triads display (1V/octave based) - remaining in development.
 
+----
+
 **FroeZe** & **FroeZe-X** modules: serie of video tutorials (as "manual") are coming soon!
 
 [Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md)
@@ -17,23 +19,6 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer):
 
 ![](doc/images/FroeZe_Patch.png)
-
-Tree demo patch files (.vcv files):
-
-- [Triggers, with expander](patches-files-vcv/FroeZe/FroeZe%20%26%20FroeZe-X%20-%20Triggers-Gates%20-%20expander.vcv)
-
-- [Triggers, without expander](patches-files-vcv/FroeZe/FroeZe%20%26%20FroeZe-X%20-%20Triggers-Gates%20-%20no%20expander.vcv)
-
-- [Internal Audio Engine](patches-files-vcv/FroeZe/FroeZe%20%26%20FroeZe-X%20-%20Internal%20QuadPercs.vcv)
-
-NOTE: these patch files require some pre-installed third-party modules (or complete plugins):
-- Ohmer Modules [KlokSpid](https://library.vcvrack.com/Ohmer/KlokSpid) module. FREE.
-- MindMeld [MixMaster](https://library.vcvrack.com/MindMeldModular/MixMaster) module. FREE.
-- Vult [Knock](https://library.vcvrack.com/VultCompacts/Knock) module (from Vult Compact serie). COMMERCIAL.
-- Little Utils [Button](https://library.vcvrack.com/LittleUtils/Button) module. FREE.
-- Count Modula [Polyphonic Manual CV Generator](https://library.vcvrack.com/CountModula/ManualCV2) module. FREE.
-- Count Modula [Manual 4 Input Switch / SW4](https://library.vcvrack.com/CountModula/Switch4) module. FREE.
-- Submarine [TD-202](https://library.vcvrack.com/SubmarineFree/TD-202) text/blank module. FREE.
 
 ----
 
@@ -62,7 +47,7 @@ You can notice the *Absolute Night* model is the lone embedding a yellow backlig
 The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%):
 ![](doc/images/KordZ_Dark_Room.png)
 
-------
+----
 
 "***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, all modules work as free version (with limitations, depending the module). Full version requires a personal license key (the license key is sent by email during OhmerPrems subscription).
 
@@ -93,14 +78,13 @@ QuadPercs embeds all drum samples (44.1 ~ 192 kHz 16-bit mono PCM) via external 
 
 KordZ module presentation coming soon...
 
+----
 
-------
-
-## How to use QuadPercs
+## Quicky - How to use QuadPercs
 
 QuadPercs module is, in fact, very easy to use.
 
-The main key are... four buttons (one per drum channel). Default channel is always 1.
+The main key are... four buttons (one per drum channel), and the continuous encoder. Default channel is always 1.
 
 For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
 
