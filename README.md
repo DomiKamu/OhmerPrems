@@ -11,6 +11,8 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 **FroeZe** & **FroeZe-X** modules: serie of video tutorials (as "manual") are coming soon!
 [Click here for modules specifications](doc/FroeZe-Specs.md)
 
+![](doc/images/FroeZe_Header.png)
+
 **QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
 ![](doc/images/QuadPercs_All_Models.png)
 
