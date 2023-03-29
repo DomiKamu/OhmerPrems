@@ -16,6 +16,8 @@ Serie of video tutorials are in production... coming soon!
 
 [Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md)
 
+Below this is the _Classic_ (default) model - as presented inside module browse. Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratcheting note: the OSD context menu permits to edit the ratchet pattern (square boxes - bottom of menu):
+
 ![](doc/images/FroeZe_Header.png)
 
 FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer). Per instrument track (first 15th, AC isn't an instrument track), you can select drum machine and related drum kit by using both DM and KIT continuous encoders (wheels):
