@@ -46,7 +46,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
 - AC track accepts only silence or accent event (for all events in same step/column).
 
-More infos "on-the-fly" in FroeZe Specs document.
+More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
 
 ----
 
