@@ -13,9 +13,13 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 
 ![](doc/images/FroeZe_Header.png)
 
-FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (outputs are connected to mixer).
+FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer):
 
 ![](doc/images/FroeZe_Patch.png)
+
+Demo patch files (.vcv files):
+
+
 
 ----
 
