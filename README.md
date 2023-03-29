@@ -42,7 +42,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 - Top of display: left click to name or rename the current (displayed) pattern. An OSD indicates instructions, please follow them carefully!
 - Top of display: right click on pattern name blanks the pattern name, and enters pattern name edit.
 - While you name a pattern simply press **Esc** or **Enter** key (main or keypad), or move the mouse cursor outside the edit box!
-- For models having **luminous displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including screen on linked FroeZe-X expander!
+- For models having **luminous displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including... displays  on linked FroeZe-X expander!
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
 - AC track accepts only silence or accent event (for all events in same step/column).
 
