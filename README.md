@@ -37,7 +37,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 - Left mouse click on cell to add note event (unfilled diamond).
 - Left mouse click again on the note event to transform it to **AC'd note** event (plain diamond).
 - Left mouse click again on the plain diamond to transform it to 1st (of 8) of ratcheting note (pattern representation is top to bottom).
-- Using left **Ctrl** (on Mac left **Command**) key while left mouse click on cell erase its content (empty cell, of course, is meaning silence).
+- Using left **Ctrl** (on Mac left **Command**) key while left mouse click on cell erases its content (becomes empty cell, of course, meaning silence).
 - Right mouse click on cell brings an OSD context menu.
 - Top of display: left click to name or rename the current (displayed) pattern. An OSD indicates instructions, please follow them carefully!
 - Top of display: right click on pattern name blanks the pattern name, and enters pattern name edit.
