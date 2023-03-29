@@ -4,7 +4,7 @@
 
 Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander"):
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using internal QuadPercs engines).
-- **FroeZe-X**, an expander module for FroeZe sequencer. It brings additional outputs for ACcents, plus edit features. Along rightside of FroeZe module.
+- **FroeZe-X**, an expander module for FroeZe sequencer. It brings additional outputs for ACcents, plus edit features. Must be placed rightside, along FroeZe module (without space between them).
 - **QuadPercs** is a quad-channel drum machines module. Its technology now is part of FroeZe sequencer, X 15 !
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - remaining in development...
 
