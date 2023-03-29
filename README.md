@@ -10,7 +10,9 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 
 ----
 
-**FroeZe** & **FroeZe-X** modules: serie of video tutorials are in production... coming soon!
+#**FroeZe & FroeZe-X modules**
+
+Serie of video tutorials are in production... coming soon!
 
 [Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md)
 
@@ -22,7 +24,11 @@ FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (G
 
 ----
 
-**QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
+#**QuadPercs module**
+
+
+All six models (aka GUI themes): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
+
 ![](doc/images/QuadPercs_All_Models.png)
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
@@ -33,18 +39,25 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [**VIDEO**: QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
-**KordZ** module (all six liveries - same than QuadPercs module), reduced room brightness:
+----
+
+#**KordZ module**
+
+
+All six models (aka GUI themes, same than FroeZe, FroeZe, and QuadPercs modules), reduced room brightness:
+
 ![](doc/images/KordZ_All_Models.png)
 
 [**VIDEO**: KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
 
-Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (often named _Night mode_):
+Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (sometimes named _Night mode_):
 
 ![](doc/images/QuadPercs_Dark_Room.png)
 
 You can notice the *Absolute Night* model is the lone embedding a yellow backligth dot-matrix display (DMD). "Signature"-line luxury models (Dark "Signature", Deepblue "Signature" and Carbon "Signature") are using plasma-gas dot-matrix display (DMD) instead of LCD, visible in dark room/night. The first two models, "Classic" and "Stage Repro", use a standard LCD-based without backlight, by this way, they're not visible by night!
 
 The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%):
+
 ![](doc/images/KordZ_Dark_Room.png)
 
 ----
@@ -104,18 +117,17 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 
 QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
 
-------
-
+----
 
 ## Free version
 
 Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation/updates, by download/copy **.vcvplugin** file).
 
-------
+----
 
 ## Full version (OhmerPrems members only)
 
-Since VCV Rack 2, the plugin is EXACTLY the same than free version, except a personal license key is sent to OhmerPrems members (by email). The license key unlocks all modules to full (unrestricted) version.
+Since VCV Rack 2, the plugin is EXACTLY the same than free version, except a personal license key is sent to OhmerPrems members (by email). The license key unlocks all modules included in the plugin to **full** (unrestricted).
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
@@ -128,7 +140,7 @@ To become *OhmerPrems* member, simply send me **12 euros** (offer valid until Ma
 
 New subscription requires 24 hours max. after PayPal confirmation. **Incomplete/not regular fee informations or/and payment less than 12 euros is refurbished**. Thank you for your understanding.
 
-------
+----
 
 ## License Clauses
 
@@ -145,5 +157,7 @@ Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMe
 Thanks to **Paul Bacon** (author of excellent Bacon Music plugin, and working hard on SurgeXT) for C++ coding tips who permit to display coloured textures (Kordz's circle of fifths) in dark/night mode.
 
 Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
+
+Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
