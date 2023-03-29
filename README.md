@@ -26,7 +26,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 
 ![](doc/images/FroeZe_Patch_NoExpander.png)
 
-## As "Quicky Guide" (prior tutorial videos are out), some tips:
+## As "Quicky Guide" (prior tutorial videos are available), they're some tips:
 
 - Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only accents).
 - Main screen (display) works like a touchscreen.
@@ -45,6 +45,19 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 - For models having **luminous displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including... displays  on linked FroeZe-X expander!
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
 - AC track accepts only silence or accent event (for all events in same step/column).
+- SWING (CV) applies on all tracks (or SOLOed tracks).
+
+FroeZe-X expander:
+
+- As soon as you attach the expander at right side of FroeZe sequencer, the expander inherits both model and displays dim settings.
+- When attached, both green LED at the top of modules are lit, indicating link is established between modules. When not linked, the FroeZe-X display are turned off.
+- You can left mouse click on buttons (labelled L1..L4, R1..R4), or left mouse click on the related menu boxes on touchscreen (you have the choice!)
+- Message (like TRACK, PATTERN, STEPS, PULSES, OFFSET,...) below continuous encoder indicates its role in the current context.
+- TRACK copy actions works on tracks who having same nature: you can copy instrument track to another instrument track (any) but not to AC track. Also, you cannot copy AC track to instrument track.
+- You can copy track to different pattern/track (use TRACK encoder from expander, and PATTERN encoder from FroeZe module).
+- You can copy AC track to AC track located on another pattern.
+- If you move a pattern to pattern 128, it becomes... 127, it's normal, because source pattern is removed!
+- TRACK / EUCLID.: euclidean function erases the current track as soon as you change an euclidean parameter, via encoder (STEPS, PULSES or OFFSET).
 
 More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
 
