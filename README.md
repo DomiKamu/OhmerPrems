@@ -22,6 +22,10 @@ FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (G
 
 ![](doc/images/FroeZe_Patch.png)
 
+Patch using FroeZe but without its companion (FroeZe-X expander)... on AC'd note(s) the sequencer delivers a **-10V** (1ms) trigger! by this way, you'll must filter the -10V signal, in order to convert it to... +10V and route it to alternate way. It is exactly the role of **[Polarity Switch](https://library.vcvrack.com/Ohmer/PolaritySwitch)** (dual) module, available from free Ohmer Modules plugin!
+
+![](doc/images/FroeZe_NoExpander.png)
+
 ----
 
 ## **QuadPercs module**
