@@ -30,7 +30,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 
 - Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only accents).
 - Main screen (display) works like a touchscreen.
-- FroeZe module requires a **X32 external source clock** to work correctly. KlokSpid or Impromptu's CLOCKED modules are perfect!
+- FroeZe module requires a **X32 external source clock** to work correctly. [KlokSpid](https://library.vcvrack.com/Ohmer/KlokSpid) or [Impromptu's CLOCKED](https://library.vcvrack.com/ImpromptuModular/Clocked) clocking modules are perfect!
 - Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles SOLO on/off.
 - SOLO indicator (below BPM / NO CLK indicator) is blinking while at least one instrument track is SOLO.
 - Right mouse click on track header (near track name) selects the track, **or**, if already selected, toggles MUTE on/off (MUTEd tracks are highlighted).
