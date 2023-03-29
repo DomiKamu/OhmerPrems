@@ -26,6 +26,21 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 
 ![](doc/images/FroeZe_Patch_NoExpander.png)
 
+As "Quicky Guide" (prior tutorial videos are out), some tips:
+
+- FroeZe module requires a X32 source clock to work correctly.
+- Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles SOLO on/off.
+- Right mouse click on track header (near track name) selects the track, **or**, if already selected, toggles MUTE on/off (MUTEd tracks are highlighted).
+- Left mouse click on cell to add note event (unfilled diamond).
+- Left mouse click again on the note event to transform it to **AC'd note** event (plain diamond).
+- Left mouse click again on the plain diamond to transform it to 1st (of 8) of ratcheting note (pattern representation is top to bottom).
+- Using left **Ctrl** (on Mac left **Command**) key while left mouse click on cell erase its content (empty cell, of course, is meaning silence).
+- Right mouse click on cell brings an OSD context menu.
+- Top of display: left click to name or rename the current (displayed) pattern. An OSD indicates instructions, please follow them carefully!
+- Top of display: right click on pattern name blanks the pattern name, and enters pattern name edit.
+- While you name a pattern simply press **Esc** or **Enter** key (main or keypad), or move the mouse cursor outside the edit box!
+- For models having luminous displays (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including screen on linked FroeZe-X expander!
+
 ----
 
 ## **QuadPercs module**
