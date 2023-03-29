@@ -1,24 +1,24 @@
-FROEZE & FROEZE-X MODULES SPECIFICATIONS
+**FROEZE & FROEZE-X MODULES SPECIFICATIONS**
 
 This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edgar Froese), is:
 
 - 15+1 tracks (forming a pattern): 15 instrument tracks + separate **ACcent** track.
 
-- Track naming follows Roland-style (for most of their drum machines): BD for bass drum/kick, SD for snare drum, and so on). Of course, except while audio engine is enabled, track usage is absolutely free! **Big thanks to @k-chaffin** for his suggestion about track naming! ;)
+- Track naming follows _Roland_-style (for most of their drum machines): **BD** for bass drum/kick, **SD** for snare drum, **CH** for closed hats, and so on). Of course, except while audio engine is enabled, track usage is absolutely free! **Big thanks to Ken Chaffin** for his suggestion about track naming! ;)
 
 - Main display as "touchscreen"-like, mainly for note events editing (silences, notes, AC'd notes, or 8-preset defined ratcheting), into 16x64 grid.
 
-- FroeZe sequencer can deliver +10V 1ms triggers, (-10V 1ms in certain situations), or audio (thanks to internal QuadPercs engines).
+- FroeZe sequencer can deliver +10V 1ms triggers, (without FroeZe-X expander, for ac'd notes: **-10V** 1ms instead), or audio (thanks to internal QuadPercs engines).
 
 - 64 steps (max.) per track. Each instrument track have its own LAST STEP, manually adjustable via dedicated encoder, and shifted (offset - / +) in real time via CV input jack, from 1 upto 64.
 
-- Any instrument track can be SOLO (except AC track), multiple SOLO is possible.
+- Any instrument track can be SOLO (except AC track), multiple SOLO are possible.
 
-- Any track can be MUTEd (including AC track), multiple MUTEd tracks is possible.
+- Any track can be MUTEd (including AC track), multiple MUTEd tracks are possible.
 
-- MUTE and SOLO can be used at the same time (instrument track only, AC can't be SOLO).
+- MUTE and SOLO can be used together on same instrument track (except AC track can't be SOLO).
 
-- 128 patterns, each of them can be named, up to input box limit, or 128 max. (US/ASCII printable characters, QWERTY/US input only at the moment).
+- 128 patterns, each of them can be named. **Please follow displayed (OSD) instructions while (re)naming the current pattern!**
 
 - Current pattern can be changed "on-the-fly by turning its encoder (clockwise to select next, counter-clockwise to select previous), via PREV./NEXT trigger input jacks, or absolute pattern number via CV (PREV. input jack + enabled "CV PATTERN" option via context menu). Any third-party trigger or CV sequencer can control pattern chaining (via triggers) or absolute (via voltages).
 
