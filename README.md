@@ -26,10 +26,13 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 
 ![](doc/images/FroeZe_Patch_NoExpander.png)
 
-As "Quicky Guide" (prior tutorial videos are out), some tips:
+## As "Quicky Guide" (prior tutorial videos are out), some tips:
 
-- FroeZe module requires a X32 source clock to work correctly.
+- Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only accents).
+- Main screen (display) works like a touchscreen.
+- FroeZe module requires a **X32 external source clock** to work correctly. KlokSpid or Impromptu's CLOCKED modules are perfect!
 - Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles SOLO on/off.
+- SOLO indicator (below BPM / NO CLK indicator) is blinking while at least one instrument track is SOLO.
 - Right mouse click on track header (near track name) selects the track, **or**, if already selected, toggles MUTE on/off (MUTEd tracks are highlighted).
 - Left mouse click on cell to add note event (unfilled diamond).
 - Left mouse click again on the note event to transform it to **AC'd note** event (plain diamond).
@@ -39,7 +42,11 @@ As "Quicky Guide" (prior tutorial videos are out), some tips:
 - Top of display: left click to name or rename the current (displayed) pattern. An OSD indicates instructions, please follow them carefully!
 - Top of display: right click on pattern name blanks the pattern name, and enters pattern name edit.
 - While you name a pattern simply press **Esc** or **Enter** key (main or keypad), or move the mouse cursor outside the edit box!
-- For models having luminous displays (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including screen on linked FroeZe-X expander!
+- For models having **luminous displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including screen on linked FroeZe-X expander!
+- Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
+- AC track accepts only silence or accent event (for all events in same step/column).
+
+More infos "on-the-fly" in FroeZe Specs document.
 
 ----
 
