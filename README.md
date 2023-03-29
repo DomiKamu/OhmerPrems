@@ -18,7 +18,7 @@ Serie of video tutorials are in production... coming soon!
 
 ![](doc/images/FroeZe_Header.png)
 
-FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer):
+FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer). Per instrument track (first 15th, AC isn't an instrument track), you can select drum machine and related drum kit by using both DM and KIT continuous encoders (wheels):
 
 ![](doc/images/FroeZe_Patch.png)
 
