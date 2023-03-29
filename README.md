@@ -38,6 +38,8 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [**VIDEO**: QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
+Please scroll this page, below, for a "Quicky" guide!
+
 ----
 
 ## **KordZ module**
