@@ -10,7 +10,7 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 
 ----
 
-**FroeZe** & **FroeZe-X** modules: serie of video tutorials (as "manual") are coming soon!
+**FroeZe** & **FroeZe-X** modules: serie of video tutorials are in production... coming soon!
 
 [Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md)
 
