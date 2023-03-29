@@ -9,7 +9,8 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 - **KordZ** a mono-/polyphonic notes/intervals/triads display (1V/octave based) - remaining in development.
 
 **FroeZe** & **FroeZe-X** modules: serie of video tutorials (as "manual") are coming soon!
-[Click here for modules specifications](doc/FroeZe-Specs.md)
+
+[Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md)
 
 ![](doc/images/FroeZe_Header.png)
 
