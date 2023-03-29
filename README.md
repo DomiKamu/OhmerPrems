@@ -10,7 +10,7 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 
 ----
 
-#**FroeZe & FroeZe-X modules**
+## **FroeZe & FroeZe-X modules**
 
 Serie of video tutorials are in production... coming soon!
 
@@ -24,8 +24,7 @@ FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (G
 
 ----
 
-#**QuadPercs module**
-
+## **QuadPercs module**
 
 All six models (aka GUI themes): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
 
@@ -41,8 +40,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 ----
 
-#**KordZ module**
-
+## **KordZ module**
 
 All six models (aka GUI themes, same than FroeZe, FroeZe, and QuadPercs modules), reduced room brightness:
 
