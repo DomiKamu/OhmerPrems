@@ -13,6 +13,12 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus an expander):
 
 ![](doc/images/FroeZe_Header.png)
 
+FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (outputs are connected to mixer).
+
+![](doc/images/FroeZe_Patch.png)
+
+----
+
 **QuadPercs** module, all six models (aka themes or liveries): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
 ![](doc/images/QuadPercs_All_Models.png)
 
