@@ -17,9 +17,22 @@ FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (G
 
 ![](doc/images/FroeZe_Patch.png)
 
-Demo patch files (.vcv files):
+Tree demo patch files (.vcv files):
 
+- [Triggers, with expander](patches-files-vcv/FroeZe/FroeZe%20%26%20FroeZe-X%20-%20Triggers-Gates%20-%20expander.vcv)
 
+- [Triggers, without expander](patches-files-vcv/FroeZe/FroeZe%20%26%20FroeZe-X%20-%20Triggers-Gates%20-%20no%20expander.vcv)
+
+- [Internal Audio Engine](patches-files-vcv/FroeZe/FroeZe%20%26%20FroeZe-X%20-%20Internal%20QuadPercs.vcv)
+
+NOTE: these patch files require some pre-installed third-party modules (or complete plugins):
+- Ohmer Modules [KlokSpid](https://library.vcvrack.com/Ohmer/KlokSpid) module. FREE.
+- MindMeld [MixMaster](https://library.vcvrack.com/MindMeldModular/MixMaster) module. FREE.
+- Vult [Knock](https://library.vcvrack.com/VultCompacts/Knock) module (from Vult Compact serie). COMMERCIAL.
+- Little Utils [Button](https://library.vcvrack.com/LittleUtils/Button) module. FREE.
+- Count Modula [Polyphonic Manual CV Generator](https://library.vcvrack.com/CountModula/ManualCV2) module. FREE.
+- Count Modula [Manual 4 Input Switch / SW4](https://library.vcvrack.com/CountModula/Switch4) module. FREE.
+- Submarine [TD-202](https://library.vcvrack.com/SubmarineFree/TD-202) text/blank module. FREE.
 
 ----
 
