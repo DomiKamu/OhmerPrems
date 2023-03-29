@@ -26,7 +26,7 @@ FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (G
 
 ## **QuadPercs module**
 
-All six models (aka GUI themes): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", Carbon "Signature":
+All six models (aka GUI themes, identical to FroeZe/FroeZe-X/Kordz/QuadPercs modules): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", and Carbon "Signature":
 
 ![](doc/images/QuadPercs_All_Models.png)
 
@@ -42,7 +42,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 ## **KordZ module**
 
-All six models (aka GUI themes, same than FroeZe, FroeZe, and QuadPercs modules), reduced room brightness:
+All six models (aka GUI themes, same than FroeZe/FroeZe-X, and QuadPercs modules), reduced room brightness:
 
 ![](doc/images/KordZ_All_Models.png)
 
