@@ -51,15 +51,18 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 
 FroeZe-X expander:
 
-- As soon as you attach the expander at right side of FroeZe sequencer, the expander inherits both model and displays dim settings.
-- When attached, both green LED at the top of modules are lit, indicating link is established between modules. When not linked, the FroeZe-X display are turned off.
-- You can left mouse click on buttons (labelled L1..L4, R1..R4), or left mouse click on the related menu boxes on touchscreen (you have the choice!)
-- Message (like TRACK, PATTERN, STEPS, PULSES, OFFSET,...) below continuous encoder indicates its role in the current context.
-- TRACK copy actions works on tracks who having same nature: you can copy instrument track to another instrument track (any) but not to AC track. Also, you cannot copy AC track to instrument track.
-- You can copy track to different pattern/track (use TRACK encoder from expander, and PATTERN encoder from FroeZe module).
-- You can copy AC track to AC track located on another pattern.
-- If you move a pattern to pattern 128, it becomes... 127, it's normal, because source pattern is removed!
-- TRACK / EUCLID.: euclidean function erases the current track as soon as you change an euclidean parameter, via encoder (STEPS, PULSES or OFFSET).
+- As soon as you attach the expander at right side of FroeZe sequencer, the expander inherits both model and displays dim settings from FroeZe!
+- When attached, both green LED at the top of modules (near module names/screws) are lit, indicating LINK is established between modules. When not linked, both LEDs are unlit, and the FroeZe-X displays are turned off.
+- You can left mouse click on buttons (labelled L1 to L4, and R1 to R4), or left mouse click on the related menu boxes on touchscreen (you have the choice!)
+- Message below continuous encoder (like TRACK, PATTERN, STEPS, PULSES, OFFSET,...) indicates the (context-based) role of the encoder.
+- TRACK/COPY actions works on tracks who having same nature: you can copy instrument track to another instrument track (any) but not to AC track. Also, you cannot copy AC track to instrument track.
+- You can copy track to another track, even different if you want (in this case, use TRACK encoder from FroeZe-X expander, and PATTERN encoder from FroeZe sequencer module, prior clicking L1 button / PASTE). On CANCEL (R1 button), the sequencer returns to source pattern/track.
+- You can copy AC track to AC track on another pattern.
+- If you move any pattern (PATTERN/MOVE) to pattern 128, in fact you can, but the destination pattern 128 becomes... 127: it's normal (not an issue), because "source" pattern is removed, by this way all further patterns are "moved by -1".
+- TRACK/EUCLID. menu: euclidean function erases the current track as soon as you change an euclidean parameter, via encoder (STEPS, PULSES or OFFSET), so proceed with caution (save the pattern first, from module context menu, or make a backup of pattern by using PATTERN/COPY from expander to an empty pattern).
+- TRACK/EUCLID. menu: places normal notes only (no AC'd notes, no ratcheting notes). It place AC events on AC track.
+- TRACK/COMPLT. menu (track auto-completion feature): this feature also may "cover" existing track events, so proceed with caution (save the pattern first, from module context menu, or make a backup of pattern by using PATTERN/COPY from expander to an empty pattern).
+- RATCHET. menu permits to save, load, and "reset to factory" the eight ratcheting slots/memory (for current pattern only).
 
 More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
 
