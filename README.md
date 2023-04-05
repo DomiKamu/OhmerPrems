@@ -47,7 +47,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 - For models having **luminous displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including... displays  on linked FroeZe-X expander!
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
 - AC track accepts only silence or accent event (for all events in same step/column).
-- SWING (CV) applies on all tracks (or SOLOed tracks).
+- SWING (CV) applies on all tracks (or SOLOed tracks) --> replaced by expander (v2.2.8) for SWING (or PROBA) but for each track.
 
 FroeZe-X expander:
 
