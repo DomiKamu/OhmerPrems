@@ -28,41 +28,41 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 
 ![](doc/images/FroeZe_Patch_NoExpander.png)
 
-## As "Quicky Guide" (prior tutorial videos are available), they're some tips:
+## FroeZe "Quicky Guide" - tips:
 
-- Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only accents).
-- Main screen (display) works like a touchscreen.
+- Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only ACcents).
+- Main screen (display) is working like a touchscreen.
 - FroeZe module requires a **X32 external source clock** to work correctly. [KlokSpid](https://library.vcvrack.com/Ohmer/KlokSpid) or [Impromptu's CLOCKED](https://library.vcvrack.com/ImpromptuModular/Clocked) clocking modules are perfect!
-- Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles SOLO on/off.
+- Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles its SOLO state.
 - SOLO indicator (below BPM / NO CLK indicator) is blinking while at least one instrument track is SOLO.
-- Right mouse click on track header (near track name) selects the track, **or**, if already selected, toggles MUTE on/off (MUTEd tracks are highlighted).
-- Left mouse click on cell to add note event (unfilled diamond).
+- Right mouse click on track header (near track name) selects the track, **or**, if already selected, toggles it as MUTE or unmute (MUTEd tracks are entirely highlighted).
+- Left mouse click on cell to add note event (unfilled diamond) - if previously empty/silence.
 - Left mouse click again on the note event to transform it to **AC'd note** event (plain diamond).
-- Left mouse click again on the plain diamond to transform it to 1st (of 8) of ratcheting note (pattern representation is top to bottom).
-- Using left **Ctrl** (on Mac left **Command**) key while left mouse click on cell erases its content (becomes empty cell, of course, meaning silence).
-- Right mouse click on cell brings an OSD context menu.
+- Left mouse click again on the plain diamond to transform it to 1st (of 8) of ratcheting note (pattern representation is shown from top to bottom).
+- Using left **Ctrl** (on Mac: left **Command**) key while left mouse click on cell erases its content (becomes empty cell, meaning silence).
+- Right mouse click in any cell brings an OSD context menu.
 - Top of display: left click to name or rename the current (displayed) pattern. An OSD indicates instructions, please follow them carefully!
 - Top of display: right click on pattern name blanks the pattern name, and enters pattern name edit.
-- While you name a pattern simply press **Esc** or **Enter** key (main or keypad), or move the mouse cursor outside the edit box!
-- For models having **luminous displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including... displays  on linked FroeZe-X expander!
+- While you name a pattern simply press **Esc** or **Enter** key (main or keypad), or just move the mouse cursor outside the edit box!
+- For models having **luminous displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near left-bottom screw - toggles bright/dimmed displays, for all displays, including... displays  on linked expanders!
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
-- AC track accepts only silence or accent event (for all events in same step/column).
-- SWING (CV) applies on all tracks (or SOLOed tracks) --> replaced by expander (v2.2.8) for SWING (or PROBA) but for each track.
+- AC track accepts only silence or accent event (to accent/mark all note events in same step/column).
+- **Please don't use SWING input port**, this port will be replaced by expander (v2.2.8) for SWING (or PROBA) - but for each track.
 
 FroeZe-X expander:
 
 - As soon as you attach the expander at right side of FroeZe sequencer, the expander inherits both model and displays dim settings from FroeZe!
-- When attached, both green LED at the top of modules (near module names/screws) are lit, indicating LINK is established between modules. When not linked, both LEDs are unlit, and the FroeZe-X displays are turned off.
+- When attached, FroeZe-X displays are turned on (off when unattached).
 - You can left mouse click on buttons (labelled L1 to L4, and R1 to R4), or left mouse click on the related menu boxes on touchscreen (you have the choice!)
-- Message below continuous encoder (like TRACK, PATTERN, STEPS, PULSES, OFFSET,...) indicates the (context-based) role of the encoder.
+- Message below continuous encoder (like TRACK, PATTERN, STEPS, PULSES, OFFSET,...) indicates the role of the encoder (contextual).
 - TRACK/COPY actions works on tracks who having same nature: you can copy instrument track to another instrument track (any) but not to AC track. Also, you cannot copy AC track to instrument track.
-- You can copy track to another track, even different if you want (in this case, use TRACK encoder from FroeZe-X expander, and PATTERN encoder from FroeZe sequencer module, prior clicking L1 button / PASTE). On CANCEL (R1 button), the sequencer returns to source pattern/track.
-- You can copy AC track to AC track on another pattern.
-- If you move any pattern (PATTERN/MOVE) to pattern 128, in fact you can, but the destination pattern 128 becomes... 127: it's normal (not an issue), because "source" pattern is removed, by this way all further patterns are "moved by -1".
-- TRACK/EUCLID. menu: euclidean function erases the current track as soon as you change an euclidean parameter, via encoder (STEPS, PULSES or OFFSET), so proceed with caution (save the pattern first, from module context menu, or make a backup of pattern by using PATTERN/COPY from expander to an empty pattern).
-- TRACK/EUCLID. menu: places normal notes only (no AC'd notes, no ratcheting notes). It place AC events on AC track.
+- You can copy track to another track, even different pattern if you want (in this case, use TRACK encoder from FroeZe-X expander, and PATTERN encoder from FroeZe module, prior clicking L1 button / PASTE). On CANCEL (R1 button), the FroeZe sequencer returns to source pattern and track.
+- You can copy AC track to AC track located in another pattern.
+- If you move any pattern (PATTERN/MOVE) to pattern 128, in fact you can, but the destination pattern 128 becomes... 127: it's normal (not an issue), because "source" pattern is removed after move operation, by this way, all following patterns are "moved by -1".
+- TRACK/EUCLID. menu: euclidean rhythm feature erases the current track as soon as you change any euclidean parameter, via encoder (STEPS, PULSES or OFFSET), so proceed with caution (if necessary, save the pattern first, from module context menu, or make a backup of it by using PATTERN/COPY from expander to any empty pattern).
+- TRACK/EUCLID. menu: sets regular notes only (no AC'd or ratcheting notes). However, it sets ACcent events on AC track.
 - TRACK/COMPLT. menu (track auto-completion feature): this feature also may "cover" existing track events, so proceed with caution (save the pattern first, from module context menu, or make a backup of pattern by using PATTERN/COPY from expander to an empty pattern).
-- RATCHET. menu permits to save, load, and "reset to factory" the eight ratcheting slots/memory (for current pattern only).
+- RATCHET. menu permits to save, open, and "reset to factory" the eight ratcheting slots/memory (for current pattern only).
 
 More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
 
