@@ -16,7 +16,7 @@ Please consider a written manual is under construction, but is coming later...
 
 [Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING FREE USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
 
-Below this is the _Classic_ (default) model - as presented from Rack's module browser. Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratcheting note: the OSD context menu permits to edit the ratchet pattern (square boxes - bottom of menu):
+Below this is the _Classic_ (default) model - as presented from Rack's module browser. Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
 
 ![](doc/images/FroeZe_Header.png)
 
