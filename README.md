@@ -12,7 +12,9 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 
 ----
 
-## **First images of KlokSpid Mk module (and KX expander)**
+## **First images of KlokSpid MkII with KX expander**
+
+These modules (including 3HP expander, KX) are entirely free, because they'll replace 2017 *KlokSpid* from freeware *Ohmer Modules* collection!
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreview.png)
 
