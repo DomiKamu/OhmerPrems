@@ -11,11 +11,9 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 
 ----
 
-## **First images of KlokSpid Mk module**
+## **First images of KlokSpid Mk module (and KX expander)**
 
-![](doc/images/KlokSpidMkII_1stPreview.png)
-
-![](doc/images/KlokSpidMkII_2ndPreview.png)
+![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreview.png)
 
 
 ----
