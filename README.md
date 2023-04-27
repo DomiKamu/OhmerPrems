@@ -18,6 +18,10 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 
 Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or by touchscreen-like (left mouse click over menu on main display).
 
+All global settings can be changed, either for module's menu system ("Global Settings" page), or/and via module's context menu:
+
+![](doc/images/KlokSpidMkII_ContextMenuGS.png)
+
 ----
 
 ## **FroeZe & FroeZe-X modules**
