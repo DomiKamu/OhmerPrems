@@ -16,6 +16,7 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreview.png)
 
+Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button", and/or by touchscreen-like (left mouse click over menu on main display).
 
 ----
 
