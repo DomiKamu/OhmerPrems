@@ -7,11 +7,11 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 - **FroeZe-X**, an expander module for FroeZe sequencer. It brings additional outputs for ACcents, plus edit features. Must be placed rightside, along FroeZe module (without space between them).
 - **QuadPercs** is a quad-channel drum machines module. Its technology now is part of FroeZe sequencer, but **X 15** !
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - remaining in development...
-- COMING SOON: Free **KlokSpid MkII**, the successor of (2017) *KlokSpid*, a 16HP CPU-controlled clocking module, 8 analog outputs, 12 (upto 14) CV modulators...
+- COMING SOON: Free **KlokSpid MkII**, the successor of (2017) *KlokSpid*, a 16HP CPU-controlled clocking module, 8 analog outputs, 6 CV modulators (upto 14 by using KX expander, and by changing CLK and RUN input roles).
 
 ----
 
-## **First images of KlokSpid Mk module (and its KX expander)**
+## **First images of KlokSpid Mk module (and KX expander)**
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreview.png)
 
@@ -86,7 +86,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [**VIDEO**: QuadPercs module presentation/tutorial from my YouTube channel "DoMiNo-MAO" (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
 
-[**VIDEO**: PrÃ©sentation/tutoriel du module QuadPercs sur ma chaÃ®ne YouTube "DoMiNo-MAO" (FranÃ§ais/French, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
+[**VIDEO**: Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube "DoMiNo-MAO" (Français/French, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
 
 [**VIDEO**: QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
@@ -200,7 +200,7 @@ All graphic materials, the "Ohmer" logo and related resources cannot be used for
 
 All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your developments). Thanks a lot, Xavier!
 
-Thanks to **Marc BoulÃ©** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
+Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
 Thanks to **Paul Bacon** (author of excellent Bacon Music plugin, and working hard on SurgeXT) for C++ coding tips who permit to display coloured textures (Kordz's circle of fifths) in dark/night mode.
 
