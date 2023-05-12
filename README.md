@@ -16,7 +16,7 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 
 This module is entirely free, because it will replace 2017 *KlokSpid* (from freeware [*Ohmer modules*](https://github.com/DomiKamu/Ohmer) collection). KlokSpid MkII becomes the first 100% free module in commercial OhmerPrems plugin!
 
-![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewB.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
+![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
 Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or by touchscreen-like (left mouse clicks over menus on main display).
 
