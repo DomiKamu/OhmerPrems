@@ -14,11 +14,11 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 
 ## **First images of KlokSpid MkII with KX expander**
 
-These modules (including 3HP expander, KX) are entirely free, because they'll replace 2017 *KlokSpid* from freeware *Ohmer Modules* collection!
+This module is entirely free, because it will replace 2017 *KlokSpid* (from freeware *Ohmer Modules* collection)!
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreview.png)
 
-Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or by touchscreen-like (left mouse click over menu on main display).
+Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or by touchscreen-like (left mouse clicks over menus on main display).
 
 Any global setting can be changed "on-the-fly", either from menu system ("Global Settings" page) or by using module's contextual menu (right mouse click anywhere over module):
 
@@ -94,7 +94,7 @@ Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here
 
 [**VIDEO**: QuadPercs module presentation/tutorial from my YouTube channel "DoMiNo-MAO" (English, 1080p, 13 min.)](https://youtu.be/K51tFtwiisY) 
 
-[**VIDEO**: Présentation/tutoriel du module QuadPercs sur ma chaîne YouTube "DoMiNo-MAO" (Français/French, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
+[**VIDEO**: PrÃ©sentation/tutoriel du module QuadPercs sur ma chaÃ®ne YouTube "DoMiNo-MAO" (FranÃ§ais/French, 1080p, 13 mins.)](https://youtu.be/bAZPvrXWTXg)
 
 [**VIDEO**: QuadPercs module in action, YouTube video made by Omar Brown (**thanks Omar!**)](https://www.youtube.com/watch?v=SBbM-12xc2w)
 
@@ -208,7 +208,7 @@ All graphic materials, the "Ohmer" logo and related resources cannot be used for
 
 All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your developments). Thanks a lot, Xavier!
 
-Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
+Thanks to **Marc BoulÃ©** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
 Thanks to **Paul Bacon** (author of excellent Bacon Music plugin, and working hard on SurgeXT) for C++ coding tips who permit to display coloured textures (Kordz's circle of fifths) in dark/night mode.
 
