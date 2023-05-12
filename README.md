@@ -20,7 +20,7 @@ This module is entirely free, because it will replace 2017 *KlokSpid* (from free
 
 Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or by touchscreen-like (left mouse clicks over menus on main display).
 
-Any global setting can be changed "on-the-fly", either from menu system ("Global Settings" page) or by using module's contextual menu (right mouse click anywhere over module):
+Any input role setting (CLK, RUN, CV3) - as part of Global Settings - can be changed "on-the-fly" by using module's contextual menu (right mouse click anywhere over module):
 
 ![](doc/images/KlokSpidMkII_ContextMenuInpRoles.png)
 
