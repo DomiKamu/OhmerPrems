@@ -22,7 +22,7 @@ Please notice the menu system is using either "continuous encoder + SET (blue) b
 
 Any global setting can be changed "on-the-fly", either from menu system ("Global Settings" page) or by using module's contextual menu (right mouse click anywhere over module):
 
-![](doc/images/KlokSpidMkII_ContextMenuGS.png)
+![](doc/images/KlokSpidMkII_ContextMenuInpRoles.png)
 
 ----
 
