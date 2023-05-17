@@ -5,7 +5,7 @@
 Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander"):
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines).
 - **FroeZe-X**, an expander module for FroeZe sequencer. It brings additional outputs for ACcents, plus edit features. Must be placed right-side, alongside FroeZe module (without space between them).
-- COMING SOON: **FroeZe-SP-X**, an expander module for FroeZe sequencer. It brings additional inputs for track-based SWINGs/PROBAbilities. Must be placed left-side, alongside FroeZe module (without space between them).
+- COMING SOON: **FroeZe-SP-X**, an expander module for FroeZe sequencer. It brings additional inputs for track-based SWINGs/PROBAbilities. Must be placed left-side, alongside FroeZe module (without space between them). Remaining in beta test phase...
 - **QuadPercs** is a quad-channel drum machines module. Its technology now is part of FroeZe sequencer, but **X 15** !
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - remaining in development, **but delayed**!
 - COMING SOON: **Entirely free KlokSpid MkII**, the successor of *KlokSpid* (2017 / Ohmer Modules), is a 16HP "CPU-controlled" clocking module, 8 analog/digital outputs, 6 configurable CV modulators (upto 8 by changing "CLK" and/or "RUN" input roles). "CLK" input may be redefined as "CV1". "RUN" input may be redefined as "CV2". Native "CV3" can be redefined - if needed - as "RESET" input. Basically, KlokSpid MkII outputs +10V 1ms triggers by default, but it may output ratchets, gates, envelopes / LFO, S&H/random... instead, into -5V/+5V range (can be offsetted upto 0V/+10V, and depending the selected output waveform). Master BPM range is 10 upto 350. As slave, the max. output frequency is 800Hz (controlled by external clock device who are using a high rate factor). All LEDs (inputs, outputs, RUN/STOP button, and SET/Cancel buttons LEDs) are all RGB - their color conventions are mainly RED for out-of-range CV input voltages, disabled output, BPM SYNC operation (sync to external clock source, when slave)... CYAN for regular pulses and gates (CLK/RUN/CV3 inputs, utility voltages on outputs). Progressive GREEN for valid CV inputs, and active outputs. YELLOW on "CLK" input only when set as "BPM CV" (fully compatible with [Impromptu Modular CLOCKED](https://library.vcvrack.com/ImpromptuModular/Clocked) **BPM CV** feature)...
@@ -14,7 +14,7 @@ Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander")
 
 ## **First previews of KlokSpid MkII**
 
-This module is entirely free, because it will replace 2017 *KlokSpid* (from freeware [*Ohmer modules*](https://github.com/DomiKamu/Ohmer) collection). By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems plugin!
+This module (in development) will be entirely free, because it will replace 2017 *KlokSpid* module from freeware [*Ohmer modules*](https://github.com/DomiKamu/Ohmer) collection. By this way, **KlokSpid MkII** will become the **first 100% free module** provided by OhmerPrems commercial plugin!
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
