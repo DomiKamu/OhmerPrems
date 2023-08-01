@@ -1,4 +1,4 @@
-# ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium modules)
+# ![](doc/images/Logo_Ohmer.png)OhmerPrems (Premium modules) for VCV Rack 2
 
 *OhmerPrems* is both Premium (for susbcribers) and free plugin/modules, designed for VCV Rack 2.
 
