@@ -14,7 +14,7 @@ Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 
 ## **First previews of KlokSpid MkII**
 
-This module (in development) will be entirely free, because it will replace 2017 *KlokSpid* module from freeware [*Ohmer modules*](https://github.com/DomiKamu/Ohmer) collection. By this way, **KlokSpid MkII** will become the **first 100% free module** provided by OhmerPrems commercial plugin!
+This module (in development) will be entirely free, because it will replace 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** will become the **first 100% free module** provided by OhmerPrems commercial plugin! ;)
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
