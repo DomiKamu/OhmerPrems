@@ -2,7 +2,7 @@
 
 *OhmerPrems* is both Premium (for susbcribers) and free modules, designed for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of three modules (plus one as "expander"):
+Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines).
 - **FroeZe-X**, an **right-side** expander module for FroeZe sequencer. It brings additional outputs for ACcents, plus some edit features.
 - COMING SOON: **FroeZe-SP-X**, an **left-side** expander module for FroeZe sequencer. It brings additional inputs for track-based SWING or HUManize. Remaining in development...
