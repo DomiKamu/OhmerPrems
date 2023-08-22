@@ -28,7 +28,7 @@ Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using modu
 
 ## **FroeZe & FroeZe-X modules**
 
-Please consider a written manual is under construction, but is coming later...
+Please consider a set of tutorial videos is under consideration, but coming later...
 
 [Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING FREE USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
 
@@ -48,7 +48,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 
 - Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only ACcents).
 - Main screen (display) is working like a touchscreen.
-- FroeZe module requires a **X32 external source clock** to work correctly. [KlokSpid](https://library.vcvrack.com/Ohmer/KlokSpid) or [Impromptu's CLOCKED](https://library.vcvrack.com/ImpromptuModular/Clocked) clocking modules are perfect!
+- FroeZe module requires a **X32 pulse-based external source clock** to work correctly. [KlokSpid](https://library.vcvrack.com/Ohmer/KlokSpid) , future KlokSpid MkII (see above), or [Impromptu's CLOCKED](https://library.vcvrack.com/ImpromptuModular/Clocked) clocking modules are perfect!
 - Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles its SOLO state.
 - SOLO indicator (below BPM / NO CLK indicator) is blinking while at least one instrument track is SOLO.
 - Right mouse click on track header (near track name) selects the track, **or**, if already selected, toggles its MUTE state (MUTEd tracks are entirely highlighted, song pointer doesn't run over them).
