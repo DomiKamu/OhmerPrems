@@ -14,7 +14,7 @@ Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 
 ## **First previews of KlokSpid MkII module**
 
-This module (in development) will be entirely free, because it will replace 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** will become the **first 100% free module** provided by OhmerPrems commercial plugin! ;)
+This module (in development) will be entirely free, because it will replace 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin! ;)
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
@@ -24,11 +24,11 @@ Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using modu
 
 ![](doc/images/KlokSpidMkII_ContextMenuInputRoles.png)
 
-Example of square gates sent to output 1 - its output modifier ratio is set to **x3**, *P-Width* for pulse width is set to 50% (by CV6) to obtain square waveform inside 7.5V *Amplitude* range (by CV7), *V-Offset* sed at -2V (by CV8). Output 8 is sending the module's master phase (BPM 120, as unipolar 0V/+10V sawtooth) while clock is running. Inputs: "RUN" is assigned as run/stop toggle, "CV3" is assigned as "RESET" input (incoming pulses reset all phases). CV6 and CV7 as unipolar 0V/+10V CV inputs, CV8 as bipolar -5V/+5V CV input:
+Example of square pulses (or gates) sent to output 1 - its output ratio is set to BPM **x3** (set from *Modifier* submenu), *P-Width* (pulse width) is set to 50% (by CV6) to obtain square waveform inside 7.5V *Amplitude* range (by CV7), *V-Offset* sed at -2V (by CV8) - by this way, for pulses, minimum voltage is -2V (low state) and maximum is +5V (high state while pulsing). Output 8 is sending the module's "master" phase (BPM 120, as unipolar 0V/+10V sawtooth signal) while clock is running. **Inputs:** "RUN" is assigned as run/stop toggle (any incoming pulse switches run/stop state), "CV3" is assigned as "RESET" input (any incoming pulse resets module's phases). "CV6" and "CV7" are set as unipolar 0V/+10V CV inputs. "CV8" as default bipolar -5V/+5V CV input:
 
 ![](doc/images/KlokSpidMkII_SquarePulse_x3_Phase8.png)
 
-Please notice the module's main screen (touchscreen) above shows basic waveform selection for current selected output (here is output 1, as indicated into top-left box). All icons below "Pulse", "Triangle", "Sin", and "S&H" labels (in clickable boxes), are **animated** - by showing what the morph is doing on each waveform! ;)
+Please notice the module's main screen (touchscreen) above shows basic waveform selection for current selected output (here's output 1, as indicated into top-left box). All icons below "Pulse", "Triangle", "Sin", and "S&H" labels (into clickable boxes), are **animated** by showing what the morph is doing on each waveform. ;)
 
 ----
 
