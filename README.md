@@ -24,6 +24,10 @@ Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using modu
 
 ![](doc/images/KlokSpidMkII_ContextMenuInputRoles.png)
 
+Example of square gates sent to output 1 (output modifier ratio set to **x3**) inside 7.5V amplitude range, offset defined at -2V. Output 8is  sending the module's master phase (BPM 120), as unipolar 0V/+10V sawtooth:
+
+![](doc/images/KlokSpidMkII_SquarePulse_x3_Phase8.png)
+
 ----
 
 ## **FroeZe & FroeZe-X modules**
