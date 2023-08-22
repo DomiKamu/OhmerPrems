@@ -18,7 +18,7 @@ This module (in development) will be entirely free, because it will replace 2017
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
-Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or by touchscreen-like (left mouse clicks over menus on main display).
+Please notice the menu system is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or by touchscreen-like (left mouse clicks over menus items/boxes, on display).
 
 Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using module's contextual menu (right mouse click anywhere over module):
 
