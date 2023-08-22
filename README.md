@@ -28,7 +28,7 @@ Example of square gates sent to output 1 - its output modifier ratio is set to *
 
 ![](doc/images/KlokSpidMkII_SquarePulse_x3_Phase8.png)
 
-Please notice the display shows basic waveform choice, from first page. All icons (Pulse, Triangle, Sin, S&H) are animated.
+Please notice the display shows basic waveform choice, it's the first page of 3 (pages 2 and 3 are for - future - wavetables). All icons below "Pulse", "Triangle", "Sin", and "S&H" labels in clickable boxes, are animated (showing what the morph is doing) ;)
 
 ----
 
