@@ -28,6 +28,8 @@ Example of square gates sent to output 1 - its output modifier ratio is set to *
 
 ![](doc/images/KlokSpidMkII_SquarePulse_x3_Phase8.png)
 
+Please notice the display shows basic waveform choice, from first page. All icons (Pulse, Triangle, Sin, S&H) are animated.
+
 ----
 
 ## **FroeZe & FroeZe-X modules**
