@@ -22,7 +22,7 @@ Please notice the menu system is using either "continuous encoder + SET (blue) b
 
 Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using module's contextual menu (right mouse click anywhere over module):
 
-![](doc/images/KlokSpidMkII_ContextMenuInpRoles2.png)
+![](doc/images/KlokSpidMkII_ContextMenuInputRoles.png)
 
 ----
 
