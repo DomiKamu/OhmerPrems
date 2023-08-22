@@ -24,7 +24,7 @@ Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using modu
 
 ![](doc/images/KlokSpidMkII_ContextMenuInputRoles.png)
 
-Example of square gates sent to output 1 (output modifier ratio set to **x3**, *P-Width* set to 50% by CV6 to obtain square waveform) inside 7.5V *Amplitude* range (CV7), *V-Offset* sed at -2V by CV8. Output 8 is sending the module's master phase (BPM 120, as unipolar 0V/+10V sawtooth):
+Example of square gates sent to output 1 - its output modifier ratio is set to **x3**, *P-Width* for pulse width is set to 50% (by CV6) to obtain square waveform inside 7.5V *Amplitude* range (by CV7), *V-Offset* sed at -2V (by CV8). Output 8 is sending the module's master phase (BPM 120, as unipolar 0V/+10V sawtooth) while clock is running. Inputs: "RUN" is assigned as run/stop toggle, "CV3" is assigned as "RESET" input (incoming pulses reset all phases). CV6 and CV7 as unipolar 0V/+10V CV inputs, CV8 as bipolar -5V/+5V CV input:
 
 ![](doc/images/KlokSpidMkII_SquarePulse_x3_Phase8.png)
 
