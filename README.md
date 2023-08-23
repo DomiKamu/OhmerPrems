@@ -28,7 +28,12 @@ Example of square pulses (or gates) sent to output 1 - its output ratio is set t
 
 ![](doc/images/KlokSpidMkII_SquarePulse_x3_Phase8.png)
 
-Please notice the module's main screen (touchscreen) above shows basic waveform selection for current selected output (here's output 1, as indicated into top-left box). All icons below "Pulse", "Triangle", "Sin", and "S&H" labels (into clickable boxes), are **animated** by showing what the morph is doing on each waveform. ;)
+Please notice the module's main screen (touchscreen) above shows basic waveform selection for current selected output (here is output 1, as indicated into top-left box). All icons below "PULSE", "TRIANGLE", "SIN", and "S&H" cyan labels (into clickable boxes), are **animated** (by showing what the P-width/Tilt/Deform/Density/Morph can do on relevant waveform).
+
+
+Example of S&H (sample and hold) sent to output 1 - its output ratio is set to BPM **x1** (set from *Modifier* submenu, visible here), *Density* is set by unipolar 0V/+10V "CV5" input, voltage amplitude is 5V (controlled by unipolar 0V/+10V "CV6" input), bipolar (min and max voltages are spread around voltage offset, instead of above offset when unipolar), voltage offset is +2V (controlled by bipolar -5V/+5V "CV7"). By this way, sample voltages are inside -0.5V/+4.5V range. Phase shift (controlled by "CV8") is ignored for S&H waveforms.
+
+![](doc/images/KlokSpidMkII_Model1_SH.png)
 
 ----
 
