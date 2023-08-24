@@ -38,6 +38,9 @@ Below, another example of **25% tilted triangle** waveform, sent to output 2 - o
 
 ![](doc/images/KlokSpidMkII_Model2_25pct_Tilted_Triangle.png)
 
+Finally, below they're all basic waveforms (square pulse, isosceles triangle, half sinus and sample & hold) respectively to outputs 1, 2, 3 and 4, all morphed to 50% (by using same CV source):
+
+![](doc/images/KlokSpidMkII_Model5_50pct_Morph_AllBasic.png)
 
 ----
 
