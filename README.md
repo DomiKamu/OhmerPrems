@@ -30,10 +30,14 @@ Example of square pulses (or gates) sent to output 1 - its output ratio is set t
 
 Please notice the module's main screen (touchscreen) above shows basic waveform selection for current selected output (here is output 1, as indicated into top-left box). All icons below "PULSE", "TRIANGLE", "SIN", and "S&H" cyan labels (into clickable boxes), are **animated** (by showing what the P-width/Tilt/Deform/Density/Morph can do on relevant waveform).
 
-
-Below an example of S&H (sample and hold) waveform sent to output 1 - its output ratio is set to BPM **x1** (set from *Modifier* menu, visible here), *Density* (replaces *P-Width* due to context) is set by unipolar 0V/+10V "CV5" input, voltage amplitude is set to 5V (controlled by unipolar 0V/+10V "CV6" input), bipolar enabled (in this case, min. and max. voltages are spread around *V-Offset*, instead of above offset when bipolar is disable), voltage offset is set to +2V (controlled by bipolar -5V/+5V "CV7" input). By this way, sample voltages stay inside -0.5V/+4.5V range (5V amplitude around +2V offset). Phase shift (controlled by "CV8" input) is ignored for S&H waveforms (in this output-related menu - output 1, *Phase* menu item is grayed and can't be selected).
+Below an example of S&H (sample and hold) waveform, sent to output 1 - its output ratio is set to BPM **x1** (set from *Modifier* menu, visible here), *Density* (replaces *P-Width*, due to S&H waveform context) is set by unipolar 0V/+10V "CV5" input, voltage amplitude is set to 5V (controlled by unipolar 0V/+10V "CV6" input), bipolar enabled (in this case, min. and max. voltages are spread around *V-Offset*, instead of above offset when bipolar is disable), voltage offset is set to +2V (controlled by bipolar -5V/+5V "CV7" input). By this way, sample voltages stay inside -0.5V/+4.5V range (5V amplitude around +2V offset). Phase shift (controlled by "CV8" input) is ignored for S&H waveforms (in this output-related menu - output 1, *Phase* menu item is grayed and can't be selected).
 
 ![](doc/images/KlokSpidMkII_Model1_SH.png)
+
+Below another example of **25% tilted triangle** waveform, sent to output 2 - its output ratio is set to BPM **/2**. *Tilt* (third menu item replaces *P-With*, due to triangle waveform context) is set by unipolar 0V/10V "CV5" input (base tilt parameter is user-defined to 0, here a constant +0.25V is applied on CV5 input, who set the traingle's *Tilt* parameter to 25%) - for triangle waveforms, by setting 0% (either defined by user, possibily modulated by one or many CV sources), this will output a ramp down signal (right triangle shape). By setting tilt to 100%, this will generate a ramp up signal (right triangle shape, too). By setting 50%, this will generate a perfect (isosceles) triangle.
+
+![](doc/images/KlokSpidMkII_Model2_25pct_Tilted_Triangle.png)
+
 
 ----
 
