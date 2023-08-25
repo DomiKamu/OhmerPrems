@@ -38,9 +38,11 @@ Below, another example of **25% tilted triangle** waveform, sent to output 2 - o
 
 ![](doc/images/KlokSpidMkII_Model2_25pct_Tilted_Triangle.png)
 
-Finally, below they're all basic waveforms at the same time: square pulse to output 1, isosceles triangle to output 2, half sine to output 3, and sample & hold to output 4. All of these waveforms are morphed to 50% (by using 0% as used-defined morph parameter, then modulated by same unipolar CV source):
+Finally, below they're all basic waveforms at the same time: square **pulse** to output 1, isosceles **triangle** to output 2, half **sine** to output 3, and 32-sample density **sample & hold** to output 4. All of these waveforms are "morphed" to 50% (by using 0% as used-defined morph parameter, then modulated by same unipolar CV source):
 
 ![](doc/images/KlokSpidMkII_Model5_50pct_Morph_AllBasic.png)
+
+Morphed mentions **P-Width** (pulse width) for pulses, **Tilt** for triangles, **Deform** for sines, **Density** for S&H, and **Morph** for wavetables.
 
 ----
 
