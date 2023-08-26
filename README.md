@@ -110,7 +110,7 @@ All six models (aka GUI themes, identical to FroeZe/FroeZe-X, and KordZ modules)
 
 ![](doc/images/QuadPercs_All_Models.png)
 
-Depending **Use dark panels if available** global Rack's option, the default model will be _Creamy_ if this option is disabled, or _Absolute Night_ if this option is enabled, from module browser and new instanciation.
+Depending **Use dark panels if available** global Rack's option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, from module browser and new instanciation (when you add the module in rack, as new module).
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
