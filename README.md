@@ -52,7 +52,7 @@ Please consider a set of tutorial videos is under consideration, but coming late
 
 [Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING FREE USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
 
-Below this is the _Classic_ (default) model - as presented from Rack's module browser. Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
+Below this is the _Creamy_ model - as presented from Rack's module browser (_Absolute Night_ is presented, instead of _Creamy_, if **Use dark panels if available** option is enabled from **View** menu). Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
 
 ![](doc/images/FroeZe_Header.png)
 
@@ -80,7 +80,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - left mouse c
 - Top of display: left click to name or rename the current (displayed) pattern. An OSD indicates instructions, please follow them carefully!
 - Top of display: right click on pattern name blanks the pattern name, and enters pattern name edit.
 - While you name a pattern simply press **Esc** or **Enter** key (main or keypad), or just move the mouse cursor outside the edit box to finish!
-- For models having **brightness displays** (all, except _Classic_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near bottom-left screw - toggles bright/dim all displays, including displays on attached expanders!
+- For models having **brightness displays** (all, except _Creamy_ and _Stage Repro_), left mouse click on the **Ohmer logo** (it's a hotspot) near bottom-left screw - toggles bright/dim all displays, including displays on attached expanders!
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
 - AC track accepts only silence or accent event (to accent/mark all note events located into same step/column).
 - SWING input port applies a global swing (all instrument tracks) on even steps. 50% is meaning no swing. Max is 75% (dotted 16th followed by 32th).
@@ -106,9 +106,11 @@ More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
 
 ## **QuadPercs module**
 
-All six models (aka GUI themes, identical to FroeZe/FroeZe-X, and KordZ modules): Classic beige, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", and Carbon "Signature":
+All six models (aka GUI themes, identical to FroeZe/FroeZe-X, and KordZ modules): Creamy, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", and Carbon "Signature":
 
 ![](doc/images/QuadPercs_All_Models.png)
+
+Depending **Use dark panels if available** global Rack's option, the default model will be _Creamy_ if this option is disabled, or _Absolute Night_ if this option is enabled, from module browser and new instanciation.
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
@@ -146,17 +148,17 @@ QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited to max. 
 
 ## **KordZ module**
 
-All six models (aka GUI themes, same than FroeZe/FroeZe-X, and QuadPercs modules), reduced room brightness:
+All six models (aka GUI themes, same than QuadPercs modules), reduced room brightness:
 
 ![](doc/images/KordZ_All_Models.png)
 
 [**VIDEO**: KordZ module in action (monophonic track) from Bitwig Studio 4 (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=o6k0_MPDk3Y)
 
-Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (sometimes named _Night mode_):
+Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (often named _Night mode_):
 
 ![](doc/images/QuadPercs_Dark_Room.png)
 
-You can notice the *Absolute Night* model is the lone embedding a yellow backligth dot-matrix display (DMD). "Signature"-line luxury models (Dark "Signature", Deepblue "Signature" and Carbon "Signature") are using plasma-gas dot-matrix display (DMD) instead of LCD, visible in dark room/night. The first two models, "Classic" and "Stage Repro", use a standard LCD-based without backlight, by this way, they're not visible by night!
+You can notice the _Absolute Night_ model is the lone embedding a yellow backligth dot-matrix display (DMD). "Signature"-line luxury models (Dark "Signature", Deepblue "Signature" and Titanium "Signature") are using plasma-gas dot-matrix display (DMD) instead of LCD, visible in dark room/night. The first two models, _Creamy_ and _Stage Repro_, use a standard LCD-based without backlight (by this way, they're not visible by night!).
 
 The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%):
 
