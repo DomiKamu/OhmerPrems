@@ -34,7 +34,7 @@ Below, another example by using S&H (sample and hold) waveform, sent to output 1
 
 ![](doc/images/KlokSpidMkII_Model1_SH.png)
 
-Below, another example of **25% tilted triangle** waveform, sent to output 2 - output ratio is set to BPM **/2** (visible in top left box). *Tilt* parameter (third menu item replaces *P-With* and *Density* seen above, due to triangle waveform context) is set by unipolar 0V/10V "CV5" input (tilt parameter is user-defined to default 0%, here is a constant +0.25V applied on "CV5" input, who set the triangle's *Tilt* parameter to 25%, instead), the result shape is visible on VCV Scope module. For triangle waveform, by setting *Tilt* parameter to 0% (either defined by user, and possibily modulated by one or many CV sources), this will output a **sawtooth down** signal (right-angled triangle). By setting *Tilt* parameter to 100%, this will generate a **sawtooth up** signal, instead (right-angled triangle too). By setting *Tilt* parameter to 50%, this will generate a **perfect isosceles triangle**. And so on... In this example, *Amplitude* is set to (default) 10V, *V-Offset* is set to (default) 0V, "bipolar around offset" is enabled, by this way, generated voltages by this triangle waveform always stay inside -5V/+5V range.
+Below, another example of **25% tilted triangle** waveform, sent to output 2 - output ratio is set to BPM **/2** (visible in top left box). *Tilt* parameter (third menu item replaces *P-With* and *Density* seen above, due to triangle waveform context) is set by unipolar 0V/10V "CV5" input (tilt parameter is user-defined to default 0%, here is a constant +0.25V applied on "CV5" input, who set the triangle's *Tilt* parameter to 25%, instead), the result shape is visible on VCV Scope module, the upper edge of triangle (maximum height) is at 25% of the lower vertice. For triangle waveform, by setting *Tilt* parameter to 0% (either defined by user, and possibily modulated by one or many CV sources), this will output a **sawtooth down** signal (right-angled triangle). By setting *Tilt* parameter to 100%, this will generate a **sawtooth up** signal, instead (right-angled triangle too). By setting *Tilt* parameter to 50%, this will generate a **perfect isosceles triangle**. And so on... In this example, *Amplitude* is set to (default) 10V, *V-Offset* is set to (default) 0V, "bipolar around offset" is enabled, by this way, generated voltages by this triangle waveform always stay inside -5V/+5V range.
 
 ![](doc/images/KlokSpidMkII_Model2_25pct_Tilted_Triangle.png)
 
@@ -42,7 +42,7 @@ Finally, below they're all basic waveforms at the same time: square **pulse** to
 
 ![](doc/images/KlokSpidMkII_Model5_50pct_Morph_AllBasic.png)
 
-Morphed term mentions **P-Width** (pulse width) for pulses, **Tilt** for triangles, **Deform** for sines, **Density** for sample & hold, and **Morph** for wavetables (aka frame index in wavetable).
+*Morphed* term mentions **P-Width** (pulse width) for pulses, **Tilt** for triangles (upper edge of triangle "moves" left or right in graphical representation), **Deform** for second half sines, **Density** for sample & hold, and **Morph** for wavetables (aka "frame index" inside wavetable).
 
 ----
 
