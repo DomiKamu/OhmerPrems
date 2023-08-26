@@ -42,9 +42,9 @@ Finally, below they're all basic waveforms at the same time: square **pulse** to
 
 ![](doc/images/KlokSpidMkII_Model5_50pct_Morph_AllBasic.png)
 
-*Morphed* term mentions **P-Width** (pulse width) for pulses, **Tilt** for triangles (upper edge of triangle "moves" left or right in graphical representation), **Deform** for second half sines, **Density** for sample & hold, and **Morph** for wavetables (aka "frame index" inside wavetable).
+*Morphed* term used above mentions either **P-Width** (pulse width) for pulses, **Tilt** for triangles (upper edge of triangle "moves" left or right in graphical representation), **Deform** for second half sines, **Density** for sample & hold (number of sample per "BPM x ratio" ticks, from 1 upto 64), and **Morph** for wavetables (aka "frame index" inside wavetable).
 
-Like other OhmerPrems modules, KlokSpid MkII comes in six models (GUI theme variations):
+Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI theme variations):
 - _Aluminium_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
@@ -110,15 +110,23 @@ FroeZe-X expander:
 
 More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
 
+Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme variations):
+- _Creamy_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
+- _Stage Repro_
+- _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
+- _Dark "Signature"_
+- _Fort Knox "Signature"_
+- _Titanium "Signature"_
+
 ----
 
 ## **QuadPercs module**
 
-All six models (aka GUI themes, identical to FroeZe/FroeZe-X, and KordZ modules): Creamy, Stage Repro, Absolute Night, Absolute Night (bypassed), Dark "Signature", Deepblue "Signature", and Carbon "Signature":
+All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
 ![](doc/images/QuadPercs_All_Models.png)
 
-Depending **Use dark panels if available** global Rack's option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, from module browser and new instanciation (when you add the module in rack, as new module).
+Depending **Use dark panels if available** global Rack's option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, either from module browser and new instanciation (when you bring the module in rack, as new module).
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
@@ -152,6 +160,14 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 
 QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
 
+Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI theme variations):
+- _Creamy_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
+- _Stage Repro_
+- _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
+- _Dark "Signature"_
+- _Deepblue "Signature"_
+- _Titanium "Signature"_
+
 ----
 
 ## **KordZ module**
@@ -171,6 +187,14 @@ You can notice the _Absolute Night_ model is the lone embedding a yellow backlig
 The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%):
 
 ![](doc/images/KordZ_Dark_Room.png)
+
+Like other Ohmer and OhmerPrems modules, Kord comes in six models (GUI theme variations):
+- _Creamy_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
+- _Stage Repro_
+- _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
+- _Dark "Signature"_
+- _Deepblue "Signature"_
+- _Titanium "Signature"_
 
 ----
 
