@@ -4,7 +4,9 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - Totally free, all features for everyone (including non-OhmerPrems members!).
 
-- A "CPU-controlled"-like clock generator (standalone), or clock modulator (slave mode, when CLK input is patched to another clocking source).
+- A "CPU-controlled"-like clock generator (standalone), or clock modulator (slave mode, when CLK input is patched to another clocking source), including a main touchscreen-like display, plus an info display below the continuous encoder.
+
+- RGB LEDs (all LEDs).
 
 - Up to 8 independent outputs. By default, outputs 1-4 are active (pulse 1ms, amplitude 10V, offset 0V, amplitude above offset, in-phase, BPM x1 ratio). Outputs 5-8 are turned off (RED LEDs) to save CPU, can be turned on as your needs (via touchscreen **Select Output** menu, then output # clickable box, then **Modifier** menu item).
 
