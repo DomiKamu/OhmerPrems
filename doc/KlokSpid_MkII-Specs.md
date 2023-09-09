@@ -1,6 +1,8 @@
 **KLOKSPID MKII MODULE SPECIFICATIONS**
 
-This **16HP** versatile clock source, named **KlokSpid MkII**, as successor of 2017 KlokSpid module from free Ohmer plugin. This module is:
+This **16HP** versatile clock source, named **KlokSpid MkII**, will be the successor of _2017 KlokSpid_ module (from Ohmer free plugin). This module is:
+
+- Totally free, all feature, for everyone (even non-OhmerPrems members).
 
 - Clock generator, clock modulator (slave mode, when CLK input is patched to another clocking source).
 
@@ -28,6 +30,4 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, as successor of 2
 
 - An option permits to output the module's master phase to output 8 (ramp up signal shape, 0V to +10V, based on master tempo - clock / slave BPM). May be useful for rack debugging features, time reference...
 
-- Six models (GUI theme variations) like most Ohmer & OhmerPrems modules. Compliant with **Prefer dark panels if available** feature (from **View** menu - since VCV Rack v2.4.0).
-
-This module is absolutely free for everyone (even for non-OhmerPrems members).
+- Six models (GUI theme variations) like most Ohmer & OhmerPrems modules. Compliant with **Prefer dark panels if available** feature (from **View** menu - since VCV Rack v2.4.0). Available models are **Aluminium** (default if _Prefer dark panels_ option is disabled), **Stage Repro**, **Absolute Night** (default if _Prefer dark panels_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
