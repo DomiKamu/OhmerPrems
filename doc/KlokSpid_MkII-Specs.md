@@ -18,13 +18,13 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - Controllable either by continuous encoder + "SET" (blue) button + "Cancel" button combo, and by touchscreen! some controls (like page arrows) are usable by touchscreen only.
 
-- On displays, colorscheme is simple: cyan = selectable item. Yellow = current selection/active menu item/box. Gray = disabled item.
+- On displays, colorscheme is simple: cyan = selectable item. Yellow = current selection/active menu item/box, editing BPM, editing slave mode... Gray = disabled item (locked).
 
 - As master clock, possible BPM is from 1 upto 900 (under consideration to increase, by using **frequency in Hz** beyond BPM 900). Can be set by encoder only.
 
 - HINT: while modifying the clock BPM (by using the continuous encoder), doing a right mouse click on yellow indicated BPM returns to default BPM 120. While editing the clock BPM (or the slave mode), the parameter is automatically saved after 3-second timeout (auto-validation delay can be changed from **Global Settings** menu).
 
-- As slave clock, possible sync modes are by received **pulse** trains on CLK input jack, by **PPQN** (unfortunately not stable/jitters on Windows rigs with USB audio interfaces), or by **BPM CV** (compatible behind Impromptu's CLOCKED module, who provide this feature!).
+- As slave clock, possible sync modes are by received **pulse** trains on CLK input jack, by **PPQN** (unfortunately not stable/jitters on Windows rigs with USB audio interfaces), or by **BPM CV** (compatible behind Impromptu's CLOCKED module, who provide this feature!). Max
 
 - 86 pre-built ratios, including exotic/even/prime/non-integer dividers/multipliers, from slowest **/16384**, upto fastest **x128**. These pre-built ratios can be picked - in realtime - by any valid CV source.
 
@@ -37,5 +37,13 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 - Before output the voltage to relevant jack, it may crosses (bypassable) **Euclidean sequencer** (user-defined settings, and CV controllable), then (bypassable) pitch-based **Quantizer** (however, notes on/off aren't CV controllable). Either the clock (transport) is running, or stopped!
 
 - An option from context menu permits to output the module's master phase to output 8 (ramp up signal shape, 0V to +10V, based on master tempo - clock / slave BPM). May be useful for rack debugging features, time reference in your rack...
+
+- Transport (START/STOP) - LED is off while clock is stopped. LED is red while clock is running, controlled by button on module's chassis. LED is cyan while clock is running, controlled by RUN input.
+
+- RUN input: when set as **HI-GATE** (default setting), the clock runs while a high gate voltage is applied on RUN input jack. When set as **RUN/STOP**, the input acts as transport toggle, everytime the jack receives a pulse (trigger), at least +0.2V rising front.
+
+- RESET input: when the CV3 input is set as **RESET**, incoming +0.2V (rising front) will reset the master module's phase, and all eight output phases, often named phase reset, or phase realignment.
+
+- **UNDER CONSIDERATION:** a lot of "shortcuts" by mouse click on **input-related LED**, or **output-related LED**: for input LED, left click over will select the relevant input (it becomes the current input - for parameters editing), then bring the configuration page. For output LED, left click over will select the relevant output (it becomes the current output - for papameters editing), then open the output base menu (or perhaps the equivalent menu, when applicable). On the same way, **right mouse click** will display... scope for relevant input or output!
 
 - Six models (GUI theme variations) - like most Ohmer & OhmerPrems modules - are available (_Model_, from context menu, to select another one). Compliant with **Prefer dark panels if available** feature (from **View** menu - since VCV Rack 2 v2.4.0). Possible models are **Aluminium** (default if _Prefer dark panels if available_ global option is disabled), **Stage Repro**, **Absolute Night** (default if _Prefer dark panels if available_ global option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
