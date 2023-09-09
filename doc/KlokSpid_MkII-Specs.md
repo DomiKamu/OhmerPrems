@@ -6,8 +6,6 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - "CPU-controlled"-like versatif clock generator (standalone), or clock modulator (slave mode, when CLK input is patched to another clocking source), including a main touchscreen-like display, plus an info display below the continuous encoder, usable as low-frequency oscillator (LFO), BPM-based envelope generator, optional (per-output) euclidean rhythms, and optional pitch quantizer.
 
-- All embedded LED on module's chassis are RGB.
-
 - 8 independent outputs. Please notice by default (when you add a new instance of KlokSpid MkII module in your rack), only outputs 1 to 4 are active (default setting is pulse 1ms, amplitude 10V, offset 0V, amplitude above offset, in-phase, x1 ratio modifier). Outputs 5 to 8 have their LED lit as red, meaning they're turned off / disabled, in order to save CPU/resources. Of course, any output you want can be turned on (depending your needs) via touchscreen **Select Output** menu, then output # clickable box (the selected output becomes current for further parameters edits), then **Modifier** menu item. By using mouse (click on left or right arrow, top right side of display, to select previous/next page) or encoder/buttons, you can select another modifier for related output.
 
 - For any output, it's existing special modifiers, named **utility modifiers**, such **GATE** who send constant +5V or +10V high-state gate while the clock is running (or 0V when stopped), **START** who send (once) a short 1ms +5V or +10V pulse (trigger) as soon as the clock starts), **STOP** who send (once) a short 1ms +5V or +10V pulse (trigger) as soon as the clock is stopped. These utility modifiers may be useful to control external modules. As indicated above, **OFF** simply shutdowns the output - it outputs 0V, constantly, all internal processings are bypassed. About clocking modules, major usages are 1 to 4 outputs, rarely more, it's the reason why the extra outputs 5-8 are natively disabled!
@@ -18,7 +16,7 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - The module can be controlled either by continuous encoder + **SET** (blue) button + **Cancel** button _"combo"_, and by touchscreen! However, some controls (like page arrows) are usable only by touchscreen.
 
-- On displays, colorscheme is simple: cyan = selectable item. Yellow = current selection/active menu item/box, editing BPM, editing slave mode... Gray = disabled item (locked).
+- On displays, colorscheme is: cyan = selectable item. Yellow = current selection/active menu item/box, editing BPM, editing slave mode... Gray = disabled item (locked).
 
 - As master clock, possible BPM is from 1 upto 900 (under consideration to increase, by using **frequency in Hz** beyond BPM 900). Can be set by encoder only.
 
@@ -38,15 +36,15 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - An option from context menu permits to output the module's master phase to output 8 (ramp up signal shape, 0V to +10V, based on master tempo - clock / slave BPM). May be useful for rack debugging features, time reference in your rack... When you enable this option, the previous output settings are saved, then restored when you disable this option.
 
-- Transport (START/STOP) - LED is off while clock is stopped. LED is red while clock is running, controlled by button on module's chassis. LED is cyan while clock is running, controlled by RUN input.
-
 - RUN input: when set as **HI-GATE** (default setting), the clock runs while a high gate voltage is applied on RUN input jack. When set as **RUN/STOP**, the input acts as transport toggle, everytime the jack receives a pulse (trigger), at least +0.2V rising front.
 
 - RESET input: when the CV3 input is set as **RESET**, incoming +0.2V (rising front) pulse/gate will reset the main (master) module's phase, also all eight dedicated output phases.
 
-- **UNDER CONSIDERATION:** a lot of "shortcuts" - by mouse clicking on **input-related LED** or **output-related LED**: for input LED, left click over will select the relevant input (it becomes the current input, for further parameters edit), then bring the configuration page. For output LED, left click over will select the relevant output (it becomes the current output, for further parameters edit), then open the output base menu. On the same way, **right mouse click** will display... voltage scope for relevant input or output!
+- All embedded LED on module's chassis are RGB.
 
-- Input LED color scheme: cyan for pulses (triggers) / gates based inputs (CLK, RUN, and RESET). Green for CV-compliant voltages (in range), red if under-/over-voltage (outside range). Yellow for CLK only if set as BPM CV.
+- Transport (START/STOP button) - LED is **off** when clock is stopped. LED is **green** while clock is running and controlled by button on module's chassis. LED is **cyan** while clock is running and controlled by "RUN" input jack (either via held gate, or toggled by incoming pulses). LED is **red** while module is slave, during sync against mother clocking module (during sync operation, KlokSpid MkII uses "last registered/known BPM/frequency", during this degraded situation).
+
+- Input LED color scheme: **cyan** for pulses/gates based inputs (CLK, RUN, and CV3 as RESET). **Gradual green** for CV-compliant voltage. **Red** in case of undervoltage/overvoltage (in this case, the voltage is limited/clipped to min or max allowed value, regardling CV polarity setting). **Yellow** for CLK input, if slave mode and set as "BPM CV" only.
 
 - Output LED color scheme: red if output is disabled (its modifier is set to "OFF"). Gradient green for regular output usage. Cyan for service voltage (its modifier is set to an "utility", like GATE, START, or STOP). Gradient purple (concerns output 8 only) if output 8 sends the master phase (the PHASE).
 
@@ -55,3 +53,5 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 - All settings for current output can be "restored to default factory" (other outputs aren't affected). BE CAREFUL - **Initialize** command from module's context menu (or Ctrl+I, or Command+I on Mac platforms) will reset the module entirely (full reset).
 
 - Six models (GUI theme variations) - like most Ohmer & OhmerPrems modules - are available (_Model_, from context menu, to select another one). Compliant with **Prefer dark panels if available** feature (from **View** menu - since VCV Rack 2 v2.4.0). Possible models are **Aluminium** (default if _Prefer dark panels if available_ global option is disabled), **Stage Repro**, **Absolute Night** (default if _Prefer dark panels if available_ global option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
+
+- **UNDER CONSIDERATION:** a lot of "shortcuts" - by mouse clicking on **input-related LED** or **output-related LED**: for input LED, left click over will select the relevant input (it becomes the current input, for further parameters edit), then bring the configuration page. For output LED, left click over will select the relevant output (it becomes the current output, for further parameters edit), then open the output base menu. On the same way, **right mouse click** will display... voltage scope for relevant input or output!
