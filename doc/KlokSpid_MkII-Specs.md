@@ -22,11 +22,15 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - HINT: while modifying the clock BPM (by using the continuous encoder), doing a right mouse click on yellow indicated BPM returns to default BPM 120. While editing the clock BPM (or the slave mode), the parameter is automatically saved after 3-second timeout (auto-validation delay can be changed from **Global Settings** menu).
 
-- As slave clock, possible sync modes are by received **pulse** trains on CLK input jack, by **PPQN** (unfortunately not stable/jitters on Windows rigs with USB audio interfaces), or by **BPM CV** (compatible behind Impromptu's CLOCKED module, who provide this feature!). Max
+- As slave clock, possible sync modes are by received **pulse** trains on CLK input jack, by **PPQN** (unfortunately not stable/jitters on Windows rigs with USB audio interfaces), or by **BPM CV** (compatible behind Impromptu's CLOCKED module, who provide this feature!).
 
-- 86 pre-built ratios, including exotic/even/prime/non-integer dividers/multipliers, from slowest **/16384**, upto fastest **x128**. These pre-built ratios can be picked - in realtime - by any valid CV source.
+- A lot of pre-built ratios (86 exactly), including many exotic/even/prime/non-integer dividers and multipliers, from slowest **/16384** (KlokSpid MkII becomes a very slow LFO, @ BPM 1, beat will occur every... 273 hours and 4 minutes), upto fastest **x128**. These pre-built ratios can be picked - in realtime - by any valid CV source.
 
 - CV input can be manually set as **bipolar -5V/+5V** (it's the default setting for all CV inputs for this module), or optionally set as **unipolar 0V/10V**, depending your needs, via input on-screen menu (Select Input, choose the relevant input by clicking its box). CV1-CV3 also can be changed "on-the-fly" via context menu (INPUT ROLES section).
+
+- For some parameters who can be modulated by CV, in case of input isn't set-up as CV source, this will be notified as red color on display. As example, if you select "CV1" (indicated as "CLK") to modulate Amplitude parameter, the "CLK" checkbox is red (and the CV indicator at top-right of display indicates **red blinking "Not a CV"** message). Simply set "CLK" role to become "CV1" (either bipolar -5V/+5V, or unipolar 0V/+10V, depending the source and your needs), otherwise use another CV input.
+
+**KlokSpid MkII can't use multiple CV sources to modulate an output-specific parameter.**
 
 - Output voltage supports customizable **Amplitude** setting (minimum 0.2V, maximum 10V), this setting can be modulated by any CV source. An option (via context menu, MISCELLANEOUS section) permits to force the amplitude to 20V (-10V/+10V range) for the current (selected) output - in this case, original settings are kept, but CV becomes useless on this output parameter.
 
