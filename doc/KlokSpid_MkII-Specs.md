@@ -44,7 +44,7 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - RESET input: when the CV3 input is set as **RESET**, incoming +0.2V (rising front) pulse/gate will reset the main (master) module's phase, also all eight dedicated output phases.
 
-- All embedded LED on module's chassis are RGB.
+- All embedded LED on module's chassis are RGB. Input and output LED are clickable (like momentary buttons) to access directly to related-input or output setting. It's a kind of shortcut.
 
 - Transport (START/STOP button) - LED is **off** when clock is stopped. LED is **green** while clock is running and controlled by button on module's chassis. LED is **cyan** while clock is running and controlled by "RUN" input jack (either via held gate, or toggled by incoming pulses). LED is **red** while module is slave, during sync against mother clocking module (during sync operation, KlokSpid MkII uses "last registered/known BPM/frequency", during this degraded situation).
 
@@ -57,5 +57,3 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 - All settings for current output can be "restored to default factory" (other outputs aren't affected). BE CAREFUL - **Initialize** command from module's context menu (or Ctrl+I, or Command+I on Mac platforms) will reset the module entirely (full reset).
 
 - Six models (GUI theme variations) - like most Ohmer & OhmerPrems modules - are available (_Model_, from context menu, to select another one). Compliant with **Prefer dark panels if available** feature (from **View** menu - since VCV Rack 2 v2.4.0). Possible models are **Aluminium** (default if _Prefer dark panels if available_ global option is disabled), **Stage Repro**, **Absolute Night** (default if _Prefer dark panels if available_ global option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
-
-- **UNDER CONSIDERATION:** a lot of "shortcuts" - by mouse clicking on **input-related LED** or **output-related LED**: for input LED, left click over will select the relevant input (it becomes the current input, for further parameters edit), then bring the configuration page. For output LED, left click over will select the relevant output (it becomes the current output, for further parameters edit), then open the output base menu. On the same way, **right mouse click** will display... voltage scope for relevant input or output!
