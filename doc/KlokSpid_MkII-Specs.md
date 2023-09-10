@@ -20,9 +20,9 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - As master clock, possible BPM is from 1 upto 900 (under consideration to increase, by using **frequency in Hz** beyond BPM 900). Can be set by encoder moves + SET + Cancel/Exit only.
 
-- HINT: while modifying the clock BPM (by using the continuous encoder), doing a right mouse click on yellow indicated BPM returns to default BPM 120. While editing the clock BPM (or the slave mode), the parameter is automatically saved after 3-second timeout (auto-validation delay can be changed from **Global Settings** menu).
+- **HINT**: while modifying the clock BPM (by using the continuous encoder), doing a right mouse click on yellow indicated BPM returns to default BPM 120. While editing the clock BPM (or the slave mode), the parameter is automatically saved after 3-second timeout (auto-validation delay can be changed from **Global Settings** menu).
 
-- As slave clock, possible sync modes are by received **pulse** trains on CLK input jack, by **PPQN** (unfortunately not stable/jitters on Windows rigs with USB audio interfaces), or by **BPM CV** (compatible behind Impromptu's CLOCKED module, who provide this feature!).
+- As slave clock, possible sync modes are by received **pulse** trains on CLK input jack, by **PPQN** (unfortunately not stable/jitters on Windows rigs with USB audio interfaces), or by **BPM CV** (compatible behind Impromptu's CLOCKED module, who provide this feature).
 
 - A lot of pre-built ratios (86 exactly), including many exotic/even/prime/non-integer dividers and multipliers, from slowest **/16384** (KlokSpid MkII becomes a very very slow LFO, at BPM 1, beat will occur every... 11 days, 9 hours and 4 minutes!), upto fastest **x128**. These pre-built ratios can be "picked" - in realtime - by any valid CV source. Other ratios are not supported.
 
@@ -32,9 +32,9 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 **KlokSpid MkII can't use multiple CV sources to modulate an output-specific parameter.**
 
-- Output voltage supports customizable **Amplitude** setting (minimum 0.2V, maximum 10V), this setting can be modulated by any CV source. An option (via context menu, MISCELLANEOUS section) permits to force the amplitude to 20V (-10V/+10V range) for the current (selected) output - in this case, original settings are kept, but CV becomes useless on this output parameter.
+- Output voltage supports customizable **Amplitude** setting (minimum 0.2V, maximum 10V, 0.05V stepping), this setting can be modulated by any CV source. An option (via context menu, MISCELLANEOUS section) permits to force the amplitude to 20V (-10V/+10V range) for the current (selected) output - in this case, original settings are kept (but CV modulation is disabled while amplitude is forced to 20V).
 
-- Each output can receive a particular ratio, _'morphable'_ waveform (depending waveform shape, 'morph' have specific alterate name, such _P-Width_ for pulse, _Tilt_ for triangle, _Deform_ for sine, _Density_ for sample & hold, _Attack_ for envelope generators, and _Morph_ for wavetables), voltage amplitude (default 10V), voltage offset (default 0V, amplitude can be above offset or centered around offset), phase shift (from -180° to +180° - except S&H doesn't have phase shift). User-defined (or default) settings may be modulated by any CV source.
+- Each output can receive a particular ratio, _'morphable'_ waveform (depending waveform shape, 'morph' have specific alterate name, such _P-Width_ for pulse, _Tilt_ for triangle, _Deform_ for sine, _Density_ for sample & hold, _Attack_ for envelope generators, and _Morph_ for wavetables), voltage amplitude (default 10V, resolution 0.05V), voltage offset (default 0V, resolution +/-0.05V, amplitude can be above offset - default - or spread around offset, by checking/unchecking **Bipolar around offset** option checkbox), phase shift (from -180° to +180° - except S&H doesn't have phase shift, due to random nature of the signal). Except quantizer, all user-defined / default settings may be modulated by any CV source.
 
 - Before output the voltage to relevant jack, it may crosses (bypassable) **euclidean sequencer** (user-defined settings, all can be modulated by CV), then (bypassable) pitch-based **Quantizer** (not CV controllable at the moment, **perhaps** CV8 for notes rotation down/up). Either the clock (transport) is running, or stopped (when the clock is stopped, output may have a voltage other than 0V, depending V-Offset and pitch quantization).
 
