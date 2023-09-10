@@ -22,7 +22,7 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - **HINT**: while modifying the CLOCK BPM (by using the continuous encoder), doing a right mouse click on yellow indicated BPM returns immediately to **default BPM 120**. While editing the clock BPM (or the Ext CLK slave mode), the parameter is automatically saved after 3-second timeout (auto-validation delay can be changed from **Global Settings** menu).
 
-- As slave clock, possible Ext CLK sync modes are, by received **pulse** trains, by **PPQN** (unfortunately, many jitters on Windows rigs who are using USB audio interfaces), or by **BPM CV** compatible behind [ImpromptuModular CLOCKED]([doc/KlokSpid_MkII-Specs.md](https://github.com/MarcBoule/ImpromptuModular#clocked)), who provide this amazing feature! (merci Marc).
+- As slave clock, possible Ext CLK sync modes are, by received **pulse** trains, by **PPQN** (unfortunately, many jitters on Windows rigs who are using USB audio interfaces), or by **BPM CV** compatible behind [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular#clocked), who provide this amazing feature! (merci Marc).
 
 - A lot of pre-built ratios (86 exactly), including many exotic/even/prime/non-integer dividers and multipliers, from slowest **/16384** (KlokSpid MkII becomes a very very slow LFO, at BPM 1, beat will occur every... 11 days, 9 hours and 4 minutes!), upto fastest **x128**. These pre-built ratios can be "picked" - in realtime - by any valid CV source. Other ratios are not supported.
 
