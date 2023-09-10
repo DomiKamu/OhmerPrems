@@ -44,7 +44,7 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - RESET input: when the CV3 input is set as **RESET**, incoming +0.2V (rising front) pulse/gate will reset the main (master) module's phase, also all eight dedicated output phases.
 
-- All embedded LED on module's chassis are RGB. Input and output LED are clickable (like momentary buttons) to access directly to related-input or output setting. It's a kind of shortcut.
+- All embedded LED on module's chassis are RGB. Input and output LED are "clickable" (like momentary buttons), in order to to access quicly to related-input/output setting, when clicking by left mouse button. Alernatively, by doing a right mouse button click over LED (input or output), this open a scope (Cancel/Exit button to return to previous situation prior scope).
 
 - Transport (START/STOP button) - LED is **off** when clock is stopped. LED is **green** while clock is running and controlled by button on module's chassis. LED is **cyan** while clock is running and controlled by "RUN" input jack (either via held gate, or toggled by incoming pulses). LED is **red** while module is slave, during sync against mother clocking module (during sync operation, KlokSpid MkII uses "last registered/known BPM/frequency", during this degraded situation).
 
