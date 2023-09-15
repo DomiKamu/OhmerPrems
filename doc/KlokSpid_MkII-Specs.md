@@ -1,6 +1,8 @@
 **KLOKSPID MKII MODULE SPECIFICATIONS**
 
-This **16HP** versatile clock source, named **KlokSpid MkII**, will be the successor of _2017 KlokSpid_ module, offered by Ohmer (free / open source) plugin. Typically, this module is:
+This **16HP** versatile clock source, named **KlokSpid MkII**, will be the successor of _2017 KlokSpid_ module, offered by Ohmer (free / open source) plugin (original KlokSpid is staying alive, however).
+
+Typically, KlokSpid MkII is:
 
 - Totally free, all features are available for everyone, including non-OhmerPrems members!
 
@@ -58,7 +60,7 @@ This **16HP** versatile clock source, named **KlokSpid MkII**, will be the succe
 
 - All settings for current output can be erased and restored to "default factory" (other outputs aren't affected), by using **DEFAULT** from output-related menu. BE CAREFUL - **Initialize** command from module's context menu (or Ctrl+I, or Command+I on Mac platforms), or from **Global Settings** menu, will reset the module entirely (full reset), all customizations are lost!
 
-- KlokSpid MkII comes with a little brother, **KX** expander (3HP, left-side module). KX brings discrete CLK, RUN, and RESET pulse/gate-based inputs (like KlokSpid MkII internal can do). But as soon as you place the KX expander along KlokSpid MkII module (left side), internal CLK, RUN and RESET (if applicable) become CV input (all bipolar -5V/+5V), except if these internal inputs was already set as unipolar 0V/+10V. When you disconnect the KX module (by deleting it, or moving it away KlokSpid MkII), the saved settings are immediately restored. Another inputs (bottom of module, below QUANT. label) are **ROT.1** and **ROT.2** inputs. Both can control notes rotations (output-related quantizers). When assigned to a quantizer (or multiple quantizers), by increasing the input voltage (+0.1V steps), the selected notes are moved up (+1 semitone). By decreasing the input voltage (-0.1V steps), all notes are moved down (-1 semitone). However, these voltage variations will be ignored if attached quantizer(s) is/are disabled (aka no enabled note on the piano), or while all notes on the piano are enabled (in this case, note rotation is useless).
+- KlokSpid MkII comes with a little brother, **KX** expander (3HP, left-side module). KX brings discrete CLK, RUN, and RESET pulse/gate-based inputs (like KlokSpid MkII internal can do). But as soon as you place the KX expander along KlokSpid MkII module (left side), internal CLK, RUN and RESET (if applicable) become CV input (all bipolar -5V/+5V), except if these internal inputs was already set as unipolar 0V/+10V, in this case it remains untouched. Another inputs (bottom of module, below "QUANT." label on panel) are **OFS.1** and **OFS.2** inputs. _OFS_ stands for... "offset", more precisely **pre-offset**. Both are discret CV input (bipolar -5V/+5V) exclusively dedicated to output quantizers (one possible quantizer per output). When assigned, OFS CV increase or decrease the voltage prior quantization (but ignored if quantizer is disabled - aka no active note on the "piano"). You can access to OFS.1/OFS.2 assignment page, either by using "KX Expander" menu item from home menu (this menu is hidden while KX expander is away), or by left mouse clicking over OFS.1 or OFS.2 LED.
 
 - From home menu, **View Assign CV Matrix** displays in a grid how CV are affected, for each output. **Green pill** indicates a valid voltage applied on CV input jack, **red pill** indicates undervoltage/overvoltage, **gray pill** indicates used CV but disconnected jack, and **blinking red square** indicates the input is not set as CV (concerns CLK, RUN, and CV3 inputs only).
 
