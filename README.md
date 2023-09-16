@@ -63,7 +63,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 Please consider a set of tutorial videos is under consideration, but coming later...
 
-[Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING FREE USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
+[Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING  USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
 
 Below this is the _Creamy_ model - as presented from Rack's module browser (_Absolute Night_ is presented, instead of _Creamy_, if **Use dark panels if available** option is enabled from **View** menu). Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
 
@@ -163,7 +163,7 @@ This module supports monophonic cables only (because polyphony is never required
 
 Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
-QuadPercs can operate **from 44.1 to 192 kHz** (free version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
+QuadPercs can operate **from 44.1 to 192 kHz** ( version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
 
 Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI theme variations):
 - _Creamy_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -213,7 +213,7 @@ Over **any OhmerPrems module** (for now, Kord or QuadPercs), just do a right-cli
 
 Otherwise, the same grayed menu entry indicates **Free**, followed by limitation type (between brackets).
 
-![](doc/images/OhmerPrems_Free.png)
+![](doc/images/OhmerPrems_Free2.png)
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
