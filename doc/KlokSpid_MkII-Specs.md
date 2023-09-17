@@ -26,7 +26,7 @@ Typically, KlokSpid MkII is:
 
 - As master clock, possible BPM is from 1 upto 900 (equivalent frequency - in Hz - is indicated on touchscreen), but beyond 900 BPM (15Hz), the BPM tempo display is replaced by frequency (in Hz, 0.1Hz stepping upto 25Hz, then 1Hz stepping until 500Hz). **Maximum frequency is 500Hz**. Tempo/frequency can be set by continuous encoder moves + "SET" + "Cancel/Exit" buttons only, when menu system is disabled (home menu is displayed as gray, display below encoder is cyan - press "Cancel/Exit" button if required). When below 900 BPM, the equivalent frequency is always displayed, in Hz, at the bottom-right of touchscreen display. This may be useful to select a BPM but regardling its equivalent frequency in Hz.
 
-[](https://github.com/DomiKamu/OhmerPrems/blob/v2/doc/images/KlokSpid_MkII_Manual_images/MASTER_white_icon.png)
+![](images/KlokSpid_MkII_Manual_images/MASTER_white_icon.png)
 
 - **HINT**: while modifying the CLOCK BPM / Frequency, by turning the continuous encoder, **doing a right mouse click on yellow BPM / Hz readout** returns immediately to default BPM 120 (2Hz). Holding SHIFT key while moving the continuous encoder changes the value faster. While editing the **CLOCK BPM** (or the **Ext CLK** sync mode, when slave), the edited parameter is automatically saved after 3-second timeout (yellow readout returns to cyan color when validated). Auto-validation delay can be changed from **Global Settings** menu (this setting may accept short 1 second, default 3 seconds, or long 5 seconds). By clicking Cancel/Exit button during the edit delay, this will restore the previous registered setting.
 
