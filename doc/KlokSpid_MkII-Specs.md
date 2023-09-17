@@ -32,7 +32,7 @@ Typically, KlokSpid MkII is:
 
 - As slave clock, possible **Ext CLK** sync modes are by received **pulse** trains, by **PPQN** (unfortunately, many unstabilities/jitters are noticed on Windows rigs who are using USB audio interfaces, and VCV's **MIDI-CV** module), or by **BPM CV** to be compatible behind [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular), providing this amazing feature! (merci Marc). **KlokSpid MkII can operates from 1 BPM upto 500Hz** (the frequency is automatically limited to minimum 1 BPM or maximum 500Hz, if required).
 
-![](images/KlokSpid_MkII_Manual_images/PULSES_PPQN_BPM_CV_icons2.png)
+![](images/KlokSpid_MkII_Manual_images/PULSES_PPQN_BPM_CV_slave_icons.png)
 
 - A lot of pre-built ratios (exactly 86 pre-defined ratios, to be precise), including many **exotic/even/prime/non-integer** and **most common** dividers and multipliers, from slowest **/16384** (by using this ratio modifier, KlokSpid MkII becomes a extremely slow LFO: at BPM 1, beat will occur every... 11 days, 9 hours, and 4 minutes), upto fastest **x128** who can enter into full audio domain! These pre-built ratios can be "picked" - in realtime - by any valid CV source, thanks to **CV Ratio** modifier (from **Modifier** output menu, lastest page). Please consider custom ratios aren't supported by KlokSpid MkII module. Please notice by using high multipliers, the related outputs hosting the multiplier may enter into the **full audio domain** (no 500Hz limitation), it's a possible way to use KlokSpid MkII as oscillator!
 
