@@ -8,7 +8,7 @@ Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 - COMING SOON: **FroeZe-SX** is a **left-side** expander module for FroeZe sequencer. It brings 15 additional CV inputs (for each track) as track-based SWING. NOTE: by using it, the in-build global SWING input jack (on FroeZe sequencer module) is disabled (it displays -- and its LED is red). **Remaining in development, near finished...FroeZe-SP-X project is cancelled / no probability.**
 - **QuadPercs** is a quad-channel drum machines module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
-- AVAILABLE AS BETA: **KlokSpid MkII**, the highly versatile 16HP clocking source module: [Specifications / Quick guide here!](doc/KlokSpid_MkII-Specs.md)
+- NOW AVAILABLE AS BETA: **KlokSpid MkII**, the highly versatile 16HP clocking source module: [Specifications & Quick guide here!](doc/KlokSpid_MkII-Specs.md)
 
 ----
 
@@ -63,7 +63,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 Please consider a set of tutorial videos is under consideration, but coming later...
 
-[Please click here to read FroeZe/FroeZe-X specifications](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING  USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
+[Please click here to read FroeZe/FroeZe-X specifications & Quick Guide](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING  USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
 
 Below this is the _Creamy_ model - as presented from Rack's module browser (_Absolute Night_ is presented, instead of _Creamy_, if **Use dark panels if available** option is enabled from **View** menu). Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
 
