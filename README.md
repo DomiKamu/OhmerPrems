@@ -8,7 +8,7 @@ Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 - COMING SOON: **FroeZe-SX** is a **left-side** expander module for FroeZe sequencer. It brings 15 additional CV inputs (for each track) as track-based SWING. NOTE: by using it, the in-build global SWING input jack (on FroeZe sequencer module) is disabled (it displays -- and its LED is red). **Remaining in development, near finished...FroeZe-SP-X project is cancelled / no probability.**
 - **QuadPercs** is a quad-channel drum machines module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
-- COMING SOON: **KlokSpid MkII**, the new and versatile 16HP clocking source module: [Specifications here!](doc/KlokSpid_MkII-Specs.md)
+- AVAILABLE AS BETA: **KlokSpid MkII**, the highly versatile 16HP clocking source module: [Specifications / Quick guide here!](doc/KlokSpid_MkII-Specs.md)
 
 ----
 
