@@ -1,4 +1,4 @@
-**KLOKSPID MKII MODULE SPECIFICATIONS**
+**KLOKSPID MKII MODULE SPECIFICATIONS (& QUICK GUIDE)**
 
 This **16HP** versatile clock source, named **KlokSpid MkII**, will be the successor of _2017 KlokSpid_ module, offered by Ohmer (free / open source) plugin (original KlokSpid is staying alive, however).
 
