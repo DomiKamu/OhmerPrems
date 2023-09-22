@@ -9,6 +9,7 @@ Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 - **QuadPercs** is a quad-channel drum machines module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
 - NOW AVAILABLE AS BETA: **KlokSpid MkII**, the highly versatile 16HP clocking source module: [Specifications & Quick guide here!](doc/KlokSpid_MkII-Specs.md)
+- NOW AVAILABLE AS BETA: **KX** is a **left-side** expander module for KlokSpid MkII. It brings discrete CLK, RUN, and RESET inputs, plus two CV inputs dedicated to quantizers.
 
 ----
 
