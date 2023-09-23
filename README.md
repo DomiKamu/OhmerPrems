@@ -81,7 +81,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse
 ## FroeZe "Quicky Guide" - tips:
 
 - Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only ACcents).
-- Main screen (display) is working like a touchscreen.
+- Main screen (display) is working like a tablet-touchscreen.
 - FroeZe module requires a **X32 pulse-based external source clock** to work correctly. [KlokSpid](https://library.vcvrack.com/Ohmer/KlokSpid) , future KlokSpid MkII (see above), or [Impromptu's CLOCKED](https://library.vcvrack.com/ImpromptuModular/Clocked) clocking modules are perfect!
 - Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles its SOLO state.
 - SOLO indicator (below BPM / NO CLK indicator) is blinking while at least one instrument track is SOLO.
@@ -89,7 +89,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse
 - Left mouse click on cell to add a simple (normal) note event (unfilled diamond) - if previously was empty (silence).
 - Left mouse click again on the note event to transform it to **AC'd note** event (plain diamond).
 - Left mouse click again on the plain diamond to transform it to 1st (of 8) of ratchet pattern (its representation is from top to bottom).
-- Using left **Ctrl** (left **Command** on Mac) key while left mouse click on cell erases its content (becomes silence).
+- Using left **Ctrl** (left **Command** on Mac) key while left mouse click on cell erases its content (step becomes silence).
 - Right mouse click in any cell brings an OSD context menu.
 - Top of display: left click to name or rename the current (displayed) pattern. An OSD indicates instructions, please follow them carefully!
 - Top of display: right click on pattern name blanks the pattern name, and enters pattern name edit.
@@ -98,6 +98,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
 - AC track accepts only silence or accent event (to accent/mark all note events located into same step/column).
 - SWING input port applies a global swing (all instrument tracks) on even steps. 50% is meaning no swing. Max is 75% (dotted 16th followed by 32th).
+- Top-right area of display is empty at the moment (this area is reserved for future usage).
 
 FroeZe-X expander:
 
