@@ -70,7 +70,7 @@ Typically, KlokSpid MkII is:
 
 - Input LED color scheme: **cyan** for pulse/gate-based inputs (CLK, RUN, and CV3 when set as RESET input). **Gradient green** for CV-compliant voltage (voltage into allowed range). **Red** in case of undervoltage/overvoltage (in this case, the voltage is limited/clipped to allowed boundaries, regardling CV polarity setting). **Yellow** for CLK input only, during slave mode and sync mode set as "BPM CV".
 
-- Output LED color scheme: **red** while output is disabled (its modifier is set to "OFF", explained above). **Gradient green** for regular output usage. **Cyan** for _service voltage_ (modifier is set to an "utility", like GATE, START, or STOP). **Gradient purple** is used by output's LED 8 only, while output 8 sends the master phase (the PHASE) - this option can be enabled/disabled from context menu.
+- Output LED color scheme: **red** while output is disabled (its modifier is set to "OFF", as explained above). **Gradient green** for regular output usage. **Cyan** for _service voltage_ (modifier is set to an "utility": GATE, START, or STOP). **Gradient purple** is used by output LED 8 exclusively, while output 8 sends the module's master phase (M.PHASE) - this option can be enabled/disabled from context menu (MISCELLANEOUS section).
 
 - NOT OPERATIONAL AT THE MOMENT: all settings for current (selected) output can be copied to another output, by single operation, simply by using **COPY** menu item from output menu.
 
