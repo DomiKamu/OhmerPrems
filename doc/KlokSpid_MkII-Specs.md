@@ -72,6 +72,8 @@ Typically, KlokSpid MkII is:
 
 - Output LED color scheme: **red** while output is disabled (its modifier is set to "OFF", as explained above). **Gradient green** for regular output usage. **Cyan** for _service voltage_ (modifier is set to an "utility": GATE, START, or STOP). **Gradient purple** is used by output LED 8 exclusively, while output 8 sends the module's master phase (M.PHASE) - this option can be enabled/disabled from context menu (MISCELLANEOUS section).
 
+- While **Output 8: Master PHASE (0V/+10V ramp up @ tempo/freq.)** option is enabled (from context menu), the output 8 can't be selected/edited, either from _Select Output_ page (its box is grayed) or by left mouse button click over its LED. If output 8 is the current/selected output when you enable this option from context menu, the output 7 becomes current/selected output, instead. Previous output 8 settings are restored when you disable this option.
+
 - NOT OPERATIONAL AT THE MOMENT: all settings for current (selected) output can be copied to another output, by single operation, simply by using **COPY** menu item from output menu.
 
 - All settings for current output can be erased and restored to "default factory" (other outputs aren't affected), by using **DEFAULT** from output-related menu. BE CAREFUL - **Initialize** command from module's context menu (or Ctrl+I, or Command+I on Mac platforms), or from **Global Settings** menu, will reset the module entirely (full reset), all customizations are lost!
