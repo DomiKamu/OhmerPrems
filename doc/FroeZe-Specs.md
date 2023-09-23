@@ -8,9 +8,9 @@ This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edga
 
 - Track naming follows _Roland_-style (for most of their drum machines): **BD** for bass drum/kick, **SD** for snare drum, **CH** for closed hats, and so on). Of course, except while audio engine is enabled, track usage is absolutely free!
 
-- 64 steps (max.) per track. Each instrument track have its own LAST STEP, manually adjustable via dedicated encoder, and shifted (offset - / +) in real time via CV input jack, from 1 upto 64.
+- 64 steps (max.) per track. LAST STEP (common to all tracks) is manually adjustable via dedicated encoder, and can be shifted (offset - / +) in real time via CV input jack, from minimum 1-step upto 64.
 
-- Main display as "touchscreen"-like, mainly for note events editing (silences, notes, AC'd notes, or 8-preset defined ratcheting), into 16x64 grid.
+- Main display as "touchscreen"-like, mainly for note events editing (silences, notes, AC'd notes, or 8-preset defined ratchets), into 16x64 grid.
 
 - FroeZe sequencer can deliver +10V 1ms triggers, (without FroeZe-X expander, for ac'd notes: **-10V** 1ms instead), or audio (thanks to internal QuadPercs engines).
 
