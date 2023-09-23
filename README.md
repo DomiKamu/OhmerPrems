@@ -21,7 +21,7 @@ This module (actually in development) will be **entirely free** (even for non Oh
 
 Please notice the system menu (module's main display) is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or touchscreen-like (left mouse clicks over menus items/boxes).
 
-Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using module's context menu (right mouse click anywhere over module - except displays):
+Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using module's context menu (right mouse click anywhere over module - except displays & LEDs):
 
 ![](doc/images/KlokSpidMkII_ContextMenuInputRoles.png)
 
