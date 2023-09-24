@@ -108,3 +108,5 @@ Typically, KlokSpid MkII is:
 - Now start the DAW transport: KlokSpid MkII is using same BPM/frequency than your DAW (here, 110 BPM).
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4.png)
+
+- From _home_ menu, you'll can notice the blue **PPQN** icon (bottom-left of touchscreen), who indicates the external clock mode is set as PPQN.
