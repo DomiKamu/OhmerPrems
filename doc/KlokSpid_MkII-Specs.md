@@ -90,21 +90,21 @@ Typically, KlokSpid MkII is:
 
 - From your DAW, add VCV Rack 2 as **plugin** (here, as instrument inside Bitwig Studio track - but must work inside any DAW).
 - From KlokSpid MkII module, select **Global Settings** menu item, then **External clock PPQN**.
-- Choose **24** (it's the default PPQN setting).
+- Choose **24** (please notice 24 PPQN is the default setting).
 
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_1.png)
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_1_updt.png)
 
 - Press **Cancel/Exit** button (many times) until the menu system is disabled (grayed) - the display below continuous encoder now is blue, displaying **CLOCK 120 BPM** (or something similar).
 - Connect both **CLK** jacks (**VCV MIDI-CV** module, and KlokSpid MkII module, together).
 - When connected, the red SYNC is blinking: it's normal, because DAW transport is stopped, KlokSpid MkII doesn't receive pulses while DAW transport is stopped.
 
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_2.png)
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_2_updt.png)
 
 - Now, turn the continuous encoder (clockwise or counter-clockwise) until it displays **Ext. CLK 24 PPNQ** below encoder (yellow color during choice, like shown below).
 
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_3.png)
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_3_updt.png)
 
 - Press **SET** button to validate (or wait couple of seconds, for automatic validation).
 - Now start the DAW transport: KlokSpid MkII is using same BPM/frequency than your DAW (here, 110 BPM).
 
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4.png)
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4_updt.png)
