@@ -95,8 +95,8 @@ Typically, KlokSpid MkII is:
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_1_updated.png)
 
 - Press **Cancel/Exit** button (many times) until the menu system is disabled (grayed) - the display below continuous encoder now is blue, displaying **CLOCK 120 BPM** (or something similar).
-- Connect both **CLK** jacks (**VCV MIDI-CV** module, and KlokSpid MkII module, together).
-- When connected, the red SYNC is blinking: it's normal, because DAW transport is stopped, KlokSpid MkII doesn't receive pulses while DAW transport is stopped.
+- Connect both **CLK** jacks, either **MIDI-CV** module, and KlokSpid MkII module.
+- When connected, the **red SYNC is blinking fast**: it's normal, because DAW transport is stopped, KlokSpid MkII doesn't receive pulses from MIDI-CV module while DAW transport is stopped, by this way, KlokSpid MkII isn't able, at this moment, to establish the source BPM/frequency.
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_2.png)
 
