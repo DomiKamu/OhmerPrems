@@ -48,7 +48,7 @@ Typically, KlokSpid MkII is:
 
 - For some parameters who can be modulated by CV, in case of input isn't set-up as CV source, this will be notified as red color on display. As example, if you select "CV1" (indicated as "CLK") to modulate Amplitude parameter, the "CLK" checkbox is red (and the CV indicator at top-right of display indicates **red blinking "Not a CV"** message). Simply set "CLK" role to become "CV1" (either bipolar -5V/+5V, or unipolar 0V/+10V, depending the source and your needs), otherwise use another CV input.
 
-**KlokSpid MkII can't use multiple CV sources to modulate an output-specific parameter.**
+**KlokSpid MkII can't use multiple CV sources to modulate the same output-specific parameter! please use a mixer module, upstream the CV input jack to "mix" your CV signals.**
 
 - Output voltage supports customizable **Amplitude** setting (minimum 0.2V, maximum 10V, 0.05V stepping), this setting can be modulated by any CV source. An option (via context menu, MISCELLANEOUS section) permits to force the amplitude to 20V (-10V/+10V range) for the current/selected output (other outputs are not affected) - in this case, original settings are kept (but CV modulation is disabled while amplitude is forced to 20V).
 
