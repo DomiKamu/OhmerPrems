@@ -92,7 +92,7 @@ Typically, KlokSpid MkII is:
 - From KlokSpid MkII module, select **Global Settings** menu item, then **External clock PPQN**.
 - Choose **24** (please notice 24 PPQN is the default setting).
 
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_1_updatd.png)
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_1_updated.png)
 
 - Press **Cancel/Exit** button (many times) until the menu system is disabled (grayed) - the display below continuous encoder now is blue, displaying **CLOCK 120 BPM** (or something similar).
 - Connect both **CLK** jacks (**VCV MIDI-CV** module, and KlokSpid MkII module, together).
