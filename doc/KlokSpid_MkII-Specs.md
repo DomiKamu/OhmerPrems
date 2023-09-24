@@ -70,7 +70,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - All embedded LED on module's chassis are RGB.
 
-- **HINT**: Input and output LED are "finger sensitive" (clickable, like momentary buttons), either by left or right mouse button. By left mouse click over LED, the menu system jumps directly to related input configuration (input role and voltage ranges), or to related output setting (base) menu. By doing a right mouse click over LED, this will open a scope to monitor the evolution of input/output voltage (use "Cancel/Exit" button to return and resume to previous situation before scope display.
+- **HINT**: Input and output LED are "finger sensitive" (clickable, like momentary buttons), either by left or right mouse button. By left mouse click over LED, the menu system jumps directly to related input configuration (input role and voltage ranges), or to related output setting (base) menu. By doing a right mouse click over LED, this will open a scope to monitor the evolution of input/output voltage (use "Cancel/Exit" button to return and resume to previous situation before scope display (scope feature is not yet implemented).
 
 - Transport (START/STOP button) - LED is **off** when clock is stopped, **green** while clock is running and controlled by button on module's chassis, **cyan** while clock is running and controlled by "RUN" input jack (either via held gate or toggle by incoming pulses), **blinking red** during sync operation against source clocking module - while slave. For your information, during sync operation, KlokSpid MkII uses "last known BPM/frequency" during this degraded situation, until new stable frequency is established!
 
