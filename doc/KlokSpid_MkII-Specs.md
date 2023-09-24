@@ -1,4 +1,4 @@
-**KLOKSPID MKII MODULE SPECIFICATIONS (& QUICK GUIDE)**
+**KLOKSPID MKII MODULE SPECIFICATIONS & QUICK GUIDE**
 
 This **16HP** versatile clock source, named **KlokSpid MkII**, will be the successor of _2017 KlokSpid_ module, offered by Ohmer (free / open source) plugin (original KlokSpid is staying alive, however).
 
@@ -83,3 +83,28 @@ Typically, KlokSpid MkII is:
 - From home menu, **View Assign CV Matrix** displays in a grid how CV are affected, for each output (except OFS.1 and OFS.2 from expander). **Green pill** indicates a valid voltage applied on CV input jack, **red pill** indicates undervoltage or overvoltage (voltage is clipped), **gray pill** indicates assigned CV, but its jack is not connected, and **blinking red square** indicates the input is not set as CV (concerns "CLK", "RUN", and "CV3" inputs only). KX expander usage isn't reported in this page.
 
 - Six models (GUI theme variations) are available, like most Ohmer & OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Possible models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
+
+---
+
+**SYNC KLOKSPID MKII WITH DAW (VCV RACK 2 PRO ONLY, AS PLUGIN)**
+
+- From your DAW, add VCV Rack 2 as **plugin** (here, as instrument inside Bitwig Studio track - but must work inside any DAW).
+- From KlokSpid MkII module, select **Global Settings** menu item, then **External clock PPQN**.
+- Choose **24** (it's the default PPQN setting).
+
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_1.png)
+
+- Press Cancel/Exit many times, until the menu system is disabled (grayed) - the display below continuous encoder is blue, displaying CLOCK 120 BPM or something similar.
+- Connect both **CLK** jacks (**VCV MIDI-CV** module, and KlokSpid MkII module, together).
+- When connected, the red SYNC is blinking: it's normal, because DAW transport is stopped, KlokSpid MkII doesn't receive pulses while DAW transport is stopped.
+
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_2.png)
+
+- Now, turn the continuous encoder (clockwise or counter-clockwise) until it displays **Ext. CLK 24 PPNQ** below encoder (yellow color during choice, like shown below).
+
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_3.png)
+
+- Press **SET** button to validate (or wait couple of seconds, for automatic validation).
+- Now start the DAW transport: KlokSpid MkII is using same BPM/frequency than your DAW (here, 110 BPM).
+
+![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4.png)
