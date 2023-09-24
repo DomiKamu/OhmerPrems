@@ -86,7 +86,7 @@ Typically, KlokSpid MkII is:
 
 ---
 
-**SYNC KLOKSPID MKII WITH DAW (VCV RACK 2 PRO ONLY, AS PLUGIN)**
+**KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS PLUGIN)**
 
 - From your DAW, add VCV Rack 2 as **plugin** (here, as instrument inside Bitwig Studio track - but must work inside any DAW).
 - From KlokSpid MkII module, select **Global Settings** menu item, then **External clock PPQN**.
