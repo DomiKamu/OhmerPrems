@@ -48,6 +48,10 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ![](images/KlokSpid_MkII_Manual_images/PULSES_PPQN_BPM_CV_slave_icons.png)
 
+**SELECTING SLAVE (EXT. CLK) SYNC MODE (ANIMATION):**
+
+![](images/KlokSpid_MkII_Manual_images/Ext_CLK_modes_anim)
+
 - A lot of pre-built ratios (exactly 86 pre-defined ratios, to be precise), including many **exotic/even/prime/non-integer** and **most common** dividers and multipliers, from slowest **/16384** (by using this ratio modifier, KlokSpid MkII becomes a extremely slow LFO: at BPM 1, beat will occur every... 11 days, 9 hours, and 4 minutes), upto fastest **x128** who can enter into full audio domain! These pre-built ratios can be "picked" - in realtime - by any valid CV source, thanks to **CV Ratio** modifier (from **Modifier** output menu, lastest page). Please consider custom ratios aren't supported by KlokSpid MkII module. Please notice by using high multipliers, the related outputs hosting the multiplier may enter into the **full audio domain** (no 500Hz limitation), it's a possible way to use KlokSpid MkII as oscillator!
 
 - CV input can be manually set as **bipolar -5V/+5V** (it's the default setting for all CV inputs for this module), or optionally set as **unipolar 0V/10V**, depending your needs, via input on-screen menu (Select Input, choose the relevant input by clicking its box). Also, CV1, CV2, and CV3 can be changed "on-the-fly" via context menu (**INPUT ROLES** section).
