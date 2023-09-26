@@ -1,10 +1,12 @@
 **KLOKSPID MKII MODULE SPECIFICATIONS & QUICK GUIDE**
 
-This **16HP** versatile clock source, named **KlokSpid MkII**, is the big brother of _2017 KlokSpid_ module (offered by free/open source [Ohmer plugin](https://github.com/DomiKamu/Ohmer)).
+![](images/KlokSpid_MkII_Manual_images/Module_layout.png)
+
+This **16HP** versatile clock source, named **KlokSpid MkII**, is the big brother of _2017 KlokSpid_ module (offered by free/open source [Ohmer plugin](https://github.com/DomiKamu/Ohmer)). Original 2017 KlokSpid stays alive, however.
 
 Typically, KlokSpid MkII is:
 
-- Totally free, all features are available for everyone, including non-OhmerPrems members!
+- Totally free: all features are available for everyone (including non-OhmerPrems members).
 
 - "CPU-controlled"-like versatile **clock generator** (standalone, master clock mode), **clock modulator** (slave clock mode, when "CLK" input is patched to another clocking source), **low-frequency oscillator** aka **LFO** (capable from **1 BPM or 0.02Hz**, upto **500Hz**), clocked **envelope generators (exponential/logarithmic & logarithmic/exponential curves)** and **wavetables**, offering 8 independent programmable outputs, 8 inputs (five of them - CV4-CV8 - are always CV inputs, first three - CLK/CV1, RUN/CV2, CV3/RESET - are versatile inputs). It embeds a main **touchscreen**-like display (like smartphone/tablet), a **information display** below the continuous encoder who display tempo or frequency, and some informations while you're browsing menus. The module can be controlled either by touchscreen (left mouse click on most cases, sometimes by right mouse click) and/or by **continuous encoder** + **SET** (blue) button + **Cancel/Exit** button _combo_., and three _triple-character 14-segment_ tiny white displays just above first three inputs (who can display either "CLK" or "CV1" above 1st/top input jack, either "RUN" or "CV2" above 2nd input jack, and either "CV3" or "RST" above 3rd input jack).
 
