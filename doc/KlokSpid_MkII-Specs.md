@@ -98,23 +98,19 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 **KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS PLUGIN)**
 
-- From your DAW, add VCV Rack 2 as **plugin** (here, as instrument inside Bitwig Studio 5 - but must work inside any DAW).
-
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_1_updated.png)
-
-- If required, press **Cancel/Exit** button until the menu system is disabled (grayed) - the info display now is blue, displaying **CLOCK 120 BPM** (or something similar).
+- From your DAW, add VCV Rack 2 as **plugin**.
 - Connect both **CLK** jacks, either **MIDI-CV** module, and KlokSpid MkII module.
-- When connected, the **red SYNC is blinking fast**: it's normal, because DAW transport is surely stopped, KlokSpid MkII doesn't receive pulses from MIDI-CV module while DAW transport is stopped, by this way, KlokSpid MkII isn't able to establish the source BPM/frequency.
+- When connected, the **red SYNC is blinking fast**: it's normal, because DAW transport is stopped, so KlokSpid MkII doesn't receive pulses from MIDI-CV module while DAW transport is stopped, it can't establish the source BPM/frequency!
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_2.png)
 
-- Now, turn the continuous encoder (clockwise, or counter-clockwise) until it displays **Ext. CLK 24 PPNQ** below encoder (yellow color during choice, like shown below). Default factory PPQN is 24.
+- Now, turn the continuous encoder (clockwise, or counter-clockwise) until it displays **Ext. CLK 24 PPNQ** in info display below encoder (yellow color during choice made by encoder, like shown below). Default factory PPQN is 24 (it's the most common setting).
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_3.png)
 
-- Press **SET** button to validate (or wait couple of seconds, until automatic validation). NOTE: unlike master clock mode, external clock mode doesn't restore previous setting if you press **Cancel/Exit** button.
+- Press **SET** button to validate (or wait couple of seconds until automatic validation). NOTE: unlike master clock mode, external clock mode doesn't restore previous setting in case you press **Cancel/Exit** button.
 - Now start the DAW transport: KlokSpid MkII is using same BPM/frequency than your DAW (in this example, 110 BPM).
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4.png)
 
-- From _home_ menu, you'll can notice the blue **PPQN** icon (bottom-left of the touchscreen), who indicates the external clock mode is PPQN-dependent.
+- From _home_ menu, you'll can notice the blue **PPQN** icon (at bottom-left of the touchscreen), who indicates the external clock mode is PPQN.
