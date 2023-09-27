@@ -4,12 +4,12 @@
 
 Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines).
-- **FroeZe-X** is a **right-side** expander module for FroeZe sequencer. It brings additional outputs for ACcents, plus some edit features.
-- COMING SOON: **FroeZe-SX** is a **left-side** expander module for FroeZe sequencer. It brings 15 additional CV inputs (for each track) as track-based SWING. NOTE: by using it, the in-build global SWING input jack (on FroeZe sequencer module) is disabled (it displays -- and its LED is red). **Remaining in development, near finished...FroeZe-SP-X project is cancelled / no probability.**
+- **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus some edit features.
+- **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV, the in-build global SWING input jack (on FroeZe sequencer module) is disabled (its LED is red, and it displays **--**).
 - **QuadPercs** is a quad-channel drum machines module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
 - NOW AVAILABLE AS BETA: **KlokSpid MkII**, the highly versatile 16HP clocking source module: [Specifications & Quick guide here!](doc/KlokSpid_MkII-Specs.md)
-- NOW AVAILABLE AS BETA: **KX** is a **left-side** expander module for KlokSpid MkII. It brings discrete CLK, RUN, and RESET inputs, plus two CV inputs dedicated to quantizers.
+- NOW AVAILABLE AS BETA: **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete CLK, RUN, and RESET inputs, plus two CV inputs exclusively dedicated to outputs' quantizers.
 
 ----
 
