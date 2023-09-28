@@ -30,7 +30,7 @@ Typically, KlokSpid MkII is:
 
 ![](images/KlokSpid_MkII_Manual_images/Disabling_Menu_System_updated.png)
 
-NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** button many times to return to _home_ menu, until it displays the menu as gray (and the info display is blue).
+NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** button many times to return to _home_ menu, until it displays the menu as gray in touchscreen, and the info display is showing  **CLOCK xxxx** (master clock mode) or **Ext. CLK xxxx** (slave clock mode), **blue color**. When done, you'll can change BPM or frequency (master clock mode), or external clock mode (slave clock mode) by moving the continuous encoder.
 
 - On displays/menus, colorscheme is mainly: blue = selectable item (editable item for CLOCK BPM/Hz and Ext CLOCK BPM/Hz), yellow = current selection/active menu item/selected box/button/checkbox, while editing CLOCK tempo/frequency (master clock), editing Ext CLOCK mode (slave clock), parameter currently edited by horizontal slider, piano keys from quantizer setting... Gray = disabled item (locked), depending the current context.
 
