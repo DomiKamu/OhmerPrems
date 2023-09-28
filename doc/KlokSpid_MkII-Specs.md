@@ -92,6 +92,12 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - From home menu, **View Assign CV Matrix** displays in a grid how CV are assigned, for every output (except OFS.1 and OFS.2 from KX expander aren't reported here). **Green pill** indicates a valid voltage applied on CV input jack, **red pill** indicates under-/overvoltage (voltage is clipped), **gray pill** indicates assigned CV, but its associated jack is not connected, and **blinking red square** indicates the input is not a valid CV (concerns internal **CLK**, **RUN**, and **RST** inputs only).
 
+- **Wavetable Manager**: below, animation shows you how to access Wavetable Manager:
+
+![](images/KlokSpid_MkII_Manual_images/Wavetable_Manager.gif)
+
+
+
 - Six models (GUI theme variations) are available, like most Ohmer & OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Possible models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
 
 ---
