@@ -66,9 +66,9 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - In case of main outputs send audio, FroeZe-X expander sends +10V gates (instead of 1ms triggers) on their related output jacks. Each gate is held while related drum kit sample is playing. This may be useful to control an external module, such envelope generator, VCA, filter, dynamics, reverb, delay, synth...
 
-- Pattern change can be controlled by triggers (previous, next), or by absolute pattern number via 0V ~ +10V control voltage (by enabling first "CV PATTERN" option, from module's context menu).
+- Pattern change can be controlled by triggers (previous, next) over "PREV" and "NEXT" input jacks, or by absolute pattern number via 0V/+10V control voltage, by using "PREV" input only ("NEXT" jack must be disconnected).
 
-- Six models (GUI variations), identical than QuadPercs, KordZ, and most of free modules provided by free Ohmer collection.
+- Six models (GUI variations), identical than QuadPercs, KordZ, and most of free modules provided by free Ohmer collection!
 
 - All embedded displays are dimmable (luminous models only), via left mouse button click on "magic hotspot": over the Ohmer logo (bottom-left side of FroeZe module) :slight_smile:. Please notice its linked expanders automatically adjust as same model and same screen dim/bright settings!
 
