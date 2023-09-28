@@ -2,7 +2,7 @@
 
 ![](images/FroeZe_Header.png)
 
-This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edgar Froese), is:
+This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... **Edgar Froese**, the founder of Tangerine Dream), is:
 
 - 15+1 tracks (forming a pattern): 15 instrument tracks + separate **ACcent** track.
 
