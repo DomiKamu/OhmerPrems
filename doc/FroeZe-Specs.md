@@ -12,7 +12,7 @@ This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edga
 
 - Main display as "touchscreen"-like, mainly for note events editing (silences, notes, AC'd notes, or 8-preset defined ratchets), into 16x64 grid.
 
-- FroeZe sequencer can deliver +10V 1ms triggers, (without FroeZe-X expander, for ac'd notes: **-10V** 1ms instead), or audio (thanks to internal QuadPercs engines).
+- FroeZe sequencer can deliver +10V 1ms triggers (without FroeZe-X expander, for ac'd notes: **-10V** 1ms instead), or audio (thanks to internal QuadPercs engines).
 
 - Any instrument track can be **SOLO**ed (except AC track). Multiple SOLO is possible.
 
@@ -36,7 +36,7 @@ This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edga
 
 - Both LOOP and REV are usable together (PENDULum is ignored while LOOP is active).
 
-- %SWING CV input jack, with its mini display (below), to apply from 50% (meaning no swing) to 75% (max swing 1.5 - 0.5), applied in realtime on overall pattern. By using _left-side_ FroeZe-SX expander, this CV input is disabled (FroeZe-SX expander provides per-track discrete swings).
+- **%SWING CV** input jack, with its mini display (below), to apply from 50% (meaning no swing @ 0V) to 75% (max swing 1.5 / 0.5 @ +10V), applied in realtime on overall pattern. By using _left-side_ FroeZe-SX expander, this input jack is disabled, because FroeZe-SX expander module provides _per-track discrete_ swings for instrument tracks).
 
 - Accent notes: outputs **-10V** (internal output jacks, **this requires Polarity Switch module** from freeware Ohmer Modules for alternate routing on negative voltages), **OR** by using **FroeZe-X** (12HP) expander, to bring 16 dedicated "accent output" jacks (plus some edit features).
 
