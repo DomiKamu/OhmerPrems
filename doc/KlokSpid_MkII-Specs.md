@@ -104,7 +104,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 **KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS PLUGIN)**
 
-- From your DAW, add VCV Rack 2 as **plugin**.
+- From your DAW (here is Bitwig Studio 5, but must work in any DAW), add VCV Rack 2 as **plugin** in track of your choice.
 - Connect both **CLK** jacks, either **MIDI-CV** module, and KlokSpid MkII module.
 - When connected, the **red SYNC is blinking fast**: it's normal, because DAW transport is stopped, so KlokSpid MkII doesn't receive pulses from MIDI-CV module while DAW transport is stopped, it can't establish the source BPM/frequency!
 
