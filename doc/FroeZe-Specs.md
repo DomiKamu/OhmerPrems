@@ -56,7 +56,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Pattern and track edit features from FroeZe-X expander (copy, open, save as, clear, remove, SOLO and MUTE toggles,...).
 
-- Sequencer playback requires an external clock source who provides **X32** BPM to work as expected tempo. You can use KlokSpid MkII clock source module (also part of OhmerPrems), *most used* Impromptu's CLOCKED/CKD module, or any well-working/reliable clock generator, clock modulator or sequencer module.
+- Sequencer playback requires an external clock source who provides **X32** BPM (32 PPQN resolution) to work as expected tempo. You can use KlokSpid MkII clock source module (also part of OhmerPrems, set the used output modifier to **x32**), *most used* Impromptu's CLOCKED/CKD module, or any well-working/reliable clock generator, clock modulator, sequencer module.
 
 - Time signature: 4/4 only, 16ths, 4 bars.
 
