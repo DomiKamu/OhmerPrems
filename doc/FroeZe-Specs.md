@@ -6,7 +6,7 @@ This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edga
 
 - 15+1 tracks (forming a pattern): 15 instrument tracks + separate **ACcent** track.
 
-- Track naming follows _Roland_-style (for most of their drum machines): **BD** for bass drum/kick, **SD** for snare drum, **CH** for closed hats, and so on). Of course, except while audio engine is enabled, track usage is absolutely free!
+- Track naming follows _Roland_-style (for most of their vintage drum machines): **BD** for bass drum/kick, **SD** for snare drum, **CH** for closed hats... Obviously, except while audio engine is enabled (and particular AC track), track usage is free (it is not mandatory to follow instrument names for your project).
 
 - 64 steps (max.) per track. LAST STEP (common to all tracks) is manually adjustable via dedicated encoder, and can be shifted (offset - / +) in real time via CV input jack, from minimum 1-step upto 64.
 
