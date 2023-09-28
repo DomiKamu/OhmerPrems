@@ -28,7 +28,7 @@ This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edga
 
 - LOOP via button (may be held): behavior (1/16, 1/8 or 1/4) can be defined via **"LOOP" button behavior** from context menu (default is 1/16 step repeat). Button is inoperative while a +2V (or more) is applied on LOOP input jack.
 
-- REVerse pattern playback while REV. button is held, or via applied gate-voltage (held) on REV input jack (+2V min.). Can be combined with LOOP.
+- REVerse pattern playback while REV. button is held, or via applied gate-voltage (held) on REV input jack (+2V min.).
 
 - PENDULum pattern playback: playing forward from step 1 to track's last ste (left to right), then reverse back until step 1, then forward again... like a pendumum or ping-pong. Via applied & held gate-voltage on PENDUL. input jack (+2V min.). 
 
@@ -36,7 +36,7 @@ This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edga
 
 - Both LOOP and REV are usable together (PENDULum is ignored while LOOP is active).
 
-- SWING input jack, with its mini display (below), to apply from 50% (meaning no swing) to 75% (max swing 1.5 - 0.5), applied in realtime on overall pattern.
+- %SWING CV input jack, with its mini display (below), to apply from 50% (meaning no swing) to 75% (max swing 1.5 - 0.5), applied in realtime on overall pattern. By using _left-side_ FroeZe-SX expander, this CV input is disabled (FroeZe-SX expander provides per-track discrete swings).
 
 - Accent notes: outputs **-10V** (internal output jacks, **this requires Polarity Switch module** from freeware Ohmer Modules for alternate routing on negative voltages), **OR** by using **FroeZe-X** (12HP) expander, to bring 16 dedicated "accent output" jacks (plus some edit features).
 
