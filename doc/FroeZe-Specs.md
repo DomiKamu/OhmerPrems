@@ -56,11 +56,11 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Pattern and track edit features from FroeZe-X expander (copy, open, save as, clear, remove, SOLO and MUTE toggles,...).
 
-- Sequencer playback requires an external clock source who provides **X32** BPM (32 PPQN resolution) to work as expected tempo. You can use KlokSpid MkII clock source module (also part of OhmerPrems, set the used output modifier to **x32**), *most used* Impromptu's CLOCKED/CKD module, or any well-working/reliable clock generator, clock modulator, sequencer module.
+- Sequencer playback requires an external clock source who provides **BPM x 32** (32 PPQN resolution) to work as expected tempo. You can use free KlokSpid MkII clock source module (also part of OhmerPrems, don't forget to set the **output modifier** to **x32**), old 2017 KlokSpid (Ohmer plugin), Impromptu CLOCKED/CKD module, or any well-working/reliable clock generator, clock modulator, sequencer...
 
 - Time signature: 4/4 only, 16ths, 4 bars.
 
-- Polyrhythm: not natively (due to 4/4 nature), but possible via euclidean from FroeZe-X expander (TRACK / EUCLID. page).
+- Polyrhythm: not natively, due to 4/4 nature, but possible via euclidean from FroeZe-X expander (TRACK / EUCLID. page).
 
 - Optional (from module's context menu): **internal QuadPercs sound engines!**, now QuadPercs sound engines are parts of FroeZe sequencer (for all instrument tracks). By this way, **FroeZe sequencer can delivers drum machines audio** exactly like QuadPercs module does, instead of 10ms triggers usage. This tricky feature may simplify patches who need drum machine sounds. Drum machine and its related drum kit can be immediately selected via left and right continuous encoders. Proposed drum kits are always based on **instrument track nature** (only "kicks" for BD track, only snares for SD track, and so on). Some instrument tracks, such TB, may host many kind of kits (eg. TB track offers both timbales and tambourines, CB offers cowbells and bells, and so on).
 
