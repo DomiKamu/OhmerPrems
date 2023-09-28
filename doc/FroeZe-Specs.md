@@ -56,7 +56,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Pattern and track edit features from FroeZe-X expander (copy, open, save as, clear, remove, SOLO and MUTE toggles,...).
 
-- Sequencer playback requires an external clock source, providing important clock resolution: **32 PPQN** (pulses per quarter note), in order to work reliably, as expected tempo. In most cases, from clock source module, simply set the tempo (BPM), then set the output jack to multiplier **X 32** (as indicated by silkscreen above CLK jack). You can use KlokSpid MkII clock source module (also part of OhmerPrems for free, don't forget to set the **output modifier** to **x32**), old 2017 KlokSpid (part of free Ohmer plugin), Impromptu CLOCKED/CKD module, or any well-working/stable clock source. Recommended waveform delivered by clock source module is pulse/trigger (min. 1ms duration), or gate-like (square, as example), +2V as minimum voltage.
+- Sequencer playback requires an external clock source, providing important clock resolution: **32 PPQN** (pulses per quarter note), in order to work as expected tempo. In most cases, from clock source module, simply set the tempo (BPM), then set the output jack to multiplier **X 32** (as indicated by silkscreen above CLK jack). You can use KlokSpid MkII clock source module (also part of OhmerPrems for free, don't forget to set the **output modifier** to **x32**), old 2017 KlokSpid (part of free Ohmer plugin), Impromptu CLOCKED/CKD module, or any well-working/**stable** clock source. Recommended waveform delivered by clock source module is **pulse/trigger (min. 1ms duration)**, or square, **+2V as minimum voltage** (+5V or +10V is recommended).
 
 - Time signature: 4/4 only, 16ths, 4 bars.
 
