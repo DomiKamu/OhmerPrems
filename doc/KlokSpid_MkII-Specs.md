@@ -44,11 +44,11 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - **HINT**: while modifying the CLOCK BPM / Frequency, by turning the continuous encoder, **doing a right mouse click on yellow BPM / Hz readout** returns immediately to default BPM 120 (2Hz). Holding SHIFT key while moving the continuous encoder changes the value faster. While editing the **CLOCK BPM** (or the **Ext CLK** sync mode, when slave), the edited parameter is automatically saved after 3-second timeout (yellow readout returns to blue color when validated). Auto-validation delay can be changed from **Global Settings** menu (this setting may accept short 1 second, default 3 seconds, or long 5 seconds). By clicking Cancel/Exit button during the edit delay, this will restore the previous registered setting.
 
-- As slave clock, possible **Ext CLK** sync modes are by received consecutive **pulses** (or gates), by **PPQN** (unfortunately, many unstabilities/jitters are noticed on Windows rigs who are using USB audio interfaces, and VCV's **MIDI-CV** module), or by **BPM CV** to be compatible behind some clock source modules who provide BPM by voltage, such [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular) (merci Marc). **KlokSpid MkII can operates from 1 BPM (or 0.02Hz) upto 500Hz** (the frequency is automatically limited to minimum 1 BPM / 0.02Hz, or maximum 500Hz, when required).
+- As slave clock, possible **Ext CLK** sync modes are by received consecutive **pulses** (or gates), by **PPQN** (they're 13 possible PPQN settings, from 2 upto 192), or by **BPM CV** to be compatible behind some clock source modules who provide BPM by constant voltage, such [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular) does (merci Marc!). **KlokSpid MkII can operates from 1 BPM (or 0.02Hz), upto 500Hz** (the frequency is automatically limited to minimum 1 BPM / 0.02Hz, or maximum 500Hz, if required).
 
 ![](images/KlokSpid_MkII_Manual_images/PULSES_PPQN_BPM_CV_slave_icons.png)
 
-**SELECTING SLAVE (EXT. CLK) SYNC MODE (ANIMATION):**
+**SELECTING EXT. CLK SYNC MODE (ANIMATION):**
 
 ![](images/KlokSpid_MkII_Manual_images/Ext_CLK_modes_anim.gif)
 
