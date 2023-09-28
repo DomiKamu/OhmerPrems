@@ -64,7 +64,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Time signature: 4/4 only, 16ths, 4 bars.
 
-- Polyrhythm: not natively (due to 4/4 time signature nature), but possible by using euclidean rhythm via FroeZe-X expander (TRACK / EUCLID. page).
+- Polyrhythm: not natively (due to "4/4" nature), but possible by using euclidean rhythm via FroeZe-X expander (TRACK / EUCLID. feature).
 
 - Optional (from module's context menu): **internal QuadPercs sound engines!**, now QuadPercs sound engines are parts of FroeZe sequencer (for all instrument tracks). By this way, **FroeZe sequencer can delivers drum machines audio** exactly like QuadPercs module does, instead of 10ms triggers usage. This tricky feature may simplify patches who need drum machine sounds. Drum machine and its related drum kit can be immediately selected via left and right continuous encoders. Proposed drum kits are always based on **instrument track nature** (only "kicks" for BD track, only snares for SD track, and so on). Some instrument tracks, such TB, may host many kind of kits (eg. TB track offers both timbales and tambourines, CB offers cowbells and bells, and so on).
 
