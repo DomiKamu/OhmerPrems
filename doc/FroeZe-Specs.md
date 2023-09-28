@@ -14,11 +14,11 @@ This **68HP** drum-based step sequencer, named **FroeZe** (in tribute to... Edga
 
 - FroeZe sequencer can deliver +10V 1ms triggers, (without FroeZe-X expander, for ac'd notes: **-10V** 1ms instead), or audio (thanks to internal QuadPercs engines).
 
-- Any instrument track can be SOLO (except AC track), multiple SOLO are possible.
+- Any instrument track can be **SOLO**ed (except AC track). Multiple SOLO is possible.
 
-- Any track can be MUTEd (including AC track), multiple MUTEd tracks are possible.
+- Any track can be **MUTE**d (including AC track). Multiple MUTEd tracks is possible.
 
-- MUTE and SOLO can be used together on same instrument track (except AC track can't be SOLO).
+- MUTE and SOLO can be used together on same instrument track (except AC track, can't be SOLOed).
 
 - 128 patterns, each of them can be named. **Please follow displayed (OSD) instructions while (re)naming the current pattern!**
 
