@@ -16,9 +16,9 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Any instrument track can be **SOLO**ed (except AC track). Multiple SOLO is possible.
 
-- Any track can be **MUTE**d (including AC track). Multiple MUTEd tracks is possible.
+- Any track can be **MUTE**d (including AC track). Multiple MUTE tracks is possible.
 
-- MUTE and SOLO can be used together on same instrument track (except AC track, can't be SOLOed).
+- MUTE and SOLO can be combined on same instrument track (except AC track, who can't be SOLOed).
 
 - 128 patterns, each of them can be named. **Please follow displayed (OSD) instructions while (re)naming the current pattern!**
 
