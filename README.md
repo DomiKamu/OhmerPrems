@@ -13,15 +13,15 @@ Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
 
 ----
 
-## **First previews of KlokSpid MkII module - in development**
+## **First previews of KlokSpid MkII module**
 
-This module (actually in development) is **entirely free** (even for non-OhmerPrems members, without feature limitation), because it's the successor of 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin! cool, aren't? ;) Original KlokSpid module stay alive, however, but discontinued (no more maintenance).
+This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems plugin! cool, aren't? ;) Original KlokSpid module will stay alive for months, however, but discontinued (no more maintenance).
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
-Please notice the system menu (module's main display) is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or touchscreen-like (left mouse clicks over menus items/boxes).
+Please notice the system menu (on the module's touchscreen) is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or left mouse button clicks over menus items, or boxes.
 
-Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using module's context menu (right mouse button click anywhere over module, except displays, encoder, buttons, jacks, and LEDs):
+Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using module's context menu (right mouse button click anywhere over module, except displays, encoder, buttons, jacks, and LEDs), or by **left mouse click over its LED**:
 
 ![](doc/images/KlokSpidMkII_ContextMenuInputRoles.png)
 
