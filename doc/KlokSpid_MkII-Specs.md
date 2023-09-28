@@ -1,4 +1,4 @@
-**KLOKSPID MKII MODULE SPECIFICATIONS & QUICK GUIDE**
+**KLOKSPID MKII MODULE SPECIFICATIONS & MANUAL**
 
 ![](images/KlokSpid_MkII_Manual_images/Module_layout.png)
 
