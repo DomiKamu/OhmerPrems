@@ -56,9 +56,9 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Pattern and track edit features from FroeZe-X expander (copy, open, save as, clear, remove, SOLO and MUTE toggles,...).
 
-- Sequencer playback requires an external clock source, providing important clock resolution: **32 PPQN** (pulses per quarter note), in order to work as expected tempo. In most cases, from clock source module, simply set the tempo (BPM), then set the output jack to multiplier **X 32** (as indicated by silkscreen above CLK jack). You can use KlokSpid MkII clock source module (also part of OhmerPrems for free, don't forget to set the **output modifier** to **x32**), old 2017 KlokSpid (part of free Ohmer plugin), Impromptu CLOCKED/CKD module, or any well-working/**stable** clock source. Recommended waveform delivered by clock source module is **pulse/trigger (min. 1ms duration)**, square, or similar, **0V to +2.5V/+10V**.
+- Sequencer playback requires an external clock source, providing important clock resolution: **32 PPQN** (pulses per quarter note), in order to work as expected tempo. In most cases, from clock source modules, simply set the tempo (BPM), then set the used output jack to multiplier **X32** (as indicated by silkscreen just above CLK jack). You can use KlokSpid MkII clock source module (also part of OhmerPrems, but for free, see animated demo below), old 2017 KlokSpid module (part of free Ohmer plugin), Impromptu CLOCKED/CKD module, or any well-working/**stable** clock source. Recommended waveform delivered by clock source module is **pulse/trigger (min. 1ms duration)**, square, or similar, **0V to +2.5V/+10V**.
 
-**AMINATED DEMO: USING KLOKSPID MKII AS 105 BPM (X32) SOURCE CLOCK:**
+**ANIMATED DEMO: SETTING KLOKSPID MKII AS 105 BPM (X32 OUTPUT 1) MASTER SOURCE CLOCK:**
 
 ![](images/FroeZe_Manual_images/FroeZe_X32_Clk_by_KlokSpid_MkII.gif)
 
