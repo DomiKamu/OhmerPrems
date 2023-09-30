@@ -110,7 +110,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_2.png)
 
-- Now, turn the continuous encoder (clockwise, or counter-clockwise) until it displays **Ext. CLK 24 PPNQ** in info display below encoder (yellow color during choice made by encoder, like shown below). Default factory PPQN is 24 (it's the most common setting).
+- Now, turn the continuous encoder (clockwise, or counter-clockwise) until it displays **Ext. CLK 24 PPNQ** in info display below encoder (yellow color during choice made by encoder, like shown below). Default factory is 24 PPQN (it's the most common setting for MIDI).
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_3.png)
 
