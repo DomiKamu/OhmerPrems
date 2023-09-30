@@ -114,8 +114,8 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_3.png)
 
-- Press **SET** button to validate (or wait couple of seconds until automatic validation). NOTE: unlike master clock mode, external clock mode doesn't restore previous setting in case you press **Cancel/Exit** button.
-- Now start the DAW transport: KlokSpid MkII is using same BPM/frequency than your DAW (in this example, 110 BPM).
+- Press **SET** button to validate (or wait couple of seconds, until automatic validation). NOTE: by pressing **Cancel/Exit** button, the previous registered slave mode is restored.
+- Now start the DAW transport: KlokSpid MkII is in-sync (after two received pulses) and it uses same BPM/frequency than your DAW (in this example: 110 BPM).
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4.png)
 
