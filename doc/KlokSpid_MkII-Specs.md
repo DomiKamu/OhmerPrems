@@ -119,4 +119,4 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4.png)
 
-- From _home_ menu, you'll can notice the blue **PPQN** icon (at bottom-left of the touchscreen), who indicates the external clock mode is PPQN.
+- From _home_ menu, you'll can notice the blue **PPQN** icon (at bottom-left of the touchscreen), who indicates the external clock mode is using PPQN factor greater than 1.
