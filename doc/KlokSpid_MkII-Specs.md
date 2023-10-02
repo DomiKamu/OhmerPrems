@@ -26,9 +26,9 @@ Typically, KlokSpid MkII is:
 
 - The continuous encoder permits to select next or previous selectable "blue items", such menu items, boxes, checkboxes, buttons, piano keys from Quantizer - **selected item is always highlighted by yellow color, so you cannot miss it ;)** - also can be used to increase/decrease a parameter value (by moving the horizontal slider). **SET** button (the blue button seating over the continuous encoder) permits to validate the selected (yellow) menu/box item, check/uncheck a selected checkbox, activate the parameter slider (parameter edit mode), or entering in the menu system. **Cancel/Exit** button leaves a parameter edit, return to previous menu, cancel BPM/Hz edit, cancel Ext. CLOCK mode edit, and from home menu, it disables the menu system (the whole menu becomes gray, instead of blue)... Please notice both input and output selection screens (who have eight clickable boxes) don't have a touchscreen control to go back, so please use the **Cancel/Exit** button. Most parameters are immediately validated, even when you click **Cancel/Exit** button, or top-left box/menu on most pages.
 
-**HOW TO DISABLE MENU SYSTEM (To edit BPM/frequency, or Ext. CLK slave mode)**:
+**ANIMATION: HOW TO DISABLE MENU SYSTEM (To edit BPM/frequency, or Ext. CLK slave mode)**:
 
-![](images/KlokSpid_MkII_Manual_images/Disabling_Menu_System_updated.png)
+![](images/KlokSpid_MkII_Manual_images/How-To_disable_menu_rev.gif)
 
 NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** button many times to return to _home_ menu, until it displays the menu as gray in touchscreen, and the info display is showing  **CLOCK xxxx** (master clock mode) or **Ext. CLK xxxx** (slave clock mode), **blue color**. When done, you'll can change BPM or frequency (master clock mode), or external clock mode (slave clock mode) by moving the continuous encoder.
 
