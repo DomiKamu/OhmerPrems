@@ -26,7 +26,7 @@ Typically, KlokSpid MkII is:
 
 - The continuous encoder permits to select next or previous selectable "blue items", such menu items, boxes, checkboxes, buttons, piano keys from Quantizer - **selected item is always highlighted by yellow color, so you cannot miss it ;)** - also can be used to increase/decrease a parameter value (by moving the horizontal slider). **SET** button (the blue button seating over the continuous encoder) permits to validate the selected (yellow) menu/box item, check/uncheck a selected checkbox, activate the parameter slider (parameter edit mode), or entering in the menu system. **Cancel/Exit** button leaves a parameter edit, return to previous menu, cancel BPM/Hz edit, cancel Ext. CLOCK mode edit, and from home menu, it disables the menu system (the whole menu becomes gray, instead of blue)... Please notice both input and output selection screens (who have eight clickable boxes) don't have a touchscreen control to go back, so please use the **Cancel/Exit** button. Most parameters are immediately validated, even when you click **Cancel/Exit** button, or top-left box/menu on most pages.
 
-**ANIMATION: HOW TO DISABLE MENU SYSTEM (To edit BPM/frequency, or Ext. CLK slave mode)**:
+**ANIMATION: HOW TO DISABLE MENU SYSTEM (to change BPM, frequency, or Ext. CLK sync mode)**:
 
 ![](images/KlokSpid_MkII_Manual_images/How-To_disable_menu_rev.gif)
 
@@ -34,7 +34,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - On displays/menus, colorscheme is mainly: blue = selectable item (editable item for CLOCK BPM/Hz and Ext CLOCK BPM/Hz), yellow = current selection/active menu item/selected box/button/checkbox, while editing CLOCK tempo/frequency (master clock), editing Ext CLOCK mode (slave clock), parameter currently edited by horizontal slider, piano keys from quantizer setting... Gray = disabled item (locked), depending the current context.
 
-- At bottom left of touchscreen, only from "home" menu, a small indicator icon show the mode of KlokSpid. White MASTER stands the module acts as standalone clock generator (when CLK input isn't connected). Others are while KlokSpid MkII is acting as "slave clock" (clock modulator), such yellow "BPM CV", blue "PULSES" or "PPQN" (depending selected Ext. CLK mode), and fast blinking red "SYNC" indicator during sync operation.
+- At bottom left of touchscreen, only from "home" menu, a small indicator icon show the mode of KlokSpid. White MASTER stands the module acts as standalone clock generator (when CLK input isn't connected). Others are while KlokSpid MkII is acting as "slave clock" (when CLK is connect), such yellow "BPM CV", blue "PULSES" or "PPQN" (depending selected external clock sync mode), and fast blinking red "SYNC" indicator during sync operation.
 
 - **Prefer frequency (Hz) rather than BPM** option, from context menu (MISCELLANOUS section), when enabled, forces to display and edit master frequency, in Hz (whatever the frequency/tempo setting). This option is useful to use the module as LFO. When this option is disabled, the BPM tempo is used while its value is into 1 - 900 BPM range (beyond 900 BPM, aka 15Hz, the frequency is always used).
 
@@ -42,13 +42,13 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ![](images/KlokSpid_MkII_Manual_images/MASTER_white_icon.png)
 
-- **HINT**: while modifying the CLOCK BPM / Frequency, by turning the continuous encoder, **doing a right mouse click on yellow BPM / Hz readout** returns immediately to default BPM 120 (2Hz). Holding SHIFT key while moving the continuous encoder changes the value faster. While editing the **CLOCK BPM** (or the **Ext CLK** sync mode, when slave), the edited parameter is automatically saved after 3-second timeout (yellow readout returns to blue color when validated). Auto-validation delay can be changed from **Global Settings** menu (this setting may accept short 1 second, default 3 seconds, or long 5 seconds). By clicking Cancel/Exit button during the edit delay, this will restore the previous registered setting.
+- **HINT**: while modifying the CLOCK BPM / Frequency, by turning the continuous encoder, **doing a right mouse click on yellow BPM / Hz readout** returns immediately to default BPM 120 (2Hz). Holding SHIFT key while moving the continuous encoder changes the value faster. While editing the **CLOCK BPM**, **Frequency Hz**, or **Ext CLK** sync mode (slave clock), the edited parameter is automatically saved after 3-second timeout (yellow readout returns to blue color when validated). Auto-validation delay can be changed from **Global Settings** menu (this setting may accept short 2 second, default 3 seconds, or long 5 seconds). By clicking **Cancel/Exit** button during the edit delay, this will restore the previous registered setting.
 
-- As slave clock, possible **Ext CLK** sync modes are by received consecutive **pulses** (or gates), by **PPQN** (they're 13 possible PPQN settings, from 2 upto 192), or by **BPM CV** to be compatible behind some clock source modules who provide BPM by constant voltage, such [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular) does (merci Marc!). **KlokSpid MkII can operates from 1 BPM (or 0.02Hz), upto 500Hz** (the frequency is automatically limited to minimum 1 BPM / 0.02Hz, or maximum 500Hz, if required).
+- As external clock mode (slave), possible **Ext CLK** sync modes are by received consecutive **Pulses** (or gates), by **PPQN** (they're 13 possible PPQN settings, from 2 upto 192), or by **BPM CV** to be compatible behind some clock source modules who provide BPM by constant voltage, such [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular) is capable (merci Marc!). **KlokSpid MkII can operates from 1 BPM (or 0.02Hz), upto 500Hz** (the frequency is automatically limited to minimum 1 BPM / 0.02Hz, or maximum 500Hz, if required).
 
 ![](images/KlokSpid_MkII_Manual_images/PULSES_PPQN_BPM_CV_slave_icons.png)
 
-**ANIMATION: SELECTING EXTERNAL CLOCK SYNC MODE:**
+**ANIMATION: SELECTING EXTERNAL CLOCK SYNC MODE**
 
 ![](images/KlokSpid_MkII_Manual_images/Ext_CLK_modes_anim.gif)
 
