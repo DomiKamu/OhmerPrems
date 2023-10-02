@@ -1,4 +1,5 @@
 **KLOKSPID MKII MODULE SPECIFICATIONS & USER'S MANUAL**
+--
 
 ![](images/KlokSpid_MkII_Manual_images/Module_Layout_rev.png)
 
@@ -26,7 +27,7 @@ Typically, KlokSpid MkII is:
 
 - The continuous encoder permits to select next or previous selectable "blue items", such menu items, boxes, checkboxes, buttons, piano keys from Quantizer - **selected item is always highlighted by yellow color, so you cannot miss it ;)** - also can be used to increase/decrease a parameter value (by moving the horizontal slider). **SET** button (the blue button seating over the continuous encoder) permits to validate the selected (yellow) menu/box item, check/uncheck a selected checkbox, activate the parameter slider (parameter edit mode), or entering in the menu system. **Cancel/Exit** button leaves a parameter edit, return to previous menu, cancel BPM/Hz edit, cancel Ext. CLOCK mode edit, and from home menu, it disables the menu system (the whole menu becomes gray, instead of blue)... Please notice both input and output selection screens (who have eight clickable boxes) don't have a touchscreen control to go back, so please use the **Cancel/Exit** button. Most parameters are immediately validated, even when you click **Cancel/Exit** button, or top-left box/menu on most pages.
 
-**ANIMATION: HOW TO DISABLE MENU SYSTEM (to change BPM, frequency, or Ext. CLK sync mode)**:
+**ANIMATION: HOW TO DISABLE MENU SYSTEM (to change BPM, frequency, or Ext. CLK sync mode)**
 
 ![](images/KlokSpid_MkII_Manual_images/How-To_disable_menu_rev.gif)
 
@@ -92,10 +93,9 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - From home menu, **View Assign CV Matrix** displays in a grid how CV are assigned, for every output (except OFS.1 and OFS.2 from KX expander aren't reported here). **Green pill** indicates a valid voltage applied on CV input jack, **red pill** indicates under-/overvoltage (voltage is clipped), **gray pill** indicates assigned CV, but its associated jack is not connected, and **blinking red square** indicates the input is not a valid CV (concerns internal **CLK**, **RUN**, and **RST** inputs only).
 
-- **Wavetable Manager**: below, animation shows you how to access Wavetable Manager:
+- **ANIMATION: HOW TO REACH WAVETABLE MANAGER**
 
 ![](images/KlokSpid_MkII_Manual_images/Wavetable_Manager.gif)
-
 
 
 - Six models (GUI theme variations) are available, like most Ohmer & OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Possible models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
