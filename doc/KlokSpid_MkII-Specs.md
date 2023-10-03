@@ -47,7 +47,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - As external clock mode (slave clock), possible **Ext CLK** sync modes are by received consecutive **Pulses** (or gates), by **PPQN** (they're 13 possible PPQN settings, from 2 upto 192), or by **BPM CV** to be compatible behind some clock source modules who provide BPM by constant voltage, such [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular) is capable to provide (merci Marc!). **KlokSpid MkII can operates from 1 BPM (or 0.02Hz), upto 500Hz** (the frequency is automatically limited to minimum 1 BPM / 0.02Hz, or maximum 500Hz, if required).
 
-![](images/KlokSpid_MkII_Manual_images/PULSES_PPQN_BPM_CV_slave_icons.png)
+![](images/KlokSpid_MkII_Manual_images/Slave_mode_icons_rev.png)
 
 **ANIMATION: SELECTING EXTERNAL CLOCK SYNC MODE (UNCOMMENTED)**
 
