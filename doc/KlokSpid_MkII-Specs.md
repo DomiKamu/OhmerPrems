@@ -95,7 +95,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - **ANIMATION: HOW TO REACH WAVETABLE MANAGER**
 
-![](images/KlokSpid_MkII_Manual_images/Wavetable_Manager.gif)
+![](images/KlokSpid_MkII_Manual_images/Wavetable_Manager_rev.gif)
 
 
 - Six models (GUI theme variations) are available, like most Ohmer & OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Possible models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
