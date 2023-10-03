@@ -67,11 +67,11 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - Before output the voltage to relevant jack, it may crosses (or bypass) **euclidean sequencer** (user-defined settings, all can be modulated by CV), then crosses (or bypass) pitch-based **Quantizer** (voltage can be pre-offset by KX expander OFS.1 or OFS.2 input). Either the clock (is running, or stopped (when the clock is stopped, output may have a voltage other than 0V, depending V-Offset setting, and pitch quantization.
 
-- An option from context menu permits to output the module's master phase to output 8 (ramp up signal shape, 0V to +10V, based on master tempo - clock / slave BPM). May be useful for rack debugging features, time reference in your rack... When you enable this option, the previous output settings are saved, then restored when you disable this option.
+- An option from context menu permits to output the module's master phase (**M.PHASE**) to output 8 (ramp up signal shape, 0V to +10V, based on master tempo, frequency, or slave clock). May be useful for rack debugging features, time reference in your rack... When you enable this option, the previous output settings are saved, then restored as soon as you disable this option.
 
 - RUN input: when set as **HI-GATE** (default setting), the clock runs while a high gate voltage is applied on RUN input jack. When set as **RUN/STOP**, the input acts as transport toggle, everytime the jack receives a pulse (trigger), at least +0.2V rising front.
 
-- RESET input: when the CV3 input is set as **RESET**, incoming +0.2V (rising front) pulse/gate will reset the main (master) module's phase, also all eight dedicated output phases.
+- RESET input: when the CV3 input is set as **RESET**, incoming +0.2V (rising front) pulse/gate will reset the module's master phase, and also all 8-outputs dedicated phases.
 
 - All embedded LED on module's chassis are RGB.
 
@@ -81,9 +81,9 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - Input LED color scheme: **cyan** for pulse/gate-based inputs (CLK, RUN, and CV3 when set as RESET input). **Gradient green** for CV-compliant voltage (voltage into allowed range). **Red** in case of undervoltage/overvoltage (in this case, the voltage is limited/clipped to allowed boundaries, regardling CV polarity setting). **Yellow** for CLK input only, during slave mode and sync mode set as "BPM CV".
 
-- Output LED color scheme: **red** while output is disabled (its modifier is set to "OFF", as explained above). **Gradient green** for regular output usage. **Cyan** for _service voltage_ (modifier is set to an "utility": GATE, START, or STOP). **Gradient purple** is used by output LED 8 exclusively, while output 8 sends the module's master phase (M.PHASE) - this option can be enabled/disabled from context menu (MISCELLANEOUS section).
+- Output LED color scheme: **red** while output is disabled (its modifier is set to "OFF", as explained above). **Gradient green** for regular output usage. **Cyan** for _service voltage_ (modifier is set to an "utility": GATE, START, or STOP). **Gradient purple** is used by output LED 8 exclusively, while output 8 sends the module's master phase (aka **M.PHASE**) - this option can be enabled/disabled from context menu (MISCELLANEOUS section).
 
-- While **Output 8: Master PHASE (0V/+10V ramp up @ tempo/freq.)** option is enabled (from context menu), the output 8 can't be selected/edited, either from _Select Output_ page (its box is grayed) or by left mouse button click over its LED. If output 8 is the current/selected output when you enable this option from context menu, the output 7 becomes current/selected output, instead. Previous output 8 settings are restored when you disable this option.
+- While **Output 8: master phase (M.PHASE) 0V/+10V ramp up @ tempo/freq.** option is enabled (from context menu), the output 8 can't be selected/edited, either from _Select Output_ page (its box is grayed) or by left mouse button click over its LED. If output 8 is the current/selected output when you enable this option from context menu, the output 7 becomes current/selected output, instead. Previous output 8 settings are restored when you disable this option.
 
 - NOT OPERATIONAL AT THE MOMENT: all settings for current (selected) output can be copied to another output, by single operation, simply by using **COPY** menu item from output menu.
 
