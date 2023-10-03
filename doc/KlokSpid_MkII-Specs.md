@@ -49,9 +49,9 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ![](images/KlokSpid_MkII_Manual_images/PULSES_PPQN_BPM_CV_slave_icons.png)
 
-**ANIMATION: SELECTING EXTERNAL CLOCK SYNC MODE**
+**ANIMATION: SELECTING EXTERNAL CLOCK SYNC MODE (UNCOMMENTED)**
 
-![](images/KlokSpid_MkII_Manual_images/Ext_CLK_modes_anim.gif)
+![](images/KlokSpid_MkII_Manual_images/Ext_CLK_modes_anim_rev.gif)
 
 - A lot of pre-built modifier ratios (exactly 87 ratios, to be precise), including many **exotic/even/prime/fractional** and of course, **most common** dividers and multipliers, from slowest **/16384** (by using this modifier, KlokSpid MkII may become an **extremely slow LFO** source: at 1 BPM, divided by 16384, beat will occur every... 11 days, 9 hours, and 4 minutes), upto fastest **x192** who permits to control modules who need/accept 192 PPQN as clock high-resolution. These pre-built ratios can be _picked_, in realtime, by any valid CV source, thanks to **CV Ratio** modifiers (from output **Modifier** menu, these modifiers are located in lastest page). Please consider custom ratio isn't supported by KlokSpid MkII module (it's a developer choice). Please notice by using high multiplier values, the related outputs hosting the BPM/frequency multiplier permits to enter into the **full audio domain** (no 500Hz limitation in this case, but limited to 22,050Hz).
 
