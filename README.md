@@ -246,7 +246,7 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 ## Full version (OhmerPrems members only)
 
-A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of license keyfile unlocks all modules to **full** (unrestricted). However, KlokSpid MkII module (and its expander, KX) always work as full version, whatever the license keyfile is present or not, because this module is free for everyone.
+A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of (valid) license keyfile unlocks all modules to **full version** (unrestricted). However, KlokSpid MkII module (and its expander, KX) always work as full version (whatever the license keyfile is detected, or not), because KlokSpid MkII and KX modules are free for everyone.
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
