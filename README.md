@@ -246,7 +246,7 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 ## Full version (OhmerPrems members only)
 
-Since VCV Rack 2, the plugin is EXACTLY the same than free version, except a personal license key is sent to OhmerPrems members (by email). The license key unlocks all modules included in the plugin to **full** (unrestricted).
+A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of license keyfile unlocks all modules to **full** (unrestricted). However, KlokSpid MkII module (and its expander, KX) doesn't need the license keyfile, because it's free for everyone.
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
