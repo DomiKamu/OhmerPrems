@@ -102,21 +102,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ---
 
-**KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS PLUGIN)**
+**ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS PLUGIN)**
 
-- From your DAW (here is Bitwig Studio 5, but must work in any DAW), add VCV Rack 2 as **plugin** in track (here's as instrument).
-- Connect both **CLK** jacks, either **MIDI-CV** and **KlokSpid MkII** modules.
-- When connected, the **red SYNC is blinking fast**: it's normal, because DAW transport is stopped, so KlokSpid MkII doesn't receive pulses from MIDI-CV module while DAW transport is stopped, by this way it can't establish the source BPM/frequency!
+![](images/KlokSpid_MkII_Manual_images/DAW_sync_24_PPQN_rev.gif)
 
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_2.png)
-
-- Now, turn the continuous encoder (clockwise, or counter-clockwise) until it displays **Ext. CLK 24 PPNQ** in info display below encoder (yellow color during choice made by encoder, like shown below). Default factory is 24 PPQN (it's the most common setting for MIDI).
-
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_3.png)
-
-- Press **SET** button to validate (or wait couple of seconds, until automatic validation). NOTE: by pressing **Cancel/Exit** button, the previous registered slave mode is restored.
-- Now start the DAW transport: KlokSpid MkII is in-sync (after two received pulses) and it uses same BPM/frequency than your DAW (in this example: 110 BPM).
-
-![](images/KlokSpid_MkII_Manual_images/DAW_Sync_Step_4.png)
-
-- From _home_ menu, you'll can notice the blue **PPQN** icon (bottom-left of the touchscreen), who indicates the external clock mode is using PPQN factor greater than 1.
