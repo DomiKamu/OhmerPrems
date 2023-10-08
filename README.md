@@ -17,7 +17,9 @@ Lastest Beta (**v2.4.1b12**) is available as [_Pre-Release_](https://github.com/
 
 ## **KlokSpid MkII & KX modules**
 
-This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems plugin! cool, aren't? ;) Original KlokSpid module will stay alive for months, however, but discontinued (no more maintenance).
+[Please click here to read KlokSpid MkII/KX specifications & **User's Manual**](doc/KlokSpid_MkII-Specs.md)
+
+This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems plugin! cool, aren't? ;) Original KlokSpid module will stay alive, however, maintenance is discontinued.
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
@@ -33,7 +35,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
-[Please click here to read FroeZe/FroeZe-X specifications & Quick Guide](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING  USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
+[Please click here to read FroeZe/FroeZe-X specifications & **Quick Guide**](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING  USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
 
 Below this is the _Creamy_ model - as presented from Rack's module browser (_Absolute Night_ is presented, instead of _Creamy_, if **Use dark panels if available** option is enabled from **View** menu). Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
 
