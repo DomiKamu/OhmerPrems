@@ -2,55 +2,24 @@
 
 *OhmerPrems* is both Premium (for susbcribers) and free modules, designed for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of four modules (plus two as "expander"):
+Actually, *OhmerPrems* plugin is a set of 4 modules (plus 3 as "expanders"):
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**Specifications & Quick Guide** (incl. expanders)](doc/FroeZe-Specs.md)
 - **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus some edit features.
 - **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV (can be enabled by left mouse click over relevant box on module's touchscreen), the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
 - **QuadPercs** is a quad-channel drum machines module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
-- **KlokSpid MkII**, the highly versatile 16HP clocking source module. [**Specifications & User's Manual** (incl. KX expander)](doc/KlokSpid_MkII-Specs.md)
+- **KlokSpid MkII**, the versatile 16HP clocking source / LFO / clocked envelope module. [**Specifications & User's Manual** (incl. KX expander)](doc/KlokSpid_MkII-Specs.md)
 - **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete CLK, RUN, and RESET inputs, plus two CV inputs exclusively dedicated to outputs' quantizers.
 
 Lastest Beta (**v2.4.1b12**) is available as [_Pre-Release_](https://github.com/DomiKamu/OhmerPrems/releases).
 
 ----
 
-## **First previews of KlokSpid MkII module**
+## **KlokSpid MkII & KX modules**
 
 This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems plugin! cool, aren't? ;) Original KlokSpid module will stay alive for months, however, but discontinued (no more maintenance).
 
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
-
-Please notice the system menu (on the module's touchscreen) is using either "continuous encoder + SET (blue) button + Cancel button" combo, and/or left mouse button clicks over menus items, or boxes.
-
-Any input role setting (CLK, RUN, CV3) can be changed "on-the-fly" by using module's context menu (right mouse button click anywhere over module, except displays, encoder, buttons, jacks, and LEDs), or by **left mouse click over its LED**:
-
-![](doc/images/KlokSpidMkII_ContextMenuInputRoles.png)
-
-Below the first example of **square pulses** (50% gates) sent to output 1 - its output ratio is set to BPM **x3** (set from *Modifier* submenu), *P-Width* (pulse width) is set to 50% by "CV6" source (user defined is 0%) to obtain square waveform inside 7.5V *Amplitude* range (here adjustable by "CV7"), *V-Offset* is set at -2V (adjustable by "CV8") - by this way, for pulses, minimum voltage is -2V (during low-states) and maximum is +5V (during high-states, while pulsing). Output 8 is sending the module's master phase (BPM 120, as unipolar 0V/+10V sawtooth signal) while the clock is running. **Inputs:** "RUN" is assigned as run/stop toggle (any incoming pulse switches transport state), "CV3" is assigned as "RESET" input (any incoming pulse resets all internal phases). "CV6" and "CV7" are set as unipolar 0V/+10V CV inputs. "CV8" as default bipolar -5V/+5V CV input:
-
-![](doc/images/KlokSpidMkII_SquarePulse_x3_Phase8.png)
-
-Please notice the module's main display above shows basic waveform selection for current selected output (here's output 1 as current output, as indicated in top-left box). All icons below "PULSE", "TRIANGLE", "SIN", and "S&H" blue labels (into clickable boxes - in order to select a specific waveform for current output), are **animated** (the animations show what the *P-width*/*Tilt*/*Deform*/*Density*/*Morph* parameter can do on relevant waveform).
-
-Below, another example by using S&H (sample and hold) waveform, sent to output 1 - output ratio is set to BPM **x1** (set from *Modifier* menu, visible here as first menu item), *Density* (who replaces *P-Width* as third menu item, due to S&H waveform context) is set by unipolar 0V/+10V "CV5" input, voltage amplitude is set to 5V (controlled by unipolar 0V/+10V "CV6" input), bipolar enabled (in this case, min. and max. voltages are spread around *V-Offset*, instead of above offset when bipolar is disabled), voltage offset is set to +2V (controlled by bipolar -5V/+5V "CV7" input). By this way, sample voltages stay inside -0.5V/+4.5V range (5V amplitude around +2V offset). **Phase shift (controlled by "CV8" input) is ignored for S&H waveforms** (in this output-related menu - output 1, you can observe the *Phase* menu item is grayed, meaning it can't be selected).
-
-![](doc/images/KlokSpidMkII_Model1_SH.png)
-
-Below, another example of **25% tilted triangle** waveform, sent to output 2 - output ratio is set to BPM **/2** (visible in top left box). *Tilt* parameter (third menu item replaces *P-With* and *Density* seen above, due to triangle waveform context) is set by unipolar 0V/10V "CV5" input (tilt parameter is user-defined to default 0%, here is a constant +0.25V applied on "CV5" input, who set the triangle's *Tilt* parameter to 25%, instead), the result shape is visible on VCV Scope module, the upper edge of triangle (maximum height) is at 25% of the lower vertice. For triangle waveform, by setting *Tilt* parameter to 0% (either defined by user, and possibily modulated by one or many CV sources), this will output a **sawtooth down** signal (right-angled triangle). By setting *Tilt* parameter to 100%, this will generate a **sawtooth up** signal, instead (right-angled triangle too). By setting *Tilt* parameter to 50%, this will generate a **perfect isosceles triangle**. And so on... In this example, *Amplitude* is set to (default) 10V, *V-Offset* is set to (default) 0V, "bipolar around offset" is enabled, by this way, generated voltages by this triangle waveform always stay inside -5V/+5V range.
-
-![](doc/images/KlokSpidMkII_Model2_25pct_Tilted_Triangle.png)
-
-Below they're all basic waveforms at the same time: square **pulse** to output 1, isosceles **triangle** to output 2, half **sine** to output 3, and 32-sample density **sample & hold** to output 4. All of these waveforms are "morphed" to 50% (by using 0% as used-defined morph parameter, then modulated by same unipolar CV source):
-
-![](doc/images/KlokSpidMkII_Model5_50pct_Morph_AllBasic.png)
-
-Finally, below it's a paramater edit page (here it's **Phase Shift** parameter for output 3), by horizontal fader. Also checkboxes permits to select a CV modulation source:
-
-![](doc/images/KlokSpidMkII_EditParameterPhaseShift.png)
-
-
-*Morphed* term used above mentions either **P-Width** (pulse width) for pulses, **Tilt** for triangles (upper edge of triangle "moves" left or right in graphical representation), **Deform** for second half sines, **Density** for sample & hold (number of sample per "BPM x ratio" ticks, from 1 upto 64), and **Morph** for wavetables (aka "frame index" inside wavetable).
 
 Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI theme variations):
 - _Aluminium_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -62,9 +31,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 ----
 
-## **FroeZe & FroeZe-X modules**
-
-Please consider a set of tutorial videos is under consideration, but coming later...
+## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
 [Please click here to read FroeZe/FroeZe-X specifications & Quick Guide](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING  USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
 
