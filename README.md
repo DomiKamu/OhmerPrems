@@ -25,9 +25,9 @@ This module is **entirely free** (even for non-OhmerPrems members, without any f
 ![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
 
 Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI theme variations):
-- _Aluminium_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
+- _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
-- _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
+- _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
 - _Dark "Signature"_
 - _Fort Knox "Signature"_
 - _Titanium "Signature"_
@@ -87,12 +87,12 @@ FroeZe-X expander:
 - TRACK/COMPLT. menu (track auto-completion feature): this feature also may "cover" existing track events, so proceed with caution (save the pattern first, from module context menu, or make a backup of pattern by using PATTERN/COPY from expander to an empty pattern).
 - RATCHET. menu permits to save, open, and "reset to factory" the eight ratchet slots/presets (for current pattern only).
 
-More infos "on-the-fly" in [**FroeZe Specs**](doc/FroeZe-Specs.md) document.
+More infos "on-the-fly" in [FroeZe/FroeZe-X/FroeZe-SX **Specifications & Quick Guide**](doc/FroeZe-Specs.md) document.
 
 Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme variations):
-- _Creamy_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
+- _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
-- _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
+- _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
 - _Dark "Signature"_
 - _Fort Knox "Signature"_
 - _Titanium "Signature"_
@@ -140,9 +140,9 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 QuadPercs can operate **from 44.1 to 192 kHz** ( version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
 
 Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI theme variations):
-- _Creamy_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
+- _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
-- _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
+- _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
 - _Dark "Signature"_
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
@@ -168,9 +168,9 @@ The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%
 ![](doc/images/KordZ_Dark_Room.png)
 
 Like other Ohmer and OhmerPrems modules, Kord comes in six models (GUI theme variations):
-- _Creamy_ (default & browser view if **Use dark panels if available** option is disabled from **View** menu)
+- _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
-- _Absolute Night_ (default & browser view if **Use dark panels if available** option is enabled from **View** menu)
+- _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
 - _Dark "Signature"_
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
