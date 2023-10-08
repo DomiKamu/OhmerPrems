@@ -100,7 +100,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - From home menu, **View Assign CV Matrix** displays in a grid how CV are assigned, for every output (except OFS.1 and OFS.2 from KX expander aren't reported here). **Green pill** indicates a valid voltage applied on CV input jack, **red pill** indicates under-/overvoltage (voltage is clipped), **gray pill** indicates assigned CV, but its associated jack is not connected, and **blinking red square** indicates the input is not a valid CV (concerns internal **CLK**, **RUN**, and **RST** inputs only).
 
-- **ANIMATION: HOW TO REACH WAVETABLE MANAGER**
+- **ANIMATION: HOW TO REACH THE 'WAVETABLE MANAGER'**
 
 ![](images/KlokSpid_MkII_Manual_images/Wavetable_Manager_rev.gif)
 
@@ -108,7 +108,6 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ---
 
-**ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS PLUGIN)**
+**ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS VST2 PLUGIN)**
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_sync_24_PPQN_rev.gif)
-
