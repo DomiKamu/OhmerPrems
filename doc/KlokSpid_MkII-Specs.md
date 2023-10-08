@@ -87,7 +87,12 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - While **Output 8: master phase (M.PHASE) 0V/+10V ramp up @ tempo/freq.** option is enabled (from context menu), the output 8 can't be selected/edited, either from _Select Output_ page (its box is grayed) or by left mouse button click over its LED. If output 8 is the current/selected output when you enable this option from context menu, the output 7 becomes current/selected output, instead. Previous output 8 settings are restored when you disable this option.
 
-- PLANNED FOR BETA 14 (FULLY OPERATIONAL): all settings for current (last selected) output can be copied to another output, by single operation, simply by using **COPY** menu item from output menu. When the copy is done, the "target" output becomes current (last selected) output, except if output 8, set as M.PHASE, was the target: in this case, "source" is staying current output.
+- READY FOR NEXT BETA 14 (FULLY OPERATIONAL): all settings for current (last selected) output can be copied to another output, by single operation, simply by using **COPY** menu item from output menu. When the copy is done, the "target" output becomes current (last selected) output, except if output 8, set as M.PHASE, was the target: in this case, "source" is staying current output.
+
+- **ANIMATION: HOW TO "COPY" OUTPUT SETTINGS, TO ANOTHER OUTPUT**
+
+![](images/KlokSpid_MkII_Manual_images/COPY_feature_rev.gif)
+
 
 - All settings for current output can be erased and restored to default settings (other outputs aren't affected), by using **DEFAULTS** from output-related menu. **BE CAREFUL** - please do not confuse with **Initialize** command (from context menu), or **Ctrl**+**I** (**Command**+**I** on MacOS systems) keystrokes, or from **Global Settings** / **Factory Reset** touchscreen menus: this will reset the module entirely (full reset), all customizations (except model) are lost! During 'factory reset', the module is playing a short "LEDs sequence" animation (approx. during 1.5 seconds).
 
@@ -98,7 +103,6 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 - **ANIMATION: HOW TO REACH WAVETABLE MANAGER**
 
 ![](images/KlokSpid_MkII_Manual_images/Wavetable_Manager_rev.gif)
-
 
 - Six models (GUI theme variations) are available, like most Ohmer & OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Possible models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, and **Titanium "Signature"**.
 
