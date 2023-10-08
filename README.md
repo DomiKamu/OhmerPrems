@@ -11,8 +11,9 @@ Actually, *OhmerPrems* plugin is a set of 4 modules (plus 3 as "expanders"):
 - _NEW:_ **KlokSpid MkII**, the versatile 16HP clocking source / LFO / clocked envelope module. [**Specifications & User's Manual** (incl. KX expander)](doc/KlokSpid_MkII-Specs.md)
 - _NEW:_ **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (pre-offsets).
 
-Lastest Beta (**v2.4.1b12**) is available as [_Pre-Release_](https://github.com/DomiKamu/OhmerPrems/releases).
-
+---
+Lastest Beta (**v2.4.1b12**) is available from [_Pre-Release_](https://github.com/DomiKamu/OhmerPrems/releases) section.
+--
 ----
 
 ## **KlokSpid MkII & KX modules**
