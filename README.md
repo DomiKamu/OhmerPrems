@@ -22,7 +22,7 @@ Lastest Beta (**v2.4.1b12**) is available from [_Pre-Release_](https://github.co
 
 This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems plugin! cool, aren't? ;) Original KlokSpid module will stay alive, however, maintenance is discontinued.
 
-![](doc/images/KlokSpidMkII_1stPreview.png) ![](doc/images/KlokSpidMkII_2ndPreviewC.png) ![](doc/images/KlokSpidMkII_3rdPreview.png)
+![](doc/images/KlokSpid_MkII_Manual_images/Models_rev.gif)
 
 Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI theme variations):
 - _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -31,8 +31,6 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 - _Dark "Signature"_
 - _Fort Knox "Signature"_
 - _Titanium "Signature"_
-
-![](doc/images/KlokSpid_MkII_Manual_images/Models_rev.gif)
 
 ----
 
