@@ -32,6 +32,8 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 - _Fort Knox "Signature"_
 - _Titanium "Signature"_
 
+![](doc/images/KlokSpid_MkII_Manual_images/Models_rev.gif)
+
 ----
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
