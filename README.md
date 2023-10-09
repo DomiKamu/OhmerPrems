@@ -32,6 +32,8 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 - _Fort Knox "Signature"_
 - _Titanium "Signature"_
 
+**KX expander** module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module, automatically.
+
 ----
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
