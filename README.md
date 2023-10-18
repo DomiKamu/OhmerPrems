@@ -107,7 +107,7 @@ All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_
 
 ![](doc/images/QuadPercs_All_Models.png)
 
-Depending **Use dark panels if available** global Rack's option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, either from module browser and new instanciation (when you bring the module in rack, as new module).
+Depending **Use dark panels if available** Rack's global option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, either from module browser and new module instanciation (when you bring the module in rack, as new fresh module).
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
