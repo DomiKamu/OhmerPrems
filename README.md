@@ -139,7 +139,7 @@ This module supports monophonic cables only (because polyphony is never required
 
 Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
-QuadPercs can operate **from 44.1kHz to 192 kHz** (Free version is limited at 44.1kHz only, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
+QuadPercs can operate **from 44.1kHz to 192kHz** (Free version is limited at 44.1kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
 
 Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI theme variations):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -197,14 +197,14 @@ Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 indepen
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
-- free version (limited to **5** working drum machines, operating at 44.1 kHz only) to any who want to try it (fully usable, no other limitation). Other drum machines can be selected, but are muted (no audio output).
-- full version (all 16 drum machines, from 44.1 to 192 kHz), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations.
+- free version (limited to **5** working drum machines, operating at 44.1kHz only) to any who want to try it (fully usable, no other limitation). Other drum machines can be selected, but are muted (no audio output).
+- full version (all 16 drum machines, from 44.1 to 192kHz), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations.
 
 Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments. 44.1kHz sample rate only.
 
-Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, 44.1 kHz to 192 kHz sample rates.
+Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, 44.1kHz to 192kHz sample rates.
 
-QuadPercs embeds all drum samples (44.1 ~ 192 kHz 16-bit mono PCM) via external PCM table files (220MB after installation).
+QuadPercs embeds all drum samples (44.1 ~ 192kHz, 16-bit, mono, PCM) via external PCM table files (220MB after installation).
 
 KordZ module presentation coming soon...
 
