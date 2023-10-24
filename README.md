@@ -139,7 +139,7 @@ This module supports monophonic cables only (because polyphony is never required
 
 Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
-QuadPercs can operate **from  to 192 kHz** ( version is limited to max. 48 kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at any sample rate!
+QuadPercs can operate **from 44.1kHz to 192 kHz** (Free version is limited at 44.1kHz only, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
 
 Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI theme variations):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
