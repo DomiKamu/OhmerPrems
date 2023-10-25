@@ -1,15 +1,15 @@
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems for VCV Rack 2
 
-*OhmerPrems* is both Premium (for susbcribers) and free modules, designed for VCV Rack 2.
+*OhmerPrems* is both Premium (**full version**, for susbcribers only) and free (limited) modules, for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of 4 main modules (plus 3 as _expanders_):
+Actually, *OhmerPrems* plugin is a set of 4 main modules, plus 3 as _expanders_ modules:
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](doc/FroeZe-Specs.md)
 - **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus some edit features.
-- _NEW:_ **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
+- **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
 - **QuadPercs** is a quad-channel drum machine module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
-- _NEW:_ **KlokSpid MkII**, the versatile 16HP clocking source / LFO / clocked envelope module. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](doc/KlokSpid_MkII-Specs.md)
-- _NEW:_ **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (pre-offsets).
+- **KlokSpid MkII**, the versatile 16HP clocking source / LFO / clocked envelope module. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](doc/KlokSpid_MkII-Specs.md)
+- **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (pre-offsets).
 
 ---
 Lastest Beta (**v2.4.1b12**) is available from [_Pre-Release_](https://github.com/DomiKamu/OhmerPrems/releases) section.
@@ -102,6 +102,8 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 ----
 
 ## **QuadPercs module**
+
+:warning: **No sound is meaning you don't have a license keyfile (or not installed at right folder), and you're using higher than 44.1kHz or/and not allowed drum machine (without license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 output sounds, other DM are muted.**
 
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
