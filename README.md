@@ -38,7 +38,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
-:warning: **No sound (by Audio Engine) is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).**. Also, without license keyfile, FroeZe module have more feature limitations (indicated in Quick Guide).
+:warning: **No sound (by Audio Engine) is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).** Also, without license keyfile, FroeZe module have more feature limitations (indicated in Quick Guide).
 
 [Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](doc/FroeZe-Specs.md)
 
