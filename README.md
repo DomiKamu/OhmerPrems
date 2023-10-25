@@ -38,7 +38,9 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
-[Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](doc/FroeZe-Specs.md) -- **IMPORTANT SECTION CONCERNING  USERS (WHO DON'T HAVE A LICENSE KEY) AT THE END OF THIS DOCUMENT! PLEASE READ IT CAREFULLY! (TIA)**
+:warning: **No sound is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).**
+
+[Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](doc/FroeZe-Specs.md)
 
 Below this is the _Creamy_ model - as presented from Rack's module browser (_Absolute Night_ is presented, instead of _Creamy_, if **Use dark panels if available** option is enabled from **View** menu). Not connected on clock source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
 
