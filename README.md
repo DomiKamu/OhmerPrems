@@ -20,7 +20,7 @@ Lastest Beta (**v2.4.1b12**) is available from [_Pre-Release_](https://github.co
 
 [Please click here to read KlokSpid MkII/KX specifications & **USER'S MANUAL**](doc/KlokSpid_MkII-Specs.md)
 
-This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of 2017 *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems plugin! cool, aren't? ;) Original KlokSpid module will stay alive, however, but its maintenance is discontinued (except if serious issue is discovered).
+This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of [2017 *KlokSpid*](https://library.vcvrack.com/Ohmer/KlokSpid) module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin! Original KlokSpid module will stay alive, however, but its maintenance is discontinued (except if serious issue is discovered). Source code is not provided, however.
 
 ![](doc/images/KlokSpid_MkII_Manual_images/Models_rev.gif)
 
