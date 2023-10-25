@@ -103,7 +103,7 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 
 ## **QuadPercs module**
 
-:warning: **No sound is meaning you don't have a license keyfile (or not installed at right folder), and you're using higher than 44.1kHz or/and not allowed drum machine (without license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 output sounds, other DM are muted.**
+:warning: **No sound is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).**
 
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
