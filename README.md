@@ -191,9 +191,9 @@ When installed, from VCV Rack module browser, QuadPercs and KordZ modules are li
 
 ## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION?
 
-Over **FroeZe or QuadPercs module**, just do a right mouse click button, to bring its context-menu. At the bottom of this menu, if the grayed entry indicates **License:** (followed by your partial license key), that meaning all your modules run as full version, as expected!
+Over **FroeZe** or **QuadPercs** module, just do a right mouse click button, to bring its context-menu. At the bottom of this menu, if the grayed entry indicates **License:** (followed by your partial license key - some digits are masked by *), that meaning all OhmerPrems modules run as full registered version.
 
-Otherwise, the same grayed menu entry indicates **Free**, followed by limitation type (between brackets). Not applicable for KlokSpid MkII and KordZ modules, because these modules are always free (they mention **License: full version (for everyone)**).
+Otherwise, the same grayed menu entry indicates **Free**, followed by limitation type between brackets. Not applicable for KlokSpid MkII and KordZ modules, because these modules are always free, even for non-OhmerPrems member (these modules always mention **License: full version (for everyone)**).
 
 ![](doc/images/OhmerPrems_Free_upd.png)
 
