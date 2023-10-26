@@ -157,6 +157,8 @@ Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI them
 
 ## **KordZ module**
 
+Since **OhmerPrems v2.4.1 Beta 14**, KordZ module is entirely free (no more time limitation) for everyone (even for non-OhmerPrems members), like KlokSpid MkII.
+
 All six models (aka GUI themes, same than QuadPercs modules), reduced room brightness:
 
 ![](doc/images/KordZ_All_Models.png)
