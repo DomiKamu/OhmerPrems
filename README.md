@@ -12,7 +12,7 @@ Actually, *OhmerPrems* plugin is a set of 4 main modules, plus 3 as _expanders_ 
 - **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (pre-offsets).
 
 ---
-Lastest Beta (**v2.4.1 beta 12**) is available from [_Pre-Release_](https://github.com/DomiKamu/OhmerPrems/releases) section.
+Lastest version (**v2.4.1**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section.
 --
 ----
 
