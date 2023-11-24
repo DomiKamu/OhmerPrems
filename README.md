@@ -107,7 +107,7 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 
 :warning: **No sound is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).**
 
-However, since plugin v2.4.1, you can _preview_ ANY sound at ANY samplerate, by **disconnecting trigger input cable** first (on related channel). While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine, whatever the engine's samplerate. It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to hear all drum machines/drum kits (at any samplerate, from 44.1kHz to 192kHz).
+However, since plugin v2.4.1, you can _preview_ ANY sound at ANY samplerate, by **disconnecting trigger input cable first** (on related channel). While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine (no matter the engine's samplerate). It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to try all drum machines/drum kits sounds, at any samplerate (from 44.1kHz to 192kHz). When the channel input is patched, preview feature is disabled for the channel.
 
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
