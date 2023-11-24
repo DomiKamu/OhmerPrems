@@ -107,6 +107,8 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 
 :warning: **No sound is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).**
 
+However, since plugin v2.4.1, you can _preview_ ANY sound at ANY samplerate, by **disconnecting trigger input cable** first (on related channel). While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine, whatever the engine's samplerate. It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to hear all drum machines/drum kits (at any samplerate, from 44.1kHz to 192kHz).
+
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
 ![](doc/images/QuadPercs_All_Models.png)
@@ -130,7 +132,7 @@ The main key are... four buttons (one per drumming channel), and the continuous 
 For each channel (labeled 1 to 4, from top to bottom), you can find, from left to right:
 
 - An ***input*** "TRIG." jack, to trigger drum sound for related channel. Minimum trigger voltage is +1.7V.
-- Red LED, indicating selected channel (when lit), or when editing channel (while blinking).
+- Green or red LED, indicating selected channel (when lit), or when editing channel (while blinking). Red LED indicates the sound isn't allowed from Free version (not allowed drum machines, and/or samplerate greater than 44.1kHz).
 - Volume level (from 0% to 100%, default is always 50%) can be changed by turning the **continuous encoder** (while the channel LED isn't blinking). By approaching the mouse cursor near the encoder, the current level is indicated in the dot-matrix display (DMD).
 - Momentary button to select active channel (if its LED is off). When pressing button on **already active channel**, its LED blinks, indicating channel edit. The related item to edit also blinks in dot-matrix display. When the drum machine name is blinking, press the channel button again to change its related instrument (drumkit). Turn the encoder clockwise or counter-clockwise to select next or previous drum machine, or the instrument (drumkit). No need to validate anything, your choice is *immediately applied!* Also, please notice while channel LED is blinking (meaning you're editing active channel), and in case you don't touch the encoder or any button, the edit mode exits automatically after 30 seconds timeout.
 - An ***output*** jack delivers monophonic audio, it can be connected to output of VCV's AUDIO module, mixer, audio effect, envelope generator or any modulator you want...
