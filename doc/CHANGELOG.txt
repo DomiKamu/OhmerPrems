@@ -2,6 +2,34 @@
 CHANGELOG
 ==============================================================================================================================
 
+Release v2.4.1 (November 24th, 2023) for VCV Rack v2.
+
+- Now QuadPercs allows pre-listen any drum kit (at any samplerate), even for non-OhmerPrems members. But the related trigger
+  input cable must be disconnected first. Then, when you select any drum machine, any drum kit, the selected drum kit now is
+  audible.
+- QuadPercs is using new LED color scheme: when the sound is allowed, the channel LED is green. Otherwise, the LED is red.
+- Introducing KlokSpid MkII module, the successor of 2017 KlokSpid module (from Ohmer plugin).
+- Introducing KX expander (left-side of KlokSpid MkII), to bring discrete "CLK", "RUN" and "RESET" inputs, plus two CV inputs
+  ("OFS.1" and "OFS.2") exclusively dedicated to KlokSpid MkII quantizers (since v2.4.1 beta 6).
+- Any expander (FroeZe-X, FroeZe-SX, and KX) inherits model of "master" module, even while module(s) is/are bypassed.
+- Introducing FroeZe-SP-X expander (left-side), to bring track-based SWING CV inputs (instrument tracks only). By enabling
+  at least one SWING CV input from FroeZe-SP-X expander, this disable the FroeZe internal SWING input (readout becomes --).
+- FroeZe: no more "CV PATTERN" option from module's context menu. Now, by patching "PREV." input jack only ("NEXT" unpatched),
+  the "CV PATTERN" is automatically engaged.
+- FroeZe: fixed typo about LinnDrum Snare 2 from KIT encoder (it was indicated "Snare 1" for both... "Snare 1" and "Snare 2").
+- FroeZe: using "Initialize" command, via module's context menu (or Ctrl+I / Command+I keypress) now keeps the current output
+  mode previously used (triggers or audio engine). Useful if FroeZe module is already patched for specific mode usage.
+- FroeZe: now "PREV." and "NEXT" input jacks respond on trigger inputs, even if the sequencer is paused (in previous v2.2.7,
+  FroeZe module ignore these triggers while the sequencer was paused).
+- FroeZe-X expander: "LOAD" items are replaced by "OPEN", from both "PATTERN" and "RATCHET." menu pages.
+- FroeZe: "Auto-completion" from OSD menu, is replaced by "Auto-fill" (as requested by some OhmerPrems members).
+- FroeZe-X: "COMPL." from TRACK, is replaced by "AUTOFILL" (for the same reason).
+- FroeZe, FroeZe-X, FroeZe-SP-X: Deepblue "Signature" model is replaced by Fort Knox "Signature" (new liveries).
+- FroeZe, QuadPercs, KordZ: Classic model is renamed to become Creamy.
+- FroeZe, QuadPercs, KordZ: Carbon "Signature" model is renamed to become Titanium "Signature".
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.2.7 (March 29th, 2023) for VCV Rack v2.
 
 - Introducing FroeZe module: 128-pattern 16-track 64-step drum-based sequencer module, and its expander: FroeZe-X.
@@ -13,6 +41,7 @@ Release v2.2.7 (March 29th, 2023) for VCV Rack v2.
 - IMPORTANT NOTE: KordZ development is "frozen" until mid-May 2023.
 
 ------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.2.5 (February 10th, 2023) for VCV Rack v2.
 
 - KordZ: intervals are revisited a bit, in particular multiple octaves/basses in chords.
@@ -118,6 +147,8 @@ Release v0.6.3 (April 7th, 2018):
 TODO LIST
 ==============================================================================================================================
 
+- KlokSpid MkII: envelopes, wavetables, and Euclidean remain in development.
+- FroeZe: SONG mode remains as under consideration.
 - Kords: kind of "grace display delay" when chord is "reduced" (aka when a gate in chord is released).
 - KordZ: add 4-note chords (tetrads) analysis.
 - QuadPercs: anti-pop feature (while changing instrument) must be enhanced a bit.
