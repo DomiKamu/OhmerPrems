@@ -230,8 +230,6 @@ Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrad
 
 To become *OhmerPrems* member, simply send me **15 euros**. If required, please convert your local currency first, to fit with 15+ euros, otherwise your payment will be not accepted) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
-## During 2023 Black Friday - from November 24th, until December 3rd (included), the license price is 7.50 euros (-50%).
-
 **Very important: don't forget to indicate:**
 - your first and last name (personal name, not company or nickname).
 - your valid email address (required to send your personal license key & instructions). Your email address stays private!
