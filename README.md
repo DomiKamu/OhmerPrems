@@ -228,7 +228,9 @@ A personal license keyfile is sent to OhmerPrems members (by email), including d
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
+
 To become *OhmerPrems* member, simply send me **15 euros**. If required, please convert your local currency first, to fit with 15+ euros (otherwise your payment will be rejected) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
+*BLACK FRIDAY 2025*: until December 1st, the price is reduced to **9 euros**, instead of 15!
 
 **Very important: don't forget to indicate:**
 - your first and last name (personal name, not company or nickname).
@@ -258,3 +260,4 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
+
