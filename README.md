@@ -229,15 +229,14 @@ A personal license keyfile is sent to OhmerPrems members (by email), including d
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
 
 
-To become *OhmerPrems* member, simply send me **15 euros**. If required, please convert your local currency first, to fit with 15+ euros (otherwise your payment will be rejected) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
-*BLACK FRIDAY 2025*: until December 1st, the price is reduced to **9 euros**, instead of 15!
+*BLACK FRIDAY 2025* (valid until December 1st): To become *OhmerPrems* member, simply send me **9 euros** (instead of 15, as regular cost). If required, please convert your local currency first, to fit with 15+ euros (otherwise your payment will be rejected) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
 **Very important: don't forget to indicate:**
 - your first and last name (personal name, not company or nickname).
 - your valid email address (required to send your personal license key & instructions). Your email address stays private!
 - also in the message, please specify **OhmerPrems member**, or something similar, to avoid possible confusion. Thank you in advance!
 
-New subscription requires 24 hours max. after PayPal confirmation. **Incomplete/not regular fee informations or/and payment less than 15 euros is refurbished**. Thank you for your understanding.
+New subscription requires 24 hours max. after PayPal confirmation. **Incomplete/not regular fee informations or/and payment less than 9 euros will be refurbished**. Thank you for your understanding.
 
 ----
 
@@ -260,4 +259,5 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
+
 
