@@ -4,7 +4,7 @@
 
 Actually, *OhmerPrems* plugin is a set of 4 main modules, plus 3 as _expanders_ modules:
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](doc/FroeZe-Specs.md)
-- **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus some edit features.
+- **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
 - **QuadPercs** is a quad-channel drum machine module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
@@ -12,7 +12,7 @@ Actually, *OhmerPrems* plugin is a set of 4 main modules, plus 3 as _expanders_ 
 - **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (pre-offsets).
 
 ---
-Lastest version (**v2.4.1**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section.
+Lastest version (**v2.6.6**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation. Will be updated in Rack Library soon.
 --
 ----
 
@@ -259,6 +259,7 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
+
 
 
 
