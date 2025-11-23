@@ -8,7 +8,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Track naming follows _Roland_-style (for most of their vintage drum machines): **BD** for bass drum/kick, **SD** for snare drum, **CH** for closed hats... Obviously, except while audio engine is enabled, instrument track usage is free (it's not mandatory to follow the instrument naming scheme for your project).
 
-- 64 steps (max.) per track. LAST STEP (common to all tracks) is manually adjustable via dedicated encoder, and can be shifted (offset - / +) in real time via CV input jack, from minimum 1-step upto 64.
+- 64 steps (max.) per track. LAST STEP (by default, common to all tracks) is manually adjustable via dedicated encoder, and can be shifted (offset - / +) in real time via CV input jack, from minimum 1-step upto 64. Every instrument track(s) may have a different LAST STEP, by setting these tracks as SOLO first (indepent Last Step settings are kept, even if tracks are unSOLO).
 
 - Main display as "touchscreen"-like, mainly for note events editing (silences, notes, AC'd notes, or 8-preset defined ratchets), into 16x64 grid.
 
@@ -81,4 +81,5 @@ Free version (without valid license keyfile) is working as **full player** conce
 When not using a configured FroeZe (from .vcv patch file) made by OhmerPrems member, after **Initialize** command (**Ctrl+I**, or **Command+I** on Mac), or on new FroeZe module instance, free version allows to edit **BD**, **SD** and **AC** tracks only, restricted to the pattern 1 (all other patterns are edit-locked). Also, some edit features from FroeZe-X expander are inoperative, without any notification.
 
 Free version: by using internal (QuadPercs) sounds (except in free player), allowed drum machines are strictly identical than standalone QuadPercs module: allowed drum machines are **Oberheim DMX**, **Drumulator**, **LinnDrum**, **Roland TR-707**, and **Roland TR-808**, at **44.1kHz only** (other drum machines and higher sample rates are reserved to OhmerPrems members exclusively). However, any drum machine (and higher sample rates than 44.1kHz) can be selected, but their sounds are muted, without any notification.
+
 
