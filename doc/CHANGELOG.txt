@@ -2,6 +2,22 @@
 CHANGELOG
 ==============================================================================================================================
 
+Release v2.6.6 (November 23nd, 2025) for VCV Rack v2.
+
+- FroeZe module: now any instrument track(s) may have its own LAST STEP (when tracks are SOLO).
+- FroeZe module: LAST STEP continuous encoder affects SOLOed track(s) only, when SOLO is turned on.
+- FroeZe module: LAST STEP modulation by CV affects SOLOed track(s) only (when SOLO is turned on), or all instrument tracks.
+- FroeZe module: LAST STEP for "AC" track is defined automatically by module's logic (cannot be changed by user).
+- FroeZe module: redesigned "LAST STEP" indications over horizontal "last step" bars (per track).
+- FroeZe module: updated pattern file format (CAUTION: this new format isn't compatible against module v2.4.1 and older).
+  However, old format (v2.4.1 and older) remains compatible.
+- FroeZe module: code optimizations (around "CV LAST STEP" and "LAST STEP" continuous encoder).
+- FroeZe module: now PATTERN INSERT command (from FroeZe-X expander) inserts a new (clean) pattern, instead of copy.
+- FroeZe module: now SOLO & MUTE states are pattern-dependent (instead of global sequencer in v2.4.1 and older).
+- FroeZe-X expander: implemented a ratchet editor (from HOME / RATCHET / EDITOR menu).
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.4.1 (November 24th, 2023) for VCV Rack v2.
 
 - Now QuadPercs allows pre-listen any drum kit (at any samplerate), even for non-OhmerPrems members. But the related trigger
@@ -148,7 +164,7 @@ TODO LIST
 ==============================================================================================================================
 
 - KlokSpid MkII: envelopes, wavetables, and Euclidean remain in development.
-- FroeZe: SONG mode remains as under consideration.
+- KlokSpid MkII: sync. issues when using external clocks.
 - Kords: kind of "grace display delay" when chord is "reduced" (aka when a gate in chord is released).
 - KordZ: add 4-note chords (tetrads) analysis.
 - QuadPercs: anti-pop feature (while changing instrument) must be enhanced a bit.
