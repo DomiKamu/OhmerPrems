@@ -75,6 +75,8 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse
 - AC track accepts only silence or accent event (to accent/mark all note events located into same step/column).
 - SWING input port applies a global swing (all instrument tracks) on even steps. 50% is meaning no swing. Max is 75% (dotted 16th followed by 32th).
 - Top-right area of display is empty at the moment (this area is reserved for future usage).
+- *New in v2.6.6:** LAST STEP now can be independent (useful for Euclidean and polyrhythms), to set LAST STEP for certain instrument track(s), set the track(s) as SOLO first, adjust LAST STEP by continuous encoder.
+- *New in v2.6.6:** SOLO and MUTE states now are pattern-dependent (instead of the global sequencer in previous releases).
 
 FroeZe-X expander:
 
@@ -89,7 +91,7 @@ FroeZe-X expander:
 - TRACK/EUCLID. menu: euclidean rhythm feature erases the current track as soon as you change any euclidean parameter via continuous encoder (STEPS, PULSES or OFFSET), so proceed with caution (if necessary, save the pattern first, from module context menu, or make a backup of it by using PATTERN/COPY from expander to any empty pattern).
 - TRACK/EUCLID. menu: sets regular notes only (no AC'd or ratchets). However, it sets ACcent events on AC track.
 - TRACK/COMPLT. menu (track auto-completion feature): this feature also may "cover" existing track events, so proceed with caution (save the pattern first, from module context menu, or make a backup of pattern by using PATTERN/COPY from expander to an empty pattern).
-- RATCHET. menu permits to save, open, and "reset to factory" the eight ratchet slots/presets (for current pattern only).
+- RATCHET. menu permits to save, open, edit and "reset to factory" the 8  ratchet slots (presets) for current pattern.
 
 More infos "on-the-fly" in [FroeZe/FroeZe-X/FroeZe-SX **Specifications & Quick Guide**](doc/FroeZe-Specs.md) document.
 
@@ -259,6 +261,7 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
+
 
 
 
