@@ -42,17 +42,15 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Notation in cells: **empty** means silence, **diamonds** for regular notes, **plain diamonds** for individual accent notes (regardless AC track), or 8-slot preset for ratchet note patterns (symbol in grid - from top to bottom - is based on current ratchet preset, from slot #1 to slot #8).
 
-- Ratchet note is always based on **mandatory played 1st stage** (due to display limitation in cell), followed by 7-stage repeats (any of them can be enabled/disabled via editor in OSD context menu over related cell).
+- Ratchet note is always based on **mandatory played 1st stage** (due to display limitation in cell), followed by 7-stage repeats (any of them can be enabled/disabled via editor in OSD context menu over related cell, or from FroeZe-X expander's **RATCHET** / **EDITOR** feature).
 
 - AC track always uses empty or plain diamonds, to alter any note type located on the same step (same column) during playback.
 
 - Smart OSD context menu (on right mouse click over a event cell, in grid). On right click over a ratchet note, its 7-step pattern can be changed on the fly (left mouse button clicks on relevant boxes!).
 
-- **Under consideration**: SONG mode, including integrated song editor.
+- Smart track completion (applied on current/selected track), from FroeZe-X expander's **TRACK** / **AUTOFILL** feature, or from OSD context menu.
 
-- Smart track completion (applied on current/selected track), from FroeZe-X expander's TRACK / AUTOFILL feature, or from OSD context menu.
-
-- Euclidean rhythm (applied on selected track only), from FroeZe-X expander's TRACK / EUCLID. page. Track is entirely filled by indicated STEPS, NOTES (number of "hits") and OFFSET (rotation).
+- Euclidean rhythm (applied on selected track only), from FroeZe-X expander's **TRACK** / **EUCLID**. page. Track is entirely filled by indicated **STEPS**, **NOTES** (number of "hits") and **OFFSE**T (rotation).
 
 - Pattern and track edit features from FroeZe-X expander (copy, open, save as, clear, remove, SOLO and MUTE toggles,...).
 
@@ -64,13 +62,13 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Time signature: 4/4 only, 16ths, 4 bars.
 
-- Polyrhythm: not natively (due to "4/4" nature), but possible by using euclidean rhythm via FroeZe-X expander (TRACK / EUCLID. feature).
+- Polyrhythm: not natively (due to "4/4" nature), but possible by using euclidean rhythm via FroeZe-X expander (TRACK / EUCLID. feature), along separate LAST STEP - set while track(s) is/are SOLO.
 
 - Optional (from module's context menu): **internal QuadPercs sound engines!**, now QuadPercs sound engines are parts of FroeZe sequencer (for all instrument tracks). By this way, **FroeZe sequencer can delivers drum machines audio** exactly like QuadPercs module does, instead of 10ms triggers usage. This tricky feature may simplify patches who need drum machine sounds. Drum machine and its related drum kit can be immediately selected via left and right continuous encoders. Proposed drum kits are always based on **instrument track nature** (only "kicks" for BD track, only snares for SD track, and so on). Some instrument tracks, such TB, may host many kind of kits (eg. TB track offers both timbales and tambourines, CB offers cowbells and bells, and so on).
 
 - In case of main outputs send audio, FroeZe-X expander sends +10V gates (instead of 1ms triggers) on their related output jacks. Each gate is held while related drum kit sample is playing. This may be useful to control an external module, such envelope generator, VCA, filter, dynamics, reverb, delay, synth...
 
-- Pattern change can be controlled by triggers (previous, next) over "PREV" and "NEXT" input jacks (both must be connected), or by absolute pattern number via 0V/+10V control voltage, by using "PREV" input only ("NEXT" jack must be disconnected).
+- Pattern change can be controlled by triggers (previous, next) over "PREV" and "NEXT" input jacks (both must be connected), or by absolute pattern number via 0V/+10V control voltage range, by using "PREV" input only ("NEXT" jack must be disconnected).
 
 - Six models (GUI variations), identical than QuadPercs, KordZ, and most of free modules provided by free Ohmer collection!
 
@@ -83,3 +81,4 @@ Free version (without valid license keyfile) is working as **full player** conce
 When not using a configured FroeZe (from .vcv patch file) made by OhmerPrems member, after **Initialize** command (**Ctrl+I**, or **Command+I** on Mac), or on new FroeZe module instance, free version allows to edit **BD**, **SD** and **AC** tracks only, restricted to the pattern 1 (all other patterns are edit-locked). Also, some edit features from FroeZe-X expander are inoperative, without any notification.
 
 Free version: by using internal (QuadPercs) sounds (except in free player), allowed drum machines are strictly identical than standalone QuadPercs module: allowed drum machines are **Oberheim DMX**, **Drumulator**, **LinnDrum**, **Roland TR-707**, and **Roland TR-808**, at **44.1kHz only** (other drum machines and higher sample rates are reserved to OhmerPrems members exclusively). However, any drum machine (and higher sample rates than 44.1kHz) can be selected, but their sounds are muted, without any notification.
+
