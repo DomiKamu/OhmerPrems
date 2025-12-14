@@ -23,7 +23,7 @@ Typically, KlokSpid MkII is:
 
 - Voltages required for **CLK**, **RUN** and **RESET** inputs (internal, or KX expander): minimum +2V rising edge to trigger, maximum +0.1V falling edge to release. Pulse/trigger or gate signal is highly recommended to trigger CLK, RUN, or RESET. Exception for CLK input, if **Ext. CLK mode** is set as **BPM CV**, though.
 
-- Output waveform can be either **PULSE** (default, including square and PCM-based waveforms), **TRIANGLE** (including ramp/saw down and ramp/saw up, via _Tilt_ parameter, who can be modulated by any valid CV), **SINE** (including half sine, and humps), and **SAMPLE & HOLD** (S&H, its _Density_ parameter defines the number of random samples per beat, from 1 upto 64).
+- Output waveform can be either **PULSE** (default, including square and PWM-like waveforms), **TRIANGLE** (including ramp/saw down and ramp/saw up, via _Tilt_ parameter, who can be modulated by any valid CV), **SINE** (including half sine, and humps), and **SAMPLE & HOLD** (S&H, its _Density_ parameter defines the number of random samples per beat, from 1 upto 64).
 
 - KlokSpid MkII module can be controlled either by continuous encoder + **SET** (blue) button + **Cancel/Exit** button _"combo"_ (on the module's chassis), and/or by "touchscreen"-like, at you convenience! However, some controls (like arrows to select previous/next page, or notes rotations in output-related _Quantizer_ page) are usable by touchscreen only (continuous encoder isn't supported). Also, in some situations, the page may don't have a clickable "RETURN" menu entry/box, as example, Input and Output selectors (both having 8 boxes), also from _home_ menu to disable it (who permit to change the BPM tempo or frequency). In this situation, the only way is to press "Cancel/Exit" button. In general, you can combine touchscreen actions and encoder+buttons actions.
 
@@ -115,6 +115,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 **ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS VST2 PLUGIN)**
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_sync_24_PPQN_rev.gif)
+
 
 
 
