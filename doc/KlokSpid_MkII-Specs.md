@@ -77,7 +77,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - All embedded LED on module's chassis are RGB.
 
-- **HINT**: Input and output LED are "finger sensitive" (clickable, like momentary buttons), either by left or right mouse button. By left mouse click over LED, the menu system jumps directly to related input configuration (input role and voltage ranges), or to related output setting (base) menu. By doing a right mouse click over LED, this will open a scope to monitor the evolution of input/output voltage (use "Cancel/Exit" button to return and resume to previous situation before scope display (scope feature is not yet implemented).
+- **HINT**: Input and output LED are "finger sensitive" (clickable, like momentary buttons), by left mouse button. By doing a left mouse click over LED, the menu system jumps directly to related input configuration (input role and voltage ranges), or to related output setting (base) menu.
 
 - Transport (START/STOP button) - LED is **off** when clock is stopped, **green** while clock is running and controlled by button on module's chassis, **cyan** while clock is running and controlled by "RUN" input jack (either via held gate or toggle by incoming pulses), **blinking red** during sync operation against source clocking module - while slave. For your information, during sync operation, KlokSpid MkII uses "last known BPM/frequency" during this degraded situation, until new stable frequency is established!
 
@@ -87,7 +87,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - While **Output 8: master phase (M.PHASE) 0V/+10V ramp up @ tempo/freq.** option is enabled (from context menu), the output 8 can't be selected/edited, either from _Select Output_ page (its box is grayed) or by left mouse button click over its LED. If output 8 is the current/selected output when you enable this option from context menu, the output 7 becomes current/selected output, instead. Previous output 8 settings are restored when you disable this option.
 
-- READY FOR NEXT BETA 14 (FULLY OPERATIONAL): all settings for current (last selected) output can be copied to another output, by single operation, simply by using **COPY** menu item from output menu. When the copy is done, the "target" output becomes current (last selected) output, except if output 8, set as M.PHASE, was the target: in this case, "source" is staying current output.
+- All settings for current (last selected) output can be copied to another output, by single operation, just by using **COPY** menu item from output menu. When the copy is done, the "target" output becomes current (last selected) output, except if output 8 is already set as M.PHASE, was the target: in this case, "source" is staying current output.
 
 - **ANIMATION: HOW TO "COPY" OUTPUT SETTINGS, TO ANOTHER OUTPUT**
 
@@ -115,5 +115,6 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 **ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS VST2 PLUGIN)**
 
 ![](images/KlokSpid_MkII_Manual_images/DAW_sync_24_PPQN_rev.gif)
+
 
 
