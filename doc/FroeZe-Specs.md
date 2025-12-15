@@ -18,7 +18,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe** (in tribute to...
 
 - Any track can be **MUTE**d (including AC track). Multiple MUTE tracks is possible.
 
-- MUTE and SOLO can be combined on same instrument track (except AC track, who can't be SOLOed).
+- MUTE and SOLO can be combined on same instrument track (except AC track, can't be SOLOed).
 
 - 128 patterns, each of them can be named. **Please follow displayed (OSD) instructions while (re)naming the current pattern!**
 
@@ -83,6 +83,7 @@ Free version (without valid license keyfile) is working as **full player** conce
 When not using a configured FroeZe (from .vcv patch file) made by OhmerPrems member, after **Initialize** command (**Ctrl+I**, or **Command+I** on Mac), or on new FroeZe module instance, free version allows to edit **BD**, **SD** and **AC** tracks only, restricted to the pattern 1 (all other patterns are edit-locked). Also, some edit features from FroeZe-X expander are inoperative, without any notification.
 
 Free version: by using internal (QuadPercs) sounds (except in free player), allowed drum machines are strictly identical than standalone QuadPercs module: allowed drum machines are **Oberheim DMX**, **Drumulator**, **LinnDrum**, **Roland TR-707**, and **Roland TR-808**, at **44.1kHz only** (other drum machines and higher sample rates are reserved to OhmerPrems members exclusively). However, any drum machine (and higher sample rates than 44.1kHz) can be selected, but their sounds are muted, without any notification.
+
 
 
 
