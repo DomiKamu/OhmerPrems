@@ -16,7 +16,7 @@ Lastest version (**v2.6.6**) is available from [_Releases_](https://github.com/D
 Updated in VCV Library.
 --
 ----
-## **Work-in-Progress module: 6OP-DX**
+## **Work-in-Progress module: 6OP-DX** No sound on output at the moment!
 
 ![](doc/images/6OP-DX.png)
 
@@ -267,6 +267,7 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
+
 
 
 
