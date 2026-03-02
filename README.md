@@ -27,7 +27,7 @@ Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/D
 
 [Please click here to read KlokSpid MkII/KX specifications & **USER'S MANUAL**](doc/KlokSpid_MkII-Specs.md)
 
-This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of (removed) *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin (followed later by KordZ module)/
+This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of (removed) *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin (followed later by KordZ module):
 
 ![](doc/images/KlokSpid_MkII_Manual_images/Models_rev.gif)
 
@@ -268,3 +268,4 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository (or via VCV Rack Community forum).
+
