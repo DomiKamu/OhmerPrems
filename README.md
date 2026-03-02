@@ -45,7 +45,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
-:warning: **No sound (by Audio Engine) is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).** Also, without license keyfile, FroeZe module have more feature limitations (indicated in Quick Guide).
+:warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free", instead of "Full"). Free version is limited upto 44.1kHz as samplerate, and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) have more feature limitations (specified in the Quick Guide).
 
 [Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](doc/FroeZe-Specs.md)
 
@@ -53,7 +53,7 @@ Below this is the _Creamy_ model - as presented from Rack's module browser (_Abs
 
 ![](doc/images/FroeZe_Header.png)
 
-FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer). Per instrument track (first 15th, AC isn't an instrument track), you can select drum machine and related drum kit by using both DM and KIT continuous encoders (wheels):
+FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer). Per instrument track (AC to CL tracks, AC/accent isn't an instrument track), you can select drum machine and related drum kit by using both DM and KIT continuous encoders (wheels):
 
 ![](doc/images/FroeZe_Patch.png)
 
@@ -268,5 +268,6 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository (or via VCV Rack Community forum).
+
 
 
