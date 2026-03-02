@@ -9,17 +9,17 @@ Actually, *OhmerPrems* plugin is a set of 4 main modules, plus 3 as _expanders_ 
 - **QuadPercs** is a quad-channel drum machine module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
 - **KlokSpid MkII**, the versatile 16HP clocking source / LFO / clocked envelope module. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](doc/KlokSpid_MkII-Specs.md)
-- **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (pre-offsets).
+- **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (as pre-offsets).
 
 ---
-Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also available from [VCV Library](https://library.vcvrack.com/OhmerPrems).
+Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems).
 --
 ----
-## **Work-in-Progress module: 6OP-DX** (No sound on output at the moment!)
+## **Work-in-Progress module: 6OP-DX** (No sound on outputs at the moment!)
 
 ![](doc/images/6OP-DX.png)
 
-Included only in pre-releases (hidden in lastest OhmerPrems v2.6.7 stable).
+Included only from pre-releases (not present inside lastest OhmerPrems v2.6.7 stable).
 
 ----
 
@@ -268,6 +268,7 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
+
 
 
 
