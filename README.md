@@ -81,9 +81,9 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse
 - Please take attention about module's context menu option (right mouse click over module, but outside the main screen)...
 - AC track accepts only silence or accent event (to accent/mark all note events located into same step/column).
 - SWING input port applies a global swing (all instrument tracks) on even steps. 50% is meaning no swing. Max is 75% (dotted 16th followed by 32th).
-- Top-right area of display is empty at the moment (this area is reserved for future usage).
-- *New in v2.6.6:** LAST STEP now can be independent (useful for Euclidean and polyrhythms), to set LAST STEP for certain instrument track(s), set the track(s) as SOLO first, adjust LAST STEP by continuous encoder.
-- *New in v2.6.6:** SOLO and MUTE states now are pattern-dependent (instead of the global sequencer in previous releases).
+- Top-right area of display is empty at the moment (this area is reserved for possible future usage).
+- *New since v2.6.6:** LAST STEP now can be independent (useful for Euclidean and polyrhythms), to set LAST STEP for certain instrument track(s), set the track(s) as SOLO first, adjust LAST STEP by continuous encoder.
+- *New since v2.6.6:** SOLO and MUTE states now are pattern-dependent (instead of the global sequencer in previous releases).
 
 FroeZe-X expander:
 
@@ -114,15 +114,15 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 
 ## **QuadPercs module**
 
-:warning: **No sound is meaning you don't have a license keyfile (the module is running as "Free" instead of "Full"), and you're using higher than 44.1kHz, and/or you've selected a not allowed drum machine (without a valid license keyfile, only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 output sounds, all other drum machines are muted).**
+:warning: **No sound is meaning you don't have a license (V2) keyfile (while the module is running as "Free", instead of "Full"). Free version is limited upto 44.1kHz as samplerate, and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 are allowed (all other drum machines are muted)**.
 
-However, since plugin v2.4.1, you can _preview_ ANY sound at ANY samplerate, by **disconnecting trigger input cable first** (on related channel). While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine (no matter the engine's samplerate). It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to try all drum machines/drum kits sounds, at any samplerate (from 44.1kHz to 192kHz). When the channel input is patched, preview feature is disabled for the channel.
+However, since plugin v2.4.1, you can _preview_ ANY sound at ANY samplerate, by **disconnecting trigger input cable first** (on related channel). While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine (no matter the engine's samplerate). It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to try all drum machines/drum kits sounds, at any samplerate (from 44.1kHz upto 192kHz). When the channel input is patched, preview feature is disabled for related channel.
 
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
 ![](doc/images/QuadPercs_All_Models.png)
 
-Depending **Use dark panels if available** Rack's global option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, either from module browser and new module instanciation (when you bring the module in rack, as new fresh module).
+Depending **Use dark panels if available** Rack's global option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, either from module browser and new module instanciation (when you bring the module in rack, as new fresh module). All QuadPercs modules already in the rack aren't affected by **Use dark panels if available** setting (even if changed later).
 
 Some YouTube videos (made from old VCV Rack v0.6, but they're still valid), here:
 
@@ -268,6 +268,7 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository (or via VCV Rack Community forum).
+
 
 
 
