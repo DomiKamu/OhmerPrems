@@ -203,9 +203,9 @@ When installed, from VCV Rack module browser, QuadPercs and KordZ modules are li
 
 ## HOW TO VERIFY YOUR PERSONAL LICENSE INSTALLATION?
 
-Over **FroeZe** or **QuadPercs** module, just do a right mouse click button, to bring its context-menu. At the bottom of this menu, if the grayed entry indicates **License:** (followed by your partial license key - some digits are masked by *), that meaning all OhmerPrems modules run as full registered version.
+Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), **QuadPercs** or **6OP-DX** module, just do a right-mouse click button to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by * characters) - first (prior "stars") must be **six digits**, and **four digits as trailing** - that meaning your license keyfile is valid for all OhmerPrems modules.
 
-Otherwise, the same grayed menu entry indicates **Free**, followed by limitation type between brackets. Not applicable for KlokSpid MkII and KordZ modules, because these modules are always free, even for non-OhmerPrems member (these modules always mention **License: full version (for everyone)**).
+Otherwise, the same grayed menu entry indicates **Free** (or **Free/Demo**), followed by limitation type between brackets. Not applicable for KlokSpid MkII and KordZ modules, because these modules are always free, even for non-OhmerPrems member (KlokSpid MkII and KordZ modules always mention **License: full version (for everyone)**).
 
 ![](doc/images/OhmerPrems_Free_upd.png)
 
@@ -234,9 +234,9 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 ## Full version (OhmerPrems members only)
 
-A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of (valid) license keyfile unlocks all modules to **full version** (unrestricted). However, KlokSpid MkII module (and its expander, KX) always work as full version (whatever the license keyfile is detected, or not), because KlokSpid MkII and KX modules are free for everyone.
+A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of (valid) license keyfile unlocks (immediately) all modules to **full version** (unrestricted). However, KordZ, KlokSpid MkII module (and its expander, KX) always work as full version (whatever the license keyfile is present, or not), because KordZ, KlokSpid MkII and KX modules are free for everyone, without any limitation.
 
-Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (full versions) without any additional charge!
+Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (as full version) without any additional charge!
 
 
 To become *OhmerPrems* member, simply send me **12 euros**. If required, please convert your local currency first, to fit with 12 (or more) euros (otherwise your payment will not be accepted and refurbished) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
@@ -254,9 +254,9 @@ New subscription requires 24 hours max. after PayPal confirmation. **Incomplete/
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 
-Full version is granted for each OhmerPrems member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license key can be used on ALL owned computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
+License keyfile for full version is granted for each OhmerPrems member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license keyfile can be used on ALL personal computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
 
-All graphic materials, the "Ohmer" logo and related resources cannot be used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
+All graphic materials, the "Ohmer" logo and related resources cannot be altered and/or used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
 
 All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your developments). Thanks a lot, Xavier!
 
@@ -269,6 +269,7 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository!
+
 
 
 
