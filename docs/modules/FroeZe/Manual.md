@@ -2,13 +2,13 @@
 
 ![](_img/FroeZe_Header.png)
 
-This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to famous [**Edgar Froese**](https://en.wikipedia.org/wiki/Edgar_Froese), founder of Tangerine Dream band), is:
+This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to famous [**Edgar Froese**](https://en.wikipedia.org/wiki/Edgar_Froese), founder of Tangerine Dream band, is:
 
-- 15+1 tracks (forming a pattern): 15 instrument tracks + separate **ACcent** track.
+- 15+1 tracks (forming a pattern): 15 instrument tracks + **ACcent** track.
 
-- Track naming follows _Roland_-style (for most of their vintage drum machines): **BD** for bass drum/kick, **SD** for snare drum, **CH** for closed hats... Obviously, except while audio engine is enabled, instrument track usage is free (it's not mandatory to follow the instrument naming scheme for your project).
+- Track naming follows _Roland_-style (for most of their vintage drum machines): **BD** for bass drum/kick, **SD** for snare drum, **CH** for closed hats, and so on... Obviously, except while audio engine is enabled, instrument track usage is free (it's not mandatory to follow the instrument naming scheme for your project).
 
-- 64 steps (max.) per track. LAST STEP (common to all tracks) is manually adjustable via dedicated encoder, and can be shifted (offset - / +) in real time via CV input jack, from minimum 1-step upto 64.
+- 64 steps (max.) per track. LAST STEP (common to all tracks) is manually adjustable via dedicated encoder, and can be shifted (offset - / +) in real time via CV input jack, from minimum 1, upto maximum 64 steps.
 
 - Main display as "touchscreen"-like, mainly for note events editing (silences, notes, AC'd notes, or 8-preset defined ratchets), into 16x64 grid.
 
@@ -30,7 +30,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to fa
 
 - REVerse pattern playback while REV. button is held, or via applied gate-voltage (held) on REV input jack (+2V min.).
 
-- PENDULum pattern playback: playing forward from step 1 to track's last ste (left to right), then reverse back until step 1, then forward again... like a pendumum or ping-pong. Via applied & held gate-voltage on PENDUL. input jack (+2V min.). 
+- PENDULum pattern playback: playing forward from step 1 to track's last step (left to right), then reverse back until step 1, then forward again... like a pendumum or ping-pong. Via applied & held gate-voltage on PENDUL. input jack (minimum +2V). 
 
 - Both REV and PENDUL. are usable together (non-loop).
 
@@ -66,7 +66,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to fa
 
 - Polyrhythm: not natively (due to "4/4" nature), but possible by using euclidean rhythm via FroeZe-X expander (TRACK / EUCLID. feature).
 
-- Optional (from module's context menu): **internal QuadPercs sound engines!**, now QuadPercs sound engines are parts of FroeZe sequencer (for all instrument tracks). By this way, **FroeZe sequencer can delivers drum machines audio** exactly like QuadPercs module does, instead of 10ms triggers usage. This tricky feature may simplify patches who need drum machine sounds. Drum machine and its related drum kit can be immediately selected via left and right continuous encoders. Proposed drum kits are always based on **instrument track nature** (only "kicks" for BD track, only snares for SD track, and so on). Some instrument tracks, such TB, may host many kind of kits (eg. TB track offers both timbales and tambourines, CB offers cowbells and bells, and so on).
+- Optional (from module's context menu): **internal QuadPercs sound engines!**, now QuadPercs sound engines are parts of FroeZe sequencer (for all instrument tracks). By this way, **FroeZe sequencer can delivers drum machines audio** exactly like QuadPercs module does (instead of 10ms triggers usage). This tricky feature may simplify patches who need drum machine sounds. Drum machine and its related drum kit can be immediately selected via left and right continuous encoders. Proposed drum kits are always based on **instrument track nature** (only "kicks" for BD track, only snares for SD track, and so on). Some instrument tracks, such TB, may host many kind of kits (eg. TB track offers both timbales and tambourines, CB offers cowbells and bells, and so on).
 
 - In case of main outputs send audio, FroeZe-X expander sends +10V gates (instead of 1ms triggers) on their related output jacks. Each gate is held while related drum kit sample is playing. This may be useful to control an external module, such envelope generator, VCA, filter, dynamics, reverb, delay, synth...
 
