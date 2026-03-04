@@ -17,7 +17,7 @@ Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/D
 ----
 ## **Work-in-Progress module: 6OP-DX** (No sound on outputs at the moment!)
 
-![](docs/modules/6OP-DX/img/6OP-DX_Cobalt_Presentation.png)
+![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
 6OP-DX module is included "as-is" only via "Alpha" pre-releases (not provided by OhmerPrems v2.6.7 stable).
 
