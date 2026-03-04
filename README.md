@@ -12,7 +12,7 @@ Actually, *OhmerPrems* plugin is a set of four main modules, plus three as _expa
 - **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (as pre-offsets).
 
 ---
-Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems).
+Lastest version (**v2.6.8**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems).
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
