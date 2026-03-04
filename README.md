@@ -1,8 +1,8 @@
 # ![](doc/images/Logo_Ohmer.png)OhmerPrems for VCV Rack 2
 
-*OhmerPrems* is both Premium (**full version**, for susbcribers only) and free (limited) modules, for VCV Rack 2.
+*OhmerPrems* is both Premium (**full version**, for susbcribers only, or as free/demo) and some free modules, for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of 4 main modules, plus 3 as _expanders_ modules:
+Actually, *OhmerPrems* plugin is a set of four main modules, plus three as _expanders_ modules:
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](doc/FroeZe-Specs.md)
 - **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
@@ -19,7 +19,7 @@ Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/D
 
 ![](doc/images/6OP-DX.png)
 
-6OP-DX module is included "as-is" only via pre-releases (not provided by OhmerPrems v2.6.7 stable).
+6OP-DX module is included "as-is" only via "Alpha" pre-releases (not provided by OhmerPrems v2.6.7 stable).
 
 ----
 
@@ -47,19 +47,19 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 :warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free", instead of "Full"). Free version is limited upto 44.1kHz as samplerate, and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) have more feature limitations (specified in the Quick Guide).
 
-[Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](doc/FroeZe-Specs.md)
+[Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](docs/modules/FroeZe/Manual.md)
 
 Below this is the _Creamy_ model - as presented from Rack's module browser (_Absolute Night_ is presented, instead of _Creamy_, if **Use dark panels if available** option is enabled from **View** menu). Not connected CLK source (the black "NO CLOCK" indicator is blinking). After a right mouse click over a cell - step 8 track CH - here it's a ratchet event: the OSD context menu permits to edit the ratchet pattern (clikable square boxes - bottom of menu):
 
-![](doc/images/FroeZe_Header.png)
+![](docs/modules/FroeZe/_img/FroeZe_Header.png)
 
 FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer). Per instrument track (AC to CL tracks, AC/accent isn't an instrument track), you can select drum machine and related drum kit by using both DM and KIT continuous encoders (wheels):
 
-![](doc/images/FroeZe_Patch.png)
+![](docs/modules/FroeZe/_img/FroeZe_Patch.png)
 
 Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse click over Ohmer logo to switch bright/dim**)... but here without its companion (I mean... FroeZe-X expander). On AC'd note(s), without FroeZe-Xexpander, the sequencer delivers a **-10V** (1ms) triggers! by this way, you'll must "filter" the -10V signal, in order to invert it to +10V, then route it to alternate way. It is exactly the role of **[Polarity Switch](https://library.vcvrack.com/Ohmer/PolaritySwitch)** dual module (free Open Source module) - the tiny red module located at the left of red QuadPercs modules group...
 
-![](doc/images/FroeZe_Patch_NoExpander.png)
+![](docs/modules/FroeZe/_img/FroeZe_Patch_NoExpander.png)
 
 ## FroeZe "Quicky Guide" - tips:
 
@@ -82,8 +82,8 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse
 - AC track accepts only silence or accent event (to accent/mark all note events located into same step/column).
 - SWING input port applies a global swing (all instrument tracks) on even steps. 50% is meaning no swing. Max is 75% (dotted 16th followed by 32th).
 - Top-right area of display is empty at the moment (this area is reserved for possible future usage).
-- *New since v2.6.6:** LAST STEP now can be independent (useful for Euclidean and polyrhythms), to set LAST STEP for certain instrument track(s), set the track(s) as SOLO first, adjust LAST STEP by continuous encoder.
-- *New since v2.6.6:** SOLO and MUTE states now are pattern-dependent (instead of the global sequencer in previous releases).
+- LAST STEP can be independent (useful for Euclidean and polyrhythms), to set LAST STEP for certain instrument track(s), set the track(s) as SOLO first, adjust LAST STEP by continuous encoder.
+- ** SOLO and MUTE states are pattern-dependent.
 
 FroeZe-X expander:
 
@@ -100,7 +100,7 @@ FroeZe-X expander:
 - TRACK/COMPLT. menu (track auto-completion feature): this feature also may "cover" existing track events, so proceed with caution (save the pattern first, from module context menu, or make a backup of pattern by using PATTERN/COPY from expander to an empty pattern).
 - RATCHET. menu permits to save, open, edit and "reset to factory" the 8  ratchet slots (presets) for current pattern.
 
-More infos "on-the-fly" in [FroeZe/FroeZe-X/FroeZe-SX **Specifications & Quick Guide**](doc/FroeZe-Specs.md) document.
+More infos "on-the-fly" in [FroeZe/FroeZe-X/FroeZe-SX **Specifications & Quick Guide**](docs/modules/FroeZe/Manual.md) document.
 
 Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme variations):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -268,7 +268,3 @@ Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 Big big big thanks to beta testers!
 
 Feature requests, suggestions, and bug reports are welcome on this GitHub repository (or via VCV Rack Community forum).
-
-
-
-
