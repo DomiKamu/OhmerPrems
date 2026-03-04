@@ -27,7 +27,7 @@ Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/D
 
 [Please click here to read **KlokSpid MkII/KX Specifications & User's Manual**](docs/modules/KlokSpidMkII/Manual.md)
 
-This module is **entirely free for everyone** and doesn't require a license keyfile, because it's the successor of (removed) *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin (followed later by KordZ module):
+This module (and its left-side expander, **KX**) is **entirely free for everyone** (doesn't require a license keyfile), because it's the successor of (removed) *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin:
 
 ![](docs/modules/KlokSpidMkII/_img/Models_rev.gif)
 
