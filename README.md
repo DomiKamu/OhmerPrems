@@ -13,6 +13,8 @@ Actually, *OhmerPrems* plugin is a set of four main modules, plus three as _expa
 
 ---
 Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems).
+
+[CHANGELOG](docs/CHANGELOG.txt)
 --
 ----
 ## **Work-in-Progress module: 6OP-DX** (No sound on outputs at the moment!)
