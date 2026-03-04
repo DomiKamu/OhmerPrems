@@ -120,7 +120,7 @@ However, since plugin v2.4.1, you can _preview_ ANY sound at ANY samplerate, by 
 
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
-![](doc/images/QuadPercs_All_Models.png)
+![](docs/modules/QuadPercs/_img/QuadPercs_All_Models.png)
 
 Depending **Use dark panels if available** Rack's global option, the default model will be _Creamy_ if this option is disabled (aka default light panels), or _Absolute Night_ if this option is enabled, either from module browser and new module instanciation (when you bring the module in rack, as new fresh module). All QuadPercs modules already in the rack aren't affected by **Use dark panels if available** setting (even if changed later).
 
@@ -168,23 +168,23 @@ Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI them
 
 ## **KordZ module**
 
-Since **OhmerPrems v2.4.1 Beta 14**, KordZ module is entirely free (no more time limitation) for everyone (even for non-OhmerPrems members), like KlokSpid MkII.
+KordZ module is entirely free (no more time limitation) for everyone (even for non-OhmerPrems members, doesn't require license keyfile), like KlokSpid MkII and KX modules!
 
 All six models (aka GUI themes, same than QuadPercs modules), reduced room brightness:
 
-![](doc/images/KordZ_All_Models.png)
+![](docs/modules/KordZ/_img/KordZ_All_Models.png)
 
 [**VIDEO**: KordZ module in action (monophonic track) from Bitwig Studio (uncommented, 1080p, 1'17")](https://www.youtube.com/watch?v=EyG_Tz8sP3c)
 
 Modules by night: QuadPercs and KordZ modules are designed for VCV Rack's *Room brightness* feature (often named _Night mode_):
 
-![](doc/images/QuadPercs_Dark_Room.png)
+![](docs/modules/QuadPercs/_img/QuadPercs_Dark_Room.png)
 
 You can notice the _Absolute Night_ model is the lone embedding a yellow backligth dot-matrix display (DMD). "Signature"-line luxury models (Dark "Signature", Deepblue "Signature" and Titanium "Signature") are using plasma-gas dot-matrix display (DMD) instead of LCD, visible in dark room/night. The first two models, _Creamy_ and _Stage Repro_, use a standard LCD-based without backlight (by this way, they're not visible by night!).
 
 The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%):
 
-![](doc/images/KordZ_Dark_Room.png)
+![](docs/modules/KordZ/_img/KordZ_Dark_Room.png)
 
 Like other Ohmer and OhmerPrems modules, Kord comes in six models (GUI theme variations):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -206,7 +206,7 @@ Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), **QuadPercs** or **
 
 Otherwise, the same grayed menu entry indicates **Free** (or **Free/Demo**), followed by limitation type between brackets. Not applicable for KlokSpid MkII and KordZ modules, because these modules are always free, even for non-OhmerPrems member (KlokSpid MkII and KordZ modules always mention **License: full version (for everyone)**).
 
-![](doc/images/OhmerPrems_Free_upd.png)
+![](docs/modules/QuadPercs/_img/OhmerPrems_Free_upd.png)
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
