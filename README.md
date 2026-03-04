@@ -1,15 +1,15 @@
-# ![](doc/images/Logo_Ohmer.png)OhmerPrems for VCV Rack 2
+# ![](docs/modules/FroeZe/_img/Logo_Ohmer.png)OhmerPrems for VCV Rack 2
 
 *OhmerPrems* is both Premium (**full version**, for susbcribers only, or as free/demo) and some free modules, for VCV Rack 2.
 
 Actually, *OhmerPrems* plugin is a set of four main modules, plus three as _expanders_ modules:
-- **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](doc/FroeZe-Specs.md)
+- **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
 - **QuadPercs** is a quad-channel drum machine module.
 - **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
-- **KlokSpid MkII**, the versatile 16HP clocking source / LFO / clocked envelope module. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](doc/KlokSpid_MkII-Specs.md)
-- **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete "CLK", "RUN", and "RESET" inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (as pre-offsets).
+- **KlokSpid MkII**, the versatile 16HP clocking source and LFO. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](docs/modules/KlokSpidMkII/Manual.md)
+- **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (as pre-offsets).
 
 ---
 Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems).
@@ -25,11 +25,11 @@ Lastest version (**v2.6.7**) is available from [_Releases_](https://github.com/D
 
 ## **KlokSpid MkII & KX modules**
 
-[Please click here to read KlokSpid MkII/KX specifications & **USER'S MANUAL**](doc/KlokSpid_MkII-Specs.md)
+[Please click here to read **KlokSpid MkII/KX Specifications & User's Manual**](docs/modules/KlokSpidMkII/Manual.md)
 
-This module is **entirely free** (even for non-OhmerPrems members, without any feature limitation), because it's the successor of (removed) *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin (followed later by KordZ module):
+This module is **entirely free for everyone** and doesn't require a license keyfile, because it's the successor of (removed) *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin. By this way, **KlokSpid MkII** becomes the **first 100% free module** provided by OhmerPrems commercial plugin (followed later by KordZ module):
 
-![](doc/images/KlokSpid_MkII_Manual_images/Models_rev.gif)
+![](docs/modulesKlokSpidMkII/_img/Models_rev.gif)
 
 Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI theme variations):
 - _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -39,7 +39,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 - _Fort Knox "Signature"_
 - _Titanium "Signature"_
 
-**KX expander** module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module, automatically.
+**KX expander** (also free for everyone) module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
 
 ----
 
