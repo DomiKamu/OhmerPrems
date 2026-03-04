@@ -21,7 +21,7 @@ Lastest version (**v2.6.8**) is available from [_Releases_](https://github.com/D
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module is included "as-is" only via "Alpha" pre-releases (not provided by OhmerPrems v2.6.7 stable).
+6OP-DX module is included "as-is" only via "Alpha" pre-releases (not provided by OhmerPrems v2.6.8 stable).
 
 ----
 
