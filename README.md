@@ -1,6 +1,6 @@
 # ![](docs/modules/FroeZe/_img/Logo_Ohmer.png)OhmerPrems for VCV Rack 2
 
-*OhmerPrems* is both Premium (**full version**, for customers only, or as free/demo) and some free modules, for VCV Rack 2.
+*OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Demo" otherwise) and some free modules for everyone, for VCV Rack 2.
 
 Actually, *OhmerPrems* plugin is a set of four main modules, plus three as _expanders_ modules:
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
