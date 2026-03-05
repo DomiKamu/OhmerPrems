@@ -202,13 +202,13 @@ Like other Ohmer and OhmerPrems modules, Kord comes in six models (GUI theme var
 
 When installed, from VCV Rack module browser, QuadPercs and KordZ modules are listed (by brand: "Ohmer Modules"). QuadPercs module is also listed as "Drum" and "Quad" categories when you're browsing by tags, KordZ module as "Visual" and "Polyphonic".
 
-## HOW TO CHECK YOUR PERSONAL LICENSE INSTALLATION?
+## HOW TO CHECK YOUR PERSONAL LICENSE KEYFILE INSTALLATION?
 
-Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), **QuadPercs** or **6OP-DX** module, just do a right-mouse click button to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (prior "stars") must be **six digits**, and **four digits as trailing** (after stars) - that meaning your license keyfile is valid for all OhmerPrems modules.
+Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), **QuadPercs**, or **6OP-DX** module, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (prior "stars") must be **six digits**, and **four digits as trailing** (after stars) - that meaning your license keyfile is valid for all OhmerPrems modules.
 
-Otherwise, the same grayed menu entry indicates **Free** (or **Free/Demo**), followed by limitation type between brackets. Not applicable for KlokSpid MkII and KordZ modules, because these modules are always free, even for non-OhmerPrems member.
+Otherwise, the same grayed menu entry indicates **Free** (or **Free/Demo**), followed by limitation summary (between brackets).
 
-Do not forget **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license keyfile is present or not.
+Do not forget **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license keyfile is installed or not!
 
 ![](docs/modules/QuadPercs/_img/OhmerPrems_Free_upd.png)
 
