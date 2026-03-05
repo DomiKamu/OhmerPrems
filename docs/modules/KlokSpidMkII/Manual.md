@@ -7,7 +7,7 @@
 
 Typically, KlokSpid MkII is:
 
-- Totally free: all features are available for everyone, including non-OhmerPrems members, license keyfile isn't required. Same fact concerning KX expander module.
+- Totally free: all features are available for everyone, including non-OhmerPrems members. Same fact concerning KX expander module. Both modules don't require a license keyfile.
 
 - "CPU-controlled"-like versatile **clock generator** (standalone, master clock mode), **clock modulator** (also named **Ext. CLK mode**, or slave mode, when **CLK** input is connected to another clocking source), **low-frequency oscillator** (aka **LFO**, capable from **1 BPM or 0.02Hz**, upto **500Hz**), clocked **envelope generators (EXPonential/LOGarithmic and LOGarithmic/EXPonential built-in envelope generators)**, and **custom wavetables** to bring no limit concerning curves! It offers 8 independent programmable outputs, 8 inputs (five of them, CV4 to CV8, are always CV inputs, but first three, CLK/CV1, RUN/CV2, and CV3/RESET, are versatile inputs). The main part of KlokSpid MkII module is a large **touchscreen** (like smartphone/tablet), an **info display** located below the continuous encoder, who display tempo (or frequency), external clock mode, and the current menu page name while you're browsing menu system. The module can be controlled either by touchscreen (left mouse button clicks, on most cases) and/or by **continuous encoder** moves + **SET** + **Cancel/Exit** buttons _combo_. They're three _triple-character 14-segment_ tiny white displays just above first, second, and third input jacks, who can display respectively their current roles, such **CLK** or **CV1** above 1st jack, **RUN** or **CV2** above 2nd jack, and **CV3"** or **RST** (RESET)" above 3rd jack.
 
@@ -107,6 +107,6 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 ---
 
-**ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS VST2 PLUGIN)**
+**ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS VST PLUGIN FROM BITWIG STUDIO)**
 
 ![](_img/DAW_sync_24_PPQN_rev.gif)

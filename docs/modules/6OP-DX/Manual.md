@@ -4,4 +4,4 @@
 
 This is a **117HP** 6-operator algorithm-based PM (phase modulation) synthesizer voice.
 
-:warning: like the 6OP-DX module, this manual is under construction!
+:warning: like the 6OP-DX module (as "Alpha" pre-release v2.6.10), this manual is under construction!
