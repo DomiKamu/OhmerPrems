@@ -6,7 +6,7 @@ TERMS/CONDITIONS
 
 - This OhmerPrems plugin is licensed.
 
-- This plugin uses encrypted algorithms, using parts of your personal data, mainly to avoid piracy.
+- This plugin uses many encrypted algorithms, using parts of your personal data, mainly to avoid license file piracy.
 
 - The purchase of this plugin by a user grants one license, for personal usage only (any machines you're owning).
 
@@ -17,8 +17,10 @@ TERMS/CONDITIONS
 
 - You may not disassemble, decompile, or do reverse engineering against binaries.
 
-- You may not distribute any material, including binaries, graphics files, logos... provided along this plugin.
-  "XB_*.svg" graphics are designed by Xavier Belmont. Ask him the permission if you'll want to use them.
+- You may not modify any provided material, including binaries, graphics files, logo... along OhmerPrems plugin.
+
+- You may not distribute any material, including binaries, graphics files, logo... provided along OhmerPrems plugin.
+  XB_*.svg graphics are designed by Xavier Belmont. Ask him permission prior, if you'll want to use it!
 
 - You aren't allowed to distribute, exchange, share or sell your personal license key to any third party.
 

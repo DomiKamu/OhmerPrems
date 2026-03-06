@@ -13,8 +13,10 @@ TERMS/CONDITIONS
 
 - You may not disassemble, decompile, or do reverse engineering against binaries.
 
-- You may not distribute any material, including binaries, graphics files, logo... provided along this plugin.
-  XB_*.svg graphics are designed by Xavier Belmont. Ask him permission if you'll want to use it.
+- You may not modify any provided material, including binaries, graphics files, logo... along OhmerPrems plugin.
+
+- You may not distribute any material, including binaries, graphics files, logo... provided along OhmerPrems plugin.
+  XB_*.svg graphics are designed by Xavier Belmont. Ask him permission prior, if you'll want to use it!
 
 - You aren't allowed to distribute, exchange or sell this licensed plugin to any third party.
 
