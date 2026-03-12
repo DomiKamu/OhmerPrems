@@ -244,6 +244,9 @@ Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrad
 
 To become *OhmerPrems* member, simply send me **12 euros**. If required, please convert your local currency first, to fit with 12 (or more) euros (otherwise your payment will not be accepted and refurbished) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
+:warning:
+## March 2026: please consider the 12 euros fee, at the moment, is very fair! as soon as both FranKe and 6OP-DX modules are ready, the price will increase to approx. 20 euros, instead!
+
 **Very important: don't forget to indicate:**
 - your first and last name (personal name, not company name or nickname).
 - your  email address used to access to VCV Library (required to send your personal license key, instructions, and possible future communications about updates). Your email address stays private!
