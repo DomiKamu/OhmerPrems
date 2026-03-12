@@ -248,11 +248,13 @@ To become *OhmerPrems* member, simply send me **12 euros**. If required, please 
 ## March 2026: please consider the 12 euros fee, at the moment, is very fair! as soon as both FranKe and 6OP-DX modules are ready, the price will increase to approx. 20 euros, instead!
 
 **Very important: don't forget to indicate:**
-- your first and last name (personal name, not company name or nickname).
-- your  email address used to access to VCV Library (required to send your personal license key, instructions, and possible future communications about updates). Your email address stays private!
-- also in the body of the message, please specify **OhmerPrems member**, or something similar, to avoid possible confusion. Thank you in advance!
+- your first and last name (personal name only, company name or nickname isn't accepted).
+- your email address (preferabely used to access to VCV Library), required to send your personal license key, instructions, and possible future communications about updates. Your email address stays strictly private!
+- also in the body of the message, please specify **OhmerPrems member** (or something similar) to avoid possible confusion.
 
-New subscription requires 24 hours max. (generally less) after PayPal confirmation. **Incomplete/not regular fee informations or/and payment less than 12 euros equivalent will be refurbished**. Thank you for your understanding.
+New subscription requires 24 hours max. (generally less, sometimes... minutes!) after PayPal notification. **Incomplete/not regular fee informations or/and payment less than 12 euros equivalent will be refurbished**.
+
+Thank you in advance for your understanding.
 
 ----
 
@@ -260,7 +262,7 @@ New subscription requires 24 hours max. (generally less) after PayPal confirmati
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 
-License keyfile for full version is granted for each OhmerPrems member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license keyfile can be used on ALL personal computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
+License (V2) keyfile for full version is granted for each OhmerPrems member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license keyfile can be used on ALL personal computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
 
 All graphic materials, the "Ohmer" logo and related resources cannot be altered and/or used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
 
@@ -269,8 +271,6 @@ All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him 
 Thanks to **Marc Boulé** (author of excellent ImpromptuModular/Geodesics/MindMeld plugins) for C++ code who permit to swap ports textures (silver, gold) "on-the-fly" when changing model, exactly like momentary buttons and screws.
 
 Thanks to **Paul Bacon** (author of excellent Bacon Music plugin, and working hard on SurgeXT) for C++ coding tips who permit to display coloured textures (Kordz's circle of fifths) in dark/night mode.
-
-Thanks to **Steve Baker** and **Jens Peter Nielsen** for MacOS builds.
 
 Big big big thanks to beta testers!
 
