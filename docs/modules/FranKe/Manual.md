@@ -17,9 +17,9 @@ Each track have its own **PITCH**, +10V **GATE**, and (optional to use) **VELOCI
 - **GATE** who output 0V or +10V gate voltage, mainly to control an envelope generator, or similar.
 - **VEL.** (usage is optional), who output additional control voltage regardling the velocity.
 
-- Like future (in development) 6OP-DX synth voice module, 8 models (GUI theme variations) are available, like most Ohmer & OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Existing models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Cobalt**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, **Oxide "Signature"**, and **Titanium "Signature"**. All "Signature" models embed gold metal jacks, buttons, and screws (instead of silver metal for non-"Signature" line). Obviously, all models are providing exactly the same features!
+Like future (in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), 8 models (GUI theme variations) are available, like most Ohmer & OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Existing models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Cobalt**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, **Oxide "Signature"**, and **Titanium "Signature"**. All "Signature" models embed gold metal jacks, buttons, and screws (instead of silver metal for non-"Signature" line). Obviously, all models are providing exactly the same features!
 
-:warning: FranKe module is under development, it will be available soon...
+:warning: FranKe module is under development, it will be available "soon"...
 
 ----
 
