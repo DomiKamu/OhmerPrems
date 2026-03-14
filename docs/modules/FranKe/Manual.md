@@ -4,11 +4,11 @@
 
 As "kind of complement" of _FroeZe_ trigger-based sequencer (mainly from drums), _FranKe_ module is a 80HP quantized note-based sequencer, as requested by an (old) OhmerPrems member!
 
-_FranKe_ (also a tribute to Christopher Franke, member of Tangerine Dream band) is providing 64 patterns, 8 tracks per pattern, 16 steps per track.
+_FranKe_ (a tribute to [Christopher Franke](https://en.wikipedia.org/wiki/Christopher_Franke), member of Tangerine Dream band) - is providing 64 patterns, 8 tracks per pattern, 16 steps per track.
 
-Track 8 may be replaced by a powerful 16-bit Turing Machine (state is always saved/recalled). In this case, the previous content of track 8 is hidden, and fully restored in case you close the Turing Machine.
+Melodic track 8 may be replaced by a powerful 16-bit Turing Machine (its state is always saved/recalled). In this case, the content of melodic track 8 is preserved (and hidden), but fully restored in case you close the Turing Machine, later.
 
-:warning: **Note-based track 8 and Turing Machine (also using track 8) cannot be used at the same time!**
+:warning: **Melodic track 8 and Turing Machine (also using track 8) cannot be used at the same time!**
 
 Each track have its own **PITCH**, +10V **GATE**, and (optional to use) **VELOCITY** output jacks.
 
@@ -23,4 +23,4 @@ Like future (in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), 8
 
 ----
 
-Free version (without license V2 keyfile) is working as **full player** (patches made by OhmerPrems member can be used without any restrictions). Without license V2 keyfile, **only track 1 can be edited** (any pattern), other note-based tracks (2 to 8) are locked (bottom **STEP** and **TRACK 2** - **TRACK 8** continuous encoders are inoperative on all these tracks). However, the _Turing Machine_ (using track 8, as alternate) is fully usable without any restriction (all parameters can be changed). All stuff is always saved and recalled.
+Free version (without license V2 keyfile) is working as **full player** (can play any patch made by OhmerPrems member, without any restrictions). However, without a valid license V2 keyfile, **only track 1 can be edited**, other melodic tracks (2 to 8) are locked against edition. However, the _Turing Machine_ (who are using track 8, as replacement) is fully usable without any restriction (all parameters can be altered). All stuff made on _Franke_ module is always saved and recalled.
