@@ -6,9 +6,9 @@ As "kind of complement" of _FroeZe_ trigger-based sequencer (mainly from drums),
 
 _FranKe_ (a tribute to [Christopher Franke](https://en.wikipedia.org/wiki/Christopher_Franke), member of Tangerine Dream band) - is providing 64 patterns, 8 tracks per pattern, 16 steps per track.
 
-Melodic track 8 may be replaced by a powerful 16-bit Turing Machine (its state is always saved/recalled). In this case, the content of melodic track 8 is preserved (and hidden), but fully restored in case you close the Turing Machine, later.
+Melodic track 8 may be replaced by a powerful 16-bit Turing Machine (its state is always saved/recalled), common for all patterns. In this case, the content of melodic track 8 is preserved (and hidden), but fully restored in case you close the Turing Machine, later.
 
-:warning: **Melodic track 8 and Turing Machine (also using track 8) cannot be used at the same time!**
+:warning: **Melodic track 8 and Turing Machine (sharing track 8) cannot be used at the same time!**
 
 Each track have its own **PITCH**, +10V **GATE**, and (optional to use) **VELOCITY** output jacks.
 
