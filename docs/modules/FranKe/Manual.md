@@ -25,7 +25,7 @@ Like future (still in development) [6OP-DX synth voice module](../6OP-DX/Manual.
 
 ----
 
-Free version (without license V2 keyfile) is working as **full player** (meaning it can play any patch made by OhmerPrems member, without restrictions). However, without a valid license V2 keyfile, **only track 1 can be edited, pattern 01 only** (exactly like FroeZe sequencer), all other tracks (and whole patterns from 02 to 64) are locked against edition, including "Randomize" in current pattern (from module's contextual menu / **Ctrl**+**R** / **Cmd**+**R** on Mac). Turing sequence can be edited and imported/exported only from first track on pattern 01, all others still locked.
+Free version (without license V2 keyfile) is working as **full player** (meaning it can play any patch made by OhmerPrems member, without restrictions). However, without a valid license V2 keyfile, **only track 1 can be edited on patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are locked against edition, including "Randomize" feature for selected pattern (randomize command from module's contextual menu / **Ctrl**+**R** / **Cmd**+**R** on Mac). Turing sequence on track 1 (pattern 01 and 02) can be edited and imported/exported, all others still locked.
 
 All stuff made on _Franke_ module is always saved and recalled.
 
