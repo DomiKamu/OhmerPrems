@@ -1,6 +1,8 @@
 **FRANKE MODULE - SPECIFICATIONS & QUICK GUIDE (UNDER CONSTRUCTION)**
 
+
 ![](_img/FranKe.png)
+
 
 As kind of "complement" of _FroeZe_ trigger-based sequencer (used mainly for drum machines, percussions and trigger outputs), _FranKe_ module is a 80HP analog step-sequencer, as requested by an (2019) OhmerPrems member, for particular projects!
 
@@ -21,7 +23,7 @@ Each track (row, or "line") have its **PITCH**, +10V **GATE**, and (optional to 
 - **GATE** who output 0V or +10V gate voltages, mainly to control an envelope generator, or any module can be controlled by +10V gate voltage.
 - **VEL./CYCLE** (usage is optional), who output additional CV regardling the velocity of related note event (melodic track only, green LED), otherwise the jack outputs cycle **+10V 1ms trigger** (blue LED, instead).
 
-Like future (still in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), FranKe provides 8 different models (aka GUI theme variations), shown above, compliant with **Prefer dark panels if available** VCV Rack's global setting (from **View** menu, since VCV Rack v2.4.0), as proposition from module's browser. Existing models are **Aluminium** (it's the default model if _Prefer dark panels if available_ is unchecked), **Stage Repro** (red theme), **Cobalt** (blue theme), **Absolute Night** (it's the default model if _Prefer dark panels if available_ is checked), **Dark "Signature"**, **Fort Knox "Signature"**, **Oxide "Signature"**, and **Titanium "Signature"**.
+Like future (still in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), FranKe provides 8 different models (aka GUI theme variations), compliant with **Prefer dark panels if available** VCV Rack's global setting (from **View** menu, since VCV Rack v2.4.0), as proposition from module's browser. Existing models are **Aluminium** shown above, (it's the default model if _Prefer dark panels if available_ is unchecked), **Stage Repro** (red theme), **Cobalt** (blue theme), **Absolute Night** (it's the default model if _Prefer dark panels if available_ is checked), **Dark "Signature"**, **Fort Knox "Signature"** (show above, too), **Oxide "Signature"**, and **Titanium "Signature"**.
 
 All four "Signature" models embed gold metal jacks, momentary buttons, and screws, and eight OLED touchscreens.
 
