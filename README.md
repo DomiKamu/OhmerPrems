@@ -29,8 +29,6 @@ Following screen capture is showing **8 Turing Machines** in action at the same 
 
 :information_source: Planned as public release from Friday 17th, April 2026.
 
-User's Manu
-
 ----
 ## **Work-in-Progress/Postponed module: 6OP-DX** (No sound on outputs at the moment!)
 
