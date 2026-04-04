@@ -10,7 +10,7 @@ Tracks are versatile, any track may be "melodic" (by using notes, from C-1 to G9
 
 By default as fresh added module in your rack, or after **Initialize** from module's contextual menu (**Ctrl**+**I** / **Cmd**+**I** on Mac), tracks 1 to 5 are melodic (all steps are filled by C4 notes with max. velocities), tracks 6 and 7 are **CV OUT** to send sequenced modulations (all steps are filled by 0V), and track 8 is a 16-bit Turing Machine (TM) with a random (locked) sequence.
 
-To change a track role anytime, first select the track (either by touching its **TRACK encoder**, or by touchine its **touchscreen**), then press **T. ROLE** (track role) button (located near CV1 input jack) once or many times as required, to switch between roles (melodic -> CV OUT -> Turing Machine -> melodic ...)
+To change a track role anytime, first select the track (either by touching its **TRACK encoder**, or by touchine its **touchscreen**), then press **TRK. ROLE** (track role) momentary button (located near "CV1" input jack) once or many times as required, to switch between roles (melodic -> CV OUT -> Turing Machine -> melodic ...)
 
 Each track (row, also named "line"), have its **PITCH**, +10V **GATE**, and (optional to use) **VELocity** (or +10V 1ms **CYCLE** trigger) output jacks, located on the right side of the module. Please consider **VEL**ocities are applicable only for melodic (notes) tracks, for other roles, a **+10V 1ms trigger** is send as **CYCLE** when the related track is restarting (repeat) its sequence, instead.
 
@@ -29,7 +29,7 @@ Obviously, all models are providing exactly the same features!
 
 ----
 
-Free version (without license V2 keyfile) is working as **full player** (meaning it can play any patch made by OhmerPrems member, without restrictions). However, without a valid license V2 keyfile, **only track 1 can be edited on patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are locked against edition, including "Randomize" feature for selected pattern (from module's contextual menu / **Ctrl**+**R** / **Cmd**+**R** on Mac). Also, Turing sequence on track 1 (pattern 01 and 02) can be edited, exported, and imported, all others still locked. Track role (via **T. ROLE** momentary button) can be changed on track 1 only, as testing purposes.
+Free version (without license V2 keyfile) is working as **full player** (meaning it can play any patch made by OhmerPrems member, without restrictions). However, without a valid license V2 keyfile, **only track 1 can be edited on patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are locked against edition, including "Randomize" feature for selected pattern (from module's contextual menu / **Ctrl**+**R** / **Cmd**+**R** on Mac). Also, Turing sequence on track 1 (pattern 01 and 02) can be edited, exported, and imported, all others still locked. Track role (via **TRK. ROLE** momentary button) can be changed on track 1 only, as testing purposes.
 
 All stuff made on _Franke_ module is always saved and recalled.
 
