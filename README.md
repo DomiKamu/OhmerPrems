@@ -23,9 +23,9 @@ Lastest version (**v2.6.8**) is available from [_Releases_](https://github.com/D
 
 Developed for OhmerPrems member (since 2019), needs for specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from three): as "melodic" track, who are using quantized notes/octaves/accidentals, as "CV OUT" modulation track to offering voltages (-10V to +10V range, 0.01V steeping) for sequenced modulations, or a 16-bit Turing Machine track (useful for generative/random).
 
-Following screen capture is showing **eight Turing Machines** in action at the same time!
+Following animation is showing **all eight models** (GUI themes) of _FranKe_ module:
 
-![](docs/modules/FranKe/_img/Eight_TM_in_Action.png)
+![](docs/modules/FranKe/_img/AnimFranKeModels.gif)
 
 :information_source: Planned as public "Alpha" pre-release (v2.6.10), **Saturday 18th, April 2026**.
 
