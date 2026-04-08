@@ -58,7 +58,7 @@ Due to important amount of saved datas, _FranKe_ module uses a **packed & encryp
 
 ---
 
-**THE INPUT JACKS**<a name="inputs"></a>
+###THE INPUT JACKS<a name="inputs"></a>
 
 
 ![](_img/InputJacks.png)
@@ -76,25 +76,27 @@ When set as pulse (either 32 PPQN, or 24 PPQN), the LED is cyan, the CLOCK input
 
 For variable tempo in realtime, it will better to consider analog BPM-CV, rather than by pulses (digital), in order to avoid synchronization issues in your patch!
 
-**RUN** input jack can be patched (connected) to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP (access by pressing the SETUP button, located just above PATTERN mini-display), the TRACK 2 is indicating how the RUN input is working: as transport toggle (by triggers), or by continuous +10V gate (the sequencer pauses as soon as voltage falls to 0V).
+As soon as a frequency is established, this frequency is registered as "last known frequency", for standalone internal clock (when the CLOCK input jack is disconnected). By default, standalone internal clock is assumed as 120 BPM (2Hz).
+
+**RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP (access by pressing the SETUP button, located just above PATTERN mini-display), the TRACK 2 is indicating how the RUN input is working: as transport toggle (by triggers), or by continuous +10V gate (the sequencer pauses as soon as voltage falls to 0V).
 
 :warning: While RUN jack is patched, and set as held gate mode, the transport (PLAY/PAUSE) momentary button is inoperative, this behavior is normal.
 
-**RESET** input jack can be patched (connected) to any digital module capable to send +10V 1ms triggers. When the RESET jack receives a trigger, all tracks return to the beginning of their respective sequences (this will be explained in the sequencer topic, later).
+**RESET** input jack can be patched to any digital module capable to send +10V 1ms triggers. When the RESET jack receives a trigger signal, all tracks return to the beginning of their respective sequences (this will be explained in the sequencer topic, below).
 
-**REVerse play** input jack can be patched (connected) to any digital module capable to send +10V gate. While the voltage is held, this revert direction of playing for all tracks (already reverted track will play as normal/forward). Reverse play is applicable for any track role, including Turing Machine lines.
+**REVerse play** input jack can be patched to any digital module capable to send +10V gate. While the voltage is held at +10V, the direction of playing for all tracks is inverted from forward to reverse (already reverted individual tracks will play as normal/forward, in this case). Reverse play is applicable for any track role, including any Turing Machine line.
 
-**PENDULUM play** input jack can be patched (connected) to any digital module capable to send +10V gate. While the voltage is held, all tracks (except Turing Machines) are playing as pendulum (ping pong) between first and last step limits. Applicable for melodic and CV OUT tracks only (Turing Machine tracks don't support pendulum).
+**PENDULUM play** input jack can be patched to any digital module capable to send +10V gate. While the voltage is held at +10V, all tracks (except Turing Machine tracks) are playing like "pendulum" between first and last step limits (also named "ping pong"). Pendulum play is applicable for melodic and modulation (CV OUT) tracks only, Turing Machine tracks don't support pendulum.
 
-**CV1** and **CV2** input jacks can be patched (connected) to any analog or digital module; depending the role given to CV input (assignments from module's SETUP, tracks 5 for CV1, track 6 for CV2), the nature of the voltages are different. From module's SETUP, while assigning a role for CV1 or CV2, the hint system is displaying explanation about selected role, and the voltage requirement/range.
+**CV1** and **CV2** input jacks can be patched to any analog or digital module, depending the role given to CV input jack (assignments from module's SETUP, tracks 5 for CV1, track 6 for CV2), the nature of the voltages are different regardling assignment. From module's SETUP, while assigning a role for CV1 and CV2, the hint system is displaying explanations about selected role, and the voltages requirement.
 
-**PATTRN.** input jack can be patched (connected) to any analog module (or digital, if CV2 is assigned as PATTRN- / previous pattern select), in order to select the current pattern by voltage. In this case, the pattern's potentiometer is inoperative.
+**PATTRN.** input jack can be patched to any analog module (or digital, if CV2 is assigned as PATTRN- / previous pattern select), in order to select the current pattern by voltage. In this case, the pattern's potentiometer is inoperative. However, if CV2 is assigned as **PATTRN-** (previous pattern select), in this case both **CV2** and **PATTRN.** input jacks are listening for +10V 1ms triggers, to select respectively previous or next pattern.
 
-While STEP-RECORDING is armed (applicable for melodic tracks only), the module's panel reflects the new jacks (temporary) assignments:
+While STEP-RECORDING is active (applicable for melodic tracks only), the module's panel reflects the temporary jacks assignments (for these three jacks):
 
-- REVerse input becomes **PITCH** input jack (connected to **PITCH** output of MIDI-CV module), to record pitches from MIDI controller.
-- PENDULUM input becomes **GATE** input jack (connected to **GATE** output of MIDI-CV module), to detect keypress from MIDI controller.
-- CV1 input becomes **VEL**ocity input jack (connected to **VEL.** output of MIDI-CV module), optional, to record velocities from MIDI controller.
+- _REVerse play_ input becomes **PITCH** input, patched to **PITCH** output of MIDI-CV module to record pitches from MIDI controller.
+- _PENDULUM play_ input becomes **GATE** input, patched to **GATE** output of MIDI-CV module to detect monophonic keypresses from MIDI controller.
+- _CV1_ input becomes **VEL**ocity input, (optionally) patched to **VEL.** output of MIDI-CV module, to record KEY ON velocities from MIDI controller. If not patched, the module assumes velocities at maximum 100% (MIDI 127 equivalent).
 
 
 ![](_img/InputJacksStepRec.png)
@@ -102,7 +104,7 @@ While STEP-RECORDING is armed (applicable for melodic tracks only), the module's
 
 ---
 
-OUTPUT JACKS<a name="outputs"></a>
+###OUTPUT JACKS<a name="outputs"></a>
 
 
 
