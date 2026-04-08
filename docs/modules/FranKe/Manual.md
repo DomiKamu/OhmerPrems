@@ -86,7 +86,7 @@ When set as pulse (either 32 PPQN, or 24 PPQN), and patched, the LED is cyan. Th
 
 As soon as any frequency is established, this frequency is registered as "last known frequency", and will be used for standalone clock (when the CLOCK input jack is disconnected). By default, standalone clock is assumed as 2Hz / 120 BPM.
 
-:warning: Standalone frequency can't be manually changed.
+:warning: Standalone (internal) module's frequency can't be set manually! (but can be displayed from module's SETUP, track 3 display, not editable).
 
 **RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP (access by pressing the SETUP button, located just above PATTERN mini-display), the TRACK 2 is indicating how the RUN input is working: as transport toggle (by triggers), or by continuous (held) +10V gate (the sequencer runs while +10V gate is held, then pauses as soon as the gate voltage falls below +2V).
 
