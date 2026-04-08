@@ -1,4 +1,4 @@
-## FRANKE MODULE - SPECIFICATIONS & QUICK GUIDE (UNDER CONSTRUCTION)
+## FRANKE MODULE - USER'S MANUAL (UNDER CONSTRUCTION)
 
 
 ![](_img/FranKe.png)
@@ -53,12 +53,23 @@ Due to important amount of saved datas, _FranKe_ module uses a **packed & encryp
 
 ### TOPICS
 
-- [THE INPUT JACKS](#inputs)
-- [THE OUTPUT JACKS](#outputs)
+- [**MODULE LAYOUT**](#layout)
+- [**INPUT JACKS**](#inputs)
+- [**OUTPUT JACKS**](#outputs)
 
 ---
 
-### THE INPUT JACKS<a name="inputs"></a>
+### MODULE LAYOUT<a name="layout"></a>
+
+
+![](_img/Layout.png)
+
+
+All input jacks are located at the left side of the module (arranged vertically).
+
+---
+
+### INPUT JACKS<a name="inputs"></a>
 
 
 ![](_img/InputJacks.png)
@@ -106,7 +117,7 @@ While STEP-RECORDING is active (applicable for melodic tracks only), the module'
 
 ---
 
-### THE OUTPUT JACKS<a name="outputs"></a>
+### OUTPUT JACKS<a name="outputs"></a>
 
 
 
