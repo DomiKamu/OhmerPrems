@@ -1,4 +1,4 @@
-**FRANKE MODULE - SPECIFICATIONS & QUICK GUIDE (UNDER CONSTRUCTION)**
+## FRANKE MODULE - SPECIFICATIONS & QUICK GUIDE (UNDER CONSTRUCTION)
 
 
 ![](_img/FranKe.png)
@@ -51,14 +51,14 @@ Due to important amount of saved datas, _FranKe_ module uses a **packed & encryp
 
 ----
 
-**TOPICS**
+### TOPICS
 
 - [THE INPUT JACKS](#inputs)
 - [THE OUTPUT JACKS](#outputs)
 
 ---
 
-###THE INPUT JACKS<a name="inputs"></a>
+### THE INPUT JACKS<a name="inputs"></a>
 
 
 ![](_img/InputJacks.png)
@@ -104,7 +104,7 @@ While STEP-RECORDING is active (applicable for melodic tracks only), the module'
 
 ---
 
-###OUTPUT JACKS<a name="outputs"></a>
+### OUTPUT JACKS<a name="outputs"></a>
 
 
 
