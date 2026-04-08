@@ -127,7 +127,7 @@ All 3x8 output jacks (arranged as matrix) are located at the right side of the m
 
 Description, from left to right:
 
-- **PITCH** outputs V/Oct / Pitch voltage-compliant (or free voltage, as "CV OUT" as modulation voltage), like oscillator (VCO), synth voice... having **V/OCT** (or **PITCH**) input jack, or any module you'll want! As **CV OUT** role, free voltages between -10V and +10V (0.01V resolution) is sent to **PITCH** output jack (instead of note-based V/Oct voltage).
+- As melodic or Turing Machine track role, **PITCH** outputs "V/Oct" (pitch) voltage-compliant to be used for oscillator (VCO) or similar module who embeds **V/OCT** (or **PITCH**) input jack (or any module you'll want, of course). As **CV OUT** track role, free sequenced voltages between -10V and +10V (0.01V resolution/stepping) are sent to **PITCH** output jack.
 - **GATE** outputs 0V or +10V gate-compliant voltages, mainly useful to control an envelope generator (EG), or any other module who can be controlled by +10V gates.
 - **VEL./CYCLE** (its usage is optional) outputs additional voltage regardling the velocity of related played note event (melodic track only, green LED), may be useful to control additional VCA, filter cutoff (and so on). Otherwise the jack outputs **+10V 1ms trigger** (cyan LED) as **CYCLE** (instead of VEL.), when the track's sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** lines).
 
