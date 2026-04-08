@@ -34,17 +34,17 @@ Obviously, all models are offering exactly the same features!
 
 ----
 
-Free version (without license V2 keyfile) is working as **full player** (meaning it can play any patch made by any OhmerPrems member, full player without any restriction). However, without a valid license V2 keyfile, **only track 1 can be edited on patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are locked against editing, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut), importing file, **Copy/Paste** features, and so on. Also, Turing sequence on track 1 (pattern 01 and 02) can be edited, exported, and imported (to track 1 only) without limitation, but all others still locked, until you'll become OhmerPrems member. Track role (via **TRK. ROLE** momentary button) can be changed only on track 1 (from any pattern, because track role is common to all patterns of the sequencer), as evaluation purposes!
+Free version (without valid license V2 keyfile) is working as **full player** (this meaning it can play any patch made by any OhmerPrems member, as full player without any restriction except locked editing). However, from new module instance in your rack, without a license keyfile, **only track 1 can be edited in patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are **locked against editing**, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut), and other pattern / track features. Turing Machine sequence on track 1 (pattern 01 and 02) can be edited and exported without limitation (import on track 1 only), but all others still locked, until you'll become OhmerPrems member. Track role (via **TRK. ROLE** momentary button) can be changed only for track 1 (from any pattern, because **track role is common to all patterns** of the sequencer).
 
-All stuff made on _Franke_ module is always saved and recalled.
+All stuff made on _Franke_ module is always saved and recalled, including Turing Machine states (locked, or not).
 
 ----
 
-Following explanations in this _FranKe User's Manual_ will assume a **full version of the OhmerPrems plugin** by using a valid license V2 keyfile (reserved to OhmerPrems members exclusively).
+Following explanations in this _FranKe module User's Manual_ will assume a **full version of the OhmerPrems plugin** by using a valid license V2 keyfile (reserved to OhmerPrems members, exclusively).
 
-:warning: Due to limitation by current VCV Rack 2 API (v2.6.6 today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state to/from separate file, like you can do for any office document (also, you'll can save a particular pattern, a particular track, and export/import any Turing Machine line).
+:warning: Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained below, you'll can save/load a particular pattern, and a particular track whatever its role).
 
-:information_source: Due to important amount of saved datas, _FranKe_ module uses a **packed binary file** (instead of json), also for data integrity (the binary file is always checked after save, and saved again if necessary). Also, to avoid intentional "binary file patching" (to attempt to bypass editing restrictions by Demo/Trial), all save and load routines are using solid file encryption algorithms, and strong cryptographic hashing functions!
+:information_source: Due to important amount of saved datas, _FranKe_ module uses a **packed binary file** (instead of json who are causing lags during patch autosave feature), also for data integrity checkings (the binary file is always checked after save, and saved again if necessary). Also, to avoid intentional "binary file patching" (to attempt to bypass editing restrictions by Demo/Trial), all save and load routines are using file encryption algorithms, and strong _cryptographic hashing_ functions!
 
 ----
 
@@ -121,10 +121,10 @@ While STEP-RECORDING is active (applicable for melodic tracks only), the module'
 ![](_img/OutputJacks.png)
 
 
-All 3x8 output jacks (arranged as matrix) are located at the right side of the module. Each "line" is associated to relevant track (by its vertical position).
+All 3x8 output jacks (arranged as matrix) are located at the right side of the module. Each "line" is associated to relevant track (by its vertical position, indicated by printed arrows on module's plate).
 
 Description, from left to right:
 
-- **PITCH**, to any "V/Oct" input of external module, like oscillator (VCO), synth voice, etc... having **V/OCT** (or **PITCH**) input jack, or any module of your choice!
-- **GATE** outputs 0V or +10V gate voltages, mainly useful to control an envelope generator (EG), or any other module can be controlled by +10V gates.
-- **VEL./CYCLE** (its usage is optional) outputs additional CV regardling the velocity of related played note event (melodic track only, green LED), otherwise the jack outputs **+10V 1ms trigger** (cyan LED, instead) as **CYCLE**, when its sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** tracks).
+- **PITCH** outputs V/Oct / Pitch voltage-compliant (or free voltage, as "CV OUT" as modulation voltage), like oscillator (VCO), synth voice... having **V/OCT** (or **PITCH**) input jack, or any module you'll want! As **CV OUT** role, free voltages between -10V and +10V (0.01V resolution) is sent to **PITCH** output jack (instead of note-based V/Oct voltage).
+- **GATE** outputs 0V or +10V gate-compliant voltages, mainly useful to control an envelope generator (EG), or any other module who can be controlled by +10V gates.
+- **VEL./CYCLE** (its usage is optional) outputs additional voltage regardling the velocity of related played note event (melodic track only, green LED), may be useful to control additional VCA, filter cutoff (and so on). Otherwise the jack outputs **+10V 1ms trigger** (cyan LED) as **CYCLE** (instead of VEL.), when the track's sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** lines).
