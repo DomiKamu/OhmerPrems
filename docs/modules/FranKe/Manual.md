@@ -85,7 +85,7 @@ When set as analog BPM-CV, and patched, the LED is yellow. The internal frequenc
 
 When set as pulse (either 32 PPQN, or 24 PPQN), and patched, the LED is cyan. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish its internal frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module. 24 PPQN is useful when VCV Rack is used as plugin from DAW.
 
-:information_source: For variable tempos, in realtime, it will better to consider analog BPM-CV rather than by pulses (digital), in order to avoid synchronization issues in your patch!
+:information_source: For variable tempos, in realtime, it will better to consider analog BPM-CV rather than by pulses (digital), in order to avoid timing issues in your patch!
 
 As soon as any frequency is established, this frequency is registered as "last known frequency", and will be used for standalone clock (when the CLOCK input jack is disconnected). By default, standalone clock is assumed as 2Hz / 120 BPM.
 
