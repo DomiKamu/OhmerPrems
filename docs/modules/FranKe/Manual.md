@@ -1,4 +1,4 @@
-## FRANKE MODULE - USER'S MANUAL (UNDER CONSTRUCTION)
+# FRANKE MODULE - USER'S MANUAL (UNDER CONSTRUCTION)
 
 
 ![](_img/AnimFranKeModels.gif)
@@ -44,7 +44,7 @@ Following explanations in this _FranKe module User's Manual_ will assume a **ful
 
 :warning: Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained below, you'll can save/load a particular pattern, and a particular track whatever its role).
 
-:information_source: Due to important amount of saved datas, _FranKe_ module uses a **packed binary file** (instead of json who are causing lags during patch autosave feature), also for data integrity checkings (the binary file is always checked after save, and saved again if necessary). Also, to avoid intentional "binary file patching" (to attempt to bypass editing restrictions by Demo/Trial), all save and load routines are using file encryption algorithms, and strong _cryptographic hashing_ functions!
+:information_source: Due to important amount of saved datas, _FranKe_ module uses a **packed binary file** (instead of json who are causing signifiant lags during autosave feature), also for data integrity checkings (the binary file is always checked after save, and saved again if necessary). Also, to avoid intentional "binary file patching" (to attempt to bypass editing restrictions by Demo/Trial), all save and load routines are using file encryption algorithms, and strong _cryptographic hashing_ functions!
 
 ----
 
@@ -53,6 +53,7 @@ Following explanations in this _FranKe module User's Manual_ will assume a **ful
 - [**MODULE LAYOUT**](#layout)
 - [**INPUT JACKS**](#inputs)
 - [**OUTPUT JACKS**](#outputs)
+- [**LEFT-SIDE MOMENTARY BUTTONS**](#lsmbuttons)
 
 ---
 
@@ -114,7 +115,6 @@ While STEP-RECORDING is active (applicable for melodic tracks only), the module'
 
 ---
 
-
 ### OUTPUT JACKS<a name="outputs"></a>
 
 
@@ -128,3 +128,12 @@ Description, from left to right:
 - **PITCH** outputs V/Oct / Pitch voltage-compliant (or free voltage, as "CV OUT" as modulation voltage), like oscillator (VCO), synth voice... having **V/OCT** (or **PITCH**) input jack, or any module you'll want! As **CV OUT** role, free voltages between -10V and +10V (0.01V resolution) is sent to **PITCH** output jack (instead of note-based V/Oct voltage).
 - **GATE** outputs 0V or +10V gate-compliant voltages, mainly useful to control an envelope generator (EG), or any other module who can be controlled by +10V gates.
 - **VEL./CYCLE** (its usage is optional) outputs additional voltage regardling the velocity of related played note event (melodic track only, green LED), may be useful to control additional VCA, filter cutoff (and so on). Otherwise the jack outputs **+10V 1ms trigger** (cyan LED) as **CYCLE** (instead of VEL.), when the track's sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** lines).
+
+---
+
+### LEFT-SIDE MOMENTARY BUTTONS<a name="lsmbuttons"></a>
+
+
+Following animation is showing roles of the left-side momentary buttons of the _FranKe_ module:
+
+
