@@ -30,7 +30,7 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 :information_source: Planned as public "Alpha" pre-release (v2.6.10), **Saturday 18th, April 2026**.
 
 ----
-## **Work-in-Progress (delayed) module: 6OP-DX** (No sound to outputs at the moment!)
+## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
