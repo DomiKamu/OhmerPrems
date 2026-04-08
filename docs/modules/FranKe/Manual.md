@@ -1,7 +1,7 @@
 ## FRANKE MODULE - USER'S MANUAL (UNDER CONSTRUCTION)
 
 
-![](_img/FranKe.png)
+![](_img/AnimFranKeModels.gif)
 
 
 As kind of "complement" of _FroeZe_ trigger-based sequencer (used mainly for drum machines, percussions and trigger outputs), _FranKe_ module is a 80HP analog step-sequencer, as requested by an (2019) OhmerPrems member, for particular projects!
