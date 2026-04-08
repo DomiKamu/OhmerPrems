@@ -43,11 +43,11 @@ All stuff made on _Franke_ module is always saved and recalled.
 
 ----
 
-Following explanations in this _FranKe user's guide_ assume a **full version of the OhmerPrems plugin** using a valid license V2 keyfile (reserved to OhmerPrems members exclusively).
+Following explanations in this _FranKe User's Manual_ assume a **full version of the OhmerPrems plugin** by using a valid license V2 keyfile (reserved to OhmerPrems members exclusively).
 
-Due to limitation by current VCV Rack 2 API (v2.6.6 today), _FranKe_ module doesn't support _preset_ (.vcvm) and _module selection_ file (.vcvs) features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for preset files and module selection files. However, you'll can save (and load) whole sequencer state to/from separate file, like you can do for any document.
+Due to limitation by current VCV Rack 2 API (v2.6.6 today), unfortunately _FranKe_ module doesn't support _preset_ (.vcvm) and _module selection_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for presets and module selections. However, you'll can save (and load) whole sequencer state to/from separate file, like you can do for any document (also you'll can save a particular pattern, track, and export/import a Turing Machine).
 
-Due to important amount of saved datas, _FranKe_ module uses a **packed & encrypted binary file** (instead of json), also for data integrity (file is always checked after save), and for protection against "file patching" (by using file encryption & strong cryptographic hash functions).
+Due to important amount of saved datas, _FranKe_ module uses a **packed & encrypted binary file** (instead of json), also for data integrity (the binary file is always checked after save, and saved again if necessary), and for protection against "file patching" (by using file encryption & strong cryptographic hashing functions).
 
 ----
 
@@ -62,10 +62,10 @@ Due to important amount of saved datas, _FranKe_ module uses a **packed & encryp
 ### MODULE LAYOUT<a name="layout"></a>
 
 
+Following animation is showing parts of the _FranKe_ module:
+
 ![](_img/Layout.png)
 
-
-All input jacks are located at the left side of the module (arranged vertically).
 
 ---
 
@@ -75,9 +75,9 @@ All input jacks are located at the left side of the module (arranged vertically)
 ![](_img/InputJacks.png)
 
 
-All input jacks are located at the left side of the module (arranged vertically).
+All 8 input jacks are located at the left side of the module (arranged vertically).
 
-From top to bottom:
+Description of each, from top to bottom:
 
 **CLOCK** input jack can be patched (connected) to any clocking source module, or similar (may be a LFO, manual CV source, master or slave clock module), who produces +10V 1ms triggers (also named _pulses_), or analog voltage (BPM-CV technique, more stable and instant for variations). Clock source nature can be changed from module's SETUP, by pressing the SETUP button (located just above PATTERN mini-display).
 
