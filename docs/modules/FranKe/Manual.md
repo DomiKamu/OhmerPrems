@@ -18,36 +18,33 @@ To change a track role anytime, first select the track (either by touching its *
 
 While the sequencer is running, all tracks (including unused roles) are impacted, despite 8 are active ("audible", aka active role), a total of 24 tracks are sequenced at the same time (8 tracks x 3 roles).
 
-Each track (row, or "line") have its **PITCH**, +10V **GATE**, and (optional to use) **VELocity** (or +10V 1ms **CYCLE** trigger) output jacks, all are located at the right side of the _Franke_ module. Please consider **VEL**ocities are applicable only for melodic (notes-based) tracks, for other roles, a **+10V 1ms** trigger is send as **CYCLE** when the related track is restarting (repeat) its sequence (useful to control a sequential switch module).
+Each track (row, or "line") have its **PITCH**, +10V **GATE**, and (optional to use) **VELocity** (or +10V 1ms **CYCLE** trigger) output jacks, all are located at the right side of _Franke_ module. Please consider **VEL**ocities are applicable only for melodic (notes-based) tracks, for other roles, instead, a **+10V 1ms** trigger is send as **CYCLE** when the related track is restarting its sequence (this feature is useful to control a sequential switch module, for example).
 
-:warning: **FranKe module is not an instrument**, but a voltage-based (analog) step-sequencer, who sends pitch voltages ("V/Oct" compliant) or free voltages, 0V/+10V gates, and possibly velocities voltages, in order to control other modules, such VCO, synth voice, enveloppe generator, VCA, and any module you'll want:
-- **PITCH** to any sound source module, like oscillator (VCO), synth voice, sampler, etc... who have **V/OCT** (or **PITCH**) input jack, or CV input of any module you'd like.
-- **GATE** who output 0V or +10V gate voltages, mainly to control an envelope generator, or any module can be controlled by +10V gate voltage.
-- **VEL./CYCLE** (usage is optional), who output additional CV regardling the velocity of related note event (melodic track only, green LED), otherwise the jack outputs cycle **+10V 1ms trigger** (blue LED, instead).
+:warning: **FranKe module is not an instrument**, but a voltage-based (analog) step-sequencer, who sends pitch voltages ("V/Oct" compliant) or free voltages, 0V/+10V gates, and possibly velocities voltages, in order to control other modules, such VCO, synth voice, enveloppe generator, VCA, VCF cutoff/resonance, and... any module you'll want to control via sequenced velocities. Please consult OUTPUT JACKS section for more details.
 
-Like future (still in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), FranKe provides 8 different models (aka GUI theme variations), shown at the top of this page, compliant against **Prefer dark panels if available** VCV Rack's setting (from **View** menu), as proposition from module's browser. Existing models are **Aluminium**, (it's the default model if _Prefer dark panels if available_ setting is unchecked), **Stage Repro** (red theme), **Cobalt** (blue theme), **Absolute Night** (it's the default model if _Prefer dark panels if available_ setting is checked), **Dark "Signature"**, **Fort Knox "Signature"** (show above, too), **Oxide "Signature"**, and **Titanium "Signature"**.
+Like future (still in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), FranKe provides 8 different models (aka GUI theme variations), shown as animation on the top of this manual. Model is compliant against **Prefer dark panels if available** VCV Rack's setting (from **View** menu) as proposition from module's browser. Existing models are **Aluminium**, (it's the default model if _Prefer dark panels if available_ setting is disabled/unchecked), **Stage Repro** (red theme), **Cobalt** (blue theme), **Absolute Night** (it's the default model if _Prefer dark panels if available_ setting is enabled/checked), **Dark "Signature"**, **Fort Knox "Signature"** (show above, too), **Oxide "Signature"**, and **Titanium "Signature"**.
 
-All four "Signature" models embed gold metal jacks, momentary buttons, and screws, and eight OLED touchscreens.
+All four "Signature" models embed **gold metal** jacks, momentary buttons, and screws, and eight **OLED** touchscreens.
 
-All four Non-"Signature" models embed silver metal jacks, momentary buttons, and screws, and eight LCD touchscreens (_Absolute Night_ model provides a - dimmable - yellow backlit LCD, however).
+All four Non-"Signature" models embed **silver metal** jacks, momentary buttons, and screws, and eight **LCD** touchscreens (_Absolute Night_ is a lone model who provides a **dimmable yellow-backlit LCD**, however, can be dimmed/undimmed by clicking over Ohmer logo as hotspot - shown in the animation).
 
 Obviously, all models are offering exactly the same features!
 
-:warning: _FranKe_ module is under development, it will be available "soon" (planned as public release Friday April 17th, 2026).
+:warning: _FranKe_ module is under development, it will be available "soon" (planned as public release from Saturday April 18th, 2026).
 
 ----
 
-Free version (without license V2 keyfile) is working as **full player** (meaning it can play any patch made by OhmerPrems member, without any restriction). However, without a valid license V2 keyfile, **only track 1 can be edited on patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are locked against editing, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut). Also, Turing sequence on track 1 (pattern 01 and 02) can be edited, exported, and imported (to track 1 only), all others still locked, until you'll become OhmerPrems member. Track role (via **TRK. ROLE** momentary button) can be changed only on track 1 (from any pattern, however, because track role is common to all patterns), as evaluation purposes!
+Free version (without license V2 keyfile) is working as **full player** (meaning it can play any patch made by any OhmerPrems member, full player without any restriction). However, without a valid license V2 keyfile, **only track 1 can be edited on patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are locked against editing, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut), importing file, **Copy/Paste** features, and so on. Also, Turing sequence on track 1 (pattern 01 and 02) can be edited, exported, and imported (to track 1 only) without limitation, but all others still locked, until you'll become OhmerPrems member. Track role (via **TRK. ROLE** momentary button) can be changed only on track 1 (from any pattern, because track role is common to all patterns of the sequencer), as evaluation purposes!
 
 All stuff made on _Franke_ module is always saved and recalled.
 
 ----
 
-Following explanations in this _FranKe User's Manual_ assume a **full version of the OhmerPrems plugin** by using a valid license V2 keyfile (reserved to OhmerPrems members exclusively).
+Following explanations in this _FranKe User's Manual_ will assume a **full version of the OhmerPrems plugin** by using a valid license V2 keyfile (reserved to OhmerPrems members exclusively).
 
-Due to limitation by current VCV Rack 2 API (v2.6.6 today), unfortunately _FranKe_ module doesn't support _preset_ (.vcvm) and _module selection_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for presets and module selections. However, you'll can save (and load) whole sequencer state to/from separate file, like you can do for any document (also you'll can save a particular pattern, track, and export/import a Turing Machine).
+:warning: Due to limitation by current VCV Rack 2 API (v2.6.6 today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state to/from separate file, like you can do for any office document (also, you'll can save a particular pattern, a particular track, and export/import any Turing Machine line).
 
-Due to important amount of saved datas, _FranKe_ module uses a **packed & encrypted binary file** (instead of json), also for data integrity (the binary file is always checked after save, and saved again if necessary), and for protection against "file patching" (by using file encryption & strong cryptographic hashing functions).
+:information_source: Due to important amount of saved datas, _FranKe_ module uses a **packed binary file** (instead of json), also for data integrity (the binary file is always checked after save, and saved again if necessary). Also, to avoid intentional "binary file patching" (to attempt to bypass editing restrictions by Demo/Trial), all save and load routines are using solid file encryption algorithms, and strong cryptographic hashing functions!
 
 ----
 
@@ -64,7 +61,7 @@ Due to important amount of saved datas, _FranKe_ module uses a **packed & encryp
 
 Following animation is showing parts of the _FranKe_ module:
 
-![](_img/Layout.png)
+![](_img/FranKeLayout.gif)
 
 
 ---
@@ -117,10 +114,17 @@ While STEP-RECORDING is active (applicable for melodic tracks only), the module'
 
 ---
 
+
 ### OUTPUT JACKS<a name="outputs"></a>
 
 
+![](_img/OutputJacks.png)
 
 
+All 3x8 output jacks (arranged as matrix) are located at the right side of the module. Each "line" is associated to relevant track (by its vertical position).
 
-(under construction)
+Description, from left to right:
+
+- **PITCH**, to any "V/Oct" input of external module, like oscillator (VCO), synth voice, etc... having **V/OCT** (or **PITCH**) input jack, or any module of your choice!
+- **GATE** outputs 0V or +10V gate voltages, mainly useful to control an envelope generator (EG), or any other module can be controlled by +10V gates.
+- **VEL./CYCLE** (its usage is optional) outputs additional CV regardling the velocity of related played note event (melodic track only, green LED), otherwise the jack outputs **+10V 1ms trigger** (cyan LED, instead) as **CYCLE**, when its sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** tracks).
