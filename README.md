@@ -1,13 +1,13 @@
 # ![](docs/modules/FroeZe/_img/Logo_Ohmer.png)OhmerPrems for VCV Rack 2
 
-*OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Demo" otherwise) and some free modules for everyone, for VCV Rack 2.
+*OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Trial" otherwise) and some free modules for everyone, for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of four main modules, plus three as _expanders_ modules:
+Actually, *OhmerPrems* plugin is a set of five main modules, plus three as _expanders_ modules:
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
 - **QuadPercs** is a quad-channel drum machine module.
-- **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (1V/octave based) - **remaining in development, but delayed!**
+- **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (V/Oct. based) - **remaining in development, but delayed!**
 - **KlokSpid MkII**, the versatile 16HP clocking source and LFO. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](docs/modules/KlokSpidMkII/Manual.md)
 - **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (as pre-offsets).
 
@@ -19,22 +19,22 @@ Lastest version (**v2.6.8**) is available from [_Releases_](https://github.com/D
 ----
 ## **Work-in-Progress module: FranKe**
 
-[Under construction... Please click here to read **FranKe Specifications & User's Manual**](docs/modules/FranKe/Manual.md)
+[Under construction... Please click here to read **FranKe User's Manual**](docs/modules/FranKe/Manual.md)
 
-Developed to OhmerPrems member (since 2019) needs, for specific projects, FranKe is a **64-pattern, 8-track, 16-step analog step-sequencer**, who are using versatile tracks: a track can have one role (from three): as "melodic" track who are using quantized notes/octaves/accidentals, as "CV OUT" track to offering voltages (-10V to +10V range, 0.01V steeping) for sequenced modulations, or a 16-bit Turing Machine track.
+Developed for OhmerPrems member (since 2019), needs for specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from three): as "melodic" track, who are using quantized notes/octaves/accidentals, as "CV OUT" modulation track to offering voltages (-10V to +10V range, 0.01V steeping) for sequenced modulations, or a 16-bit Turing Machine track (useful for generative/random).
 
-Following screen capture is showing **8 Turing Machines** in action at the same time!
+Following screen capture is showing **eight Turing Machines** in action at the same time!
 
 ![](docs/modules/FranKe/_img/Eight_TM_in_Action.png)
 
-:information_source: Planned as public release from Friday 17th, April 2026.
+:information_source: Planned as public "Alpha" pre-release (v2.6.10), **Saturday 18th, April 2026**.
 
 ----
-## **Work-in-Progress/Postponed module: 6OP-DX** (No sound on outputs at the moment!)
+## **Work-in-Progress (delayed) module: 6OP-DX** (No sound to outputs at the moment!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module is included "as-is" only via "Alpha" pre-releases (not provided by OhmerPrems v2.6.8 stable).
+6OP-DX module is included "as W.I.P." only via "Alpha" pre-releases (not provided by OhmerPrems v2.6.8 stable release).
 
 ----
 
