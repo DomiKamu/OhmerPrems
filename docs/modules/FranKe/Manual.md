@@ -64,23 +64,25 @@ Due to important amount of saved datas, _FranKe_ module uses a **packed & encryp
 ![](_img/InputJacks.png)
 
 
-All input jacks are located at the left side of the module, vertically.
+All input jacks are located at the left side of the module (arranged vertically).
 
 From top to bottom:
 
 **CLOCK** input jack can be patched (connected) to any clocking source module, or similar (may be a LFO, manual CV source, master or slave clock module), who produces +10V 1ms triggers (also named _pulses_), or analog voltage (BPM-CV technique, more stable and instant for variations). Clock source nature can be changed from module's SETUP, by pressing the SETUP button (located just above PATTERN mini-display).
 
-When set as analog BPM-CV, and connected, the LED is yellow. The internal frequency (and global tempo) is based by voltage conversion, like V/Oct, but 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and any voltage from -5V to +5V is considered as valid voltage prior to convert as internal frequency (Hz), and by this way, the global tempo.
+When set as analog BPM-CV, and patched, the LED is yellow. The internal frequency (and global tempo) is based by voltage conversion, like V/Oct, but 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and any voltage from -5V to +5V is considered as valid voltage prior to convert as internal frequency (Hz), and by this way, the global tempo.
 
-When set as pulse (either 32 PPQN, or 24 PPQN), the LED is cyan, the CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish its internal frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module. 24 PPQN is useful when used from DAW (VCV Rack 2 Pro, as DAW plugin).
+When set as pulse (either 32 PPQN, or 24 PPQN), and patched, the LED is cyan. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish its internal frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module. 24 PPQN is useful when VCV Rack is used as plugin from DAW.
 
-For variable tempo in realtime, it will better to consider analog BPM-CV, rather than by pulses (digital), in order to avoid synchronization issues in your patch!
+:information_source: For variable tempos, in realtime, it will better to consider analog BPM-CV rather than by pulses (digital), in order to avoid synchronization issues in your patch!
 
-As soon as a frequency is established, this frequency is registered as "last known frequency", for standalone internal clock (when the CLOCK input jack is disconnected). By default, standalone internal clock is assumed as 120 BPM (2Hz).
+As soon as any frequency is established, this frequency is registered as "last known frequency", and will be used for standalone clock (when the CLOCK input jack is disconnected). By default, standalone clock is assumed as 2Hz / 120 BPM.
 
-**RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP (access by pressing the SETUP button, located just above PATTERN mini-display), the TRACK 2 is indicating how the RUN input is working: as transport toggle (by triggers), or by continuous +10V gate (the sequencer pauses as soon as voltage falls to 0V).
+:warning: Standalone frequency can't be manually changed.
 
-:warning: While RUN jack is patched, and set as held gate mode, the transport (PLAY/PAUSE) momentary button is inoperative, this behavior is normal.
+**RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP (access by pressing the SETUP button, located just above PATTERN mini-display), the TRACK 2 is indicating how the RUN input is working: as transport toggle (by triggers), or by continuous (held) +10V gate (the sequencer runs while +10V gate is held, then pauses as soon as the gate voltage falls below +2V).
+
+:warning: While RUN jack is patched, and set as held gate mode (from module's SETUP), the transport (PLAY/PAUSE) momentary button becomes inoperative. This behavior is normal.
 
 **RESET** input jack can be patched to any digital module capable to send +10V 1ms triggers. When the RESET jack receives a trigger signal, all tracks return to the beginning of their respective sequences (this will be explained in the sequencer topic, below).
 
@@ -96,7 +98,7 @@ While STEP-RECORDING is active (applicable for melodic tracks only), the module'
 
 - _REVerse play_ input becomes **PITCH** input, patched to **PITCH** output of MIDI-CV module to record pitches from MIDI controller.
 - _PENDULUM play_ input becomes **GATE** input, patched to **GATE** output of MIDI-CV module to detect monophonic keypresses from MIDI controller.
-- _CV1_ input becomes **VEL**ocity input, (optionally) patched to **VEL.** output of MIDI-CV module, to record KEY ON velocities from MIDI controller. If not patched, the module assumes velocities at maximum 100% (MIDI 127 equivalent).
+- _CV1_ input becomes **VEL**ocity input, (optionally) patched to **VEL.** output of MIDI-CV module, to record KEY ON velocities from MIDI controller. If not patched, _FranKe_ module is assuming velocities at maximum 100% (MIDI 127 equivalent).
 
 
 ![](_img/InputJacksStepRec.png)
@@ -104,7 +106,7 @@ While STEP-RECORDING is active (applicable for melodic tracks only), the module'
 
 ---
 
-### OUTPUT JACKS<a name="outputs"></a>
+### THE OUTPUT JACKS<a name="outputs"></a>
 
 
 
