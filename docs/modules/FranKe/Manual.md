@@ -53,8 +53,8 @@ Due to important amount of saved datas, _FranKe_ module uses a **packed & encryp
 
 **TOPICS**
 
-[THE INPUT JACKS](#inputs)
-[THE OUTPUT JACKS](#outputs)
+- [THE INPUT JACKS](#inputs)
+- [THE OUTPUT JACKS](#outputs)
 
 ---
 
@@ -92,9 +92,9 @@ For variable tempo in realtime, it will better to consider analog BPM-CV, rather
 
 While STEP-RECORDING is armed (applicable for melodic tracks only), the module's panel reflects the new jacks (temporary) assignments:
 
-- REVerse input becomes **PITCH** input jack (connected to **PITCH** on MIDI-CV capable module).
-- PENDULUM input becomes **GATE** input jack (connected to **GATE** on MIDI-CV capable module).
-- CV1 input becomes **VEL**ocity input jack (connected to **GATE** on MIDI-CV capable module).
+- REVerse input becomes **PITCH** input jack (connected to **PITCH** output of MIDI-CV module), to record pitches from MIDI controller.
+- PENDULUM input becomes **GATE** input jack (connected to **GATE** output of MIDI-CV module), to detect keypress from MIDI controller.
+- CV1 input becomes **VEL**ocity input jack (connected to **VEL.** output of MIDI-CV module), optional, to record velocities from MIDI controller.
 
 
 ![](_img/InputJacksStepRec.png)
