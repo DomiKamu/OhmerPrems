@@ -77,21 +77,23 @@ All 8 input jacks are located at the left side of the module (arranged verticall
 
 Description of each, from top to bottom:
 
-**CLOCK** input jack can be patched (connected) to any clocking source module, or similar (may be a LFO, manual CV source, master or slave clock module), who produces +10V 1ms triggers (also named _pulses_), or analog voltage (BPM-CV technique, more stable and instant for variations). Clock source nature can be changed from module's SETUP, by pressing the SETUP button (located just above PATTERN mini-display).
+**CLOCK** input jack can be patched (connected) to any clocking source module, or similar (may be a LFO, manual CV source, master or slave clock module), who produces +10V 1ms triggers (also named _pulses_), or analog voltage (BPM-CV technique, more stable and instant for variations). Clock source nature can be changed from module's SETUP, by pressing the SETUP button (located just above PATTERN mini-display, the button have a printed "gear" on module's plate), by using TRACK 2 continuous encoder (bold setting at left side of display is always the current setting).
 
-When set as analog BPM-CV, and patched, the LED is yellow. The internal frequency (and global tempo) is based by voltage conversion, like V/Oct, but 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and any voltage from -5V to +5V is considered as valid voltage prior to convert as internal frequency (Hz), and by this way, the global tempo.
+When external clock is set to **BY VOLTAGE (BPM-CV)**, and patched, the LED turns on, yellow. The internal frequency (and global tempo) is based by voltage conversion (exactly like V/Oct), but 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and so on. Any voltage from -5V to +5V is considered as valid voltage prior to convert as frequency (Hz), and by this way, as global tempo.
 
-When set as pulse (either 32 PPQN, or 24 PPQN), and patched, the LED is cyan. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish its internal frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module. 24 PPQN is useful when VCV Rack is used as plugin from DAW.
+When external clock is set to **BY PULSES (32 PPQN)** - default setting, or **BY PULSES (24 PPQN)**, and patched, the LED turns on, cyan. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish the frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module. 24 PPQN is useful when VCV Rack (Pro) is used as plugin from DAW.
 
-:information_source: For variable tempos, in realtime, it will better to consider analog BPM-CV rather than by pulses (digital), in order to avoid timing issues in your patch!
+:information_source: For realtime variable tempo, it will better to consider analog **BPM-CV**, rather than "by pulses" (digital triggers), in order to avoid possible timing issues while _FranKe_ sequencer is running! Also, analog **BPM-CV** is considered as smooth and reliable!
 
-As soon as any frequency is established, this frequency is registered as "last known frequency", and will be used for standalone clock (when the CLOCK input jack is disconnected). By default, standalone clock is assumed as 2Hz / 120 BPM.
+As soon as any frequency is established, this new frequency is registered in the module's memory as "last known" frequency, and will be used for standalone clock operations in case of the CLOCK input jack is disconnected, later.
 
-:warning: Standalone (internal) module's frequency can't be set manually! (but can be displayed from module's SETUP, track 3 display, not editable).
+On new instance of _FranKe_ module in your rack, standalone (internal) clock is automatically set as **2Hz (120 BPM)** as default setting, until the CLOCK input jack will register a new frequency from external clock source.
 
-**RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP (access by pressing the SETUP button, located just above PATTERN mini-display), the TRACK 2 is indicating how the RUN input is working: as transport toggle (by triggers), or by continuous (held) +10V gate (the sequencer runs while +10V gate is held, then pauses as soon as the gate voltage falls below +2V).
+:warning: Standalone (internal) module's frequency/tempo can't be set manually! (but clock informations can be displayed from module's SETUP, over TRACK 3 display).
 
-:warning: While RUN jack is patched, and set as held gate mode (from module's SETUP), the transport (PLAY/PAUSE) momentary button becomes inoperative. This behavior is normal.
+**RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP, the TRACK 4 display is indicating how the RUN input is set: as transport toggle (by triggers) - as default setting, or by continuous (held) +10V gate (the sequencer runs while +10V gate is applied on RUN jack, then pauses as soon as the gate voltage falls below +1V).
+
+:warning: While RUN jack is patched, and configured as **RUN WHILE +10V GATE**, the transport (PLAY/PAUSE) momentary button becomes inoperative. This behavior is normal!
 
 **RESET** input jack can be patched to any digital module capable to send +10V 1ms triggers. When the RESET jack receives a trigger signal, all tracks return to the beginning of their respective sequences (this will be explained in the sequencer topic, below).
 
