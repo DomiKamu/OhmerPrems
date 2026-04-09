@@ -34,7 +34,11 @@ Obviously, all models are offering exactly the same features!
 
 ----
 
-Free version (without valid license V2 keyfile) is working as **full player** (this meaning it can play any patch made by any OhmerPrems member, as full player without any restriction except locked editing). However, from new module instance in your rack, without a license keyfile, **only track 1 can be edited in patterns 01 and 02 only**, all other tracks (and whole patterns from 03 to 64) are **locked against editing**, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut), and other pattern / track features. Turing Machine sequence on track 1 (pattern 01 and 02) can be edited and exported without limitation (import on track 1 only), but all others still locked, until you'll become OhmerPrems member. Track role (via **TRK. ROLE** momentary button) can be changed only for track 1 (from any pattern, because **track role is common to all patterns** of the sequencer).
+Free version (without valid license V2 keyfile) have many limitations (restrictions).
+
+In case you're loading a patch (.vcv file) made by any OhmerPrems member, and the patch file embed one (or many) FranKe module(s), all FranKe modules work as **full player**: all of these FranKe modules are able to play without any restriction (as expected by "player"), but everything is protected against edit (including MUTE and SOLO states) and save/export.
+
+In case you're adding a new instance of _FranKe_ module in rack, **only track 1 can be edited in patterns 01 and 02 only**, all other tracks (from 2 to 8), and whole patterns from 03 to 64 are **locked against edit**, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut), and other pattern / track features. Turing Machine sequence on track 1 can be edited and exported without limitation (but can be imported on track 1 only). All others still locked, until you'll become OhmerPrems member. Track role (via **TRK. ROLE** momentary button) can be changed only for track 1 (from any pattern, because **track role is common to all patterns** of the sequencer). Also, many contextual menu entries concerning track, pattern and file operations may be disabled (grayed).
 
 All stuff made on _Franke_ module is always saved and recalled, including Turing Machine states (locked, or not).
 
