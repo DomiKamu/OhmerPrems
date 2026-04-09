@@ -139,6 +139,25 @@ Description, from left to right:
 ### LEFT-SIDE MOMENTARY BUTTONS<a name="lsmbuttons"></a>
 
 
-Following animation is showing roles of the left-side momentary buttons of the _FranKe_ module:
+Depending the context (as primary "function", or specifically while step-recording is engaged), the left-side momentary buttons have particular functions.
 
+As primary function (aka not in step-recording), from top to bottom:
 
+- Transport toggle (play or pause).
+- Engage step-recording (applicable for melodic tracks only, otherwise the step-recording is immediately disengaged). TRACK and STEP LED are turned red instead of cyan.
+- Reset all sequences (all tracks) to their respective beginning points.
+- Reverse toggle: forward-to-reverse, or reverse-to-forward playing direction, for selected track (including Turing Machine line).
+- Pendulum toggle, for selected melodic or CV OUT track only (Turing Machines do not support pendulum play).
+- VEL. to edit velocity for each step on for selected melodic track (not applicable for CV OUT and Turing Machine tracks). Press again to end editing.
+- GATE to edit gate for each step on selected melodic / CV OUT track (not applicable for Turing Machine, who have its particular GATE setting).
+- DELAY to edit delay for each step, selected melodic / CV OUT track (not applicable for Turing Machine, who have its particular DELAY setting).
+- RATCHET to edit ratchet for each step, selected melodic / CV OUT track (not applicable for Turing Machine).
+- CHANCE to edit chance (to play or not) for each step, selected melodic / CV OUT track (not applicable for Turing Machine).
+- TRACK ROLE (**TRK. ROLE**) to select next track role (from melodic to CV OUT, then to Turing Machine, then come back to melodic, and so on).
+- STEPS to edit first and last steps for selected melodic / CV OUT track (not applicable for Turing Machine), by using STEP 1 (first step) and STEP 2 (last step) encoders.
+- Activate the module's SETUP, or exit the SETUP.
+
+While step-recording is engaged, as visible on the module's plate, each button enters a related note (semitone) exactly like a piano.
+Each pressed button registers the related note (semitone) in current octave, then advances the sequencer by one step forward (or return to the first possible step).
+
+Press the EXIT button (it's the same button than used to enter/exit module's SETUP) in order to finish a step-recording session.
