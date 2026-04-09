@@ -130,9 +130,9 @@ All 3x8 output jacks (arranged as matrix) are located at the right side of the m
 
 Description, from left to right:
 
-- As melodic or Turing Machine track role, **PITCH** outputs "V/Oct" (pitch) voltage-compliant to be used for oscillator (VCO) or similar module who embeds **V/OCT** (or **PITCH**) input jack (or any module you'll want, of course). As **CV OUT** track role, free sequenced voltages between -10V and +10V (0.01V resolution/stepping) are sent to **PITCH** output jack.
-- **GATE** outputs 0V or +10V gate-compliant voltages, mainly useful to control an envelope generator (EG), or any other module who can be controlled by +10V gates.
-- **VEL./CYCLE** (its usage is optional) outputs additional voltage regardling the velocity of related played note event (melodic track only, green LED), may be useful to control additional VCA, filter cutoff (and so on). Otherwise the jack outputs **+10V 1ms trigger** (cyan LED) as **CYCLE** (instead of VEL.), when the track's sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** lines).
+- As melodic or Turing Machine track role, **PITCH** outputs "V/Oct" (pitch) voltage-compliant to be used by an oscillator (VCO) or similar module who embeds **V/OCT** (or **PITCH**) input jack (or any module you'll want, of course). As **CV OUT** track role, free sequenced voltages between -10V and +10V (0.01V resolution/stepping) are sent to **PITCH** output jack.
+- **GATE** outputs 0V or +10V gate-compliant voltages, mainly to control an envelope generator (EG), or any other module who can be controlled by +10V gates.
+- **VEL./CYCLE** (optional usage) outputs additional voltage regardling the velocity of related played note event (melodic track only, green LED), may be useful to control additional VCA, filter cutoff, or any you'll want (controllable by analog unipolar voltage). Otherwise the jack sends **+10V 1ms triggers** (cyan LED) as **CYCLE** (instead of VEL.), when the track's sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** lines).
 
 ---
 
