@@ -34,7 +34,7 @@ Obviously, all models are offering exactly the same features!
 
 ----
 
-Free version (without valid license V2 keyfile) have many limitations (restrictions).
+Free/Trial version (without valid license V2 keyfile) have many limitations (restrictions).
 
 In case you're loading a patch (.vcv file) made by any OhmerPrems member, and the patch file embed one (or many) _FranKe_ module(s), all of these _FranKe_ instances work as **full player**, meaning these modules are able to play without any restriction (as expected for a "player"). However, **everything** is locked against editing, including MUTE and SOLO states, track/pattern copy feature, and save/export features.
 
