@@ -133,9 +133,9 @@ All 3x8 output jacks (arranged as matrix) are located at the right side of the m
 
 Description, from left to right:
 
-- As melodic or Turing Machine track role, **PITCH** outputs "V/Oct" (pitch) voltage-compliant to be used by an oscillator (VCO) or similar module who embeds **V/OCT** (or **PITCH**) input jack (or any module you'll want, of course). As **CV OUT** track role, free sequenced voltages between -10V and +10V (0.01V resolution/stepping) are sent to **PITCH** output jack.
-- **GATE** outputs 0V or +10V gate-compliant voltages, mainly to control an envelope generator (EG), or any other module who can be controlled by +10V gates.
-- **VEL./CYCLE** (optional usage) outputs additional voltage regardling the velocity of related played note event (melodic track only, green LED), may be useful to control additional VCA, filter cutoff, or any you'll want (controllable by analog unipolar voltage). Otherwise the jack sends **+10V 1ms triggers** (cyan LED) as **CYCLE** (instead of VEL.), when the track's sequence is restarted (valid for both **CV OUT** modulation tracks, and **Turing Machine** lines).
+- As melodic or Turing Machine track role, **PITCH** outputs "V/Oct" (pitch) voltage-compliant to be used by an oscillator (VCO) or similar module who embeds **V/OCT** (or **PITCH**) input jack (or any module you'll want, of course). As **CV OUT** track role, sequenced voltages (between -10V and +10V, 0.01V stepping) are sent to **PITCH** output jack.
+- **GATE** outputs 0V or +10V gate-compliant voltages, mainly to control an envelope generator (EG), or any other module who can be controlled by +10V gate.
+- **VEL./CYCLE** (optional usage) outputs additional voltage regardling the velocity of related played note event (melodic track only, green LED), may be useful to control additional VCA, filter cutoff, or any you'll want (controllable by analog unipolar voltage). Otherwise the jack sends **+10V 1ms triggers** (cyan LED) as **CYCLE** (instead of VEL.), when the track's sequence is restarted during play (valid for both **CV OUT** modulation tracks, and **Turing Machine** lines).
 
 ---
 
@@ -143,23 +143,27 @@ Description, from left to right:
 
 Depending the context (as primary "function", or specifically while step-recording is engaged), the left-side momentary buttons have particular functions.
 
-As primary function (aka not in step-recording), from top to bottom:
+As primary function (aka while step-recording isn't engaged), from top to bottom:
 
 - Transport toggle (play or pause the sequencer). TIP: **RUN** LED is on, green, while the sequencer is running.
-- Engage step-recording (applicable for melodic tracks only, otherwise the step-recording is ignored or immediately disengaged if "CV OUT" or Turing Machine track is selected, or if sequencer is started from **RUN** input jack). TIP: while step-recording is active, **RUN** LED is red (instead of green), and related TRACK / STEP LEDs are turned on, red (instead of cyan).
+- Engage step-recording (applicable for melodic tracks only (otherwise the step-recording button press is ignored). While step-recording is engaged, the **RUN** LED is turned on, red (instead of green while playing), and the current TRACK / STEP LEDs are turned on, red (instead of cyan).
 - Reset all sequences (all tracks) to their respective beginning points (no trigger on **CYCLE output jacks** occur when reset is done via RESET button and/or RESET input jack).
-- Reverse toggle: forward-to-reverse, or reverse-to-forward playing direction, **for selected track only** (including Turing Machine line).
-- Pendulum toggle, **for selected melodic or CV OUT track only** (Turing Machine lines do not support pendulum play).
-- VEL. to edit velocity for each step on for selected melodic track (not applicable for CV OUT and Turing Machine tracks). Press again to end editing.
-- GATE to edit gate for each step on selected melodic / CV OUT track (not applicable for Turing Machine, who have its particular GATE setting).
-- DELAY to edit delay for each step, selected melodic / CV OUT track (not applicable for Turing Machine, who have its particular DELAY setting).
-- RATCHET to edit ratchet for each step, selected melodic / CV OUT track (not applicable for Turing Machine).
-- CHANCE to edit chance (to play or not) for each step, selected melodic / CV OUT track (not applicable for Turing Machine).
-- TRACK ROLE (**TRK. ROLE**) to select next track role (from melodic to CV OUT, then to Turing Machine, then come back to melodic, and so on).
-- STEPS to edit first and last steps for selected melodic / CV OUT track (not applicable for Turing Machine), by using STEP 1 (first step) and STEP 2 (last step) encoders.
+- Reverse play toggle: forward-to-reverse, or reverse-to-forward playing direction, **for selected track only** (including Turing Machine line).
+- Pendulum play toggle, **for selected melodic or "CV OUT" track only** (Turing Machine doesn't support pendulum play).
+- VEL. to edit velocity for each step on for selected melodic track (not applicable for "CV OUT" and Turing Machine tracks).
+- GATE to edit gate for each step on selected melodic / "CV OUT" track (not applicable for Turing Machine, who have its particular GATE setting).
+- DELAY to edit delay for each step, selected melodic / "CV OUT" track (not applicable for Turing Machine, who have its particular DELAY setting).
+- RATCHET to edit ratchet for each step, selected melodic / "CV OUT" track (not applicable for Turing Machine).
+- CHANCE to edit chance (to play or not) for each step, selected melodic / "CV OUT" track (not applicable for Turing Machine).
+- TRACK ROLE (labelled **TRK. ROLE** on module's plate) to select next track role (from melodic to CV OUT, then to Turing Machine, then come back to melodic, and so on).
+- STEPS to edit either first and last steps for selected melodic or "CV OUT" track (not applicable for Turing Machine), by using STEP 1 (first step) and STEP 2 (last step) encoders. Press STEPS button again when done.
 - Enter / exit the module's SETUP.
 
-While step-recording is engaged, as visible on the module's plate, each button enters a related note (semitone) exactly like a piano.
-Each pressed button registers the related note (semitone) in current octave, then advances the sequencer by one step forward (or return to the first possible step).
+While step-recording is engaged, as visible on the module's plate, each button enters a related note (semitone) exactly like a "piano" (clear and dark buttons).
+Every pressed button registers the related note (semitone), in the current displayed octave, then advances the sequencer by **one step forward** (or return to the first possible step).
 
-Press the EXIT button (it's the same button than used to enter/exit module's SETUP) in order to finish a step-recording session.
+During step-recording session, you'll can select another melodic track on the same pattern, also you'll can select another pattern by using its potentiometer.
+
+:information_source: Step-recording is immediately disengaged as soon as you'll select a non-melodic track ("CV OUT" or Turing Machine), or if you'll start the sequencer's transport via the **RUN** input jack!
+
+To finish (disengage) an active step-recording session, simply press the EXIT button (it's the same button used to enter/exit the module's SETUP).
