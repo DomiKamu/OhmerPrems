@@ -63,7 +63,7 @@ Following explanations in this _FranKe module User's Manual_ will assume a **ful
 
 ### MODULE LAYOUT<a name="layout"></a>
 
-Following animation is showing major parts of the _FranKe_ module (5 seconds/image):
+Following animation is showing major parts of the _FranKe_ module (5 seconds per image):
 
 ![](_img/AnimFranKeLayout.gif)
 
