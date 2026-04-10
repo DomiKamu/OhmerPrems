@@ -34,7 +34,7 @@ Obviously, all models are offering exactly the same features!
 
 ----
 
-### Free/Trial version (without valid license V2 keyfile) have many limitations (restrictions).
+### Free/Trial version (without valid license V2 keyfile) have many limitations (restrictions)!
 
 In case you're loading a patch (.vcv file) made by OhmerPrems member (who are using full version), and if the patch file embeds one (or many) _FranKe_ module(s), all of these _FranKe_ modules work as **full player**, this is meaning these modules are able to play without any restriction (as expected for "a player"). However, **everything** is locked against editing, including MUTE and SOLO states, track/pattern copy feature, randomizing, and save/export features.
 
@@ -141,16 +141,15 @@ Description, from left to right:
 
 ### LEFT-SIDE MOMENTARY BUTTONS<a name="lsmbuttons"></a>
 
-
 Depending the context (as primary "function", or specifically while step-recording is engaged), the left-side momentary buttons have particular functions.
 
 As primary function (aka not in step-recording), from top to bottom:
 
-- Transport toggle (play or pause).
-- Engage step-recording (applicable for melodic tracks only, otherwise the step-recording is immediately disengaged). TRACK and STEP LED are turned red instead of cyan.
-- Reset all sequences (all tracks) to their respective beginning points.
-- Reverse toggle: forward-to-reverse, or reverse-to-forward playing direction, for selected track (including Turing Machine line).
-- Pendulum toggle, for selected melodic or CV OUT track only (Turing Machines do not support pendulum play).
+- Transport toggle (play or pause the sequencer). TIP: **RUN** LED is on, green, while the sequencer is running.
+- Engage step-recording (applicable for melodic tracks only, otherwise the step-recording is ignored or immediately disengaged if "CV OUT" or Turing Machine track is selected, or if sequencer is started from **RUN** input jack). TIP: while step-recording is active, **RUN** LED is red (instead of green), and related TRACK / STEP LEDs are turned on, red (instead of cyan).
+- Reset all sequences (all tracks) to their respective beginning points (no trigger on **CYCLE output jacks** occur when reset is done via RESET button and/or RESET input jack).
+- Reverse toggle: forward-to-reverse, or reverse-to-forward playing direction, **for selected track only** (including Turing Machine line).
+- Pendulum toggle, **for selected melodic or CV OUT track only** (Turing Machine lines do not support pendulum play).
 - VEL. to edit velocity for each step on for selected melodic track (not applicable for CV OUT and Turing Machine tracks). Press again to end editing.
 - GATE to edit gate for each step on selected melodic / CV OUT track (not applicable for Turing Machine, who have its particular GATE setting).
 - DELAY to edit delay for each step, selected melodic / CV OUT track (not applicable for Turing Machine, who have its particular DELAY setting).
@@ -158,7 +157,7 @@ As primary function (aka not in step-recording), from top to bottom:
 - CHANCE to edit chance (to play or not) for each step, selected melodic / CV OUT track (not applicable for Turing Machine).
 - TRACK ROLE (**TRK. ROLE**) to select next track role (from melodic to CV OUT, then to Turing Machine, then come back to melodic, and so on).
 - STEPS to edit first and last steps for selected melodic / CV OUT track (not applicable for Turing Machine), by using STEP 1 (first step) and STEP 2 (last step) encoders.
-- Activate the module's SETUP, or exit the SETUP.
+- Enter / exit the module's SETUP.
 
 While step-recording is engaged, as visible on the module's plate, each button enters a related note (semitone) exactly like a piano.
 Each pressed button registers the related note (semitone) in current octave, then advances the sequencer by one step forward (or return to the first possible step).
