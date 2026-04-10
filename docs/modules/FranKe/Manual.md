@@ -92,7 +92,10 @@ As soon as frequency of the external source clock is established, this frequency
 
 On new instance of _FranKe_ module in your rack, standalone (internal) clock is automatically defined as **2Hz (120 BPM)**, as default setting, until the CLOCK input jack will register a new frequency (from external clock source).
 
-:warning: Standalone (internal) module's frequency/tempo can't be set manually! However, clocking informations can be displayed from module's SETUP (over TRACK 3 display).
+:warning: Standalone (internal) module's frequency/tempo can't be set manually! However, clocking informations can be displayed from module's SETUP (over TRACK 3 display):
+
+![](_img/AnimFranKeClocking.gif)
+
 
 **RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP, the TRACK 4 display is indicating how the RUN input is set: as transport toggle (by triggers) - as default setting, or by continuous (held) +10V gate (the sequencer runs while +10V gate is applied on RUN jack, then pauses as soon as the gate voltage falls below +1V).
 
