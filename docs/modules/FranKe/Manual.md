@@ -166,4 +166,4 @@ During step-recording session, you'll can select another melodic track on the sa
 
 :information_source: Step-recording is immediately disengaged as soon as you'll select a non-melodic track ("CV OUT" or Turing Machine), or if you'll start the sequencer's transport via the **RUN** input jack!
 
-To finish (disengage) an active step-recording session, simply press the EXIT button (it's the same button used to enter/exit the module's SETUP).
+To finish (disengage) an active step-recording session, simply press the EXIT button (it's the same button used to enter/exit the module's SETUP), during step-recording the "gear" symbol (for setup) on module's plate (alongside the button) is replaced by... "exit" symbol!
