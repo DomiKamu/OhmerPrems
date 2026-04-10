@@ -92,7 +92,9 @@ As soon as frequency of the external source clock is established, this frequency
 
 On new instance of _FranKe_ module in your rack, standalone (internal) clock is automatically defined as **2Hz (120 BPM)**, as default setting, until the CLOCK input jack will register a new frequency (from external clock source).
 
-:warning: Standalone (internal) module's frequency/tempo can't be set manually! However, clocking informations can be displayed from module's SETUP (over TRACK 3 display):
+:warning: Standalone (internal) module's frequency/tempo can't be set manually!
+
+Current clock/tempo informations can be displayed from module's SETUP, on TRACK 3 display (shown by following animation):
 
 ![](_img/AnimFranKeClocking.gif)
 
