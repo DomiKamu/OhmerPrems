@@ -1,6 +1,8 @@
 # FROEZE / FROEZE-X / FROEZE-SX: SPECIFICATIONS & QUICK GUIDE
 
+
 ![](_img/FroeZe_Header.png)
+
 
 This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to famous [**Edgar Froese**](https://en.wikipedia.org/wiki/Edgar_Froese), founder of Tangerine Dream band, is:
 
