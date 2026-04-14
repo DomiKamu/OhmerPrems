@@ -1,4 +1,4 @@
-# 6OP-DX MODULE - SPECIFICATIONS & QUICK GUIDE
+# 6OP-DX: SPECIFICATIONS & QUICK GUIDE
 
 
 ![](_img/6OP-DX_Cobalt_Presentation.png)
