@@ -34,13 +34,13 @@ Obviously, all models are offering exactly the same features!
 
 ----
 
-### Free/Trial version (without valid license V2 keyfile) have many limitations (restrictions)!
+### Free/Trial version (without a valid license V2 keyfile) have many limitations (restrictions)!
 
-In case you're loading a patch (.vcv file) made by OhmerPrems member (who are using full version), and if the patch file embeds one (or many) _FranKe_ module(s), all of these _FranKe_ modules work as **full player**, this is meaning these modules are able to play without any restriction (as expected for "a player"). However, **everything** is locked against editing, including MUTE and SOLO states, track/pattern copy feature, randomizing, and save/export features.
+In case you're loading a shared patch (.vcv file) made by OhmerPrems member (who are using full version for him/her), and if the patch file embeds one (or many) _FranKe_ module instance(s), all of these instances are working as (full) **player**, this is meaning these modules are able to playback without any restriction (as expected for "a player"). However, **everything** is locked against editing, including MUTE and SOLO states (individual/global), CV assignment (from module's SETUP), reverse and pendumum play by momentary button (who affect individual track), track role, randomizations, module reset (via Initialize from contextual menu), copy/paste operation, and any save/export operation.
 
-In case you're adding by yourself a new instance of _FranKe_ module in rack, for the fresh module **only track 1 can be edited in patterns 01 and 02 only**, all other tracks (from 2 to 8), and whole patterns from 03 to 64 are **locked against editing**, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut), and other pattern / track features. Turing Machine sequence on track 1 can be edited and exported without limitation (but can be imported on track 1 only). All others still locked, until you'll become OhmerPrems member. Track role (via **TRK. ROLE** momentary button) can be changed only for track 1 (from any pattern, because **track role is common to all patterns** of the sequencer). Also, many contextual menu entries concerning track, pattern and file operations may be disabled (grayed).
+In case you're adding - by yourself - a new instance of _FranKe_ module in the rack, for the fresh module, **only tracks 1 and 2 can be edited, from patterns 01 and 02**, all other tracks (from 3 to 8) are set as TRACK OFF, and whole patterns from 03 to 64 are **locked against any change**, including "Randomize" feature for selected pattern (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut), and other pattern / track related features. Turing Machine sequence on tracks 1 and 2 can be edited and exported, but Turing Machine sequence can be re-imported to the same track. All others still locked, until you'll become OhmerPrems member! Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. Also, many contextual menu entries concerning track, pattern and file operations may be disabled (grayed), or hidden, depending the module's context when the contextual menu is pulled down on right-mouse button click (or equivalent keyboard shortcut).
 
-All stuff made on _Franke_ module is always saved and recalled, including Turing Machine states (locked, or not).
+All stuff made on _Franke_ module is always saved and recalled, including Turing Machine states (whatever locked or not).
 
 ----
 
@@ -48,20 +48,20 @@ Following explanations in this _FranKe module User's Manual_ will assume a **ful
 
 :warning: Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained below, you'll can save/load a particular pattern, and a particular track whatever its role).
 
-:information_source: Due to important amount of saved datas, _FranKe_ module uses a **packed binary file** (instead of json who are causing signifiant lags during autosave feature), also for data integrity checkings (the binary file is always checked after save, and saved again if necessary). Also, to avoid intentional "binary file patching" (to attempt to bypass editing restrictions by Demo/Trial), all save and load routines are using file encryption algorithms, and strong _cryptographic hashing_ functions!
+:information_source: Due to important amount of saved datas, _FranKe_ module uses a **packed binary file** (instead of json who are causing signifiant lags during autosave feature, every 15 seconds). Also, for data integrity checkings (the binary file is always checked after save, and saved again if necessary). Also, to avoid intentional "binary file patching" (to attempt to bypass editing restrictions by Demo/Trial), all file operations are using file encryption algorithms, and strong _cryptographic hashing_ functions!
 
 ----
 
 ### TOPICS
 
-- [**MODULE LAYOUT**](#layout)
+- [**THE MODULE LAYOUT**](#layout)
 - [**INPUT JACKS**](#inputs)
 - [**OUTPUT JACKS**](#outputs)
 - [**LEFT-SIDE MOMENTARY BUTTONS**](#lsmbuttons)
 
 ---
 
-### MODULE LAYOUT<a name="layout"></a>
+### THE MODULE LAYOUT<a name="layout"></a>
 
 Following animation is showing major parts of the _FranKe_ module (5 seconds per image):
 
@@ -99,7 +99,7 @@ Current clock/tempo informations can be displayed from module's SETUP, on TRACK 
 ![](_img/AnimFranKeClocking.gif)
 
 
-**RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP, the TRACK 4 display is indicating how the RUN input is set: as transport toggle (by triggers) - as default setting, or by continuous (held) +10V gate (the sequencer runs while +10V gate is applied on RUN jack, then pauses as soon as the gate voltage falls below +1V).
+**RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP, the TRACK 4 display is indicating how the RUN input is set: as transport toggle (by triggers) - as default setting, or by continuous (held) +10V gate (the sequencer runs while +10V gate is applied on RUN jack, then pauses as soon as the gate voltage falls below +0.1V).
 
 :warning: While RUN jack is patched, and configured as **RUN WHILE +10V GATE**, the transport (PLAY/PAUSE) momentary button becomes inoperative. This behavior is normal!
 
