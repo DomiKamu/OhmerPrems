@@ -1,7 +1,8 @@
-**KLOKSPID MKII MODULE SPECIFICATIONS & USER'S MANUAL**
---
+# KLOKSPID MKII: SPECIFICATIONS & USER'S MANUAL
+
 
 ![](_img/Module_Layout_rev.png)
+
 
 **KlokSpid MkII** is a **16HP** versatile clock source module. It's the successor of _2017 KlokSpid_ module (free & open source [Ohmer plugin](https://github.com/DomiKamu/Ohmer)).
 
