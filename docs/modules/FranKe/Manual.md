@@ -30,7 +30,7 @@ All four Non-"Signature" models embed **silver metal** jacks, momentary buttons,
 
 Obviously, all models are offering exactly the same features!
 
-:warning: _FranKe_ module is under development, it will be available as public release from Saturday May 2nd, 2026.
+:warning: _FranKe_ module is under development, it will be available as public stable release (v2.6.9) from **Saturday May 2nd, 2026**.
 
 ----
 
