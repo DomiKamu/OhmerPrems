@@ -7,7 +7,7 @@
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module, available as **beta pre-release**. [**FranKe User's Manual** (under construction)](docs/modules/FranKe/Manual.md)
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
-- **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
+- **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit mini-display shows **-** **-**).
 - **QuadPercs** is a 10HP quad-channel drum machine module.
 - **KordZ** is a 16HP mono-/polyphonic notes/intervals/triads *visual/display* module (V/Oct. based).
 - **KlokSpid MkII**, the versatile 16HP clocking source and LFO. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](docs/modules/KlokSpidMkII/Manual.md)
