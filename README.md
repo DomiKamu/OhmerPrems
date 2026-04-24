@@ -2,14 +2,14 @@
 
 *OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Trial" otherwise) and some free modules for everyone, for VCV Rack 2.
 
-*OhmerPrems* plugin is a set of six main modules, plus four as _expanders_:
-- **6OP-DX** is a 6-operator 32-algorithm phase modulation (PM) synthesizer voice (this module is under development).
-- **FranKe** is a 16-step 8-track 64-pattern analog step-sequencer. [**FranKe User's Manual** (under construction)](docs/modules/FranKe/Manual.md)
+*OhmerPrems* plugin is a set of 6 modules (4 are fully operational), plus 3 as _expanders_:
+- **6OP-DX** is a 6-operator 32-algorithm phase modulation (PM) synthesizer voice (**still under development**).
+- **FranKe** is a 16-step 8-track 64-pattern analog step-sequencer, available as **beta**. [**FranKe User's Manual** (under construction)](docs/modules/FranKe/Manual.md)
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
 - **QuadPercs** is a quad-channel drum machine module.
-- **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (V/Oct. based) - **remaining in development, but delayed!**
+- **KordZ** is a mono-/polyphonic notes/intervals/triads *visual/display only* module (V/Oct. based).
 - **KlokSpid MkII**, the versatile 16HP clocking source and LFO. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](docs/modules/KlokSpidMkII/Manual.md)
 - **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (as pre-offsets).
 
