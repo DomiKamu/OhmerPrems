@@ -2,7 +2,9 @@
 
 *OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Trial" otherwise) and some free modules for everyone, for VCV Rack 2.
 
-Actually, *OhmerPrems* plugin is a set of five main modules, plus three as _expanders_ modules:
+*OhmerPrems* plugin is a set of six main modules, plus four as _expanders_:
+- **6OP-DX** is a 6-operator 32-algorithm phase modulation (PM) synthesizer voice (this module is under development).
+- **FranKe** is a 16-step 8-track 64-pattern analog step-sequencer. [**FranKe User's Manual** (under construction)](docs/modules/FranKe/Manual.md)
 - **FroeZe** is a 64-step 16-track 128-pattern drum-based sequencer (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** module for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** module for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit display shows **-** **-**).
@@ -12,14 +14,14 @@ Actually, *OhmerPrems* plugin is a set of five main modules, plus three as _expa
 - **KX** is a 3HP **left-side expander** module for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers (as pre-offsets).
 
 ---
-Lastest version (**v2.6.8**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems).
+Lastest stable version (**v2.6.8**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems). This stable v2.6.8 doesn't include FranKe and 6OP-DX modules, however.
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
 ----
 ## **Work-in-Progress module: FranKe**
 
-[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (in construction)
+[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (under construction)
 
 Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from three): as "melodic" track, who are using quantized notes/octaves/accidentals, as "CV OUT" modulation track to offering voltages (-10V to +10V range, 0.01V steeping) for sequenced modulations, or a 16-bit Turing Machine track (useful for generative/random).
 
