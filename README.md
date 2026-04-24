@@ -25,9 +25,9 @@ Developed for OhmerPrems member (since 2019), needs for specific projects, FranK
 
 Following animation is showing **all eight models** (GUI themes) of _FranKe_ module:
 
-![](docs/modules/FranKe/_img/AnimFranKeModels.gif)
+![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
-:information_source: Planned as public release (v2.6.9), **Saturday 2nd, May 2026** (after intensive beta testing vs. all platforms).
+:information_source: Available as **BETA pre-release** (v2.6.9).
 
 ----
 ## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
