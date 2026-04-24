@@ -160,21 +160,21 @@ As primary function (aka while step-recording isn't engaged), from top to bottom
 - Pendulum play toggle, **for selected melodic or modulation (CV OUT) track only** (Turing Machine doesn't support pendulum play).
 - VEL. to edit velocity for each step, for selected melodic track only (not applicable for modulation and Turing Machine tracks).
 - GATE to edit gate for each step on selected melodic or modulation track (not applicable for Turing Machine, who have its independent GATE setting).
-- SKIP to edit the ability of step skip (for any step), selected melodic or modulation track (not applicable for Turing Machine). However, at least one "not skipped" step must remains alive between first and last steps (this is handled by the module's logic).
+- SKIP to edit step skip(s), any step, on selected melodic or modulation track (not applicable for Turing Machine tracks). However, **at least one "not skipped" (OFF) step** must remains between first and last steps (this is handled by the module's logic), where the track's "playhead" can stay.
 - SUBDIV. to edit subdivisions for each step (eighteenths, sixteenths, and rest-equivalents), selected melodic / modulation track (not applicable for Turing Machine).
 - CHANCE to edit chance (to be played, or muted) for each step, selected melodic or modulation track (not applicable for Turing Machine).
-- TRACK ROLE (labelled **TRK. ROLE** on module's plate) to select next track role (from melodic to CV OUT, then to Turing Machine, then come back to melodic, and so on).
-- STEPS to edit either first and last steps for selected melodic or modulation track (not applicable for Turing Machine), by using STEP 1 (first step) and STEP 2 (last step) encoders. Press STEPS button again when done.
+- TRACK ROLE (labelled **TRK. ROLE** on module's plate) to select next track role (from melodic to modulation/CV OUT, then to Turing Machine, then come back to melodic, and so on).
+- STEPS to edit either **first step** and **last step** for selected melodic or modulation track (not applicable for Turing Machine track), by using STEP 1 encoder to set the first step, and STEP 2 encoder to set the last step encoders. Press STEPS button again (or another function button) when done.
 - Enter and exit the module's SETUP.
 
-While step-recording is engaged, as visible on the module's plate, each button enters a related note (semitone) exactly like a "piano" (clear and dark buttons).
-Every pressed button registers the related note (semitone), in the current displayed octave, then advances the sequencer by **one step forward** (or return to the first possible step).
+While step-recording is engaged, as visible on the module's plate, each button enters a related note (semitone), exactly like a "piano" (clear and dark buttons).
+Every pressed button registers the related note (semitone), in the current displayed octave, then advances the sequencer by **one step forward** or return to the first possible step in the same track and pattern. Step-recording by using buttons doesn't alter existing velocities.
 
-During step-recording session, you'll can select another melodic track on the same pattern, also you'll can select another pattern by using its potentiometer.
+During step-recording session, you'll can select another melodic track on the same pattern, also you'll can select different pattern by turning the **PATTRN.** potentiometer.
 
-:information_source: Step-recording is immediately disengaged as soon as you'll select a non-melodic track ("CV OUT" or Turing Machine), or if you'll start the sequencer's transport via the **RUN** input jack!
+:information_source: Step-recording is immediately disengaged as soon as you'll select a non-melodic track (modulation track, or Turing Machine track), or if you'll start the sequencer's transport via the **RUN** input jack!
 
-To finish (disengage) an active step-recording session, simply press the EXIT button (it's the same button used to enter/exit the module's SETUP), during step-recording the "gear" symbol (for setup) on module's plate (alongside the button) is replaced by... "exit" symbol!
+To finish (disengage) an active step-recording session, simply press the EXIT button (it's the same button used to enter/exit the module's SETUP), during step-recording the "gear" symbol on module's plate (alongside the button) is replaced by... "exit" symbol!
 
 ### LOCK ALL T.M. MOMENTARY BUTTON<a name="tmlockmbutton"></a>
 
