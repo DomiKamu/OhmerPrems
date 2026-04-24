@@ -19,15 +19,15 @@ Lastest version (**v2.6.8**) is available from [_Releases_](https://github.com/D
 ----
 ## **Work-in-Progress module: FranKe**
 
-[Please click here to read (W.I.P.) **FranKe User's Manual**](docs/modules/FranKe/Manual.md)
+[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (in construction)
 
-Developed for OhmerPrems member (since 2019), needs for specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from three): as "melodic" track, who are using quantized notes/octaves/accidentals, as "CV OUT" modulation track to offering voltages (-10V to +10V range, 0.01V steeping) for sequenced modulations, or a 16-bit Turing Machine track (useful for generative/random).
+Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from three): as "melodic" track, who are using quantized notes/octaves/accidentals, as "CV OUT" modulation track to offering voltages (-10V to +10V range, 0.01V steeping) for sequenced modulations, or a 16-bit Turing Machine track (useful for generative/random).
 
 Following animation is showing **all eight models** (GUI themes) of _FranKe_ module:
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
-:information_source: Available as **BETA pre-release** (v2.6.9).
+:information_source: _FranKe_ module now is available but as **BETA pre-release** (v2.6.9). Still under development.
 
 ----
 ## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
