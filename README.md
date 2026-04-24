@@ -3,8 +3,8 @@
 *OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Trial" otherwise) and some free modules for everyone, for VCV Rack 2.
 
 *OhmerPrems* plugin is a set of 6 modules (4 are fully operational), plus 3 as _expanders_:
-- **6OP-DX** is a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**still under development**).
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module, available as **beta pre-release**. [**FranKe User's Manual** (under construction)](docs/modules/FranKe/Manual.md)
+- **6OP-DX** is a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**still under development**).
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit mini-display shows **-** **-**).
@@ -14,7 +14,7 @@
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
 
 ---
-Lastest stable version (**v2.6.8**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems). This stable v2.6.8 doesn't include FranKe and 6OP-DX modules, however.
+Lastest stable version (**v2.6.8**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems). Please consider this lastest stable v2.6.8 doesn't include FranKe and 6OP-DX modules.
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
@@ -36,7 +36,7 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module is included "as W.I.P." only via "Alpha" pre-releases (not provided by OhmerPrems v2.6.8 stable release).
+6OP-DX module is included "as W.I.P." only via **v2.6.9 BETA pre-release** (not provided by OhmerPrems v2.6.8 stable release).
 
 ----
 
