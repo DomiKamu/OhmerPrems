@@ -178,4 +178,8 @@ To finish (disengage) an active step-recording session, simply press the EXIT bu
 
 ### LOCK ALL T.M. MOMENTARY BUTTON<a name="tmlockmbutton"></a>
 
-The momentary button located alongside STEP 1 encoder, surrounded by a **lock** icon and **ALL T.M.** (on module's plate), is designed to lock all Turing Machine sequences, by a simple press.
+
+![](_img/mbLockAllTM.png)
+
+
+The momentary button located alongside **STEP 1** encoder, surrounded by a **lock** icon and **ALL T.M.** (on module's plate) like shown above, is designed to **lock all Turing Machine** sequences, by a simple press.
