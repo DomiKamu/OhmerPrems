@@ -71,7 +71,7 @@ Following explanations from this _FranKe module User's Manual_ assume you're usi
 
 Following animation is showing major parts of the _FranKe_ module (5 seconds per image):
 
-![](_img/AnimFranKeLayout.gif)
+![](_img/AnimFranKeLayoutV2.gif)
 
 
 ---
