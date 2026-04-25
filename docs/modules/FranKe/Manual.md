@@ -63,7 +63,7 @@ Following explanations from this _FranKe module User's Manual_ assume you're usi
 - [**OUTPUT JACKS**](#outputs)
 - [**LEFT-SIDE MOMENTARY BUTTONS**](#lsmbuttons)
 - [**LOCK ALL T.M. MOMENTARY BUTTON**](#tmlockmbutton)
-- [**CLOCK**](#clock)
+- [**CLOCK SOURCE**](#clocking)
 
 
 ---
@@ -172,24 +172,22 @@ The momentary button located alongside **STEP 1** encoder, surrounded by a **loc
 
 ---
 
-### CLOCK<a name="clock"></a>
+### CLOCK SOURCE<a name="clocking"></a>
 
-As indicated above, _FranKe_ sequencer requires an external source clock to work properly. The module is able to accept either digital pulses (+10V 1ms triggers, or square waveform) or analog voltage (named BPM-CV), in order to establish its working frequency (Hz) - and by this way, the current tempo (in BPM / Beats Per Minute).
+As indicated above, _FranKe_ sequencer requires a (well-configured) external clock source module, in order to work properly. _FranKe_ sequencer module is able to accept either digital pulses (+10V 1ms triggers, or square waveform) or analog voltage (named BPM-CV), in order to establish its working frequency (Hz) - and by this way, the current tempo (in BPM / Beats Per Minute).
 
-When the **CLOCK** input jack is connected, its LED may be **fixed cyan color** if the module expects digital signal, or **fixed yellow color** if the module expects an analog voltage.
+Depending the nature of the external clock signal, probably you'll must set it from module's SETUP, in order to match, by selecting the nature of the source clock (by turning the TRACK 2 encoder). Current setting is the leftmost indicated value, bold (at right side, they're other possible settings).
 
-Depending the nature of the external clock signal, probably you'll must specify it from module's SETUP, by select the nature of the source clock by turning the TRACK 2 encoder. Current setting is the leftmost indicated value (others are possible settings).
+As soon as frequency of the external clock source is established, the new frequency is registered in the module's memory as "last known" frequency. This registered frequency will be used by _FranKe_'s standalone (internal) clock in case of the CLOCK input jack is disconnected, later.
 
-As soon as frequency of the external source clock is established, this frequency is registered in the module's memory as "last known" frequency. This registered frequency will be used for standalone clock in case of the CLOCK input jack is disconnected (later).
+From module's SETUP, when external clock is set to **BY VOLTAGE (BPM-CV)**, and the CLOCK input jack is patched, the LED turns on, **fixed yellow** color. The internal frequency (and global tempo) is, in this case, based by voltage conversion (exactly like V/Oct does), so 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and so on. Any voltage applied on CLOCK input jack into -6V / +6V range is considered as valid voltage, prior to be converted as frequency (Hz) equivalent (and by this way, as BPM global tempo). Minimum frequency is **0.02Hz (1 BPM)**, maximum (given by +6V) is **64Hz (7680 BPM)**!
 
-When external clock is set to **BY VOLTAGE (BPM-CV)**, and patched, the LED turns on, **fixed yellow** color. The internal frequency (and global tempo) is, in this case, based by voltage conversion (exactly like V/Oct does), so 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and so on. Any voltage applied on **CLOCK** input jack into -6V to +6V range is considered as valid voltage prior to be converted as frequency (Hz), and by this way, as global tempo. Minimum frequency is **0.02Hz (1 BPM)**, maximum (given by +6V) is **64Hz (7680 BPM)**.
+When external clock is set to **BY PULSES (32 PPQN)** (it's the default setting), or **BY PULSES (24 PPQN)**, and patched, the LED turns on, **fixed cyan** color. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish the frequency (Hz) / global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module (also part of OhmerPrems plugin), who are using the same clocking resolution. 24 PPQN is useful when VCV Rack (Pro) is used as plugin from your DAW, because the VCV DAW module provides 24 PPQN as maximum resolution. By pulses, either 32 or 24 PPQN, maximum supported frequency by _FranKe_ module is **16Hz (960 BPM)**, because they're too many signifiant clocking unstabilities above, due to bandwith limitation. For the external clock module, it's highly recommended it delivers proper and stable triggers/pulses (or square waves) at +10V (as specified in VCV Rack 2 manual). Avoid sine/triangle/saw/ramp/noise/S&H waveforms delivered  by the clock source module (like a LFO does).
 
-When external clock is set to **BY PULSES (32 PPQN)** (it's the default setting), or **BY PULSES (24 PPQN)**, and patched, the LED turns on, **fixed cyan** color. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish the frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module, who are using the same clocking resolution. 24 PPQN is useful when VCV Rack (Pro) is used as plugin from DAW, because the VCV DAW module provides 24 PPQN (as maximum clocking resolution). By pulses, either 32 or 24 PPQN, maximum supported frequency by _FranKe_ module is **16Hz (960 BPM)**, because they're too many signifiant clocking unstabilities above this frequency! For the external clock module, it's highly recommended it delivers triggers/pulses (or gates), avoid sine/triangle/saw/ramp/noise/S&H waveforms provided by a LFO module!
+:information_source: For realtime variable tempo, it will better to consider analog **BPM-CV** rather than "by pulses/triggers", in order to avoid possible timing issues while the sequencer is running! Also, analog **BPM-CV** is always considered as smooth and reliable. By using BPM-CV method, an excellent technique is to use a LFO (low-frequency oscillator) module as clock source (who deliver any waveform type, like sine, triangle, saw/ramp, or noise/S&H/random).
 
-:information_source: For realtime variable tempo, it will better to consider analog **BPM-CV**, rather than "by pulses/triggers", in order to avoid possible timing issues while the sequencer is running! Also, analog **BPM-CV** is always considered as smooth and reliable. An excellent technique is to use a LFO (low-frequency oscillator) module as clock source (who deliver any waveform type, like sine, triangle, saw/ramp, or noise/S&H).
+On new instance of _FranKe_ module in your rack, standalone (internal) tempo is automatically set as **2Hz (120 BPM)**, as "factory" setting, until the CLOCK input jack will register a new frequency from an external clock source module.
 
-On new instance of _FranKe_ module in your rack, standalone (internal) clock is automatically defined as **2Hz (120 BPM)** as "factory" setting, until the **CLOCK** input jack will register a new frequency from external clock source.
+:warning: Standalone (internal) module's frequency/tempo cannot be manually changed!
 
-:warning: Standalone (internal) module's frequency/tempo can't be manually changed!
-
-Current clock/tempo informations/status is displayed from module's SETUP, on TRACK 3 display.
+From module's SETUP, current clock/tempo informations/status is displayed on TRACK 3 display.
