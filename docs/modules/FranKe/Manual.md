@@ -63,6 +63,7 @@ Following explanations from this _FranKe module User's Manual_ assume you're usi
 - [**OUTPUT JACKS**](#outputs)
 - [**LEFT-SIDE MOMENTARY BUTTONS**](#lsmbuttons)
 - [**LOCK ALL T.M. MOMENTARY BUTTON**](#tmlockmbutton)
+- [**CLOCK**](#clock)
 
 
 ---
@@ -87,23 +88,6 @@ All 8 input jacks are located at the left side of the module (arranged verticall
 Description of each, from top to bottom:
 
 **CLOCK** input jack can be patched (connected) to any clocking source module, or similar (may be a LFO, manual CV source, master or slave clock module), who produces +10V 1ms triggers (also named _pulses_), or analog voltage (BPM-CV technique, more stable and instant for variations). Clock source nature can be changed from module's SETUP, by pressing the SETUP button (located just above PATTERN mini-display, the button have a printed "gear" on module's plate), by using TRACK 2 continuous encoder (bold setting at left side of display is always the current setting).
-
-When external clock is set to **BY VOLTAGE (BPM-CV)**, and patched, the LED turns on, yellow. The internal frequency (and global tempo) is based by voltage conversion (exactly like V/Oct), but 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and so on. Any voltage from -6V to +6V is considered as valid voltage prior to be converted as frequency (Hz), and by this way, as global tempo. Minimum frequency is **0.02Hz (1 BPM)**, maximum (by +6V) is **64Hz (7680 BPM)**.
-
-When external clock is set to **BY PULSES (32 PPQN)** (it's the default setting), or **BY PULSES (24 PPQN)**, and patched, the LED turns on, cyan. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish the frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module, who are using the same clocking resolution. 24 PPQN is useful when VCV Rack (Pro) is used as plugin from DAW, because the VCV DAW module provides 24 PPQN (as maximum clocking resolution). By pulses, either 32 or 24 PPQN, maximum supported frequency by _FranKe_ module is **16Hz (960 BPM)**, because they're too many signifiant clocking unstabilities above this frequency! For the external clock module, it's highly recommended it delivers triggers/pulses (or gates), avoid sine/triangle/saw/ramp/noise/S&H waveforms provided by a LFO module!
-
-:information_source: For realtime variable tempo, it will better to consider analog **BPM-CV**, rather than "by pulses/triggers", in order to avoid possible timing issues while the sequencer is running! Also, analog **BPM-CV** is considered as smooth and reliable. An excellent technique is to use a LFO (low-frequency oscillator) module as clock source (who deliver any waveform type such sine, triangle, saw/ramp, or noise/S&H).
-
-As soon as frequency of the external source clock is established, this frequency is registered in the module's memory as "last known" frequency. This registered frequency will be used for standalone clock in case of the CLOCK input jack is disconnected (later).
-
-On new instance of _FranKe_ module in your rack, standalone (internal) clock is automatically defined as **2Hz (120 BPM)**, as default setting, until the CLOCK input jack will register a new frequency (from external clock source).
-
-:warning: Standalone (internal) module's frequency/tempo can't be set manually!
-
-Current clock/tempo informations can be displayed from module's SETUP, on TRACK 3 display (shown by following animation):
-
-![](_img/AnimFranKeClocking.gif)
-
 
 **RUN** input jack can be patched to any digital module capable to send +10V 1ms triggers, or +10V gate. From module's SETUP, the TRACK 4 display is indicating how the RUN input is set: as transport toggle (by triggers) - as default setting, or by continuous (held) +10V gate (the sequencer runs while +10V gate is applied on RUN jack, then pauses as soon as the gate voltage falls below +0.1V).
 
@@ -176,6 +160,8 @@ During step-recording session, you'll can select another melodic track on the sa
 
 To finish (disengage) an active step-recording session, simply press the EXIT button (it's the same button used to enter/exit the module's SETUP), during step-recording the "gear" symbol on module's plate (alongside the button) is replaced by... "exit" symbol!
 
+---
+
 ### LOCK ALL T.M. MOMENTARY BUTTON<a name="tmlockmbutton"></a>
 
 
@@ -183,3 +169,27 @@ To finish (disengage) an active step-recording session, simply press the EXIT bu
 
 
 The momentary button located alongside **STEP 1** encoder, surrounded by a **lock** icon and **ALL T.M.** (on module's plate) like shown above, is designed to **lock all Turing Machine** sequences, by a simple press.
+
+---
+
+### CLOCK<a name="clock"></a>
+
+As indicated above, _FranKe_ sequencer requires an external source clock to work properly. The module is able to accept either digital pulses (+10V 1ms triggers, or square waveform) or analog voltage (named BPM-CV), in order to establish its working frequency (Hz) - and by this way, the current tempo (in BPM / Beats Per Minute).
+
+When the **CLOCK** input jack is connected, its LED may be **fixed cyan color** if the module expects digital signal, or **fixed yellow color** if the module expects an analog voltage.
+
+Depending the nature of the external clock signal, probably you'll must specify it from module's SETUP, by select the nature of the source clock by turning the TRACK 2 encoder. Current setting is the leftmost indicated value (others are possible settings).
+
+As soon as frequency of the external source clock is established, this frequency is registered in the module's memory as "last known" frequency. This registered frequency will be used for standalone clock in case of the CLOCK input jack is disconnected (later).
+
+When external clock is set to **BY VOLTAGE (BPM-CV)**, and patched, the LED turns on, **fixed yellow** color. The internal frequency (and global tempo) is, in this case, based by voltage conversion (exactly like V/Oct does), so 0V gives 120 BPM, +1V gives 240 BPM, -1V gives 60 BPM, and so on. Any voltage applied on **CLOCK** input jack into -6V to +6V range is considered as valid voltage prior to be converted as frequency (Hz), and by this way, as global tempo. Minimum frequency is **0.02Hz (1 BPM)**, maximum (given by +6V) is **64Hz (7680 BPM)**.
+
+When external clock is set to **BY PULSES (32 PPQN)** (it's the default setting), or **BY PULSES (24 PPQN)**, and patched, the LED turns on, **fixed cyan** color. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish the frequency (Hz), and by this way, the global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module, who are using the same clocking resolution. 24 PPQN is useful when VCV Rack (Pro) is used as plugin from DAW, because the VCV DAW module provides 24 PPQN (as maximum clocking resolution). By pulses, either 32 or 24 PPQN, maximum supported frequency by _FranKe_ module is **16Hz (960 BPM)**, because they're too many signifiant clocking unstabilities above this frequency! For the external clock module, it's highly recommended it delivers triggers/pulses (or gates), avoid sine/triangle/saw/ramp/noise/S&H waveforms provided by a LFO module!
+
+:information_source: For realtime variable tempo, it will better to consider analog **BPM-CV**, rather than "by pulses/triggers", in order to avoid possible timing issues while the sequencer is running! Also, analog **BPM-CV** is always considered as smooth and reliable. An excellent technique is to use a LFO (low-frequency oscillator) module as clock source (who deliver any waveform type, like sine, triangle, saw/ramp, or noise/S&H).
+
+On new instance of _FranKe_ module in your rack, standalone (internal) clock is automatically defined as **2Hz (120 BPM)** as "factory" setting, until the **CLOCK** input jack will register a new frequency from external clock source.
+
+:warning: Standalone (internal) module's frequency/tempo can't be manually changed!
+
+Current clock/tempo informations/status is displayed from module's SETUP, on TRACK 3 display.
