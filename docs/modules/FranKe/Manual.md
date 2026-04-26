@@ -4,6 +4,24 @@
 ![](_img/AnimFranKeModelsV2.gif)
 
 
+### TOPICS
+
+- [**INTRODUCTION**](#intro)
+- [**FREE/TRIAL LIMITATIONS**](#trial)
+- [**TECHNICAL FACTS**](#technical)
+- [**COLORSCHEME CONVENTION IN THE MANUAL**](#colorscheme)
+- [**THE MODULE LAYOUT**](#layout)
+- [**INPUT JACKS**](#inputs)
+- [**OUTPUT JACKS**](#outputs)
+- [**LEFT-SIDE MOMENTARY BUTTONS**](#lsmbuttons)
+- [**LOCK ALL T.M. MOMENTARY BUTTON**](#tmlockmbutton)
+- [**THE MODULE'S SETUP**](#modulesetup)
+- [**CLOCK SOURCE**](#clocking)
+
+---
+
+### INTRODUCTION<a name="intro"></a>
+
 As kind of "complement" of _FroeZe_ trigger-based sequencer (used mainly for drum machines, percussions and trigger outputs), _FranKe_ module is a 80HP analog step-sequencer, as requested by an (2019) OhmerPrems member, for particular projects!
 
 _FranKe_ (a tribute to [Christopher Franke](https://en.wikipedia.org/wiki/Christopher_Franke), member of Tangerine Dream band during best-known mid-1970s lineup) - is providing **64 patterns**, **8 tracks** per pattern, **16 steps** per track.
@@ -32,11 +50,13 @@ Obviously, all models are providing exactly the same features!
 
 :information_source: _FranKe_ module is under development. Now available as **BETA pre-release (v2.6.9)**.
 
-----
+---
 
-### Free/Trial version (without a valid license V2 keyfile) have many limitations (restrictions)!
+### FREE/TRIAL LIMITATIONS<a name="trial"></a>
 
 :information_source: The following informations about Free/Trial don't concern OhmerPrems members (owners of a valid license V2 keyfile).
+
+The Free/Trial version permits to test some module's features freely. However, the Free/Trial have many limitations or restrictions the full version doesn't have!
 
 They're two scenarios:
 
@@ -46,33 +66,23 @@ They're two scenarios:
 
 All stuff made on _FranKe_ module is always saved and recalled, including Turing Machine states (whatever locked, or not, as explained in TURING MACHINE section, later).
 
-----
-
 Following explanations in the remaining of this _FranKe module User's Manual_ will assume you're using the **full version of the OhmerPrems plugin** (by using a valid license V2 keyfile, exclusively reserved to OhmerPrems members).
-
-:warning: Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't natively supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained later in this manual, you'll can save/load a particular pattern. Also, you'll can save (and load) any track to/from separate file, whatever its role (this include any Turing Machine track).
-
-:information_source: Due to important amount of saved datas, _FranKe_ module is using a **packed binary file** (instead of json who are causing signifiant lags during autosave feature, every 15 seconds). Also, for data integrity checkings (the binary file is always checked after save, and saved again if necessary). To avoid intentional "binary file patching" (to attempt to bypass editing limitations by Demo/Trial), all file operations are using file encryption algorithms, and strong _cryptographic hashing_ checking functions! Any corrupter file will reset the module entirely (all of its datas are lost).
-
-----
-
-### TOPICS
-
-- [**INTRODUCTION: COLOR CONVENTION**](#colorconvention)
-- [**THE MODULE LAYOUT**](#layout)
-- [**INPUT JACKS**](#inputs)
-- [**OUTPUT JACKS**](#outputs)
-- [**LEFT-SIDE MOMENTARY BUTTONS**](#lsmbuttons)
-- [**LOCK ALL T.M. MOMENTARY BUTTON**](#tmlockmbutton)
-- [**THE MODULE'S SETUP**](#modulesetup)
-- [**CLOCK SOURCE**](#clocking)
-
 
 ---
 
-### INTRODUCTION: COLOR CONVENTION<a name="colorconvention"></a>
+### TECHNICAL FACTS<a name="technical"></a>
 
-This is the colorscheme convention used in this user's manual (and images/animations), for both **patch cords** and **module's LED**:
+Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't natively supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained later in this manual, you'll can save/load a particular pattern. Also, you'll can save (and load) any track to/from separate file, whatever its role (this include any Turing Machine track).
+
+Due to important amount of saved datas, _FranKe_ module is using a **packed binary file** (instead of json who are causing signifiant lags during autosave feature, every 15 seconds). Also, for data integrity checkings (the binary file is always checked after save, and saved again if necessary).
+
+To avoid intentional "binary file patching" (to attempt to bypass editing limitations by the Demo/Trial), all file operations are using file encryption algorithms, and strong _cryptographic hashing_ checking functions! Any corrupted file will reset the module entirely to default "factory".
+
+---
+
+### COLORSCHEME CONVENTION IN THE MANUAL<a name="colorscheme"></a>
+
+This is the colorscheme convention used in this _FranKe User's Manual_ (and images/animations), for both **patch cords** and **module's LED**:
 
 - Red color (LEDs only) indicates a step-recording session in progress (red patch cord are used for audio, but not applicable for _FranKe_ module who doesn't output audio!).
 - Yellow is used for either PITCH (Volt-per-octave-compliant as outputs and input), also for BPM-CV (analog clock by CV, input).
