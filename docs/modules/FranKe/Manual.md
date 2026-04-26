@@ -74,7 +74,7 @@ Following explanations in the remaining of this _FranKe module User's Manual_ wi
 
 Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't natively supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained later in this manual, you'll can save/load a particular pattern. Also, you'll can save (and load) any track to/from separate file, whatever its role (this include any Turing Machine track).
 
-Due to important amount of saved datas, _FranKe_ module is using a **packed binary file** (instead of json who are causing signifiant lags during autosave feature, every 15 seconds). Also, for data integrity checkings (the binary file is always checked after save, and saved again if necessary).
+Due to important amount of saved datas, _FranKe_ module is using a **packed binary file** (instead of json who are causing signifiant lags during VCV Rack's autosave feature, who occur every 15 seconds). Also, the binary format is, strangely more efficient for data integrity checkings (the binary file is always checked after save, and saved again if necessary, upto five attempts).
 
 To avoid intentional "binary file patching" (to attempt to bypass editing limitations by the Demo/Trial), all file operations are using file encryption algorithms, and strong _cryptographic hashing_ checking functions! Any corrupted file will reset the module entirely to default "factory".
 
@@ -82,13 +82,13 @@ To avoid intentional "binary file patching" (to attempt to bypass editing limita
 
 ### COLORSCHEME CONVENTION IN THE MANUAL<a name="colorscheme"></a>
 
-This is the colorscheme convention used in this _FranKe User's Manual_ (and images/animations), for both **patch cords** and **module's LED**:
+This is the colorscheme convention used in this _FranKe User's Manual_, incliding images and animations, for both **patch cords** and **module's LED**:
 
 - Red color (LEDs only) indicates a step-recording session in progress (red patch cord are used for audio, but not applicable for _FranKe_ module who doesn't output audio!).
-- Yellow is used for either PITCH (Volt-per-octave-compliant as outputs and input), also for BPM-CV (analog clock by CV, input).
-- Blue (cyan) is used for trigger and gate inputs and outputs LEDs, also for patch cords.
-- Green is used for modulation by voltage (CV) LEDs, also for patch cords (velocity outputs, CV1 and CV2 inputs when applicable).
-- Pink color (step LEDs only) represent a "1" as binary digit, for selected Turing Machine, otherwise the LED is unlit for "0" as binary digit.
+- Yellow is used for either **PITCH** (Volt-per-octave-compliant on outputs and input), and **BPM-CV** (analog clock, input only).
+- Blue (cyan) is used for **trigger** and **gate** inputs and outputs LEDs, **CYCLE** outputs (when applicable), also for patch cords.
+- Green is used for modulation by voltage (CV) LEDs, also for patch cords (**VEL**ocity outputs, **CV1** and **CV2** inputs, when applicable).
+- Pink color (step LEDs only) represent a "1" as binary digit, for selected Turing Machine track (otherwise the LED is unlit for "0" as binary digit).
 
 ---
 
