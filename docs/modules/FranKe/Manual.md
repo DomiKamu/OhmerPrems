@@ -58,6 +58,7 @@ Following explanations in the remaining of this _FranKe module User's Manual_ wi
 
 ### TOPICS
 
+- [**INTRODUCTION: COLOR CONVENTION**](#colorconvention)
 - [**THE MODULE LAYOUT**](#layout)
 - [**INPUT JACKS**](#inputs)
 - [**OUTPUT JACKS**](#outputs)
@@ -69,9 +70,21 @@ Following explanations in the remaining of this _FranKe module User's Manual_ wi
 
 ---
 
+### INTRODUCTION: COLOR CONVENTION<a name="colorconvention"></a>
+
+This is the colorscheme convention used in this user's manual (and images/animations), for both **patch cords** and **module's LED**:
+
+- Red color (LEDs only) indicates a step-recording session in progress (red patch cord are used for audio, but not applicable for _FranKe_ module who doesn't output audio!).
+- Yellow is used for either PITCH (Volt-per-octave-compliant as outputs and input), also for BPM-CV (analog clock by CV, input).
+- Blue (cyan) is used for trigger and gate inputs and outputs LEDs, also for patch cords.
+- Green is used for modulation by voltage (CV) LEDs, also for patch cords (velocity outputs, CV1 and CV2 inputs when applicable).
+- Pink color (step LEDs only) represent a "1" as binary digit, for selected Turing Machine, otherwise the LED is unlit for "0" as binary digit.
+
+---
+
 ### THE MODULE LAYOUT<a name="layout"></a>
 
-Following animation is showing major parts of the _FranKe_ module (5 seconds per image):
+Following animation is showing the major parts of the _FranKe_ module (5 seconds per image):
 
 ![](_img/AnimFranKeLayoutV2.gif)
 
