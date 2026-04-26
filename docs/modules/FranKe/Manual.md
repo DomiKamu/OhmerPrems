@@ -40,9 +40,9 @@ Obviously, all models are providing exactly the same features!
 
 They're two scenarios:
 
-- Scenario 1/ You're loading a shared patch (.vcv file) made by OhmerPrems member (who are using full version), and the patch embeds one or many _FranKe_ module instances: all of these instances are working, in this case, as **player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback by momentary button (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's contextual menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed, except flats/sharps display preference, because the patch architecture was defined by its creator.
+- Scenario 1/ You're loading a shared patch (.vcv file) made by OhmerPrems member (who are using full version), and the patch embeds one or many _FranKe_ module instances: all of these instances are working, in this case, as **player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback by momentary button (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's contextual menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed (except flats/sharps display preference), because the loaded patch structure was defined by its author.
 
-- Scenario 2/ You add a new instance of _FranKe_ module in rack, from the "fresh" added module, patterns from 03 to 64 can't be selected/reached (either by potentiometer, or by voltage). From patterns 01 and 02, **only tracks 1 and 2 events can be edited**, all other tracks (from 3 to 8) are locked against edition, including "Randomize" (from module's contextual menu ** Randomize** command, or **Ctrl**+**R** / **Cmd**+**R** on MacOS X, as keyboard shortcut). **PITCH outputs for tracks 3 to 8 are constant -10V**, CV1 and CV2 may be assigned, but their actions are restricted to tracks 1 and/or 2 only. Turing Machine sequences on tracks 1 / track 2 can be edited and saved (and later, loaded to track 1 or 2). Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. Also, many contextual menu entries concerning track, pattern, copy/paste and file operations may be disabled (grayed), depending the module's context when the contextual menu is pulled down by right-mouse button click over the _FranKe_ module. All others still locked/disabled, until you'll become OhmerPrems member!
+- Scenario 2/ You add a new instance of _FranKe_ module in rack, in this case from the "fresh" added module, patterns from 03 to 64 can't be selected/reached (either by potentiometer, or by voltage). From patterns 01 and 02, **only tracks 1 and 2 events can be edited**, all other tracks (from 3 to 8) are locked against edition. **PITCH outputs for tracks 3 to 8 are constant -10V**. Both CV1 and CV2 may be assigned (from module's SETUP), but their actions may impact tracks 1 and 2 only. Turing Machine sequences on tracks 1 and track 2 can be edited and saved (and later, loaded but to track 1 or 2 only). Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. Also, many contextual menu entries concerning track, pattern, copy/paste and file operations may be disabled (grayed), depending the module's context when the contextual menu is pulled down by right-mouse button click over the _FranKe_ module. All others still locked/disabled, until you'll become OhmerPrems member!
 
 All stuff made on _FranKe_ module is always saved and recalled, including Turing Machine states (whatever locked, or not, as explained in TURING MACHINE section, later).
 
@@ -63,6 +63,7 @@ Following explanations in the remaining of this _FranKe module User's Manual_ wi
 - [**OUTPUT JACKS**](#outputs)
 - [**LEFT-SIDE MOMENTARY BUTTONS**](#lsmbuttons)
 - [**LOCK ALL T.M. MOMENTARY BUTTON**](#tmlockmbutton)
+- [**THE MODULE'S SETUP**](#modulesetup)
 - [**CLOCK SOURCE**](#clocking)
 
 
@@ -169,6 +170,26 @@ To finish (disengage) an active step-recording session, simply press the EXIT bu
 
 
 The momentary button located alongside **STEP 1** encoder, surrounded by a **lock** icon and **ALL T.M.** (on module's plate) like shown above, is designed to **lock all Turing Machine** sequences, by a simple press.
+
+---
+
+### THE MODULE'S SETUP<a name="modulesetup"></a>
+
+FranKe module's logic embeds a (global) SETUP feature, which is accessible at any time (except while step-recording is engaged), whenever you press the SETUP momentary button from "production" mode (aka displayed notes, voltages, and/or Turing Machine tracks). The following image shows the factory settings:
+
+
+![](_img/ModuleSetup.png)
+
+
+To change a particular setting, simply turn the related TRACK encoder (left side of display), by turning clockwise the first possible setting is selected (and displayed as bold at leftmost side of the display). By turning the encoder counter clockwise, the lastest possible setting in list (possibly hidden after ...) will be selected in the same way.
+
+Some "settings" aren't... settings, but displayed informations only. TRACK 1 always display a contextual hint/help, regardling the selected setting (selected TRACK encoder, indicated by its solid cyan LED).
+
+TRACK 3 always indicates the clock source and tempo status. Turning the TRACK 3 continuous encoder has no effect.
+
+TRACK 8 always indicates the module (and OhmerPrems plugin) license status. Turning the TRACK 8 continuous encoder has no effect, too.
+
+When done, simply press the SETUP momentary button again to exit SETUP and return to production mode.
 
 ---
 
