@@ -175,7 +175,9 @@ The momentary button located alongside **STEP 1** encoder, surrounded by a **loc
 
 ### THE MODULE'S SETUP<a name="modulesetup"></a>
 
-FranKe module's logic embeds a (global) SETUP feature, which is accessible at any time, even while the sequencer is playing, **but except while step-recording is engaged**, whenever you press the SETUP momentary button from "production" mode (aka displayed notes, CV OUT voltages, and/or Turing Machine tracks). The following image shows the factory settings for a new/fresh _FranKe_ added into your rack:
+FranKe module's logic embeds a (global) SETUP feature, which is accessible at any time, even while the sequencer is playing, **but except while step-recording is engaged**, whenever you press the SETUP momentary button from "production" mode (aka displayed notes, CV OUT voltages, and/or Turing Machine tracks).
+
+The following image shows the **factory settings** for a new/fresh _FranKe_ module added in the rack (new instance):
 
 
 ![](_img/ModuleSetup.png)
@@ -183,12 +185,16 @@ FranKe module's logic embeds a (global) SETUP feature, which is accessible at an
 
 To change a particular setting, turn the related TRACK continuous encoder (at the left side of corresponding display). By turning it clockwise, the first possible setting from OTHER SETTINGS list (or OTHER SETTING in case of two possible choices) is selected, and displayed **as bold at leftmost side** of the display, and becomes the active setting. By turning it counter clockwise, the lastest possible setting from OTHER SETTINGS list (possibly hidden after **...**) will be selected in the same way.
 
+:information_source: any changed setting "on-th-fly" is **immediately applied** and used by _FranKe_ module. No need to "validate" something!
+
 Some "settings" in fact aren't... settings, but informations only, who can't be changed:
 - TRACK 1 always display a contextual hint/help, regardling the selected setting (selected TRACK).
 - TRACK 3 always indicates the current clock source status, and global tempo.
 - TRACK 8 always indicates your OhmerPrems plugin license status.
 
-In any case, by selecting a particular "track", the hint system gives complementary informations.
+By selecting a particular "track" (you can simply press the related encoder, no need to rotate it), the hint system shows complementary informations over track 1 display!
+
+:information_source: Selected setting in indicated by the solid cyan LED alongside its track's encoder.
 
 When all settings are good for your needs, simply press the SETUP momentary button again to exit SETUP, and return to production mode.
 
