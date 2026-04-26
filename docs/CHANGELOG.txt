@@ -2,9 +2,10 @@
 CHANGELOG
 ==============================================================================================================================
 
-W.I.P. v2.6.10 (February xx, 2026) for VCV Rack v2.
+BETA PRE-RELEASE/W.I.P. v2.6.9 (April 23rd, 2026) for VCV Rack v2.
 
-- Introducing 6OP-DX, 117HP 6-operator algorithm-based PM synthesizer module (W.I.P.: no sound output at the moment).
+- Introducing FranKe module, 80HP 64-pattern 8-track 16-step analog step-sequencer.
+- Introducing 6OP-DX module, 117HP 6-operator algorithm-based PM synthesizer module (CAUTION: NO SOUND OUTPUT AT THE MOMENT).
 
 ------------------------------------------------------------------------------------------------------------------------------
 
