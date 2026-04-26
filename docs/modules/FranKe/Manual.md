@@ -187,16 +187,14 @@ To change a particular setting, turn the related TRACK continuous encoder (at th
 
 :information_source: Any changed setting "on-th-fly" is **immediately applied** and used by _FranKe_ module (no need to "validate" something).
 
-Some "settings" in fact aren't... settings, but informations only, who can't be changed:
-- TRACK 1 always display a contextual hint/help, regardling the selected setting (selected TRACK).
-- TRACK 3 always indicates the current clock source status, and global tempo.
-- TRACK 8 always indicates your OhmerPrems plugin license status.
+Some "settings" in fact aren't... settings, but displayed informations only (who cannot be changed):
+- TRACK 1 always display a contextual hint, regardling the selected setting (selected TRACK, indicated by **solid cyan** LED).
+- TRACK 3 always indicates the current clock source status, and the global tempo.
+- TRACK 8 always indicates your OhmerPrems plugin license status (either partial key, or FREE/DEMO).
 
-By selecting a particular "track" (you can simply press the related encoder, no need to rotate it), the hint system shows complementary informations over track 1 display!
+By selecting a particular "track" (you can simply "touch" the relevant encoder, no need to rotate it), the hint system shows complementary informations over track 1 display!
 
-:information_source: Selected setting (like the selected track) is indicated by the **solid cyan LED** alongside its encoder.
-
-When all settings are good for your needs, simply press the SETUP momentary button again to exit SETUP, and return to production mode.
+When all settings are good for your needs, simply press the SETUP button again to exit SETUP, and return to production mode. Also, by pressing a function button (other left-side button), this disengage the module's SETUP automatically, prior to enter the selected function!
 
 ---
 
