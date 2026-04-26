@@ -175,9 +175,9 @@ The momentary button located alongside **STEP 1** encoder, surrounded by a **loc
 
 ### THE MODULE'S SETUP<a name="modulesetup"></a>
 
-FranKe module's logic embeds a (global) SETUP feature, which is accessible at any time, even while the sequencer is playing, **but except while step-recording is engaged**, whenever you press the SETUP momentary button from "production" mode (aka displayed notes, CV OUT voltages, and/or Turing Machine tracks).
+_FranKe_ module's logic embeds a (global) SETUP, which is accessible at any time, even while the sequencer is running, **but except while step-recording is engaged**, whenever you press the SETUP momentary button from "production" mode (aka displayed notes, CV OUT voltages, and/or Turing Machine tracks).
 
-The following image shows the **factory settings** for a new/fresh _FranKe_ module added in the rack (new instance):
+The following image shows the **factory settings** for a new/fresh _FranKe_ module instance:
 
 
 ![](_img/ModuleSetup.png)
@@ -212,7 +212,7 @@ From module's SETUP, when external clock is set to **BY VOLTAGE (BPM-CV)**, and 
 
 When external clock is set to **BY PULSES (32 PPQN)** (it's the default setting), or **BY PULSES (24 PPQN)**, and patched, the LED turns on, **solid cyan** color. The CLOCK input jack needs to receive **at least two consecutive triggers** in order to establish the frequency (Hz) / global tempo. 32 PPQN resolution was choosen as default to be coherent with _FroeZe_ sequencer module (also part of OhmerPrems plugin), who are using the same clocking resolution. 24 PPQN is useful when VCV Rack (Pro) is used as plugin from your DAW, because the VCV DAW module provides 24 PPQN as maximum resolution. By pulses, either 32 or 24 PPQN, maximum supported frequency by _FranKe_ module is **16Hz (960 BPM)**, because they're too many signifiant clocking unstabilities above (due to bandwith limitation). For the external clock module, it's highly recommended it delivers proper and stable triggers/pulses (or square waves) at +10V, [as specified in VCV Rack 2 manual, **Voltage Standards** section](https://vcvrack.com/manual/VoltageStandards). Avoid sine/triangle/saw/ramp/noise/S&H waveforms delivered by the clock source module (like a LFO does).
 
-:information_source: For realtime variable tempo, it will better to consider analog **BPM-CV** rather than "by pulses/triggers", in order to avoid possible timing issues while the sequencer is running! Also, analog **BPM-CV** is always considered as smooth and reliable. By using BPM-CV method, an excellent technique is to use a LFO (low-frequency oscillator) module as clock source (who deliver any waveform type, like sine, triangle, saw/ramp, or noise/S&H/random).
+:information_source: For realtime variable tempo, it will better to consider analog **BPM-CV** rather than "by pulses/triggers", in order to avoid possible timing and synchronization issues, in particular while the sequencer is running! Also, analog **BPM-CV** is always considered as smooth, reliable and immediate. By using BPM-CV method, an excellent technique is to use a LFO (low-frequency oscillator) module as clock source (who deliver any waveform type, like sine, triangle, saw/ramp, or noise/S&H/random). Also, by using a patch cord, you'll can route a PITCH output signal from modulation track to... CLOCK input jack!
 
 On new instance of _FranKe_ module in your rack, standalone (internal) tempo is automatically set as **2Hz (120 BPM)**, as "factory" setting, until the CLOCK input jack will register a new frequency from an external clock source module.
 
