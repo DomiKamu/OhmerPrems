@@ -82,7 +82,7 @@ To avoid intentional "binary file patching" (to attempt to bypass editing limita
 
 ### COLORSCHEME CONVENTION IN THE MANUAL<a name="colorscheme"></a>
 
-This is the colorscheme convention used in this _FranKe User's Manual_, including images and GIF animations, for both **patch cords** and **module's LED**:
+This is the colorscheme convention used in this _FranKe User's Manual_ including images and animations, for both **patch cords** and **module's LED**:
 
 - Red color (LEDs only) indicates a step-recording session in progress (red patch cord are used for audio, but not applicable for _FranKe_ module who doesn't output audio!).
 - Yellow is used for either **PITCH** (Volt-per-octave-compliant on outputs and input), and **BPM-CV** (analog clock, input only).
