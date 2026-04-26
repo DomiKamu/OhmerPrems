@@ -185,7 +185,7 @@ The following image shows the **factory settings** for a new/fresh _FranKe_ modu
 
 To change a particular setting, turn the related TRACK continuous encoder (at the left side of corresponding display). By turning it clockwise, the first possible setting from OTHER SETTINGS list (or OTHER SETTING in case of two possible choices) is selected, and displayed **as bold at leftmost side** of the display, and becomes the active setting. By turning it counter clockwise, the lastest possible setting from OTHER SETTINGS list (possibly hidden after **...**) will be selected in the same way.
 
-:information_source: any changed setting "on-th-fly" is **immediately applied** and used by _FranKe_ module. No need to "validate" something!
+:information_source: Any changed setting "on-th-fly" is **immediately applied** and used by _FranKe_ module (no need to "validate" something).
 
 Some "settings" in fact aren't... settings, but informations only, who can't be changed:
 - TRACK 1 always display a contextual hint/help, regardling the selected setting (selected TRACK).
@@ -194,7 +194,7 @@ Some "settings" in fact aren't... settings, but informations only, who can't be 
 
 By selecting a particular "track" (you can simply press the related encoder, no need to rotate it), the hint system shows complementary informations over track 1 display!
 
-:information_source: Selected setting in indicated by the solid cyan LED alongside its track's encoder.
+:information_source: Selected setting (like the selected track) is indicated by the **solid cyan LED** alongside its encoder.
 
 When all settings are good for your needs, simply press the SETUP momentary button again to exit SETUP, and return to production mode.
 
