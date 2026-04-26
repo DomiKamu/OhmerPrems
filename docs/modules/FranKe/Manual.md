@@ -84,10 +84,10 @@ To avoid intentional "binary file patching" (to attempt to bypass editing limita
 
 This is the colorscheme used in this _FranKe User's Manual_ including images and animations, for both **patch cords** and **module's LED**:
 
-- Red color (LEDs only) indicates a step-recording session in progress (red patch cord are used for audio, but not applicable for _FranKe_ module who doesn't output audio!).
-- Yellow is used for either **PITCH** (Volt-per-octave-compliant on outputs and input), and **BPM-CV** (analog clock, input only).
+- Red color (LEDs only) indicates a step-recording session in progress (we're using red patch cords for audio, but it's not applicable for _FranKe_ module).
+- Yellow is used for either **PITCH** (Volt-per-octave-compliant on outputs and input for step-recording), and **BPM-CV** (analog clock, input only).
 - Blue (cyan) is used for **trigger** and **gate** inputs and outputs LEDs, **CYCLE** outputs (when applicable), also for patch cords.
-- Green is used for modulation by voltage (CV) LEDs, also for patch cords (**VEL**ocity outputs, **CV1** and **CV2** inputs, when applicable).
+- Green is used for modulation by voltage (CV) LEDs, also for patch cords (**VEL**ocity input and outputs, **CV1** and **CV2** inputs, when applicable).
 - Pink color (step LEDs only) represent a "1" as binary digit, for selected Turing Machine track (otherwise the LED is unlit for "0" as binary digit).
 
 ---
