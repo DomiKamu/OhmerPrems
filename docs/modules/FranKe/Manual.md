@@ -8,7 +8,7 @@
 
 - [**INTRODUCTION**](#intro)
 - [**FREE/TRIAL LIMITATIONS**](#trial)
-- [**TECHNICAL FACTS**](#technical)
+- [**TECHNICAL CONSTRAINTS**](#technical)
 - [**COLORSCHEME CONVENTION IN THE MANUAL**](#colorscheme)
 - [**THE MODULE LAYOUT**](#layout)
 - [**INPUT JACKS**](#inputs)
@@ -22,15 +22,20 @@
 
 ### INTRODUCTION<a name="intro"></a>
 
-As kind of "complement" of _FroeZe_ trigger-based sequencer (used mainly for drum machines, percussions and trigger outputs), _FranKe_ module is a 80HP analog step-sequencer, as requested by an (2019) OhmerPrems member, for particular projects!
+As kind of "complement" of _FroeZe_ trigger-based step-sequencer (used mainly for drum machines, percussions and trigger outputs), _FranKe_ module is a 80HP analog step-sequencer, as requested by an OhmerPrems member (since 2019), for his particular projects!
 
 _FranKe_ (a tribute to [Christopher Franke](https://en.wikipedia.org/wiki/Christopher_Franke), member of Tangerine Dream band during best-known mid-1970s lineup) - is providing **64 patterns**, **8 tracks** per pattern, **16 steps** per track.
 
-Tracks are versatile, any track may be "melodic" (by using notes, from **C-1** to **G9** with possible flat/sharp accidentals), free-to-use CV voltages (named **CV OUT** track) who can send voltages of your choice (from -10V to +10V range, by 0.01V resolution) for sequenced modulations, or a 16-bit Turing Machine (useful for generative patches).
+Tracks are versatile, any track may have one of following role:
+- Melodic track, by using notes (from **C-1** to **G9**) with possible flat/sharp accidentals.
+- Modulation track (also named **CV OUT** track) who can send sequenced voltages of your choice, or random (from -10V to +10V range, by 0.01V resolution).
+- 16-bit Turing Machine track, useful for generative patches.
 
 Please consider a track role is always common to all 64 patterns.
 
 By default as fresh module added in your rack, or after **Initialize** command from module's contextual menu (**Ctrl**+**I** / **Cmd**+**I** on Mac, as keyboard shorcut), tracks 1 to 5 are melodic (all steps are filled by C4 notes with 100% maxed velocities, 50% gates, quarter note as duration, 100% chance), tracks 6 and 7 are modulation tracks (**CV OUT**) who send sequenced modulation voltages (all steps are filled by 0V, 50% gates, quarter note as duration, and 100% chance), and track 8 is defined as 16-bit Turing Machine (TM) with a random (locked) sequence (16-bit as sequence lenght, 100% voltage scale, floor octave 4, no quantization, 50% gate, no delay, speed x1 of the global tempo).
+
+![](_img/AnimTrackRoles.gif)
 
 To change a track role anytime, first select the track (either by touching its **TRACK encoder**, or its related **touchscreen**), then press **TRK. ROLE** (track role) momentary button (located near "CV1" input jack) once, or many times as required, in order to switch between roles, like melodic -> modulation (CV OUT) -> Turing Machine -> melodic ...
 
@@ -70,7 +75,7 @@ All stuff made on _FranKe_ module is always saved and recalled, including Turing
 
 ---
 
-### TECHNICAL FACTS<a name="technical"></a>
+### TECHNICAL CONSTRAINTS<a name="technical"></a>
 
 Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't natively supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained later in this manual, you'll can save/load a particular pattern. Also, you'll can save (and load) any track to/from separate file, whatever its role (this include any Turing Machine track).
 
