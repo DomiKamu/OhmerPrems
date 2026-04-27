@@ -59,19 +59,19 @@ Obviously, all models are providing exactly the same features!
 
 ### FREE/TRIAL LIMITATIONS<a name="trial"></a>
 
-:information_source: The following informations about Free/Trial don't concern OhmerPrems members (owners of a valid license V2 keyfile).
+:information_source: **Following informations about Free/Trial don't concern OhmerPrems members (owners of a valid license V2 keyfile).**
 
 The Free/Trial version permits to evaluate most module's features, freely, but with many limitations (restrictions) the full version doesn't have!
 
-About Free/Trail, they're two possible scenarios:
+About Free/Trial, they're two possible scenarios:
 
-- **Scenario 1/** You're loading a shared patch (.vcv file) made by an OhmerPrems member (who are using full version), and his patch embeds one (or many) _FranKe_ module instance(s): all of these instances are working as **full player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback via momentary buttons (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's contextual menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed, because the loaded patch structure was defined by its author.
+- **Scenario 1:** You're loading a shared patch (.vcv file) made by an OhmerPrems member (who are using full version), and his patch embeds one (or many) _FranKe_ module instance(s): all of these instances are working as **full player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback via momentary buttons (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's contextual menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed, because the loaded patch structure was defined by its author.
 
-- **Scenario 2/** You add a new instance of _FranKe_ module in any rack: from the "fresh" added module, patterns from 03 to 64 can't be selected/reached (either by potentiometer, or by voltage). From patterns 01 and 02, **only tracks 1 and 2 events can be edited**, all other tracks (from 3 to 8) are locked against edition. **PITCH outputs for tracks 3 to 8 are constant -10V**. Both CV1 and CV2 may be assigned (from module's SETUP), but their actions may impact tracks 1 and 2 only. Turing Machine sequences on tracks 1 and track 2 can be edited and saved (and later, loaded but to track 1 or 2 only). Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. Also, many contextual menu entries concerning track, pattern, copy/paste and file operations may be disabled (grayed), depending the module's context when the contextual menu is pulled down by right-mouse button click over the _FranKe_ module. All others still locked/disabled, until you'll become OhmerPrems member!
+- **Scenario 2:** You add a new instance of _FranKe_ module in any rack: from the "fresh" added module, patterns from 03 to 64 can't be selected/reached (either by potentiometer, or by voltage/triggers). From patterns 01 and 02, **only tracks 1 and 2 events can be edited**, all other tracks (from 3 to 8) are locked against edition. **PITCH outputs for tracks 3 to 8 send constant -10V**. Both CV1 and CV2 may be assigned (from module's SETUP), but their actions may impact tracks 1 and 2 only. Turing Machine sequences on tracks 1 and track 2 can be edited and saved (and later, loaded but to track 1 or 2 only). Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. Also, many contextual menu entries concerning track, pattern, copy/paste and file operations may be disabled (grayed), depending the module's context when the contextual menu is pulled down by right-mouse button click over the _FranKe_ module. All others still locked/disabled, until you'll become OhmerPrems member!
 
 All stuff made on _FranKe_ module is always saved and recalled, including Turing Machine states (whatever locked, or not, as explained in TURING MACHINE section, later).
 
-:warning: Following explanations in the remaining of this _FranKe User's Manual_ will assume you're using the **full version of the OhmerPrems plugin** (by using a valid license V2 keyfile, exclusively reserved to OhmerPrems members).
+:warning: Following explanations in the remaining of this manual will assume you're using the **full version of the OhmerPrems plugin** (by using a valid license V2 keyfile, exclusively reserved to OhmerPrems members).
 
 ---
 
@@ -81,19 +81,21 @@ Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _Fran
 
 Due to important amount of saved datas, _FranKe_ module is using a **packed binary file** (instead of json who are causing signifiant lags during VCV Rack's autosave feature, who occur every 15 seconds). Also, the binary format is, strangely more efficient for data integrity checkings (the binary file is always checked after save, and saved again if necessary, upto five attempts).
 
-To avoid intentional "binary file patching" (to attempt to bypass editing limitations by the Demo/Trial), all file operations are using file encryption algorithms, and strong _cryptographic hashing_ checking functions! Any corrupted file will reset the module entirely to default "factory".
+All file operations are using file encryption and compressions algorithms, and strong _cryptographic hashing_ checking functions.
 
 ---
 
 ### COLORSCHEME CONVENTION IN THE MANUAL<a name="colorscheme"></a>
 
-This is the colorscheme used in this _FranKe User's Manual_ including images and animations, for both **patch cords** and **module's LED**:
+This is the colorscheme used in this manual (including images and animations), for both **patch cords** and **module's LED**:
 
-- Red color (LEDs only) indicates a step-recording session in progress (we're using red patch cords for audio, but it's not applicable for _FranKe_ module).
+- Red (LEDs only) indicates a **step-recording session** in progress (red patch cords are used for audio, but it's not applicable for _FranKe_ module, who doesn't use audio).
 - Yellow is used for either **PITCH** (Volt-per-octave-compliant on outputs and input for step-recording), and **BPM-CV** (analog clock, input only).
 - Blue (cyan) is used for **trigger** and **gate** inputs and outputs LEDs, **CYCLE** outputs (when applicable), also for patch cords.
 - Green is used for modulation by voltage (CV) LEDs, also for patch cords (**VEL**ocity input and outputs, **CV1** and **CV2** inputs, when applicable).
 - Pink color (step LEDs only) represent a "1" as binary digit, for selected Turing Machine track (otherwise the LED is unlit for "0" as binary digit).
+
+:information_source: All LEDs used by _FranKe_ module are RGB.
 
 ---
 
