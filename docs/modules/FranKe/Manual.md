@@ -35,7 +35,7 @@ Please consider a track role is always common to all 64 patterns.
 
 By default as fresh module added in your rack, or after **Initialize** command from module's contextual menu (**Ctrl**+**I** / **Cmd**+**I** on Mac, as keyboard shorcut), tracks 1 to 5 are melodic (all steps are filled by C4 notes with 100% maxed velocities, 50% gates, quarter note as duration, 100% chance), tracks 6 and 7 are modulation tracks (**CV OUT**) who send sequenced modulation voltages (all steps are filled by 0V, 50% gates, quarter note as duration, and 100% chance), and track 8 is defined as 16-bit Turing Machine (TM) with a random (locked) sequence (16-bit as sequence lenght, 100% voltage scale, floor octave 4, no quantization, 50% gate, no delay, speed x1 of the global tempo).
 
-![](_img/AnimTrackRoles.gif)
+![](_img/AnimTrackRolesV2.gif)
 
 To change a track role anytime, first select the track (either by touching its **TRACK encoder**, or its related **touchscreen**), then press **TRK. ROLE** (track role) momentary button (located near "CV1" input jack) once, or many times as required, in order to switch between roles, like melodic -> modulation (CV OUT) -> Turing Machine -> melodic ...
 
