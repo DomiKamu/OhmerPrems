@@ -134,11 +134,11 @@ Description of each, from top to bottom:
 
 **PATTRN.** input jack can be patched to any analog module (or digital, if CV2 is assigned as PATTRN- / previous pattern select), in order to select the current pattern by voltage. In this case, the pattern's potentiometer is inoperative. However, if CV2 is assigned as **PATTRN-** (previous pattern select), in this case both **CV2** and **PATTRN.** input jacks are listening for +10V 1ms triggers, to select respectively previous or next pattern (relatively from current pattern).
 
-While STEP-RECORDING is engaged (applicable for melodic tracks only), the module's plate reflects the temporary jacks assignments for these three jacks (and left side buttons):
+While step-recording is engaged (not applicable for Turing Machine tracks), the module's plate reflects the temporary jacks assignments for these three jacks, and left-side buttons:
 
 - _REVerse play_ input becomes **PITCH** input, patched to **PITCH** output of MIDI-CV module to record pitches from MIDI controller.
 - _PENDULUM play_ input becomes **GATE** input, patched to **GATE** output of MIDI-CV module to detect monophonic keypresses from MIDI controller.
-- _CV1_ input becomes **VEL**ocity input, (optionally) patched to **VEL.** output of MIDI-CV module, to record KEY ON velocities from MIDI controller. If not patched, _FranKe_ module doesn't alter existing velocities.
+- _CV1_ input becomes **VEL**ocity input, (optionally) patched to **VEL.** output of MIDI-CV module, to record KEY ON velocities from MIDI controller. If not patched, _FranKe_ module doesn't alter existing velocities. Velocities are recorder for melodic tracks only (ignored for modulation tracks).
 
 
 ![](_img/InputJacksStepRec.png)
@@ -169,11 +169,11 @@ Depending the context (as primary "function", or specifically while step-recordi
 As primary function (aka while step-recording isn't engaged), from top to bottom:
 
 - **RUN/PAUSE** (transport toggle, play or pause the sequencer). TIP: **RUN** LED is on, solid green, while the sequencer is running, unlit when paused.
-- Engage step-recording (applicable for melodic tracks only (otherwise the step-recording button press is ignored). While step-recording is engaged, the **RUN** LED is turned on, solid red (instead of green while playing). Also, selected melodic track, and selected step, are indicated by solid red LEDs, alongside their respective encoders.
+- Engage step-recording (applicable for melodic and modulation tracks only, the button press is ignored for selected Turing Machine track). While step-recording is engaged, the **RUN** LED is turned on, solid red (instead of green while playing). Also, selected melodic/modulation track, and selected step, are indicated by solid red LEDs, alongside their respective encoders.
 - Reset all sequences (all tracks) to their beginning points (no trigger occur to **CYCLE output jacks** when reset is done via RESET button and/or trigger on RESET input jack).
 - Reverse play toggle: forward-to-reverse, or reverse-to-forward playing direction, **for selected track only** (including Turing Machine track).
 - Pendulum play toggle, **for selected melodic or modulation (CV OUT) track only** (Turing Machine doesn't support pendulum play).
-- **VEL.** to edit velocity for each step on selected melodic track only (not applicable for modulation and Turing Machine tracks).
+- **VEL.** to edit velocity for each step on selected melodic track only, modulation (CV OUT) and Turing Machine tracks don't use velocities.
 - **GATE** to edit gate duration as %, for each step on selected melodic or modulation track (not applicable for Turing Machine, who have its independent **GATE** setting).
 - **SKIP** to edit step skip(s), for any step on selected melodic or modulation track (not applicable for Turing Machine tracks). However, **at least one "not skipped" (OFF) step** must remains between first step and last step of the track (this is handled by the module's logic), as "cell" where the track's playhead will can stay permanently.
 - **SUBDIV.** to edit subdivisions for each step (may be eighteenths, sixteenths, and rest-equivalents), selected melodic or modulation track (not applicable for Turing Machine).
@@ -183,11 +183,11 @@ As primary function (aka while step-recording isn't engaged), from top to bottom
 - Enter and exit the module's SETUP.
 
 While step-recording is engaged, as visible on the module's plate, each button enters a related note (semitone), exactly like a "piano" (clear and dark buttons).
-Every pressed button registers the related note (semitone), in the current displayed octave, then advances the sequencer by **one step forward** (or return to the first possible step in the same track and pattern). **Step-recording by using these momentary buttons don't alter the existing velocities.**
+Every pressed button registers the related note (semitone), or voltage-equivalent, using the current displayed octave, then advances the sequencer by **one step forward** (or return to the first possible step in the same track and pattern). **Step-recording over melodic tracks by using these momentary buttons don't alter the existing velocities.**
 
-During step-recording session, you'll can select another melodic track on the same pattern, also you'll can select different pattern by turning the **PATTRN.** potentiometer (or by voltage applied on **PATTRN.** input jack).
+During step-recording session, you'll can select another melodic or modulation (CV OUT) track on the same pattern, also you'll can select different pattern by turning the **PATTRN.** potentiometer (or by voltage applied on **PATTRN.** input jack).
 
-:warning: Step-recording is immediately disengaged as soon as you'll select a modulation track or Turing Machine track, or in case you'll start the sequencer's transport by trigger/gate applied on the **RUN** input jack!
+:warning: Step-recording is immediately disengaged as soon as you'll select any Turing Machine track, also disengaged when you start the sequencer's transport by trigger/gate applied on the **RUN** input jack!
 
 To finish (disengage) an active step-recording session, simply press the **EXIT** button (it's the same button used to enter/exit the module's SETUP). Please notice during step-recording session, the "gear" icon on module's plate (alongside the button) is replaced by an "exit" icon!
 
@@ -205,7 +205,7 @@ The momentary button located alongside **STEP 1** encoder, surrounded by a **loc
 
 ### THE MODULE'S SETUP<a name="modulesetup"></a>
 
-_FranKe_ module's logic embeds a (global) SETUP, which is accessible at any time, even while the sequencer is running, **but except while step-recording is engaged**, whenever you press the SETUP momentary button from "production" mode (aka displayed notes, CV OUT voltages, and/or Turing Machine tracks).
+_FranKe_ module's logic embeds a (global) SETUP, which is accessible at any time, even while the sequencer is running, **but except while step-recording is engaged**, whenever you press the SETUP momentary button from "production" mode (aka displayed notes, modulation voltages, and/or Turing Machine tracks).
 
 The following image shows the **factory settings** for a new/fresh _FranKe_ module instance:
 
