@@ -138,7 +138,7 @@ While step-recording is engaged (not applicable for Turing Machine tracks), the 
 
 - _REVerse play_ input becomes **PITCH** input, patched to **PITCH** output of MIDI-CV module to record pitches from MIDI controller.
 - _PENDULUM play_ input becomes **GATE** input, patched to **GATE** output of MIDI-CV module to detect monophonic keypresses from MIDI controller.
-- _CV1_ input becomes **VEL**ocity input, (optionally) patched to **VEL.** output of MIDI-CV module, to record KEY ON velocities from MIDI controller. If not patched, _FranKe_ module doesn't alter existing velocities. Velocities are recorder for melodic tracks only (ignored for modulation tracks).
+- _CV1_ input becomes **VEL**ocity input, (optionally) patched to **VEL.** output of MIDI-CV module, to record KEY ON velocities from MIDI controller. If not patched, _FranKe_ module doesn't alter existing velocities. Velocities are registered for melodic tracks only, and ignored for modulation tracks.
 
 
 ![](_img/InputJacksStepRec.png)
