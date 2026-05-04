@@ -158,7 +158,7 @@ Description, from left to right:
 
 - As melodic or Turing Machine track role, **PITCH** outputs "V/Oct" (pitch) voltage-compliant to be used by an oscillator (VCO) or similar module who embeds **V/OCT** (or **PITCH**) input jack (or any module you'll want, of course). As modulation (**CV OUT**) track role, sequenced voltages (between -10V and +10V, 0.01V stepping, or RANDOM voltages) are sent to **PITCH** output jack.
 - **GATE** outputs 0V or +10V gate-compliant voltages, mainly to control an envelope generator (EG), or any other module who can be controlled by +10V gate. Related GATE LED is always cyan, lit when the gate is high (+10V), otherwise unlit at 0V.
-- **VEL./CYCLE** (optional usage) outputs additional voltage regardling the velocity of related played note event (melodic track only, solid green LED), may be useful to control additional VCA, filter cutoff, or any you'll want (controllable by analog unipolar voltage from 0V to +10V). Otherwise the same jack sends **+10V 1ms triggers** (cyan LED) as **CYCLE**, instead of VELocity, when the track's sequence is restarted during playback (valid for both modulation and **Turing Machine** tracks).
+- **VEL./CYCLE** (optional usage) outputs additional voltage regardling the velocity of related played note event (melodic track only, solid green LED), may be useful to control additional VCA, filter cutoff, or any module controllable by an analog unipolar voltage, from 0V to +10V. For modulation (CV OUT) and Turing Machine tracks, the same jack sends **+10V 1ms triggers** (cyan LED) as **CYCLE**, instead of VELocity, when the related track's sequence is restarted during playback.
 
 ---
 
