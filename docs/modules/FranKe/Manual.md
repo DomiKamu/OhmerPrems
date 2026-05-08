@@ -270,7 +270,7 @@ Connected cables for step-recording via a MIDI controller:
 Please notice the velocities concern melodic tracks exclusively.
 
 The velocity cable is useless in following situations:
-- You are using only left-side "piano" momentary buttons to set a note (or voltage), or/and editing a step by turning the related step encoder.
+- You are using left-side "piano" momentary buttons to set a note or voltage, or editing a step by turning the related step encoder.
 - You are recording over modulation (CV OUT) tracks only.
 
 
