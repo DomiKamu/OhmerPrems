@@ -263,4 +263,4 @@ While step-recording is active, you'll can either use left-side momentary button
 
 Following animation (10 sec. per image) shows the step-recording via a MIDI controller:
 
-![](_img/AnimStepRecMIDI.gif.gif)
+![](_img/AnimStepRecMIDI.gif)
