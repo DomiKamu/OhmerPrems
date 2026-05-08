@@ -17,6 +17,7 @@
 - [**LOCK ALL T.M. MOMENTARY BUTTON**](#tmlockmbutton)
 - [**THE MODULE'S SETUP**](#modulesetup)
 - [**CLOCK SOURCE**](#clocking)
+- [**STEP-RECORDING**](#steprec)
 
 ---
 
@@ -247,3 +248,19 @@ On new instance of _FranKe_ module in your rack, standalone (internal) tempo is 
 :warning: Standalone (internal) module's frequency/tempo cannot be manually changed!
 
 From module's SETUP, current clock/tempo informations/status is displayed on TRACK 3 display.
+
+---
+
+### STEP-RECORDING<a name="steprec"></a>
+
+Step-recording is a way to enter notes (semitones) for either melodic and modulation (CV OUT) tracks. For modulation tracks, the notes are replaced by voltage-equivalents.
+
+To engage step-recording, simply press STEP-REC button from left-side momentary buttons near input jacks.
+
+To complete (and disengage step-recording), press EXIT button (this button is the same than used to access module's SETUP).
+
+While step-recording is active, you'll can either use left-side momentary buttons (like a piano) and via a MIDI controller. By using a MIDI controller, you'll can also register velocities (if your MIDI controller supports velocity, and applicable for melodic tracks only because modulation tracks don't use velocities).
+
+Following animation (10 sec. per image) shows the step-recording via a MIDI controller:
+
+![](_img/AnimStepRecMIDI.gif.gif)
