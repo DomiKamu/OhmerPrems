@@ -276,3 +276,8 @@ The velocity cable is useless in following situations:
 :information_source: In case you don't use a MIDI controller (but only left-side buttons and step encoders), it's useless to connect the cables!
 
 Following animation (10 sec. per image) shows the step-recording process, via a MIDI controller:
+
+![](_img/AnimStepRecMIDIv2.gif)
+
+
+---
