@@ -267,13 +267,13 @@ Connected cables for step-recording via a MIDI controller:
 ![](_img/StepRecordingCables.png)
 
 
-Please notice the velocities concern melodic tracks exclusively.
-
-The velocity cable is useless in following situations:
+Please notice the velocities concern melodic tracks exclusively. The cable to (temporary) **VEL.** input jack is useless in following situations:
 - You are using left-side "piano" momentary buttons to set a note or voltage, or editing a step by turning the related step encoder.
 - You are recording over modulation (CV OUT) tracks only.
 
 :information_source: In case you don't use a MIDI controller (but only left-side buttons and step encoders), it's useless to connect the cables!
+
+:warning: While step-recording is active, both reverse play, pendulum play and CV1 inputs jacks are disabled (because they're used for pitch, gate and velocity).
 
 Following animation (10 sec. per image) shows the step-recording process, via a MIDI controller:
 
