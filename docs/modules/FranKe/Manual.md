@@ -253,11 +253,11 @@ From module's SETUP, current clock/tempo informations/status is displayed on TRA
 
 ### STEP-RECORDING<a name="steprec"></a>
 
-Step-recording is a possible way to define notes (semitones) for either melodic and modulation (CV OUT) tracks. For melodic tracks, recorded steps are always notes/semitones by names (like F#3, Ab4, C5, etc). For modulation tracks, the notes names/alterations/octaves are simply replaced by their respective voltages.
+Step-recording is a possible way to define notes (semitones) for either melodic and modulation (CV OUT) tracks. For melodic tracks, recorded steps are always notes/semitones by names/alterations/octaves, like F#3, Ab4, C5, and so on. For modulation tracks, the notes names/alterations/octaves are simply replaced by their corresponding voltages.
 
-To engage step-recording, press STEP-REC button located in left-side momentary buttons (this button is the 2nd from top, near CLOCK input jack).
+To engage step-recording, press STEP-REC button located in left-side momentary buttons area (it's the second button from top, near CLOCK input jack).
 
-To finish step-recording session, press EXIT button (this button is the same than used to access module's SETUP). Also by selecting a Turing Machine track, or by starting the transport (via voltage on RUN input jack) will disengage the step-recording automatically!
+To finish step-recording session, press EXIT button (this button is the same than used to access module's SETUP). Also, by selecting a Turing Machine track, or by starting the transport (via applied voltage on **RUN** input jack) will disengage the step-recording automatically!
 
 While step-recording is active, you'll can either use left-side momentary buttons (in this case, these buttons act as a piano keys), but also via a MIDI controller. By using a MIDI controller, you'll can also register velocities (if your MIDI controller supports velocity, if the VEL. input jack is connected to VEL. output jack on MIDI module, and for selected melodic track only).
 
@@ -267,15 +267,15 @@ Connected cables for step-recording via a MIDI controller:
 ![](_img/StepRecordingCables.png)
 
 
-Please notice the velocities concern melodic tracks exclusively. The cable to (temporary) **VEL.** input jack is useless in following situations:
-- You are using left-side "piano" momentary buttons to set a note or voltage, or editing a step by turning the related step encoder.
-- You are recording over modulation (CV OUT) tracks only.
+Please notice the velocities are used by melodic tracks exclusively. However, while step-recording, the velocities are recorded for either melodic or modulation (CV OUT) tracks, this feature is useful in case you'll change the track role, later, from modulation to melodic track.
 
-:information_source: In case you don't use a MIDI controller (but only left-side buttons and step encoders), it's useless to connect the cables!
+The cable to (temporary) **VEL.** input jack is useless in case you're using left-side "piano" momentary buttons to set a note (or voltage), or you're editing steps by turning the related step encoders.
 
-:warning: While step-recording is active, both reverse play, pendulum play and CV1 inputs jacks are disabled (because they're used for pitch, gate and velocity).
+:information_source: In case you don't use a MIDI controller (but only left-side "piano" momentary buttons, and step encoders to edit), it's useless to connect the cables to a MIDI-based module(s).
 
-Following animation (10 sec. per image) shows the step-recording process, via a MIDI controller:
+:warning: While step-recording is active, both reverse play, pendulum play and CV1 inputs jacks are disabled as main functions.
+
+Following animation (10 sec. per image) shows the step-recording process by using a MIDI controller:
 
 ![](_img/AnimStepRecMIDIv2.gif)
 
