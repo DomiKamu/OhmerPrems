@@ -275,13 +275,13 @@ During first and last step edition, the hint system indicates (second line) the 
 
 ### STEP-RECORDING<a name="steprec"></a>
 
-Step-recording is a possible way to define notes (semitones) for either melodic and modulation (CV OUT) tracks. For melodic tracks, recorded steps are always notes/semitones by names/alterations/octaves, like F#3, Ab4, C-1, G9, and so on. For modulation tracks, the notes names/alterations/octaves are simply replaced by their corresponding voltages (C4 = 0V).
+Step-recording is a possible way to define notes (semitones) or raw voltages for either melodic and modulation (CV OUT) tracks. For melodic tracks, recorded steps are always notes/semitones by names/alterations/octaves (like F#3, Ab4, C-1, G9, and so on). For modulation tracks, the notes names/alterations/octaves are simply replaced by their corresponding voltages (C4 = 0V).
 
-To engage step-recording, press STEP-REC button located in left-side momentary buttons area (it's the second button from top, near CLOCK input jack).
+To engage step-recording, press **STEP-REC** momentary button, located in left-side momentary buttons area (it's the second button from top, near CLOCK input jack).
 
-To finish step-recording session, press EXIT button (this button is the same than used to access module's SETUP). Also, by selecting a Turing Machine track, or by starting the transport (via applied voltage on **RUN** input jack) will disengage the step-recording automatically!
+To finish a step-recording session, press **EXIT** momentary button (it's the same than used to access module's SETUP, but during step-recording session, it have an exit icon along the button - screen-printed on the module's plate). Also, by selecting a Turing Machine track, or by starting the transport via voltage on **RUN** input jack, will disengage the step-recording automatically!
 
-While step-recording is active, you'll can either use left-side momentary buttons (in this case, these buttons act as a piano keys), but also via a MIDI controller. By using a MIDI controller, you'll can also register velocities (if your MIDI controller supports velocities, and if the **VEL.** input jack is connected to **VEL** output jack on MIDI module, and for selected melodic/modulation track only).
+While step-recording is active, you'll can either use left-side momentary buttons (in this case, these buttons act as a "piano" keys), or a MIDI controller. By using a MIDI controller, you'll can also register velocities (if your MIDI controller supports velocities, and if the **VEL.** input jack is connected to **VEL** output jack on MIDI-based module). By using the "piano" button, existing velocity on current step isn't affected.
 
 Connected patch cords for step-recording via a MIDI controller:
 
@@ -293,11 +293,13 @@ Please notice the velocities are used by melodic tracks exclusively. However, du
 
 The patch cord to **VEL.** input jack is useless in case you're using left-side "piano" momentary buttons to set a note (or voltage-equivalent for a modulation track), or you're editing notes/voltages by turning related step encoders.
 
-:information_source: In case you don't use a MIDI controller, but left-side "piano" momentary buttons only (and step encoders to edit), it's useless to connect the patch cords to a MIDI-based module(s).
+:information_source: In case you don't use a MIDI controller, but left-side "piano" momentary buttons only (and step encoders to edit), it's useless to connect the patch cords to MIDI-based module(s).
 
-:warning: While step-recording is active, both reverse play, pendulum play and CV1 input jacks are disabled as their main functions.
+:warning: Lowest possible note is C-1 (C, octave -1) or -5V as equivalent for modulation track. Highest possible note is G9 (G, octave 9) or +5.58V for modulation track.
 
-Following animation (10 sec. per image) shows the step-recording process by using a MIDI controller:
+:warning: While step-recording is active, both reverse play, pendulum play and CV1 input jacks are disabled as their main functions, because they're used for pitches, gates and velocities!
+
+Following animation (10 sec. per image) shows an example of step-recording process by using a MIDI controller:
 
 ![](_img/AnimStepRecMIDIv2.gif)
 
