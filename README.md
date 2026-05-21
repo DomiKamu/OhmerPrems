@@ -14,29 +14,29 @@
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
 
 ---
-Lastest stable version (**v2.6.8**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems). Please consider this lastest stable v2.6.8 doesn't include FranKe and 6OP-DX modules.
+Lastest stable version (**v2.6.9**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems). Please consider this lastest stable v2.6.9 doesn't include 6OP-DX module.
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
 ----
-## **Work-in-Progress module: FranKe**
+## **FranKe module**
 
-[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (under construction)
+[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this manual remains under construction)
 
-Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from three): as "melodic" track, who are using quantized notes/octaves/accidentals, as "CV OUT" modulation track to offering voltages (-10V to +10V range, 0.01V steeping) for sequenced modulations, or a 16-bit Turing Machine track (useful for generative/random).
+Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three): as melodic track, who are using quantized notes/octaves/accidentals, as modulation track (CV OUT track) to offering voltages (-10V to +10V range, 0.01V steeping, or random into same voltages range) for sequenced modulations, or a 16-bit Turing Machine track, useful for generative/random patches!
 
 Following animation is showing **all eight models** (GUI themes) of _FranKe_ module:
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
-:information_source: _FranKe_ module now is available but as **BETA pre-release** (v2.6.9). Still under development.
+:information_source: _FranKe_ module now is available as stable release (v2.6.9). However, file operations, and some track & pattern operations (such copy, move) still under development (planned for v2.6.11).
 
 ----
 ## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module is included "as W.I.P." only via **v2.6.9 BETA pre-release** (not provided by OhmerPrems v2.6.8 stable release).
+6OP-DX module is included "as W.I.P." only via **v2.6.10 ALPHA pre-release** (provided as "hidden" module by OhmerPrems v2.6.9 stable release).
 
 ----
 
