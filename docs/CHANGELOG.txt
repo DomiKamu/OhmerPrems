@@ -2,14 +2,13 @@
 CHANGELOG
 ==============================================================================================================================
 
-BETA PRE-RELEASE/W.I.P. v2.6.9 (April 23rd, 2026) for VCV Rack v2.
+Release v2.6.9 (May 21th, 2026) for VCV Rack 2.
 
 - Introducing FranKe module, 80HP 64-pattern 8-track 16-step analog step-sequencer.
-- Introducing 6OP-DX module, 117HP 6-operator algorithm-based PM synthesizer module (CAUTION: NO SOUND OUTPUT AT THE MOMENT).
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.6.8 (March 4th, 2026) for VCV Rack v2.
+Release v2.6.8 (March 4th, 2026) for VCV Rack 2.
 
 - KX expander module: fixed a potential crash (rare, but possible) during module instanciation (from module browser), or when
   opening a .vcv patch file containing KX module.
@@ -17,7 +16,7 @@ Release v2.6.8 (March 4th, 2026) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.6.7 (February 28th, 2026) for VCV Rack v2.
+Release v2.6.7 (February 28th, 2026) for VCV Rack 2.
 
 - New license keyfile (V2) for FroeZe, FroeZe-X, FroeZe-SX, QuadPercs, and (future/W.I.P.) 6OP-DX modules.
 - KlokSpid MkII module: removed "Envelope generator" tag (same about KX expander module).
@@ -31,7 +30,7 @@ Release v2.6.7 (February 28th, 2026) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.6.6 (November 23nd, 2025) for VCV Rack v2.
+Release v2.6.6 (November 23nd, 2025) for VCV Rack 2.
 
 - FroeZe module: now any instrument track(s) may have its own LAST STEP (when tracks are SOLO).
 - FroeZe module: LAST STEP continuous encoder affects SOLOed track(s) only, when SOLO is turned on.
@@ -47,7 +46,7 @@ Release v2.6.6 (November 23nd, 2025) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.4.1 (November 24th, 2023) for VCV Rack v2.
+Release v2.4.1 (November 24th, 2023) for VCV Rack 2.
 
 - Now QuadPercs allows pre-listen any drum kit (at any samplerate), even for non-OhmerPrems members. But the related trigger
   input cable must be disconnected first. Then, when you select any drum machine, any drum kit, the selected drum kit now is
@@ -75,7 +74,7 @@ Release v2.4.1 (November 24th, 2023) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.2.7 (March 29th, 2023) for VCV Rack v2.
+Release v2.2.7 (March 29th, 2023) for VCV Rack 2.
 
 - Introducing FroeZe module: 128-pattern 16-track 64-step drum-based sequencer module, and its expander: FroeZe-X.
 - QuadPercs: cosmetic concerning channel button labels (all was named "Channel 1").
@@ -87,7 +86,7 @@ Release v2.2.7 (March 29th, 2023) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.2.5 (February 10th, 2023) for VCV Rack v2.
+Release v2.2.5 (February 10th, 2023) for VCV Rack 2.
 
 - KordZ: intervals are revisited a bit, in particular multiple octaves/basses in chords.
 - KordZ: notes table construction was entirely redeveloped and optimized for better CPU usage.
@@ -100,7 +99,7 @@ Release v2.2.5 (February 10th, 2023) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.2.4 (January 28th, 2023) for VCV Rack v2.
+Release v2.2.4 (January 28th, 2023) for VCV Rack 2.
 
 - QuadPercs: new segment-LED display (above channel #1 output jack). It indicates the volume level for active channel.
   value is percentage (from 0 to 100, default is 50%).
@@ -116,7 +115,7 @@ Release v2.2.4 (January 28th, 2023) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Release v2.2.3 (Januay 23rd, 2023) for VCV Rack v2.
+Release v2.2.3 (Januay 23rd, 2023) for VCV Rack 2.
 
 - QuadPercs, KordZ: plasma-gas dot-matrix displays for "Signature"-line modules now are visible in dark room.
   "Absolute Night" model for QuadPercs and KordZ modules, the yellow-backlight LCD dot-matrix-display is visible in dark room.
@@ -129,7 +128,7 @@ Release v2.2.3 (Januay 23rd, 2023) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Pre-release v2.2.2 (Januay 12th, 2023) for VCV Rack v2.
+Pre-release v2.2.2 (Januay 12th, 2023) for VCV Rack 2.
 
 - QuadPercs Free now is 5 instruments (instead of 4 in previous releases): Drumulator is given as 2023 gift ;)
 - QuadPercs Free: disabled instruments now are selectable, but they are muted (no audio output), to provide best compatibility
@@ -140,14 +139,14 @@ Pre-release v2.2.2 (Januay 12th, 2023) for VCV Rack v2.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Pre-release v2.0.0-beta 3 (October 16th, 2021) for VCV Rack v2.0.0 Beta-phase.
+Pre-release v2.0.0-beta 3 (October 16th, 2021) for VCV Rack 2 (v2.0.0 Beta-phase).
 
 - Added new KordZ module, but remains as WORK IN PROGRESS... Work as "demo" (expiration after 60~120 seconds) for OhmerPrems
   Free (without license key).
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-Pre-release v2.0.0 (October 1st, 2021) for VCV Rack v2.0.0 Beta-phase.
+Pre-release v2.0.0 (October 1st, 2021) for VCV Rack 2 (v2.0.0 Beta-phase).
 
 ------------------------------------------------------------------------------------------------------------------------------
 
