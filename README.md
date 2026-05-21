@@ -3,7 +3,7 @@
 *OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Trial" otherwise) and some free modules for everyone, for VCV Rack 2.
 
 *OhmerPrems* plugin is a set of 6 modules (4 are fully operational), plus 3 as _expanders_:
-- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module, available as **beta pre-release**. [**FranKe User's Manual** (under construction)](docs/modules/FranKe/Manual.md)
+- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module, available as **beta pre-release**. [**FranKe User's Manual** (manual remains under construction)](docs/modules/FranKe/Manual.md)
 - **6OP-DX** is a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**still under development**).
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
@@ -14,7 +14,7 @@
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
 
 ---
-Lastest stable version (**v2.6.9**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation, also from [VCV Library](https://library.vcvrack.com/OhmerPrems). Please consider this lastest stable v2.6.9 doesn't include 6OP-DX module.
+Lastest stable version (**v2.6.9**) is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update, coming shortly from [VCV Library](https://library.vcvrack.com/OhmerPrems). Please consider this lastest stable v2.6.9 doesn't include operation 6OP-DX module at the moment (this module is hidden).
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
@@ -23,20 +23,23 @@ Lastest stable version (**v2.6.9**) is available from [_Releases_](https://githu
 
 [Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this manual remains under construction)
 
-Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three): as melodic track, who are using quantized notes/octaves/accidentals, as modulation track (CV OUT track) to offering voltages (-10V to +10V range, 0.01V steeping, or random into same voltages range) for sequenced modulations, or a 16-bit Turing Machine track, useful for generative/random patches!
+Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three, can be changed anytime you'll want):
+- as melodic track, who are using quantized notes, octaves, accidentals, and velocities.
+- as modulation track (CV OUT track) to offering voltages (-10V to +10V range, 0.01V steeping, or random inside same voltage range) for sequenced modulations.
+- as 16-bit Turing Machine track, useful for generative/random patches! (Turing Machine states are always saved and recalled).
 
 Following animation is showing **all eight models** (GUI themes) of _FranKe_ module:
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
-:information_source: _FranKe_ module now is available as stable release (v2.6.9), all track roles and features are fully operational and tested on all platforms. However, file operations (Open/Save either for sequencer, simple pattern, and simple track), and some track & pattern operations (such copy, move, initialize, randomize) still under development and planned for future/next release (will be **v2.6.11**). Also, prior to resume 6OP-DX development, next milestone is to complete the FranKe User's Manual (also, YouTube videos are under consideration).
+:information_source: _FranKe_ module now is available as part of stable release (v2.6.9) of OhmerPrems plugin, all track roles and features are fully operational and tested on all platforms. However, file operations (Open/Save either for full sequencer, simple pattern, and simple track), and some track & pattern operations (such copy, move, initialize, randomize) still under development, and planned for next release (will be **v2.6.11**). Also, prior to resume 6OP-DX development, next milestone about _FranKe_ module is to complete its User's Manual (also, YouTube videos are under consideration, as complement).
 
 ----
 ## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module will be  included from next plugin version (will be **v2.6.11**), provided but as "hidden" module (from plugin.json) by current OhmerPrems v2.6.9 stable release.
+6OP-DX module will be included from next plugin version (will be **v2.6.11**), provided but as "hidden" module (from _plugin.json_ file) by current OhmerPrems v2.6.9 stable release!
 
 ----
 
@@ -257,17 +260,17 @@ A personal license keyfile is sent to OhmerPrems members (by email), including d
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (as full version) without any additional charge!
 
 
-To become *OhmerPrems* member, simply send me **12 euros**. If required, please convert your local currency first, to fit with 12 (or more) euros (otherwise your payment will not be accepted and refurbished) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
+To become *OhmerPrems* member, simply send me **15 euros**. If required, please convert your local currency first, to fit with 15 (or more) euros (otherwise your payment will not be accepted and refurbished) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
 :warning:
-## March 2026: please consider the 12 euros fee, at the moment, is very fair! as soon as both FranKe and 6OP-DX modules are ready, the price will increase to approx. 20 euros, instead!
+## May 2026: please consider the 15 euros fee, at the moment, remains very fair! as soon as both FranKe and 6OP-DX modules are ready, the price will increase to approx. 18 euros, instead!
 
 **Very important: don't forget to indicate:**
 - your first and last name (personal name only, company name or nickname isn't accepted).
 - your email address (preferabely used to access to VCV Library), required to send your personal license key, instructions, and possible future communications about updates. Your email address stays strictly private!
-- also in the body of the message, please specify **OhmerPrems member** (or something similar) to avoid possible confusion.
+- also in the body of the message, please specify **OhmerPrems member** (or something similar) to avoid possible confusions!
 
-New subscription requires 24 hours max. (generally less, sometimes... minutes!) after PayPal notification. **Incomplete/not regular fee informations or/and payment less than 12 euros equivalent will be refurbished**.
+New subscription requires 24 hours max. (generally less, sometimes... minutes!) after PayPal notification on my smartphone. **Incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**.
 
 Thank you in advance for your understanding.
 
