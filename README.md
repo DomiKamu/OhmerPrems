@@ -39,7 +39,7 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module will be included from next plugin version (will be **v2.6.11**), provided but as "hidden" module (from _plugin.json_ file) by current OhmerPrems v2.6.9 stable release!
+6OP-DX module will be included in future plugin version (planned for **v2.6.12**), provided but as "hidden" module (from _plugin.json_ file) by current OhmerPrems v2.6.9 stable release!
 
 ----
 
