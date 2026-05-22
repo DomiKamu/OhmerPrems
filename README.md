@@ -32,7 +32,7 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
-:information_source: _FranKe_ module now is available as part of stable release (v2.6.9) of OhmerPrems plugin, all track roles and features are fully operational and tested on all platforms. However, file operations (Open/Save either for full sequencer, simple pattern, and simple track), and some track & pattern operations (such copy, move, initialize, randomize) still under development, and planned for next release (will be **v2.6.11**). Also, prior to resume 6OP-DX development, next milestone about _FranKe_ module is to complete its User's Manual (also, YouTube videos are under consideration, as complement).
+:information_source: _FranKe_ module now is available as part of stable release (v2.6.9) of OhmerPrems plugin, all track roles and features are fully operational and tested on all platforms. However, many sequencer, pattern and track operations (such Open, Save As, Initialize, Copy, Paste, and so on) via context menus, remain under development, and planned for next release (will be **v2.6.11** instead v2.6.10). Also, prior to resume 6OP-DX development (planned later for v2.6.12), next milestone about _FranKe_ module is to add missing context menus and to complete its User's Manual (also, YouTube videos are under consideration, as complement).
 
 ----
 ## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
