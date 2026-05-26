@@ -7,7 +7,7 @@
 ### TOPICS
 
 - [**INTRODUCTION**](#intro)
-- [**FREE/TRIAL LIMITATIONS**](#trial)
+- [**FREE/TRIAL LIMITATION/RESTRICTION**](#trial)
 - [**TECHNICAL CONSTRAINTS**](#technical)
 - [**COLORSCHEME CONVENTION IN THE MANUAL**](#colorscheme)
 - [**THE MODULE LAYOUT**](#layout)
