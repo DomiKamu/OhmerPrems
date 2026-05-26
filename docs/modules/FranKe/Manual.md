@@ -35,7 +35,7 @@ Tracks are versatile, any track may have one of following role:
 
 Please consider a track role is always common to all 64 patterns.
 
-By default as fresh module added in your rack, or after **Initialize** command from module's contextual menu (**Ctrl**+**I** / **Cmd**+**I** on Mac, as keyboard shorcut), tracks 1 to 5 are melodic (all steps are filled by C4 notes with 100% maxed velocities, 50% gates, quarter note as duration, 100% chance), tracks 6 and 7 are modulation tracks (**CV OUT**) who send sequenced modulation voltages (all steps are filled by 0V, 50% gates, quarter note as duration, and 100% chance), and track 8 is defined as 16-bit Turing Machine (TM) with a random (locked) sequence (16-bit as sequence lenght, 100% voltage scale, floor octave 4, no quantization, 50% gate, no delay, speed x1 of the global tempo).
+By default as fresh module added in your rack, or after **Initialize** command from module's right-click context menu (**Ctrl**+**I** / **Cmd**+**I** on Mac, as keyboard shorcut), tracks 1 to 5 are melodic (all steps are filled by C4 notes with 100% maxed velocities, 50% gates, quarter note as duration, 100% chance), tracks 6 and 7 are modulation tracks (**CV OUT**) who send sequenced modulation voltages (all steps are filled by 0V, 50% gates, quarter note as duration, and 100% chance), and track 8 is defined as 16-bit Turing Machine (TM) with a random (locked) sequence (16-bit as sequence lenght, 100% voltage scale, floor octave 4, no quantization, 50% gate, no delay, speed x1 of the global tempo).
 
 ![](_img/AnimTrackRolesV2.gif)
 
@@ -59,7 +59,7 @@ Obviously, all models are providing exactly the same features!
 
 ---
 
-### FREE/TRIAL LIMITATIONS<a name="trial"></a>
+### FREE/TRIAL LIMITATIONS/RESTRICTION<a name="trial"></a>
 
 :information_source: **Following informations about Free/Trial don't concern OhmerPrems members (owners of a valid license V2 keyfile).**
 
@@ -67,13 +67,15 @@ The Free/Trial version permits to evaluate most module's features, freely, but w
 
 About Free/Trial, they're two possible scenarios:
 
-- **Scenario 1:** You're loading a shared patch (.vcv file) made by an OhmerPrems member (who are using full version), and his patch embeds one (or many) _FranKe_ module instance(s): all of these instances are working as **full player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback via momentary buttons (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's contextual menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed, because the loaded patch structure was defined by its author.
+- **Scenario 1:** You're loading a shared patch (.vcv file) made by an OhmerPrems member (who are using full version), and his patch embeds one (or many) _FranKe_ module instance(s): all of these instances are working as **full player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback via momentary buttons (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's right-click context menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed, because the loaded patch structure was defined by its author.
 
-- **Scenario 2:** You add a new instance of _FranKe_ module in any rack: from the "fresh" added module, patterns from 03 to 64 can't be selected/reached (either by potentiometer, or by voltage/triggers). From patterns 01 and 02, **only tracks 1 and 2 events can be edited**, all other tracks (from 3 to 8) are locked against edition. **PITCH outputs for tracks 3 to 8 send constant -10V**. Both CV1 and CV2 may be assigned (from module's SETUP), but their actions may impact tracks 1 and 2 only. Turing Machine sequences on tracks 1 and track 2 can be edited and saved (and later, loaded but to track 1 or 2 only). Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. Also, many contextual menu entries concerning track, pattern, copy/paste and file operations may be disabled (grayed), depending the module's context when the contextual menu is pulled down by right-mouse button click over the _FranKe_ module. All others still locked/disabled, until you'll become OhmerPrems member!
+- **Scenario 2:** You add a new instance of _FranKe_ module in any rack: from the "fresh" added module, patterns from 03 to 64 can't be selected/reached (either by potentiometer, or by voltage/triggers). From patterns 01 and 02, **only tracks 1 and 2 events can be edited**, all other tracks (from 3 to 8) are locked against edition. **PITCH outputs for tracks 3 to 8 send constant -10V**. Both CV1 and CV2 may be assigned (from module's SETUP), but their actions may impact tracks 1 and 2 only. Turing Machine sequences on tracks 1 and track 2 can be edited and saved (and later, loaded but to track 1 or 2 only). Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. All others many still locked/disabled, until you'll become OhmerPrems member!
 
-All stuff made on _FranKe_ module is always saved and recalled, including Turing Machine states (whatever locked, or not, as explained in TURING MACHINE section, later).
+:warning: In all cases, the extra right-click context menu is hidden while the module runs either as Player and as Free/Trial.
 
-:warning: Following explanations in the remaining of this manual will assume you're using the **full version of the OhmerPrems plugin** (by using a valid license V2 keyfile, exclusively reserved to OhmerPrems members).
+All stuff made on _FranKe_ module is always saved and recalled at least by VCV Rack 2's autosave feature (occurs every 15 seconds) and by your .vcv patch files, including Turing Machine states (whatever locked, or not, as explained in TURING MACHINE section, later).
+
+Following explanations in the remaining of this manual will assume you're using the **full version of the OhmerPrems plugin** (by using a valid license V2 keyfile, exclusively reserved to OhmerPrems members).
 
 ---
 
