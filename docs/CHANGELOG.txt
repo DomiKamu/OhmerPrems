@@ -2,6 +2,15 @@
 CHANGELOG
 ==============================================================================================================================
 
+Release v2.6.11 (May 28th, 2026) for VCV Rack 2.
+
+- FranKe module: added right-click context menus for sequencer/pattern/track-related operations. Please notice this extra menu
+  is visible for OhmerPrems members only (these menus are hidden for Free/Trial version without a license V2 keyfile).
+- KlokSpid MkII: for triangle waveform's "Tilt", "RAMP DOWN" text is replaced by "SAWTOOTH", "RAMP UP" text by "RAMP".
+- KlokSpid MkII: when an output's "Modifier" is set to "BPM-CV", its LED is always solid yellow, whatever the BPM/frequency.
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.6.9 (May 21th, 2026) for VCV Rack 2.
 
 - Introducing FranKe module, 80HP 64-pattern 8-track 16-step analog step-sequencer.
