@@ -14,7 +14,7 @@
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
 
 ---
-Lastest stable version **v2.6.9** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update, hope it comes shortly from [VCV Library](https://library.vcvrack.com/OhmerPrems), too (for automatic installation or update). Please consider this lastest stable v2.6.9 doesn't include 6OP-DX module at the moment (this module is hidden). Next published release will be v2.6.11 (instead of v2.6.10).
+Lastest stable version **v2.6.11** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update, hope it comes shortly from [VCV Library](https://library.vcvrack.com/OhmerPrems), too (for automatic installation or update). Please consider this lastest stable v2.6.11 doesn't include 6OP-DX module at the moment (this module is hidden).
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
@@ -32,14 +32,14 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
-:information_source: _FranKe_ module now is available as part of stable release (v2.6.9) of OhmerPrems plugin, all track roles and features are fully operational and tested on all platforms. However, many sequencer, pattern and track operations (such Open, Save As, Initialize, Copy, Paste, and so on) via context menus, remain under development, and planned for next release (will be **v2.6.11** instead v2.6.10). Also, prior to resume 6OP-DX development (planned later for v2.6.12), next milestone about _FranKe_ module is to add missing context menus and to complete its User's Manual (also, YouTube videos are under consideration, as complement).
+:information_source: _FranKe_ module (final version) now is available as part of stable release (v2.6.11) of OhmerPrems plugin, all track roles and features are fully operational and tested on all platforms. However, many sequencer, pattern and track operations (such Open, Save As, Initialize, Copy, Paste, and so on) via context menus, remain under development, and planned for next release (will be **v2.6.11** instead v2.6.10). Also, prior to resume 6OP-DX development (planned later for v2.6.12), next milestone about _FranKe_ module is to add missing context menus and to complete its User's Manual (also, YouTube videos are under consideration, as complement).
 
 ----
 ## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module will be included in future plugin version (planned for **v2.6.12**), provided but as "hidden" module (from _plugin.json_ file) by current OhmerPrems v2.6.9 stable release!
+6OP-DX module will be included in future plugin version (planned for **v2.6.12** or **v2.6.13**), provided but as "hidden" module (from _plugin.json_ file) by current OhmerPrems v2.6.11 stable release!
 
 ----
 
