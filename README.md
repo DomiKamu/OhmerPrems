@@ -14,7 +14,7 @@
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
 
 ---
-Lastest stable version **v2.6.11** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update, hope it comes shortly from [VCV Library](https://library.vcvrack.com/OhmerPrems), too (for automatic installation or update). Please consider this lastest stable v2.6.11 doesn't include 6OP-DX module at the moment (this module is hidden).
+Lastest stable version **v2.6.11** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update, exclusively. Also, please consider this lastest stable v2.6.11 doesn't include 6OP-DX module at the moment (this module is hidden).
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
@@ -77,7 +77,7 @@ FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (G
 
 ![](docs/modules/FroeZe/_img/FroeZe_Patch.png)
 
-Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse click over Ohmer logo to switch bright/dim**)... but here without its companion (I mean... FroeZe-X expander). On AC'd note(s), without FroeZe-Xexpander, the sequencer delivers a **-10V** (1ms) triggers! by this way, you'll must "filter" the -10V signal, in order to invert it to +10V, then route it to alternate way. It is exactly the role of **[Polarity Switch](https://library.vcvrack.com/Ohmer/PolaritySwitch)** dual module (free Open Source module) - the tiny red module located at the left of red QuadPercs modules group...
+Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse click over Ohmer logo to switch bright/dim**)... but here without its companion (I mean... FroeZe-X expander). On AC'd note(s), without FroeZe-Xexpander, the sequencer delivers a **-10V** (1ms) triggers! by this way, you'll must "filter" the -10V signal, in order to invert it to +10V, then route it to alternate way. It is exactly the role of **[Polarity Switch](https://github.com/DomiKamu/Ohmer)** dual module (free Open Source module) - the tiny red module located at the left of red QuadPercs modules group...
 
 ![](docs/modules/FroeZe/_img/FroeZe_Patch_NoExpander.png)
 
@@ -85,7 +85,7 @@ Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse
 
 - Instrument tracks refer to BD to CL tracks (last AC track isn't an instrument track, only ACcents).
 - Main screen (display) is working like a tablet-touchscreen.
-- FroeZe module requires a **X32 pulse-based external source clock** (32 PPQN) to work correctly. KlokSpid MkII (see above), or [Impromptu's CLOCKED](https://library.vcvrack.com/ImpromptuModular/Clocked) clocking modules are perfect!
+- FroeZe module requires a **X32 pulse-based external source clock** (32 PPQN) to work correctly. KlokSpid MkII (see above), or Impromptu's CLOCKED modules are perfect!
 - Left mouse click on track header (near track name) selects the track, **or**, if already selected, toggles its SOLO state.
 - SOLO indicator (below BPM / NO CLK indicator) is blinking while at least one instrument track is SOLO.
 - Right mouse click on track header (near track name) selects the track, **or**, if already selected, toggles its MUTE state (MUTEd tracks are entirely highlighted, song pointer doesn't run over them).
@@ -249,7 +249,7 @@ KordZ module remains unfinished. Presentation coming later...
 
 ## Free version
 
-Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from either [VCV Plugin Library](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=) for automatic installation/updates, or via ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (but requires **manual** installation/updates, by download/copy **.vcvplugin** file).
+Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file).
 
 ----
 
