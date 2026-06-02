@@ -2,6 +2,12 @@
 CHANGELOG
 ==============================================================================================================================
 
+Release v2.6.12 (June 2nd, 2026) for VCV Rack 2.
+
+- FranKe, FroeZe, FroeZe-SX, FroeZe-X, and QuadPerc modules: added some debug/infos in C++ source code.
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.6.11 (May 28th, 2026) for VCV Rack 2.
 
 - FranKe module: added right-click context menus for sequencer/pattern/track-related operations. Please notice this extra menu
