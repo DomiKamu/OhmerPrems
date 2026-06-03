@@ -14,7 +14,7 @@
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
 
 ---
-Lastest stable version **v2.6.12** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update. Will be available shortly from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) shortly for automatic installation/update.
+Lastest stable version **v2.6.12** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update. Also available from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update.
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
