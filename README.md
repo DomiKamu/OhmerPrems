@@ -3,7 +3,7 @@
 *OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Trial" otherwise) and some free modules for everyone, for VCV Rack 2.
 
 *OhmerPrems* plugin is a set of 6 modules (4 are fully operational), plus 3 as _expanders_:
-- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module, available as **beta pre-release**. [**FranKe User's Manual** (manual remains under construction)](docs/modules/FranKe/Manual.md)
+- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**)](docs/modules/FranKe/Manual.md) (this long manual remains under construction)
 - **6OP-DX** is a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**still under development**).
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
@@ -21,7 +21,7 @@ Lastest stable version **v2.6.12** is available from [_Releases_](https://github
 ----
 ## **FranKe module**
 
-[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this manual remains under construction)
+[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction)
 
 Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three, can be changed anytime you'll want):
 - as melodic track, who are using quantized notes, octaves, accidentals, and velocities.
@@ -37,7 +37,7 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module will be included into a future plugin release (planned for **v2.6.14**). Thanks for your understandings!
+6OP-DX module will be included into a future plugin release (planned for future **v2.6.14**). Thanks for your understandings!
 
 ----
 
