@@ -14,7 +14,7 @@
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
 
 ---
-Lastest stable version **v2.6.12** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update. Also available from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update.
+Lastest stable version **v2.6.12** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases) section for manual installation/update. Also available from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole plugin, or selected modules).
 
 [CHANGELOG](docs/CHANGELOG.txt)
 --
@@ -33,11 +33,11 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
 ----
-## **Work-in-Progress (postponed for weeks) module: 6OP-DX** (No sound to outputs at the moment!)
+## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module will be included into a future plugin release (planned for future **v2.6.14**). Thanks for your understandings!
+6OP-DX module will be included into a future plugin release (planned for future **v2.6.14** or **v2.6.15**), I'm sorry for this delay. This module will be "free for everyone" (it will work as full version, whatever you're owner of a license V2 keyfile, or not). Thanks for your understandings!
 
 ----
 
