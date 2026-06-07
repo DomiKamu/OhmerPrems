@@ -63,7 +63,7 @@ Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI 
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
-:warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free", instead of "Full"). Free version is limited upto 44.1kHz as samplerate, and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) have more feature limitations (specified in the Quick Guide).
+:warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free/Trial", instead of as full version). Free/Trial version is limited to edit fourth first tracks (BD, SD, CH, and OH), and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 drum machines are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) have more feature limitations (indicated in the Quick Guide).
 
 [Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](docs/modules/FroeZe/Manual.md)
 
@@ -75,7 +75,7 @@ FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (G
 
 ![](docs/modules/FroeZe/_img/FroeZe_Patch.png)
 
-Patch using FroeZe (_Dark "Signature"_ model, displays are dimmed - **left mouse click over Ohmer logo to switch bright/dim**)... but here without its companion (I mean... FroeZe-X expander). On AC'd note(s), without FroeZe-Xexpander, the sequencer delivers a **-10V** (1ms) triggers! by this way, you'll must "filter" the -10V signal, in order to invert it to +10V, then route it to alternate way. It is exactly the role of **[Polarity Switch](https://github.com/DomiKamu/Ohmer)** dual module (free Open Source module) - the tiny red module located at the left of red QuadPercs modules group...
+Patch using FroeZe... but here without FroeZe-X expander. On AC'd note(s), without this expander, the sequencer delivers a **-10V** (1ms) triggers! by this way, you'll must "filter" the -10V signal in order to invert it to +10V, then route it to alternate way. It is exactly the role of **[Polarity Switch](https://github.com/DomiKamu/Ohmer)** dual module (free Open Source module) - like the tiny red module located at the left of red QuadPercs modules group...
 
 ![](docs/modules/FroeZe/_img/FroeZe_Patch_NoExpander.png)
 
