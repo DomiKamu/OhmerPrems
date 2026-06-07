@@ -132,9 +132,9 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 
 ## **QuadPercs module**
 
-:warning: **No sound is meaning you don't have a license (V2) keyfile (while the module is running as "Free", instead of "Full"). Free version is limited upto 44.1kHz as samplerate, and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 are allowed (all other drum machines are muted)**.
+:warning: **No sound for particular drum machine + drum kit is meaning you don't have a license (V2) keyfile (while the module is running as "Free", instead of "Full"). Free version is limited to only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 (all other drum machines are muted, it's normal)**.
 
-However, since plugin v2.4.1, you can _preview_ ANY sound at ANY samplerate, by **disconnecting trigger input cable first** (on related channel). While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine (no matter the engine's samplerate). It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to try all drum machines/drum kits sounds, at any samplerate (from 44.1kHz upto 192kHz). When the channel input is patched, preview feature is disabled for related channel.
+However, you are able to _preview_ ANY sound, but by **disconnecting trigger input cable first** on related channel. While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine. It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to try all drum machines/drum kits sounds, at any engine's samplerate inside 44.1kHz to 192kHz range. When the channel input is patched, the preview feature is disabled for related channel.
 
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
@@ -234,12 +234,12 @@ Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 indepen
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
-- free version (limited to **5** fully working drum machines, operating at 44.1kHz only) to any who want to try it (fully usable, no other limitation). Other drum machines can be selected, but are muted (no audio output).
-- full version (all 16 drum machines, from 44.1 to 192kHz), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations.
+- free version (limited to **5** fully working drum machines, from 44.1kHz upto 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel is red instead of green.
+- full version (all 16 drum machines, from 44.1kHz upto 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels are always green.
 
-Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments. 44.1kHz sample rate only.
+Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz upto 192kHz engine's samplerates.
 
-Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, from 44.1kHz to 192kHz sample rates.
+Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, from 44.1kHz upto 192kHz engine's samplerates.
 
 KordZ module remains unfinished. Presentation coming later...
 
