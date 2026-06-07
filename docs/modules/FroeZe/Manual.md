@@ -20,7 +20,7 @@ This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to fa
 
 - Any track can be **MUTE**d (including AC track). Multiple MUTE tracks is possible.
 
-- MUTE and SOLO can be combined on same instrument track (except AC track, who can't be SOLOed).
+- MUTE and SOLO can be combined on same instrument track (except AC track, who can't be SOLOed only).
 
 - 128 patterns, each of them can be named. **Please follow displayed (OSD) instructions while (re)naming the current pattern!**
 
@@ -50,8 +50,6 @@ This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to fa
 
 - Smart OSD context menu (on right mouse click over a event cell, in grid). On right click over a ratchet note, its 7-step pattern can be changed on the fly (left mouse button clicks on relevant boxes!).
 
-- **Under consideration**: SONG mode, including integrated song editor.
-
 - Smart track completion (applied on current/selected track), from FroeZe-X expander's TRACK / AUTOFILL feature, or from OSD context menu.
 
 - Euclidean rhythm (applied on selected track only), from FroeZe-X expander's TRACK / EUCLID. page. Track is entirely filled by indicated STEPS, NOTES (number of "hits") and OFFSET (rotation).
@@ -80,8 +78,8 @@ This is a **68HP** drum-based step sequencer, named **FroeZe**, in tribute to fa
 
 ----
 
-Free version (without license V2 keyfile) is working as **full player** concerning **both trigger and audio engine QuadPercs modes** (all patterns/tracks are fully playable, even internal QuadPercs engine sounds, in order to keep the highest level of compatibility against shared patches created/edited by any *OhmerPrems member*). However, without license keyfile and by using any patch made by *OhmerPrems member*, all controls and edit features are locked (for every pattern/track/step) - except some allowed saving functions, such patterns (any), QuadPercs-engine drum kits setting, and "8-slot" ratcheting setting (once per pattern).
+Free version (without license V2 keyfile) is working as **full player** concerning **both trigger and audio engine QuadPercs modes**: as full player, all patterns/tracks are fully playable (even all internal QuadPercs engine sounds) in order to keep the highest level of compatibility vs. shared patches made by any *OhmerPrems member*. However, without license V2 keyfile and by using any patch made by *OhmerPrems member* (as full player, by this way), all controls and edit features are locked (for every pattern/track/step) - except some allowed saving functions such patterns (any), QuadPercs-engine drum kits setting, and "8-slot" ratcheting setting (once per pattern).
 
-When not using a configured FroeZe (from .vcv patch file) made by OhmerPrems member, after **Initialize** command (**Ctrl+I**, or **Command+I** on MacOS X platform), or on new FroeZe module instance, free version allows to edit **BD**, **SD** and **AC** tracks only, and restricted to the pattern 1 (all other patterns are edit-locked). Also, some edit features from FroeZe-X expander are inoperative.
+When not using a configured FroeZe (from .vcv patch file) made by any *OhmerPrems member*, after **Initialize** command (**Ctrl+I**, or **Command+I** on MacOS X platform), or on new FroeZe instance in your rack, Free/Trial version allows to edit **BD**, **SD**, **CH**, **OH** and **AC** tracks only, and restricted to the pattern 1 (all other patterns are edit-locked). Also, some edit features from FroeZe-X expander are inoperative.
 
-Free version: by using internal (QuadPercs) sounds (except if running as "free player"), allowed drum machines are strictly identical than standalone QuadPercs module: allowed drum machines are **Oberheim DMX**, **Drumulator**, **LinnDrum**, **Roland TR-707**, and **Roland TR-808**, at **44.1kHz only** (other drum machines and higher sample rates are reserved to OhmerPrems members, exclusively). However, any drum machine (and higher sample rates than 44.1kHz) can be selected, but their sounds are muted.
+Free/Trial version: by using internal (QuadPercs) sounds (except if running as "free player"), allowed drum machines are strictly identical than standalone QuadPercs module: allowed drum machines are **Oberheim DMX**, **Drumulator**, **LinnDrum**, **Roland TR-707**, and **Roland TR-808** (at any engine's sample rate between 44.1kHz and 192kHz range), other drum machines are reserved to OhmerPrems members, exclusively. However, any drum machine can be selected, but their sounds remain muted.
