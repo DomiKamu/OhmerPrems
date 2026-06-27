@@ -23,7 +23,7 @@ When the Sequential Circuits went bankrupt during 1987, the company was sold to 
 
 ### INTRODUCTION<a name="intro"></a>
 
-The objective of Vektor module is to provide the VCO part of synthesizers mentioned above, including the famous mixer joystick, and the automated MIXing ENVelope. Also provided two internal LFO (LFO 1, and LFO 2), and a FM input able to work as **TZ FM** (linear Through-Zero FM), or as **PM** (Phase Modulation, like Yamaha DX synthesizer family is using). However, some parts of these synthesizers, like filters and ADSR envelope generators, are not provided by Vektor module, assuming other third-party modules can do the similar job! By this way, when used alone, Vektor module cannot be assumed as "synth voice".
+The objective of Vektor module is to provide the VCO part of synthesizers mentioned above, including the famous mixer joystick, and the automated MIXing ENVelope. Also provided two internal LFO (LFO 1, and LFO 2), and a FM input able to work as **TZ FM** (linear Through-Zero FM), or as **PM** (Phase Modulation, like Yamaha DX synthesizer family is using). However, some parts of these synthesizers, like filters, ADSR envelope generators, and stereo, are not provided by Vektor module, assuming other third-party modules can do the similar job! By this way, when used alone, Vektor module cannot be assumed as "synth voice".
 
 Vektor module is using four independent oscillators, named **OSC A**, **OSC B**, **OSC C** and **OSC D** (A, B, C, and D always refers to OSC A, OSC B, OSC C, or OSC D oscillator), as source sounds, both of them are mixed either manually by the joystick, by external voltages applied to **X** and **Y** input jacks, or via the automated **MIX**ing **ENV**elope (triggered by **GATE** input jack).
 
@@ -31,14 +31,14 @@ Each oscillator uses samples (96 official are provided as "built-in ROM", from #
 
 However, you can import WAVE (.wav) file to any USER waveform "slot" (from #000 to #031, as **USER #1** to **USER #32** waveform slots).
 
-Vektor module give the **MIX** output (always post-joystick / post-MIX ENVelope), but also **A**, **B**, **C**, and **D** discrete outputs (for particular FX processing), each discrete output may be either post-joystick (or post MIX ENVelope) - as default behavior, or pre-joystick / pre MIX ENVelope (like "dry") audio signal (-5V/+5V, 10V peak-to-peak).
+As provided outputs, obviously the most important, **MIX** (always post-joystick / post MIX ENVelope), but also **A**, **B**, **C**, and **D** discrete outputs (for particular FX processings), each of any discrete output may be either post-joystick (or post MIX ENVelope) - as default behavior, or pre-joystick / pre MIX ENVelope (like "dry"), can be configured from 3rd page of particular oscillator. Every output delivers an audio signal (10V peak-to-peak, -5V/+5V range, mono).
 
-Vektor comes with (optional-to-use) 3HP "right side" expander, named **VX**, providing additional outputs:
-- **LFO 1** and **LFO 2** in top section, each outputs the configured LFO.
-- **JOY X** and **JOY Y**, middle section, who report the X (horizontal) and Y (vertical) position of the physical joystick.
+Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX**, who provides additional outputs:
+- **LFO 1** and **LFO 2** (top section), each will outputs the configured LFO signal (-5V/+5V sine, triangle, sawtooth, ramp, square or random S&H-like).
+- **JOY X** and **JOY Y** (middle section), who report the X (horizontal) and Y (vertical) position of the **physical joystick**.
 - **GATE** (bottom section), who outputs +10V while the MIX ENVelope is running (0V, otherwise).
-- **ENV X** and **ENV Y** (bottom section), who report the X and Y position of the MIX ENVelope (while running, point #4 positions otherwise).
+- **ENV X** and **ENV Y** (bottom section), who report the X and Y position of the running MIX ENVelope.
 
-Vektor VCO is polyphonic (up to 16 voices).
+Vektor VCO module is polyphonic (up to 16 voices).
 
 And the best for the end: both Vektor module and VX expander are totally free for everyone (license V2 keyfile isn't required).
