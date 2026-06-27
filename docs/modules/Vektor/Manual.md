@@ -8,6 +8,7 @@
 
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
 - [**INTRODUCTION**](#intro)
+- [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION**](#presetlimitation)
 - [**MODULE LAYOUT (VEKTOR)**](#layoutvek)
 - [**EXPANDER MODULE LAYOUT (VX)**](#layoutvx)
 
@@ -28,7 +29,9 @@ When the Sequential Circuits went bankrupt during 1987, the company was sold to 
 
 ### INTRODUCTION<a name="intro"></a>
 
-The objective of Vektor module is to provide the VCO part of synthesizers mentioned above, including the famous mixer joystick, and the automated MIXing ENVelope. Also provided two internal separate low-frequency oscillators (**LFO 1**, **LFO 2**), plus **FM input** able to work as **TZ FM** (linear Through-Zero FM), or **PM** (Phase Modulation, like Yamaha DX synthesizers family is using). These possible modulators are designed to modulate the frequency of any sound source (OSC A to OSC D), offering unlimited possibility for sound designers.
+The objective of Vektor module is to provide the VCO part of synthesizers mentioned above, including the famous mixer joystick, and the automated MIXing ENVelope. Also provided two internal separate low-frequency oscillators (**LFO 1**, **LFO 2**), plus **FM input** able to work as **TZ FM** (linear Through-Zero FM), or **PM** (Phase Modulation, like Yamaha DX synthesizers family is using). These possible modulators are designed to modulate the frequency of any sound source (OSC A to OSC D), offering ton possibility for sound designers, and custom timbres!
+
+**RING MODULATION** is not implemented (as TZFM and PM complement), but this feature is under consideration!
 
 However, some parts of these synthesizers, like filters, ADSR envelope generators, and stereo output, are not provided by Vektor module, assuming other third-party modules can do the similar job! By this way, when used alone, Vektor module cannot be assumed as "synth voice".
 
@@ -49,6 +52,12 @@ Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX
 Vektor VCO module is polyphonic (up to 16 voices).
 
 And the best for the end: both Vektor module and VX expander are totally free for everyone (license V2 keyfile isn't required).
+
+---
+
+### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION<a name="presetlimitation"></a>
+
+:warning: Due to **huge amount of datas** by using custom WAVE files as USER waveform for an oscillator (each file is approx. 4 kilobytes, 900kb when all 32 user slots are using an external .wav file, too large for json serialization), and the unavailability of "patch storage" for VCV Rack 2 preset files (.vcvm) - it's a VCV Rack 2 limitation (unfortunately) - when saving as "VCV Rack Preset" a well-configured Vektor module instance who include user waveforms, because these user waveforms are lost on open/recall! So, please proceed with caution about VCV Rack's "Preset" files & USER waveform(s)!
 
 ---
 
