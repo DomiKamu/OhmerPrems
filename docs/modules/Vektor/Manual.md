@@ -1,6 +1,7 @@
 # VEKTOR & VX: USER'S MANUAL (UNDER CONSTRUCTION)
 
 
+_They're all 8 models (GUI theme variations) for Vektor and its right-side attached VX expander modules:_
 ![](_img/AnimVektorModels.gif)
 
 
@@ -18,18 +19,20 @@
 
 Welcome into the **Vector Synthesis** universe!
 
-Vektor is a 16HP polyphonic digital VCO module, using [**Vector Synthesis**](https://en.wikipedia.org/wiki/Vector_synthesis) technology (often abbreviated as **VS**), conceived by Sequential Circuits company / Dave Smith, for his Prophet VS synthesizer manufactured from 1986. Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS synthesizer at this epoch (approx. USD 9,000-10,000 after 2026 conversion!).
+_Vektor_ is a 16HP polyphonic digital VCO module, using [**Vector Synthesis**](https://en.wikipedia.org/wiki/Vector_synthesis) technology (often abbreviated as **VS**) conceived by Sequential Circuits company for his Prophet VS synthesizer (manufactured from 1986). Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS synthesizer during this epoch (approx. USD 9,000 after 2026 conversion!).
 
 _This is the 1986 Prophet VS synthesizer, manufactured by Sequential Circuits:_
 ![](_img/Prophet_VS.png)
 
-When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D group, which went on to produce the [**Korg Wavestation**](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as advanced due to extra feature (_Wave Sequencing_).
+When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D department, which went on to produce the [**Korg Wavestation**](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as advanced, mainly due to extra feature: _Wave Sequencing_, to make evolving sounds.
+
+During 2015, Yamaha had returned the original trademark to **Dave Smith Instruments** (then rebranded as **Sequential** during 2018).
 
 ---
 
 ### INTRODUCTION<a name="intro"></a>
 
-The objective of Vektor module is to provide the VCO parts of the SCI Prophet VS synthesizer mentioned above, including the famous mixer joystick, and the automated MIXing ENVelope. Also provided, two internal (separate) low-frequency oscillators (**LFO 1**, **LFO 2**), plus a **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM), or **PM** (Phase Modulation, like Yamaha DX synthesizers family is using). These possible frequency modulators are designed to modulate any sound source you'll want (OSC A to OSC D), offering ton of possibilities for sound design, and a very rich palette of timbres!
+The objective of Vektor module is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick, and its automated MIXing ENVelope. Also provided by _Vektor_, two internal low-frequency oscillators (**LFO 1** and **LFO 2**), plus a **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM), or **PM** (Phase Modulation, used by Yamaha DX synthesizers family). These possible **frequency modulators** are designed to modulate any sound source you'll want (OSC A to OSC D), offering ton of possibilities for sound design, and rich palette of timbres!
 
 However, many parts like filters, ADSR envelope generators, and "stereo field", aren't provided by Vektor module, assuming they're a lot of third-party modules can do the similar job in our virtual Eurorack modular environment! By this way, when used alone, Vektor module cannot be considered as ready-to-use _synth voice_ module!
 
