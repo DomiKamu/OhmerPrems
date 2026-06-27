@@ -33,25 +33,27 @@ The objective of Vektor module is to provide the VCO parts of Prophet VS mention
 
 :information_source: as traditional FM/PM complement, **RING MODULATION** is not implemented, but this feature is under consideration!
 
-However, many parts like filters, ADSR envelope generators, and stereo output, are not provided by Vektor module, assuming other third-party modules can do the similar job in modular environment! By this way, when used alone, Vektor module cannot be considered as ready-to-use "synth voice".
+However, many parts like filters, ADSR envelope generators, and stereo field, are not provided by Vektor module, assuming many third-party modules can do the similar job, in Eurorack modular environment proposed by VCV Rack! By this way, when used alone, Vektor module cannot be considered as ready-to-use "synth voice"!
 
-Vektor is using four independent oscillators, named **OSC A**, **OSC B**, **OSC C** and **OSC D** (A, B, C, and D always refers to OSC A, OSC B, OSC C, or OSC D oscillator), as sound sources, both of them are mixed either manually by the joystick, by external voltages (applied to **X** and **Y** input jacks), or via fully automated **MIX**ing **ENV**elope (triggered by **GATE** input jack).
+Vektor is constantly using four independent oscillators, named **OSC A**, **OSC B**, **OSC C** and **OSC D** (simple letters *A*, *B*, *C*, and *D* also refers to respective OSC A, OSC B, OSC C, or OSC D, obviously), as sound sources. Both of them are mixed either manually by the joystick, by external voltages (applied to **X** and **Y** input jacks), or via fully automated **MIX**ing **ENV**elope (controlled by **GATE** input jack).
 
-Each oscillator uses samples (96 official are provided as "built-in ROM", numbered from #032 to #125). Please notice the built-in waveform number #126 is "silence", and waveform number #127 is **constant-frequency** white noise generator).
+Each oscillator uses single-cycle samples, named **waveform**, like the real Prophet VS hardware synthesizer does. The 96 official waveforms are provided as "built-in ROM", numbered from #032 to #125). Please notice the built-in waveform number #126 is "silence", and waveform number #127 is **constant-frequency** white noise generator). Built-in can be selected for any A/B/C/D oscillator, but can't be replaced by other.
 
-However, you can import WAVE (.wav) file to any USER waveform "slot" (from #000 to #031, as **USER #1** to **USER #32** waveform slots). WAVE importation will be explained in dedicated section of this user's manual!
+However, you can import WAVE (.wav) file to any **USER waveform** slot (numbered from #000 to #031, labelled as **USER #1** to **USER #32**). WAVE file importation will be explained in dedicated section of this user's manual!
 
-As provided outputs, obviously the most important is **MIX** (always post-joystick / post MIX ENVelope), but also **A**, **B**, **C**, and **D** discrete outputs (for particular FX processings), each of any discrete output may be either post-joystick (or post MIX ENVelope) - as default behavior, or pre-joystick / pre MIX ENVelope (like "dry" / not mixed), can be configured from third page of particular oscillator (A, B, C, D). Every output delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range).
+As module's outputs, obviously the most important is **MIX** (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete OSC outputs (useful for particular FX processings such delay, distortion, reverb, Leslie cab, compression, EQ, and so on), each discrete OSC output may be either post-joystick (or post MIX ENVelope) - as default behavior, or pre-joystick / pre MIX ENVelope (like "dry", aka not mixed).
 
-Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX** (accronym of... **V**ektor e**X**pander), offering 7 additional outputs:
+Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, may be polyphonic).
+
+Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX** (accronym of... **V**ektor e**X**pander), offering seven additional outputs:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
-- **JOY X** and **JOY Y** (middle section), who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick**.
-- **GATE** (bottom section), who outputs +10V while the MIX ENVelope is running (0V, otherwise).
-- **ENV X** and **ENV Y** (bottom section), who report the X and Y positions of the running MIX ENVelope (envelope point #4/release position, otherwise).
+- **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick**.
+- **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is unlit).
+- **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the running MIX ENVelope (envelope point #4/release position, otherwise).
 
-Vektor VCO module is polyphonic (up to 16 voices).
+Vektor VCO module is polyphonic, up to 16 voices. Be careful, however, about CPU load when increasing polyphony setting of the source module(s).
 
-And the best for the end: both Vektor module and VX expander are totally free for everyone (license V2 keyfile isn't required).
+Now the best for the end: both Vektor and VX expander are totally free for everyone (license V2 keyfile isn't required, the modules run as full unlimited).
 
 ---
 
