@@ -54,7 +54,7 @@ Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX
 
 Vektor VCO module is polyphonic, up to 16 voices. Be careful, however, about CPU load when increasing polyphony setting of the source module(s), please keep in mind 16 polyphonic channels x 4 oscillators, plus the MIX ENVelope who are using Pythagorean theorem & trigonometric functions (for trajectory) require more or less CPU resources.
 
-:information_source: Now, the best for the end: both Vektor and VX expander are totally free for everyone (license V2 keyfile isn't required for _Vektor_ / _VX_ modules)!
+:information_source: The best for the end, _Vektor_ and _VX_ modules are totally free for everyone (license V2 keyfile isn't required)!
 
 ---
 
