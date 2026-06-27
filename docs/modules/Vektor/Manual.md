@@ -65,48 +65,49 @@ The _Vektor_ module:
 - Designed for VCV Rack 2 application/plugin (v2.6.6, and more recent), either Free and Pro editions.
 - 16HP wide.
 - 8 models (GUI themes), shown as animation at the top of this page!
-- Follow the _Use dark panels if available_ VCV Rack 2 option, from module browser (_Aluminium_ for light, or _Absolute Night_ for dark panels).
+- Follow the _Use dark panels if available_ VCV Rack 2's option (from View menu), inside the module browser (_Aluminium_ for light panels, or _Absolute Night_ for dark panels).
 - OLED blue display (**not a touchscreen**!).
-- Five "context" momentary buttons (overlooked by "line-like" red LEDs), located below OLED display, to select a specific oscillator (A, B, C, or D), the MIX ENVelope context, or the PROGRAM context.
-- Five lateral momentary buttons, used to select displayed parameter in front of.
-- PAGE momentary button, to select next page (depending the context).
-- DATA ENTRY continuous encoder (will be named "encoder" in tis user's manual, below), to change parameter (or to select another program).
-- Polyphony: from 1 (mono) up to 16 voices.
+- Five "context" momentary buttons (overlooked by "line-like" red LEDs), located below OLED display, to select a specific oscillator (A, B, C, or D), the MIX ENVelope context, or the PROGRAM context (press the button where the LED is lit to access PROGRAM, all LED become unlit in this context).
+- Five lateral momentary buttons, used to select displayed parameter (TIP: blinking "cursor" indicates the selected parameter).
+- PAGE momentary button, to select next page, depending the context.
+- DATA ENTRY continuous encoder (will be named "encoder" in this manual), to change selected parameter.
+- Polyphony: from 1 (mono), up to 16 voices.
 - 4 sound sources: OSC A, OSC B, OSC C, and OSC D (also named respectively A, B, C, and D).
-- 96 built-in (ROM) waveforms, including silence (no sound / disabled OSC) and white noise.
-- Ability to import/use custom waveforms (32 available slots) via dropping the .wav file over the OLED display, or via right-click context menu.
-- Supported WAVE file format: Microsoft/IBM WAVE spec., 44100Hz, signed 16-bit PCM, 2048 samples, mono, single cycle (4140 bytes filesize).
-- Two internal (independent) low-frequency oscillators: LFO 1, LFO 2.
-- LFO frequency range: min. 0.01Hz, up to 50Hz (stepping by 0.01Hz).
-- Available LFO waveforms: sine, triangle, sawtooth, ramp (inverted sawtooth), square, and random (Sample & Hold).
-- Joystick, mainly used for manual mixing between oscillators. Also used to define the MIX ENVelope points.
+- 96 built-in (ROM) waveforms, including "silence" (no sound + disabled OSC), and constant-frequency white noise.
+- Ability to import/use custom waveforms (32 available slots), via dropping the .wav file over the OLED display, or right-click context menu.
+- Supported WAVE file format: Microsoft/IBM "WAVE" specification, 44100Hz, PC signed 16-bit, 2048 samples, mono, single cycle (4140 bytes filesize). Other formats are not supported by _Vektor_ module!
+- Two internal (independent) low-frequency oscillators: LFO 1 and LFO 2.
+- LFO frequency range: min. 0.01Hz, up to 50Hz (stepping by 0.01Hz), 2Hz as default factory.
+- LFO AMP range: min. 1%, up to 100%, to set the amplitude. At 0% the related LFO generator is turned off (not processed by the DSP).
+- Available LFO waveforms: sine, triangle, sawtooth, ramp (inverted sawtooth), square, and random (Sample & Hold by integrated white noise).
+- Joystick, mainly used for manual mixing between A/B/C/D oscillators. Also used to define the MIX ENVelope points.
 - Optional MIX ENVelope feature (automated mixing), using five X/Y points (point 0 is start, point 3 is sustain, point 4 is release).
 - MIX ENVelope rates (times in milliseconds required to reach the next point of the mix envelope).
-- MIX ENVelope loop at sustain point (point 3): up to 12 repeats (or infinite), uni-/bi-directional, from point 3 to 2 / 3 to 1 / 3 to 0.
+- MIX ENVelope may loop at sustain point (point 3): up to 12 repeats (or infinite), uni-/bi-directional, from point 3 to 2 / 3 to 1 / 3 to 0. Loop feature is off by default.
 - V/OCT input jack, for VCO pitch (polyphonic, 1V/octave compliant).
-- X and Y input jacks (physical joystick is ignored while **both jacks are connected** to external source). Operate at -5V/+5V range.
-- GATE input jack, to control the MIX ENVelope, and the retrigger for LFOs.
-- VEL (velocity) input jack, who accept -5V/+5V voltage range, to handle any oscillator's volume by incoming velocity voltage.
-- FM input jack (can be set as linear Through-Zero FM, or as Phase Modulation), who accept -5V/+5V voltage range.
-- MIX output jack (audio, mono, -5V/+5V range, polyphonic).
-- Discrete/separate A, B, C, and D output jacks (audio, mono, -5V/+5V range, polyphonic, post-/pre-joystick / mix envelope).
-- Each oscillator can be modulated by FM (TZ FM or PM, via FM input jack), by LFO 1, or by LFO 2.
-- 16 programs (a program looks as synthesizer preset/patch). The first 15 are "factory demos", the PROGRAM #16 is INIT. All can be altered.
-- The module is working at any samplerate (recommended for best results: 44100Hz, and higher frequencies).
+- X and Y input jacks (physical joystick moves are ignored while **both X and Y jacks are connected** to external source). Operate into -5V/+5V voltage range.
+- GATE input jack, to control the MIX ENVelope, and the retrigger for LFOs. Minimum gate voltage is +1V (+10V is recommended for gates, however).
+- VEL (velocity) input jack, accepting voltages into -5V/+5V range, to handle any oscillator's volume by incoming velocity voltage.
+- FM input jack (can be set as linear Through-Zero FM, or as Phase Modulation), accepting voltages into -5V/+5V range.
+- MIX output jack (audio, mono, -5V/+5V, polyphonic).
+- Discrete A, B, C, and D output jacks (audio, mono, -5V/+5V range, post-/pre-joystick / mix envelope, polyphonic).
+- Each oscillator can be frequency modulated by FM ("TZ FM" or "PM", via FM input jack), by internal LFO 1, or by internal LFO 2.
+- 16 programs (a "program" looks as synth preset/patch). The first 15 are "factory demos programs", the PROGRAM #16 is INIT. All can be altered, saved, and so on.
+- The module is working at any samplerate (recommended, for best results: 44100Hz and above).
 
 The _VX_ expander module:
 
 - Designed for VCV Rack 2 application/plugin (v2.6.6, or more recent), either "Free" and "Pro" editions.
 - 3HP wide.
-- To operate, this expander must be placed at the **right side of Vektor** module, **without space** between them.
-- 8 models (GUI themes), automatically follow the Vektor module's theme (watch the animation at the top of this page).
-- Follow the _Use dark panels if available_ VCV Rack 2's option, from module browser (_Aluminium_ for light, or _Absolute Night_ for dark panels).
+- To operate, _VX_ expander module must be placed alongside the **right side* of _Vektor_ module, **without space** between them!
+- 8 models (GUI theme variants), automatically follow the _Vektor_ module's theme when placed alongside (watch the animation at the top of this page).
+- Follow the _Use dark panels if available_ VCV Rack 2's option (from View menu), inside the module browser (_Aluminium_ for light panels, or _Absolute Night_ for dark panels).
 - Two LFO output jacks (LFO 1, LFO 2), -5V/+5V voltage range.
-- Two joystick-related output jacks (reporting X and Y positions), -5V/+5V voltage range.
-- Two mix envelope output jacks (reporting X and Y positions), -5V/+5V voltage range.
-- GATE output jack, who send +10V while the MIX ENVelope is running (otherwise, voltage is 0V, and its blue LED is unlit).
-- Each output jack have its RGB LED. In normal operation, all LED are solid green, except GATE (solid blue, with _afterglow_).
-- All LED **fast-blinking red** (as error condition) while the _VX_ expander is not linked to _Vektor_ module.
+- Two joystick-related output jacks (reporting X and Y positions), -5V/+5V voltage range, useful to control another module by the joystick.
+- Two MIX ENVelope output jacks (reporting X and Y positions of the running mix envelope), -5V/+5V voltage range.
+- GATE output jack, who outputs +10V gate while the MIX ENVelope is running (otherwise, voltage is 0V, and its blue LED is turned off).
+- Each output jack have its (RGB) LED. In normal operation, all LED are solid green color, except GATE (solid blue instead, with _afterglow_ for very short gate durations).
+- All LED are **fast-blinking red**, as error condition, while the _VX_ expander is not attached to _Vektor_ module!
 
 ---
 
