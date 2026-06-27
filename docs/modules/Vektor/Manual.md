@@ -33,8 +33,8 @@ However, you can import WAVE (.wav) file to any USER waveform "slot" (from #000 
 
 As provided outputs, obviously the most important, **MIX** (always post-joystick / post MIX ENVelope), but also **A**, **B**, **C**, and **D** discrete outputs (for particular FX processings), each of any discrete output may be either post-joystick (or post MIX ENVelope) - as default behavior, or pre-joystick / pre MIX ENVelope (like "dry"), can be configured from 3rd page of particular oscillator. Every output delivers an audio signal (10V peak-to-peak, -5V/+5V range, mono).
 
-Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX**, who provides additional outputs:
-- **LFO 1** and **LFO 2** (top section), each will outputs the configured LFO signal (-5V/+5V sine, triangle, sawtooth, ramp, square or random S&H-like).
+Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX** (accronym of... **V**ektor e**X**pander), who provides seven additional outputs:
+- **LFO 1** and **LFO 2** (top section), each will outputs the related & configured LFO signal (-5V/+5V sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section), who report the X (horizontal) and Y (vertical) position of the **physical joystick**.
 - **GATE** (bottom section), who outputs +10V while the MIX ENVelope is running (0V, otherwise).
 - **ENV X** and **ENV Y** (bottom section), who report the X and Y position of the running MIX ENVelope.
