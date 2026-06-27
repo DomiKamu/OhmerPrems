@@ -24,27 +24,31 @@ _Vektor_ is a 16HP polyphonic digital VCO module, using [**Vector Synthesis**](h
 _This is the 1986 Prophet VS synthesizer, manufactured by Sequential Circuits:_
 ![](_img/Prophet_VS.png)
 
-When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D department, which went on to produce the [**Korg Wavestation**](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as advanced, mainly due to extra feature: _Wave Sequencing_, to make evolving sounds.
+When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha, who have developed the SY22, SY35, and TG33. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D department, which went on to produce the [**Korg Wavestation**](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as advanced, mainly due to extra features such _Wave Sequencing_ to create evolving sounds.
 
 During 2015, Yamaha had returned the original trademark to **Dave Smith Instruments** (then rebranded as **Sequential** during 2018).
+
+Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vangelis, Brian Eno, Kraftwerk, Erasure, French singers Michel Berger and Christophe, and filmmaker John Carpenter.
 
 ---
 
 ### INTRODUCTION<a name="intro"></a>
 
-The objective of Vektor module is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick, and its automated MIXing ENVelope. Also provided by _Vektor_, two internal low-frequency oscillators (**LFO 1** and **LFO 2**), plus a **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM), or **PM** (Phase Modulation, used by Yamaha DX synthesizers family). These possible **frequency modulators** are designed to modulate any sound source you'll want (OSC A to OSC D), offering ton of possibilities for sound design, and rich palette of timbres!
+The objective of Vektor module is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading), and its MIXing ENVelope (working like an "automation curve" visible in most modern DAWs, to control the waveform crossfading automatically).
 
-However, many parts like filters, ADSR envelope generators, and "stereo field", aren't provided by Vektor module, assuming they're a lot of third-party modules can do the similar job in our virtual Eurorack modular environment! By this way, when used alone, Vektor module cannot be considered as ready-to-use _synth voice_ module!
+Also provided by _Vektor_, two internal (independent) low-frequency oscillators (**LFO 1** and **LFO 2**), plus **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM) or **PM** (Phase Modulation, variant of FM synthesis used by Yamaha DX synthesizers family). These possible **frequency modulators** are designed to modulate any sound source (waveform) you'll want (OSC A, B, C or D), offering near infinite possibilities to a sound designer.
 
-Vektor is constantly using four independent oscillators, named **OSC A**, **OSC B**, **OSC C** and **OSC D** (simple letters *A*, *B*, *C*, and *D* also refers to respective OSC A, OSC B, OSC C, or OSC D, obviously), as sound sources. Both of them are mixed either manually by the joystick, by external voltages (applied to **X** and **Y** input jacks), or via fully automated **MIX**ing **ENV**elope (controlled by **GATE** input jack).
+However, many parts who have existed in real Prophet VS synthesizer, like filters, ADSR envelope generators, stereo field/panning, chorus and embedded FX (and possibly more), aren't provided by Vektor module, assuming they're a lot of third-party modules can do the similar job inside our virtual Eurorack modular environment! By this way, when used alone, Vektor module cannot be considered as ready-to-use _synth voice_ module!
+
+Vektor is using four independent oscillators (waveforms), named **OSC A**, **OSC B**, **OSC C** and **OSC D** (simple letters *A*, *B*, *C*, and *D* also refers to respective OSC A, OSC B, OSC C, or OSC D, obviously), as sound sources. Both of them are mixed (crossfading) either manually by the joystick, by external voltages (applied to **X** and **Y** input jacks), or via fully automated **MIX**ing **ENV**elope (controlled by **GATE** input jack).
 
 Each oscillator uses single-cycle samples, named **waveform**, like the real Prophet VS hardware synthesizer does. The 96 official waveforms are provided as "built-in ROM", numbered from #032 to #125). Please notice the built-in waveform number #126 is "silence", and waveform number #127 is **constant-frequency** white noise generator). Built-in can be selected for any A/B/C/D oscillator, but can't be replaced by other.
 
 However, you can import WAVE (.wav) file to any **USER waveform** slot (numbered from #000 to #031, labelled as **USER #1** to **USER #32**). WAVE file importation will be explained below, in dedicated section of this user's manual!
 
-As module's outputs, obviously the most important is **MIX** (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete OSC outputs (useful for particular FX processings such delay, distortion, reverb, Leslie cab, compression, EQ, and so on), each discrete OSC output may be either post-joystick (or post MIX ENVelope) - as default behavior, or pre-joystick / pre MIX ENVelope (like "dry", aka not mixed).
+As module's outputs, obviously the most important is **MIX** (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete OSC outputs (useful for particular FX processings). Each discrete OSC output may be either post-joystick (or post MIX ENVelope) - it's the default behavior, or pre-joystick (or pre MIX ENVelope) like "dry" / unmixed.
 
-Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, may be polyphonic).
+Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, may be polyphonic), can be sent to mixer/AUDIO module, to another module for additional audio FX processing, or as modulation source for other module (FM, AM, envelope follower, ring modulator, and so on).
 
 Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX** (accronym of... **V**ektor e**X**pander), offering seven additional outputs:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
