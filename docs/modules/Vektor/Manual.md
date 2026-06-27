@@ -57,7 +57,9 @@ And the best for the end: both Vektor module and VX expander are totally free fo
 
 ### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION<a name="presetlimitation"></a>
 
-:warning: Due to **huge amount of datas** by using custom WAVE files as USER waveform for an oscillator (each file is approx. 4 kilobytes, 900kb when all 32 user slots are using an external .wav file, too large for json serialization), and the unavailability of "patch storage" for VCV Rack 2 preset files (.vcvm) - it's a VCV Rack 2 limitation (unfortunately) - when saving as "VCV Rack Preset" a well-configured Vektor module instance who include user waveforms, because these user waveforms are lost on open/recall! So, please proceed with caution about VCV Rack's "Preset" files & USER waveform(s)!
+:warning: Due to **huge amount of datas** by using custom WAVE files as USER waveform (to USER slot, for #000 to #031), each WAVE file is 4140 bytes (900 kilobytes, when all 32 user slots are using an external .wav file, too large for reasonable json serialization), and the unavailability of "patch storage" for preset files (.vcvm) - it's unfortunately a weird VCV Rack 2 limitation - when saving the module's state as VCV Rack 2 "Preset" if the module instance includes several user waveforms (because these user waveforms are lost on open/recall, later).
+
+So, please proceed with caution about VCV Rack's "Preset" files and USER waveform(s)!
 
 ---
 
