@@ -18,12 +18,12 @@
 
 Welcome into the **Vector Synthesis** (VS) universe!
 
-Vektor is a 16HP digital polyphonic VCO module, using [**Vector Synthesis**](https://en.wikipedia.org/wiki/Vector_synthesis) technology (sometimes abbreviated as **VS**), conceived and manufactured by Sequential Circuits company, during 1986, for its Prophet VS synthesizer. Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS synthesizer during its commercial period (approx. USD 9000, as 2026 conversion!).
+Vektor is a 16HP digital polyphonic VCO module, using [**Vector Synthesis**](https://en.wikipedia.org/wiki/Vector_synthesis) technology (sometimes abbreviated as **VS**), conceived and manufactured by Sequential Circuits company, during 1986 for his Prophet VS synthesizer. Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS synthesizer during its commercial period (approx. USD 9000, as 2026 conversion!).
 
 _This is the 1986 Prophet VS synthesizer, by Sequential Circuits:_
 ![](_img/Prophet_VS.png)
 
-When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D group, which went on to produce the [Korg Wavestation](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... advanced (the Wavestation synthesizer had "Wave Sequencing" innovative feature).
+When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D group, which went on to produce the [Korg Wavestation](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as advanced because the Wavestation synthesizer had _Wave Sequencing_ extra feature.
 
 ---
 
