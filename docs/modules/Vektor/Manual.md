@@ -91,15 +91,15 @@ The _Vektor_ module:
 - FM input jack (can be set as linear Through-Zero FM, or as Phase Modulation), accepting voltages into -5V/+5V range.
 - MIX output jack (audio, mono, -5V/+5V, polyphonic).
 - Discrete A, B, C, and D output jacks (audio, mono, -5V/+5V range, post-/pre-joystick / mix envelope, polyphonic).
-- Each oscillator can be frequency modulated by FM ("TZ FM" or "PM", via FM input jack), by internal LFO 1, or by internal LFO 2.
-- 16 programs (a "program" looks as synth preset/patch). The first 15 are "factory demos programs", the PROGRAM #16 is INIT. All can be altered, saved, and so on.
+- Each oscillator can be _frequency modulated_ either by FM ("TZ FM" or "PM", via FM input jack), by internal LFO 1, or by internal LFO 2.
+- 16 programs (a "program" looks as synth preset/patch). The first 15 are "factory demos programs", the PROGRAM #16 is INIT. All can be altered, saved, recalled...
 - The module is working at any samplerate (recommended, for best results: 44100Hz and above).
 
 The _VX_ expander module:
 
 - Designed for VCV Rack 2 application/plugin (v2.6.6, or more recent), either "Free" and "Pro" editions.
 - 3HP wide.
-- To operate, _VX_ expander module must be placed alongside the **right side* of _Vektor_ module, **without space** between them!
+- To operate, _VX_ expander module must be placed alongside the **right side** of _Vektor_ module, **without space** between them!
 - 8 models (GUI theme variants), automatically follow the _Vektor_ module's theme when placed alongside (watch the animation at the top of this page).
 - Follow the _Use dark panels if available_ VCV Rack 2's option (from View menu), inside the module browser (_Aluminium_ for light panels, or _Absolute Night_ for dark panels).
 - Two LFO output jacks (LFO 1, LFO 2), -5V/+5V voltage range.
@@ -107,17 +107,17 @@ The _VX_ expander module:
 - Two MIX ENVelope output jacks (reporting X and Y positions of the running mix envelope), -5V/+5V voltage range.
 - GATE output jack, who outputs +10V gate while the MIX ENVelope is running (otherwise, voltage is 0V, and its blue LED is turned off).
 - Each output jack have its (RGB) LED. In normal operation, all LED are solid green color, except GATE (solid blue instead, with _afterglow_ for very short gate durations).
-- All LED are **fast-blinking red**, as error condition, while the _VX_ expander is not attached to _Vektor_ module!
+- All LED are **fast-blinking red**, as error condition, indicating the _VX_ expander is not attached to _Vektor_ module!
 
 ---
 
 ### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION<a name="presetlimitation"></a>
 
-:warning: Due to **huge amount of datas by using custom WAVE file(s) as USER waveform(s)**, each supported WAVE file is 4140 bytes filesize (900 kilobytes when all 32 user slots are loaded with an external .wav file, so it's too large for reasonable and reliable json serialization), and the unavailability of "patch storage" for preset files (.vcvm) - unfortunately this is a weird VCV Rack 2 limitation - when saving the module's state as **VCV Rack 2 "Preset"** in case the module instance includes user waveform(s), because these waveforms are lost/missing on open/recall by the preset file, later!
+:warning: Due to **huge amount of datas by using custom WAVE file(s) as USER waveform(s)**, each supported WAVE file is **4140 bytes filesize** (900 kilobytes when all 32 user slots are loaded with an external .wav file, so it's too large for reasonable and reliable json serialization), and the unavailability of "patch storage" for preset files (.vcvm) is really problematic - unfortunately this is a VCV Rack 2 limitation - when saving the module's state as **VCV Rack 2's "Preset"** in case the current module instance includes one or many user waveforms, because these waveforms are lost/missing on open/recall by the preset file, later!
 
-So, please proceed with caution about VCV Rack's "Preset" files and USER waveform(s)!
+So, please proceed with caution about VCV Rack 2's "Preset" files and USER waveform(s)! (all other module datas are "Preset" compatible, however).
 
-In case of problems about this, please contact support@vcvrack.com to request a "patch storage" per preset files! **I do not provide technical support concerning THIS PROBLEM** because I'm not responsible. Thanks in advance for your understanding!
+In case of problems about this, please contact support@vcvrack.com to request a "patch storage" per preset files! **I'll do not provide any technical support concerning THIS PROBLEM** because I'm not responsible about this fact. Thanks in advance for your understanding!
 
 ---
 
