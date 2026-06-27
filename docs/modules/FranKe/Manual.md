@@ -55,7 +55,7 @@ All four Non-"Signature" models embed **silver metal** jacks, momentary buttons,
 
 Obviously, all models are providing exactly the same features!
 
-:information_source: _FranKe_ module is under development. Now available as **BETA pre-release (v2.6.9)**.
+:information_source: _FranKe_ module is available as final (v1.0) version since OhmerPrems plugin v2.6.12, but it will be enhanced later!
 
 ---
 
