@@ -17,6 +17,9 @@ Welcome into the **Vector Synthesis** (VS) universe!
 
 Vektor is a 16HP digital polyphonic VCO module, using Vector Synthesis technology, conceived and developed by Sequential Circuits company during 1986, for its Prophet VS synthesizer. Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS (approx. USD 9000, as 2026 conversion!).
 
+_The 1986 Prophet VS synthesizer, manufactured by Sequential Circuits:_
+![](_img/Prophet_VS.png)
+
 When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the KORG USA R&D group, which went on to produce the KORG WAVESTATION synthesizer.
 
 ---
