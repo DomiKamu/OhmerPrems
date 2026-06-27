@@ -1,7 +1,7 @@
 # VEKTOR & VX: USER'S MANUAL (UNDER CONSTRUCTION)
 
 
-![](_img/AnimFranKeModelsV2.gif)
+![](_img/AnimVektorModels.gif)
 
 
 ### TOPICS
