@@ -150,6 +150,7 @@ They are exactly 6 contexts provided by the _Vektor_ module, like:
 - **PROGRAM**, when all LED are turned off (all unlit).
 
 These context are represented by the five buttons & red LED, located just below the OLED display, visible in the following animation:
+
 ![](_img/VektorContexts.gif)
 
 The oscillator related context (A, B, C, or D) permits to select its waveform (by rotating the **DATA ENTRY** encoder to choose previous or next waveform), to import a custom waveform (valid only when the selected waveform is a USER waveform, from number **000** to **031**, respectively named from **USER #1** to **USER #32**), to erase (clear) the current user waveform slot (via right click context menu, enabled menu if appropriate), and to select extra parameters (frequency, volume) by pressing the **PAGE** button.
