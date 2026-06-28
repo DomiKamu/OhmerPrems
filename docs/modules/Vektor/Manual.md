@@ -153,15 +153,15 @@ These context are represented by the five buttons & red LED group, located just 
 
 ![](_img/VektorContexts.gif)
 
-The oscillator related context (A, B, C, or D) permits to select the oscillator waveform (by rotating the **DATA ENTRY** encoder, to choose previous or next waveform), to import a custom waveform (valid only when the selected waveform is a USER waveform, from number **000** to **031**, respectively named from **USER #1** to **USER #32**), to erase (clear) the current user waveform (via right click context menu, enabled menu only when appropriate), and to select extra parameters (frequency, volume) by pressing the **PAGE** button.
+The oscillator related context (A, B, C, or D) permits to select the oscillator waveform (by rotating the **DATA ENTRY** continuous encoder, to choose previous or next waveform), to import a custom waveform - valid only when the selected waveform is a USER waveform, from number **000** to **031**, respectively named from **USER #1** to **USER #32**, to erase (to free/clear) the current user waveform slot (via right click context menu, enabled menu only when appropriate), and to select extra parameters (frequency, volume) by pressing the **PAGE** button (above DATA ENTRY encoder).
 
-The MIX context permits to edit/review all the parameters of the MIX ENVelope (always for the current program).
+The MIX context permits to edit/review all the parameters of the MIX ENVelope (always related to the current program).
 
-A "program" is a kind of "synthesizer preset or patch", identified by a number (**01** to **16**) and related name (eg. **PIPE ORGAN**), who collect all settings for the four oscillators, the mix envelope, legato/unison/detune (not available at the moment/W.I.P.), FM input depth/mode, LFO 1, and LFO 2.
+A "program" is a kind of _synthesizer preset or patch_, identified either by a number (**01** to **16**) and name (eg. **PIPE ORGAN**). Program collects all settings for the four oscillators, the joystick position, the mix envelope, legato/unison/detune (not available at the moment/planned), FM input depth/mode, LFO 1, and LFO 2.
 
-To select a different context, press the related button (A, B, C, D, or MIX) when its LED is off/unlit: _Vektor_ is switched to selected context (except PROGRAM) and its red LED is lit.
+To select another context, press the related button (A, B, C, D, or MIX) when its LED is unlit: _Vektor_ is switched to selected context, and its red LED is lit.
 
-:information_source: To select PROGRAM context, press on the button **where its LED is already lit**: by doing this, all LED become unlit, indicating the _Vektor_ module is switched to PROGRAM context (please notice **PROGRAM** and **OSC** contexts are always indicated on the top of the OLED display, **MIX** shows the mix envelope points and trajectory).
+:information_source: To select PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED become unlit, indicating the _Vektor_ module is switched to PROGRAM context (please notice **PROGRAM** and **OSC x WAVEFORM** contexts are always indicated on the top of the OLED display, _a contrario_, **MIX** context shows the mix envelope points and current trajectory).
 
 
 ---
