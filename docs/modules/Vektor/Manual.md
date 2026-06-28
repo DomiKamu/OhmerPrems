@@ -129,7 +129,9 @@ Except user waveforms, all other module datas are 100% "Preset" compatible, howe
 
 In case of problems about user waveforms, please contact support@vcvrack.com to request a "patch storage" per preset profile!
 
-As possible comprise, perhaps I'll must to consider **the first 4 user slots** to go to preset json file (to offer a partial compatibility), and other waveforms (from 5th to 32nd) to go to existing patch storage...
+:information_source: **LASTEST ADDITION:** as possible compromise, perhaps I'll must to consider **the first 4 user slots** aka waveforms **000** to **003** / **USER #1** to **USER #4** (about more reasonable 16 kbytes, instead of 130) to be serialized to "json" file, in order to offer a "partial compatibility" against VCV Rack's preset mechanism, and all other waveforms (numbered from **004** to **031**) will to go to existing patch storage (but not recalled from a .vcvm preset file, however)...
+
+Another possible way is to extend to all 32 (but the 130 kbytes...), via an (default unchecked) option from right click context menu, to save all user waveforms in "json" file... Perhaps an displayed "warning dialog box" when enabled from right click context menu (I don't know to be honest)...
 
 ---
 
