@@ -72,7 +72,7 @@ Vektor VCO module is polyphonic, up to 16 voices (channels). Please be careful a
 
 _Vektor_ module technical specifications:
 
-- Designed for VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
+- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 16HP.
 - Available models (GUI theme variants): 8 (please watch the animation at the top of this page, for available models).
 - Display: **non-touchscreen** OLED (blue).
@@ -86,30 +86,31 @@ _Vektor_ module technical specifications:
 - User waveforms: max. 32 (per module instance).
 - Wave importation: Microsoft/IBM WAVE, PCM signed 16-bit, 44100Hz, mono, 2048 samples. **Filesize must be 4140 bytes**.
 - Wavetable support: no (like the real Prophet VS synthesizer).
-- LFO: 2 internal (separate) LFO 1 and LFO 2, per program.
+- LFO: 2 internal (separate) LFO 1 and LFO 2 (settings per program).
 - LFO frequency range: min. 0.01Hz, max. 50Hz, resolution 0.01Hz, default 2Hz.
 - LFO AMPlitude range: min. 0% (LFO is turned off), max. 100% (+5V).
 - LFO waveforms: sine, triangle, sawtooth, ramp (inverted sawtooth), square, random.
-- Joystick: manual A/B/C/D volume crossfading, MIX ENVelope points editing.
-- MIX ENVelope (automated A/B/C/D mixing): yes, fully customizable, controlled by GATE, per program.
-- MIX ENVelope points: 5 (point 0 is start, point 3 is sustain, point 4 is release).
-- MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms).
-- MIX ENVelope loop.
-- Input jacks: 7 (V/OCT, joystick X, joystick Y, GATE, VEL, FM).
-- Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Per program.
-- OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator, per program.
+- Joystick: manual A/B/C/D volume crossfading, MIX ENVelope points edit.
+- MIX ENVelope (automated A/B/C/D mixing): fully customizable (mix envelope settings per program).
+- MIX ENVelope control: by GATE input jack.
+- MIX ENVelope points: 5, all customizable (point 0 is start, point 3 is sustain, point 4 is release).
+- MIX ENVelope rates: 4,all customizable (times in milliseconds, min. 0ms, max. 5000ms).
+- MIX ENVelope loop: yes, all customizable (please read MIX ENVELOPE LOOP chapter).
+- Input jacks: 7 (V/OCT, joystick X, joystick Y, GATE, VEL, FM). All accept -5V/+5V voltages (no limit for V/OCT).
+- Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Settings per program.
+- OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator and per program.
 - Output jacks: 5 (MIX, A, B, C, D).
-- Output voltage ranges: -5V to +5V.
+- Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono).
-- Programs: 16.
-- RGB LED: no (single colored LEDs, for inputs: yellow for V/OCT, blue for GATE, green for VEL and FM).
-- Operational sample rate: recommended 44100Hz and higher.
+- Programs: 16, all customizable. Any program can be saved/loaded to/from separate file(s).
+- RGB LED: no (single colored LEDs. Inputs: yellow for V/OCT, blue for GATE, green for VEL and FM. No LED for outputs).
+- Operational sample rate: recommended 44100Hz and higher frequencies.
 - SIMD technology: no.
-- Self-test feature: on first installation in rack, on full reset to default factory.
+- Self-test feature: on first module installation in the rack, on full reset to default factory (Initialize / Ctrl+I).
 
 _VX_ expander module technical specifications:
 
-- Designed for VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
+- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 3HP.
 - Must be placed alongside the **right side** of any _Vektor_ module, **without space** between them.
 - Available models (GUI theme variants): 8, automatically follows the _Vektor_ module's model when linked.
