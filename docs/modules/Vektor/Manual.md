@@ -65,66 +65,61 @@ Vektor VCO module is polyphonic, up to 16 voices (channels). Be careful, however
 
 ---
 
-### MODULES SPECIFICATIONS (VEKTOR, VX)<a name="layoutvek"></a>
+### MODULES SPECIFICATIONS<a name="specs"></a>
 
-The _Vektor_ module:
+_Vektor_ module technical specifications:
 
-- Designed for VCV Rack 2 (v2.6.6, or more recent), either "Free" and "Pro" editions.
-- 16HP wide.
-- 8 models (GUI themes), shown as animation at the top of this page!
-- From module browser, _Vektor_ module follows the **Use dark panels if available** VCV Rack 2's global option (from _View_ menu). For light panels, _Aluminium_ model is visible. For dark panels, _Absolute Night_ is visible, instead.
-- OLED blue display (**not a touchscreen**!).
-- Five "context" momentary buttons (overlooked by "line-like" red LEDs), located below OLED display, to select a specific oscillator (A, B, C, or D), the MIX ENVelope context, or the PROGRAM context (press the button where the LED is lit to access PROGRAM, all LED become unlit in this context).
-- Five lateral momentary buttons, used to select displayed parameter (TIP: blinking "cursor" indicates the selected parameter).
-- PAGE momentary button, to select next page, depending the context.
-- DATA ENTRY continuous encoder (will be named "encoder" in this manual), to change selected parameter.
-- Polyphony: from 1 (mono), up to 16 voices.
-- 4 sound sources: OSC A, OSC B, OSC C, and OSC D (also named respectively A, B, C, and D).
-- 96 built-in (ROM) waveforms, including "silence" (no sound + disabled OSC), and constant-frequency white noise.
-- Ability to import/use custom waveforms (32 available slots), via dropping the .wav file over the OLED display, or right-click context menu.
-- Supported WAVE file format: Microsoft/IBM "WAVE" specification, 44100Hz, PC signed 16-bit, 2048 samples, mono, single cycle (4140 bytes filesize). Other formats are not supported by _Vektor_ module!
-- Two internal (independent) low-frequency oscillators: LFO 1 and LFO 2.
-- LFO frequency range: min. 0.01Hz, up to 50Hz (stepping by 0.01Hz), 2Hz as default factory.
-- LFO AMP range: min. 1%, up to 100%, to set the amplitude. At 0% the related LFO generator is turned off (not processed by the DSP).
-- Available LFO waveforms: sine, triangle, sawtooth, ramp (inverted sawtooth), square, and random (Sample & Hold by integrated white noise).
-- Joystick, mainly used for manual mixing between A/B/C/D oscillators. Also used to define the MIX ENVelope points.
-- Optional MIX ENVelope feature (automated mixing), using five X/Y points (point 0 is start, point 3 is sustain, point 4 is release).
-- MIX ENVelope rates (times in milliseconds required to reach the next point of the mix envelope).
-- MIX ENVelope may loop at sustain point (point 3): up to 12 repeats (or infinite), uni-/bi-directional, from point 3 to 2 / 3 to 1 / 3 to 0. Loop feature is off by default.
-- V/OCT input jack, for VCO pitch (polyphonic, 1V/octave compliant).
-- X and Y input jacks (physical joystick moves are ignored while **both X and Y jacks are connected** to external source). Operate into -5V/+5V voltage range.
-- GATE input jack, to control the MIX ENVelope, and the retrigger for LFOs. Minimum gate voltage is +1V (+10V is recommended for gates, however).
-- VEL (velocity) input jack, accepting voltages into -5V/+5V range, to handle any oscillator's volume by incoming velocity voltage.
-- FM input jack (can be set as linear Through-Zero FM, or as Phase Modulation), accepting voltages into -5V/+5V range.
-- MIX output jack (audio, mono, -5V/+5V, polyphonic).
-- Discrete A, B, C, and D output jacks (audio, mono, -5V/+5V range, post-/pre-joystick / mix envelope, polyphonic).
-- Each oscillator can be _frequency modulated_ either by FM ("TZ FM" or "PM", via FM input jack), by internal LFO 1, or by internal LFO 2.
-- 16 programs (a "program" looks as synth preset/patch). The first 15 are "factory demos programs", the PROGRAM #16 is INIT. All can be altered, saved, recalled...
-- The module is working at any samplerate (recommended, for best results: 44100Hz and above).
+- Designed for VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
+- Width: 16HP.
+- Available models (GUI theme variants): 8 (please watch the animation at the top of this page, for available models).
+- Display: **non-touchscreen** OLED (blue).
+- 5 "context" momentary buttons OSC A, OSC B, OSC C, OSC D, MIX, overlooked by horizontal red LED "bars".
+- 5 left-side momentary buttons L1 to L5.
+- PAGE momentary button.
+- DATA ENTRY continuous encoder.
+- Polyphony: yes (max. 16 polyphonic voices/channels).
+- Sound sources: 4 (OSC A, OSC B, OSC C, and OSC D), using waveforms/samples.
+- Built-in ROM waveforms: 96, including "silence" (disabled OSC), and constant-frequency white noise.
+- User waveforms: max. 32 (per module instance).
+- LFO: 2 internal (separate) LFO 1 and LFO 2, per program.
+- LFO frequency range: min. 0.01Hz, max. 50Hz, resolution 0.01Hz, default 2Hz.
+- LFO AMPlitude range: min. 0% (LFO is turned off), max. 100% (+5V).
+- LFO waveforms: sine, triangle, sawtooth, ramp (inverted sawtooth), square, random.
+- Joystick: manual A/B/C/D volume crossfading, MIX ENVelope points editing.
+- MIX ENVelope (automated A/B/C/D mixing): yes, fully customizable, controlled by GATE, per program.
+- MIX ENVelope points: 5 (point 0 is start, point 3 is sustain, point 4 is release).
+- MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms).
+- MIX ENVelope loop.
+- Input jacks: 7 (V/OCT, joystick X, joystick Y, GATE, VEL, FM).
+- Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Per program.
+- OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator, per program.
+- Output jacks: 5 (MIX, A, B, C, D).
+- Output voltage ranges: -5V to +5V.
+- Stereo: none (all outputs are mono).
+- Programs: 16.
+- RGB LED: no (single colored LEDs, for inputs: yellow for V/OCT, blue for GATE, green for VEL and FM).
+- Operational sample rate: recommended 44100Hz and higher.
+- Self-test feature: on first installation in rack, on full reset to default factory.
 
-The _VX_ expander module:
+_VX_ expander module technical specifications:
 
-- Designed for VCV Rack 2 (v2.6.6, or more recent), either "Free" and "Pro" editions.
-- 3HP wide.
-- To operate, _VX_ expander module must be placed alongside the **right side** of any _Vektor_ module, **without space** between them!
-- From module browser, _VX_ expander module follows the **Use dark panels if available** VCV Rack 2's global option (from _View_ menu). For light panels, _Aluminium_ model is visible. For dark panels, _Absolute Night_ is visible, instead.
-- Its "model" (GUI theme variant) automatically follows the _Vektor_ module's theme, when placed alongside (watch the animation at the top of this page for models).
-- Two LFO output jacks (LFO 1, LFO 2), delivering -5V/+5V voltages.
-- Two joystick-related output jacks (reporting X and Y positions of the **physical joystick**), -5V/+5V voltage range (useful to control another module by the joystick).
-- Two MIX ENVelope output jacks, reporting X and Y positions of the running mix envelope, -5V/+5V voltage range.
-- GATE output jack, who outputs +10V gate while the MIX ENVelope is running (otherwise, voltage is 0V low-gate, and its blue LED is unlit).
-- Each output jack have its (RGB) LED. In normal operation, all LED are solid green color, except GATE (solid blue instead, with _afterglow_ for very short gate durations).
-- All LED are **fast-blinking red** as error condition, indicating the _VX_ expander is not attached to a _Vektor_ module!
+- Designed for VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
+- Width: 3HP.
+- Must be placed alongside the **right side** of any _Vektor_ module, **without space** between them.
+- Available models (GUI theme variants): 8, automatically follows the _Vektor_ module's model when linked.
+- Outputs: 8 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
+- Output voltage ranges: -5V to +5V.
+- LED: per output, all RGB.
 
 ---
 
 ### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitation"></a>
 
-:warning: Due to **huge amount of datas by using custom WAVE file(s) as USER waveform(s)**, each supported WAVE file is **4140 bytes filesize** (900 kilobytes when all 32 user slots are loaded with an external .wav file, so it's too large for reasonable and reliable json serialization), and the unavailability of "patch storage" for preset files (.vcvm) is really problematic - unfortunately this is a VCV Rack 2 limitation - when saving the module's state as **VCV Rack 2's "Preset"** in case the current module instance includes one or many user waveforms, because these waveforms are lost/missing on open/recall by the preset file, later!
+:warning: Due to **huge amount of datas by using custom WAVE files as USER waveforms** (each supported WAVE file is **4140 bytes filesize** (900 kilobytes when all 32 user slots are loaded with an external .wav file, so it's too large for reasonable and reliable json serialization), and the unavailability of "patch storage" for preset files (.vcvm) is really problematic - unfortunately this is a VCV Rack 2 limitation - when saving the module's state as **VCV Rack 2's "Preset"** in case the current module instance includes one or many user waveforms, because these waveforms are lost/missing on open/recall by the preset file, later!
 
 So, please proceed with caution about VCV Rack 2's "Preset" files and USER waveform(s)! (all other module datas are "Preset" compatible, however).
 
-In case of problems about this, please contact support@vcvrack.com to request a "patch storage" per preset files! **I'll do not provide any technical support concerning THIS PROBLEM** because I'm not responsible about this fact. Thanks in advance for your understanding!
+In case of problems about this, please contact support@vcvrack.com to request a "patch storage" per preset! **I'll do not provide any technical support concerning THIS PROBLEM** because I'm not responsible about this fact. Thanks in advance for your understanding!
 
 ---
 
