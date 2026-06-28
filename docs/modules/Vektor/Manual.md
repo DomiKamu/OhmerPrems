@@ -36,7 +36,7 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 ### INTRODUCTION<a name="intro"></a>
 
-Partially inspired by the Behringer [**Victor**](https://www.behringer.com/en/products/0720-ADA) Eurorack module, the main objective of _Vektor_ is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading) inside "the diamond" pattern, and its MIXing ENVelope who is working like an "automation curve" (in modern DAWs) to control the timed crossfading trajectory, automatically.
+Partially inspired by the Behringer's [**Victor**](https://www.behringer.com/en/products/0720-ADA) Eurorack module, the main objective of _Vektor_ is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading) inside "the diamond" pattern, and its MIXing ENVelope who is working like an "automation curve" (in modern DAWs) to control the timed crossfading trajectory, automatically.
 
 Also provided by _Vektor_, two internal (independent) low-frequency oscillators (**LFO 1** and **LFO 2**), plus **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM) or **PM** (Phase Modulation, variant of FM synthesis used by Yamaha DX synthesizers family). These possible **frequency modulators** are designed to modulate any oscillator (waveform) you'll want (OSC A, B, C or D), offering near infinite possibilities in sound design. Also, LFO 1 and/or LFO 2 can be used by external module(s) in your rack, by attaching the _VX_ expander alsongside _Vektor_ (right side, without space between each other).
 
@@ -137,9 +137,9 @@ Another possible way is to extend to all 32 (but the 130 kbytes...), via an (def
 
 ### VEKTOR MODULE LAYOUT<a name="layoutvektor"></a>
 
-The best way to present the _Vektor_ module layout is the (long) animation (approx. 20 s per image):
+The best way to present the _Vektor_ module layout is by the (long) animation (11 frames, approx. 20 s per frame):
 
-![](_img/VektorLayout.gif)
+![](_img/VektorLayoutV2.gif)
 
 ---
 
