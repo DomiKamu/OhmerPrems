@@ -137,7 +137,9 @@ Another possible way is to extend to all 32 (but the 130 kbytes...), via an (def
 
 ### VEKTOR MODULE LAYOUT<a name="layoutvektor"></a>
 
-Section in under construction...
+The best way to present the _Vektor_ module layout is the (long) animation (approx. 20 s per image):
+
+![](_img/VektorLayout.gif)
 
 ---
 
