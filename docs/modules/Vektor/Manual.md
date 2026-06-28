@@ -10,8 +10,9 @@ _They're all 8 models (GUI theme variations) for Vektor and its right-side attac
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
 - [**INTRODUCTION**](#intro)
 - [**MODULES SPECIFICATIONS**](#specs)
-- [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION**](#presetlimitation)
-- [**MODULES LAYOUTS**](#layouts)
+- [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitation)
+- [**VEKTOR MODULE LAYOUT**](#layoutvektor)
+- [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 
 ---
 
@@ -40,15 +41,17 @@ Also provided by _Vektor_, two internal (independent) low-frequency oscillators 
 
 However, many parts who have existed in real Prophet VS synthesizer, like filters, ADSR envelope generators, stereo field/panning, chorus and embedded FX (and possibly more), aren't provided by Vektor module, assuming they're a lot of third-party modules can do the similar job inside our virtual Eurorack modular environment! By this way, when used alone, Vektor module cannot be considered as ready-to-use _synth voice_ module!
 
-Vektor is using four independent oscillators (waveforms), named **OSC A**, **OSC B**, **OSC C** and **OSC D** (simple letters *A*, *B*, *C*, and *D* also refers to respective OSC A, OSC B, OSC C, or OSC D, obviously), as sound sources. Both of them are mixed (crossfading) either manually by the joystick, by external voltages (applied to **X** and **Y** input jacks), or via fully automated **MIX**ing **ENV**elope (controlled by **GATE** input jack).
+Vektor is using four independent oscillators (waveforms), named **OSC A**, **OSC B**, **OSC C** and **OSC D** (simple letters A, B, C, and D also refer to respective OSC A, OSC B, OSC C, and OSC D, obviously), as sound sources. Both of them are mixed (crossfading) either manually by the joystick, by external voltages (applied to **X** and **Y** input jacks), or via fully automated **MIX**ing **ENV**elope (controlled by **GATE** input jack).
 
-Each oscillator uses single-cycle samples, named **waveform**, like the real Prophet VS hardware synthesizer does. The 96 official waveforms are provided as "built-in ROM", numbered from #032 to #125). Please notice the built-in waveform number #126 is "silence", and waveform number #127 is **constant-frequency** white noise generator). Built-in can be selected for any A/B/C/D oscillator, but can't be replaced by other.
+Each oscillator uses single-cycle samples, named **waveform**, like the real Prophet VS hardware synthesizer does. The 96 official waveforms are provided as "built-in ROM", numbered from #032 to #125, have a name and graphical representation (oscilloscope-like). Please notice the built-in waveform number #126 is "silence" (if selected, the related oscillation isn't processed by the DSP), and waveform number #127 is **constant-frequency** white noise generator. Built-in can be selected for any A/B/C/D oscillator, but can't be replaced by other.
 
-However, you can import WAVE (.wav) file to any **USER waveform** slot (numbered from #000 to #031, labelled as **USER #1** to **USER #32**). WAVE file importation will be explained below, in dedicated section of this user's manual!
+:warning: Built-in **126. SILENCE** waveform, when selected for particular oscillator (A, B, C, or D), doesn't provide extra "pages", because it's a nonsense to set frequency or volume for silent/muted oscillator. In this case, the **PAGE** button has no effect. Also, built-in **127. WHITE NOISE** waveform provides only **OSC VOLUME** as extra page (but not **OSC FREQUENCY**, because white noise frequency is 67Hz constant, doesn't follow V/OCT input, and cannot be modulated by FM/PM or LFO).
 
-As module's outputs, obviously the most important is **MIX** (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete OSC outputs (useful for particular FX processings). Each discrete OSC output may be either post-joystick (or post MIX ENVelope) - it's the default behavior, or pre-joystick (or pre MIX ENVelope) like "dry" / unmixed.
+_Vektor_ module permits you to import custom WAVE (.wav) file to any **USER waveform slot** (numbered from #000 to #031, respectively labelled **USER #1** to **USER #32**). WAVE file importation will be explained later (having a dedicated section in this User's Manual).
 
-Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, may be polyphonic), can be sent to mixer/AUDIO module, to another module for additional audio FX processing, or as modulation source for other module (FM, AM, envelope follower, ring modulator, and so on).
+As module's outputs, obviously the most important is **MIX** (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete oscillator outputs (useful for particular FX processings). Each discrete OSC output may be either post-joystick (or post MIX ENVelope) - it's the default behavior, or pre-joystick (or pre MIX ENVelope) like "dry" / unmixed.
+
+Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, can be polyphonic), can be sent to mixer (or AUDIO) module, to another module for additional FX processing, or as modulation source for other module in your racks (FM, AM, envelope followers, ring modulators, any you'd like).
 
 Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX** (accronym of... **V**ektor e**X**pander), offering seven additional outputs:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
@@ -56,9 +59,9 @@ Vektor module comes with (optional-to-use) 3HP "right side" expander, named **VX
 - **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is unlit).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the running MIX ENVelope (envelope point #4/release position, otherwise).
 
-Vektor VCO module is polyphonic, up to 16 voices. Be careful, however, about CPU load when increasing polyphony setting of the source module(s), please keep in mind 16 polyphonic channels x 4 oscillators, plus the MIX ENVelope who are using Pythagorean theorem & trigonometric functions (for trajectory) require more or less CPU resources.
+Vektor VCO module is polyphonic, up to 16 voices (channels). Be careful, however, about CPU usahe when you increase polyphony setting from the source module(s), please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO, plus the MIX ENVelope (who are using Pythagorean theorem & trigonometric functions for trajectories) may require an important amount of CPU resources.
 
-:information_source: The best for the end, _Vektor_ and _VX_ modules are totally free for everyone (license V2 keyfile isn't required)!
+:information_source: The best for the end, _Vektor_ and _VX_ modules are totally free for everyone (license V2 keyfile is not required)!
 
 ---
 
@@ -66,10 +69,10 @@ Vektor VCO module is polyphonic, up to 16 voices. Be careful, however, about CPU
 
 The _Vektor_ module:
 
-- Designed for VCV Rack 2 application/plugin (v2.6.6, and more recent), either Free and Pro editions.
+- Designed for VCV Rack 2 (v2.6.6, or more recent), either "Free" and "Pro" editions.
 - 16HP wide.
 - 8 models (GUI themes), shown as animation at the top of this page!
-- Follow the _Use dark panels if available_ VCV Rack 2's option (from View menu), inside the module browser (_Aluminium_ for light panels, or _Absolute Night_ for dark panels).
+- From module browser, _Vektor_ module follows the **Use dark panels if available** VCV Rack 2's global option (from _View_ menu). For light panels, _Aluminium_ model is visible. For dark panels, _Absolute Night_ is visible, instead.
 - OLED blue display (**not a touchscreen**!).
 - Five "context" momentary buttons (overlooked by "line-like" red LEDs), located below OLED display, to select a specific oscillator (A, B, C, or D), the MIX ENVelope context, or the PROGRAM context (press the button where the LED is lit to access PROGRAM, all LED become unlit in this context).
 - Five lateral momentary buttons, used to select displayed parameter (TIP: blinking "cursor" indicates the selected parameter).
@@ -101,21 +104,21 @@ The _Vektor_ module:
 
 The _VX_ expander module:
 
-- Designed for VCV Rack 2 application/plugin (v2.6.6, or more recent), either "Free" and "Pro" editions.
+- Designed for VCV Rack 2 (v2.6.6, or more recent), either "Free" and "Pro" editions.
 - 3HP wide.
-- To operate, _VX_ expander module must be placed alongside the **right side** of _Vektor_ module, **without space** between them!
-- 8 models (GUI theme variants), automatically follow the _Vektor_ module's theme when placed alongside (watch the animation at the top of this page).
-- Follow the _Use dark panels if available_ VCV Rack 2's option (from View menu), inside the module browser (_Aluminium_ for light panels, or _Absolute Night_ for dark panels).
-- Two LFO output jacks (LFO 1, LFO 2), -5V/+5V voltage range.
-- Two joystick-related output jacks (reporting X and Y positions), -5V/+5V voltage range, useful to control another module by the joystick.
-- Two MIX ENVelope output jacks (reporting X and Y positions of the running mix envelope), -5V/+5V voltage range.
-- GATE output jack, who outputs +10V gate while the MIX ENVelope is running (otherwise, voltage is 0V, and its blue LED is turned off).
+- To operate, _VX_ expander module must be placed alongside the **right side** of any _Vektor_ module, **without space** between them!
+- From module browser, _VX_ expander module follows the **Use dark panels if available** VCV Rack 2's global option (from _View_ menu). For light panels, _Aluminium_ model is visible. For dark panels, _Absolute Night_ is visible, instead.
+- Its "model" (GUI theme variant) automatically follows the _Vektor_ module's theme, when placed alongside (watch the animation at the top of this page for models).
+- Two LFO output jacks (LFO 1, LFO 2), delivering -5V/+5V voltages.
+- Two joystick-related output jacks (reporting X and Y positions of the **physical joystick**), -5V/+5V voltage range (useful to control another module by the joystick).
+- Two MIX ENVelope output jacks, reporting X and Y positions of the running mix envelope, -5V/+5V voltage range.
+- GATE output jack, who outputs +10V gate while the MIX ENVelope is running (otherwise, voltage is 0V low-gate, and its blue LED is unlit).
 - Each output jack have its (RGB) LED. In normal operation, all LED are solid green color, except GATE (solid blue instead, with _afterglow_ for very short gate durations).
-- All LED are **fast-blinking red**, as error condition, indicating the _VX_ expander is not attached to _Vektor_ module!
+- All LED are **fast-blinking red** as error condition, indicating the _VX_ expander is not attached to a _Vektor_ module!
 
 ---
 
-### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION<a name="presetlimitation"></a>
+### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitation"></a>
 
 :warning: Due to **huge amount of datas by using custom WAVE file(s) as USER waveform(s)**, each supported WAVE file is **4140 bytes filesize** (900 kilobytes when all 32 user slots are loaded with an external .wav file, so it's too large for reasonable and reliable json serialization), and the unavailability of "patch storage" for preset files (.vcvm) is really problematic - unfortunately this is a VCV Rack 2 limitation - when saving the module's state as **VCV Rack 2's "Preset"** in case the current module instance includes one or many user waveforms, because these waveforms are lost/missing on open/recall by the preset file, later!
 
@@ -125,16 +128,16 @@ In case of problems about this, please contact support@vcvrack.com to request a 
 
 ---
 
-### MODULE LAYOUT (VEKTOR)<a name="layoutvek"></a>
+### VEKTOR MODULE LAYOUT<a name="layoutvektor"></a>
 
-Section in construction...
-
----
-
-### EXPANDER MODULE LAYOUT (VX)<a name="layoutvx"></a>
-
-Section in construction...
+Section in under construction...
 
 ---
 
-TO BE CONTINUED... THANKS FOR YOUR PATIENCE! ;)
+### VX EXPANDER MODULE LAYOUT<a name="layoutvx"></a>
+
+Section in under construction...
+
+---
+
+...TO BE CONTINUED... THANKS FOR YOUR PATIENCE! ;)
