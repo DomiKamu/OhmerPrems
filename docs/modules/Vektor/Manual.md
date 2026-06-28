@@ -149,9 +149,9 @@ Section in under construction...
 
 ### CONTEXT SELECTION<a name="contextsel"></a>
 
-_Vektor_'s context can be compared to "mode", or "current situation" of the module is.
+_Vektor_'s context can be compared to "mode", or "current situation" (where the module is).
 
-They are exactly 6 contexts provided by the _Vektor_ module, like:
+They are exactly 6 contexts offered by the _Vektor_ module, like:
 - **A**, **B**, **C**, and **D**, for related oscillator (A, B, C, or D), when its LED above the button is on (lit).
 - **MIX**, when the LED above the MIX button is lit.
 - **PROGRAM**, when all LED are turned off (all are unlit).
@@ -160,15 +160,15 @@ These context are represented by the five buttons & red LED group, located just 
 
 ![](_img/VektorContexts.gif)
 
-The oscillator related context (A, B, C, or D) permits to select the oscillator waveform (by rotating the **DATA ENTRY** continuous encoder, to choose previous or next waveform), to import a custom waveform - valid only when the selected waveform is a USER waveform, from number **000** to **031**, respectively named from **USER #1** to **USER #32**, to erase (to free/clear) the current user waveform slot (via right click context menu, enabled menu only when appropriate), and to select extra parameters (frequency, volume) by pressing the **PAGE** button (above DATA ENTRY encoder).
+The oscillator-related context (A, B, C, or D) permits to select the oscillator waveform (by rotating the **DATA ENTRY** continuous encoder, to choose previous or next waveform slot), to import a custom waveform (from a .wav file) - valid only when the current waveform is a USER waveform (from number **000** to **031**), to clear the current user waveform slot (via right click context menu command, only enabled when appropriate), and to select extra oscillator parameters (frequency on second page, volume on third page) by pressing the **PAGE** button (located above DATA ENTRY continuous encoder).
 
-The MIX context permits to edit/review all the parameters of the MIX ENVelope (always related to the current program).
+The MIX context permits to edit or review all the parameters of the MIX ENVelope (always related to the current program).
 
-A "program" is a kind of _synthesizer preset or patch_, identified either by a number (**01** to **16**) and name (eg. **PIPE ORGAN**). Program collects all settings for the four oscillators, the joystick position, the mix envelope, legato/unison/detune (not available at the moment/planned), FM input depth/mode, LFO 1, and LFO 2.
+A "program" is a kind of _synthesizer preset_ or _patch_, identified either by a number (from **01** to **16**) and name (eg. **PIPE ORGAN**). Program collects its name, all settings for the four oscillators, the physical joystick position, the mix envelope settings, legato/unison/detune (not available at the moment/planned), FM input depth/mode, LFO 1, and LFO 2.
 
-To select another context, press the related button (A, B, C, D, or MIX) when its LED is unlit: _Vektor_ is switched to selected context, and its red LED is lit.
+To select another context, press the related button (A, B, C, D, or MIX) when its LED is unlit: _Vektor_ is switched to new context, and its red LED becomes lit.
 
-:information_source: To select PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED become unlit, indicating the _Vektor_ module is switched to PROGRAM context (please notice **PROGRAM** and **OSC x WAVEFORM** contexts are always indicated on the top of the OLED display, _a contrario_, **MIX** context shows the mix envelope points and current trajectory).
+:information_source: To select PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED become unlit, indicating the _Vektor_ module is switched to PROGRAM context (please notice **PROGRAM** and **OSC x WAVEFORM** contexts are also displayed on the top of the OLED display, _a contrario_, **MIX** context shows the mix envelope points and current trajectory - aka vectors).
 
 
 ---
