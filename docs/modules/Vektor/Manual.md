@@ -122,16 +122,11 @@ _VX_ expander module technical specifications:
 
 ### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitation"></a>
 
-:warning: Due to **very important amount of datas by using custom WAVE files as USER waveforms** (each waveform is **4096 bytes size** (approx. 130 kilobytes, when all 32 user slots are loaded by external .wav files, so it's over the 100 kilobytes recommendation for json serialization), and the absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation I guess - when you save the module's state as **VCV Rack 2's "Preset"** in case the current module instance includes user waveform(s), because these waveforms are lost/missing on open/recall by the preset file, later! Also, VCV Rack 2 doesn't provide specific API functions to distinguish between preset and regular patch file! Many developers are stucked about these unbelievable software limitations.
+:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes size**, largely more in json, because all numerical values are coded as plain text), by this way the "100 kilobytes limit recommendation" for json serialization - as indicated in VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation I guess. Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish between preset save file and regular patch save file!
 
-**So, please proceed with caution about VCV Rack 2's "Preset" files if you're using USER waveform(s)!**
-Except user waveforms, all other module datas are 100% "Preset" compatible, however.
+To be compatible about the VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is, unfortunately, saved inside the patch/preset json file, including 15-sec autosave file (instead of in a "patch storage" via **onSave()** / **onAdd()** methods).
 
-In case of problems about user waveforms, please contact support@vcvrack.com to request a "patch storage" per preset profile!
-
-:information_source: **LASTEST ADDITION:** as possible compromise, perhaps I'll must to consider **the first 4 user slots** aka waveforms **000** to **003** / **USER #1** to **USER #4** (about more reasonable 16 kbytes, instead of 130) to be serialized to "json" file, in order to offer a "partial compatibility" against VCV Rack's preset mechanism, and all other waveforms (numbered from **004** to **031**) will to go to existing patch storage (but not recalled from a .vcvm preset file, however)...
-
-Another possible way is to extend to all 32 (but the 130 kbytes...), via an (default unchecked) option from right click context menu, to save all user waveforms in "json" file... Perhaps an displayed "warning dialog box" when enabled from right click context menu (I don't know to be honest)...
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform(s)!**. Do not forget you'll can clear (free) unused waveform, when selected from any oscillator context (A, B, C, or D), the module's right click context menu offers a command to clear/free the current user waveform.
 
 ---
 
