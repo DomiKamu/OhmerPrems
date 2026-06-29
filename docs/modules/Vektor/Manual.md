@@ -167,7 +167,7 @@ To select another context, press the related button (A, B, C, D, or MIX) when it
 
 :information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED become unlit, indicating the _Vektor_ module is switched to PROGRAM context.
 
-Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory also named _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**,**OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**) as "header"!
+Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory also named _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**,**OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**) as "header" of first page!
 
 ---
 
