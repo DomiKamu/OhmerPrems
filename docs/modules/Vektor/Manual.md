@@ -148,18 +148,18 @@ Section in under construction...
 
 _Vektor_'s context can be compared to "mode".
 
-They are exactly 6 contexts offered by the _Vektor_ module:
+They are exactly 6 contexts:
 - **A**, **B**, **C**, and **D**, for related oscillator (A, B, C, or D), when its LED above the button is on (lit).
 - **MIX**, concerns the MIX ENVelope feature, when the LED above the MIX button is lit.
 - **PROGRAM**, concerns "synth-like patch/preset", when **all LED are turned off** (all are unlit).
 
-These context are represented by the five buttons (and related red LED) group, located just below the OLED display, visible in the following animation:
+These contexts are represented by the five buttons (+ related red LED) group, located just below the OLED display, listed by the following animation:
 
 ![](_img/VektorContexts.gif)
 
-The oscillator-related context (A, B, C, or D) permits to choose the oscillator waveform (by rotating the **DATA ENTRY** continuous encoder, to choose previous or next waveform slot, either a built-in ROM, or user waveform), to import a custom waveform (from a ".wav" file) - valid only when the current waveform is a USER waveform (from number **000** to **031**), to clear (to free) the current user waveform slot (via right click context menu command, enabled only when appropriate), and to select additional oscillator parameters (frequency on second page, volume on third page) by pressing the **PAGE** button (located above DATA ENTRY continuous encoder).
+The oscillator-related context (A, B, C, or D) permits to choose the oscillator waveform (by rotating the **DATA ENTRY** continuous encoder, to choose previous or next waveform slot, either a built-in ROM or user waveform), to import a custom waveform (from external ".wav" file) - valid only when the current waveform is a USER waveform (from number **000** to **031**), to clear (to free) the current user waveform slot (via right click context menu command, but only enabled/visible when appropriate), and to access additional oscillator parameters (frequency on 2nd page, volume/velocity on 3rd page) by pressing the **PAGE** button (located above DATA ENTRY continuous encoder) once or twice.
 
-The MIX context permits to edit or review all the parameters of the MIX ENVelope (TIP: each program have its mix envelope).
+The MIX context permits to edit (or review) all the parameters concerning the current MIX ENVelope (TIP: each program have its own mix envelope).
 
 A "program" is a kind of _synthesizer preset_ or _synthesizer patch_, identified either by a number (from **01** to **16**) and by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, specific legato/unison/detune settings (not available at the moment/planned), FM input depth and mode (TZ FM or PM), LFO 1, and LFO 2.
 
