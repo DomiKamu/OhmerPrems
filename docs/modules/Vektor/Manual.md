@@ -80,7 +80,7 @@ _Vektor_ module technical specifications:
 - 5 left-side momentary buttons L1 to L5.
 - PAGE momentary button.
 - DATA ENTRY continuous encoder.
-- Polyphony: yes (max. 16 polyphonic voices/channels).
+- Polyphony: max. 16 voices/channels (recommended: 4 or 8 voices).
 - Sound sources: 4 (OSC A, OSC B, OSC C, and OSC D), using waveforms/samples.
 - Built-in ROM waveforms: 96, including "silence" (disabled OSC), and constant-frequency white noise.
 - User waveforms: max. 32 (per module instance).
@@ -91,20 +91,22 @@ _Vektor_ module technical specifications:
 - LFO AMPlitude range: min. 0% (LFO is turned off), max. 100% (+5V).
 - LFO waveforms: sine, triangle, sawtooth, ramp (inverted sawtooth), square, random.
 - Joystick: manual A/B/C/D volume crossfading, MIX ENVelope points edit.
-- MIX ENVelope (automated A/B/C/D mixing): fully customizable (mix envelope settings per program).
-- MIX ENVelope control: by GATE input jack.
-- MIX ENVelope points: 5, all customizable (point 0 is start, point 3 is sustain, point 4 is release).
-- MIX ENVelope rates: 4,all customizable (times in milliseconds, min. 0ms, max. 5000ms).
-- MIX ENVelope loop: yes, all customizable (please read MIX ENVELOPE LOOP chapter).
-- Input jacks: 7 (V/OCT, joystick X, joystick Y, GATE, VEL, FM). All accept -5V/+5V voltages (no limit for V/OCT).
+- MIX ENVelope (automated A/B/C/D crossfading): per program, can be disabled per program, and via global option.
+- MIX ENVelope control: by held GATE input jack (min. +1V, recommended +10V).
+- MIX ENVelope points: 5 (point 0 is start, point 3 is sustain, point 4 is release).
+- MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms, default 500ms).
+- MIX ENVelope loop: yes (please consult MIX ENVELOPE LOOP chapter).
+- Input jacks: 6 (V/OCT, joystick X, joystick Y, GATE, VEL, FM). All accept -5V/+5V voltages (unlimited for V/OCT).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Settings per program.
 - OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator and per program.
+- Min. frequency response: 10Hz (post modulation).
+- Max. frequency response: half of sample rate frequency (Nyquist), post modulation.
+- Operational sample rate: recommended 44100Hz and higher frequencies.
 - Output jacks: 5 (MIX, A, B, C, D).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono).
-- Programs: 16, all customizable. Any program can be saved/loaded to/from separate file(s).
-- RGB LED: no (single colored LEDs. Inputs: yellow for V/OCT, blue for GATE, green for VEL and FM. No LED for outputs).
-- Operational sample rate: recommended 44100Hz and higher frequencies.
+- Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from separate file(s).
+- LED: single colored. yellow (V/OCT), blue (GATE, mix envelope stages), green (VEL, FM).
 - SIMD technology: no.
 - Self-test feature: on first module installation in the rack, on full reset to default factory (Initialize / Ctrl+I).
 
