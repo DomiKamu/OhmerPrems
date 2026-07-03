@@ -159,9 +159,9 @@ _VX_ expander module technical specifications:
 
 :warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes size**, largely more in json, because all numerical values are coded as plain text), by this way the "100 kilobytes limit recommendation" for json serialization - as indicated in VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation I guess. Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish between preset save file and regular patch save file!
 
-To be compatible about the VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is, unfortunately, saved inside the patch/preset json file, including 15-sec autosave file (instead of in a "patch storage" via **onSave()** / **onAdd()** methods).
+To be 100% compatible vs. VCV Rack 2 presets feature, as requested by many end users, any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including 15-sec autosave file), instead of in an external "patch storage" (via **onSave()** and **onAdd()** methods).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform(s)!**. Do not forget you'll can clear (free) unused waveform, when selected from any oscillator context (A, B, C, or D), the module's right click context menu offers a command to clear/free the current user waveform.
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Do not forget you'll can free (erase/clear) unused waveform slots, when selected from any oscillator (A, B, C, or D), in this case the module's right click context menu offers a command to clear/free the current user waveform slot.
 
 ---
 
