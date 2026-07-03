@@ -8,7 +8,7 @@ _They're all 8 models (GUI theme variations) for Vektor and its "right-side" att
 ### TOPICS
 
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
-- [**WHAT IS VECTOR SYNTHESIS EXACTLY?**](#whatisvs)
+- [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
 - [**MODULES SPECIFICATIONS**](#specs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitation)
@@ -37,11 +37,11 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 ---
 
-### WHAT IS VECTOR SYNTHESIS EXACTLY?<a name="whatisvs"></a>
+### WHAT IS "VECTOR SYNTHESIS" EXACTLY?<a name="whatisvs"></a>
 
-The best way to explain the _Vector Synthesis_ is to use the following fictious scene (where you are the actor).
+In case you are unfamiliar about _Vector Synthesis_, the best way to explain it is to use the following fictious scene, where you are the actor!
 
-Try to imagine you are above a square room (this room doesn't have any sound reflection on walls/floor/roof), having a loudspeaker placed on each corner (each loudspeaker outputs a basic waveform - at same frequency and volume, like an oscillator does). If you're looking the room from above:
+Try to imagine you are above a square room (this room doesn't have any sound reflection on walls/floor/roof), having a loudspeaker placed on each corner, each loudspeaker outputs a basic waveform - at same frequency and volume, like an oscillator does. If you're looking the room from above:
 - Loudspeaker **A** is located at the bottom-left corner (angle).
 - Loudspeaker **B** is located at top-left angle.
 - Loudspeaker **C** is located at top-right angle.
@@ -49,9 +49,9 @@ Try to imagine you are above a square room (this room doesn't have any sound ref
 
 ![](_img/room1.png)
 
-Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial orientation). Obviously, the room remains a square, but from above view, now the room shape is looking as a **diamond** (in geometry, a square is a particular form of diamond).
+Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial orientation). Obviously, after the rotation, the room remains a square, but from above view, now the room is looking as a **diamond** shape (in geometry, a square is a particular form of... a diamond).
 
-By doing this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom:
+By done this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom, easy, aren't?:
 
 ![](_img/room2.png)
 
@@ -59,15 +59,15 @@ Now, you enter the room with a (omnidirectional) microphone in your hand, and st
 
 ![](_img/room3.png)
 
-As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them). As example, when the microphone is nearest as possible of a loudspeaker, it will capture max of it, nearly nothing from the opposite loudspeaker, and a signifiant part of remaining loudspeakers (but less than 50%). And so on!
+As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them). As example, when the microphone is nearest as possible of the A loudspeaker, it will capture max of it, nearly nothing from the opposite C loudspeaker, and a signifiant part of remaining C and D loudspeakers (but less than 50%). And so on!
 
 ![](_img/room4.png)
 
-Every segment of your moves (direction, and distance) is named... **vector**.
+Every segment of your moves (direction, and distance) is named... a **vector**.
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
-Synthesizers using Vector Synthesis, like the Prophet VS, also by the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick, controlled by the user, and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
+Synthesizers using Vector Synthesis, also true about the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick, controlled by the user, and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
 
 ---
 
