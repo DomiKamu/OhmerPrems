@@ -117,55 +117,55 @@ _Vektor_ module technical specifications:
 - 5 left-side momentary buttons L1 to L5.
 - PAGE momentary button.
 - DATA ENTRY continuous encoder.
+- ENV Momentary button (to enable or disable the mix envelope on-the-fly). Per program.
 - Polyphony: max. 16 voices/channels (recommended: 4 or 8 voices).
 - Sound sources: 4 (OSC A, OSC B, OSC C, and OSC D), using waveforms/samples.
 - Built-in ROM waveforms: 96, including "silence" (disabled OSC), and constant-frequency white noise.
 - User waveforms: max. 32 (per module instance).
 - Wave importation: Microsoft/IBM WAVE, PCM signed 16-bit, 44100Hz, mono, 2048 samples. **Filesize must be 4140 bytes**.
 - Wavetable support: no (like the real Prophet VS synthesizer).
-- LFO: 2 internal (separate) LFO 1 and LFO 2 (settings per program).
+- LFO: 2 independent internal LFO 1 and LFO 2 (settings per program).
 - LFO frequency range: min. 0.01Hz, max. 50Hz, resolution 0.01Hz, default 2Hz.
 - LFO AMPlitude range: min. 0% (LFO is turned off), max. 100% (+5V).
-- LFO waveforms: sine, triangle, sawtooth, ramp (inverted sawtooth), square, random.
+- LFO waveforms: sine, triangle, sawtooth, ramp, square, random.
 - Joystick: manual A/B/C/D volume crossfading, MIX ENVelope points edit.
-- MIX ENVelope (automated A/B/C/D crossfading): per program, can be disabled per program, and via global option.
+- MIX ENVelope (automated A/B/C/D crossfading): per program. Can be enabled/disabled via a dedicated ENV. button.
 - MIX ENVelope control: by held GATE input jack (min. +1V, recommended +10V).
-- MIX ENVelope points: 5 (point 0 is start, point 3 is sustain, point 4 is release).
-- MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms, default 500ms).
-- MIX ENVelope loop: yes (please consult MIX ENVELOPE LOOP chapter).
+- MIX ENVelope points: 5 (point 0 is start point, point 3 is sustain point, point 4 is release point).
+- MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms, default 500ms per vector).
+- MIX ENVelope loop: yes (please consult MIX ENVELOPE LOOP topic for details).
 - Input jacks: 6 (V/OCT, joystick X, joystick Y, GATE, VEL, FM). All accept -5V/+5V voltages (unlimited for V/OCT).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Settings per program.
 - OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator and per program.
 - Frequency response (bandwidth): 16.352Hz (C0) to 15804.416Hz (B9). Nyquist frequency (half of sample rate) limiting.
 - DAC resolution: 12-bit.
-- Operational sample rate: recommended 44100Hz, or higher.
+- Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 5 (MIX, A, B, C, D).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
-- Stereo: none (all outputs are mono).
+- Stereo: none (all outputs are mono, but polyphonic).
 - Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from separate file(s).
-- LED: single colored. yellow (V/OCT), blue (GATE, mix envelope stages), green (VEL, FM).
-- SIMD technology: no.
-- Self-test feature: on first module installation in the rack, on full reset to default factory (Initialize / Ctrl+I).
+- LED: yellow (V/OCT), blue (GATE, mix envelope stages), green (VEL, FM), green/red (X and Y combo).
+- Self-test feature: on first module installation in the rack, on full reset to default factory ("Initialize", from right click menu).
 
 _VX_ expander module technical specifications:
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 3HP.
 - Must be placed alongside the **right side** of any _Vektor_ module, **without space** between them.
-- Available models (GUI theme variants): 8, automatically follows the _Vektor_ module's model when linked.
-- Outputs: 8 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
+- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ module's model, when "linked".
+- Outputs: 7 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
 - Output voltage ranges: -5V to +5V.
-- LED: per output, all RGB.
+- LED: per output (all are RGB).
 
 ---
 
 ### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitation"></a>
 
-:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes size**, largely more in json, because all numerical values are coded as plain text), by this way the "100 kilobytes limit recommendation" for json serialization - as indicated in VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation I guess. Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish between preset save file and regular patch save file!
+:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes size**, largely more in json, because all numerical values are coded as plain text), by this way the "100 kilobytes limit recommendation" for json serialization - as indicated by VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish preset save file versus regular patch save file!
 
-To be 100% compatible vs. VCV Rack 2 presets feature, as requested by many end users, any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including 15-sec autosave file), instead of in an external "patch storage" (via **onSave()** and **onAdd()** methods).
+To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including autosave, occuring every 15-second), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Do not forget you'll can free (erase/clear) unused waveform slots, when selected from any oscillator (A, B, C, or D), in this case the module's right click context menu offers a command to clear/free the current user waveform slot.
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Do not forget you'll can free (erase/clear) unused waveform slots, when selected from any oscillator context (A, B, C, or D), in this case, the module's right click context menu offers a command to free (erase) the current user waveform slot.
 
 ---
 
