@@ -61,7 +61,7 @@ As soon as you move freely into the room (any direction, any distance), on every
 
 image4 here comin' soon
 
-:information_source: If you understand this principle, you have understood the Vector Synthesis concept!
+:information_source: **If you understand the principle, you have understood 99% about the Vector Synthesis!**
 
 Synthesizers using Vector Synthesis, like the Prophet VS, also by the _Vektor_ module, the X (horizontal) and Y (vertical) positions of the "microphone" in the "diamond room" are simulated either by a unsprung joystick (manually controlled by the user), and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
 
