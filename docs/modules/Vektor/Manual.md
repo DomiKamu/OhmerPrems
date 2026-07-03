@@ -39,7 +39,7 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 ### WHAT IS VECTOR SYNTHESIS?<a name="whatisvs"></a>
 
-The best way to explain the _Vector Synthesis_ is to use an "analogy", specifically by setting a scene.
+The best way to explain the _Vector Synthesis_ is to use the following fictious scene.
 
 Imagine you are above a square room (who don't have any sound reflection on walls/floor/roof), having a loudspeaker placed on each corner (every loudspeaker outputs a basic waveform - at same frequency and volume, like an oscillator does). If you're looking the room from above:
 - Loudspeaker **A** is located at the bottom-left corner (angle).
@@ -49,7 +49,7 @@ Imagine you are above a square room (who don't have any sound reflection on wall
 
 ![](_img/room1.png)
 
-Now, the room is turned **by 45 degrees, clockwise** (but you keep the initial orientation). Obviously, the room remains square, but from above view, now the same room shape is looking as a **diamond**. By this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom, like this:
+Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial orientation). Obviously, the room remains square, but from above view, now the room shape is looking as a **diamond**. By this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom, exactly like this:
 
 ![](_img/room2.png)
 
@@ -57,11 +57,13 @@ Now, enter the room with a (omni) microphone in your hand, and stand-up exactly 
 
 image3 here comin' soon
 
-As soon as you move freely into the room, on every position, in realtime, the mix (**crossfading**) captured by the microphone will change, amounts of capture depends your position regardling every loudspeaker.
+As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them).
 
 image3 here comin' soon
 
-If you understand the principle, you have understood the Vector Synthesis concept!
+:information_source: If you understand this principle, you have understood the Vector Synthesis concept!
+
+Synthesizers using Vector Synthesis, like the Prophet VS, also by the _Vektor_ module, the X (horizontal) and Y (vertical) positions of the "microphone" in the "diamond room" are simulated either by a unsprung joystick (manually controlled by the user), and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
 
 ---
 
