@@ -1,8 +1,8 @@
 # VEKTOR & VX: USER'S MANUAL (UNDER CONSTRUCTION)
 
 
-_They're all 8 models (GUI theme variations) for Vektor and its right-side attached VX expander modules:_
-![](_img/AnimVektorModels.gif)
+_They're all 8 models (GUI theme variations) for Vektor and its "right-side" attached VX expander:_
+![](_img/AnimVektorModelsV2.gif)
 
 
 ### TOPICS
