@@ -53,13 +53,13 @@ Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial 
 
 ![](_img/room2.png)
 
-Now, you enter the room with a (omnidirectional) microphone in your hand, and stand-up exactly at the center of the room: the microphone captures "components" of each loudspeaker, as equal parts (50%/50%/50%/50%).
+Now, you enter the room with a (omnidirectional) microphone in your hand, and stand-up exactly at the center of the room: the microphone captures "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D).
 
-image3 here comin' soon
+![](_img/room3.png)
 
 As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them). If the microphone is near as possible of a loudspeaker, it will capture max of it, and nearly nothing of the opposite loudspeaker, and so on.
 
-image3 here comin' soon
+image4 here comin' soon
 
 :information_source: If you understand this principle, you have understood the Vector Synthesis concept!
 
