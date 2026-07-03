@@ -53,11 +53,11 @@ Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial 
 
 ![](_img/room2.png)
 
-Now, enter the room with a (omni) microphone in your hand, and stand-up exactly at the center: the microphone captures "components" of each loudspeaker, as equal parts (50%).
+Now, you enter the room with a (omnidirectional) microphone in your hand, and stand-up exactly at the center of the room: the microphone captures "components" of each loudspeaker, as equal parts (50%/50%/50%/50%).
 
 image3 here comin' soon
 
-As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them).
+As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them). If the microphone is near as possible of a loudspeaker, it will capture max of it, and nearly nothing of the opposite loudspeaker, and so on.
 
 image3 here comin' soon
 
