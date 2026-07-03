@@ -39,25 +39,27 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 ### WHAT IS VECTOR SYNTHESIS?<a name="whatisvs"></a>
 
-Imagine you are in a square room (who don't have any sound reflection on walls) having a loudspeaker placed on each corner (every loudspeaker outputs a basic waveform - same frequency and volume, like an oscillator does). If you're looking the room from above:
-- Loudspeaker **A** at the bottom-left angle.
-- Loudspeaker **B** at top-left angle.
-- Loudspeaker **C** at top-right angle.
-- Loudspeaker **D** at bottom-right angle, like the following image.
+The best way to explain the _Vector Synthesis_ is to use an "analogy", specifically by setting a scene.
 
-image1 here
+Imagine you are above a square room (who don't have any sound reflection on walls/floor/roof), having a loudspeaker placed on each corner (every loudspeaker outputs a basic waveform - at same frequency and volume, like an oscillator does). If you're looking the room from above:
+- Loudspeaker **A** is located at the bottom-left corner (angle).
+- Loudspeaker **B** is located at top-left angle.
+- Loudspeaker **C** is located at top-right angle.
+- Loudspeaker **D** is located at bottom-right angle. Like the following image:
 
-Now, rotate the room **by 45 degrees, clockwise** (the room only, but you keep the same orientation). Obviously, the room remains square, but from above view (by keeping initial orientation), now the room is looking as a **diamond**. By this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom, exactly like this:
+![](_img/room1.png)
 
-image2 here
+Now, the room is turned **by 45 degrees, clockwise** (but you keep the initial orientation). Obviously, the room remains square, but from above view, now the same room shape is looking as a **diamond**. By this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom, like this:
 
-Now, enter the room with a (omni) microphone in hand, and stand-up exactly at the center: the microphone captures "components" of each loudspeaker, as equal parts (50%).
+![](_img/room2.png)
 
-image3 here
+Now, enter the room with a (omni) microphone in your hand, and stand-up exactly at the center: the microphone captures "components" of each loudspeaker, as equal parts (50%).
 
-When you move freely in the room, on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (depending your position regardling every loudspeaker).
+image3 here comin' soon
 
-image3 here
+As soon as you move freely into the room, on every position, in realtime, the mix (**crossfading**) captured by the microphone will change, amounts of capture depends your position regardling every loudspeaker.
+
+image3 here comin' soon
 
 If you understand the principle, you have understood the Vector Synthesis concept!
 
