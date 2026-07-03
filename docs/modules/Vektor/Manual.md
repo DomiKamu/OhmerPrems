@@ -59,11 +59,11 @@ Now, you enter the room with a (omnidirectional) microphone in your hand, and st
 
 ![](_img/room3.png)
 
-As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them). If the microphone is near as possible of a loudspeaker, it will capture max of it, and nearly nothing of the opposite loudspeaker, and so on.
+As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them). As example, when the microphone is nearest as possible of a loudspeaker, it will capture max of it, nearly nothing from the opposite loudspeaker, and a signifiant part of remaining loudspeakers (but less than 50%). And so on!
 
-image4 here comin' soon
+![](_img/room4.png)
 
-:information_source: **If you understand the principle, you have understood 99% about the Vector Synthesis!**
+:information_source: **If you understand the principle, be sure you have understood 99% about the Vector Synthesis!**
 
 Synthesizers using Vector Synthesis, like the Prophet VS, also by the _Vektor_ module, the X (horizontal) and Y (vertical) positions of the "microphone" in the "diamond room" are simulated either by a unsprung joystick (manually controlled by the user), and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
 
