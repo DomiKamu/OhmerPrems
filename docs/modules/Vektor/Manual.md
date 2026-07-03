@@ -8,7 +8,7 @@ _They're all 8 models (GUI theme variations) for Vektor and its "right-side" att
 ### TOPICS
 
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
-- [**WHAT IS VECTOR SYNTHESIS?**](#whatisvs)
+- [**WHAT IS VECTOR SYNTHESIS EXACTLY?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
 - [**MODULES SPECIFICATIONS**](#specs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitation)
@@ -37,11 +37,11 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 ---
 
-### WHAT IS VECTOR SYNTHESIS?<a name="whatisvs"></a>
+### WHAT IS VECTOR SYNTHESIS EXACTLY?<a name="whatisvs"></a>
 
-The best way to explain the _Vector Synthesis_ is to use the following fictious scene.
+The best way to explain the _Vector Synthesis_ is to use the following fictious scene (where you are the actor).
 
-Imagine you are above a square room (who don't have any sound reflection on walls/floor/roof), having a loudspeaker placed on each corner (every loudspeaker outputs a basic waveform - at same frequency and volume, like an oscillator does). If you're looking the room from above:
+Try to imagine you are above a square room (this room doesn't have any sound reflection on walls/floor/roof), having a loudspeaker placed on each corner (each loudspeaker outputs a basic waveform - at same frequency and volume, like an oscillator does). If you're looking the room from above:
 - Loudspeaker **A** is located at the bottom-left corner (angle).
 - Loudspeaker **B** is located at top-left angle.
 - Loudspeaker **C** is located at top-right angle.
