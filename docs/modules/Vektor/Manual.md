@@ -49,11 +49,13 @@ Try to imagine you are above a square room (this room doesn't have any sound ref
 
 ![](_img/room1.png)
 
-Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial orientation). Obviously, the room remains square, but from above view, now the room shape is looking as a **diamond**. By this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom, exactly like this:
+Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial orientation). Obviously, the room remains a square, but from above view, now the room shape is looking as a **diamond** (in geometry, a square is a particular form of diamond).
+
+By doing this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom:
 
 ![](_img/room2.png)
 
-Now, you enter the room with a (omnidirectional) microphone in your hand, and stand-up exactly at the center of the room: the microphone captures "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D).
+Now, you enter the room with a (omnidirectional) microphone in your hand, and stand-up exactly at the center of the room: the microphone captures "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D):
 
 ![](_img/room3.png)
 
