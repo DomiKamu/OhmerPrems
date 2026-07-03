@@ -51,23 +51,23 @@ Try to imagine you are above a square room (this room doesn't have any sound ref
 
 Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial orientation). Obviously, after the rotation, the room remains a square, but from above view, now the room is looking as a **diamond** shape (in geometry, a square is a particular form of... a diamond).
 
-By done this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom, easy, aren't?:
+By done this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom. Easy, aren't?:
 
 ![](_img/room2.png)
 
-Now, you enter the room with a (omnidirectional) microphone in your hand, and stand-up exactly at the center of the room: the microphone captures "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D):
+Now, you enter the room with a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: it captures sound "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D):
 
 ![](_img/room3.png)
 
-As soon as you move freely into the room (any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends your position regardling them). As example, when the microphone is nearest as possible of the A loudspeaker, it will capture max of it, nearly nothing from the opposite C loudspeaker, and a signifiant part of remaining C and D loudspeakers (but less than 50%). And so on!
+As soon as you move by short "segments" into the room (origin point, any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends the microphone position, regardling them). As example, when the microphone is nearest as possible of the A loudspeaker, it will capture max 100% of it, nearly 0% from the opposite C loudspeaker, and a signifiant part of remaining C and D loudspeakers (but less than 50%). And so on!
 
 ![](_img/room4.png)
 
-Every segment of your moves (direction, and distance) is named... a **vector**.
+Every segment of your moves (direction, distance, speed) is named... a **vector**.
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
-Synthesizers using Vector Synthesis, also true about the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick, controlled by the user, and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
+Real and virtual synthesizers using Vector Synthesis, also true about the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick, controlled by the user, and/or by optional programmable MIXing ENVelope, kind of **timed automation** of five X/Y positions (composing four vectors).
 
 ---
 
