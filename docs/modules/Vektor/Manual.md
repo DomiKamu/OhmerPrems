@@ -89,15 +89,15 @@ The _Vektor_ module permits to import custom WAVE (.wav) file to any **USER wave
 
 As module outputs, the most important in Vector Synthesis concept is surely the **MIX** output (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete oscillator outputs (useful for particular FX processings). Every discrete OSC output may be either **post-joystick** (or post MIX ENVelope) - it's the default behavior, or **pre-joystick** (or pre MIX ENVelope) like "dry" (unmixed), can be configured from **OSC x VOLUME** page (3rd page from oscillator context).
 
-Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source for other module in your rack (FM, AM, envelope follower, ring modulator, any you'd like in fact).
+Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source for other module(s) in your rack who support FM, AM, ring modulation, or any you'd like.
 
-_Vektor_ comes with (optional-to-use) 3HP "right side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering seven additional outputs:
+_Vektor_ comes with (optional-to-use) 3HP "right side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional outputs:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond.
 - **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is unlit).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V).
 
-Vektor VCO module is polyphonic, up to 16 voices (channels). Please be careful about CPU usage as soon as you increase the number of polyphony voices from the source module(s), please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (computed waveforms), plus the MIX ENVelope who are using Pythagorean and trigonometric functions to establish trajectories, may require a more or less amount of CPU resources. Recommended polyphony setting for _Vektor_ is 4, or 8 voices.
+Vektor module is polyphonic, up to 16 voices (channels). Please be careful about CPU usage as soon as you increase the number of polyphony voices from the source module(s), please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (computed waveforms), plus the MIX ENVelope who are using Pythagorean and trigonometric functions to establish trajectories, may require a more or less amount of CPU resources. Recommended polyphony setting for _Vektor_ is 4 or 8 voices.
 
 ---
 
@@ -206,7 +206,7 @@ To select another context, press the related button (A, B, C, D, or MIX) when it
 
 :information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED become unlit, indicating the _Vektor_ module is switched to PROGRAM context.
 
-Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory also named _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**,**OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**) as "header" of first page!
+Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory / _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**,**OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective "first page"!
 
 ---
 
