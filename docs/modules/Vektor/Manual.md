@@ -39,15 +39,17 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 ### WHAT IS VECTOR SYNTHESIS?<a name="whatisvs"></a>
 
-Imagine you are in a square room (who don't have any sound reflexion) with a loudspeaker placed in each corner (A at bottom-left, B at top-left, C at top-right, and D at bottom-right, if you look the room from roof).
+Imagine you are in a square room (who don't have any sound reflection/reverb) with a loudspeaker placed in each corner (A at bottom-left, B at top-left, C at top-right, and D at bottom-right, if you're looking the room from above).
 
-Now rotate the room by 45 degrees counter-clockwise: loudspeaker A becomes at left, loudspeaker B at top, loudspeaker C at right, and loudspeaker D at bottom. Of course the room stays square, but from roof view it looks as... **diamond**.
+Now, rotate the room by 45 degrees, clockwise: loudspeaker A becomes at left, loudspeaker B at top, loudspeaker C at right, and loudspeaker D at bottom. Of course, the room stays a square, but from above, it looks as... **diamond**.
 
-Now imagine you are placed at the center of this diamond, on the floor, your ears captures "components" of each loudspeaker (equal part).
+Each loudspeaker outputs a basic waveform (whatever its frequency and/or volume), like an oscillator does!
 
-If you're moving in the room, the mix (**crossfading**) between the loudspeakers will change in realtime, regardling your position vs. every loudspeaker...
+Now, you enter the room with a microphone in hand, and stand-up at the center: the microphone captures "components" of each loudspeaker (as equal part, because you are at the center of the room).
 
-If you have understood the principle, you have understood the Vector Synthesis!
+If you're moving in the room, the mix (**crossfading**) captured by the microphone will change, in realtime, regardling your position vs. every loudspeaker...
+
+If you understand the principle, you have understood the Vector Synthesis concept!
 
 ---
 
