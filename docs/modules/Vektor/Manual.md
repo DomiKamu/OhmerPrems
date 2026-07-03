@@ -63,9 +63,11 @@ As soon as you move freely into the room (any direction, any distance), on every
 
 ![](_img/room4.png)
 
-:information_source: **If you understand the principle, be sure you have understood 99% about the Vector Synthesis!**
+Every segment of your moves (direction, and distance) is named... **vector**.
 
-Synthesizers using Vector Synthesis, like the Prophet VS, also by the _Vektor_ module, the X (horizontal) and Y (vertical) positions of the "microphone" in the "diamond room" are simulated either by a unsprung joystick (manually controlled by the user), and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
+:information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
+
+Synthesizers using Vector Synthesis, like the Prophet VS, also by the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick, controlled by the user, and/or by optional programmable MIXing ENVelope, kind of **timed automation** of X/Y positions.
 
 ---
 
