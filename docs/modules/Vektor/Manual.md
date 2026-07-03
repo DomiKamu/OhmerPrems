@@ -8,6 +8,7 @@ _They're all 8 models (GUI theme variations) for Vektor and its right-side attac
 ### TOPICS
 
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
+- [**WHAT IS VECTOR SYNTHESIS?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
 - [**MODULES SPECIFICATIONS**](#specs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitation)
@@ -21,16 +22,32 @@ _They're all 8 models (GUI theme variations) for Vektor and its right-side attac
 
 Welcome into the **Vector Synthesis** universe!
 
-_Vektor_ is a 16HP polyphonic digital VCO module, using [**Vector Synthesis**](https://en.wikipedia.org/wiki/Vector_synthesis) technology (often abbreviated as **VS**) conceived by Sequential Circuits company for [**Prophet VS**](https://en.wikipedia.org/wiki/Prophet_VS) synthesizer (manufactured from 1986). Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS synthesizer during this epoch (approx. USD 9,000 after 2026 conversion!).
+_Vektor_ is a 16HP polyphonic quad-oscillator digital VCO module, using [**Vector Synthesis**](https://en.wikipedia.org/wiki/Vector_synthesis) technique (often abbreviated as **VS**) conceived by Sequential Circuits company (Dave Smith) for its [**Prophet VS**](https://en.wikipedia.org/wiki/Prophet_VS) synthesizer, manufactured from 1986. Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS synthesizer during this epoch (approx. USD 9,000 after 2026 conversion!).
 
 _This is the 1986 Prophet VS synthesizer, manufactured by Sequential Circuits:_
 ![](_img/Prophet_VS.png)
 
-When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha, who have developed the SY22, SY35, and TG33. Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D department, which went on to produce the [**Korg Wavestation**](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as advanced, mainly due to extra feature named _Wave Sequencing_ (useful to create evolving sounds).
+When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha, who have developed the SY22, SY35, and TG33, both of them are using VS, too.
+
+Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D group, which went on to produce the [**Korg Wavestation**](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as "advanced", mainly due to extra amazing feature named _Wave Sequencing_, useful to create evolving sounds!
 
 During 2015, Yamaha had returned the original trademark to **Dave Smith Instruments** (prior to be rebranded as **Sequential**, three years later).
 
-Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vangelis, Brian Eno, Prince, Kraftwerk, Erasure, Rush, French singers Michel Berger and Christophe, and filmmaker John Carpenter.
+Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vangelis, Brian Eno, Prince, Kraftwerk, Erasure, Rush, French singers Michel Berger and Christophe, and the filmmaker John Carpenter.
+
+---
+
+### WHAT IS VECTOR SYNTHESIS?<a name="whatisvs"></a>
+
+Imagine you are in a square room (who don't have any sound reflexion) with a loudspeaker placed in each corner (A at bottom-left, B at top-left, C at top-right, and D at bottom-right, if you look the room from roof).
+
+Now rotate the room by 45 degrees counter-clockwise: loudspeaker A becomes at left, loudspeaker B at top, loudspeaker C at right, and loudspeaker D at bottom. Of course the room stays square, but from roof view it looks as... **diamond**.
+
+Now imagine you are placed at the center of this diamond, on the floor, your ears captures "components" of each loudspeaker (equal part).
+
+If you're moving in the room, the mix (**crossfading**) between the loudspeakers will change in realtime, regardling your position vs. every loudspeaker...
+
+If you have understood the principle, you have understood the Vector Synthesis!
 
 ---
 
@@ -99,9 +116,9 @@ _Vektor_ module technical specifications:
 - Input jacks: 6 (V/OCT, joystick X, joystick Y, GATE, VEL, FM). All accept -5V/+5V voltages (unlimited for V/OCT).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Settings per program.
 - OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator and per program.
-- Min. frequency response: 10Hz (post modulation).
-- Max. frequency response: half of sample rate frequency (Nyquist), post modulation.
-- Operational sample rate: recommended 44100Hz and higher frequencies.
+- Frequency response (bandwidth): 16.352Hz (C0) to 15804.416Hz (B9). Nyquist frequency (half of sample rate) limiting.
+- DAC resolution: 12-bit.
+- Operational sample rate: recommended 44100Hz, or higher.
 - Output jacks: 5 (MIX, A, B, C, D).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono).
