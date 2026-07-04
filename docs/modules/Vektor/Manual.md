@@ -41,33 +41,33 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 In case you are unfamiliar about _Vector Synthesis_, the best way to explain it is to use the following fictious scene, where you are the actor!
 
-Try to imagine you are above a square room (this room doesn't have any sound reflection on walls/floor/roof), having a loudspeaker placed on each corner, each loudspeaker outputs a basic waveform - at same frequency and volume, like an oscillator does. If you're looking the room from above:
+Try to imagine a square room, consider this room doesn't have sound reflection on walls/floor/roof, having a loudspeaker placed on each corner, each loudspeaker constantly outputs a basic waveform at same frequency and volume (like an oscillator can do). First, if you're looking the room from above:
 - Loudspeaker **A** is located at the bottom-left corner (angle).
-- Loudspeaker **B** is located at top-left angle.
-- Loudspeaker **C** is located at top-right angle.
-- Loudspeaker **D** is located at bottom-right angle. Like the following image:
+- Loudspeaker **B** is located at top-left corner.
+- Loudspeaker **C** is located at top-right corner.
+- Loudspeaker **D** is located at bottom-right corner. Like the following image:
 
 ![](_img/room1.png)
 
-Now, the room is turned **by 45 degrees, clockwise** (but you keep your initial orientation). Obviously, after the rotation, the room remains a square, but from above view, now the room is looking as a **diamond** shape (in geometry, a square is a particular form of... a diamond).
+Now, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation): obviously, after rotation, the room remains a square, but from above view, now the room shape is looking as a **diamond** (in geometry, square is a particular form of... diamond).
 
-By done this room rotation, loudspeaker A becomes at left, B at top, C at right, and D at bottom. Easy, aren't?:
+By done this room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom. Easy, aren't?:
 
 ![](_img/room2.png)
 
-Now, you enter the room with a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: it captures sound "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D):
+Now, you enter the room having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: it captures sound "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D):
 
 ![](_img/room3.png)
 
-As soon as you move by short "segments" into the room (origin point, any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends the microphone position, regardling them). As example, when the microphone is nearest as possible of the A loudspeaker, it will capture max 100% of it, nearly 0% from the opposite C loudspeaker, and a signifiant part of remaining C and D loudspeakers (but less than 50%). And so on!
+As soon as you move by short line "segments" into the room (origin point, any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends the microphone position at every instant, regardling them). As example, if the microphone is nearest as possible of the loudspeaker A, it will capture max 100% of it, nearly 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
 
 ![](_img/room4.png)
 
-Every segment of your moves (direction, distance, speed) is named... a **vector**.
+Every line segment of your moves (point where the segment start, direction, and distance) is named... a **vector**.
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
-Real and virtual synthesizers using Vector Synthesis, also true about the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick, controlled by the user, and/or by optional programmable MIXing ENVelope, kind of **timed automation** of five X/Y positions (composing four vectors).
+Real and virtual synthesizers using Vector Synthesis, also true concerning the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIXing ENVelope, kind of **timed automation** of four vectors.
 
 ---
 
@@ -87,9 +87,9 @@ Each oscillator is using **waveform**, like the Prophet VS hardware synthesizer 
 
 The _Vektor_ module permits to import custom WAVE (.wav) file to any **USER waveform** slot (numbered from **000** to **031**, respectively labelled **USER #1** to **USER #32**). WAVE file importation will be explained later (having a dedicated section in this User's Manual).
 
-As module outputs, the most important in Vector Synthesis concept is surely the **MIX** output (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete oscillator outputs (useful for particular FX processings). Every discrete OSC output may be either **post-joystick** (or post MIX ENVelope) - it's the default behavior, or **pre-joystick** (or pre MIX ENVelope) like "dry" (unmixed), can be configured from **OSC x VOLUME** page (3rd page from oscillator context).
+As module outputs, the most important in Vector Synthesis is surely the **MIX** output (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete oscillator outputs, useful as as separate oscillators, of for particular FX processings. Every discrete OSC output may be either **pre-joystick** (or pre MIX ENVelope) as dry/unmixed - it's the default behavior, or **post-joystick** (or post MIX ENVelope). The joystick/mix envelope routing can be configured from every **OSC x VOLUME** page (3rd page, for each oscillator context).
 
-Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source for other module(s) in your rack who support FM, AM, ring modulation, or any you'd like.
+Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source to other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
 _Vektor_ comes with (optional-to-use) 3HP "right side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional outputs:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
@@ -165,7 +165,7 @@ _VX_ expander module technical specifications:
 
 To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including autosave, occuring every 15-second), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Do not forget you'll can free (erase/clear) unused waveform slots, when selected from any oscillator context (A, B, C, or D), in this case, the module's right click context menu offers a command to free (erase) the current user waveform slot.
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Do not forget you'll can free (erase/clear) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), in this case, the module's right click context menu offers a command to free (erase) the current user waveform slot, when required.
 
 ---
 
@@ -187,24 +187,25 @@ Section in under construction...
 
 _Vektor_'s context can be compared to "mode".
 
-They are exactly 6 contexts:
-- **A**, **B**, **C**, and **D**, for related oscillator (A, B, C, or D), when its LED above the button is on (lit).
+They are exactly 6 contexts (each context is represented by the red LED state just below the OLED display, can be selected by momentary button):
+
+- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D, when its corresponding LED above the button is on (lit).
 - **MIX**, concerns the MIX ENVelope feature, when the LED above the MIX button is lit.
-- **PROGRAM**, concerns "synth-like patch/preset", when **all LED are turned off** (all are unlit).
+- **PROGRAM**, concerns program management, when **all LED are turned off** (unlit).
 
-These contexts are represented by the five buttons (+ related red LED) group, located just below the OLED display, listed by the following animation:
-
-![](_img/VektorContexts.gif)
-
-The oscillator-related context (A, B, C, or D) permits to choose the oscillator waveform (by rotating the **DATA ENTRY** continuous encoder, to choose previous or next waveform slot, either a built-in ROM or user waveform), to import a custom waveform (from external ".wav" file) - valid only when the current waveform is a USER waveform (from number **000** to **031**), to clear (to free) the current user waveform slot (via right click context menu command, but only enabled/visible when appropriate), and to access additional oscillator parameters (frequency on 2nd page, volume/velocity on 3rd page) by pressing the **PAGE** button (located above DATA ENTRY continuous encoder) once or twice.
+The oscillator-related context (A, B, C, or D) permits:
+- to choose the oscillator waveform.
+- to import a custom waveform (from external ".wav" file) to USER waveform slot (from number **000** to **031**).
+- to clear (to free) the current user waveform slot (via right click context menu command, when applicable).
+- to access additional oscillator parameters (frequency on 2nd page, volume/velocity on 3rd page) by using the **PAGE** button.
 
 The MIX context permits to edit (or review) all the parameters concerning the current MIX ENVelope (TIP: each program have its own mix envelope).
 
-A "program" is a kind of _synthesizer preset_ or _synthesizer patch_, identified either by a number (from **01** to **16**) and by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, specific legato/unison/detune settings (not available at the moment/planned), FM input depth and mode (TZ FM or PM), LFO 1, and LFO 2.
+Program is a kind of _synthesizer preset_ (or _synthesizer patch_), identified either by a number (from **01** to **16**) and by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth / mode (TZ FM or PM), LFO 1 settings, and LFO 2 settings.
 
-To select another context, press the related button (A, B, C, D, or MIX) when its LED is unlit: _Vektor_ is switched to the new context, and its red LED becomes lit.
+To select another context (except program), press the related button (A, B, C, D, or MIX) when its LED is unlit: _Vektor_ is switched to the new context, and its red LED becomes lit.
 
-:information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED become unlit, indicating the _Vektor_ module is switched to PROGRAM context.
+:information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, the LED becomes unlit (all LED are unlit), indicating the _Vektor_ module is switched to PROGRAM context.
 
 Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory / _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective "first page"!
 
