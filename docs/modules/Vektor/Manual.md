@@ -143,9 +143,11 @@ _Vektor_ module technical specifications:
 - Output jacks: 5 (MIX, A, B, C, D).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono, but polyphonic).
-- Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from separate file(s).
-- LED: yellow (V/OCT), blue (GATE, mix envelope stages), green (VEL, FM), green/red (X and Y combo).
-- Self-test feature: on first module installation in the rack, on full reset to default factory ("Initialize", from right click menu).
+- Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from external file(s).
+- Program change: not supported (program can be changed, but manually only).
+- LED: yellow for V/OCT, blue for GATE and mix envelope stage indicators, green for VEL and FM, green/red for X and Y (combined inputs).
+- Self-test feature: on first module installation in the rack, on full reset to factory ("Initialize", from right click context menu).
+- Required power (from Rack's power supply): classified.
 
 _VX_ expander module technical specifications:
 
@@ -156,6 +158,7 @@ _VX_ expander module technical specifications:
 - Outputs: 7 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
 - Output voltage ranges: -5V to +5V.
 - LED: per output (all are RGB).
+- Required power (from Rack's power supply): classified.
 
 ---
 
@@ -179,27 +182,39 @@ The best way to present the _Vektor_ module layout is by the (long) animation (1
 
 ### VX EXPANDER MODULE LAYOUT<a name="layoutvx"></a>
 
-Section in under construction...
+Unlike the _Vektor_ as "master", complex CPU-controlled module, _VX_, its right-side expander, is a passive module. It offers only outputs (7, all controlled by _Vektor_). Usage of the _VX_ expander isn't mandatory (in fact, depending your needs).
+
+The _VX_ expander is divided by 3 sections (blue lines on the module's plate, as section separators):
+
+- Upper section is dedicated to LFO 1 and LFO 2 (both are handled by the _Vektor_ module).
+- Middle section is dedicated to position of the _Vektor_'s **physical joystick**.
+- Lower section is dedicated to the _Vektor_'s MIX ENVelope, including mix envelope GATE output jack.
+
+Every output jack have its own LED, mainly green (exception is GATE, who are using blue, instead).
+
+:warning: all **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
 
 ---
 
 ### CONTEXT SELECTION<a name="contextsel"></a>
 
-_Vektor_'s context can be compared to "mode".
+ _Vektor_ is a small VCO module (16HP), so it can't provide all controls on the same plate. By this way, the _Vektor_ is using a **context** system. _Vektor_'s context can be compared to "module mode", or something similar.
 
-They are exactly 6 contexts (each context is represented by the red LED state just below the OLED display, can be selected by momentary button):
+They are exactly 6 contexts. Each context is represented by the red LED state, and can be changed by momentary buttons (located just below the OLED display).
+
+These contexts are:
 
 - **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D, when its corresponding LED above the button is on (lit).
-- **MIX**, concerns the MIX ENVelope feature, when the LED above the MIX button is lit.
+- **MIX**, covers all the aspects of the MIX ENVelope feature, when the LED above the MIX button is lit.
 - **PROGRAM**, concerns program management, when **all LED are turned off** (unlit).
 
-The oscillator-related context (A, B, C, or D) permits:
-- to choose the oscillator waveform.
-- to import a custom waveform (from external ".wav" file) to USER waveform slot (from number **000** to **031**).
-- to clear (to free) the current user waveform slot (via right click context menu command, when applicable).
-- to access additional oscillator parameters (frequency on 2nd page, volume/velocity on 3rd page) by using the **PAGE** button.
+Any oscillator-based context (A, B, C, or D) permits:
+- to choose the oscillator waveform (can be built-in ROM waveform, or user waveform).
+- to import a custom waveform (from external ".wav" file) to USER waveform "slot" (from number **000** to **031**) of your choice.
+- to free (to clear/erase) the current user waveform slot (via right click context menu command, when applicable).
+- to access additional oscillator parameters (frequency on 2nd page, volume/velocity response on 3rd page), by using the **PAGE** button.
 
-The MIX context permits to edit (or review) all the parameters concerning the current MIX ENVelope (TIP: each program have its own mix envelope).
+The MIX context permits to edit (or review) all the parameters concerning the current MIX ENVelope (TIP: each program have its own mix envelope), including mix envelope loop feature.
 
 Program is a kind of _synthesizer preset_ (or _synthesizer patch_), identified either by a number (from **01** to **16**) and by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth / mode (TZ FM or PM), LFO 1 settings, and LFO 2 settings.
 
