@@ -69,6 +69,8 @@ Every line segment of your moves (point where the segment start, direction, and 
 
 Real and virtual synthesizers using Vector Synthesis, also true concerning the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIXing ENVelope, kind of **timed automation** of four vectors.
 
+Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) may use different frequency (by transposition, by modulated frequency) and/or different volume (base volume, and possible level reduction by the velocity).
+
 ---
 
 ### INTRODUCTION<a name="intro"></a>
