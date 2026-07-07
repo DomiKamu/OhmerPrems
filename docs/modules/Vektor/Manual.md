@@ -67,9 +67,11 @@ Every line segment of your moves, as red segments just above (point where the se
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
-Real and virtual synthesizers using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIXing ENVelope, kind of **timed automation** of vectors & X/Y points in realtime.
+Real and virtual synthesizers using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIX ENVelope, kind of **timed automation** of vectors & X/Y points in realtime (and related crossfading, by this way).
 
 Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) can use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base volume of the oscillator, and possible level reduction by the velocity).
+
+Also, another important aspect of the MIX ENVelope are times (in milliseconds), named **rates**, it's the time between each segment point and next, introducing the speed notion over each vector. Every line segment can be run from minimum 0 millisecond (in this case, the line segment is ignored), up to maximum 5,000 milliseconds (5 seconds).
 
 ---
 
