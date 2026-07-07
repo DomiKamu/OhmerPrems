@@ -149,7 +149,6 @@ _Vektor_ module technical specifications:
 - Program change: not supported (program can be changed, but manually only).
 - LED: yellow for V/OCT, blue for GATE and mix envelope stage indicators, green for VEL and FM, green/red for X and Y (combined inputs).
 - Self-test feature: on first module installation in the rack, on full reset to factory ("Initialize", from right click context menu).
-- Required power (from Rack's power supply): classified.
 
 _VX_ expander module technical specifications:
 
@@ -160,7 +159,6 @@ _VX_ expander module technical specifications:
 - Outputs: 7 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
 - Output voltage ranges: -5V to +5V.
 - LED: per output (all are RGB).
-- Required power (from Rack's power supply): classified.
 
 ---
 
