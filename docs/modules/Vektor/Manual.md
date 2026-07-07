@@ -150,7 +150,7 @@ _Vektor_ module technical specifications:
 - Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from external file(s).
 - Program change: not supported (program can be changed, but manually only).
 - LED: yellow for V/OCT, blue for GATE, green for VEL., PROG. and FM, green/red for combined X and Y inputs.
-- Self-test feature: on first module installation in the rack, on full reset to factory ("Initialize", from right click context menu).
+- Self-test feature: on first installation in the rack, on full reset to factory ("Initialize" command, from right click context menu).
 
 _VX_ expander module technical specifications:
 
