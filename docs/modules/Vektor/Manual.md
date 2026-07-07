@@ -71,7 +71,7 @@ Real and virtual synthesizers using Vector Synthesis (also true concerning the _
 
 Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) can use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base volume of the oscillator, and possible level reduction by the velocity).
 
-Also, another important aspect of the MIX ENVelope are times (in milliseconds), named **rates**, it's the time between each segment point and next, introducing the speed notion over each vector. Every line segment can be run from minimum 0 millisecond (in this case, the line segment is ignored), up to maximum 5,000 milliseconds (5 seconds).
+Also, an another important aspect of the MIX ENVelope are times (in milliseconds), named **RATES**, it's the time to run between an origin point of the vector, and the next point to be reached. By this way, this introduces the speed notion for every vector. Every vector (line segment) can be covered from **minimum 0 millisecond** (in this case, the vector is ignored, and next is processed immediately), up to **maximum 5,000 milliseconds** (5 seconds). Default rates depend of the selected program (or 500 milliseconds for **16. INIT** program).
 
 ---
 
