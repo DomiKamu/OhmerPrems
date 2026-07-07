@@ -204,31 +204,31 @@ Every output jack have its own LED, mainly green (exception is GATE, who are usi
 
 ### CONTEXT SELECTION<a name="contextsel"></a>
 
- _Vektor_ is a small VCO module (16HP), so it can't provide all controls on the same plate. By this way, the _Vektor_ is using a **context** system. _Vektor_'s context can be compared to "module mode", or something similar.
+ _Vektor_ is a small VCO module (16HP), so it can't provide all controls on the same plate. By this way, the _Vektor_ is using a **context** system. _Vektor_'s context can be compared to "module mode", or "module section", or something similar.
 
-They are exactly 6 contexts. Each context is represented by the red LED state, and can be changed by momentary buttons (located just below the OLED display).
+They're exactly 6 contexts. Each context is represented by the red LED state above its button, and can be changed by pressing the relevant button (LED and buttons are located just below the OLED display, each box is a "context").
 
-These contexts are:
+Those contexts are:
 
-- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D, when its corresponding LED above the button is on (lit).
+- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D context, when its corresponding LED above the button is on (lit).
 - **MIX**, covers all the aspects of the MIX ENVelope feature, when the LED above the MIX button is lit.
-- **PROGRAM**, concerns program management, when **all LED are turned off** (unlit).
+- **PROGRAM**, concerns programs management, when **all LED are turned off** (unlit).
 
 Any oscillator-based context (A, B, C, or D) permits:
-- to choose the oscillator waveform (can be built-in ROM waveform, or user waveform).
-- to import a custom waveform (from external ".wav" file) to USER waveform "slot" (from number **000** to **031**) of your choice.
+- to choose the oscillator waveform (can be a _built-in ROM_ waveform, or a _user_ waveform).
+- to import a custom waveform from external ".wav" file, to current USER waveform "slot" (from number **000** to **031** only).
 - to free (to clear/erase) the current user waveform slot (via right click context menu command, when applicable).
-- to access additional oscillator parameters (frequency on 2nd page, volume/velocity response on 3rd page), by using the **PAGE** button.
+- to access additional oscillator parameters, like oscillator frequency on second page, volume/velocity response on third page), by using the **PAGE** button.
 
-The MIX context permits to edit (or review) all the parameters concerning the current MIX ENVelope (TIP: each program have its own mix envelope), including mix envelope loop feature.
+The MIX context permits to edit (or to view/review) all the parameters concerning the current MIX ENVelope (TIP: each program have its mix envelope), including mix envelope loop feature.
 
-Program is a kind of _synthesizer preset_ (or _synthesizer patch_), identified either by a number (from **01** to **16**) and by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth / mode (TZ FM or PM), LFO 1 settings, and LFO 2 settings.
+Program is a kind of _synthesizer preset_ (or _synthesizer patch_), identified either by a number (from **01** to **16**) and by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth and mode (TZ FM, or PM), LFO 1 settings, and LFO 2 settings.
 
 To select another context (except program), press the related button (A, B, C, D, or MIX) when its LED is unlit: _Vektor_ is switched to the new context, and its red LED becomes lit.
 
-:information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, the LED becomes unlit (all LED are unlit), indicating the _Vektor_ module is switched to PROGRAM context.
+:information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED are unlit, indicating the _Vektor_ module is switched to PROGRAM context.
 
-Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory / _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective "first page"!
+Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory / _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first page.
 
 ---
 
