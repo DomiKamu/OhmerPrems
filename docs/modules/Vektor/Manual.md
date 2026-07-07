@@ -135,10 +135,10 @@ _Vektor_ module technical specifications:
 - Joystick: manual A/B/C/D volume crossfading (absolute, or offset), MIX ENVelope points edit.
 - MIX ENVelope (automated A/B/C/D crossfading): per program. Can be enabled/disabled via a dedicated ENV. button.
 - MIX ENVelope control: by held GATE input jack (min. +1V, recommended +10V).
-- MIX ENVelope points: 5 (point 0 is start point, point 3 is sustain point, point 4 is release point).
-- MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms, default 500ms per vector).
-- MIX ENVelope loop: yes (please consult MIX ENVELOPE LOOP topic for details).
-- Input jacks: 7 (V/OCT, joystick X, joystick Y, GATE, VEL, PROG., FM).
+- MIX ENVelope points: 5 (point 0 is the start point, point 3 is the sustain point, point 4 is the release point).
+- MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms, per vector).
+- MIX ENVelope loop: yes, from 1 up to 12 times (or infinite), unidirectional or bidirectional, from point 3 to 2, to 1 or to 0.
+- Input jacks: 7 (V/OCT, joystick X, joystick Y, GATE, VEL., PROG., FM).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Per program.
 - OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator and per program.
 - Frequency response (bandwidth): 16.352Hz (C0) to 15804.416Hz (B9). Nyquist frequency (half of sample rate) limiting.
