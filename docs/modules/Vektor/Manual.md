@@ -41,7 +41,7 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 In case you are unfamiliar about _Vector Synthesis_, the best way to explain it is to use the following fictious scene, where you are the actor!
 
-Try to imagine a square room, consider this room doesn't have sound reflection on walls/floor/roof, having a loudspeaker placed on each corner, each loudspeaker constantly outputs a basic waveform at same frequency and volume (like an oscillator can do). First, if you're looking the room from above:
+Try to imagine a square room, consider this room doesn't have sound reflection on walls/floor/roof, having a placed loudspeaker on each corner, each loudspeaker constantly outputs a basic waveform at same frequency and volume (like an oscillator can do). First, if you're looking the room from above:
 - Loudspeaker **A** is located at the bottom-left corner (angle).
 - Loudspeaker **B** is located at top-left corner.
 - Loudspeaker **C** is located at top-right corner.
@@ -49,33 +49,33 @@ Try to imagine a square room, consider this room doesn't have sound reflection o
 
 ![](_img/room1.png)
 
-Now, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation): obviously, after rotation, the room remains a square, but from above view, now the room shape is looking as a **diamond** (in geometry, square is a particular form of... diamond).
+Now, by a strange mechanism, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation!): obviously, after rotation, the room remains a square, but from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond).
 
-By done this room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom. Easy, aren't?:
+By doing this room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom. Easy at the moment, aren't?:
 
 ![](_img/room2.png)
 
-Now, you enter the room having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: it captures sound "components" of each loudspeaker, as equal parts (50% of A, 50% of B, 50% of C, and 50% of D):
+Now, you enter the room, having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: it captures sound "components" of each loudspeaker, as equal parts (in Vector Synthesis world: 50% of A, 50% of B, 50% of C, and 50% of D):
 
 ![](_img/room3.png)
 
-As soon as you move by short line "segments" into the room (origin point, any direction, any distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends the microphone position at every instant, regardling them). As example, if the microphone is nearest as possible of the loudspeaker A, it will capture max 100% of it, nearly 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
+As soon as you move by short line "segments" into the room (origin point, any direction, any distance), on every position in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends the microphone position at every instant, regardling distances to loudspeakers). As example, if the microphone is nearest as possible of the loudspeaker A, it will capture maximum 100% of it, nearly 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
 
 ![](_img/room4.png)
 
-Every line segment of your moves (point where the segment start, direction, and distance) is named... a **vector**.
+Every line segment of your moves, as red segments just above (point where the segment start, direction, and distance) is named... a **vector**.
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
-Real and virtual synthesizers using Vector Synthesis, also true concerning the _Vektor_ module, the X (horizontal) / Y (vertical) position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIXing ENVelope, kind of **timed automation** of four vectors.
+Real and virtual synthesizers using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIXing ENVelope, kind of **timed automation** of vectors & X/Y points in realtime.
 
-Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) may use different frequency (by transposition, by modulated frequency) and/or different volume (base volume, and possible level reduction by the velocity).
+Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) can use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base volume of the oscillator, and possible level reduction by the velocity).
 
 ---
 
 ### INTRODUCTION<a name="intro"></a>
 
-Partially inspired by the Behringer's [**Victor**](https://www.behringer.com/en/products/0720-ADA) Eurorack module, the main objective of _Vektor_ is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading) inside "the diamond" pattern, and its MIXing ENVelope who is working like an "automation curve" (in modern DAWs) to control the timed crossfading trajectory, automatically.
+Partially inspired by the Behringer's [**Victor**](https://www.behringer.com/en/products/0720-ADA) Eurorack module, the main objective of _Vektor_ is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading) inside "the diamond", and its possible MIXing ENVelope who is working like an "automation curve" (in modern DAWs) to control the timed crossfading trajectory, automatically!
 
 Also provided by _Vektor_, two internal (independent) low-frequency oscillators (**LFO 1** and **LFO 2**), plus **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM) or **PM** (Phase Modulation, variant of FM synthesis used by Yamaha DX synthesizers family). These possible **frequency modulators** are designed to modulate any oscillator (waveform) you'll want (OSC A, B, C or D), offering near infinite possibilities in sound design sessions. Also, LFO 1 and/or LFO 2 can be used by external module(s) in your rack, by attaching the _VX_ expander alsongside _Vektor_ (right side, without space between each other).
 
