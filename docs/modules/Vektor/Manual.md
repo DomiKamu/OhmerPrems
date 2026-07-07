@@ -176,7 +176,8 @@ To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end u
 
 ### VEKTOR MODULE LAYOUT<a name="layoutvektor"></a>
 
-The best way to present the _Vektor_ module layout is by the (long) animation (11 frames, approx. 20 s per frame):
+The best way to present the _Vektor_ module layout is by the (long) animation (11 frames, approx. 20 s per frame)
+:warning: **DUE TO SOME LAYOUT CHANGES, PLEASE CONSIDER THIS ANIMATION IS OUTDATED** (will be remade from scratch):
 
 ![](_img/VektorLayoutV2.gif)
 
@@ -195,6 +196,8 @@ The _VX_ expander is divided by 3 sections (blue lines on the module's plate, as
 Every output jack have its own LED, mainly green (exception is GATE, who are using blue, instead).
 
 :warning: all **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
+
+:information_source: as long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are solid red, indicating the constant 0V are unusable!
 
 ---
 
