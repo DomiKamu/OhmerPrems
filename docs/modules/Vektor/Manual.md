@@ -149,7 +149,7 @@ _Vektor_ module technical specifications:
 - Stereo: none (all outputs are mono, but polyphonic).
 - Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from external file(s).
 - Program change: not supported (program can be changed, but manually only).
-- LED: yellow for V/OCT, blue for GATE and mix envelope stage indicators, green for VEL and FM, green/red for X and Y (combined inputs).
+- LED: yellow for V/OCT, blue for GATE, green for VEL., PROG. and FM, green/red for combined X and Y inputs.
 - Self-test feature: on first module installation in the rack, on full reset to factory ("Initialize", from right click context menu).
 
 _VX_ expander module technical specifications:
@@ -157,9 +157,9 @@ _VX_ expander module technical specifications:
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 3HP.
 - Must be placed alongside the **right side** of any _Vektor_ module, **without space** between them.
-- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ module's model, when "linked".
+- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ module's model (when "connected").
 - Outputs: 7 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
-- Output voltage ranges: -5V to +5V.
+- Output voltage ranges: -5V to +5V (0V or +10V for GATE).
 - LED: per output (all are RGB).
 
 ---
