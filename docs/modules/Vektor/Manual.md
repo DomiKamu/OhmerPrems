@@ -196,9 +196,9 @@ The _VX_ expander is divided by 3 sections (blue lines on the module's plate, as
 
 Every output jack have its own LED, mainly green (exception is GATE, who are using blue, instead).
 
-:warning: all **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
+:warning: All **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
 
-:information_source: as long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are solid red, indicating the constant 0V are unusable!
+:information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are solid red, indicating the constant 0V are not relevant!
 
 ---
 
