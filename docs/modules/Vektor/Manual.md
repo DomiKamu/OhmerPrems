@@ -124,7 +124,7 @@ _Vektor_ module technical specifications:
 - ENV Momentary button (to enable or disable the mix envelope on-the-fly). Per program.
 - Polyphony: max. 16 voices/channels (recommended: 4 or 8 voices).
 - Sound sources: 4 (OSC A, OSC B, OSC C, and OSC D), using waveforms/samples.
-- Built-in ROM waveforms: 96, including "silence" (disabled OSC), and constant-frequency white noise.
+- Built-in ROM waveforms: 96, including "silence" (disabled OSC), and not-pitchable (constant frequency) white noise.
 - User waveforms: max. 32 (per module instance).
 - Wave importation: Microsoft/IBM WAVE, PCM signed 16-bit, 44100Hz, mono, 2048 samples. **Filesize must be 4140 bytes**.
 - Wavetable support: no (like the real Prophet VS synthesizer).
@@ -138,17 +138,17 @@ _Vektor_ module technical specifications:
 - MIX ENVelope points: 5 (point 0 is the start point, point 3 is the sustain point, point 4 is the release point).
 - MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms, per vector).
 - MIX ENVelope loop: yes, from 1 up to 12 times (or infinite), unidirectional or bidirectional, from point 3 to 2, to 1 or to 0.
-- Input jacks: 7 (V/OCT, joystick X, joystick Y, GATE, VEL., PROG., FM).
+- Input jacks: 7 (V/OCT, X, Y, GATE, VEL., PROG., FM).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Per program.
 - OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator and per program.
-- Frequency response (bandwidth): 16.352Hz (C0) to 15804.416Hz (B9). Nyquist frequency (half of sample rate) limiting.
+- Frequency response: 10 octaves, 16.352Hz (C0) to 15804.416Hz (B9). Band-limiting up to Nyquist (half of sample rate).
 - DAC resolution: 12-bit.
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 5 (MIX, A, B, C, D).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono, but polyphonic).
 - Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from external file(s).
-- Program change: not supported (program can be changed, but manually only).
+- Program change: supported via PROG. input jack (+1V to +8.5V).
 - LED: yellow for V/OCT, blue for GATE, green for VEL., PROG. and FM, green/red for combined X and Y inputs.
 - Self-test feature: on first installation in the rack, on full reset to factory ("Initialize" command, from right click context menu).
 
