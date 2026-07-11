@@ -292,9 +292,11 @@ Allowed characters for filenames and program names:
 - Period (.) but **not accepted as first character** (Linux-based operating systems consider file as "hidden" if the filename begins by a period!)
 - Exclamation mark (!)
 - Apostrophe (')
+- Hash (#)
 - Ampersand (&)
 - At (@)
 - Parentheses (round brackets)
+- Square brackets
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
