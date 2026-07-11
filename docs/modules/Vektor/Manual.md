@@ -15,6 +15,7 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
+- [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 
 ---
 
@@ -229,6 +230,12 @@ To select another context (except program), press the related button (A, B, C, D
 :information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED are unlit, indicating the _Vektor_ module is switched to PROGRAM context.
 
 Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory / _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first page.
+
+---
+
+### ADVANTAGE OF DISCRETE OSCILLATOR OUTPUT JACKS<a name="discreteouts"></a>
+
+Even the **MIX** output jack can be assumed as the most important in Vector Synthesis word, because all oscillators are constantly mixed (manually by the joystick or by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope), by using discrete A, B, C, and D output jacks only, in this case, you get **four independent oscillators** (or sound sources) in case you'll don't need the Vector Synthesis aspect of the module. However, you'll can combine every discrete A, B, C, and D output jacks, together with the **MIX** output jack.
 
 ---
 
