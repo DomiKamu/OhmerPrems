@@ -253,11 +253,11 @@ To select a different program:
 - Rotate clockwise the DATA ENTRY continuous encoder to select next program (or 01 if the current program number was 16).
 - Rotate counter-clockwise the DATA ENTRY continuous encoder to select previous program (or 16 if the current program number was 01).
 
-Also, you'll can control the program select (like MIDI Program Change) by applying a voltage to PROG. input jack (can be done by an analog sequencer, such FranKe). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16).
+Also, you'll can control the program select (like MIDI Program Change) by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16). The PROG. input jack, of course, is working from any module's context!
 
-:warning: **Applied voltage on PROG. input jack below +1V is ignored. Also, any voltage above +8.5V assumes PROGRAM 16.**
+:warning: **Applied voltage on PROG. input jack below +1V is ignored (including negative voltages). Also, any voltage above +8.5V assumes change to PROGRAM 16.**
 
-Obviously, any program can be altered regardling your needs, saved to external **.vktProg** (_Vektor PROGRAM_) file, and later, loaded from **.vktProg** file.
+Obviously, any program can be altered, regardling your needs, saved to external **.vktProg** (_Vektor PROGRAM_) file, and later, loaded from **.vktProg** file.
 
 :information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set, and limited number of characters.
 
