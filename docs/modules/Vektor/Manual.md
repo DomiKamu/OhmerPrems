@@ -236,7 +236,11 @@ Except for the **MIX** context (default display - for its 1st page - is the MIX 
 
 Even the **MIX** output jack can be assumed as the most important in Vector Synthesis word, because all oscillators are constantly mixed (manually by the joystick or by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope), by using discrete A, B, C, and D output jacks only, in this case, you get **four independent oscillators** (or sound sources) in case you'll don't need the Vector Synthesis aspect of the module. However, you'll can combine every discrete A, B, C, and D output jacks, together with the **MIX** output jack.
 
-By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (OSC x VOLUME, along L3 button) - to get a blended oscillator signal signal, in case you'll need it for further usage!
+By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (**OSC x VOLUME**, along **L3** button) - to get a blended oscillator signal, in case you'll need it for further usage!
+
+_Example: from OSC A context, 3rd page (OSC A VOLUME), press L3 button to select **PRE-JOYST.** setting, then by turning the DATA ENTRY encoder, you'll can change the setting from **YES (DRY)** to **NO (POST)**, and vice-versa:_
+
+![](_img/OscPreJoystick.png)
 
 ---
 
