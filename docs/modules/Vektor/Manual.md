@@ -281,17 +281,20 @@ Obviously, any program can be altered (regardling your needs), saved to external
 
 :information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below), and limited number of characters less or equal 16.
 
-Allowed characters for filename and program name:
-- All regular letters: A..Z, a..z (lowercase letters are converted to upper for display)
+Allowed characters for filenames and program names:
+- All latin letters: A..Z, a..z (lowercase letters are converted to uppercase letters for program name)
 - All digits: 0..9
-- Blank (space)
-- Underscore (_)
-- Minus (-)
+- Space
+- Minus/hyphen (-)
 - Plus (+)
-- Equals (=)
+- Underscore (_)
+- Equals sign (=)
+- Period (.) but **not accepted as first character** (Linux-based operating systems consider file as "hidden" if the filename begins by a period!)
 - Exclamation mark (!)
-- Period/point (.) but **not accepted as first character** (Linux-based operating systems consider point as first character as hidden file!)
 - Apostrophe (')
+- Ampersand (&)
+- At (@)
+- Parentheses (round brackets)
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
