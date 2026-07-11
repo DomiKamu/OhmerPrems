@@ -101,7 +101,7 @@ Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V ra
 _Vektor_ comes with (optional-to-use) 3HP "right side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional outputs:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
-- **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is unlit).
+- **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V). Offsets by joystick position (or by voltages applied on X and Y inputs) is not included.
 
 Vektor module is polyphonic, up to 16 voices (polyphony channels).
@@ -211,27 +211,27 @@ Every output jack have its own LED, mainly green (exception is GATE, who are usi
 
 They're exactly 6 contexts. Each context is represented by the red LED state above its button, and can be changed by pressing the relevant button (LED and buttons are located just below the OLED display, each box is a "context").
 
-Those contexts are:
+Contexts are:
 
-- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D context, when its corresponding LED above the button is on (lit).
-- **MIX**, covers all the aspects of the MIX ENVelope feature, when the LED above the MIX button is lit.
-- **PROGRAM**, concerns programs management, when **all LED are turned off** (unlit).
+- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D context, when its corresponding red LED above the button is on.
+- **MIX**, covers all the aspects of the MIX ENVelope feature, when the LED above the MIX button is on.
+- **PROGRAM**, concerns program selection and settings for selected program, when **all LED are off**.
 
 Any oscillator-based context (A, B, C, or D) permits:
 - to choose the oscillator waveform (can be a _built-in ROM_ waveform, or a _user_ waveform).
-- to import a custom waveform from external ".wav" file, to current USER waveform "slot" (from number **000** to **031** only).
-- to free (to clear/erase) the current user waveform slot (command from right click menu, when applicable).
-- to access additional oscillator parameters, like oscillator frequency on second page, volume/velocity response on third page), by using the **PAGE** button.
+- to import a custom waveform from external ".wav" file, to current USER waveform "slot" (from number **000** to **031**).
+- to free (to clear/erase) the current user waveform slot, if used (command from right click menu, when applicable).
+- to access additional oscillator parameters, like frequency on second page, volume/velocity response on third page (by using **PAGE** button).
 
-The MIX context permits to edit (or to view/review) all the parameters concerning the current MIX ENVelope (TIP: each program have its mix envelope), including mix envelope loop feature.
+The MIX context permits to edit (or to view) all the parameters concerning the MIX ENVelope and mix envelope loop feature.
 
-Program is a kind of _synthesizer preset_ (or _synthesizer patch_), identified either by a number (from **01** to **16**) and by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth and mode (TZ FM, or PM), LFO 1 settings, and LFO 2 settings.
+Program is a kind of _synthesizer preset_, identified either by a number (from **01** to **16**) also by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth and mode (TZ FM, or PM), LFO 1 settings, and LFO 2 settings.
 
-To select another context (except program), press the related button (A, B, C, D, or MIX) when its LED is unlit: _Vektor_ is switched to the new context, and its red LED becomes lit.
+To select a context (except PROGRAM), press the related button (A, B, C, D, or MIX) when its LED is off: _Vektor_ is switched to the new context, and its red LED is turned on.
 
-:information_source: To select the PROGRAM context, press the button **where the LED is already lit**: by doing this, all LED are unlit, indicating the _Vektor_ module is switched to PROGRAM context.
+To select the PROGRAM context, press the button **where the LED is already on**: all LED become off, indicating the _Vektor_ module now is switched to PROGRAM context.
 
-Except for the **MIX** context (default display - for its 1st page - is the MIX ENVelope trajectory / _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first page.
+Except for the **MIX** context (default display for its first page is the MIX ENVelope trajectory, aka _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first page.
 
 ---
 
@@ -270,8 +270,8 @@ The greatest number of polyphony voices from these sources is always selected by
 The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_). All first 15 (numbered from 01 to 15, and having an explicit name) are based on the real Prophet VS hardware. Program numbered 16 is the **INIT** program (settings was choosen by the developer ;)
 
 To select a different program:
-- Be sure the PROGRAM context is selected first, **all context red LED must be unlit**. If not, simply press the button where the red LED is lit, by doing this, the _Vektor_ module is switched to PROGRAM context (the OLED must display **PROGRAM** as header) !
-- If necessary, press the L2 button (the blinking cursor must surround the program number).
+- Be sure the PROGRAM context is selected first, **all context red LED must be off**. If not, simply press the button where the red LED is on, by doing this, the _Vektor_ module is switched to PROGRAM context (the OLED must display **PROGRAM** as header) !
+- If necessary, press the L2 button (the blinking cursor must surround the program number along L2 button).
 - Rotate clockwise the DATA ENTRY continuous encoder to select next program (will be 01 if the current program number was 16).
 - Rotate counter-clockwise the DATA ENTRY continuous encoder to select previous program (will be 16 if the current program number was 01).
 
