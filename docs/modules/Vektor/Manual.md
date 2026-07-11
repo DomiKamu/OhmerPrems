@@ -16,6 +16,7 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
 - [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
+- [**PROGRAMS**](#programs)
 
 ---
 
@@ -234,6 +235,35 @@ Except for the **MIX** context (default display - for its 1st page - is the MIX 
 ### ADVANTAGE OF DISCRETE OSCILLATOR OUTPUT JACKS<a name="discreteouts"></a>
 
 Even the **MIX** output jack can be assumed as the most important in Vector Synthesis word, because all oscillators are constantly mixed (manually by the joystick or by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope), by using discrete A, B, C, and D output jacks only, in this case, you get **four independent oscillators** (or sound sources) in case you'll don't need the Vector Synthesis aspect of the module. However, you'll can combine every discrete A, B, C, and D output jacks, together with the **MIX** output jack.
+
+---
+
+### PROGRAMS<a name="programs"></a>
+
+The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), all first 15 (numbered from 01 to 15) are based on real Prophet VS hardware. Program numbered 16 is the INIT program.
+
+To select a different program:
+- Be sure the PROGRAM context is selected, all context red LED must be unlit. If not, simply press the button where the red LED is lit, to switch the module to PROGRAM context!
+- Rotate clockwise the DATA ENTRY continuous encoder to select next program (or 01 if the current program number was 16).
+- Rotate counter-clockwise the DATA ENTRY continuous encoder to select previous program (or 16 if the current program number was 01).
+
+Also, you'll can control the program select (like MIDI Program Change) by applying a voltage to PROG. input jack (can be done by an analog sequencer, such FranKe). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16).
+
+:warning: **Applied voltages on PROG. jack above +8.51V (or below +1V) are not processed.**
+
+Any program can be altered, saved to a **.vktProg** (_Vektor PROGRAM_) file, and loaded later from **.vktProg** file.
+
+:information_source: Program name always follows the indicated filename when you save the current program (but with restrictive number of characters, and character number).
+
+All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv) and autosave.
+
+A _Vektor_ program is using 4 pages:
+- The first (home) page displays the program number and name along L2 button, and MIX ENVelope state (on/off) along L5 button.
+- The second page displays settings for FM input (FM depth along L4 button, and FM mode along L5 button).
+- The third page displays settings dedicated to LFO 1 (L2: AMP amount, L3: waveform, L4: frequency, L5: retrigger).
+- The fourth page displays settings dedicated to LFO 2 (L2: AMP amount, L3: waveform, L4: frequency, L5: retrigger).
+
+To restore a displayed setting to its default value (factory, or last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
 
 ---
 
