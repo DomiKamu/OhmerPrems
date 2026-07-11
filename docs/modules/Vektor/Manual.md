@@ -259,7 +259,7 @@ These sources come, in general, from the same module (but this is not an absolut
 
 The greatest number of polyphony voices from these sources is always selected by the _Vektor_ module. Minimum is 1 (meaning the _Vektor_ module is working as monophonic VCO). Maximum number of polyphonic voices (channels) is 16.
 
-:warning: Please be careful about CPU load as soon as you increase the number of polyphony voices, please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using a lot of Pythagorean and trigonometric functions to establish vectors (trajectory) and speeds (per vector), may require an important amount of CPU resources! **Recommended polyphony setting for _Vektor_ is 4 or 8 voices**, depending your computer, exactly like the Prophet VS hardware synthesizer.
+:warning: Please be careful about CPU load as soon as you increase the number of polyphony voices, please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using a lot of Pythagorean and trigonometric functions to establish vectors (trajectory) and speeds (per vector), may require an important amount of CPU resources! **Recommended polyphony setting for _Vektor_ is 4 or 8 voices** (depending your computer and the patch complexity), exactly like the Prophet VS hardware synthesizer.
 
 ---
 
