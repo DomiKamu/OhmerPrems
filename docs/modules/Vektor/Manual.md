@@ -119,20 +119,20 @@ _Vektor_ module technical specifications:
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 16HP.
 - Available models (GUI theme variants): 8 (please watch the animation at the top of this page, for available models).
-- Display: **non-touchscreen** OLED (blue).
+- Display: **not a touchscreen** OLED, blue monochrome.
 - 5 "context" momentary buttons OSC A, OSC B, OSC C, OSC D, MIX, overlooked by horizontal red LED "bars".
-- 5 left-side momentary buttons L1 to L5.
+- 5 left-side momentary buttons (L1 to L5, from top to bottom).
 - PAGE momentary button.
 - DATA ENTRY continuous encoder.
-- ENV Momentary button (to enable or disable the mix envelope on-the-fly). Per program.
+- ENV momentary button (as toggle to enable or disable the mix envelope "on-the-fly"). Per program.
 - Polyphony: max. 16 voices/channels (recommended: 4 or 8 voices).
-- Sound sources: 4 (OSC A, OSC B, OSC C, and OSC D), using waveforms/samples.
+- Oscillators: 4 (OSC A, OSC B, OSC C, and OSC D), using waveforms/samples.
 - Built-in ROM waveforms: 96, including "silence" (disabled OSC), and not-pitchable (constant frequency) white noise.
 - User waveforms: max. 32 (per module instance).
 - Wave importation: Microsoft/IBM WAVE, PCM signed 16-bit, 44100Hz, mono, 2048 samples. **Filesize must be 4140 bytes**.
 - Wavetable support: no (like the real Prophet VS synthesizer).
 - LFO: 2 independent internal LFO 1 and LFO 2 (settings per program).
-- LFO frequency range: min. 0.01Hz, max. 50Hz, resolution 0.01Hz, default 2Hz.
+- LFO frequency range: min. 0.01Hz, max. 50Hz, resolution 0.01Hz.
 - LFO AMPlitude range: min. 0% (LFO is turned off), max. 100% (+5V).
 - LFO waveforms: sine, triangle, sawtooth, ramp, square, random.
 - Joystick: manual A/B/C/D volume crossfading (absolute, or offset), MIX ENVelope points edit.
@@ -143,8 +143,10 @@ _Vektor_ module technical specifications:
 - MIX ENVelope loop: yes, from 1 up to 12 times (or infinite), unidirectional or bidirectional, from point 3 to 2, to 1 or to 0.
 - Input jacks: 7 (V/OCT, X, Y, GATE, VEL., PROG., FM).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Per program.
-- OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator and per program.
-- Frequency response: 10 octaves, 16.352Hz (C0) to 15804.416Hz (B9). Band-limiting up to Nyquist (half of sample rate).
+- FM depth: 0% (NO FM) to 100%, or negative -100% (inverted modulator signal). Per program.
+- OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator, and per program.
+- Frequency: 10 octaves, from 16.352Hz (C0) to 15804.416Hz (B9).
+- Band-limiting: up to Nyquist frequency (half of sample rate).
 - DAC resolution: 12-bit.
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 5 (MIX, A, B, C, D).
@@ -153,7 +155,7 @@ _Vektor_ module technical specifications:
 - Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from external file(s).
 - Program change: supported via PROG. input jack (+1V to +8.5V).
 - LED: yellow for V/OCT, blue for GATE, green for VEL., PROG. and FM, green/red for combined X and Y inputs.
-- Self-test feature: on first installation in the rack, on full reset to factory ("Initialize" command, from right click context menu).
+- Self-test feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
 _VX_ expander module technical specifications:
 
@@ -173,7 +175,7 @@ _VX_ expander module technical specifications:
 
 To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including autosave, occuring every 15-second), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Above 4 imported waveforms, the WARNING (orange) LED at the bottom of the module (WARN./ERR. section, below joystick) is blinking orange, twice per second, to inform you it's risky about amount of datas stored to json file (patch or autosave file). Do not forget you'll can free (erase/clear) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), in this case, the module's right click context menu offers a command to free (erase) the current user waveform slot, when required.
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Above 4 imported waveforms, the WARNING (orange) LED at the bottom of the module (WARN./ERR. section, below joystick) is blinking orange, twice per second, to inform you it's risky about amount of datas stored to json file (patch or autosave file). Do not forget you'll can free (erase/clear) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), in this case, the module's right click menu offers a command to free (erase) the current user waveform slot, when required.
 
 ---
 
@@ -218,7 +220,7 @@ Those contexts are:
 Any oscillator-based context (A, B, C, or D) permits:
 - to choose the oscillator waveform (can be a _built-in ROM_ waveform, or a _user_ waveform).
 - to import a custom waveform from external ".wav" file, to current USER waveform "slot" (from number **000** to **031** only).
-- to free (to clear/erase) the current user waveform slot (via right click context menu command, when applicable).
+- to free (to clear/erase) the current user waveform slot (command from right click menu, when applicable).
 - to access additional oscillator parameters, like oscillator frequency on second page, volume/velocity response on third page), by using the **PAGE** button.
 
 The MIX context permits to edit (or to view/review) all the parameters concerning the current MIX ENVelope (TIP: each program have its mix envelope), including mix envelope loop feature.
@@ -298,8 +300,6 @@ Allowed character set for **.vktProg** filenames (and by the way, for program na
 - Parentheses (round brackets)
 - Square brackets
 
-By using VCV Rack's **Randomize** command from right click context menu, or **Ctrl + R** shortcut (**Command + R** on MacOS X platforms) to randomize all settings of the current program, the program name is also set by random characters!
-
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
 A _Vektor_ program is using 4 pages:
@@ -315,7 +315,7 @@ A program always embeds:
 - Position of the physical joystick.
 - All MIX ENVelope settings (including loop).
 - All four oscillators (A, B, C, and D) settings.
-- FM depth & mode settings.
+- FM depth & FM mode settings.
 - LFO 1 settings.
 - LFO 2 settings.
 
