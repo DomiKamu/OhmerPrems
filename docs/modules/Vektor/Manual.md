@@ -279,7 +279,19 @@ Also, you'll can control the program select (like MIDI Program Change) by applyi
 
 Obviously, any program can be altered (regardling your needs), saved to external **.vktProg** (_Vektor PROGRAM_) file, then later, loaded from **.vktProg** file, as required.
 
-:information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set, and limited number of characters.
+:information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below), and limited number of characters less or equal 16.
+
+Allowed characters for filename and program name:
+- All regular letters: A..Z, a..z (lowercase letters are converted to upper for display)
+- All digits: 0..9
+- Blank (space)
+- Underscore (_)
+- Minus (-)
+- Plus (+)
+- Equals (=)
+- Exclamation mark (!)
+- Period/point (.) but **not accepted as first character** (Linux-based operating systems consider point as first character as hidden file!)
+- Apostrophe (')
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
@@ -290,6 +302,15 @@ A _Vektor_ program is using 4 pages:
 - The fourth page displays settings dedicated to LFO 2: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 
 To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
+
+A program always embeds:
+- Name (up to 16 characters, see above for allowed characters).
+- Position of the physical joystick.
+- All MIX ENVelope settings (including loop).
+- All four oscillators settings.
+- FM depth & mode settings.
+- LFO 1 settings.
+- LFO 2 settings.
 
 ---
 
