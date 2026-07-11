@@ -255,11 +255,11 @@ To select a different program:
 
 Also, you'll can control the program select (like MIDI Program Change) by applying a voltage to PROG. input jack (can be done by an analog sequencer, such FranKe). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16).
 
-:warning: **Applied voltages on PROG. jack above +8.51V (or below +1V) are not processed.**
+:warning: **Applied voltage on PROG. input jack below +1V is ignored. Also, any voltage above +8.5V assumes PROGRAM 16.**
 
-Any program can be altered, saved to a **.vktProg** (_Vektor PROGRAM_) file, and loaded later from **.vktProg** file.
+Obviously, any program can be altered regardling your needs, saved to external **.vktProg** (_Vektor PROGRAM_) file, and later, loaded from **.vktProg** file.
 
-:information_source: Program name always follows the indicated filename when you save the current program (but with restrictive character set, and number of characters).
+:information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set, and limited number of characters.
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
