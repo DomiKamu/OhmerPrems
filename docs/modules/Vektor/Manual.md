@@ -307,7 +307,7 @@ A program always embeds:
 - Name (up to 16 characters, see above for allowed characters).
 - Position of the physical joystick.
 - All MIX ENVelope settings (including loop).
-- All four oscillators settings.
+- All four oscillators (A, B, C, and D) settings.
 - FM depth & mode settings.
 - LFO 1 settings.
 - LFO 2 settings.
