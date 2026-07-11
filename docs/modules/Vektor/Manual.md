@@ -104,7 +104,7 @@ _Vektor_ comes with (optional-to-use) 3HP "right side" expander module, named _V
 - **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is unlit).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V). Offsets by joystick position (or by voltages applied on X and Y inputs) is not included.
 
-Vektor module is polyphonic, up to 16 voices (channels). Please be careful about CPU load as soon as you increase the number of polyphony voices (defined by the source modules, for V/OCT, GATE, and VEL. inputs), so please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using a lot of Pythagorean and trigonometric functions to establish vectors (trajectory of the MIX ENVelope), and speeds per vector, may require important amount of CPU resources! Recommended polyphony setting for _Vektor_ is 4 or 8 voices.
+Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
 ---
 
