@@ -281,7 +281,7 @@ Obviously, any program can be altered (regardling your needs), saved to external
 
 :information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below), and limited number of characters less or equal 16.
 
-Allowed characters for filenames (and by the way, for program names) are:
+Allowed character set for **.vktProg** filenames (and by the way, for program names) are:
 - All latin letters: A..Z, a..z (lowercase letters are converted to uppercase for displayed program name)
 - All digits: 0..9
 - Space
@@ -289,7 +289,7 @@ Allowed characters for filenames (and by the way, for program names) are:
 - Plus (+)
 - Underscore (_)
 - Equals sign (=)
-- Period (.) but **removed if placed as first character** (Linux-based operating systems consider file as "hidden" if the filename begins by a period!)
+- Period (.) but **automatically removed if placed as first character**, because Linux-based operating systems consider file as "hidden" if the filename begins by a period.
 - Exclamation mark (!)
 - Apostrophe (')
 - Hash (#)
