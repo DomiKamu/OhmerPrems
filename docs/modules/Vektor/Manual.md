@@ -281,7 +281,7 @@ Obviously, any program can be altered (regardling your needs), saved to external
 
 :information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below), and limited number of characters less or equal 16.
 
-Allowed character set for **.vktProg** filenames (and by the way, for program names) are:
+Allowed character set for **.vktProg** filenames (and by the way, for program names) is:
 - All latin letters: A..Z, a..z (lowercase letters are converted to uppercase for displayed program name)
 - All digits: 0..9
 - Space
