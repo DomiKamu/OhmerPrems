@@ -289,7 +289,7 @@ Allowed characters for filenames (and by the way, for program names) are:
 - Plus (+)
 - Underscore (_)
 - Equals sign (=)
-- Period (.) but **removed if defined as first character** (Linux-based operating systems consider file as "hidden" if the filename begins by a period!)
+- Period (.) but **removed if placed as first character** (Linux-based operating systems consider file as "hidden" if the filename begins by a period!)
 - Exclamation mark (!)
 - Apostrophe (')
 - Hash (#)
@@ -297,6 +297,8 @@ Allowed characters for filenames (and by the way, for program names) are:
 - At (@)
 - Parentheses (round brackets)
 - Square brackets
+
+By using VCV Rack's **Randomize** command from right click context menu, or **Ctrl + R** shortcut (**Command + R** on MacOS X platforms) to randomize all settings of the current program, the program name is also set by random characters!
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
