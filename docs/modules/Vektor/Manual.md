@@ -236,6 +236,8 @@ Except for the **MIX** context (default display - for its 1st page - is the MIX 
 
 Even the **MIX** output jack can be assumed as the most important in Vector Synthesis word, because all oscillators are constantly mixed (manually by the joystick or by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope), by using discrete A, B, C, and D output jacks only, in this case, you get **four independent oscillators** (or sound sources) in case you'll don't need the Vector Synthesis aspect of the module. However, you'll can combine every discrete A, B, C, and D output jacks, together with the **MIX** output jack.
 
+By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (OSC x VOLUME, along L3 button) - to get a blended oscillator signal signal, in case you'll need it for further usage!
+
 ---
 
 ### PROGRAMS<a name="programs"></a>
@@ -253,9 +255,9 @@ Also, you'll can control the program select (like MIDI Program Change) by applyi
 
 Any program can be altered, saved to a **.vktProg** (_Vektor PROGRAM_) file, and loaded later from **.vktProg** file.
 
-:information_source: Program name always follows the indicated filename when you save the current program (but with restrictive number of characters, and character number).
+:information_source: Program name always follows the indicated filename when you save the current program (but with restrictive character set, and number of characters).
 
-All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv) and autosave.
+All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
 A _Vektor_ program is using 4 pages:
 - The first (home) page displays the program number and name along L2 button, and MIX ENVelope state (on/off) along L5 button.
