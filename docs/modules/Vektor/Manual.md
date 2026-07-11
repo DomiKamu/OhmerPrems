@@ -246,7 +246,7 @@ _Example: from OSC A context, 3rd page (OSC A VOLUME), press L3 button to select
 
 ### PROGRAMS<a name="programs"></a>
 
-The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), all first 15 (numbered from 01 to 15) are based on real Prophet VS hardware. Program numbered 16 is the INIT program.
+The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), all first 15 (numbered from 01 to 15) are based on real Prophet VS hardware. Program numbered 16 is the INIT program (choosen settings by the developer).
 
 To select a different program:
 - Be sure the PROGRAM context is selected, all context red LED must be unlit. If not, simply press the button where the red LED is lit, to switch the module to PROGRAM context!
