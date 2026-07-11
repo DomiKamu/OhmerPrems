@@ -16,6 +16,7 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
 - [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
+- [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
 - [**PROGRAMS**](#programs)
 
 ---
@@ -103,7 +104,7 @@ _Vektor_ comes with (optional-to-use) 3HP "right side" expander module, named _V
 - **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is unlit).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V). Offsets by joystick position (or by voltages applied on X and Y inputs) is not included.
 
-Vektor module is polyphonic, up to 16 voices (channels). Please be careful about CPU load as soon as you increase the number of polyphony voices (defined by the source modules, for V/OCT and GATE inputs), please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using Pythagorean and trigonometric functions to establish vectors (trajectory), and speeds per vector, may require a more or less amount of CPU resources. Recommended polyphony setting for _Vektor_ is 4 or 8 voices.
+Vektor module is polyphonic, up to 16 voices (channels). Please be careful about CPU load as soon as you increase the number of polyphony voices (defined by the source modules, for V/OCT, GATE, and VEL. inputs), so please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using a lot of Pythagorean and trigonometric functions to establish vectors (trajectory of the MIX ENVelope), and speeds per vector, may require important amount of CPU resources! Recommended polyphony setting for _Vektor_ is 4 or 8 voices.
 
 ---
 
@@ -243,6 +244,22 @@ By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joys
 _Example: from OSC A context, 3rd page (labelled "OSC A VOLUME"), press L3 button to select **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change the setting from **YES (DRY)** to **NO (POST)**:_
 
 ![](_img/OscPreJoystick.png)
+
+---
+
+### SOME WORDS ABOUT POLYPHONY<a name="aboutpoly"></a>
+
+The number of polyphony voices is automatically defined by these possible sources (from other modules) applied on the following input jacks:
+
+- V/OCT, who define the "base" pitches/frequencies (prior frequency modulation, by FM/PM or LFO), for all four oscillators.
+- GATE, mainly required to control the MIX ENVelope (if enabled), also possibly for LFO 1 and/or LFO 2 retriggering.
+- VEL. (optional velocities).
+
+Even this is not an absolute rule, these sources come, in general, from the same module. The most common is VCV's **MIDI->CV**, who convert MIDI datas to voltage equivalents to be compliant against Eurorack concepts. However, another polyphonic or monophonic module(s) can do exactly the same job.
+
+The greatest number of voices - from these sources - is always selected. Minimum is 1 (meaning the _Vektor_ module will work as monophonic VCO). Maximum number of polyphonic voices (channels) is 16.
+
+:warning: Please be careful about CPU load as soon as you increase the number of polyphony voices, please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using a lot of Pythagorean and trigonometric functions to establish vectors (trajectory), and speeds per vector, may require important amount of CPU resources! **Recommended polyphony setting for _Vektor_ is 4 or 8 voices**, exactly like the real Prophet VS hardware.
 
 ---
 
