@@ -18,6 +18,7 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
 - [**PROGRAMS**](#programs)
+- [**MIX ENVELOPE**](#mixenvelope)
 
 ---
 
@@ -328,6 +329,34 @@ A program always includes:
 - FM depth & FM mode settings.
 - LFO 1 settings.
 - LFO 2 settings.
+
+---
+
+### MIX ENVELOPE<a name="mixenvelope"></a>
+
+Every program have its MIX ENVelope (may be turned on or off).
+
+To acces MIX ENVelope context, simply press the MIX button (below the OLED display) if its LED is off.
+
+A _Vektor_ MIX ENVelope is using 3 pages:
+
+![](_img/mixEnvPages.png)
+
+- First page (home page for MIX context) permits to edit every point of the envelope.
+- Second page is used to define **rates**, duration for every vector (line segment) from 0ms up to 5,000ms.
+- Third page is used to set up the MIX ENVelope loop feature (loop always starts from point #3 / sustain).
+
+
+
+
+- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
+
+
+To save a program:
+- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
+- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** command.
+- From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
+
 
 ---
 
