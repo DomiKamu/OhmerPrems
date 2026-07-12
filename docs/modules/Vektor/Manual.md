@@ -306,11 +306,11 @@ To save a program:
 - Use right click context menu, select **Program #xx**, then **Save to .vktProgram file**.
 - From **Save As** dialog, select the path where you'd like to store the file, then enter the filename, then click Save button.
 
-_Program-specific context menu:_
+_Program-specific right click context menu:_
 
-![](_img/vktProgramSave.png)
+![](_img/vktProgramMenu.png)
 
-All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
+All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature (every 15s).
 
 A _Vektor_ program is using 4 pages:
 - The first (home) page displays the program number and name along L2 button, and MIX ENVelope state (on/off) along L5 button.
