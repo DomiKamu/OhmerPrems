@@ -284,7 +284,7 @@ Obviously, any program can be altered (regardling your needs), saved to external
 :information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
 Allowed characters for **.vktProgram** filenames (by the way, for program names) are:
-- All latin letters: A..Z, a..z (lowercase letters are automatically converted to uppercases for displayed program name)
+- All latin letters: A..Z, a..z (lowercase letters are automatically converted to uppercase letters, for displayed program name)
 - All digits: 0..9
 - Space
 - Minus/hyphen (-)
@@ -302,9 +302,9 @@ Allowed characters for **.vktProgram** filenames (by the way, for program names)
 - Tilde (~)
 
 To save a program:
-- Be sure the _Vektor_ module is placed in PROGRAM context (if not, click the button where the LED is on).
-- Use right click context menu, select **Program #xx**, then **Save to .vktProgram file**.
-- From **Save As** dialog, select the path where you'd like to store the file, then enter the filename, then click Save button.
+- Be sure the _Vektor_ module is placed in PROGRAM context (if not, click the context button where the LED is on).
+- Do a right-mouse click on the module, from menu select **Program #xx**, then **Save to .vktProgram file** command.
+- From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
 
 _Program-specific right click context menu:_
 
