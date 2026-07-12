@@ -334,9 +334,11 @@ A program always includes:
 
 ### MIX ENVELOPE<a name="mixenvelope"></a>
 
-The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF frequency cutoff/resonance/drive), the MIX ENVelope is a kind of **timed** automation of the oscillators crossfading (volume parts of each). Typically, this envelope - triggered and controlled by the **GATE** input jack - follows a trajectory in the diamond (like the joystick **-or-** the combined X & Y input jacks do). Also, looping is possible for very long held sounds (like pads).
+The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF frequency cutoff/resonance/drive), the MIX ENVelope is a kind of **timed** automation of the oscillators crossfading (volume parts of each). Typically, this envelope - triggered and controlled by the **GATE** input jack - follows a 2D trajectory in "the diamond" (like the joystick **-or-** the combined X & Y input jacks do). Also, looping is possible for very long held sounds (like pads), useful to create movements.
 
-When the MIX ENVelope is enabled (ON), the mix is firstly controlled by the envelope. However, the physical joystick (**or** the combined X & Y input jacks) may apply an "offset" to the running mix envelope.
+When the MIX ENVelope is enabled (ON), the mix between each oscillator is firstly controlled by the MIX ENVelope. However, the physical joystick (**or** the combined X & Y input jacks, but not both at the same time) can apply an "offset" to the running mix envelope.
+
+While the envelope is triggered, a visible small diamond is running along vectors (from home page).
 
 Every program have its own MIX ENVelope settings, and can be turned on or off, depending your needs.
 
@@ -384,6 +386,8 @@ To save the current MIX ENVelope to a **.vktMixEnv** file:
 _MIX ENVelope-specific right click context menu:_
 
 ![](_img/vktMixEnvMenu.png)
+
+Like most settings (oscillator pages, program pages), you'll can restore factory (or lastest saved) particular setting by holding **left Ctrl** key (**left Command** key on MacOS X platforms) while pressing the relevant L (left-side) momentary button.
 
 ---
 
