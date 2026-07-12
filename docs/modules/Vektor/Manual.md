@@ -301,6 +301,15 @@ Allowed characters for **.vktProgram** filenames (by the way, for program names)
 - At (@)
 - Tilde (~)
 
+To save a program:
+- Be sure the _Vektor_ module is placed in PROGRAM context (if not, click the button where the LED is on).
+- Use right click context menu, select **Program #xx**, then **Save to .vktProgram file**.
+- From **Save As** dialog, select the path where you'd like to store the file, then enter the filename, then click Save button.
+
+_Program-specific context menu:_
+
+![](_img/vktProgramSave.png)
+
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
 A _Vektor_ program is using 4 pages:
