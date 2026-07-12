@@ -281,10 +281,10 @@ Also, you'll can control the program select (like MIDI Program Change) by applyi
 
 Obviously, any program can be altered (regardling your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded from **.vktProgram** file.
 
-:information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below), and limited number of characters less or equal 16.
+:information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
 Allowed characters for **.vktProgram** filenames (by the way, for program names) are:
-- All latin letters: A..Z, a..z (lowercase letters are converted to uppercase for displayed program name)
+- All latin letters: A..Z, a..z (lowercase letters are automatically converted to uppercases for displayed program name)
 - All digits: 0..9
 - Space
 - Minus/hyphen (-)
@@ -299,6 +299,7 @@ Allowed characters for **.vktProgram** filenames (by the way, for program names)
 - At (@)
 - Parentheses (round brackets)
 - Square brackets
+- Tilde (~)
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
