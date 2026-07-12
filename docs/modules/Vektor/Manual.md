@@ -276,11 +276,11 @@ To select a different program:
 - Rotate clockwise the DATA ENTRY continuous encoder to select next program (will be 01 if the current program number was 16).
 - Rotate counter-clockwise the DATA ENTRY continuous encoder to select previous program (will be 16 if the current program number was 01).
 
-Also, you'll can control the program select (like MIDI Program Change) by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16). The PROG. input jack, of course, is working from any module's context!
+Also, you'll can control the program select (similar to _MIDI Program Change_) by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16). The PROG. input jack, of course, is working whatever the current module's context!
 
-:warning: **Applied voltage on PROG. input jack below +1V (including negative voltage) is ignored. Also, any voltage above +8.5V change the program to 16.**
+:warning: **Applied voltage on PROG. input jack below +1V (including negative voltage) is ignored (to avoid unwanted changes). Also, any voltage above +8.5V selects program #16.**
 
-Obviously, any program can be altered (regardling your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded from **.vktProgram** file.
+Obviously, any program can be altered (regardling your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) 130-byte binary file, then possibly loaded later, when you'll need it.
 
 :information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
@@ -354,7 +354,7 @@ They're 5 points:
 - Point #3, the sustain point (optional loop always starts and finishes at point #3).
 - Point #4, the release point, when the applied voltage on **GATE** input jack falls below +1V (low gate).
 
-:warning: in polyphonic, the MIX ENVelope is **always retriggered** on every incoming gate! This behavior is normal.
+:warning: The MIX ENVelope is **always retriggered** on every incoming gate, this behavior is normal!
 
 They're 4 rates:
 - RATE 1 is the time (milliseconds) to run the first vector (between points #0 and #1).
@@ -362,9 +362,9 @@ They're 4 rates:
 - RATE 3 is the time (milliseconds) to run the third vector (between points #2 and #3 / sustain).
 - RATE 4 is the time (milliseconds) to run the last vector (between points #3 / sustain and #4 / release).
 
-:information_source: The module's logic computes needed speeds to rub each vector, depending the distance between points, and specified rate.
+:information_source: The module's logic computes needed speeds to run each vector, depending the distance between points, and specified rate.
 
-MIX ENVelope can be saved to .vktMixEnv file, then loaded later to any program of you choice!
+MIX ENVelope can be saved to **.vktMixEnv** 35-byte binary file, then loaded later to any program of you choice!
 
 :warning: The ON/OFF state of the MIX ENVelope (for current program) is never saved/recalled. You can enable (or disable) it by pressing **ENV** button (above MIX output jack, right side of the _Vektor_ module).
 
@@ -372,6 +372,11 @@ To save a MIX ENVelope:
 - Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **if its LED above is off**).
 - Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
+
+_MIX ENVelope-specific right click context menu:_
+
+![](_img/vktMixEnvMenu.png)
+
 
 ---
 
