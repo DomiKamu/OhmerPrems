@@ -291,14 +291,14 @@ Allowed characters for **.vktProgram** filenames (by the way, for program names)
 - Plus (+)
 - Underscore (_)
 - Equals sign (=)
-- Period (.) but **automatically removed if placed as first character**, because Linux-based operating systems consider file as "hidden" if the filename begins by a period.
+- Period (.)
+- Round brackets (parentheses)
+- Square brackets
 - Exclamation mark (!)
 - Apostrophe (')
 - Hash (#)
 - Ampersand (&)
 - At (@)
-- Parentheses (round brackets)
-- Square brackets
 - Tilde (~)
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
