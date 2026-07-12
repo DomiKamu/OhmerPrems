@@ -242,7 +242,7 @@ Even the **MIX** output jack can be assumed as the most important in Vector Synt
 
 However, you'll can combine every discrete A, B, C, and D output jacks, together with the **MIX** output jack.
 
-By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (**OSC x VOLUME**, along **L3** button) - to get a blended oscillator signal, in case you'll need it for further usage!
+By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L3** button permits to set as pre-MIX ENVelope / pre-joystick, instead, to get a blended oscillator signal, in case you'll need it for further usage, such separate FX processing!
 
 _Example: from OSC A context, 3rd page (labelled "OSC A VOLUME"), press L3 button to select **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change the setting from **YES (DRY)** to **NO (POST)**:_
 
@@ -252,13 +252,13 @@ _Example: from OSC A context, 3rd page (labelled "OSC A VOLUME"), press L3 butto
 
 ### SOME WORDS ABOUT POLYPHONY<a name="aboutpoly"></a>
 
-The number of polyphony voices is automatically defined by these possible sources (from other modules) applied on the following input jacks:
+The number of polyphony voices is automatically defined by these possible connected "sources" from other module(s), applied on the following input jacks:
 
-- V/OCT, who define the "base" pitches/frequencies (prior frequency modulation, by FM/PM or LFO), for all four oscillators.
-- GATE, mainly required to control the MIX ENVelope (if enabled), also possibly for LFO 1 and/or LFO 2 retriggering.
-- VEL. (optional velocities).
+- **V/OCT**, who define the "base" pitches/frequencies (prior frequency modulation by FM/PM or LFO), for all oscillators.
+- **GATE**, mainly required to control the MIX ENVelope (if enabled), but also (optional) for LFO 1 and/or LFO 2 retriggering.
+- **VEL.**, optional velocities (amount setting per oscillator).
 
-These sources come, in general, from the same module (but this is not an absolute rule). The most common module is **MIDI->CV** (provided with VCV Rack software), or **DAW** (if you're using VCV Rack 2 Pro Edition as VST/VST3/CLAP/AU plugin from your DAW), who convert incoming MIDI datas (sent by MIDI controller, or MIDI track) to voltage equivalents to be compatible with the Eurorack standard. However, another polyphonic or monophonic module(s) can do exactly the same job.
+These sources come, in general, from the same module, but it's not an absolute rule. The most common module is **MIDI>CV** (provided with VCV Rack software), or **DAW** (if you're using VCV Rack 2 Pro Edition as VST/VST3/CLAP/AU plugin from your DAW), who convert incoming MIDI datas (by MIDI controller, by MIDI track) to voltage equivalents to be compatible with the Eurorack standard. However, any polyphonic or monophonic module(s) can do exactly the same job.
 
 The greatest number of polyphony voices from these sources is always selected by the _Vektor_ module. Minimum is 1 (meaning the _Vektor_ module is working as monophonic VCO). Maximum number of polyphonic voices (channels) is 16.
 
