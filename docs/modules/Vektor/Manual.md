@@ -334,20 +334,24 @@ A program always includes:
 
 ### MIX ENVELOPE<a name="mixenvelope"></a>
 
-Every program have its MIX ENVelope (may be turned on or off).
+The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF frequency cutoff/resonance/drive), the MIX ENVelope is a kind of **timed** automation of the oscillators crossfading (volume parts of each). Typically, this envelope - triggered and controlled by the **GATE** input jack - follows a trajectory in the diamond (like the joystick **-or-** the combined X & Y input jacks do). Also, looping is possible for very long held sounds (like pads).
 
-To acces MIX ENVelope context, simply press the MIX button (below the OLED display) if its LED is off.
+When the MIX ENVelope is enabled (ON), the mix is firstly controlled by the envelope. However, the physical joystick (**or** the combined X & Y input jacks) may apply an "offset" to the running mix envelope.
+
+Every program have its own MIX ENVelope settings, and can be turned on or off, depending your needs.
+
+To access the MIX context, simply press the **MIX** button (located below the OLED display), only if its LED is off.
 
 A _Vektor_ MIX ENVelope is using 3 pages:
 
 ![](_img/mixEnvPages.png)
 
-These pages are:
+These are:
 - First page (home page, for MIX context) permits to edit each point of the envelope (use left-side L button, then move the joystick).
 - Second page is used to define **rates**, aka duration for each vector (line segment), from 0ms up to 5,000ms.
 - Third page is used to set up the MIX ENVelope loop feature (loop always starts from point #3 / sustain).
 
-They're 5 points:
+They're always 5 points:
 - Point #0, always the start point, when the applied voltage on **GATE** input jack is +1V or more (high gate).
 - Point #1.
 - Point #2.
@@ -364,19 +368,22 @@ They're 4 rates:
 
 :information_source: The module's logic computes needed speeds to run each vector, depending the distance between points, and specified rate.
 
-MIX ENVelope can be saved to **.vktMixEnv** 35-byte binary file, then loaded later to any program of you choice!
+:warning: Except point #3 (the sustain point), any point can be bypassed if the distance between them are zero (overlapped points), or if the RATE is set to 0ms.
 
-:warning: The ON/OFF state of the MIX ENVelope (for current program) is never saved/recalled. You can enable (or disable) it by pressing **ENV** button (above MIX output jack, right side of the _Vektor_ module).
+:warning: The MIX ENVelope is **always retriggered** on every new incoming high gate (in particular in polyphony), this behavior is normal!
 
-To save a MIX ENVelope:
-- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **if its LED above is off**).
+MIX ENVelope can be saved to **.vktMixEnv** 35-byte binary file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved/recalled.
+
+:warning: The ON/OFF state of the MIX ENVelope (for current program) is never saved or recalled. Please remember you'll can enable (or disable) the MIX ENVelope by pressing **ENV** toggle button (located just above the MIX output jack).
+
+To save the current MIX ENVelope to a **.vktMixEnv** file:
+- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
 - Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
 
 _MIX ENVelope-specific right click context menu:_
 
 ![](_img/vktMixEnvMenu.png)
-
 
 ---
 
