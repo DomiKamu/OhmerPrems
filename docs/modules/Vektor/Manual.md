@@ -279,11 +279,11 @@ Also, you'll can control the program select (like MIDI Program Change) by applyi
 
 :warning: **Applied voltage on PROG. input jack below +1V (including negative voltage) is ignored. Also, any voltage above +8.5V change the program to 16.**
 
-Obviously, any program can be altered (regardling your needs), saved to external **.vktProg** (_Vektor PROGRAM_) file, then later, loaded from **.vktProg** file, as required.
+Obviously, any program can be altered (regardling your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded from **.vktProgram** file.
 
 :information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below), and limited number of characters less or equal 16.
 
-Allowed character set for **.vktProg** filenames (and by the way, for program names) is:
+Allowed characters for **.vktProgram** filenames (by the way, for program names) are:
 - All latin letters: A..Z, a..z (lowercase letters are converted to uppercase for displayed program name)
 - All digits: 0..9
 - Space
