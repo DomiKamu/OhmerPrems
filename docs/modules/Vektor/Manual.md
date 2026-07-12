@@ -281,7 +281,7 @@ Also, you'll can control the program select (like MIDI Program Change) by applyi
 
 Obviously, any program can be altered (regardling your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded from **.vktProgram** file.
 
-:information_source: Program name always follows the indicated filename when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
+:information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
 Allowed characters for **.vktProgram** filenames (by the way, for program names) are:
 - All latin letters: A..Z, a..z (lowercase letters are automatically converted to uppercase letters, for displayed program name)
@@ -302,8 +302,8 @@ Allowed characters for **.vktProgram** filenames (by the way, for program names)
 - Tilde (~)
 
 To save a program:
-- Be sure the _Vektor_ module is placed in PROGRAM context (if not, click the context button where the LED is on).
-- Do a right-mouse click on the module, from menu select **Program #xx**, then **Save to .vktProgram file** command.
+- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
+- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** command.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
 
 _Program-specific right click context menu:_
@@ -320,10 +320,10 @@ A _Vektor_ program is using 4 pages:
 
 To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
 
-A program always embeds:
-- Name (up to 16 characters, see above for allowed characters).
-- Position of the physical joystick.
-- All MIX ENVelope settings (including loop).
+A program always includes:
+- Its name (default, or defined when saving. Limited to 16 characters, see above for allowed characters).
+- X and Y coordinates of the physical joystick.
+- All MIX ENVelope settings, including rates and loop.
 - All four oscillators (A, B, C, and D) settings.
 - FM depth & FM mode settings.
 - LFO 1 settings.
