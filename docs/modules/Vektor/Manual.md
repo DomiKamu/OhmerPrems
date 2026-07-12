@@ -342,21 +342,36 @@ A _Vektor_ MIX ENVelope is using 3 pages:
 
 ![](_img/mixEnvPages.png)
 
-- First page (home page for MIX context) permits to edit every point of the envelope.
-- Second page is used to define **rates**, duration for every vector (line segment) from 0ms up to 5,000ms.
+These pages are:
+- First page (home page, for MIX context) permits to edit each point of the envelope (use left-side L button, then move the joystick).
+- Second page is used to define **rates**, aka duration for each vector (line segment), from 0ms up to 5,000ms.
 - Third page is used to set up the MIX ENVelope loop feature (loop always starts from point #3 / sustain).
 
+They're 5 points:
+- Point #0, always the start point, when the applied voltage on **GATE** input jack is +1V or more (high gate).
+- Point #1.
+- Point #2.
+- Point #3, the sustain point (optional loop always starts and finishes at point #3).
+- Point #4, the release point, when the applied voltage on **GATE** input jack falls below +1V (low gate).
 
+:warning: in polyphonic, the MIX ENVelope is **always retriggered** on every incoming gate! This behavior is normal.
 
+They're 4 rates:
+- RATE 1 is the time (milliseconds) to run the first vector (between points #0 and #1).
+- RATE 2 is the time (milliseconds) to run the second vector (between points #1 and #2).
+- RATE 3 is the time (milliseconds) to run the third vector (between points #2 and #3 / sustain).
+- RATE 4 is the time (milliseconds) to run the last vector (between points #3 / sustain and #4 / release).
 
-- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
+:information_source: The module's logic computes needed speeds to rub each vector, depending the distance between points, and specified rate.
 
+MIX ENVelope can be saved to .vktMixEnv file, then loaded later to any program of you choice!
 
-To save a program:
-- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
-- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** command.
-- From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
+:warning: The ON/OFF state of the MIX ENVelope (for current program) is never saved/recalled. You can enable (or disable) it by pressing **ENV** button (above MIX output jack, right side of the _Vektor_ module).
 
+To save a MIX ENVelope:
+- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **if its LED above is off**).
+- Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
+- From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
 
 ---
 
