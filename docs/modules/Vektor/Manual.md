@@ -360,8 +360,6 @@ They're always 5 points:
 - Point #3, the sustain point (optional loop always starts and finishes at point #3).
 - Point #4, the release point, when the applied voltage on **GATE** input jack falls below +1V (low gate).
 
-:warning: The MIX ENVelope is **always retriggered** on every incoming gate, this behavior is normal!
-
 They're 4 rates:
 - RATE 1 is the time (milliseconds) to run the first vector (between points #0 and #1).
 - RATE 2 is the time (milliseconds) to run the second vector (between points #1 and #2).
@@ -370,13 +368,13 @@ They're 4 rates:
 
 :information_source: The module's logic computes needed speeds to run each vector, depending the distance between points, and specified rate.
 
-:warning: Except point #3 (the sustain point), any point can be bypassed if the distance between them are zero (overlapped points), or if the RATE is set to 0ms.
+:warning: Except point #3 (the sustain point), any point can be bypassed if the distance between them are zero (if the consecutive points are overlapped), or if the RATE is set to 0ms.
 
-:warning: The MIX ENVelope is **always retriggered** on every new incoming high gate (in particular in polyphony), this behavior is normal!
+:warning: When enabled, the MIX ENVelope is **always retriggered** on every new incoming "high gate", in particular in polyphony play. This behavior is normal!
 
-MIX ENVelope can be saved to **.vktMixEnv** 35-byte binary file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved/recalled.
+Current MIX ENVelope can be saved to **.vktMixEnv** (35-byte) binary file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved and recalled.
 
-:warning: The ON/OFF state of the MIX ENVelope (for current program) is never saved or recalled. Please remember you'll can enable (or disable) the MIX ENVelope by pressing **ENV** toggle button (located just above the MIX output jack).
+:warning: The ON/OFF state of the MIX ENVelope is never saved or recalled (stay unchanged if you load an envelope file). Please remember you'll can enable (or disable) the MIX ENVelope quickly by pressing the **ENV** (toggle) button, located just above the MIX output jack.
 
 To save the current MIX ENVelope to a **.vktMixEnv** file:
 - Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
