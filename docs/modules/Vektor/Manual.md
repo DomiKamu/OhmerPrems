@@ -10,8 +10,8 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
 - [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
-- [**MODULES SPECIFICATIONS**](#specs)
-- [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitation)
+- [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
+- [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION**](#presetlimitation)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
@@ -113,9 +113,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
 ---
 
-### MODULES SPECIFICATIONS<a name="specs"></a>
-
-_Vektor_ module technical specifications:
+### VEKTOR MODULE TECHNICAL SPECIFICATIONS<a name="vektorspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 16HP.
@@ -170,7 +168,7 @@ _VX_ expander module technical specifications:
 
 ---
 
-### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitation"></a>
+### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION<a name="presetlimitation"></a>
 
 :warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes size**, largely more in json, because all numerical values are coded as plain text), by this way the "100 kilobytes limit recommendation" for json serialization - as indicated by VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish preset save file versus regular patch save file!
 
