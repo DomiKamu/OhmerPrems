@@ -1,8 +1,8 @@
-# VEKTOR & VX: USER'S MANUAL (UNDER CONSTRUCTION)
+# VEKTOR USER'S MANUAL (UNDER CONSTRUCTION)
 
 
-_They're all 8 models (GUI theme variants) for Vektor module and its "right-side" VX expander module:_
-![](_img/AnimVektorModelsV4.gif)
+_All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
+![](_img/AnimVektorModelsV5.gif)
 
 
 ### TOPICS
@@ -12,6 +12,7 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
 - [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
+- [**VI EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vispecs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitations)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
@@ -100,11 +101,17 @@ As module outputs, the most important in Vector Synthesis is surely the **MIX** 
 
 Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source to other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
-_Vektor_ comes with (optional-to-use) 3HP "right-side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional outputs:
+_Vektor_ comes with two (optional-to-use) 3HP expander modules, first, the "right-side" named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional output jacks, and the second, the "left-side" named _VI_ (accronym of **V**ektor e**X**pander), who brings 2 input jacks, both dedicated to "oscillator sync":
+
+Outputs provided by the _VX_ "right-side" expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
 - **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V). Offsets by joystick position (or by voltages applied on X and Y inputs) is not included.
+
+Inputs provided by the _VI_ "left-side" expander module:
+- **HARD**, designed to request an oscillator **hard sync**, by received +10V 1ms trigger.
+- **SOFT**, designed to request an oscillator **soft sync**, by received +10V 1ms trigger.
 
 Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
@@ -168,6 +175,16 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Outputs: 7 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
 - Output voltage ranges: -5V to +5V (0V or +10V for GATE).
 - LED: per output (all LED are RGB).
+
+### VI EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vispecs"></a>
+
+- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
+- Width: 3HP.
+- Must be placed alongside (**left-side**) of any _Vektor_ module, **without space** between them to establish the link.
+- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ model (when link is established).
+- Inputs: 2 (HARD, SOFT).
+- Input voltage: min. +1V (recommended: +10V 1ms trigger).
+- LED: per input (both LED are RGB).
 
 ---
 
