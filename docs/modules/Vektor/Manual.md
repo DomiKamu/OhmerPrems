@@ -320,7 +320,7 @@ A _Vektor_ program is using 4 pages:
 - The third page displays settings dedicated to LFO 1: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 - The fourth page displays settings dedicated to LFO 2: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 
-_The four Program-specific pages:_
+_The Program-specific pages:_
 
 ![](_img/programPages.png)
 
@@ -354,7 +354,7 @@ A _Vektor_ MIX ENVelope is using 3 pages:
 ![](_img/mixEnvPages.png)
 
 These are:
-- First page (home page, for MIX context) permits to edit each point of the envelope (use left-side L button, then move the joystick).
+- First page (home page, for MIX context) permits to edit each point of the envelope (use left-side L buttons and the joystick).
 - Second page is used to define **rates**, aka duration for each vector (line segment), from 0ms up to 5,000ms.
 - Third page is used to set up the MIX ENVelope loop feature (loop always starts from point #3 / sustain).
 
@@ -364,6 +364,13 @@ The MIX ENVelope is always composed by 5 points:
 - Point #2.
 - Point #3, the sustain point (optional loop always starts and finishes at point #3).
 - Point #4, the release point, when the applied voltage on **GATE** input jack falls below +1V (low gate).
+
+To edit the position of a particular point:
+- Press the L (left-side) related button (L1 for point #1, and so on): the "pill" along the button must blink.
+- Move the joystick to set the wanted position for the point.
+- Press the same L button to complete (or press another L button to edit another point).
+
+:information_source: as soon as you start to edit a point, the position of the joystick (production mode) is saved, then recalled when you complete the edition of the position of the point.
 
 They're 4 rates:
 - RATE 1 is the time (milliseconds) to run the first vector (between points #0 and #1).
@@ -390,7 +397,7 @@ _MIX ENVelope-specific right click context menu:_
 
 ![](_img/vktMixEnvMenu.png)
 
-Like most settings (oscillator pages, program pages), you'll can restore factory (or lastest saved) particular setting by holding **left Ctrl** key (**left Command** key on MacOS X platforms) while pressing the relevant L (left-side) momentary button.
+:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
 
 ---
 
