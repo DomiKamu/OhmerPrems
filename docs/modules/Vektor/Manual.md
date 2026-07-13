@@ -16,6 +16,7 @@ _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitations)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
+- [**VI EXPANDER MODULE LAYOUT**](#layoutvi)
 - [**CONTEXT SELECTION**](#contextsel)
 - [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
@@ -176,6 +177,8 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Output voltage ranges: -5V to +5V (0V or +10V for GATE).
 - LED: per output (all LED are RGB).
 
+---
+
 ### VI EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vispecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
@@ -183,7 +186,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Must be placed alongside (**left-side**) of any _Vektor_ module, **without space** between them to establish the link.
 - Available models (GUI theme variants): 8, automatically inherit the _Vektor_ model (when link is established).
 - Inputs: 2 (HARD, SOFT).
-- Input voltage: min. +1V (recommended: +10V 1ms trigger).
+- Input voltage: min. +1V (recommended: **+10V 1ms trigger**).
 - LED: per input (both LED are RGB).
 
 ---
@@ -221,6 +224,20 @@ Every output jack have its own LED, mainly green (exception is GATE, who are usi
 :warning: All **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
 
 :information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are solid red, indicating the constant 0V are not relevant!
+
+---
+
+### VI EXPANDER MODULE LAYOUT<a name="layoutvi"></a>
+
+_VI_ is the most recent (left-side) expander, also as passive module. It offers only two intputs, both related to oscillator sync. Like _VX_ expander, _VI_ usage is optional, in case you'd like to control oscillator hard sync or soft sync by an external module.
+
+The _VI_ expander provides only two input jacks: HARD, and SOFT.
+
+:warning: In case both are connected, SOFT is always disabled (the priority is given to hard sync, the most common osc sync technique).
+
+Both input jack have its own RGB LED, but mainly blue in regular operation (flash on every incoming trigger). However, SOFT LED is turned on, solid red, while both jacks are connected.
+
+:warning: All **fast blinking red** LED indicates the _VI_ expander module is not "linked" to a _Vektor_ module!
 
 ---
 
