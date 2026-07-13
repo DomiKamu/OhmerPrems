@@ -12,7 +12,7 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
 - [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
-- [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION**](#presetlimitation)
+- [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitations)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
@@ -171,13 +171,13 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
 ---
 
-### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION<a name="presetlimitation"></a>
+### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitations"></a>
 
-:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes size**, largely more in json, because all numerical values are coded as plain text), by this way the "100 kilobytes limit recommendation" for json serialization - as indicated by VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish preset save file versus regular patch save file!
+:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes**, largely more in json, because all numerical values for every sample are coded as plain text), by this way, the "100 kilobytes limit recommendation" for json serialization - as indicated by VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish preset save file versus regular patch save file!
 
 To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including autosave, occuring every 15-second), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Above 4 imported waveforms, the WARNING (orange) LED at the bottom of the module (WARN./ERR. section, below joystick) is blinking orange, twice per second, to inform you it's risky about amount of datas stored to json file (patch or autosave file). Do not forget you'll can free (erase/clear) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), in this case, the module's right click menu offers a command to free (erase) the current user waveform slot, when required.
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Above 4 imported waveforms, the WARNING (orange) LED at the bottom of the module (WARN./ERR. section, below the joystick) is blinking orange (twice per second) to inform you it's risky about amount of datas stored to json file (patch, or autosave file). Do not forget you'll can free (erase/clear) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), in this case, the module's right click menu offers a command to free (erase) the current user waveform slot, when required.
 
 ---
 
