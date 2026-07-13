@@ -312,9 +312,9 @@ _Program-specific right click context menu:_
 
 ![](_img/vktProgramMenu.png)
 
-All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature (every 15s).
+All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
-A _Vektor_ program is using 4 pages:
+_Vektor_ PROGRAM is using 4 pages:
 - The first (home) page displays the program number and name along L2 button, and MIX ENVelope state (on/off) along L5 button.
 - The second page displays settings dedicated to FM input (FM depth along L4 button, and FM mode along L5).
 - The third page displays settings dedicated to LFO 1: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
@@ -349,11 +349,10 @@ Every program have its own MIX ENVelope settings, and can be turned on or off, d
 
 To access the MIX context, simply press the **MIX** button (located below the OLED display), only if its LED is off.
 
-A _Vektor_ MIX ENVelope is using 3 pages:
+_Vektor_ MIX ENVelope is using 3 pages:
 
 ![](_img/mixEnvPages.png)
 
-These are:
 - First page (home page, for MIX context) permits to edit each point of the envelope (use left-side L buttons and the joystick).
 - Second page is used to define **rates**, aka duration for each vector (line segment), from 0ms up to 5,000ms.
 - Third page is used to set up the MIX ENVelope loop feature (loop always starts from point #3 / sustain).
