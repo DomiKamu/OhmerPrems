@@ -314,17 +314,16 @@ _Program-specific right click context menu:_
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
-_Vektor_ PROGRAM is using 4 pages:
+_Vektor_'s PROGRAM context is using 4 pages:
+
+![](_img/programPages.png)
+
 - The first (home) page displays the program number and name along L2 button, and MIX ENVelope state (on/off) along L5 button.
 - The second page displays settings dedicated to FM input (FM depth along L4 button, and FM mode along L5).
 - The third page displays settings dedicated to LFO 1: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 - The fourth page displays settings dedicated to LFO 2: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 
-_The Program-specific pages:_
-
-![](_img/programPages.png)
-
-To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
+:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
 
 A program always includes:
 - Its name (default, or defined when saving. Limited to 16 characters, see above for allowed characters).
@@ -349,7 +348,7 @@ Every program have its own MIX ENVelope settings, and can be turned on or off, d
 
 To access the MIX context, simply press the **MIX** button (located below the OLED display), only if its LED is off.
 
-_Vektor_ MIX ENVelope is using 3 pages:
+_Vektor_'s MIX context is using 3 pages:
 
 ![](_img/mixEnvPages.png)
 
