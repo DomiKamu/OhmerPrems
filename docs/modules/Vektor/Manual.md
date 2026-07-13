@@ -233,9 +233,9 @@ _VI_ is the most recent (left-side) expander, also as passive module. It offers 
 
 The _VI_ expander provides only two input jacks: HARD, and SOFT.
 
-:warning: In case both are connected, SOFT is always disabled (the priority is given to hard sync, the most common osc sync technique).
+:warning: In case both are connected, SOFT is always disabled/ignored, because the priority is always given to hard sync, the most common oscillator sync technique.
 
-Both input jack have its own RGB LED, but mainly blue in regular operation (flash on every incoming trigger). However, SOFT LED is turned on, solid red, while both jacks are connected.
+Both input jack have its own RGB LED, but mainly blue in regular operation (flash on every incoming trigger). However, SOFT LED is turned on solid red as long as both jacks are connected, indicating the input is disabled.
 
 :warning: All **fast blinking red** LED indicates the _VI_ expander module is not "linked" to a _Vektor_ module!
 
