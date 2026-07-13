@@ -11,6 +11,7 @@ _They're all 8 models (GUI theme variants) for Vektor module and its "right-side
 - [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
+- [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATION**](#presetlimitation)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
@@ -143,8 +144,8 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Input jacks: 7 (V/OCT, X, Y, GATE, VEL., PROG., FM).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Per program.
 - FM depth: 0% (NO FM) to 100%, or negative -100% (inverted modulator signal). Per program.
-- OSCillators modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator, and per program.
-- Frequency: 10 octaves, from 16.352Hz (C0) to 15804.416Hz (B9).
+- OSCillators frequency modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator, and per program.
+- Frequency response: 10 octaves, from 16.352Hz (C0) to 15804.416Hz (B9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
 - DAC resolution: 12-bit.
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
@@ -156,15 +157,17 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - LED: yellow for V/OCT, blue for GATE, green for VEL., PROG. and FM, green/red for combined X and Y inputs.
 - Self-test feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
-_VX_ expander module technical specifications:
+---
+
+### VX EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vxspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 3HP.
 - Must be placed alongside (**right-side**) of any _Vektor_ module, **without space** between them to establish the link.
-- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ module's model (when "connected").
+- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ model (when link is established).
 - Outputs: 7 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
 - Output voltage ranges: -5V to +5V (0V or +10V for GATE).
-- LED: per output (all are RGB).
+- LED: per output (all LED are RGB).
 
 ---
 
@@ -317,6 +320,10 @@ A _Vektor_ program is using 4 pages:
 - The third page displays settings dedicated to LFO 1: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 - The fourth page displays settings dedicated to LFO 2: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 
+_The four Program-specific pages:_
+
+![](_img/programPages.png)
+
 To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
 
 A program always includes:
@@ -351,7 +358,7 @@ These are:
 - Second page is used to define **rates**, aka duration for each vector (line segment), from 0ms up to 5,000ms.
 - Third page is used to set up the MIX ENVelope loop feature (loop always starts from point #3 / sustain).
 
-They're always 5 points:
+The MIX ENVelope is always composed by 5 points:
 - Point #0, always the start point, when the applied voltage on **GATE** input jack is +1V or more (high gate).
 - Point #1.
 - Point #2.
