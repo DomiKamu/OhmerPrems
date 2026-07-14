@@ -226,7 +226,7 @@ Every output jack have its own LED, mainly green (exception is GATE, who are usi
 
 :warning: All **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
 
-:information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are solid red, indicating the constant 0V are not relevant!
+:information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are on solid red, indicating the constant 0V are not relevant! Also, exactly the same fact about LFO 1 and/or LFO 2: if disabled from _Vektor_ (PROGRAM context, 3rd/4th pages), the related LFO LED is on solid red (whatever if connected, or not).
 
 ---
 
