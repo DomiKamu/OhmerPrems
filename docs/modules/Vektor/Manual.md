@@ -461,7 +461,7 @@ Every oscillator uses a **waveform**, can be a built-in ROM waveform (numbered f
 
 To select an oscillator (context), press the relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off. This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. Along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xxx**, for user waveforms). The lower part of the OLED display is the graphic representation of the selected waveform (horizontal line if silence and unused "user" waveform slots).
 
-To select next (or previous) waveform, rotate the **DATA ENTRY** continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required, when a limit is reached.
+To select next (or previous) waveform, rotate the **DATA ENTRY** continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required, when a edge of the list is reached.
 
 From any oscillator context, they're 4 pages, for additional settings:
 
