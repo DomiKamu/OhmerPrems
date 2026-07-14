@@ -24,7 +24,7 @@ _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
 - [**PROGRAMS**](#programs)
 - [**MIX ENVELOPE**](#mixenvelope)
 - [**OSCILLATORS**](#oscillators)
-- [**SUPPORTED WAVE FORMAT (IMPORT TO USER WAVEFORM)**](#wavefmt)
+- [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
 
 ---
 
@@ -488,6 +488,8 @@ To select an oscillator (context), press the relevant context button (**A**, **B
 
 To select next (or previous) waveform, rotate the **DATA ENTRY** continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required, when a edge of the list is reached.
 
+:information_source: The waveform **126. SILENCE** is a particular waveform: by selecting it, the oscillator is disabled (not processed by the DSP core). Same fact about any empty user waveform.
+
 From any oscillator context, they're 4 pages, for additional settings:
 
 ![](_img/oscPages.png)
@@ -511,13 +513,15 @@ To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the WAVE file is.
 - Drag the relevant **.wav** file, then drop it over the module, that's all.
 
+You'll cannot import a WAVE file over built-in ROM waveform (labelled **032. SINE** to **127. WHITE NOISE**).
+
 :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
 :warning: The _Vektor_ module doesn't permit to export a waveform to a file.
 
 ---
 
-### SUPPORTED WAVE FORMAT (IMPORT TO USER WAVEFORM)<a name="wavefmt"></a>
+### SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)<a name="wavefmt"></a>
 
 For the first firmware version (v2.6.13), the _Vektor_ module is able to accept (for import) this format **only**:
 
