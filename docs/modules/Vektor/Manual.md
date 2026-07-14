@@ -178,7 +178,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Must be placed alongside (**left-side**) of any _Vektor_ module, **without space** between them to establish the link.
 - Available models (GUI theme variants): 8, automatically inherit the _Vektor_ model (when link is established).
 - Inputs: 2 (HARD, SOFT).
-- Input voltage: min. +1V (recommended: **+10V 1ms trigger**).
+- Input voltage: min. +1V, controlled by MCU to send **trigger** signal to _Vektor_.
 - LED: per input (both LED are RGB).
 
 ---
@@ -215,21 +215,21 @@ The best way to present the _Vektor_ module layout is by the following **5 minut
 
 ### VS EXPANDER MODULE LAYOUT<a name="layoutvs"></a>
 
-Unlike the _Vektor_ as "master", complex CPU-controlled module, _VS_, its left-side expander, is a passive module (only one controller to send "trigger-equivalent" to Vektor). It brings only two intput jacks, both related to oscillator sync. _VS_ module usage is optional, in case you'd like to control oscillator hard sync or soft sync by an external module (instead of internal).
+Unlike the _Vektor_ as "master", complex CPU-controlled module, _VS_, its left-side expander, is a near-passive module (only one MCU will generate a "trigger-equivalent" to Vektor). It brings only two intput jacks, both of them are related with oscillator sync. _VS_ module usage is optional, in case you'd like to control oscillator hard sync or soft sync by an external module (instead of _Vektor_'s internal).
 
 The _VS_ expander provides only two input jacks: **HARD** sync, and **SOFT** sync.
 
-:warning: In case of both are connected, **SOFT** input jack is always disabled (ignored), because the priority is always given to hard sync (the most common oscillator sync technique).
+:warning: In case of both are connected, **SOFT** input jack is always disabled (and ignored), because the priority is given to hard sync, the most common oscillator sync technique.
 
-Both input jack have its RGB LED, but mainly blue in production (the LED flash on every incoming voltage above +1V). However, SOFT LED is turned on solid red as long as both jacks are connected, indicating the SOFT input jack is disabled.
+Both input jack have its RGB LED, but mainly blue in production (the LED flash on every incoming voltage above +1V). However, the SOFT LED is turned on solid red as long as both jacks are connected, indicating the SOFT input jack is disabled.
 
-:warning: All **fast blinking red** LED indicates the _VS_ expander module is not "linked" to a _Vektor_ module!
+:warning: All **fast blinking red** LED indicates the _VS_ expander module is not linked to a _Vektor_ module!
 
 ---
 
 ### VX EXPANDER MODULE LAYOUT<a name="layoutvx"></a>
 
-Like _VS_ expander module, _VX_, its right-side expander, is also a passive module. It offers outputs only (7, all controlled by _Vektor_). Usage of the _VX_ expander is optional, depending your needs.
+Like _VS_ expander module above, _VX_, its right-side expander, is also a passive module. It offers outputs only (7, all are controlled by _Vektor_). Usage of the _VX_ expander is also optional.
 
 _VX_ expander module is divided by 3 sections (blue lines on the module's plate, as section separators):
 
