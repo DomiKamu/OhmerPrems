@@ -549,6 +549,6 @@ From this OSCILLATOR SYNC page (common for all oscillators), they're two setting
 - **SYNC.** along **L3** button, to set either **SYNC OFF**, **HARD** sync, or **SOFT** sync.
 - **LEADER** along **L4** button, to choose the leader oscillator, or to let the module's logic to choose the lowest pitched.
 
-:information_source: Along **L5** button, it's not a setting but just an information about _follower oscillators_. Can't be selected/edited!
+:information_source: Along **L5** button, it's not a setting but information about _follower oscillators_. **Can't be selected/edited!**
 
 ...TO BE CONTINUED... BUT THIS IS THE LASTEST TOPIC OF THIS USER'S MANUAL ;)
