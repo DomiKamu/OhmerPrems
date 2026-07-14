@@ -1,7 +1,7 @@
 # VEKTOR USER'S MANUAL
 
 
-_All 8 models (GUI theme variants) for Vektor module, and VS/VX expander modules:_
+_All 8 models (GUI theme variants) for Vektor module, and VK/VX expander modules:_
 ![](_img/AnimVektorModelsV5.gif)
 
 
@@ -11,11 +11,11 @@ _All 8 models (GUI theme variants) for Vektor module, and VS/VX expander modules
 - [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
-- [**VS EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vsspecs)
+- [**VK EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vkspecs)
 - [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitations)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
-- [**VS EXPANDER MODULE LAYOUT**](#layoutvs)
+- [**VK EXPANDER MODULE LAYOUT**](#layoutvk)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
 - [**CONTEXTS AND "PAGES"**](#contextspages)
@@ -38,7 +38,7 @@ _Vektor_ is a 16HP polyphonic quad-oscillator digital VCO module, using [**Vecto
 _This is the 1986 Prophet VS synthesizer, manufactured by Sequential Circuits:_
 ![](_img/Prophet_VS.png)
 
-When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha, who have developed the SY22, SY35, and TG33, both of them are using VS, too.
+When the Sequential Circuits went bankrupt during 1987, the company was sold to Yamaha, who have developed the SY22, SY35, and TG33, both of them are using _Vector Synthesis_, too.
 
 Then later (mid-1989), Dave Smith, the founder of Sequential Circuits company, have started the Korg USA R&D group, which went on to produce the [**Korg Wavestation**](https://en.wikipedia.org/wiki/Korg_Wavestation) synthesizer, also using Vector Synthesis but... as "advanced", mainly due to extra amazing feature named _Wave Sequencing_, useful to create evolving sounds!
 
@@ -106,9 +106,9 @@ As module outputs, the most important in Vector Synthesis is surely the **MIX** 
 
 Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source to other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
-_Vektor_ comes with two (optional-to-use) 3HP expander modules, first, the "left-side" named _VS_ (accronym of **V**ektor **S**ync, instead of _Vector Synthesis_), who brings 2 input jacks, both dedicated to "oscillator sync", and the second, the "right-side" named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional output jacks:
+_Vektor_ comes with two (optional-to-use) 3HP expander modules, first, the "left-side" named _VK_, who brings 2 input jacks, both dedicated to "oscillator sync", and the second, the "right-side" named _VX_ (accronym of **V**ektor e**X**pander, because initially it was the first and lone expander prior _VK_), offering 7 additional output jacks:
 
-Inputs provided by the _VS_ "left-side" expander module:
+Inputs provided by the _VK_ "left-side" expander module:
 - **HARD**, designed to request an oscillator **hard sync**, by received +10V 1ms trigger.
 - **SOFT**, designed to request an oscillator **soft sync**, by received +10V 1ms trigger.
 
@@ -142,7 +142,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Built-in ROM waveforms: 96, including "silence" (disabled OSC), and not-pitchable (constant frequency) white noise.
 - User waveforms: max. 32 (per module instance).
 - Wave importation: Microsoft/IBM WAVE, PCM signed 16-bit, 44100Hz, mono, 2048 samples, 4140 bytes.
-- Wavetable support: no (like the real Prophet VS synthesizer).
+- Wavetable support: no.
 - LFO: 2 independent internal LFO 1 and LFO 2 (settings per program).
 - LFO frequency range: min. 0.01Hz, max. 50Hz, resolution 0.01Hz.
 - LFO AMPlitude range: min. 0% (LFO is turned off), max. 100% (+5V).
@@ -171,7 +171,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
 ---
 
-### VS EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vsspecs"></a>
+### VK EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vkspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 3HP.
@@ -213,23 +213,23 @@ The best way to present the _Vektor_ module layout is by the following **5 minut
 
 ---
 
-### VS EXPANDER MODULE LAYOUT<a name="layoutvs"></a>
+### VK EXPANDER MODULE LAYOUT<a name="layoutvk"></a>
 
-Unlike the _Vektor_ as "master", complex CPU-controlled module, _VS_, its left-side expander, is a near-passive module (only one MCU will generate a "trigger-equivalent" to Vektor). It brings only two intput jacks, both of them are related with oscillator sync. _VS_ module usage is optional, in case you'd like to control oscillator hard sync or soft sync by an external module (instead of _Vektor_'s internal).
+Unlike the _Vektor_ as "master", complex CPU-controlled module, _VK_, its left-side expander, is a near-passive module (only one basic MCU will generate a "trigger-equivalent" to Vektor). It brings only two intput jacks, both of them are related with oscillator sync. The usage of this expander module is optional, in case you'd like to control oscillator hard sync or soft sync done by an external module (instead of _Vektor_'s internal sync mechanism).
 
-The _VS_ expander provides only two input jacks: **HARD** sync, and **SOFT** sync.
+The _VK_ expander is offering two input jacks: **HARD** sync, and **SOFT** sync.
 
 :warning: In case of both are connected, **SOFT** input jack is always disabled (and ignored), because the priority is given to hard sync, the most common oscillator sync technique.
 
 Both input jack have its RGB LED, but mainly blue in production (the LED flash on every incoming voltage above +1V). However, the SOFT LED is turned on solid red as long as both jacks are connected, indicating the SOFT input jack is disabled.
 
-:warning: All **fast blinking red** LED indicates the _VS_ expander module is not linked to a _Vektor_ module!
+:warning: All **fast blinking red** LED indicates the _VK_ expander module is not linked to a _Vektor_ module!
 
 ---
 
 ### VX EXPANDER MODULE LAYOUT<a name="layoutvx"></a>
 
-Like _VS_ expander module above, _VX_, its right-side expander, is also a passive module. It offers outputs only (7, all are controlled by _Vektor_). Usage of the _VX_ expander is also optional.
+Like _VK_ expander module explained by previous topic, _VX_, its right-side expander, is also a passive module. It offers outputs only (7, all are controlled by _Vektor_). Usage of the _VX_ expander is also optional.
 
 _VX_ expander module is divided by 3 sections (blue lines on the module's plate, as section separators):
 
@@ -528,7 +528,7 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 - Microsoft/IBM WAVE compliant.
 - File extension: .wav
-- 2048 samples (signed 16-bit PCM) single-cycle (wavetable files are not supported, like real Prophet VS).
+- 2048 samples (signed 16-bit PCM) single-cycle (wavetable are not supported, like the real Prophet VS synthesizer!).
 - 44100Hz sample rate.
 - 1 channel (mono).
 - 4140 bytes filesize.
