@@ -18,7 +18,6 @@
 - [**MIX ENVELOPE**](#mixenvelope)
 - [**OSCILLATORS**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
-- [**OSCILLATOR SYNC**](#oscsync)
 
 _All 8 models (GUI theme variants) for Vektor module, and VX expander module:_
 ![](_img/AnimVektorModelsV7.gif)
@@ -249,7 +248,7 @@ Each context have a certain number of theme-related "pages", so you can select n
 
 For every context, the number of pages is:
 
-- Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, volume/velocity amount, and sync behavior).
+- Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, volume/velocity amount).
 - **MIX**: 3 pages (trajectory/points editor/viewer, rates, loop).
 - **PROGRAM**, 4 pages (program select, FM input, LFO 1, LFO 2).
 
@@ -459,12 +458,11 @@ To select next (or previous) waveform, rotate the **DATA ENTRY** continous encod
 
 From any oscillator context, they're 4 pages, for additional settings:
 
-![](_img/oscPages.png)
+![](_img/oscPagesV2.png)
 
 - First page (home page) permits to select a waveform (DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file.
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input jack, LFO 1, or LFO 2).
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
-- Fourth page is common to all oscillators (shared settings), to set up internally oscillator sync behavior (SYNC can be OFF, hard, or soft).
 
 By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or return to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the **PAGE** button.
 
@@ -501,20 +499,4 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 :warning: Other formats will be ignored, and generate an error condition on import attempt.
 
----
-
-### OSCILLATOR SYNC<a name="oscsync"></a>
-
-At the moment, oscillator sync is under development.
-
-However, the (fourth) page from any OSCillator context, is already operational to set up the internal sync:
-
-![](_img/oscSyncPage.png)
-
-From this OSCILLATOR SYNC page (common for all oscillators), they're two settings:
-- **SYNC.** along **L3** button, to set either **SYNC OFF**, **HARD** sync, or **SOFT** sync.
-- **LEADER** along **L4** button, to choose the leader oscillator, or to let the module's logic to choose the lowest pitched (pre-FM).
-
-:information_source: Along **L5** button, it's not a setting but information about _follower oscillators_. **Can't be selected/edited!**
-
-...TO BE CONTINUED... BUT THIS IS THE LASTEST TOPIC OF THIS USER'S MANUAL ;)
+...TO BE CONTINUED...
