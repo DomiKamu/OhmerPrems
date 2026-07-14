@@ -23,6 +23,7 @@ _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
 - [**PROGRAMS**](#programs)
 - [**MIX ENVELOPE**](#mixenvelope)
+- [**OSCILLATORS**](#oscillators)
 
 ---
 
@@ -445,6 +446,31 @@ _MIX ENVelope-specific right click context menu:_
 ![](_img/vktMixEnvMenu.png)
 
 :information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
+
+---
+
+### OSCILLATORS<a name="oscillators"></a>
+
+An oscillator is, obviously, the most important part of a VCO module, because it's the sound source!
+
+Like real Prophet VS synthesizer, the _Vektor_ module is using four digital oscillators (waveform sample-based, except the white noise who are using hybrid sampling & synthesis).
+
+Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In the 2D environment of _Vector Synthesis_ (in the "diamond"), oscillator A is left, oscillator B is top, oscillator C is right, and oscillator D is bottom.
+
+Every oscillator uses a **waveform**, can be a built-in ROM waveform (they're numbered from **032** to **127**), or "user" waveform (numbered from **000** to **031**, by default empties/unused, but can be filled by external WAVE files - see below about format, however).
+
+...TBC HERE...
+
+_Vektor_'s oscillator context is using 4 pages:
+
+![](_img/oscPages.png)
+
+- First page (home page) permits to select a waveform, and import an user waveform from a WAVE (.wav) file.
+- Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible frequency modulation source).
+- Third page is used to set up the pre-/post-joystick (for discrete output only), nominal volume, and the velocity amount (sensitivity).
+- Fourth page is common to all oscillators (shared settings), to set up internally oscillator sync (SYNC can be OFF, hard sync, or soft sync).
+
+...TBC HERE...
 
 ---
 
