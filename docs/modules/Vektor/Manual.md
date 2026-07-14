@@ -18,6 +18,7 @@ _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**VI EXPANDER MODULE LAYOUT**](#layoutvi)
 - [**CONTEXT SELECTION**](#contextsel)
+- [**CONTEXTS AND "PAGES"**](#contextspages)
 - [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
 - [**PROGRAMS**](#programs)
@@ -268,6 +269,20 @@ To select a context (except PROGRAM), press the related button (A, B, C, D, or M
 To select the PROGRAM context, press the button **where the LED is already on**: all LED become off, indicating the _Vektor_ module now is switched to PROGRAM context.
 
 Except for the **MIX** context (default display for its first page is the MIX ENVelope trajectory, aka _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first page.
+
+---
+
+### CONTEXTS AND "PAGES"<a name="contextspages"></a>
+
+As explained by previous topic, the _Vektor_ module have 6 contexts: **A**, **B**, **C**, **D**, **MIX**, and **PROGRAM**.
+
+Each context have a certain number of "pages": you can select next page by pressing **PAGE** button (top-right side of the module). By holding **left Ctrl** key (**left Command** key on MacOS X platforms) then press the **PAGE** button, the "page" returns to first (home) of the current context.
+
+For every context, the number of pages is:
+
+- Oscillator **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, volume, and SYNC.).
+- **MIX**: 3 pages (trajectory/points editor/viewer, rates, loop).
+- **PROGRAM**, 4 pages (program select, FM depth/mode, LFO 1, LFO 2).
 
 ---
 
