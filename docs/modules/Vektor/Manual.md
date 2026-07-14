@@ -1,7 +1,7 @@
-# VEKTOR / VX / VI USER'S MANUAL
+# VEKTOR USER'S MANUAL
 
 
-_All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
+_All 8 models (GUI theme variants) for Vektor module, and VS/VX expander modules:_
 ![](_img/AnimVektorModelsV5.gif)
 
 
@@ -11,12 +11,12 @@ _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
 - [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
+- [**VS EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vsspecs)
 - [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
-- [**VI EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vispecs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitations)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
+- [**VS EXPANDER MODULE LAYOUT**](#layoutvs)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
-- [**VI EXPANDER MODULE LAYOUT**](#layoutvi)
 - [**CONTEXT SELECTION**](#contextsel)
 - [**CONTEXTS AND "PAGES"**](#contextspages)
 - [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
@@ -106,17 +106,17 @@ As module outputs, the most important in Vector Synthesis is surely the **MIX** 
 
 Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source to other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
-_Vektor_ comes with two (optional-to-use) 3HP expander modules, first, the "right-side" named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional output jacks, and the second, the "left-side" named _VI_ (accronym of **V**ektor e**X**pander), who brings 2 input jacks, both dedicated to "oscillator sync":
+_Vektor_ comes with two (optional-to-use) 3HP expander modules, first, the "left-side" named _VS_ (accronym of **V**ektor **S**ync, instead of _Vector Synthesis_), who brings 2 input jacks, both dedicated to "oscillator sync", and the second, the "right-side" named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional output jacks:
+
+Inputs provided by the _VS_ "left-side" expander module:
+- **HARD**, designed to request an oscillator **hard sync**, by received +10V 1ms trigger.
+- **SOFT**, designed to request an oscillator **soft sync**, by received +10V 1ms trigger.
 
 Outputs provided by the _VX_ "right-side" expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
 - **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V). Offsets by joystick position (or by voltages applied on X and Y inputs) is not included.
-
-Inputs provided by the _VI_ "left-side" expander module:
-- **HARD**, designed to request an oscillator **hard sync**, by received +10V 1ms trigger.
-- **SOFT**, designed to request an oscillator **soft sync**, by received +10V 1ms trigger.
 
 Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
@@ -171,6 +171,18 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
 ---
 
+### VS EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vsspecs"></a>
+
+- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
+- Width: 3HP.
+- Must be placed alongside (**left-side**) of any _Vektor_ module, **without space** between them to establish the link.
+- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ model (when link is established).
+- Inputs: 2 (HARD, SOFT).
+- Input voltage: min. +1V (recommended: **+10V 1ms trigger**).
+- LED: per input (both LED are RGB).
+
+---
+
 ### VX EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vxspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
@@ -180,18 +192,6 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Outputs: 7 (LFO 1, LFO 2, JOY X, JOY Y, GATE, ENV X, ENV Y).
 - Output voltage ranges: -5V to +5V (0V or +10V for GATE).
 - LED: per output (all LED are RGB).
-
----
-
-### VI EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vispecs"></a>
-
-- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
-- Width: 3HP.
-- Must be placed alongside (**left-side**) of any _Vektor_ module, **without space** between them to establish the link.
-- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ model (when link is established).
-- Inputs: 2 (HARD, SOFT).
-- Input voltage: min. +1V (recommended: **+10V 1ms trigger**).
-- LED: per input (both LED are RGB).
 
 ---
 
@@ -213,35 +213,35 @@ The best way to present the _Vektor_ module layout is by the following **5 minut
 
 ---
 
+### VS EXPANDER MODULE LAYOUT<a name="layoutvs"></a>
+
+Unlike the _Vektor_ as "master", complex CPU-controlled module, _VS_, its left-side expander, is a passive module (only one controller to send "trigger-equivalent" to Vektor). It brings only two intput jacks, both related to oscillator sync. _VS_ module usage is optional, in case you'd like to control oscillator hard sync or soft sync by an external module (instead of internal).
+
+The _VS_ expander provides only two input jacks: **HARD** sync, and **SOFT** sync.
+
+:warning: In case of both are connected, **SOFT** input jack is always disabled (ignored), because the priority is always given to hard sync (the most common oscillator sync technique).
+
+Both input jack have its RGB LED, but mainly blue in production (the LED flash on every incoming voltage above +1V). However, SOFT LED is turned on solid red as long as both jacks are connected, indicating the SOFT input jack is disabled.
+
+:warning: All **fast blinking red** LED indicates the _VS_ expander module is not "linked" to a _Vektor_ module!
+
+---
+
 ### VX EXPANDER MODULE LAYOUT<a name="layoutvx"></a>
 
-Unlike the _Vektor_ as "master", complex CPU-controlled module, _VX_, its right-side expander, is a passive module. It offers only outputs (7, all controlled by _Vektor_). Usage of the _VX_ expander isn't mandatory (in fact, depending your needs).
+Like _VS_ expander module, _VX_, its right-side expander, is also a passive module. It offers outputs only (7, all controlled by _Vektor_). Usage of the _VX_ expander is optional, depending your needs.
 
-The _VX_ expander is divided by 3 sections (blue lines on the module's plate, as section separators):
+_VX_ expander module is divided by 3 sections (blue lines on the module's plate, as section separators):
 
 - Upper section is dedicated to LFO 1 and LFO 2 (both are handled by the _Vektor_ module).
 - Middle section is dedicated to position of the _Vektor_'s **physical joystick**.
-- Lower section is dedicated to the _Vektor_'s MIX ENVelope, including mix envelope GATE output jack.
+- Lower section is dedicated to the _Vektor_'s MIX ENVelope, including mix envelope **GATE** output jack.
 
-Every output jack have its own LED, mainly green (exception is GATE, who are using blue, instead).
+Every output jack have its own LED, mainly green (the exception is **GATE**, who are using blue color, instead).
 
 :warning: All **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
 
 :information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are on, solid red, indicating the constant 0V are not relevant! Exactly the same fact concerning LFO 1 and/or LFO 2, if disabled from _Vektor_ (PROGRAM context, 3rd page for LFO 1, 4th page for LFO 2), the related LFO LED is on, solid red too (whatever if connected, or not), indicating the LFO output voltage(s) - 0V - is/are not relevant!
-
----
-
-### VI EXPANDER MODULE LAYOUT<a name="layoutvi"></a>
-
-_VI_ is the most recent (left-side) expander, also as passive module. It offers only two intputs, both related to oscillator sync. Like _VX_ expander, _VI_ usage is optional, in case you'd like to control oscillator hard sync or soft sync by an external module.
-
-The _VI_ expander provides only two input jacks: HARD, and SOFT.
-
-:warning: In case both are connected, SOFT is always disabled/ignored, because the priority is always given to hard sync, the most common oscillator sync technique.
-
-Both input jack have its own RGB LED, but mainly blue in regular operation (flash on every incoming trigger). However, SOFT LED is turned on solid red as long as both jacks are connected, indicating the input is disabled.
-
-:warning: All **fast blinking red** LED indicates the _VI_ expander module is not "linked" to a _Vektor_ module!
 
 ---
 
