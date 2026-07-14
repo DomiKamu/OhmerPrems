@@ -1,4 +1,4 @@
-# VEKTOR USER'S MANUAL (UNDER CONSTRUCTION)
+# VEKTOR / VX / VI USER'S MANUAL
 
 
 _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
