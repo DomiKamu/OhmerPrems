@@ -457,18 +457,20 @@ Like real Prophet VS synthesizer, the _Vektor_ module is using four digital osci
 
 Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In the 2D environment of _Vector Synthesis_ (in the "diamond"), oscillator A is left, oscillator B is top, oscillator C is right, and oscillator D is bottom.
 
-Every oscillator uses a **waveform**, can be a built-in ROM waveform (they're numbered from **032** to **127**), or "user" waveform (numbered from **000** to **031**, by default empties/unused, but can be filled by external WAVE files - see below about format, however).
+Every oscillator uses a **waveform**, can be a built-in ROM waveform (they're numbered from **032** to **127**), or a "user" waveform (they're numbered from **000** to **031**, empty/unused by default, but can be filled by importing external WAVE files - per module instance!).
 
-...TBC HERE...
+To select an oscillator (context), press its relevant context button (**A**, **C**, **C**, or **D**) only if its LED above it is off. This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**, along L2 button its the number (**000** to **127**) of the waveform, followed by its name (or **USER #xxx** for user waveforms). The lower part of the OLED is the representation of selected/current waveform.
 
-_Vektor_'s oscillator context is using 4 pages:
+To select next (or previous) waveform, rotate the DATA ENTRY continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required on limits.
+
+From any oscillator context, they're 4 possible pages:
 
 ![](_img/oscPages.png)
 
-- First page (home page) permits to select a waveform, and import an user waveform from a WAVE (.wav) file.
-- Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible frequency modulation source).
-- Third page is used to set up the pre-/post-joystick (for discrete output only), nominal volume, and the velocity amount (sensitivity).
-- Fourth page is common to all oscillators (shared settings), to set up internally oscillator sync (SYNC can be OFF, hard sync, or soft sync).
+- First page (home page) permits to select a waveform (DATA ENTRY continuous encoder), and import an user waveform from a WAVE (.wav) file.
+- Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input, or LFO).
+- Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
+- Fourth page is common to all oscillators (shared settings), to set up internally oscillator sync behavior (SYNC can be OFF, hard, or soft).
 
 ...TBC HERE...
 
