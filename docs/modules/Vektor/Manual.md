@@ -277,7 +277,7 @@ Except for the **MIX** context (default display for its first page is the MIX EN
 
 As explained by previous topic, the _Vektor_ module have 6 contexts: **A**, **B**, **C**, **D** (oscillators), **MIX**, and **PROGRAM**.
 
-Each context have a certain number of theme-related "pages", so you can select next page by pressing the **PAGE** momentary button (top-right side of the module). To return to first (home) page, press/hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the **PAGE** button.
+Each context have a certain number of theme-related "pages", so you can select next page by pressing the **PAGE** momentary button (top-right side of the module). To return to first (home) page, hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the **PAGE** button.
 
 For every context, the number of pages is:
 
@@ -373,7 +373,7 @@ _Vektor_'s PROGRAM context is using 4 pages:
 - The third page displays settings dedicated to LFO 1: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 - The fourth page displays settings dedicated to LFO 2: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 
-:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
+:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the relevant **L1 ~ L5** (left-side) momentary button!
 
 A program always includes:
 - Its name (default, or defined when saving. Limited to 16 characters, see above for allowed characters).
@@ -445,7 +445,7 @@ _MIX ENVelope-specific right click context menu:_
 
 ![](_img/vktMixEnvMenu.png)
 
-:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X platforms) then press the relevant L (left-side) momentary button!
+:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the relevant **L1 ~ L5** (left-side) momentary button!
 
 ---
 
@@ -457,13 +457,13 @@ Like real Prophet VS synthesizer, the _Vektor_ module is using **4 digital oscil
 
 Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In the 2D environment of _Vector Synthesis_ (in the "diamond"), oscillator A is left, oscillator B is top, oscillator C is right, and oscillator D is bottom.
 
-Every oscillator uses a **waveform**, can be a built-in ROM waveform (they're numbered from **032** to **127**), or a "user" waveform (they're numbered from **000** to **031**, empty/unused by default, but can be filled by importing external WAVE files - per module instance!).
+Every oscillator uses a **waveform**, can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by importing external WAVE files - per module instance!).
 
-To select an oscillator (context), press its relevant context button (**A**, **B**, **C**, or **D**) only if its LED above it is off. This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**, along L2 button its the number (**000** to **127**) of the waveform, followed by its name (or **USER #xxx** for user waveforms). The lower part of the OLED is the representation of selected/current waveform.
+To select an oscillator (context), press the relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off. This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. Along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xxx**, for user waveforms). The lower part of the OLED display is the graphic representation of the selected waveform (horizontal line if silence and unused "user" waveform slots).
 
-To select next (or previous) waveform, rotate the DATA ENTRY continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required on limits.
+To select next (or previous) waveform, rotate the **DATA ENTRY** continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required, when a limit is reached.
 
-From any oscillator context, they're 4 pages for additional settings:
+From any oscillator context, they're 4 pages, for additional settings:
 
 ![](_img/oscPages.png)
 
@@ -471,6 +471,10 @@ From any oscillator context, they're 4 pages for additional settings:
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input, or LFO).
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
 - Fourth page is common to all oscillators (shared settings), to set up internally oscillator sync behavior (SYNC can be OFF, hard, or soft).
+
+By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or return to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the **PAGE** button.
+
+:information_source: Except on first page, to restore a displayed setting to its default value (factory, or last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the relevant **L1 ~ L5** (left-side) momentary button!
 
 ...TBC HERE...
 
