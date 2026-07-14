@@ -459,7 +459,7 @@ Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In th
 
 Every oscillator uses a **waveform**, can be a built-in ROM waveform (they're numbered from **032** to **127**), or a "user" waveform (they're numbered from **000** to **031**, empty/unused by default, but can be filled by importing external WAVE files - per module instance!).
 
-To select an oscillator (context), press its relevant context button (**A**, **C**, **C**, or **D**) only if its LED above it is off. This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**, along L2 button its the number (**000** to **127**) of the waveform, followed by its name (or **USER #xxx** for user waveforms). The lower part of the OLED is the representation of selected/current waveform.
+To select an oscillator (context), press its relevant context button (**A**, **B**, **C**, or **D**) only if its LED above it is off. This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**, along L2 button its the number (**000** to **127**) of the waveform, followed by its name (or **USER #xxx** for user waveforms). The lower part of the OLED is the representation of selected/current waveform.
 
 To select next (or previous) waveform, rotate the DATA ENTRY continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required on limits.
 
