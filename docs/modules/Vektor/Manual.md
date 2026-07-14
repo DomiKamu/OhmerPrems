@@ -467,8 +467,8 @@ From any oscillator context, they're 4 pages, for additional settings:
 
 ![](_img/oscPages.png)
 
-- First page (home page) permits to select a waveform (DATA ENTRY continuous encoder), and import an user waveform from a WAVE (.wav) file.
-- Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input, or LFO).
+- First page (home page) permits to select a waveform (DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file.
+- Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input jack, LFO 1, or LFO 2).
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
 - Fourth page is common to all oscillators (shared settings), to set up internally oscillator sync behavior (SYNC can be OFF, hard, or soft).
 
