@@ -34,6 +34,19 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
 ----
+## **Vektor module**
+
+[Please click here to read the **Vektor User's Manual**](docs/modules/Vektor/Manual.md)
+
+Vektor is a **16HP digital quad-oscillator VCO** module, using Vector Syntesis (VS). This module comes with two expanders:
+- **VX**, a 3HP "right-side" expander module, offering seven extra output jacks.
+- **VI**, a 3HP "left-side" expander module, offering **HARD** and **SOFT** sync input jacks.
+
+Following animation is showing **all eight models** (GUI themes) of _Vektor_ modules and _VX_ / _VI_ expanders:
+
+![](docs/modules/Vektor/_img/AnimVektorModelsV5.gif)
+
+----
 ## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
