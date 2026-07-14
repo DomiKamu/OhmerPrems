@@ -2,7 +2,7 @@
 
 
 _All 8 models (GUI theme variants) for Vektor module, and VK/VX expander modules:_
-![](_img/AnimVektorModelsV5.gif)
+![](_img/AnimVektorModelsV6.gif)
 
 
 ### TOPICS
