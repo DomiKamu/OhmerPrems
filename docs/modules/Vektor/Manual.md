@@ -24,6 +24,7 @@ _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
 - [**PROGRAMS**](#programs)
 - [**MIX ENVELOPE**](#mixenvelope)
 - [**OSCILLATORS**](#oscillators)
+- [**SUPPORTED WAVE FORMAT (IMPORT TO USER WAVEFORM)**](#wavefmt)
 
 ---
 
@@ -98,7 +99,7 @@ Each oscillator is using **waveform**, like the Prophet VS hardware synthesizer 
 
 :warning: Built-in **126. SILENCE** waveform, when selected for a particular oscillator (A, B, C, or D), doesn't provide "pages" for extra settings, because it's a nonsense to set the frequency and/or the volume for... a muted (disabled) oscillator! In this case, the **PAGE** button doesn't have effect! Also, built-in **127. WHITE NOISE** waveform have only **OSC VOLUME** as extra page, but nothing about **OSC FREQUENCY**, because white noise frequency is always constant (it doesn't follow "V/octave" rule), and cannot be modulated by FM/PM or by internal LFO.
 
-The _Vektor_ module permits to import custom WAVE (.wav) file to any **USER waveform** slot (numbered from **000** to **031**, respectively labelled **USER #1** to **USER #32**). WAVE file importation will be explained later (having a dedicated section in this User's Manual).
+The _Vektor_ module permits to [import custom WAVE file](#wavefmt) to any **USER waveform** slot (numbered from **000** to **031**, respectively labelled **USER #1** to **USER #32**).
 
 As module outputs, the most important in Vector Synthesis is surely the **MIX** output (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete oscillator outputs, useful as as separate oscillators, of for particular FX processings. Every discrete OSC output may be either **pre-joystick** (or pre MIX ENVelope) as dry/unmixed - it's the default behavior, or **post-joystick** (or post MIX ENVelope). The joystick/mix envelope routing can be configured from every **OSC x VOLUME** page (3rd page, for each oscillator context).
 
@@ -139,7 +140,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Oscillators: 4 (OSC A, OSC B, OSC C, and OSC D), using waveforms/samples.
 - Built-in ROM waveforms: 96, including "silence" (disabled OSC), and not-pitchable (constant frequency) white noise.
 - User waveforms: max. 32 (per module instance).
-- Wave importation: Microsoft/IBM WAVE, PCM signed 16-bit, 44100Hz, mono, 2048 samples. **Filesize must be 4140 bytes**.
+- Wave importation: Microsoft/IBM WAVE, PCM signed 16-bit, 44100Hz, mono, 2048 samples, 4140 bytes.
 - Wavetable support: no (like the real Prophet VS synthesizer).
 - LFO: 2 independent internal LFO 1 and LFO 2 (settings per program).
 - LFO frequency range: min. 0.01Hz, max. 50Hz, resolution 0.01Hz.
@@ -195,7 +196,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
 ### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitations"></a>
 
-:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes**, largely more in json, because all numerical values for every sample are coded as plain text), by this way, the "100 kilobytes limit recommendation" for json serialization - as indicated by VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish preset save file versus regular patch save file!
+:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes**, largely more in json files, because all numerical values for every sample are coded as plain text), by this way, the "100 kilobytes limit recommendation" for json serialization - as indicated by VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish preset save file versus regular patch save file!
 
 To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including autosave, occuring every 15-second), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods).
 
@@ -281,7 +282,7 @@ Each context have a certain number of theme-related "pages", so you can select n
 
 For every context, the number of pages is:
 
-- Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, volume, and SYNC.).
+- Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, volume/velocity amount, and sync behavior).
 - **MIX**: 3 pages (trajectory/points editor/viewer, rates, loop).
 - **PROGRAM**, 4 pages (program select, FM input, LFO 1, LFO 2).
 
@@ -357,6 +358,18 @@ To save a program:
 - Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
 - Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** command.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
+
+To load a program (right click context menu method):
+- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
+- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Open from .vktProgram file** command.
+- From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
+
+To load a program (file drag and drop method):
+- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
+- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
+- Drag the relevant **.vktProgram** file, then drop it over the module, that's all.
+
+ :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
 _Program-specific right click context menu:_
 
@@ -441,6 +454,18 @@ To save the current MIX ENVelope to a **.vktMixEnv** file:
 - Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
 
+To load a saved mix envelope (right click context menu method):
+- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
+- Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Open from .vktMixEnv file** command.
+- From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
+
+To load a program (file drag and drop method):
+- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
+- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
+- Drag the relevant **.vktMixEnv** file, then drop it over the module, that's all.
+
+ :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
+
 _MIX ENVelope-specific right click context menu:_
 
 ![](_img/vktMixEnvMenu.png)
@@ -457,7 +482,7 @@ Like real Prophet VS synthesizer, the _Vektor_ module is using **4 digital oscil
 
 Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In the 2D environment of _Vector Synthesis_ (in the "diamond"), oscillator A is left, oscillator B is top, oscillator C is right, and oscillator D is bottom.
 
-Every oscillator uses a **waveform**, can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by importing external WAVE files - per module instance!).
+Every oscillator uses a **waveform**, can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by [importing external WAVE files](#wavefmt) - per module instance!).
 
 To select an oscillator (context), press the relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off. This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. Along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xxx**, for user waveforms). The lower part of the OLED display is the graphic representation of the selected waveform (horizontal line if silence and unused "user" waveform slots).
 
@@ -476,8 +501,31 @@ By pressing the **PAGE** momentary button (top-right side of the module), you se
 
 :information_source: Except on first page, to restore a displayed setting to its default value (factory, or last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the relevant **L1 ~ L5** (left-side) momentary button!
 
-...TBC HERE...
+To import a custom WAVE file to USER WAVEFORM slot (right click context menu method):
+- Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D** (if not, press the relevant context button **only if its LED above is off**).
+- Do a right-mouse click on the module. From the menu, select **User waveform**, then **Import .wav file as USER #xx** command (**xx** stands for the current waveform number).
+- From **Open** dialog, select the path where the .wav file is located, select its filename, then click _Open_ button.
+
+To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
+- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
+- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the WAVE file is.
+- Drag the relevant **.wav** file, then drop it over the module, that's all.
+
+:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
+
+:warning: The _Vektor_ module doesn't permit to export a waveform to a file.
 
 ---
 
-...TO BE CONTINUED... THANKS FOR YOUR PATIENCE! ;)
+### SUPPORTED WAVE FORMAT (IMPORT TO USER WAVEFORM)<a name="wavefmt"></a>
+
+For the first firmware version (v2.6.13), the _Vektor_ module is able to accept (for import) this format **only**:
+
+- Microsoft/IBM WAVE compliant.
+- File extension: .wav
+- 2048 samples (signed 16-bit PCM) single-cycle (wavetable files are not supported, like real Prophet VS).
+- 44100Hz sample rate.
+- 1 channel (mono).
+- 4140 bytes filesize.
+
+:warning: Other formats will be ignored, and generate an error condition on import attempt.
