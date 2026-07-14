@@ -282,7 +282,7 @@ For every context, the number of pages is:
 
 - Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, volume, and SYNC.).
 - **MIX**: 3 pages (trajectory/points editor/viewer, rates, loop).
-- **PROGRAM**, 4 pages (program select, FM depth/mode, LFO 1, LFO 2).
+- **PROGRAM**, 4 pages (program select, FM input, LFO 1, LFO 2).
 
 ---
 
@@ -290,7 +290,7 @@ For every context, the number of pages is:
 
 Even the **MIX** output jack can be assumed as the most important in Vector Synthesis universe, because all oscillators are constantly mixed (manually by the joystick or by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only, in this case, you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module!
 
-However, you'll can combine every discrete A, B, C, and D output jacks, together with the **MIX** output jack.
+However, you'll can combine every discrete A, B, C, and D output jacks, together with the **MIX** output jack, all can be used at the same time!
 
 By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L3** button permits to set as pre-MIX ENVelope / pre-joystick, instead, to get a blended oscillator signal, in case you'll need it for further usage, such separate FX processing!
 
