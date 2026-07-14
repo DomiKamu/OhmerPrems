@@ -1,10 +1,5 @@
 # VEKTOR USER'S MANUAL
 
-
-_All 8 models (GUI theme variants) for Vektor module, and VK/VX expander modules:_
-![](_img/AnimVektorModelsV6.gif)
-
-
 ### TOPICS
 
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
@@ -26,6 +21,9 @@ _All 8 models (GUI theme variants) for Vektor module, and VK/VX expander modules
 - [**OSCILLATORS**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
 - [**OSCILLATOR SYNC**](#oscsync)
+
+_All 8 models (GUI theme variants) for Vektor module, and VK/VX expander modules:_
+![](_img/AnimVektorModelsV6.gif)
 
 ---
 
