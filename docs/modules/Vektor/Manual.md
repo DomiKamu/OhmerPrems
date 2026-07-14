@@ -453,7 +453,7 @@ _MIX ENVelope-specific right click context menu:_
 
 An oscillator is, obviously, the most important part of a VCO module, because it's the sound source!
 
-Like real Prophet VS synthesizer, the _Vektor_ module is using four digital oscillators (waveform sample-based, except the white noise who are using hybrid sampling & synthesis).
+Like real Prophet VS synthesizer, the _Vektor_ module is using **4 digital oscillators** (waveform/sample-based, except the white noise who are using hybrid sampling/synthesis), it's the reason why the module is using **Quad** tag (search from VCV Rack 2 module browser).
 
 Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In the 2D environment of _Vector Synthesis_ (in the "diamond"), oscillator A is left, oscillator B is top, oscillator C is right, and oscillator D is bottom.
 
@@ -463,7 +463,7 @@ To select an oscillator (context), press its relevant context button (**A**, **C
 
 To select next (or previous) waveform, rotate the DATA ENTRY continous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required on limits.
 
-From any oscillator context, they're 4 possible pages:
+From any oscillator context, they're 4 pages for additional settings:
 
 ![](_img/oscPages.png)
 
