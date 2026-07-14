@@ -25,6 +25,7 @@ _All 8 models (GUI theme variants) for Vektor module and VI/VX expanders:_
 - [**MIX ENVELOPE**](#mixenvelope)
 - [**OSCILLATORS**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
+- [**OSCILLATOR SYNC**](#oscsync)
 
 ---
 
@@ -533,3 +534,15 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 - 4140 bytes filesize.
 
 :warning: Other formats will be ignored, and generate an error condition on import attempt.
+
+---
+
+### OSCILLATOR SYNC<a name="oscsync"></a>
+
+At the moment, oscillator sync is under development.
+
+However, the (fourth) page from any OSCillator context, is already operational to set up the internal sync:
+
+![](_img/oscSyncPage.png)
+
+...TBC... IT'S THE LASTEST TOPIC OF THIS USER'S MANUAL ;)
