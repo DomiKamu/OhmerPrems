@@ -318,7 +318,7 @@ The greatest number of polyphony voices from these sources is always selected by
 
 ### PROGRAMS<a name="programs"></a>
 
-The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_). All first 15 (numbered from 01 to 15, and having an explicit name) are based on the real Prophet VS hardware. Program numbered 16 is the **INIT** program (settings was choosen by the developer ;)
+The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), per module instance. All first 15 (numbered from 01 to 15, and having an explicit name) are based on the real Prophet VS programs. Program numbered 16 is the **INIT** program (the settings was choosen by the developer).
 
 To select a different program:
 - Be sure the PROGRAM context is selected first, **all context red LED must be off**. If not, simply press the button where the red LED is on, by doing this, the _Vektor_ module is switched to PROGRAM context (the OLED must display **PROGRAM** as header) !
@@ -326,11 +326,11 @@ To select a different program:
 - Rotate clockwise the DATA ENTRY continuous encoder to select next program (will be 01 if the current program number was 16).
 - Rotate counter-clockwise the DATA ENTRY continuous encoder to select previous program (will be 16 if the current program number was 01).
 
-Also, you'll can control the program select (similar to _MIDI Program Change_) by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16). The PROG. input jack, of course, is working whatever the current module's context!
+Also, you'll can control the program select (similar to _MIDI Program Change_) by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16). The PROG. input jack, of course, is working from any module's context!
 
-:warning: **Applied voltage on PROG. input jack below +1V (including negative voltage) is ignored (to avoid unwanted changes). Also, any voltage above +8.5V selects program #16.**
+:warning: **Applied voltage on PROG. input jack below +1V, including negative voltage, is ignored (to avoid unwanted program changes). Also, any voltage above +8.5V always selects program #16.**
 
-Obviously, any program can be altered (regardling your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) 130-byte binary file, then possibly loaded later, when you'll need it.
+Obviously, any program can be altered (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded later, when you'll need it.
 
 :information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
@@ -401,11 +401,11 @@ _Vektor_'s MIX context is using 3 pages:
 
 ![](_img/mixEnvPages.png)
 
-- First page (home page, for MIX context) permits to edit each point of the envelope (use left-side L buttons and the joystick).
-- Second page is used to define **rates**, aka duration for each vector (line segment), from 0ms up to 5,000ms.
-- Third page is used to set up the MIX ENVelope loop feature (loop always starts from point #3 / sustain).
+- First page (home page) permits to edit each point of the envelope (use left-side L buttons and the joystick).
+- Second page is used to define **rates**, aka durations for each vector (line segment), from 0ms, up to 5,000ms.
+- Third page is used to set up the MIX ENVelope loop (loop always starts and finished from/to point #3 / sustain).
 
-The MIX ENVelope is always composed by 5 points:
+The MIX ENVelope is always composed by 5 points (forming 4 vectors):
 - Point #0, always the start point, when the applied voltage on **GATE** input jack is +1V or more (high gate).
 - Point #1.
 - Point #2.
@@ -427,11 +427,11 @@ They're 4 rates:
 
 :information_source: The module's logic computes needed speeds to run each vector, depending the distance between points, and specified rate.
 
-:warning: Except point #3 (the sustain point), any point can be bypassed if the distance between them are zero (if the consecutive points are overlapped), or if the RATE is set to 0ms.
+:warning: Except point #3 (the sustain point), any point can be bypassed if the "distance" is zero (consecutive points are overlapped), or if the RATE is set to 0ms.
 
-:warning: When enabled, the MIX ENVelope is **always retriggered** on every new incoming "high gate", in particular in polyphony play. This behavior is normal!
+:warning: When enabled, the MIX ENVelope is **always retriggered** on every new incoming "high gate" (in particular for polyphony). This behavior is normal!
 
-Current MIX ENVelope can be saved to **.vktMixEnv** (35-byte) binary file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved and recalled.
+Current MIX ENVelope can be saved to **.vktMixEnv** file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved and recalled.
 
 :warning: The ON/OFF state of the MIX ENVelope is never saved or recalled (stay unchanged if you load an envelope file). Please remember you'll can enable (or disable) the MIX ENVelope quickly by pressing the **ENV** (toggle) button, located just above the MIX output jack.
 
