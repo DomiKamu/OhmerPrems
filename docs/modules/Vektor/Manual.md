@@ -458,7 +458,7 @@ To select next (or previous) waveform, rotate the **DATA ENTRY** continous encod
 
 From any oscillator context, they're 3 pages, who brings additional oscillator-related settings:
 
-![](_img/oscPages.png)
+![](_img/oscPagesV2.png)
 
 - First page (home page) permits to select a waveform (DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file.
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input jack, LFO 1, or LFO 2).
