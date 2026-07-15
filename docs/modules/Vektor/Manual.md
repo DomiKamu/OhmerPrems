@@ -6,11 +6,9 @@
 - [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
-- [**VK EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vkspecs)
 - [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitations)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
-- [**VK EXPANDER MODULE LAYOUT**](#layoutvk)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
 - [**CONTEXTS AND "PAGES"**](#contextspages)
@@ -20,16 +18,15 @@
 - [**MIX ENVELOPE**](#mixenvelope)
 - [**OSCILLATORS**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
-- [**OSCILLATOR SYNC**](#oscsync)
 
-_All 8 models (GUI theme variants) for Vektor module, and VK/VX expander modules:_
-![](_img/AnimVektorModelsV8.gif)
+_All 8 models (GUI theme variants) for Vektor module, and VX expander:_
+![](_img/AnimVektorModels.gif)
 
 ---
 
 ### HISTORY OF THE VECTOR SYNTHESIS<a name="history"></a>
 
-Welcome into the **Vector Synthesis** universe!
+Welcome to the **Vector Synthesis** universe!
 
 _Vektor_ is a 16HP polyphonic quad-oscillator digital VCO module, using [**Vector Synthesis**](https://en.wikipedia.org/wiki/Vector_synthesis) technique (often abbreviated as **VS**) conceived by Sequential Circuits company (Dave Smith) for his [**Prophet VS**](https://en.wikipedia.org/wiki/Prophet_VS) synthesizer, manufactured from 1986. Unfortunately, this innovative form of synthesis did not meet with great success, probably due to the high price of the Prophet VS synthesizer during this epoch (approx. USD 9,000 after 2026 conversion!).
 
@@ -104,13 +101,9 @@ As module outputs, the most important in Vector Synthesis is surely the **MIX** 
 
 Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source to other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
-_Vektor_ comes with two (optional-to-use) 3HP expander modules, first, the "left-side" named _VK_, who brings 2 input jacks, both dedicated to "oscillator sync", and the second, the "right-side" named _VX_ (accronym of **V**ektor e**X**pander, because initially it was the first and lone expander prior _VK_), offering 7 additional output jacks:
+_Vektor_ comes with (optional-to-use) 3HP "right-side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional output jacks:
 
-Inputs provided by the _VK_ "left-side" expander module:
-- **HARD**, designed to request an oscillator **hard sync**, by received +10V 1ms trigger.
-- **SOFT**, designed to request an oscillator **soft sync**, by received +10V 1ms trigger.
-
-Outputs provided by the _VX_ "right-side" expander module:
+Outputs provided by the _VX_ expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
 - **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
@@ -169,18 +162,6 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
 ---
 
-### VK EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vkspecs"></a>
-
-- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
-- Width: 3HP.
-- Must be placed alongside (**left-side**) of any _Vektor_ module, **without space** between them to establish the link.
-- Available models (GUI theme variants): 8, automatically inherit the _Vektor_ model (when link is established).
-- Inputs: 2 (HARD, SOFT).
-- Input voltage: min. +1V, controlled by MCU to send **trigger** signal to _Vektor_.
-- LED: per input (both LED are RGB).
-
----
-
 ### VX EXPANDER MODULE TECHNICAL SPECIFICATIONS<a name="vxspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
@@ -211,25 +192,11 @@ The best way to present the _Vektor_ module layout is by the following **5 minut
 
 ---
 
-### VK EXPANDER MODULE LAYOUT<a name="layoutvk"></a>
-
-Unlike the _Vektor_ as "master", complex CPU-controlled module, _VK_, its left-side expander, is a near-passive module (only one basic MCU will generate a "trigger-equivalent" to Vektor). It brings only two intput jacks, both of them are related with oscillator sync. The usage of this expander module is optional, in case you'd like to control oscillator hard sync or soft sync done by an external module (instead of _Vektor_'s internal sync mechanism).
-
-The _VK_ expander is offering two input jacks: **HARD** sync, and **SOFT** sync.
-
-:warning: In case of both are connected, **SOFT** input jack is always disabled (and ignored), because the priority is given to hard sync, the most common oscillator sync technique.
-
-Both input jack have its RGB LED, but mainly blue in production (the LED flash on every incoming voltage above +1V). However, the SOFT LED is turned on solid red as long as both jacks are connected, indicating the SOFT input jack is disabled.
-
-:warning: All **fast blinking red** LED indicates the _VK_ expander module is not linked to a _Vektor_ module!
-
----
-
 ### VX EXPANDER MODULE LAYOUT<a name="layoutvx"></a>
 
-Like _VK_ expander module explained by previous topic, _VX_, its right-side expander, is also a passive module. It offers outputs only (7, all are controlled by _Vektor_). Usage of the _VX_ expander is also optional.
+_VX_, the 3HP "right-side" expander, is a _passive_ module. It offers outputs only (7, all are controlled by _Vektor_'s logic). Usage of the _VX_ expander is optional, depending your needs.
 
-_VX_ expander module is divided by 3 sections (blue lines on the module's plate, as section separators):
+_VX_ expander module is divided by 3 sections (blue lines on the module's plate are section separators):
 
 - Upper section is dedicated to LFO 1 and LFO 2 (both are handled by the _Vektor_ module).
 - Middle section is dedicated to position of the _Vektor_'s **physical joystick**.
@@ -277,7 +244,7 @@ Except for the **MIX** context (default display for its first page is the MIX EN
 
 As explained by previous topic, the _Vektor_ module have 6 contexts: **A**, **B**, **C**, **D** (oscillators), **MIX**, and **PROGRAM**.
 
-Each context have a certain number of theme-related "pages", so you can select next page by pressing the **PAGE** momentary button (top-right side of the module). To return to first (home) page, hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the **PAGE** button.
+Each context have a certain number of theme-related "pages", so you can select next page by pressing the **PAGE** momentary button (top-right side of the module). To return to first (home) page, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
 
 For every context, the number of pages is:
 
@@ -385,7 +352,7 @@ _Vektor_'s PROGRAM context is using 4 pages:
 - The third page displays settings dedicated to LFO 1: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 - The fourth page displays settings dedicated to LFO 2: AMP amount (L2), waveform (L3), frequency (L4), and retrigger(L5).
 
-:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the relevant **L1 ~ L5** (left-side) momentary button!
+:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
 A program always includes:
 - Its name (default, or defined when saving. Limited to 16 characters, see above for allowed characters).
@@ -469,7 +436,7 @@ _MIX ENVelope-specific right click context menu:_
 
 ![](_img/vktMixEnvMenu.png)
 
-:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the relevant **L1 ~ L5** (left-side) momentary button!
+:information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
 ---
 
@@ -496,11 +463,10 @@ From any oscillator context, they're 4 pages, for additional settings:
 - First page (home page) permits to select a waveform (DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file.
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input jack, LFO 1, or LFO 2).
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
-- Fourth page is common to all oscillators (shared settings), to set up internally oscillator sync behavior (SYNC can be OFF, hard, or soft).
 
-By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or return to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the **PAGE** button.
+By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or return to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
 
-:information_source: Except on first page, to restore a displayed setting to its default value (factory, or last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers) and press the relevant **L1 ~ L5** (left-side) momentary button!
+:information_source: Except on first page, to restore a displayed setting to its default value (factory, or last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
 To import a custom WAVE file to USER WAVEFORM slot (right click context menu method):
 - Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D** (if not, press the relevant context button **only if its LED above is off**).
@@ -526,27 +492,12 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 - Microsoft/IBM WAVE compliant.
 - File extension: .wav
-- 2048 samples (signed 16-bit PCM) single-cycle (wavetable are not supported, like the real Prophet VS synthesizer!).
+- 2048 samples, signed 16-bit PCM single-cycle (wavetable are not supported, like the real Prophet VS synthesizer).
 - 44100Hz sample rate.
 - 1 channel (mono).
-- 4140 bytes filesize.
+- **Filesize must be 4140 bytes exactly**.
 
 :warning: Other formats will be ignored, and generate an error condition on import attempt.
 
 ---
-
-### OSCILLATOR SYNC<a name="oscsync"></a>
-
-At the moment, oscillator sync is under development.
-
-However, the (fourth) page from any OSCillator context, is already operational to set up the internal sync:
-
-![](_img/oscSyncPage.png)
-
-From this OSCILLATOR SYNC page (common for all oscillators), they're two settings:
-- **SYNC.** along **L3** button, to set either **SYNC OFF**, **HARD** sync, or **SOFT** sync.
-- **LEADER** along **L4** button, to choose the leader oscillator, or to let the module's logic to choose the lowest pitched (pre-FM).
-
-:information_source: Along **L5** button, it's not a setting but information about _follower oscillators_. **Can't be selected/edited!**
-
-...TO BE CONTINUED... BUT THIS IS THE LASTEST TOPIC OF THIS USER'S MANUAL ;)
+...TO BE CONTINUED...
