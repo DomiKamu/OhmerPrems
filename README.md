@@ -4,7 +4,8 @@
 
 *OhmerPrems* plugin is a set of 7 modules (4 are fully operational), plus 5 as _expander_ modules:
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction)
-- **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). [**Vektor User's Manual** incl. **VX** expander](docs/modules/Vektor/Manual.md) (_Vektor_ module still under development, planned as future stable release v2.6.13 during August 2026).
+- **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). [**Vektor User's Manual** incl. **VK** and **VX** expander modules](docs/modules/Vektor/Manual.md) (_Vektor_ module still under development, planned as future stable release v2.6.13 during August 2026).
+- **VK** is a 3HP **left-side expander** for Vektor. It brings discrete **HARD SYNC** and **SOFT SYNC** inputs.
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
 - **6OP-DX** is a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**still under development**).
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
@@ -39,9 +40,11 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 
 [Please click here to read the **Vektor User's Manual**](docs/modules/Vektor/Manual.md)
 
-_Vektor_ is a **16HP digital quad-oscillator VCO** module, using Vector Syntesis (VS). _Vektor_ comes with **VX**, a 3HP "right-side" expander module, offering 7 extra output jacks.
+Vektor is a **16HP digital quad-oscillator VCO** module, using Vector Syntesis (VS). This module comes with two expanders:
+- **VK**, a 3HP "left-side" expander module, offering **HARD** and **SOFT** sync input jacks.
+- **VX**, a 3HP "right-side" expander module, offering seven extra output jacks.
 
-Following animation is showing **all eight models** (GUI themes) of _Vektor_ module and _VX_ expander:
+Following animation is showing **all eight models** (GUI themes) of _Vektor_ module and _VK_ / _VX_ expanders:
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV5.gif)
 
