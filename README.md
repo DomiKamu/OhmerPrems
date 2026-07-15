@@ -23,9 +23,9 @@ Lastest stable version **v2.6.12** is available from [_Releases_](https://github
 ----
 ## **FranKe module**
 
-[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction)
+[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction - delayed for couple of weeks).
 
-Developed for OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three, can be changed anytime you'll want):
+Developed to OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three, can be changed anytime you'll want):
 - as melodic track, who are using quantized notes, octaves, accidentals, and velocities.
 - as modulation track (CV OUT track) to offering voltages (-10V to +10V range, 0.01V steeping, or random inside same voltage range) for sequenced modulations.
 - as 16-bit Turing Machine track, useful for generative/random patches! (Turing Machine states are always saved and recalled).
