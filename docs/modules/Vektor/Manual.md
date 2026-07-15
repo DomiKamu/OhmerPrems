@@ -456,7 +456,7 @@ To select next (or previous) waveform, rotate the **DATA ENTRY** continous encod
 
 :information_source: The waveform **126. SILENCE** is a particular waveform: by selecting it, the oscillator is disabled (not processed by the DSP core). Same fact about any empty user waveform.
 
-From any oscillator context, they're 4 pages, for additional settings:
+From any oscillator context, they're 3 pages, who brings additional oscillator-related settings:
 
 ![](_img/oscPages.png)
 
