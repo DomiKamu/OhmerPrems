@@ -21,7 +21,7 @@
 - [**OUTRO...**](#outro)
 
 _All 8 models (GUI theme variants) for Vektor module, and VX expander:_
-![](_img/AnimVektorModels.gif)
+![](_img/AnimVektorModelsV2.gif)
 
 ---
 
