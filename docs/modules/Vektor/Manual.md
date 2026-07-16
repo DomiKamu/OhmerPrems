@@ -20,7 +20,7 @@
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
 - [**OUTRO...**](#outro)
 
-_All 8 models (GUI theme variants) for Vektor module, and VX expander:_
+_All 8 models (panel theme variants) for Vektor module, and VX expander:_
 ![](_img/AnimVektorModelsV2.gif)
 
 ---
