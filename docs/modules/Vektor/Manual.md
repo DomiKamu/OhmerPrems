@@ -263,9 +263,11 @@ Obviously, you'll can combine any discrete A, B, C, and D output jack(s), togeth
 
 By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L3** button permits to set as pre-MIX ENVelope / pre-joystick, instead, to get a blended oscillator signal, in case you'll need it for further usage, such separate FX processing!
 
-_Example: from OSC A context, 3rd page (labelled "OSC A VOLUME"), press L4 button to highlight **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change this setting from **YES (DRY)** to **NO (POST)**:_
+_Example: from OSC B context, 3rd page (labelled "OSC B VOLUME"), press L4 button to highlight **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change this setting from **YES (DRY)** to **NO (POST)**:_
 
 ![](_img/OscPreJoystickV2.png)
+
+_For now, discrete B will output a possible blended (by joystick and/or by MIX ENVelope) signal, instead of an unmixed/pure signal._
 
 ---
 
