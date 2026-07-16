@@ -514,7 +514,7 @@ If the **Use dark panel if available** is enabled (checked), the presented model
 
 ![](_img/modelDark.png)
 
-When a _Vektor_ module is already placed in the rack (instanciated module), you'll can change its model anytime you want: from right click context menu, select **Model**, the choose the model you'd like from list in submenu. Please notice VX expander always inherits the _Vektor_'s model when the "link" is established between _VX_ and _Vektor_ modules).
+When a _Vektor_ module is already placed in the rack (instanciated module), you'll can change its model anytime you want: from right click context menu, select **Model**, the choose the model you'd like from list in submenu. Please notice attached VX expander always inherits the _Vektor_'s model.
 
 The _Vektor_ module is using following tags: **Oscillator**, **Quad**, and **Polyphonic**.
 The _VX_ module is using following tag only: **Expander**.
@@ -527,6 +527,6 @@ As "outro", any _Vektor_ module insteance:
 - can be reset to factory settings (**Initialize** from right click menu / **Ctrl + I** / **Command + I** key shortcut).
 - can be bypassed (**Bypass** from right click menu / **Ctrl + E** / **Command + E** key shortcut).
 
-:warning: Please notice the **Randomize** (**Ctrl + R** / **Command + R** key shortcut) is not implemented.
+:warning: The **Randomize** feature (**Ctrl + R** / **Command + R** key shortcut) is not implemented.
 
 Thanks for reading, and have fun in Vector Synthesis with _Vektor_! ;)
