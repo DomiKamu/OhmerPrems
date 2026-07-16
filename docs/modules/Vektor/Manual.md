@@ -461,7 +461,7 @@ From any oscillator context, they're 3 possible pages, who brings additional osc
 
 ![](_img/oscPagesV2.png)
 
-- First page (home page) permits to select a waveform (by using DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file.
+- First page (home page) permits to select a waveform (by using DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic).
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input jack, LFO 1, or LFO 2).
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
 
