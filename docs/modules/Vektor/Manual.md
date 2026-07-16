@@ -519,14 +519,14 @@ When a _Vektor_ module is already placed in the rack (instanciated module), you'
 The _Vektor_ module is using following tags: **Oscillator**, **Quad**, and **Polyphonic**.
 The _VX_ module is using following tag only: **Expander**.
 
-As "outro", any _Vektor_ module insteance:
+As final words, any _Vektor_ module instance:
 
-- can be duplicated (with all settings, incl. user waveforms), even with cables.
+- can be duplicated (with all settings, incl. user waveforms), possibly with cables.
 - can be saved as **Preset** file (.vcvm files).
 - can be saved as part of **Module selection** file (.vcvs files).
 - can be reset to factory settings (**Initialize** from right click menu / **Ctrl + I** / **Command + I** key shortcut).
 - can be bypassed (**Bypass** from right click menu / **Ctrl + E** / **Command + E** key shortcut).
 
-:warning: The **Randomize** feature (**Ctrl + R** / **Command + R** key shortcut) is not implemented.
+:warning: The **Randomize** feature (**Ctrl + R** / **Command + R** key shortcut) is not implemented, so using Randomize command have no effect.
 
 Thanks for reading, and have fun in Vector Synthesis with _Vektor_! ;)
