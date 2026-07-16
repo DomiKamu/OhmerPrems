@@ -483,7 +483,7 @@ You'll cannot import a WAVE file over built-in ROM waveform (labelled **032. SIN
 
 :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
-:warning: The _Vektor_ module doesn't allow to "export" waveform to a file.
+:warning: The _Vektor_ module doesn't allow to dump/export a waveform to an external file!
 
 ---
 
