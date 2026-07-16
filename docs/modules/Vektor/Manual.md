@@ -461,29 +461,29 @@ From any oscillator context, they're 3 possible pages, who brings additional osc
 
 ![](_img/oscPagesV2.png)
 
-- First page (home page) permits to select a waveform (DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file.
+- First page (home page) permits to select a waveform (by using DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file.
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible FM source (FM input jack, LFO 1, or LFO 2).
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
 
-By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or return to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
+By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or cycle to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
 
 :information_source: Except on first page, to restore a displayed setting to its default value (factory, or last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
 To import a custom WAVE file to USER WAVEFORM slot (right click context menu method):
 - Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D** (if not, press the relevant context button **only if its LED above is off**).
 - Do a right-mouse click on the module. From the menu, select **User waveform**, then **Import .wav file as USER #xx** command (**xx** stands for the current waveform number).
-- From **Open** dialog, select the path where the .wav file is located, select its filename, then click _Open_ button.
+- From **Open** dialog, select the path where the .wav file is located, select the filename, then click _Open_ button.
 
 To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
 - Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the WAVE file is.
-- Drag the relevant **.wav** file, then drop it over the module, that's all.
+- Drag the relevant **.wav** file, then drop it anywhere over the module.
 
 You'll cannot import a WAVE file over built-in ROM waveform (labelled **032. SINE** to **127. WHITE NOISE**).
 
 :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
-:warning: The _Vektor_ module doesn't permit to export a waveform to a file.
+:warning: The _Vektor_ module doesn't allow to "export" waveform to a file.
 
 ---
 
@@ -496,7 +496,7 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 - 2048 samples, signed 16-bit PCM single-cycle (wavetable are not supported, like the real Prophet VS synthesizer).
 - 44100Hz sample rate.
 - 1 channel (mono).
-- **Filesize must be 4140 bytes exactly**.
+- **Filesize must be exactly 4140 bytes**.
 
 :warning: Other formats will be ignored, and generate an error condition on import attempt.
 
@@ -504,29 +504,30 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 ### OUTRO...<a name="outro"></a>
 
-Like all Ohmer modules, _Vektor_ and _VX_ modules follow **Use dark panel if available** VCV Rack's global setting (from _View_ menu), in order to present to user a "light" or a "dark" panel, from VCV Rack module browser.
+Like all Ohmer modules, _Vektor_ and _VX_ modules follow **Use dark panel if available** VCV Rack 2's global setting (from _View_ menu), in order to present a "light" or a "dark" panel, from the module browser.
 
-If the **Use dark panel if available** is disabled (unchecked), the presented model is **Aluminium**:
+If the **Use dark panel if available** is disabled (unchecked), the presented model is always **Aluminium**:
 
 ![](_img/modelLight.png)
 
-If the **Use dark panel if available** is enabled (checked), the presented model is **Absolute Night**:
+If the **Use dark panel if available** is enabled (checked), the presented model is always **Absolute Night**:
 
 ![](_img/modelDark.png)
 
-When a _Vektor_ module is already placed in the rack (instanciated module), you'll can change its model anytime you want: from right click context menu, select **Model**, the choose the model you'd like from list in submenu. Please notice attached VX expander always inherits the _Vektor_'s model.
+However, as soon as a _Vektor_ module is placed in the rack (_instanciated module_), you'll can freely change its model anytime you want: from right click context menu, select **Model** menu item, then select the model you'd like from the list.
 
-The _Vektor_ module is using following tags: **Oscillator**, **Quad**, and **Polyphonic**.
-The _VX_ module is using following tag only: **Expander**.
+Please notice attached ("linked") _VX_ expander always inherits the _Vektor_'s model.
+
+The _Vektor_ module is using following tags: **Oscillator**, **Quad**, and **Polyphonic**. The _VX_ module is using following tag: **Expander**.
 
 As final words, any _Vektor_ module instance:
 
-- can be duplicated (with all settings, incl. user waveforms), possibly with cables.
-- can be saved as **Preset** file (.vcvm files).
+- can be duplicated (with all settings, including user waveforms), and possibly with connected cables.
+- can be saved as **Preset** file (.vcvm files), for further reuse.
 - can be saved as part of **Module selection** file (.vcvs files).
 - can be reset to factory settings (**Initialize** from right click menu / **Ctrl + I** / **Command + I** key shortcut).
 - can be bypassed (**Bypass** from right click menu / **Ctrl + E** / **Command + E** key shortcut).
 
-:warning: The **Randomize** feature (**Ctrl + R** / **Command + R** key shortcut) is not implemented, so using Randomize command have no effect.
+:warning: Randomize feature (**Ctrl + R** / **Command + R** key shortcut) is not implemented, so using it have no effect.
 
-Thanks for reading, and have fun in Vector Synthesis with _Vektor_! ;)
+Thanks for reading, and have fun in Vector Synthesis with _Vektor_ and _VX_ modules! ;)
