@@ -267,7 +267,7 @@ _Example: from OSC B context, 3rd page (labelled "OSC B VOLUME"), press L4 butto
 
 ![](_img/OscPreJoystickV3.png)
 
-_For now, discrete B will output a possible blended (by joystick and/or by MIX ENVelope) signal, instead of an unmixed/pure signal._
+_For now, discrete B will output a possible blended (by joystick and/or by MIX ENVelope) audio signal (instead of an unmixed/pure audio signal)._
 
 ---
 
