@@ -18,7 +18,7 @@
 - [**MIX ENVELOPE**](#mixenvelope)
 - [**OSCILLATORS**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
-- [**MODULE BROWSER, AND THE OUTRO**](#modulebrowser)
+- [**MODULE BROWSER, AND THE OUTRO...**](#modulebrowser)
 
 _All 8 models (GUI theme variants) for Vektor module, and VX expander:_
 ![](_img/AnimVektorModels.gif)
@@ -502,7 +502,7 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 ---
 
-### MODULE BROWSER, AND THE OUTRO<a name="modulebrowser"></a>
+### MODULE BROWSER, AND THE OUTRO...<a name="modulebrowser"></a>
 
 Like all Ohmer modules, _Vektor_ and _VX_ modules follow **Use dark panel if available** global setting (from _View_ menu), in order to present to user a light or a dark model, from the VCV Rack 2's module browser.
 
@@ -514,20 +514,18 @@ If the **Use dark panel if available** is enabled (checked), the presented model
 
 ![](_img/modelDark.png)
 
-The _Vektor_ module is using following tags:
+However, when a _Vektor_ module is in the rack (it's a module instance), you'll can change its model: from right click context menu, select **Model**, the choose the model (Aluminium, Stage Repro, and so on) you'd like from pulldown submenu.
 
-- Oscillator.
-- Quad.
-- Polyphonic.
-
-The _VX_ module is using following tag:
-
-- Expander.
+The _Vektor_ module is using following tags: **Oscillator**, **Quad**, and **Polyphonic**.
+The _VX_ module is using following tag only: **Expander**.
 
 As "outro", the _Vektor_ module :
 
 - can be duplicated (with all settings, incl. user waveforms).
 - can be saved (and recalled) as **Preset** file (.vcvm files).
-- can be reset to factory (**Initialize** from right click menu / Ctrl + I / Command + I key shortcut).
-- cannot be randomized (**Randomize** from right click menu / Ctrl + R / Command + R key shortcut).
-- can be bypassed (**Bypass** from right click menu / Ctrl + E / Command + E key shortcut).
+- can be reset to factory settings (**Initialize** from right click menu / Ctrl + I / Command + I key shortcut).
+- can be bypassed (**Bypass** from right click menu / **Ctrl + E** / **Command + E** key shortcut).
+
+:warning: Please notice the Randomize feature is not implemented.
+
+Thanks for reading, and have fun in Vector Synthesis! ;)
