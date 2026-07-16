@@ -18,7 +18,7 @@
 - [**MIX ENVELOPE**](#mixenvelope)
 - [**OSCILLATORS**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
-- [**MODULE BROWSER, AND THE OUTRO...**](#modulebrowser)
+- [**OUTRO...**](#outro)
 
 _All 8 models (GUI theme variants) for Vektor module, and VX expander:_
 ![](_img/AnimVektorModels.gif)
@@ -502,7 +502,7 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 ---
 
-### MODULE BROWSER, AND THE OUTRO...<a name="modulebrowser"></a>
+### OUTRO...<a name="outro"></a>
 
 Like all Ohmer modules, _Vektor_ and _VX_ modules follow **Use dark panel if available** VCV Rack's global setting (from _View_ menu), in order to present to user a "light" or a "dark" panel, from VCV Rack module browser.
 
@@ -514,7 +514,7 @@ If the **Use dark panel if available** is enabled (checked), the presented model
 
 ![](_img/modelDark.png)
 
-When a _Vektor_ module is already placed in the rack (module instance), you'll can change its model anytime you want: from right click context menu, select **Model**, the choose the model you'd like from list in submenu.
+When a _Vektor_ module is already placed in the rack (instanciated module), you'll can change its model anytime you want: from right click context menu, select **Model**, the choose the model you'd like from list in submenu. Please notice VX expander always inherits the _Vektor_'s model when the "link" is established between _VX_ and _Vektor_ modules).
 
 The _Vektor_ module is using following tags: **Oscillator**, **Quad**, and **Polyphonic**.
 The _VX_ module is using following tag only: **Expander**.
