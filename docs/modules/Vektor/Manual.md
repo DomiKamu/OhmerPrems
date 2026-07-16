@@ -12,7 +12,7 @@
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
 - [**CONTEXT SELECTION**](#contextsel)
 - [**CONTEXTS AND "PAGES"**](#contextspages)
-- [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
+- [**ADVANTAGES OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
 - [**PROGRAMS IN DETAIL**](#programs)
 - [**MIX ENVELOPE IN DETAIL**](#mixenvelope)
@@ -255,13 +255,13 @@ For every context, the number of pages is:
 
 ---
 
-### ADVANTAGE OF DISCRETE OSCILLATOR OUTPUT JACKS<a name="discreteouts"></a>
+### ADVANTAGES OF DISCRETE OSCILLATOR OUTPUT JACKS<a name="discreteouts"></a>
 
-Even the **MIX** output jack can be assumed as the most important in Vector Synthesis universe, because all oscillators are constantly mixed (manually by the joystick or by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only, in this case, you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module!
+Even the **MIX** output jack is considered as the most important in Vector Synthesis universe, because all oscillators are constantly blended (manually by the joystick **or** by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only (without **MIX**), in this case you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module. It's the first advantage!
 
-Obviously, you'll can combine any discrete A, B, C, and D output jack(s), together with the **MIX** output jack, all can be used at the same time, they're no restriction about output usage, either as audio or as modulation source!
+Obviously, as second advantage, you'll can apply particular FX processings on discrete A, B, C, and/or D output jack(s), like delays, and use it/them together with the **MIX** output jack. All of these outputs can be used at the same time, either as final audio, or as modulation source for another module!
 
-By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joystick, like a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L3** button permits to set as pre-MIX ENVelope / pre-joystick, instead, to get a blended oscillator signal, in case you'll need it for further usage, such separate FX processing!
+By default, discrete oscillator outputs are unmixed (pre-joystick / pre-MIX ENVelope, similar to a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L4** button permits to set as post-joystick / post-MIX ENVelope, instead, to get a blended oscillator signal, in case you'll need it for further usage, like separate FX processing.
 
 _Example: from OSC B context, 3rd page (labelled "OSC B VOLUME"), press L4 button to highlight **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change this setting from **YES (DRY)** to **NO (POST)**:_
 
