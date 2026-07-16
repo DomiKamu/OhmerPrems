@@ -76,7 +76,7 @@ Every line segment of your moves, as red segments just above (point where the se
 
 Real and virtual synthesizers using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIX ENVelope, kind of **timed automation** of vectors & X/Y points in realtime (and related crossfading, by this way).
 
-Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) can use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base volume of the oscillator, and possible level reduction by the velocity).
+Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) can use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base volume of the oscillator).
 
 Also, an another important aspect of the MIX ENVelope are times (in milliseconds), named **RATES**, it's the time to run between an origin point of the vector, and the next point to be reached. By this way, this introduces the speed notion for every vector. Every vector (line segment) can be covered from **minimum 0 millisecond** (in this case, the vector is ignored, and next is processed immediately), up to **maximum 5,000 milliseconds** (5 seconds). Default rates depend of the selected program (or 500 milliseconds for **16. INIT** program).
 
@@ -86,7 +86,7 @@ Also, an another important aspect of the MIX ENVelope are times (in milliseconds
 
 Partially inspired by the Behringer's [**Victor**](https://www.behringer.com/en/products/0720-ADA) Eurorack module, the main objective of _Vektor_ is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading) inside "the diamond", and its possible MIXing ENVelope who is working like an "automation curve" (in modern DAWs) to control the timed crossfading trajectory, automatically!
 
-Also provided by _Vektor_, two internal (independent) low-frequency oscillators (**LFO 1** and **LFO 2**), plus **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM) or **PM** (Phase Modulation, variant of FM synthesis used by Yamaha DX synthesizers family). These possible **frequency modulators** are designed to modulate any oscillator (waveform) you'll want (OSC A, B, C or D), offering near infinite possibilities in sound design sessions. Also, LFO 1 and/or LFO 2 can be used by external module(s) in your rack, by attaching the _VX_ expander alsongside _Vektor_ (right-side, without space between them!).
+Also provided by _Vektor_, two internal (independent) low-frequency oscillators (**LFO 1** and **LFO 2**), plus **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM) or **PM** (Phase Modulation, variant of FM synthesis used by Yamaha DX synthesizers). These possible **frequency modulators** are designed to modulate any oscillator (waveform) you'll want (OSC A, B, C or D), offering near infinite possibilities in sound design sessions. Also, LFO 1 and/or LFO 2 can be used by external module(s) in your rack, by attaching the _VX_ expander alsongside _Vektor_ (right-side, without space between them!).
 
 However, many parts of the real Prophet VS synthesizer, such analog low-pass filter, ADSR envelope generators, modulation matrix, stereo and panning, stereo chorus, aren't provided by the _Vektor_ module, assuming they're a lot of capable third-party modules to do similar tasks inside our virtual Eurorack modular environment! By this way, when used "alone", _Vektor_ cannot be considered as "ready-to-use" synth voice module (like most VCO modules, in fact).
 
@@ -145,7 +145,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - MIX ENVelope points: 5 (point 0 is the start point, point 3 is the sustain point, point 4 is the release point).
 - MIX ENVelope rates: 4 (times in milliseconds, min. 0ms, max. 5000ms, per vector).
 - MIX ENVelope loop: yes, from 1 up to 12 times (or infinite), unidirectional or bidirectional, from point 3 to 2, to 1 or to 0.
-- Input jacks: 7 (V/OCT, X, Y, GATE, VEL., PROG., FM).
+- Input jacks: 6 (PROG., X, Y, FM, V/OCT, GATE).
 - Supported FM modes: linear Through-Zero (TZ FM), Phase Modulation (PM). Per program.
 - FM depth: 0% (NO FM) to 100%, or negative -100% (inverted modulator signal). Per program.
 - OSCillators frequency modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator, and per program.
@@ -158,7 +158,7 @@ Vektor module is polyphonic, up to 16 voices (polyphony channels).
 - Stereo: none (all outputs are mono, but polyphonic).
 - Programs: 16 (all are fully customizable). Any program can be saved/loaded to/from external file(s).
 - Program change: supported via PROG. input jack (+1V to +8.5V).
-- LED: yellow for V/OCT, blue for GATE, green for VEL., PROG. and FM, green/red for combined X and Y inputs.
+- LED: yellow for V/OCT, blue for GATE, green for PROG. and FM, green/red for combined X and Y inputs.
 - Self-test feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
 ---
@@ -227,7 +227,7 @@ Any oscillator-based context (A, B, C, or D) permits:
 - to choose the oscillator waveform (can be a _built-in ROM_ waveform, or a _user_ waveform).
 - to import a custom waveform from external ".wav" file, to current USER waveform "slot" (from number **000** to **031**).
 - to free (to clear/erase) the current user waveform slot, if used (command from right click menu, when applicable).
-- to access additional oscillator parameters, like frequency on second page, volume/velocity response on third page (by using **PAGE** button).
+- to access additional oscillator parameters, like frequency on second page, and volume on third page (by using **PAGE** button).
 
 The MIX context permits to edit (or to view) all the parameters concerning the MIX ENVelope and mix envelope loop feature.
 
@@ -249,7 +249,7 @@ Each context have a certain number of theme-related "pages", so you can select n
 
 For every context, the number of pages is:
 
-- Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, volume/velocity amount, and sync behavior).
+- Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, and volume).
 - **MIX**: 3 pages (trajectory/points editor/viewer, rates, loop).
 - **PROGRAM**, 4 pages (program select, FM input, LFO 1, LFO 2).
 
@@ -275,7 +275,6 @@ The number of polyphony voices is automatically defined by these possible connec
 
 - **V/OCT**, who define the "base" pitches/frequencies (prior frequency modulation by FM/PM or LFO), for all oscillators.
 - **GATE**, mainly required to control the MIX ENVelope (if enabled), but also (optional) for LFO 1 and/or LFO 2 retriggering.
-- **VEL.**, optional velocities (amount setting per oscillator).
 
 These sources come, in general, from the same module, but it's not an absolute rule. The most common module is **MIDI>CV** (provided with VCV Rack software), or **DAW** (if you're using VCV Rack 2 Pro Edition as VST/VST3/CLAP/AU plugin from your DAW), who convert incoming MIDI datas (by MIDI controller, by MIDI track) to voltage equivalents to be compatible with the Eurorack standard. However, any polyphonic or monophonic module(s) can do exactly the same job.
 
@@ -463,7 +462,7 @@ From any oscillator context, they're 3 possible pages, who brings additional osc
 
 - First page (home page) permits to select a waveform (by using DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic).
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible source (FM input jack, LFO 1, or LFO 2) for frequency modulation.
-- Third page is used to set up the pre-/post-joystick (used by discrete output only), nominal volume, and the velocity amount (sensitivity).
+- Third page is used to set up the pre-/post-joystick (used by discrete output only), and nominal volume.
 
 By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or cycle to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
 
