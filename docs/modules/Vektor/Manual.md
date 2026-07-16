@@ -14,9 +14,9 @@
 - [**CONTEXTS AND "PAGES"**](#contextspages)
 - [**ADVANTAGE OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
-- [**PROGRAMS**](#programs)
-- [**MIX ENVELOPE**](#mixenvelope)
-- [**OSCILLATORS**](#oscillators)
+- [**PROGRAMS IN DETAIL**](#programs)
+- [**MIX ENVELOPE IN DETAIL**](#mixenvelope)
+- [**OSCILLATORS IN DETAIL**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
 - [**OUTRO...**](#outro)
 
@@ -265,7 +265,7 @@ By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joys
 
 _Example: from OSC B context, 3rd page (labelled "OSC B VOLUME"), press L4 button to highlight **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change this setting from **YES (DRY)** to **NO (POST)**:_
 
-![](_img/OscPreJoystickV2.png)
+![](_img/OscPreJoystickV3.png)
 
 _For now, discrete B will output a possible blended (by joystick and/or by MIX ENVelope) signal, instead of an unmixed/pure signal._
 
@@ -286,7 +286,7 @@ The greatest number of polyphony voices from these sources is always selected by
 
 ---
 
-### PROGRAMS<a name="programs"></a>
+### PROGRAMS IN DETAIL<a name="programs"></a>
 
 The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), per module instance. All first 15 (numbered from 01 to 15, and having an explicit name) are based on the real Prophet VS programs. Program numbered 16 is the **INIT** program (the settings was choosen by the developer).
 
@@ -367,7 +367,7 @@ A program always includes:
 
 ---
 
-### MIX ENVELOPE<a name="mixenvelope"></a>
+### MIX ENVELOPE IN DETAIL<a name="mixenvelope"></a>
 
 The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF frequency cutoff/resonance/drive), the MIX ENVelope is a kind of **timed** automation of the oscillators crossfading (volume parts of each). Typically, this envelope - triggered and controlled by the **GATE** input jack - follows a 2D trajectory in "the diamond" (like the joystick **-or-** the combined X & Y input jacks do). Also, looping is possible for very long held sounds (like pads), useful to create movements.
 
@@ -442,7 +442,7 @@ _MIX ENVelope-specific right click context menu:_
 
 ---
 
-### OSCILLATORS<a name="oscillators"></a>
+### OSCILLATORS IN DETAIL<a name="oscillators"></a>
 
 An oscillator is, obviously, the most important part of a VCO module, because it's the sound source, exactly like an instrument in a ensemble!
 
