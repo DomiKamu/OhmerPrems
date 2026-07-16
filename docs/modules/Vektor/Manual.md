@@ -265,7 +265,7 @@ By default, discrete oscillator outputs are unmixed (pre-MIX ENVelope / pre-joys
 
 _Example: from OSC A context, 3rd page (labelled "OSC A VOLUME"), press L3 button to select **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change the setting from **YES (DRY)** to **NO (POST)**:_
 
-![](_img/OscPreJoystick.png)
+![](_img/OscPreJoystickV2.png)
 
 ---
 
