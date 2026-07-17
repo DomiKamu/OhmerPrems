@@ -341,7 +341,7 @@ To load a program (file drag and drop method):
 
 _Program-specific right click context menu:_
 
-![](_img/vktProgramMenu.png)
+![](_img/vktProgramMenuV2.png)
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
