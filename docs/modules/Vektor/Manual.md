@@ -84,7 +84,7 @@ Also, an another important aspect of the MIX ENVelope are times (in milliseconds
 
 ### INTRODUCTION<a name="intro"></a>
 
-Partially inspired by the Behringer's [**Victor**](https://www.behringer.com/en/products/0720-ADA) Eurorack module, the main objective of _Vektor_ is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading) inside "the diamond", and its possible MIXing ENVelope who is working like an "automation curve" (in modern DAWs) to control the timed crossfading trajectory, automatically!
+Partially inspired by the Behringer's [**Victor**](https://www.behringer.com/en/products/0720-ADA) Eurorack module, the main objective of _Vektor_ is to provide the "VCO parts" of the Prophet VS synthesizer, including the famous mixer joystick (for dynamic waveform crossfading) inside "the diamond", and its possible MIXing ENVelope who act like an "automation curve" to control the timed crossfading trajectory, automatically!
 
 Also provided by _Vektor_, two internal (independent) low-frequency oscillators (**LFO 1** and **LFO 2**), plus **FM input** jack, able to work as either **TZ FM** (linear Through-Zero FM) or **PM** (Phase Modulation, variant of FM synthesis used by Yamaha DX synthesizers). These possible **frequency modulators** are designed to modulate any oscillator (waveform) you'll want (OSC A, B, C or D), offering near infinite possibilities in sound design sessions. Also, LFO 1 and/or LFO 2 can be used by external module(s) in your rack, by attaching the _VX_ expander alsongside _Vektor_ (right-side, without space between them!).
 
@@ -107,7 +107,7 @@ _Vektor_ comes with (optional-to-use) 3HP "right-side" expander module, named _V
 Outputs provided by the _VX_ expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
-- **GATE** (bottom section) who outputs +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
+- **GATE** (bottom section) who output +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V). Offsets by joystick position (or by voltages applied on X and Y inputs) is not included.
 
 Vektor module is polyphonic, up to 16 voices (polyphony channels).
@@ -203,7 +203,7 @@ _VX_ expander module is divided by 3 sections (blue lines on the module's plate 
 - Middle section is dedicated to position of the _Vektor_'s **physical joystick**.
 - Lower section is dedicated to the _Vektor_'s MIX ENVelope, including mix envelope **GATE** output jack.
 
-Every output jack have its own LED, mainly green (the exception is **GATE**, who are using blue color, instead).
+Every output jack have its own LED, mainly green (the exception is **GATE**, blue color, instead).
 
 :warning: All **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
 
@@ -275,14 +275,14 @@ _For now, discrete B will output a possible blended (by joystick and/or by MIX E
 
 The number of polyphony voices is automatically defined by these possible connected "sources" from other module(s), applied on the following input jacks:
 
-- **V/OCT**, who define the "base" pitches/frequencies (prior frequency modulation by FM/PM or LFO), for all oscillators.
+- **V/OCT**, defines the "base" pitches/frequencies (prior frequency modulation by FM/PM or LFO), for all oscillators.
 - **GATE**, mainly required to control the MIX ENVelope (if enabled), but also (optional) for LFO 1 and/or LFO 2 retriggering.
 
-These sources come, in general, from the same module, but it's not an absolute rule. The most common module is **MIDI>CV** (provided with VCV Rack software), or **DAW** (if you're using VCV Rack 2 Pro Edition as VST/VST3/CLAP/AU plugin from your DAW), who convert incoming MIDI datas (by MIDI controller, by MIDI track) to voltage equivalents to be compatible with the Eurorack standard. However, any polyphonic or monophonic module(s) can do exactly the same job.
+These sources come, in general, from the same module, but it's not an absolute rule. The most common module is **MIDI>CV** (provided with VCV Rack software), who convert incoming MIDI datas (by MIDI controller, by MIDI track) to voltage equivalents to be compatible with the Eurorack standard. However, any polyphonic or monophonic module(s) can do exactly the same job.
 
 The greatest number of polyphony voices from these sources is always selected by the _Vektor_ module. Minimum is 1 (meaning the _Vektor_ module is working as monophonic VCO). Maximum number of polyphonic voices (channels) is 16.
 
-:warning: Please be careful about CPU load as soon as you increase the number of polyphony voices, please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using a lot of Pythagorean and trigonometric functions to establish vectors (trajectory) and speeds (per vector), may require an important amount of CPU resources! **Recommended polyphony setting for _Vektor_ is 4 or 8 voices** (depending your computer and the patch complexity), exactly like the Prophet VS hardware synthesizer.
+:warning: Please be careful about CPU load as soon as you increase the number of polyphony voices, please keep in mind 16 polyphonic channels x 4 oscillators, plus two LFO (realtime computed waveforms), plus the MIX ENVelope who are using a lot of Pythagorean and trigonometric functions to establish vectors (trajectory) and speeds per vector, may require an signifiant amount of CPU resources! **Recommended polyphony setting for _Vektor_ is 4 or 8 voices** (depending your computer and the patch complexity), exactly like the Prophet VS hardware synthesizer.
 
 ---
 
@@ -369,15 +369,15 @@ A program always includes:
 
 ### MIX ENVELOPE IN DETAIL<a name="mixenvelope"></a>
 
-The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF frequency cutoff/resonance/drive), the MIX ENVelope is a kind of **timed** automation of the oscillators crossfading (volume parts of each). Typically, this envelope - triggered and controlled by the **GATE** input jack - follows a 2D trajectory in "the diamond" (like the joystick **-or-** the combined X & Y input jacks do). Also, looping is possible for very long held sounds (like pads), useful to create movements.
+The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF cutoff/resonance), the MIX ENVelope is a **timed** automation curve for oscillators crossfading (volume parts of each). Typically, this envelope - if enabled, triggered and controlled by the **GATE** input jack - follows a 2D trajectory into "the diamond" (like the joystick **-or-** the combined X & Y input jacks do). Also, loop is possible, useful to create movements for very long held sounds (like pads).
 
-When the MIX ENVelope is enabled (ON), the mix between each oscillator is firstly controlled by the MIX ENVelope. However, the physical joystick (**or** the combined X & Y input jacks, but not both at the same time) can apply an "offset" to the running mix envelope.
+When the MIX ENVelope is enabled (ON), the mix between each oscillator is firstly controlled by the MIX ENVelope. However, the physical joystick (**-or-** the combined X & Y input jacks, **but not both at the same time**) applies an "offset" to the running mix envelope.
 
-While the envelope is triggered, a visible small diamond is running along vectors (from home page).
+While the envelope is triggered, a visible small diamond is running along vectors (visible from first page of MIX context).
 
-Every program have its own MIX ENVelope settings, and can be turned on or off, depending your needs.
+Every program have its MIX ENVelope settings, and can be turned on or off, regardling your needs.
 
-To access the MIX context, simply press the **MIX** button (located below the OLED display), only if its LED is off.
+To access the MIX context, simply press the **MIX** button (located below the OLED display), **only if its LED is off**.
 
 _Vektor_'s MIX context have 3 pages:
 
