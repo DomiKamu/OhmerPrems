@@ -464,7 +464,7 @@ From any oscillator context, they're 3 possible pages, who brings additional osc
 
 - First page (home page) permits to select a waveform (by using DATA ENTRY continuous encoder), and import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic).
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible source (FM input jack, LFO 1, or LFO 2) for frequency modulation.
-- Third page is used to set up the pre-/post-joystick (used by discrete output only), and nominal volume.
+- Third page is used to set up the pre-/post-joystick (used by discrete output only), and nominal gain.
 
 By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or cycle to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
 
