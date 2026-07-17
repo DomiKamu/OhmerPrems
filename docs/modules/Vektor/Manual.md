@@ -436,7 +436,7 @@ To load a program (file drag and drop method):
 
 _MIX ENVelope-specific right click context menu:_
 
-![](_img/vktMixEnvMenu.png)
+![](_img/vktMixEnvMenuV2.png)
 
 :information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
