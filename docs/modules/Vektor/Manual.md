@@ -245,7 +245,7 @@ Except for the **MIX** context (default display for its first page is the MIX EN
 
 As explained by previous topic, the _Vektor_ module have 6 contexts: **A**, **B**, **C**, **D** (oscillators), **MIX**, and **PROGRAM**.
 
-Each context have a certain number of theme-related "pages", so you can select next page by pressing the **PAGE** momentary button (top-right side of the module). To return to first (home) page, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
+Each context have a certain number of theme-related "pages" for extra settings, so you can select next page by pressing the **PAGE** momentary button (top-right side of the module). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
 
 For every context, the number of pages is:
 
@@ -259,9 +259,9 @@ For every context, the number of pages is:
 
 Even the **MIX** output jack is considered as the most important in Vector Synthesis universe, because all oscillators are constantly blended (manually by the joystick **or** by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only (without **MIX**), in this case you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module. It's the first advantage!
 
-As second advantage, you'll can apply particular FX processings on discrete A, B, C, and/or D output jack(s), like delays or reverbs, and use it/them together with the **MIX** output jack. All of these outputs can be used at the same time, like you want, either as final audio or as modulation source for another module.
+As second advantage, you'll can apply particular FX processing on discrete A, B, C, and/or D output signal(s), like delays or reverbs, and use it/them together with the **MIX** output jack. All of these outputs can be used at the same time, like you want, either as final audio output, or as modulation source for another module (such ring modulation).
 
-By default, discrete oscillator outputs are unmixed (pre-joystick / pre-MIX ENVelope, similar to a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L4** button permits to set as post-joystick / post-MIX ENVelope, instead, to get a blended oscillator signal, in case you'll need it for further usage, like separate FX processing.
+By default, discrete oscillator outputs are unmixed (pre-joystick / pre-MIX ENVelope, similar to a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L4** button permits to set as post-joystick / post-MIX ENVelope, instead, to get a blended oscillator signal, in case you'll need it for further usage (like separate FX processing).
 
 _Example: from OSC B context, 3rd page (labelled "OSC B VOLUME"), press L4 button to highlight **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change this setting from **YES (DRY)** to **NO (POST)**:_
 
