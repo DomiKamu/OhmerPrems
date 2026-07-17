@@ -345,7 +345,7 @@ _Program-specific right click context menu:_
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
-_Vektor_'s PROGRAM context is using 4 pages:
+_Vektor_'s PROGRAM context have 4 pages:
 
 ![](_img/programPagesV2.png)
 
@@ -379,9 +379,9 @@ Every program have its own MIX ENVelope settings, and can be turned on or off, d
 
 To access the MIX context, simply press the **MIX** button (located below the OLED display), only if its LED is off.
 
-_Vektor_'s MIX context is using 3 pages:
+_Vektor_'s MIX context have 3 pages:
 
-![](_img/mixEnvPages.png)
+![](_img/mixEnvPagesV2.png)
 
 - First page (home page) permits to edit each point of the envelope (use left-side L buttons and the joystick).
 - Second page is used to define **rates**, aka durations for each vector (line segment), from 0ms, up to 5,000ms.
