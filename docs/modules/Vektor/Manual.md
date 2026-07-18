@@ -49,7 +49,7 @@ Notable artists who have used the Prophet VS synthesizer was Depeche Mode, Vange
 
 In case you are unfamiliar about _Vector Synthesis_, the best way to explain it is to use the following fictious scene, where you are the actor!
 
-Try to imagine a square room, consider this room doesn't have sound reflection on walls/floor/roof, having a placed loudspeaker on each corner, each loudspeaker constantly outputs a basic waveform at same frequency and volume (like an oscillator can do). First, if you're looking the room from above:
+Try to imagine a square room, consider this room doesn't have sound reflection on walls/floor/roof, having a loudspeaker on each corner, each loudspeaker constantly outputs a waveform at same frequency and volume (like an oscillator can do). First, if you're looking the room from above:
 - Loudspeaker **A** is located at the bottom-left corner (angle).
 - Loudspeaker **B** is located at top-left corner.
 - Loudspeaker **C** is located at top-right corner.
@@ -57,17 +57,17 @@ Try to imagine a square room, consider this room doesn't have sound reflection o
 
 ![](_img/room1.png)
 
-Now, by a strange mechanism, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation!): obviously, after rotation, the room remains a square, but from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond).
+Now, by a magical mechanism, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation!): obviously, after rotation, the room remains a square, but from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond, aren't).
 
-By doing this room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom. Easy at the moment, aren't?:
+By doing the room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom:
 
 ![](_img/room2.png)
 
-Now, you enter the room, having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: it captures sound "components" of each loudspeaker, as equal parts (in Vector Synthesis world: 50% of A, 50% of B, 50% of C, and 50% of D):
+Now, you enter the room, having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: the microphone captures sound "components" of each loudspeaker, as equal parts (in Vector Synthesis world: 50% of A, 50% of B, 50% of C, and 50% of D):
 
 ![](_img/room3.png)
 
-As soon as you move by short line "segments" into the room (origin point, any direction, any distance), on every position in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depends the microphone position at every instant, regardling distances to loudspeakers). As example, if the microphone is nearest as possible of the loudspeaker A, it will capture maximum 100% of it, nearly 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
+As soon as you move by short line "segments" into the room (any direction and distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depend the microphone position at every instant, regardling distances to loudspeakers). As example, if the microphone is nearest as possible of the loudspeaker A, it captures maximum 100% of it, 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
 
 ![](_img/room4.png)
 
@@ -75,11 +75,11 @@ Every line segment of your moves, as red segments just above (point where the se
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
-Real and virtual synthesizers using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**or** by voltages applied on both X and Y input jacks), and/or by (optional to use) programmable MIX ENVelope, kind of **timed automation** of vectors & X/Y points in realtime (and related crossfading, by this way).
+Real and virtual synthesizers who are using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**-or-** by voltages applied on both X and Y input jacks), and can be combinet with  (optional) programmable MIX ENVelope, kind of **timed automation** of vectors & X/Y points in realtime (and related crossfadings, by this way).
 
-Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, in _Vektor_ world, all may be totally different, because each oscillator (loudspeaker) can use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base volume of the oscillator).
+Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, all may be totally different, because each oscillator (loudspeaker) may use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base gain of the oscillator).
 
-Also, an another important aspect of the MIX ENVelope are times (in milliseconds), named **RATES**, it's the time to run between an origin point of the vector, and the next point to be reached. By this way, this introduces the speed notion for every vector. Every vector (line segment) can be covered from **minimum 0 millisecond** (in this case, the vector is ignored, and next is processed immediately), up to **maximum 5,000 milliseconds** (5 seconds). Default rates depend of the selected program (or 500 milliseconds for **16. INIT** program).
+Also, an another important aspect of the MIX ENVelope are times (in milliseconds), named **RATES**, it's the time required to run between an origin point of the vector, and the next point forming a vector (line segment). By this way, this introduces the speed notion, for every vector. Every vector can be covered from **minimum 0 millisecond** (in this case, the vector is ignored, and next is processed immediately), up to **maximum 5,000 milliseconds** (5 seconds). Default rates depend of the selected program, or 500 milliseconds for **16. INIT** program.
 
 ---
 
