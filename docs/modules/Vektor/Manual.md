@@ -17,7 +17,8 @@
 - [**PROGRAMS IN DETAIL**](#programs)
 - [**MIX ENVELOPE IN DETAIL**](#mixenvelope)
 - [**OSCILLATORS IN DETAIL**](#oscillators)
-- [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#wavefmt)
+- [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#waveformat)
+- [**FROM MODULE BROWSER**](#modulebrowser)
 - [**OUTRO...**](#outro)
 
 _All 8 models (panel theme variants) for Vektor module, and VX expander:_
@@ -96,7 +97,7 @@ Each oscillator is using **waveform**, like the Prophet VS hardware synthesizer 
 
 :warning: Built-in **126. SILENCE** waveform, when selected for a particular oscillator (A, B, C, or D), doesn't provide "pages" for extra settings, because it's a nonsense to set the frequency and/or the volume for... a muted (disabled) oscillator! In this case, the **PAGE** button doesn't have effect! Also, built-in **127. WHITE NOISE** waveform have only **OSC VOLUME** as extra page, but nothing about **OSC FREQUENCY**, because white noise frequency is always constant (it doesn't follow "V/octave" rule), and cannot be modulated by FM/PM or by internal LFO.
 
-The _Vektor_ module permits to [import custom WAVE file](#wavefmt) to any **USER waveform** slot (numbered from **000** to **031**, respectively labelled **USER #1** to **USER #32**).
+The _Vektor_ module permits to [import custom WAVE file](#waveformat) to any **USER waveform** slot of your choice (these slots are numbered from **000** to **031**, and respectively labelled **USER #1** to **USER #32**).
 
 As module outputs, the most important in Vector Synthesis is surely the **MIX** output (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete oscillator outputs, useful as as separate oscillators, of for particular FX processings. Every discrete OSC output may be either **pre-joystick** (or pre MIX ENVelope) as dry/unmixed - it's the default behavior, or **post-joystick** (or post MIX ENVelope). The joystick/mix envelope routing can be configured from every **OSC x VOLUME** page (3rd page, for each oscillator context).
 
@@ -292,21 +293,21 @@ The _Vektor_ module can handle up to 16 programs (similar to _synthesizer preset
 
 To select a different program:
 - Be sure the PROGRAM context is selected first, **all context red LED must be off**. If not, simply press the button where the red LED is on, by doing this, the _Vektor_ module is switched to PROGRAM context (the OLED must display **PROGRAM** as header) !
-- If necessary, press the L2 button (the blinking cursor must surround the program number along L2 button).
-- Rotate clockwise the DATA ENTRY continuous encoder to select next program (will be 01 if the current program number was 16).
-- Rotate counter-clockwise the DATA ENTRY continuous encoder to select previous program (will be 16 if the current program number was 01).
+- If necessary, press the **L2** button (the blinking cursor must surround the program number along L2 button).
+- Rotate clockwise the **DATA ENTRY** continuous encoder to select next program (cycle to 01 if the current program number was 16).
+- Rotate counter-clockwise the **DATA ENTRY** continuous encoder to select previous program (cycle to 16 if the current program number was 01).
 
-Also, you'll can control the program select (similar to _MIDI Program Change_) by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V). Voltage must be into +1V ~ +8.5V range (each 0.5V step selects next program, from 01 to 16). The PROG. input jack, of course, is working from any module's context!
+Also, you'll can control the program select (similar to _MIDI Program Change_) in realtime, by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V voltage). Voltage must fit into +1V ~ +8.5V range (each 0.5V step selects next program, from **01** to **16**). The **PROG.** input jack, of course, is working whatever the current module's context!
 
 :warning: **Applied voltage on PROG. input jack below +1V, including negative voltage, is ignored (to avoid unwanted program changes). Also, any voltage above +8.5V always selects program #16.**
 
-Obviously, any program can be altered (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded later, when you'll need it.
+Obviously, any program can be altered (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded later.
 
 :information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
-Allowed characters for **.vktProgram** filenames (by the way, for program names) are:
-- All latin letters: A..Z, a..z (lowercase letters are automatically converted to uppercase letters, for displayed program name)
-- All digits: 0..9
+Allowed character set for **.vktProgram** filenames (also used for program names) is:
+- Any latin letters: A..Z, a..z (lowercase letters are automatically converted to uppercase letters, for displayed program name)
+- Any digits: 0..9
 - Space
 - Minus/hyphen (-)
 - Plus (+)
@@ -323,21 +324,21 @@ Allowed characters for **.vktProgram** filenames (by the way, for program names)
 - Tilde (~)
 
 To save a program:
-- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
-- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** command.
+- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
+- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Save to .vktProgram file**.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
 
 To load a program (right click context menu method):
-- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
-- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Open from .vktProgram file** command.
+- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
+- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Open from .vktProgram file**.
 - From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
 
 To load a program (file drag and drop method):
-- Be sure the _Vektor_ module's context is PROGRAM (if not, click the context button **where the red LED above is on**).
+- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
-- Drag the relevant **.vktProgram** file, then drop it over the module, that's all.
+- Drag the relevant **.vktProgram** file, then drop it over the module.
 
- :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
+ :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed. Press any button to acknowledge the error condition.
 
 _Program-specific right click context menu:_
 
@@ -357,7 +358,7 @@ _Vektor_'s PROGRAM context have 4 pages:
 :information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
 A program always includes:
-- Its name (default, or defined when saving. Limited to 16 characters, see above for allowed characters).
+- Its name (default, or defined when saving). Limited to 16 characters, see above for allowed character set.
 - X and Y coordinates of the physical joystick.
 - All MIX ENVelope settings, including rates and loop.
 - All four oscillators (A, B, C, and D) settings.
@@ -395,40 +396,40 @@ The MIX ENVelope is always composed by 5 points (forming 4 vectors):
 - Point #4, the release point, when the applied voltage on **GATE** input jack falls below +1V (low gate).
 
 To edit the position of a particular point:
-- Press the L (left-side) related button (L1 for point #1, and so on): the "pill" along the button must blink.
-- Move the joystick to set the wanted position for the point.
-- Press the same L button to complete (or press another L button to edit another point).
+- Press the L (left-side) related button (L1 for point #1, to L5 for point #5): the "pill" along the button blinks.
+- Move the joystick to set the X and Y positions for this point.
+- Press the same L button to complete (or press another L button to edit another point, or select another context).
 
-:information_source: as soon as you start to edit a point, the position of the joystick (production mode) is saved, then recalled when you complete the edition of the position of the point.
+:information_source: as soon as you start to edit a point, the previous position of the joystick is saved, then recalled when you complete the edition of the position of the point.
 
 They're 4 rates:
-- RATE 1 is the time (milliseconds) to run the first vector (between points #0 and #1).
-- RATE 2 is the time (milliseconds) to run the second vector (between points #1 and #2).
-- RATE 3 is the time (milliseconds) to run the third vector (between points #2 and #3 / sustain).
-- RATE 4 is the time (milliseconds) to run the last vector (between points #3 / sustain and #4 / release).
+- RATE 1 is the time (milliseconds) to run the first vector, between points #0 and #1.
+- RATE 2 is the time (milliseconds) to run the second vector, between points #1 and #2.
+- RATE 3 is the time (milliseconds) to run the third vector, between points #2 and #3 (sustain).
+- RATE 4 is the time (milliseconds) to run the last vector, between points #3 (sustain) and #4 (release).
 
 :information_source: The module's logic computes needed speeds to run each vector, depending the distance between points, and specified rate.
 
-:warning: Except point #3 (the sustain point), any point can be bypassed if the "distance" is zero (consecutive points are overlapped), or if the RATE is set to 0ms.
+:warning: Except points #3 (sustain) and #4 (release), any point can be bypassed if the "distance" is zero (consecutive points are overlapped), or if the RATE is set to 0ms.
 
-:warning: When enabled, the MIX ENVelope is **always retriggered** on every new incoming "high gate" (in particular for polyphony). This behavior is normal!
+:warning: When enabled, the MIX ENVelope is **always retriggered** on every new incoming "high gate" (in particular for polyphony). This behavior is normal.
 
 Current MIX ENVelope can be saved to **.vktMixEnv** file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved and recalled.
 
 :warning: The ON/OFF state of the MIX ENVelope is never saved or recalled (stay unchanged if you load an envelope file). Please remember you'll can enable (or disable) the MIX ENVelope quickly by pressing the **ENV** (toggle) button, located just above the MIX output jack.
 
 To save the current MIX ENVelope to a **.vktMixEnv** file:
-- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
+- Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
 - Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
 
 To load a saved mix envelope (right click context menu method):
-- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
+- Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
 - Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Open from .vktMixEnv file** command.
 - From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
 
 To load a program (file drag and drop method):
-- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
+- Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
 - Drag the relevant **.vktMixEnv** file, then drop it over the module, that's all.
 
@@ -450,13 +451,15 @@ Like real Prophet VS synthesizer, the _Vektor_ module is using four **digitally-
 
 Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In the 2D environment of _Vector Synthesis_ (in the "diamond"), the convention is oscillator A at left, oscillator B at top, oscillator C at right, and oscillator D at bottom.
 
-Every oscillator uses a **waveform** (single-cycle sample), can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by [importing external WAVE files](#wavefmt) - per module instance!).
+Every oscillator uses a **waveform** (single-cycle). Can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by [importing external WAVE files](#waveformat) - per module instance!).
 
 To select a particular oscillator (context), press its relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off (if its red LED is already on, the oscillator is already selected). This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. From this first page, along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xx** for any user waveform, xx varies from 01 to 32). The lower part of the OLED display is the graphic representation of the selected waveform (horizontal line for **126. SILENCE**, or empty/unused "user" waveform slot).
 
 To select next (or previous) waveform, rotate the **DATA ENTRY** continuous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required, when an _edge_ of the list is reached.
 
 :information_source: The waveform **126. SILENCE** is a particular waveform: by selecting it, the oscillator is disabled (not processed by the module's logic). Same fact about any empty/unused user waveform.
+
+:information_source: The waveform **127. WHITE NOISE** have unique frequency and can't be "pitched".
 
 From any oscillator context, they're 3 possible pages, who brings additional oscillator-related settings:
 
@@ -471,12 +474,12 @@ By pressing the **PAGE** momentary button (top-right side of the module), you se
 :information_source: Except on first page, to restore a displayed setting to its default value (factory, or last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
 To import a custom WAVE file to USER WAVEFORM slot (right click context menu method):
-- Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D** (if not, press the relevant context button **only if its LED above is off**).
+- Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D**. If not, press the relevant oscillator context button **only if its LED above is off**.
 - Do a right-mouse click on the module. From the menu, select **User waveform**, then **Import .wav file as USER #xx** command (**xx** stands for the current waveform number).
 - From **Open** dialog, select the path where the .wav file is located, select the filename, then click _Open_ button.
 
 To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
-- Be sure the _Vektor_ module's context is set to **MIX** (if not, press the MIX context button **only if its LED above is off**).
+- Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D**. If not, press the relevant oscillator context button **only if its LED above is off**.
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the WAVE file is.
 - Drag the relevant **.wav** file, then drop it anywhere over the module.
 
@@ -484,11 +487,11 @@ You'll cannot import a WAVE file over built-in ROM waveform (labelled **032. SIN
 
 :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
-:warning: The _Vektor_ module doesn't allow to dump/export a waveform to an external file!
+:warning: The _Vektor_ module doesn't allow to dump/export any waveform to an external file!
 
 ---
 
-### SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)<a name="wavefmt"></a>
+### SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)<a name="waveformat"></a>
 
 For the first firmware version (v2.6.13), the _Vektor_ module is able to accept (for import) this format **only**:
 
@@ -503,9 +506,9 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 ---
 
-### OUTRO...<a name="outro"></a>
+### FROM MODULE BROWSER<a name="modulebrowser"></a>
 
-Like all Ohmer modules, _Vektor_ and _VX_ modules follow **Use dark panel if available** VCV Rack 2's global setting (from _View_ menu), in order to present a "light" or a "dark" panel, from the module browser.
+Like all Ohmer modules, _Vektor_ module and _VX_ expander follow **Use dark panel if available** VCV Rack 2's global setting (from _View_ menu), in order to present a "light" or a "dark" panel from the module browser.
 
 If the **Use dark panel if available** is disabled (unchecked), the presented model is always **Aluminium**:
 
@@ -515,11 +518,13 @@ If the **Use dark panel if available** is enabled (checked), the presented model
 
 ![](_img/modelDarkV2.png)
 
-However, as soon as a _Vektor_ module is placed in the rack (_instanciated module_), you'll can freely change its model anytime you want: from right click context menu, select **Model** menu item, then select the model you'd like from the list.
+As soon as a _Vektor_ module is installed in the rack (it's a _module instance_, also _instanciated module_), you'll can freely change its model anytime you'd like: from right click context menu, select **Model** menu item, then select the model you'd like from the submenu list.
 
-Please notice attached ("linked") _VX_ expander always inherits the _Vektor_'s model.
+:information_source: _VX_ expander always inherits the _Vektor_'s model as soon as the "link" between them is established.
 
 The _Vektor_ module is using **Oscillator**, **Quad**, and **Polyphonic** tags. The _VX_ module is using **Expander** tag only.
+
+### OUTRO...<a name="outro"></a>
 
 As final words, any _Vektor_ module instance:
 
