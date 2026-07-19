@@ -57,7 +57,7 @@ Try to imagine a square room, consider this room doesn't have sound reflection o
 
 ![](_img/room1_V2.png)
 
-Now, by a magical mechanism, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation!): obviously, after rotation, the room remains a square, but from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond, aren't).
+Now, by a magical mechanism, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation!): obviously, after rotation, the room remains a square, but from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond).
 
 By doing the room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom:
 
