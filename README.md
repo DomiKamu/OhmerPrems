@@ -30,7 +30,7 @@ Developed to OhmerPrems member (since 2019), needs for his specific projects, Fr
 - as modulation track (CV OUT track) to offering voltages (-10V to +10V range, 0.01V steeping, or random inside same voltage range) for sequenced modulations.
 - as 16-bit Turing Machine track, useful for generative/random patches! (Turing Machine states are always saved and recalled).
 
-Following animation is showing **all eight models** (GUI themes) of _FranKe_ module:
+Following animation is showing **all eight models** (GUI theme variants) of _FranKe_ module:
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
@@ -41,9 +41,9 @@ Following animation is showing **all eight models** (GUI themes) of _FranKe_ mod
 
 Vektor is a **16HP digital quad-oscillator VCO** module, using Vector Syntesis (VS). This module comes with **VX**, a 3HP "right-side" expander module, offering seven extra output jacks.
 
-Following animation is showing **all eight models** (GUI themes) of _Vektor_ module with its _VX_ expander:
+Following animation is showing **all eight models** (GUI theme variants) of _Vektor_ module (with its attached _VX_ expander):
 
-![](docs/modules/Vektor/_img/AnimVektorModels.gif)
+![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
 ----
 ## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment!)
