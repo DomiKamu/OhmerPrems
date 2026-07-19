@@ -39,7 +39,7 @@ Following animation is showing **all eight models** (GUI theme variants) of _Fra
 
 [Please click here to read the **Vektor User's Manual**](docs/modules/Vektor/Manual.md)
 
-Vektor is a **16HP digital quad-oscillator VCO** module, using Vector Syntesis (VS). This module comes with **VX**, a 3HP "right-side" expander module, offering seven extra output jacks.
+Vektor is a **16HP digital quad-oscillator VCO** module, using **Vector Synthesis** (VS). This module comes with **VX**, a 3HP "right-side" expander module, offering seven extra output jacks.
 
 Following animation is showing **all eight models** (GUI theme variants) of _Vektor_ module (with its attached _VX_ expander):
 
