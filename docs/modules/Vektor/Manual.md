@@ -404,7 +404,7 @@ To edit the position of a particular point:
 - Move the joystick to set the X and Y positions for this point.
 - Press the same L button to complete (or press another L button to edit another point, or select another context).
 
-:information_source: as soon as you start to edit a point, the previous position of the joystick is saved, then recalled when you complete the edition of the position of the point.
+:information_source: as soon as you start to edit a point, the position of the joystick is saved (then restored to previously saved when you complete the edition of the position of the point).
 
 They're 4 rates:
 - RATE 1 is the time (milliseconds) to run the first vector, between points #0 and #1.
@@ -412,9 +412,9 @@ They're 4 rates:
 - RATE 3 is the time (milliseconds) to run the third vector, between points #2 and #3 (sustain).
 - RATE 4 is the time (milliseconds) to run the last vector, between points #3 (sustain) and #4 (release).
 
-:information_source: The module's logic computes needed speeds to run each vector, depending the distance between points, and specified rate.
+:information_source: The module's logic computes needed _speeds_ to run each vector, depending the distance between points, and specified rate.
 
-:warning: Except points #3 (sustain) and #4 (release), any point can be bypassed if the "distance" is zero (consecutive points are overlapped), or if the RATE is set to 0ms.
+:warning: Except points #3 (sustain) and #4 (release), any point can be bypassed if the "distance" is zero (overlapping consecutive points), or if the RATE is set to 0ms.
 
 :warning: When enabled, the MIX ENVelope is **always retriggered** on every new incoming "high gate" (in particular for polyphony). This behavior is normal.
 
