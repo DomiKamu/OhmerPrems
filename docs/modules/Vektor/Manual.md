@@ -57,21 +57,23 @@ Try to imagine a square room, consider this room doesn't have sound reflection o
 
 ![](_img/room1_V2.png)
 
-Now, by a magical mechanism, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation!): obviously, after rotation, the room remains a square, but from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond).
-
-By doing the room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom:
+Now, by a magical mechanism, the room is rotated **clockwise by 45 degrees** (but you keep your initial orientation!):
 
 ![](_img/room2_V2.png)
 
-Now, you enter the room, having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: the microphone captures sound "components" of each loudspeaker, as equal parts (in Vector Synthesis world: 50% of A, 50% of B, 50% of C, and 50% of D):
+Obviously, after the rotation, the room remains a square. But from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond).
+
+By doing the room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom (like shown by image above).
+
+Now, you enter the room, having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: the microphone captures sound "components" of every loudspeaker, as equal parts (in Vector Synthesis world: 50% of A, 50% of B, 50% of C, and 50% of D):
 
 ![](_img/room3_V2.png)
 
-As soon as you move by short line "segments" into the room (any direction and distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone changes (amounts of captured loudspeakers depend the microphone position at every instant, regardling distances to loudspeakers). As example, if the microphone is nearest as possible of the loudspeaker A, it captures maximum 100% of it, 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
+As soon as you move by short line "segments" in the room (any direction and distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone changes: amounts of captured loudspeakers depend the microphone position, regardling distances to loudspeakers. As example, if the microphone is nearest as possible of the loudspeaker A, it captures maximum 100% of it, near 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
 
 ![](_img/room4_V2.png)
 
-Every line segment corresponding of your moves, as red segments just above (point where the segment start, direction, and distance) is named... a **VECTOR**.
+Every line segment corresponding of your moves, as red segments just above (point where the segment start, direction, and distance) is named... a **VECTOR**. This is the reason why this synthesis technique, by blending 4 loudspeakers (4 oscillators, as sound sources) is named Vector Synthesis!
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
