@@ -63,7 +63,7 @@ Now, by a magical mechanism, the room is rotated **clockwise by 45 degrees** (bu
 
 Obviously, after the rotation, the room remains a square. But from above view, now the room shape looks like a **diamond** (in geometry, square is a particular form of... diamond).
 
-By doing the room rotation, now loudspeaker A becomes at left, B at top, C at right, and D at bottom (like shown by image above).
+By doing the room rotation, now loudspeaker A becomes at your left hand, B at top, C at right, and D at bottom.
 
 Now, you enter the room, having a (omnidirectional) microphone in your hand, and you place the microphone exactly at the center of the room: the microphone captures sound "components" of every loudspeaker, as equal parts (in Vector Synthesis world: 50% of A, 50% of B, 50% of C, and 50% of D):
 
