@@ -105,15 +105,17 @@ As module outputs, the most important in Vector Synthesis is surely the **MIX** 
 
 Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source to other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
+Vektor module is polyphonic, up to 16 voices (16 polyphony channels).
+
 _Vektor_ comes with (optional-to-use) 3HP "right-side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional output jacks:
 
 Outputs provided by the _VX_ expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
 - **GATE** (bottom section) who output +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
-- **ENV X** and **ENV Y** (bottom section) who report the X and Y coordinates of the MIX ENVelope, while the MIX ENVelope is running (otherwise 0V, and all LED are solid red). Offsets made by the joystick position (**-or-** by voltages applied on both **X** and **Y** input jacks) are not included.
+- **ENV X** and **ENV Y** (bottom section) who report the X and Y coordinates of the MIX ENVelope, while the MIX ENVelope is running (otherwise 0V, and all LED of the bottom section are on, solid red).
 
-Vektor module is polyphonic, up to 16 voices (polyphony channels).
+:information_source: Offsets by the joystick position (**-or-** by voltages applied on both **X** and **Y** input jacks) are not included in these voltages.
 
 ---
 
