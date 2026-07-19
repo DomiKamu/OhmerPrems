@@ -386,7 +386,7 @@ To access the MIX context, simply press the **MIX** button (located below the OL
 
 _Vektor_'s MIX context have 3 pages:
 
-![](_img/mixEnvPagesV2.png)
+![](_img/mixEnvPagesV4.png)
 
 - First page (home page) permits to edit each point of the envelope (use left-side L buttons and the joystick).
 - Second page is used to define **rates**, aka durations for each vector (line segment), from 0ms, up to 5,000ms.
