@@ -21,7 +21,7 @@
 - [**FROM MODULE BROWSER**](#modulebrowser)
 - [**OUTRO...**](#outro)
 
-_All 8 models (panel theme variants) for Vektor module, and VX expander:_
+_All 8 models (panel theme variants) for Vektor module, and its attached VX expander:_
 ![](_img/AnimVektorModelsV3.gif)
 
 ---
