@@ -30,7 +30,7 @@ Developed to OhmerPrems member (since 2019), needs for his specific projects, Fr
 - as modulation track (CV OUT track) to offering voltages (-10V to +10V range, 0.01V steeping, or random inside same voltage range) for sequenced modulations.
 - as 16-bit Turing Machine track, useful for generative/random patches! (Turing Machine states are always saved and recalled).
 
-Following animation is showing **all eight models** (GUI theme variants) of _FranKe_ module:
+Following animation is showing **all 8 models** (GUI theme variants) of _FranKe_ module:
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
@@ -41,7 +41,7 @@ Following animation is showing **all eight models** (GUI theme variants) of _Fra
 
 Vektor is a **16HP digital quad-oscillator VCO** module, using **Vector Synthesis** (VS). This module comes with **VX**, a 3HP "right-side" expander module, offering seven extra output jacks.
 
-Following animation is showing **all eight models** (GUI theme variants) of _Vektor_ module (with its attached _VX_ expander):
+Following animation is showing **all 8 models** (GUI theme variants) of _Vektor_ module (with its _VX_ expander):
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
@@ -62,7 +62,7 @@ This module (and its left-side expander, **KX**) is **entirely free for everyone
 
 ![](docs/modules/KlokSpidMkII/_img/Models_rev.gif)
 
-Like other Ohmer and OhmerPrems modules, KlokSpid MkII comes in six models (GUI theme variations):
+Like free Open Source **Ohmer**, and some OhmerPrems modules, KlokSpid MkII comes in 6 models (GUI theme variations):
 - _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
