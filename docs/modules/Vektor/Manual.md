@@ -67,19 +67,19 @@ Now, you enter the room, having a (omnidirectional) microphone in your hand, and
 
 ![](_img/room3_V2.png)
 
-As soon as you move by short line "segments" into the room (any direction and distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone will change (amounts of captured loudspeakers depend the microphone position at every instant, regardling distances to loudspeakers). As example, if the microphone is nearest as possible of the loudspeaker A, it captures maximum 100% of it, 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
+As soon as you move by short line "segments" into the room (any direction and distance), on every position, in realtime, the mix (**crossfading**) captured by the microphone changes (amounts of captured loudspeakers depend the microphone position at every instant, regardling distances to loudspeakers). As example, if the microphone is nearest as possible of the loudspeaker A, it captures maximum 100% of it, 0% from the opposite C, and a signifiant part of remaining C and D (but less than 50%). And so on!
 
 ![](_img/room4_V2.png)
 
-Every line segment of your moves, as red segments just above (point where the segment start, direction, and distance) is named... a **vector**.
+Every line segment corresponding of your moves, as red segments just above (point where the segment start, direction, and distance) is named... a **VECTOR**.
 
 :information_source: **If you understand the principle, be sure you have understood 99.9% about the Vector Synthesis!**
 
-Real and virtual synthesizers who are using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position of the "microphone" in the "diamond room" is simulated either by a mechanical (unsprung) joystick controlled by your hand (**-or-** by voltages applied on both X and Y input jacks), and can be combinet with  (optional) programmable MIX ENVelope, kind of **timed automation** of vectors & X/Y points in realtime (and related crossfadings, by this way).
+Real and virtual synthesizers who are using Vector Synthesis (also true concerning the _Vektor_ module), the X horizontal & Y vertical position (coordinates) of the "microphone" in the "diamond room" is simulated by a mechanical (unsprung) joystick controlled by your hand (**-or-** by voltages applied on both **X** and **Y** input jacks), and can be combined with (optional) fully programmable MIX ENVelope, kind of **timed automation** of vectors & X/Y points in realtime (and related crossfadings, by this way).
 
-Of course, the described fictious scene above is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, all may be totally different, because each oscillator (loudspeaker) may use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base gain of the oscillator).
+Of course, the described fictious scene as introduction is assuming, in ideal word, all of the loudspeakers output at same frequency and volume level. However, all may be totally different, because each oscillator (loudspeaker) may use different frequency (by transposition, and/or by modulated frequency), and/or different volume (base gain of the oscillator).
 
-Also, an another important aspect of the MIX ENVelope are times (in milliseconds), named **RATES**, it's the time required to run between an origin point of the vector, and the next point. By this way, this introduces the speed notion. Every vector can be covered from **minimum 0 millisecond** (in this case, the vector is ignored, and next is processed immediately), up to **maximum 5,000 milliseconds** (5 seconds). Default rates depend of the selected program (500 milliseconds for **16. INIT** program).
+Also, an another important aspect of the MIX ENVelope are timings (in milliseconds), named **RATES**, a rate is the time required to run between an origin point of the vector, to the next point. By this way, this introduces the _speed_ notion. Every vector can be covered from **minimum 0 millisecond** (in this case, the vector is ignored, and next is processed immediately), up to **maximum 5,000 milliseconds** (5 seconds). Default proposed rates depend of the selected program (all 500 milliseconds for **16. INIT** program).
 
 ---
 
