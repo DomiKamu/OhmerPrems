@@ -350,7 +350,7 @@ All programs (and their relevant default settings) are always saved along the VC
 
 _Vektor_'s PROGRAM context have 4 pages:
 
-![](_img/programPagesV3.png)
+![](_img/programPagesV4.png)
 
 - The first (home) page displays the program number and name along L2 button, and MIX ENVelope state (on/off) along L5 button.
 - The second page displays settings dedicated to FM input (FM depth along L4 button, and FM mode along L5).
