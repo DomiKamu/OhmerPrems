@@ -111,7 +111,7 @@ Outputs provided by the _VX_ expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
 - **GATE** (bottom section) who output +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
-- **ENV X** and **ENV Y** (bottom section) who report the X and Y positions of the MIX ENVelope while the MIX ENVelope is running (otherwise 0V). Offsets by joystick position (or by voltages applied on X and Y inputs) is not included.
+- **ENV X** and **ENV Y** (bottom section) who report the X and Y coordinates of the MIX ENVelope, while the MIX ENVelope is running (otherwise 0V, and all LED are solid red). Offsets made by the joystick position (**-or-** by voltages applied on both **X** and **Y** input jacks) are not included.
 
 Vektor module is polyphonic, up to 16 voices (polyphony channels).
 
