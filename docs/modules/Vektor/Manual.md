@@ -449,15 +449,15 @@ Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In th
 
 ![](_img/theDiamond.png)
 
-Every oscillator uses a **waveform** (single-cycle). Can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by [importing external WAVE files](#waveformat) - per module instance!).
+Every oscillator uses a **single-cycle waveform**. Can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by [importing external WAVE files](#waveformat) - per module instance!).
 
-To select a particular oscillator (context), press its relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off (if its red LED is already on, the oscillator is already selected). This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. From this first page, along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xx** for any user waveform, xx varies from 01 to 32). The lower part of the OLED display is the graphic representation of the selected waveform (horizontal line for **126. SILENCE**, or empty/unused "user" waveform slot).
+To select a particular oscillator (context), press its relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off (if its solid red LED is already on, the oscillator is already selected). This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. From this first page, along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xx** for any user waveform, xx varies from 01 to 32). The lower part of the OLED display is the graphic representation of the selected waveform (or horizontal line for **126. SILENCE**, or empty/free user waveform slot).
 
-To select next (or previous) waveform, rotate the **DATA ENTRY** continuous encoder clockwise (or counter-clockwise). The selection cycles to **000** (or **127**) as required, when an _edge_ of the list is reached.
+To select next or previous waveform, rotate the **DATA ENTRY** continuous encoder clockwise or counter-clockwise. The selection cycles to **000** (or **127**) when an _edge_ of the list is reached.
 
-:information_source: The waveform **126. SILENCE** is a particular waveform: by selecting it, the oscillator is disabled (not processed by the module's logic). Same fact about any empty/unused user waveform.
+:information_source: The waveform **126. SILENCE** (also empty/free user waveform) is a particular waveform: by selecting it, the oscillator is disabled (not processed by the module's logic).
 
-:information_source: The waveform **127. WHITE NOISE** is using constant frequency and cannot be "pitched", nor frequency modulated.
+:warning: The waveform **127. WHITE NOISE** is using constant frequency and cannot be "pitched", nor frequency modulated.
 
 _Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D**) have 3 pages:
 
