@@ -344,10 +344,6 @@ To load a program (file drag and drop method):
 
  :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed. Press any button to acknowledge the error condition.
 
-_Program-specific right click context menu:_
-
-![](_img/vktProgramMenuV2.png)
-
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
 _Vektor_'s PROGRAM context have 4 pages:
@@ -438,10 +434,6 @@ To load a saved mix envelope (file drag and drop method):
 - Drag the relevant **.vktMixEnv** file, then drop it over the module, that's all.
 
  :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
-
-_MIX ENVelope-specific right click context menu:_
-
-![](_img/vktMixEnvMenuV2.png)
 
 :information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
