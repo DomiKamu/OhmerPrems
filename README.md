@@ -247,12 +247,12 @@ Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 indepen
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
-- free version (limited to **5** fully working drum machines, from 44.1kHz upto 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel is red instead of green.
-- full version (all 16 drum machines, from 44.1kHz upto 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels are always green.
+- free version (limited to **5** fully working drum machines, from 44.1kHz up to 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel is red instead of green.
+- full version (all 16 drum machines, from 44.1kHz up to 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels are always green.
 
-Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz upto 192kHz engine's samplerates.
+Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz up to 192kHz engine's samplerates.
 
-Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, from 44.1kHz upto 192kHz engine's samplerates.
+Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, from 44.1kHz up to 192kHz engine's samplerates.
 
 KordZ module remains unfinished. Presentation coming later...
 
