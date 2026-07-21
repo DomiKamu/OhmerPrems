@@ -46,7 +46,7 @@ Following animation is showing **all 8 models** (GUI theme variants) of _Vektor_
 ![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
 ----
-## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment!)
+## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment, not yet published!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
@@ -274,7 +274,7 @@ Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrad
 To become *OhmerPrems* member, simply send me **15 euros**. If required, please convert your local currency first, to fit with 15 (or more) euros (otherwise your payment will not be accepted and refurbished) via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
 :warning:
-## June 2026: please consider the 15 euros fee remains very fair! this price will not change during 2026, however!
+## Summer 2026: please consider the 15 euros fee remains very fair! (this fee will not change during 2026, however).
 
 **Very important: don't forget to indicate:**
 - your first and last name (personal name only, company name or nickname isn't accepted).
