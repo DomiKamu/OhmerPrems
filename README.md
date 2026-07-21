@@ -266,7 +266,7 @@ Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux
 
 ## Full version (OhmerPrems members only)
 
-A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of (valid) license keyfile unlocks (immediately) all modules to **full version** (unrestricted). However, KordZ, KlokSpid MkII module (and its expander, KX) always work as full version (whatever the license keyfile is present, or not), because KordZ, KlokSpid MkII and KX modules are free for everyone, without any limitation.
+A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of (valid) license keyfile unlocks (immediately) all modules to **full version** (unrestricted). However, Vektor module (and its expander, VX), KlokSpid MkII module (and its expander, KX), and KordZ always work as full version (whatever the license keyfile is present, or not), because these modules are free for everyone, without any limitation!
 
 Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (as full version) without any additional charge!
 
