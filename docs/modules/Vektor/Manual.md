@@ -510,13 +510,13 @@ Like all Ohmer modules, _Vektor_ module and _VX_ expander follow **Use dark pane
 
 If the **Use dark panel if available** is disabled (unchecked), the presented model is always **Aluminium**:
 
-![](_img/modelLightV2.png)
+![](_img/modelLightV3.png)
 
 If the **Use dark panel if available** is enabled (checked), the presented model is always **Absolute Night**:
 
-![](_img/modelDarkV2.png)
+![](_img/modelDarkV3.png)
 
-As soon as a _Vektor_ module is installed in the rack (it's a _module instance_, also _instanciated module_), you'll can freely change its model anytime you'd like: from right click context menu, select **Model** menu item, then select the model you'd like from the submenu list.
+As soon as a _Vektor_ module is installed in your rack (it's a _module instance_, or _instanciated module_), you'll can freely change its model anytime: from right click context menu, select **Model** menu item, then select the model you'd like from the list.
 
 :information_source: _VX_ expander always inherits the _Vektor_'s model as soon as the "link" between them is established.
 
