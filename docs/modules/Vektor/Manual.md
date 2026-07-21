@@ -465,7 +465,7 @@ To select next (or previous) waveform, rotate the **DATA ENTRY** continuous enco
 
 :information_source: The waveform **127. WHITE NOISE** have unique frequency and can't be "pitched".
 
-From any oscillator context, they're 3 possible pages, who brings additional oscillator-related settings:
+_Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D**) have 3 pages:
 
 ![](_img/oscPagesV4.png)
 
