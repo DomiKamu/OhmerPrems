@@ -186,7 +186,7 @@ Outputs provided by the _VX_ expander module:
 
 To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including autosave, occuring every 15-second), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Above 4 imported waveforms, the WARNING (orange) LED at the bottom of the module (WARN./ERR. section, below the joystick) is blinking orange (twice per second) to inform you it's risky about amount of datas stored to json file (patch, or autosave file). Do not forget you'll can clear (free) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), in this case, the module's right click menu offers a command to clear (free) the current user waveform slot (if used).
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. Above 4 imported waveforms, the WARNING (orange) LED at the bottom of the module (WARN./ERR. section, below the joystick) is **blinking orange** (twice per second) to inform you it's risky about amount of datas stored to json file (patch, or autosave file). Do not forget you'll can clear (free) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), in this case, the module's right click menu offers a command to clear (free) the current user waveform slot (if used).
 
 ---
 
@@ -342,7 +342,7 @@ To load a program (file drag and drop method):
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
 - Drag the relevant **.vktProgram** file, then drop it over the module.
 
- :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed. Press any button to acknowledge the error condition.
+ :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed. Press any button to acknowledge the error condition.
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
 
@@ -483,7 +483,7 @@ To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
 
 :warning: You'll cannot import a WAVE file over built-in ROM waveform (labelled **032. SINE** to **127. WHITE NOISE**).
 
-:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is blinking red (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
+:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
 :warning: The _Vektor_ module doesn't allow to dump/export any waveform to an external .wav file!
 
