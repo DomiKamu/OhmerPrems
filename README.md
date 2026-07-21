@@ -260,7 +260,7 @@ KordZ module remains unfinished. Presentation coming later...
 
 ## Free version
 
-Free *OhmerPrems* plugin is available to everybody, for Windows, MacOS and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page on this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file).
+Free *OhmerPrems* plugin is available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page from this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file), but also from VCV Library for lastest stable release, for automatic installation / updates.
 
 ----
 
