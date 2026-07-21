@@ -262,6 +262,8 @@ KordZ module remains unfinished. Presentation coming later...
 
 Free *OhmerPrems* plugin is available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page from this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file), but also from VCV Library for lastest stable release, for automatic installation / updates.
 
+Without a personal license keyfile, some modules (FranKe, FroeZe / FroeZe-X / FroeZe-SX, and QuadPercs) work as "free" limited trial (features limitations), instead of full version (see below).
+
 ----
 
 ## Full version (OhmerPrems members only)
