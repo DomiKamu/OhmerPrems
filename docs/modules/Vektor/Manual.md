@@ -508,7 +508,7 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 ### FROM MODULE BROWSER<a name="modulebrowser"></a>
 
-Like all Ohmer modules, _Vektor_ module and _VX_ expander follow **Use dark panel if available** VCV Rack 2's global setting (from _View_ menu), in order to present a "light" or a "dark" panel from the module browser.
+Like all Ohmer modules, _Vektor_ module and _VX_ expander follow **Use dark panel if available** VCV Rack 2's global setting (from _View_ menu), in order to display a "light" or a "dark" panel in the module browser.
 
 If the **Use dark panel if available** is disabled (unchecked), the presented model is always **Aluminium**:
 
@@ -518,7 +518,7 @@ If the **Use dark panel if available** is enabled (checked), the presented model
 
 ![](_img/modelDarkV3.png)
 
-As soon as a _Vektor_ module is installed in your rack (it's a _module instance_, or _instanciated module_), you'll can freely change its model anytime: from right click context menu, select **Model** menu item, then select the model you'd like from the list.
+As soon as a _Vektor_ module is installed in your rack (it's a _module instance_, or _instanciated module_), it does a quick self-test sequence. You'll can freely change its model anytime you'll want: from right click context menu, select **Model** menu item, then select the model you'd like from the list.
 
 :information_source: _VX_ expander always inherits the _Vektor_'s model as soon as the "link" between them is established.
 
