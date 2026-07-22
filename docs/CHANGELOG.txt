@@ -2,6 +2,19 @@
 CHANGELOG
 ==============================================================================================================================
 
+Pre-Release v2.6.13 BETA (July 22nd, 2026) for VCV Rack 2.
+
+- Introducing Vektor module, 16HP vector synthesis quad-VCO.
+- Introducing VX, 3HP right-side expander for Vektor to bring discrete LFO, joystick and MIX ENVelope outputs (with gate).
+- FroeZe and QuadPerc modules (Free/Trial): no more 44100Hz engine's sample rate limitation (only drum machines number).
+- FroeZe module (Free/Trial): now the fourth first tracks (BD, SD, CH, and OH) can be edited (instead of BD, SD previously).
+- FroeZe module: changed "createPatchStorageDirectory()" by "getPatchStorageDirectory() from "onAdd()" event handler.
+- FranKe module: added "Random" tag (due to Turing Machine tracks + possible random voltages in modulation tracks).
+- FranKe module: fixed module description (previous mentions "99-pattern" instead of "64-pattern", by error!).
+- KlokSpid MkII: frequency display was rewrote from scratch, initial may cause crashes on rack open!
+
+------------------------------------------------------------------------------------------------------------------------------
+
 Release v2.6.12 (June 2nd, 2026) for VCV Rack 2.
 
 - FranKe, FroeZe, FroeZe-SX, FroeZe-X, and QuadPerc modules: added some debug/infos in C++ source code.
