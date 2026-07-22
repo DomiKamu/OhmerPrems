@@ -303,9 +303,9 @@ To select a different program:
 
 Also, you'll can control the program select (similar to _MIDI Program Change_) in realtime, by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V voltage). Voltage must fit into +1V ~ +8.5V range (each 0.5V step selects next program, from **01** to **16**). The **PROG.** input jack, of course, is working whatever the current module's context!
 
-:warning: **Applied voltage on PROG. input jack below +1V, including negative voltage, is ignored (to avoid unwanted program changes). Also, any voltage above +8.5V always selects program #16.**
+:warning: **Applied voltages on PROG. input jack below +1V (including negative voltages) are ignored, to avoid unwanted program changes! Also, any voltage above +8.5V always selects program #16.**
 
-Obviously, any program can be altered (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded later.
+Obviously, any program can be altered (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded later (to same or different program number).
 
 :information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
@@ -329,12 +329,12 @@ Allowed character set for **.vktProgram** filenames (also used for program names
 
 To save a program:
 - Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
-- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Save to .vktProgram file**.
+- Do a right-mouse click over the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** (xx is the current program number).
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
 
 To load a program (right click context menu method):
 - Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
-- Do a right-mouse click on the module. From the menu, select **Program #xx**, then **Open from .vktProgram file**.
+- Do a right-mouse click over the module. From the menu, select **Program #xx**, then **Open from .vktProgram file** (xx is the current program number).
 - From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
 
 To load a program (file drag and drop method):
@@ -342,9 +342,9 @@ To load a program (file drag and drop method):
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
 - Drag the relevant **.vktProgram** file, then drop it over the module.
 
- :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed. Press any button to acknowledge the error condition.
+:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed (press any button to acknowledge the error condition).
 
-All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), and VCV Rack 2 autosave feature.
+All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), VCV module selection file (.vcvs) and VCV Rack 2 autosave feature, every 15 seconds.
 
 _Vektor_'s PROGRAM context have 4 pages:
 
@@ -420,12 +420,12 @@ Current MIX ENVelope can be saved to **.vktMixEnv** file, then loaded later to a
 
 To save the current MIX ENVelope to a **.vktMixEnv** file:
 - Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
-- Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
+- Do a right-mouse click over the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
 
 To load a saved mix envelope (right click context menu method):
 - Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
-- Do a right-mouse click on the module. From the menu, select **MIX ENVelope**, then **Open from .vktMixEnv file** command.
+- Do a right-mouse click over the module. From the menu, select **MIX ENVelope**, then **Open from .vktMixEnv file** command.
 - From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
 
 To load a saved mix envelope (file drag and drop method):
@@ -475,7 +475,7 @@ By pressing the **PAGE** momentary button (top-right side of the module), you se
 
 To import a custom WAVE file to USER WAVEFORM slot (right click context menu method):
 - Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D**. If not, press the relevant oscillator context button **only if its LED above is off**.
-- Do a right-mouse click on the module. From the menu, select **User waveform**, then **Import .wav file as USER #xx** command (**xx** stands for the current waveform number).
+- Do a right-mouse click over the module. From the menu, select **User waveform**, then **Import .wav file as USER #xx** command (**xx** stands for the current waveform number).
 - From **Open** dialog, select the path where the .wav file is located, select the filename, then click _Open_ button.
 
 To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
