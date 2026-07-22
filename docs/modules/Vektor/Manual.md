@@ -518,7 +518,7 @@ If the **Use dark panel if available** is enabled (checked), the presented model
 
 ![](_img/modelDarkV3.png)
 
-As soon as a _Vektor_ module is installed in your rack (it's a _module instance_, or _instanciated module_), it does a quick self-test sequence. You'll can freely change its model anytime you'll want: from right click context menu, select **Model** menu item, then select the model you'd like from the list.
+As soon as a _Vektor_ module is installed in your rack (it's a _module instance_, or _instanciated module_), it does a quick self-test sequence. You'll can freely change its model anytime you'll want: from right click context menu, select **Model** menu item, then select the model you'd like from the submenu (Aluminium, Stage Repro, and so on).
 
 :information_source: _VX_ expander always inherits the _Vektor_'s model as soon as the "link" between them is established.
 
