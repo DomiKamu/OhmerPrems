@@ -112,8 +112,8 @@ _Vektor_ comes with (optional-to-use) 3HP "right-side" expander module, named _V
 Outputs provided by the _VX_ expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
-- **GATE** (bottom section) who output +10V while the MIX ENVelope is running (its LED is blue), 0V otherwise (its LED is off).
-- **ENV X** and **ENV Y** (bottom section) who report the X and Y coordinates of the MIX ENVelope, while the MIX ENVelope is running (otherwise 0V, and all LED of the bottom section are on, solid red).
+- **GATE** (bottom section) who output +10V while the MIX ENVelope is running (its LED is lit blue), 0V otherwise (its LED is off).
+- **ENV X** and **ENV Y** (bottom section) who report the X and Y coordinates of the MIX ENVelope, while the MIX ENVelope is running (otherwise 0V, and all LED of the bottom section are lit solid red).
 
 :information_source: Offsets by the joystick position (**-or-** by voltages applied on both **X** and **Y** input jacks) are not included in these voltages.
 
@@ -208,24 +208,24 @@ _VX_ expander module is divided by 3 sections (blue lines on the module's plate 
 - Middle section is dedicated to position of the _Vektor_'s **physical joystick**.
 - Lower section is dedicated to the _Vektor_'s MIX ENVelope, including mix envelope **GATE** output jack.
 
-Every output jack have its own LED, mainly green (the exception is **GATE**, blue color, instead).
+Every output jack have its own LED, mainly green (the exception is **GATE**, blue instead).
 
 :warning: All **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a _Vektor_ module!
 
-:information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are on, solid red, indicating the constant 0V are not relevant! Exactly the same fact concerning LFO 1 and/or LFO 2, if disabled from _Vektor_ (PROGRAM context, 3rd page for LFO 1, 4th page for LFO 2), the related LFO LED is on, solid red too (whatever if connected, or not), indicating the LFO output voltage(s) - 0V - is/are not relevant!
+:information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED are lit solid red, indicating the constant 0V are not relevant! Exactly the same fact concerning LFO 1 and/or LFO 2, if disabled from _Vektor_ (PROGRAM context, 3rd page for LFO 1, 4th page for LFO 2), the related LFO LED is lit solid red too (whatever if connected, or not), indicating the LFO output voltage(s) - 0V - is/are not relevant!
 
 ---
 
 ### CONTEXT SELECTION<a name="contextsel"></a>
 
- _Vektor_ is a small VCO module (16HP), so it can't provide all controls on the same plate. By this way, the _Vektor_ is using a **context** system. _Vektor_'s context can be compared to "module mode", or "module section", or something similar.
+_Vektor_ is a small VCO module (16HP), so it can't provide all controls on the same plate. By this way, the _Vektor_ is using a **context** system. _Vektor_'s context can be compared to "module mode", or "module section", or something similar.
 
-They're exactly 6 contexts. Each context is represented by the red LED state above its button, and can be changed by pressing the relevant button (LED and buttons are located just below the OLED display, each box is a "context").
+They're exactly 6 contexts. Each context is represented by the red LED above its button, and can be changed by pressing the relevant button (context buttons/LED are located just below the OLED display, each box is a "context").
 
 Contexts are:
 
-- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D context, when its corresponding red LED above the button is on.
-- **MIX**, covers all the aspects of the MIX ENVelope feature, when the LED above the MIX button is on.
+- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D context, when its corresponding red LED above the button is lit.
+- **MIX**, covers all the aspects of the MIX ENVelope feature, when the red LED above the MIX button is lit.
 - **PROGRAM**, concerns program selection and settings for selected program, when **all LED are off**.
 
 Any oscillator-based context (A, B, C, or D) permits:
@@ -238,9 +238,9 @@ The MIX context permits to edit (or to view) all the parameters concerning the M
 
 Program is a kind of _synthesizer preset_, identified either by a number (from **01** to **16**) also by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth and mode (TZ FM, or PM), LFO 1 settings, and LFO 2 settings.
 
-To select a context (except PROGRAM), press the related button (A, B, C, D, or MIX) when its LED is off: _Vektor_ is switched to the new context, and its red LED is turned on.
+To select a context (except PROGRAM), press the related button (A, B, C, D, or MIX) when its LED is off: _Vektor_ is switched to the new context, and its red LED is lit.
 
-To select the PROGRAM context, press the button **where the red LED is already on**: by this way, all LED become off, indicating the _Vektor_ module now is switched to PROGRAM context.
+To select the PROGRAM context, press the button **where the red LED is already lit**: by this way, all LED become off, indicating the _Vektor_ module now is switched to PROGRAM context.
 
 Except for the **MIX** context (default display for its first page is the MIX ENVelope trajectory, aka _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first/home page.
 
@@ -296,7 +296,7 @@ The greatest number of polyphony voices from these sources is always selected by
 The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), per module instance. All first 15 (numbered from 01 to 15, and having an explicit name) are based on the real Prophet VS programs. Program numbered 16 is the **INIT** program (the settings was choosen by the developer).
 
 To select a different program:
-- Be sure the PROGRAM context is selected first, **all context red LED must be off**. If not, simply press the button where the red LED is on, by doing this, the _Vektor_ module is switched to PROGRAM context (the OLED must display **PROGRAM** as header) !
+- Be sure the PROGRAM context is selected first, **all context red LED must be off**. If not, simply press the button where the red LED is lit, by doing this, the _Vektor_ module is switched to PROGRAM context (the OLED must display **PROGRAM** as header) !
 - If necessary, press the **L2** button (the blinking cursor must surround the program number along L2 button).
 - Rotate clockwise the **DATA ENTRY** continuous encoder to select next program (cycle to 01 if the current program number was 16).
 - Rotate counter-clockwise the **DATA ENTRY** continuous encoder to select previous program (cycle to 16 if the current program number was 01).
@@ -328,21 +328,21 @@ Allowed character set for **.vktProgram** filenames (also used for program names
 - Tilde (~)
 
 To save a program:
-- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
+- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is lit**.
 - Do a right-mouse click over the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** (xx is the current program number).
 - From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
 
 To load a program (right click context menu method):
-- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
+- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is lit**.
 - Do a right-mouse click over the module. From the menu, select **Program #xx**, then **Open from .vktProgram file** (xx is the current program number).
 - From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
 
 To load a program (file drag and drop method):
-- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is on**.
+- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the red LED above is lit**.
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
 - Drag the relevant **.vktProgram** file, then drop it over the module.
 
-:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed (press any button to acknowledge the error condition).
+:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is shown on the OLED display (press any button to acknowledge the error condition).
 
 All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), VCV module selection file (.vcvs) and VCV Rack 2 autosave feature, every 15 seconds.
 
@@ -453,7 +453,7 @@ This scheme is always used by Vector Synthesis-based hardware synthesizers, such
 
 Every oscillator uses a **single-cycle waveform**. Can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by [importing external WAVE files](#waveformat) - per module instance!).
 
-To select a particular oscillator (context), press its relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off (if its solid red LED is already on, the oscillator is already selected). This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. From this first page, along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xx** for any user waveform, xx varies from 01 to 32). The lower part of the OLED display is the graphic representation of the selected waveform (or horizontal line for **126. SILENCE**, or empty/free user waveform slot).
+To select a particular oscillator (context), press its relevant context button (**A**, **B**, **C**, or **D**) only if its LED (above the button) is off (if its solid red LED is already lit, this meaning the oscillator is already selected). This display the first (home) page of the oscillator context, labelled **OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, or **OSC D WAVEFORM**. From this first page, along L2 (left-side) button, the number (**000** to **127**) of the selected (current) waveform, followed by its name (or **USER #xx** for any user waveform, xx varies from 01 to 32). The lower part of the OLED display is the graphic representation of the selected waveform (or horizontal line for **126. SILENCE**, or empty/free user waveform slot).
 
 To select next or previous waveform, rotate the **DATA ENTRY** continuous encoder clockwise or counter-clockwise. The selection cycles to **000** (or **127**) when an _edge_ of the list is reached.
 
