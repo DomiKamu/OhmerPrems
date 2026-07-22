@@ -21,12 +21,12 @@ Lastest stable version **v2.6.12** is available from [_Releases_](https://github
 
 Pre-release version **v2.6.12 BETA** is available from [_Releases_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) section for manual installation/update. This beta isn't available from VCV Library until it becomes v2.6.13 stable!
 
-[CHANGELOG - v2.6.12 & v2.6.13 BETA](docs/CHANGELOG.txt)
+[CHANGELOG - v2.6.12 (stable) & v2.6.13 BETA](docs/CHANGELOG.txt)
 --
 ----
 ## **FranKe module**
 
-[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction - delayed for couple of weeks).
+[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction - delayed until begin of August 2026).
 
 Developed to OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three, can be changed anytime you'll want):
 - as melodic track, who are using quantized notes, octaves, accidentals, and velocities.
