@@ -14,9 +14,9 @@
 - [**CONTEXTS AND "PAGES"**](#contextspages)
 - [**ADVANTAGES OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
-- [**PROGRAMS IN DETAIL**](#programs)
-- [**MIX ENVELOPE IN DETAIL**](#mixenvelope)
-- [**OSCILLATORS IN DETAIL**](#oscillators)
+- [**PROGRAMS, IN DETAIL**](#programs)
+- [**MIX ENVELOPES, IN DETAIL**](#mixenvelope)
+- [**OSCILLATORS, IN DETAIL**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#waveformat)
 - [**FROM MODULE BROWSER**](#modulebrowser)
 - [**OUTRO...**](#outro)
@@ -291,7 +291,7 @@ The greatest number of polyphony voices from these sources is always selected by
 
 ---
 
-### PROGRAMS IN DETAIL<a name="programs"></a>
+### PROGRAMS, IN DETAIL<a name="programs"></a>
 
 The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), per module instance. All first 15 (numbered from 01 to 15, and having an explicit name) are based on the real Prophet VS programs. Program numbered 16 is the **INIT** program (the settings was choosen by the developer).
 
@@ -368,13 +368,13 @@ A program always includes:
 
 ---
 
-### MIX ENVELOPE IN DETAIL<a name="mixenvelope"></a>
+### MIX ENVELOPES, IN DETAIL<a name="mixenvelope"></a>
 
-The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF cutoff/resonance), the MIX ENVelope is a **timed** automation curve for oscillators crossfading (volume parts of each). Typically, this envelope - if enabled, triggered and controlled by the **GATE** input jack - follows a 2D trajectory into "the diamond" (like the joystick **-or-** the combined X & Y input jacks do). Also, loop is possible, useful to create movements for very long held sounds (like pads).
+The MIX ENVelope is the essence of Vector Synthesis. Unlike traditional ADSR envelope (who control a VCA, or a VCF cutoff/resonance), the MIX ENVelope is a **timed** automation curve for oscillators crossfading (volume parts of each). Typically, this envelope - if enabled, is triggered and controlled by the **GATE** input jack - and follows a 2D trajectory into "the diamond" (like the joystick **-or-** the combined X & Y input jacks can do). Also, looping a mix envelope is possible, useful to create movements for very long sustained sounds.
 
-When the MIX ENVelope is enabled (ON), the mix between each oscillator is firstly controlled by the MIX ENVelope. However, the physical joystick (**-or-** the combined X & Y input jacks, **but not both at the same time**) applies an "offset" to the running mix envelope.
+When the MIX ENVelope is enabled (ON), the mix between each oscillator is firstly controlled by the MIX ENVelope. However, the physical joystick (**-or-** the combined X & Y input jacks, **but not both at the same time**), in this case, will apply an "offset" to the mix envelope.
 
-While the envelope is triggered, a visible small diamond is running along vectors (visible from first page of MIX context).
+While the envelope is triggered, a visible small diamond is running along vectors (visible from the first page of MIX context).
 
 Every program have its MIX ENVelope settings, and can be turned on or off, regardling your needs.
 
