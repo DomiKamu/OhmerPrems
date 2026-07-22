@@ -192,9 +192,9 @@ To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end u
 
 ### VEKTOR MODULE LAYOUT<a name="layoutvektor"></a>
 
-The best way to present the _Vektor_ module layout is by the following **5 minutes** animation (21 frames, 15s/frame):
+The best way to present the _Vektor_ module layout is by the following **5 minutes** animation (22 frames, 15s/frame):
 
-![](_img/VektorLayoutV6.gif)
+![](_img/VektorLayoutV7.gif)
 
 ---
 
