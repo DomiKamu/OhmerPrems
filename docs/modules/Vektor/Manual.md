@@ -497,7 +497,7 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 - Microsoft/IBM WAVE compliant.
 - File extension: .wav
-- 2048 samples, signed 16-bit PCM single-cycle (wavetable are not supported, like the real Prophet VS synthesizer).
+- 2048 samples, signed 16-bit PCM single-cycle (wavetables are not supported, like the real Prophet VS synthesizer).
 - 44100Hz sample rate.
 - 1 channel (mono).
 - **Filesize must be exactly 4140 bytes**.
