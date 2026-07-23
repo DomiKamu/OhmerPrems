@@ -132,10 +132,6 @@ Outputs provided by the _VX_ expander module:
 
 ---
 
-:information_source: The best for the end, _Vektor_ and _VX_ modules are free for everyone (license V2 keyfile is not required)!
-
----
-
 ### VEKTOR MODULE TECHNICAL SPECIFICATIONS<a name="vektorspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
