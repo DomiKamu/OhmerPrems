@@ -4,7 +4,7 @@
 
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
 - [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
-- [**CABLE & LED COLORS CONVENTION**](#colorsconvention)
+- [**CABLE & LED COLORSCHEME CONVENTION**](#colorscheme)
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
 - [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
@@ -85,7 +85,7 @@ Also, an another important aspect of the MIX ENVelope are timings (in millisecon
 
 ---
 
-### CABLE & LED COLORS CONVENTION<a name="colorsconvention"></a>
+### CABLE & LED COLORSCHEME CONVENTION<a name="colorscheme"></a>
 
 Following convention is used by the developer, and mainly follows the convention used by the youtuber Mr. Ohri Cohen, for cable colors usage. Also, the LED colorscheme used by both _Vektor_ and _VX_ modules follow this convention:
 
