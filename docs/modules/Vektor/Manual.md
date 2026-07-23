@@ -81,7 +81,7 @@ Real and virtual synthesizers who are using Vector Synthesis (also true concerni
 
 Of course, the described fictious scene as introduction is assuming, in ideal word, all of the loudspeakers output same sound, at same frequency, and same volume level. However, the reality is different, because each loudspeaker (oscillator) may use different waveform, frequency (by transposition, and/or by modulated frequency), and/or different volume (base gain of the oscillator).
 
-Also, an another important aspect of the MIX ENVelope are timings (in milliseconds), named **RATES**. Rate is basically the time required to run between an origin point of the vector, to the next point. Every vector can be covered from **minimum 0 millisecond** (_faster than light_, in this case, the vector is ignored, and next is immediately processed), up to **maximum 5,000 milliseconds** (5 seconds). Default proposed rates is depending of the selected program (all 500 milliseconds for **16. INIT** program).
+Also, an another important aspect of the MIX ENVelope are timings (in milliseconds), named **RATES**. Rate is basically the time required to run between an origin point of the vector, to the next point. Every vector can be covered from **minimum 0 millisecond** (_faster than light_, in this case, the vector is ignored, and next is immediately processed), up to **maximum 5,000 milliseconds** (5 seconds). Default proposed rates is depending of the selected program (all are default 500 milliseconds for **16. INIT** program).
 
 ---
 
