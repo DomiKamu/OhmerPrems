@@ -4,6 +4,7 @@
 
 - [**HISTORY OF THE VECTOR SYNTHESIS**](#history)
 - [**WHAT IS "VECTOR SYNTHESIS" EXACTLY?**](#whatisvs)
+- [**CABLE & LED COLORS CONVENTION**](#colorsconvention)
 - [**INTRODUCTION**](#intro)
 - [**VEKTOR MODULE TECHNICAL SPECIFICATIONS**](#vektorspecs)
 - [**VX EXPANDER MODULE TECHNICAL SPECIFICATIONS**](#vxspecs)
@@ -82,6 +83,17 @@ Real and virtual synthesizers who are using Vector Synthesis (also true concerni
 Of course, the described fictious scene as introduction is assuming, in ideal word, all of the loudspeakers output same sound, at same frequency, and same volume level. However, the reality is different, because each loudspeaker (oscillator) may use different waveform, frequency (by transposition, and/or by modulated frequency), and/or different volume (base gain of the oscillator).
 
 Also, an another important aspect of the MIX ENVelope are timings (in milliseconds), named **RATES**. Rate is basically the time required to run between an origin point of the vector, to the next point. Every vector can be covered from **minimum 0 millisecond** (_faster than light_, in this case, the vector is ignored, and next is immediately processed), up to **maximum 5,000 milliseconds** (5 seconds). Default proposed rates is depending of the selected program (all 500 milliseconds for **16. INIT** program).
+
+---
+
+### CABLE & LED COLORS CONVENTION<a name="colorsconvention"></a>
+
+Following convention is used by the developer, and mainly follows the convention used by the youtuber Mr. Ohri Cohen, for cable colors usage. Also, the LED colorscheme used by both _Vektor_ and _VX_ modules follow this convention:
+
+- Yellow, for V/OCT and pitch-based (used once by **V/OCT** input jack, on _Vektor_ module).
+- Blue, for triggers and gates (used by **GATE** input jack on _Vektor_ module, and **GATE** output jack on _VX_ expander).
+- Green, for CV, either inputs and outputs (modulation voltages, both modules).
+- Red, for audio (**MIX** output, also **A**, **B**, **C**, and **D** discrete oscillator output jacks, on _Vektor_ module).
 
 ---
 
