@@ -109,25 +109,27 @@ _Vektor_ is using four independent waveform-based oscillators, named **OSC A**, 
 
 Each oscillator is using **waveform**, like the Prophet VS hardware synthesizer does. The 96 official waveforms are provided as "built-in ROM", numbered from **032** to **125**, have a name and graphical representation from oscillator context (**OSC x WAVEFORM** page). Please notice the built-in waveform number **126** (named **SILENCE**), when selected, the related oscillator isn't processed by the DSP. Also, waveform number **127** is constant-frequency **WHITE NOISE** (made by a dedicated Gaussian white noise generator, to a buffer).
 
-:warning: Built-in **126. SILENCE** waveform, when selected for a particular oscillator (A, B, C, or D), doesn't provide "pages" for extra settings, because it's a nonsense to set the frequency and/or the volume for... a muted (disabled) oscillator! In this case, the **PAGE** button doesn't have effect! Also, built-in **127. WHITE NOISE** waveform have only **OSC VOLUME** as extra page, but nothing about **OSC FREQUENCY**, because white noise frequency is always constant (it doesn't follow "V/octave" rule), and cannot be modulated by FM/PM or by internal LFO.
+:warning: Built-in **126. SILENCE** waveform, when selected for a particular oscillator (A, B, C, or D), doesn't provide "pages" for extra settings, because it's a nonsense to set the frequency and/or the volume for... a muted (disabled) oscillator! In this case, the **PAGE** button doesn't have effect!
+
+:warning: Also, built-in **127. WHITE NOISE** waveform have only **OSC VOLUME** as extra page, but nothing about **OSC FREQUENCY**, because white noise frequency is always constant (it doesn't follow "V/octave" rule), cannot be "pitched", nor frequency modulated by FM/PM/LFO.
 
 The _Vektor_ module permits to [import custom WAVE file](#waveformat) to any **USER waveform** slot of your choice (these slots are numbered from **000** to **031**, and respectively labelled **USER #1** to **USER #32**).
 
-As module outputs, the most important in Vector Synthesis is surely the **MIX** output (always post-joystick or post MIX ENVelope), but they're also **A**, **B**, **C**, and **D** discrete oscillator outputs, useful as as separate oscillators, of for particular FX processings. Every discrete OSC output may be either **pre-joystick** (or pre MIX ENVelope) as dry/unmixed - it's the default behavior, or **post-joystick** (or post MIX ENVelope). The joystick/mix envelope routing can be configured from every **OSC x VOLUME** page (3rd page, for each oscillator context).
+:warning: For user waveforms, **USER #1** to **USER #32** labels can't be changed.
 
-Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source to other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
+As module outputs, the most important in Vector Synthesis is the **MIX** output (always post-joystick or post MIX ENVelope), but the _Vektor_ module provides additional **A**, **B**, **C**, and **D** discrete oscillator outputs, useful as separate oscillators, or for particular FX processings. Every discrete OSC output may be either **pre-joystick** (or pre-MIX ENVelope), as dry/unmixed - it's the default setting, or **post-joystick** (or post-MIX ENVelope). This joystick/mix envelope routing can be set-up from every **OSC x VOLUME** page (3rd page, L5 button, from any oscillator context).
+
+Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source for other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
 Vektor module is polyphonic, up to 16 voices (16 polyphony channels).
 
-_Vektor_ comes with (optional-to-use) 3HP "right-side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), offering 7 additional output jacks:
+_Vektor_ comes with (optional-to-use) 3HP "right-side" expander module, named _VX_ (accronym of **V**ektor e**X**pander), adding 7 additional output jacks:
 
 Outputs provided by the _VX_ expander module:
 - **LFO 1** and **LFO 2** (top section), each outputs the related (and configured) LFO signal (-5V/+5V range, can be sine, triangle, sawtooth, ramp, square or random).
 - **JOY X** and **JOY Y** (middle section) who report respectively the X (horizontal) and Y (vertical) position of the **physical joystick** in the diamond (whatever the applied voltages on X and Y input jacks, whatever the mix envelope, it's **always** the **physical joystick 2D position**).
 - **GATE** (bottom section) who output +10V while the MIX ENVelope is running (its LED glows blue), 0V otherwise (its LED is off).
 - **ENV X** and **ENV Y** (bottom section) who report the X and Y coordinates of the MIX ENVelope, while the MIX ENVelope is running (otherwise 0V, and all LED of the bottom section glow solid red).
-
-:information_source: Offsets by the joystick position (**-or-** by voltages applied on both **X** and **Y** input jacks) are not included in these voltages.
 
 ---
 
@@ -229,6 +231,8 @@ The upper section, dedicated to _Vektor_'s LFO 1 and LFO 2, reports each LFO by 
 The middle section, dedicated to _Vektor_'s physical joystick, constantly reports X and Y joystick coordinates by bipolar -5V/+5V voltages, and can be used as CV source for any other external module.
 
 The lower section, dedicated to _Vektor_'s MIX ENVelope, constantly reports X and Y coordinates while the MIX ENVelope is running, by bipolar -5V/+5V voltages. Also, while the MIX ENVelope is running, the GATE jack outputs +10V. However, as long as the MIX ENVelope is turned OFF, both **GATE**, **ENV X**, and **ENV Y** LED glow red, meaning the constant 0V applied on these output jacks are not relevant, just to warn the user.
+
+:information_source: Offsets by the physical joystick position (**-or-** by voltages applied on both **X** and **Y** input jacks) are not included in **ENV X** and **ENV Y** voltages!
 
 ---
 
