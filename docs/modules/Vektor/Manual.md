@@ -540,11 +540,11 @@ The _Vektor_ module is using **Oscillator**, **Quad**, and **Polyphonic** tags. 
 As final words, any _Vektor_ module instance:
 
 - can be duplicated (with all settings, including user waveforms), and possibly with connected cables.
-- can be saved as **Preset** file (.vcvm files), for further reuse.
-- can be saved as part of **Module selection** file (.vcvs files), for further reuse.
+- can be saved as **Preset** file (.vcvm file), for later reuse.
+- can be saved as part of **Module selection** file (.vcvs file), for later reuse.
 - can be reset to factory settings (**Initialize** command, from right click menu / **Ctrl + I** / **Command + I** key shortcut).
 - can be bypassed (**Bypass** command, from right click menu / **Ctrl + E** / **Command + E** key shortcut).
 
-:warning: Randomize command (**Ctrl + R** / **Command + R** key shortcut) is not yet implemented, so using it have no effect.
+:warning: Randomize command (**Ctrl + R** / **Command + R** key shortcut) is not yet implemented, so using it have no effect at the moment. Will be implemented in future release.
 
 Thanks for reading, and have fun in Vector Synthesis with _Vektor_ and _VX_ modules! ;)
