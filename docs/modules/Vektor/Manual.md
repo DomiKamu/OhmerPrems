@@ -11,14 +11,13 @@
 - [**DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS**](#presetlimitations)
 - [**VEKTOR MODULE LAYOUT**](#layoutvektor)
 - [**VX EXPANDER MODULE LAYOUT**](#layoutvx)
-- [**CONTEXT SELECTION**](#contextsel)
-- [**CONTEXTS AND "PAGES"**](#contextspages)
-- [**ADVANTAGES OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
+- [**CONTEXT SELECTION & RELATED "PAGES"**](#contextsel)
 - [**SOME WORDS ABOUT POLYPHONY**](#aboutpoly)
 - [**PROGRAMS, IN DETAIL**](#programs)
 - [**MIX ENVELOPES, IN DETAIL**](#mixenvelope)
 - [**OSCILLATORS, IN DETAIL**](#oscillators)
 - [**SUPPORTED WAVE FILE FORMAT (IMPORT TO USER WAVEFORM SLOT)**](#waveformat)
+- [**BENEFITS OF DISCRETE OSCILLATOR OUTPUTS**](#discreteouts)
 - [**FROM MODULE BROWSER**](#modulebrowser)
 - [**OUTRO...**](#outro)
 
@@ -236,7 +235,7 @@ The lower section, dedicated to _Vektor_'s MIX ENVelope, constantly reports X an
 
 ---
 
-### CONTEXT SELECTION<a name="contextsel"></a>
+### CONTEXT SELECTION & RELATED "PAGES"<a name="contextsel"></a>
 
 _Vektor_ is a small VCO module (16HP), so it can't provide all controls on the same plate. By this way, the _Vektor_ is using a **context** system. _Vektor_'s context can be compared to "module mode", or "module section", or something similar.
 
@@ -264,35 +263,13 @@ To select the PROGRAM context, press the button **where the LED is already glowi
 
 Except for the **MIX** context (default display for its first page is the MIX ENVelope trajectory, aka _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first/home page.
 
----
-
-### CONTEXTS AND "PAGES"<a name="contextspages"></a>
-
-As explained by previous topic, the _Vektor_ module have 6 contexts: **A**, **B**, **C**, **D** (oscillators), **MIX**, and **PROGRAM**.
-
 Each context have a certain number of theme-related "pages" for extra settings, so you can select next page by pressing the **PAGE** momentary button (top-right side of the module). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
 
 For every context, the number of pages is:
 
-- Oscillators **A**, **B**, **C**, and **D**: 4 pages (waveform select/display, frequency, and volume).
+- Oscillators **A**, **B**, **C**, and **D**: 3 pages (waveform select/display/import, frequency, and volume).
 - **MIX**: 3 pages (trajectory/points editor/viewer, rates, loop).
 - **PROGRAM**, 4 pages (program select, FM input, LFO 1, LFO 2).
-
----
-
-### ADVANTAGES OF DISCRETE OSCILLATOR OUTPUT JACKS<a name="discreteouts"></a>
-
-Even the **MIX** output jack is considered as the most important in Vector Synthesis universe, because all oscillators are constantly blended (manually by the joystick **or** by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only (without **MIX**), in this case you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module. It's the first advantage!
-
-As second advantage, you'll can apply particular FX processing on discrete A, B, C, and/or D output signal(s), like delays or reverbs, and use it/them together with the **MIX** output jack. All of these outputs can be used at the same time, like you want, either as final audio output, or as modulation source for another module (such ring modulation).
-
-By default, discrete oscillator outputs are unmixed (pre-joystick / pre-MIX ENVelope, similar to a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L4** button permits to set as post-joystick / post-MIX ENVelope, instead, to get a blended oscillator signal, in case you'll need it for further usage (like separate FX processing).
-
-_Example: from OSC B context, 3rd page (labelled "OSC B VOLUME"), press L4 button to highlight **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change this setting from **YES (DRY)** to **NO (POST)**:_
-
-![](_img/OscPreJoystickV3.png)
-
-_For now, discrete B will output a possible blended (by joystick and/or by MIX ENVelope) audio signal (instead of an unmixed/pure audio signal)._
 
 ---
 
@@ -523,6 +500,22 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 - **Filesize must be exactly 4140 bytes**.
 
 :warning: Other formats will be ignored, and generate an error condition on import attempt.
+
+---
+
+### BENEFITS OF DISCRETE OSCILLATOR OUTPUT JACKS<a name="discreteouts"></a>
+
+Even the **MIX** output jack is considered as the most important in Vector Synthesis universe, because all oscillators are constantly blended (manually by the joystick **or** by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only (without **MIX**), in this case you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module. It's the first advantage!
+
+As second advantage, you'll can apply particular FX processing on discrete A, B, C, and/or D output signal(s), like delays or reverbs, and use it/them together with the **MIX** output jack. All of these outputs can be used at the same time, like you want, either as final audio output, or as modulation source for another module (such ring modulation).
+
+By default, discrete oscillator outputs are unmixed (pre-joystick / pre-MIX ENVelope, similar to a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L4** button permits to set as post-joystick / post-MIX ENVelope, instead, to get a blended oscillator signal, in case you'll need it for further usage (like separate FX processing).
+
+_Example: from OSC B context, 3rd page (labelled "OSC B VOLUME"), press L4 button to highlight **PRE-JOYST.** setting, then rotate the DATA ENTRY encoder to change this setting from **YES (DRY)** to **NO (POST)**:_
+
+![](_img/OscPreJoystickV3.png)
+
+_For now, discrete B will output a possible blended (by joystick and/or by MIX ENVelope) audio signal (instead of an unmixed/pure audio signal)._
 
 ---
 
