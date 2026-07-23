@@ -212,7 +212,11 @@ Every output jack have its own LED, all green, the exception is **GATE** who are
 
 :warning: All **fast blinking red** LED indicates the _VX_ expander module is not "linked" to a parent _Vektor_ module!
 
-:information_source: As long as MIX ENVelope is OFF, both **GATE**, **ENV X**, and **ENV Y** LED glow red, indicating the constant 0V are not relevant! Exactly the same fact concerning LFO 1 and/or LFO 2, if disabled from _Vektor_ (PROGRAM context, 3rd page for LFO 1, 4th page for LFO 2), the related LFO LED glows red too (whatever if the jack connected, or not), indicating the LFO output voltage - 0V - is not relevant!
+The upper section, dedicated to _Vektor_'s LFO 1 and LFO 2, reports each LFO by bipolar -5V/+5V voltage, and can be used as CV to modulate any other module. In case of LFO is disabled from the _Vektor_ module, the relevant voltage is constant 0V on output jack, and its LED glows red, just to warn the user.
+
+The middle section, dedicated to _Vektor_'s physical joystick, constantly reports X and Y joystick coordinates by bipolar -5V/+5V voltages, and can be used as CV source for any other external module.
+
+The lower section, dedicated to _Vektor_'s MIX ENVelope, constantly reports X and Y coordinates while the MIX ENVelope is running, by bipolar -5V/+5V voltages. Also, while the MIX ENVelope is running, the GATE jack outputs +10V. However, as long as the MIX ENVelope is turned OFF, both **GATE**, **ENV X**, and **ENV Y** LED glow red, meaning the constant 0V applied on these output jacks are not relevant, just to warn the user.
 
 ---
 
