@@ -116,7 +116,7 @@ The _Vektor_ module permits to [import custom WAVE file](#waveformat) to any **U
 
 :warning: For user waveforms, **USER #1** to **USER #32** labels can't be changed.
 
-As module outputs, the most important in Vector Synthesis is the **MIX** output (always post-joystick or post MIX ENVelope), but the _Vektor_ module provides additional **A**, **B**, **C**, and **D** discrete oscillator outputs, useful as separate oscillators, or for particular FX processings. Every discrete OSC output may be either **pre-joystick** (or pre-MIX ENVelope), as dry/unmixed - it's the default setting, or **post-joystick** (or post-MIX ENVelope). This joystick/mix envelope routing can be set-up from every **OSC x VOLUME** page (3rd page, L5 button, from any oscillator context).
+As module outputs, the most important in Vector Synthesis is the **MIX** output (always post-joystick or post MIX ENVelope), but the _Vektor_ module provides additional **A**, **B**, **C**, and **D** discrete oscillator outputs, useful as separate oscillators, or for particular FX processings. Every discrete OSC output may be either **pre-joystick** (or pre-MIX ENVelope), as dry/unmixed - it's the default setting, or **post-joystick** (or post-MIX ENVelope). This joystick/mix envelope routing can be set-up from every **OSC x VOLUME** page (3rd page, **L4** button, from any oscillator context).
 
 Every output jack delivers a **mono audio signal** (10V peak-to-peak, -5V/+5V range, polyphonic), can be sent to a mixer (or VCV AUDIO output) module, to another module for specific FX processing, or as modulation source for other module(s) in your rack (modules who support FM, AM, ring modulation, or any you'd like).
 
@@ -505,9 +505,9 @@ For the first firmware version (v2.6.13), the _Vektor_ module is able to accept 
 
 ### BENEFITS OF DISCRETE OSCILLATOR OUTPUT JACKS<a name="discreteouts"></a>
 
-Even the **MIX** output jack is considered as the most important in Vector Synthesis universe, because all oscillators are constantly blended (manually by the joystick **or** by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only (without **MIX**), in this case you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module. It's the first advantage!
+Even the **MIX** output jack is considered as the most important in Vector Synthesis universe, because all oscillators are constantly blended (manually by the joystick **or** by applied voltages on both **X** and **Y** input jacks, and possibly by the MIX ENVelope). But by using discrete A, B, C, and D output jacks only (without **MIX**), in this case you get **four independent oscillators** (or sound sources), whatever the Vector Synthesis state of the module. It's the first benefit!
 
-As second advantage, you'll can apply particular FX processing on discrete A, B, C, and/or D output signal(s), like delays or reverbs, and use it/them together with the **MIX** output jack. All of these outputs can be used at the same time, like you want, either as final audio output, or as modulation source for another module (such ring modulation).
+As second benefit, you are able to apply particular FX processing on discrete A, B, C, and/or D output signal(s), like delays or reverbs, and use it/them together with the **MIX** output jack. All of these outputs can be used at the same time, like you want, either as final audio output, or as modulation source for another module.
 
 By default, discrete oscillator outputs are unmixed (pre-joystick / pre-MIX ENVelope, similar to a "dry" audio signal), but it's possible - from relevant oscillator context, 3rd page (labelled **OSC x VOLUME**), the **PRE-JOYST.** setting along **L4** button permits to set as post-joystick / post-MIX ENVelope, instead, to get a blended oscillator signal, in case you'll need it for further usage (like separate FX processing).
 
