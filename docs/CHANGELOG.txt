@@ -2,7 +2,7 @@
 CHANGELOG
 ==============================================================================================================================
 
-Pre-Release v2.6.13 BETA (July 22nd, 2026) for VCV Rack 2.
+Pre-Release v2.6.13 BETA (July 23rd, 2026) for VCV Rack 2.
 
 - Introducing Vektor module, 16HP polyphonic digital waveform-based quad-VCO, using Vector Synthesis (VS).
 - Introducing VX, 3HP right-side expander for Vektor, to bring discrete LFO, joystick and MIX ENVelope outputs (with gate).
