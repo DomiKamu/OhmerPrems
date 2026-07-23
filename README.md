@@ -79,7 +79,7 @@ Like free Open Source **Ohmer**, and some OhmerPrems modules, KlokSpid MkII come
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
-:warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free/Trial", instead of as full version). Free/Trial version is limited to edit fourth first tracks (BD, SD, CH, and OH), and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 drum machines are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) have more feature limitations (indicated in the Quick Guide).
+:warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free/Trial", instead of as full version). Free/Trial version is limited to edit fourth first tracks (BD, SD, CH, and OH), and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 drum machines are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) may have more feature limitations (indicated in the Quick Guide).
 
 [Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](docs/modules/FroeZe/Manual.md)
 
@@ -150,7 +150,7 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 
 :warning: **No sound for particular drum machine + drum kit is meaning you don't have a license (V2) keyfile (while the module is running as "Free", instead of "Full"). Free version is limited to only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 (all other drum machines are muted, it's normal)**.
 
-However, you are able to _preview_ ANY sound, but by **disconnecting trigger input cable first** on related channel. While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine. It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free", to have a chance to try all drum machines/drum kits sounds, at any engine's samplerate inside 44.1kHz to 192kHz range. When the channel input is patched, the preview feature is disabled for related channel.
+However, you are able to _preview_ ANY sound, but by **disconnecting trigger input cable first** on related channel. While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine. It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free/Trial", to have a chance to listen all drum machines/drum kits sounds, at any engine's samplerate inside 44.1kHz to 192kHz range. When the channel input is patched, the preview feature is disabled for related channel.
 
 All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
 
