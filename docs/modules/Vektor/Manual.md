@@ -87,7 +87,7 @@ Also, an another important aspect of the MIX ENVelope are timings (in millisecon
 
 ### CABLE & LED COLORSCHEME CONVENTION<a name="colorscheme"></a>
 
-Following convention is used by the developer, and mainly follows the convention used by the youtuber Mr. Ohri Cohen, for cable colors usage. Also, the LED colorscheme used by both _Vektor_ and _VX_ modules follow this convention:
+Following convention is used by the developer, and mainly follows the convention used by an influencer on YouTube (I won't mention his name, as long as he boycotts my modules, however), for cable colors usage. Also, the LED colorscheme used by both _Vektor_ and _VX_ modules follow this convention:
 
 - Yellow, for V/OCT and pitch-based (used once by **V/OCT** input jack, on _Vektor_ module).
 - Blue, for triggers and gates (used by **GATE** input jack on _Vektor_ module, and **GATE** output jack on _VX_ expander).
