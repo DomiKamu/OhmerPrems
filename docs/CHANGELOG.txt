@@ -11,7 +11,7 @@ Pre-Release v2.6.13 BETA (July 23rd, 2026) for VCV Rack 2.
 - FroeZe module: changed "createPatchStorageDirectory()" by "getPatchStorageDirectory() from "onAdd()" event handler.
 - FranKe module: added "Random" tag (due to Turing Machine tracks + possible random voltages in modulation tracks).
 - FranKe module: fixed module description (previous mentions "99-pattern" instead of "64-pattern", by error!).
-- KlokSpid MkII: frequency display was rewrote from scratch, initial may cause crashes on rack open!
+- KlokSpid MkII: frequency display was rewrote from scratch, initial may cause crashes on rack open (via autosave).
 
 ------------------------------------------------------------------------------------------------------------------------------
 
