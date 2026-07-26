@@ -1,8 +1,4 @@
-# FRANKE: USER'S MANUAL (UNDER CONSTRUCTION)
-
-
-![](_img/AnimFranKeModelsV2.gif)
-
+# FRANKE USER'S MANUAL (UNDER CONSTRUCTION)
 
 ### TOPICS
 
@@ -19,6 +15,9 @@
 - [**CLOCK SOURCE**](#clocking)
 - [**FIRST AND LAST STEPS**](#firstlaststep)
 - [**STEP-RECORDING**](#steprec)
+
+_All 8 models (panel theme variants) for FranKe module:_
+![](_img/AnimFranKeModelsV2.gif)
 
 ---
 
@@ -81,11 +80,11 @@ Following explanations in the remaining of this manual will assume you're using 
 
 ### TECHNICAL CONSTRAINTS<a name="technical"></a>
 
-Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _presets_ (.vcvm) and _module selections_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't natively supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained later in this manual, you'll can save/load a particular pattern. Also, you'll can save (and load) any track to/from separate file, whatever its role (this include any Turing Machine track).
+Due to limitation by current VCV Rack 2 API (v2.6.6, today), unfortunately _FranKe_ module doesn't support _Preset_ (.vcvm) and _Module selection_ (.vcvs) files features, as long as _onSave()_ and _onAdd()_ C++ methods aren't natively supported for both preset and module selection files. However, you'll can save (and load) whole sequencer state "as-is" to/from separate file, like you can do for any document (also, as explained later in this manual, you'll can save/load a particular pattern. Also, you'll can save (and load) any track to/from separate file, whatever its role (this include any Turing Machine track).
 
-Due to important amount of saved datas, _FranKe_ module is using a **packed binary file** (instead of json who are causing signifiant lags during VCV Rack's autosave feature, who occur every 15 seconds). Also, the binary format is, strangely more efficient for data integrity checkings (the binary file is always checked after save, and saved again if necessary, upto five attempts).
+Due to important amount of saved datas, _FranKe_ module is using a **packed binary file** (instead of json who may cause signifiant lags during VCV Rack's autosave feature, occuring every 15 seconds). Also, the binary format is, strangely more efficient for data integrity checkings (the binary file is always checked after save, and saved again if necessary, upto five defered attempts).
 
-All file operations are using file encryption and compressions algorithms, and strong _cryptographic hashing_ checking functions.
+All file operations are using file encryption and compressions algorithms, and strong _cryptographic hashing_ checking functions to avoid hex patching!
 
 ---
 
