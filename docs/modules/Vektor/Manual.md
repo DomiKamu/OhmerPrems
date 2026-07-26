@@ -257,10 +257,13 @@ Program is a kind of _synthesizer preset_, identified either by a number (from *
 
 To select a context (except PROGRAM), press the related button (A, B, C, D, or MIX) when its LED is off: _Vektor_ is switched to the new context, and its LED glows red (lit).
 
-_Animation showing how-to select oscillator A context, from PROGRAM:_
-![](_img/ContextDemo.gif)
+_Animation showing how-to select oscillator A context, from PROGRAM context:_
+![](_img/ContextDemo1.gif)
 
 To select the PROGRAM context, press the button **where the LED is already glowing red**, by this way, all LED of the group are turned off, indicating the _Vektor_ module now is switched to PROGRAM context.
+
+_Animation showing how-to select PROGRAM context, from oscillator A context:_
+![](_img/ContextDemo2.gif)
 
 Except for the **MIX** context (default display for its first page is the MIX ENVelope trajectory, aka _vectors_), oscillator and program contexts is also visible on top of the OLED display (**OSC A WAVEFORM**, **OSC B WAVEFORM**, **OSC C WAVEFORM**, **OSC D WAVEFORM**, or **PROGRAM**), as "header" of their respective first/home page.
 
