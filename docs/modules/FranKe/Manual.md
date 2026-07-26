@@ -32,9 +32,9 @@ Tracks are versatile, any track may have one of following role:
 - Modulation track (also named **CV OUT** track) who can send sequenced voltages of your choice, or random (from -10V to +10V range, by 0.01V resolution).
 - 16-bit Turing Machine track, useful for generative patches.
 
-Please consider a track role is always common to all 64 patterns.
+Please consider a track role is always common for all 64 patterns.
 
-By default as fresh module added in your rack, or after **Initialize** command from module's right-click context menu (**Ctrl**+**I** / **Cmd**+**I** on Mac, as keyboard shorcut), tracks 1 to 5 are **melodic tracks** (all steps are filled by C4 notes with 100% maxed velocities, 50% gates, quarter note as note subdivision, 100% chance), tracks 6 and 7 are **modulation tracks** (also named **CV OUT** tracks) who send sequenced voltages (all steps are filled by 0V, 50% gates, quarter note as subdivision, and 100% chance), and track 8 is defined as **16-bit Turing Machine** (TM) track, with a random locked sequence (16-bit as sequence lenght, 100% voltage scale, floor octave 4, no quantization, 50% gate, no delay, speed x1 of the module's tempo).
+By default as fresh module added in your rack, or after **Initialize** command from module's right click context menu (**Ctrl**+**I** / **Cmd**+**I** on Mac, as keyboard shorcut), tracks 1 to 5 are **melodic tracks** (all steps are filled by C4 notes with 100% maxed velocities, 50% gates, quarter note as note subdivision, 100% chance), tracks 6 and 7 are **modulation tracks** (also named **CV OUT** tracks) who send sequenced voltages (all steps are filled by 0V, 50% gates, quarter note as subdivision, and 100% chance), and track 8 is defined as **16-bit Turing Machine** (TM) track, with a random locked sequence (16-bit as sequence lenght, 100% voltage scale, floor octave 4, no quantization, 50% gate, no delay, speed x1 of the module's tempo).
 
 ![](_img/AnimTrackRolesV2.gif)
 
@@ -64,11 +64,11 @@ The Free/Trial version permits to evaluate most module's features, freely, but w
 
 About Free/Trial, they're two possible scenarios:
 
-- **Scenario 1:** You're loading a shared patch (.vcv file) made by an OhmerPrems member (who are using full version), and his patch embeds one (or many) _FranKe_ module instance(s): all of these instances are working as **full player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback via momentary buttons (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's right-click context menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed, because the loaded patch structure was defined by its author.
+- **Scenario 1:** You're loading a shared patch (.vcv file) made by an OhmerPrems member (who are using full version), and his patch embeds one (or many) _FranKe_ module instance(s): all of these instances are working as **full player**, meaning these modules are able to playback without any restriction. However, **everything** is locked against edition, including MUTE and SOLO states (individual and global), reverse and pendulum playback via momentary buttons (who affect the selected track only), track role, randomizations, module reset (via **Initialize** command from module's right click context menu, or **Ctrl**+**I** / **Cmd**+**I** on MacOS X, as keyboard shortcut), pattern/track copy/paste operations, and file operations. All settings from the module's SETUP cannot be changed, because the loaded patch structure was defined by its author.
 
 - **Scenario 2:** You add a new instance of _FranKe_ module in any rack: from the "fresh" added module, patterns from 03 to 64 can't be selected/reached (either by potentiometer, or by voltage/triggers). From patterns 01 and 02, **only tracks 1 and 2 events can be edited**, all other tracks (from 3 to 8) are locked against edition. **PITCH outputs for tracks 3 to 8 send constant -10V**. Both CV1 and CV2 may be assigned (from module's SETUP), but their actions may impact tracks 1 and 2 only. Turing Machine sequences on tracks 1 and track 2 can be edited and saved (and later, loaded but to track 1 or 2 only). Track role (via **TRK. ROLE** momentary button) can be changed for tracks 1 and 2 only. All others many still locked/disabled, until you'll become OhmerPrems member!
 
-:warning: In all cases, the extra right-click context menu is hidden while the module runs either as Player and as Free/Trial.
+:warning: In all cases, the extra right click context menu is hidden while the module runs either as Player and as Free/Trial.
 
 All stuff made on _FranKe_ module is always saved and recalled at least by VCV Rack 2's autosave feature (occurs every 15 seconds) and by your .vcv patch files, including Turing Machine states (whatever locked, or not, as explained in TURING MACHINE section, later).
 
