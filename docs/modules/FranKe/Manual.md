@@ -29,8 +29,8 @@ _FranKe_ (a tribute to [Christopher Franke](https://en.wikipedia.org/wiki/Christ
 
 Tracks are versatile, any track may have one of following role:
 - Melodic track, by using notes (from **C-1** to **G9**) with possible flat/sharp accidentals.
-- Modulation track (also named **CV OUT** track) who can send sequenced voltages of your choice, or random (from -10V to +10V range, by 0.01V resolution).
-- 16-bit Turing Machine track, useful for generative patches.
+- Modulation track (also named **CV OUT** track) who can send sequenced voltages of your choice, or random (from -10V to +10V range, by 0.01V resolution). "+10.01V"-equivalent will generate a random voltage.
+- 16-bit Turing Machine track, useful for random and generative patches.
 
 Please consider a track role is always common for all 64 patterns.
 
