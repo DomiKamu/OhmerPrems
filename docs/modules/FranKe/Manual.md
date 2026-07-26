@@ -46,15 +46,13 @@ Each track (row, also "line") have its own **PITCH**, +10V **GATE**, and (option
 
 :warning: Please keep in mind the _FranKe_ module **is not an instrument**, but a voltage-based (analog) step-sequencer, who sends pitch voltages ("V/Oct" compliant) or free voltages (including random), 0V/+10V gates, and possibly velocities voltages, in order to control other modules, such VCO, synth voice, enveloppe generator, VCA, VCF, or... any module you'll want to control via sequenced velocities. Please read [**OUTPUT JACKS**](#outputs) topic for more details...
 
-Like future (still in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), and [Vektor VCO module](../6OP-DX/Manual.md), _FranKe_ provides 8 different models (aka panel variants), shown as animation top of this User's Manual. Model is compliant against **Prefer dark panels if available** VCV Rack's setting (from **View** menu) as proposal, from module browser. Existing models are **Aluminium**, (it's the default model if _Prefer dark panels if available_ setting is disabled/unchecked), **Stage Repro** (red theme), **Cobalt** (blue theme), **Absolute Night** (it's the default model if _Prefer dark panels if available_ setting is enabled/checked), **Dark "Signature"**, **Fort Knox "Signature"**, **Oxide "Signature"**, and **Titanium "Signature"**.
+Like future (still in development) [6OP-DX synth voice module](../6OP-DX/Manual.md), and [Vektor VCO module](../Vektor/Manual.md), the _FranKe_ module provides 8 different models (aka panel variants), shown as animation top of this User's Manual. Model is compliant against **Prefer dark panels if available** VCV Rack's setting (from **View** menu) as proposal, from module browser. Existing models are **Aluminium**, (it's the default model if _Prefer dark panels if available_ setting is disabled/unchecked), **Stage Repro** (red theme), **Cobalt** (blue theme), **Absolute Night** (it's the default model if _Prefer dark panels if available_ setting is enabled/checked), **Dark "Signature"**, **Fort Knox "Signature"**, **Oxide "Signature"**, and **Titanium "Signature"**.
 
 All four "Signature"-line models embed **gold metal** jacks, momentary buttons, and screws, 8 **OLED** touchscreens, OLED mini-display for current pattern number.
 
 All four Non-"Signature" models embed **silver metal** jacks, momentary buttons, and screws, and 8 **LCD** touchscreens, LCD mini-display for current pattern number. _Absolute Night_ is a lone model who provides a **dimmable yellow-backlit LCD** displays, however. Bright/dim can be toggled by clicking over the "Ohmer logo" as hotspot - indicated by the animation above).
 
 Obviously, all models are providing exactly the same features!
-
-:information_source: _FranKe_ module is available as final (v1.0) version since OhmerPrems plugin v2.6.12, but it will be enhanced later!
 
 ---
 
