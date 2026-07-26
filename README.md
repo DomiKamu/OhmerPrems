@@ -49,11 +49,13 @@ Following animation is showing **all 8 models** (GUI theme variants) of _Vektor_
 ![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
 ----
-## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment, not yet published!)
+## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment, hidden panels on MacBook. Not yet published!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module will be included into a future plugin release (planned for future **v2.6.14** or **v2.6.15**), I'm sorry for this delay. This module will be "free for everyone" (it will work as full version, whatever you're owner of a license V2 keyfile, or not). Thanks for your understandings!
+6OP-DX module will be included into a future plugin release (planned for future release, but no given delay at the moment), I'm sorry for this delay. This module will be "free for everyone" (it will work as full version, whatever you're owner of a license V2 keyfile, or not). Thanks for your understandings!
+
+At the moment, for unknown reason, the 6OP-DX panels are "hidden" on many MacBook computers (VCV Rack 2 v2.6.6 is impacted by this issue)... Waiting for fix for VCV Rack 2 about this graphic issue for these computers!
 
 ----
 
