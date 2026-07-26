@@ -24,7 +24,7 @@
 _All 8 models (panel theme variants) for Vektor module, and its attached VX expander:_
 ![](_img/AnimVektorModelsV3.gif)
 
-All four "Signature"-line models (from 5th, Dark "Signature") embed **gold metal** jacks, momentary buttons, and screws. All four Non-"Signature" models (from first Aluminium) embed **silver metal** jacks, momentary buttons, and screws, instead.
+All four "Signature"-line models (from 5th, Dark "Signature") embed **gold metal** jacks, momentary buttons, and screws. All four Non-"Signature" models (from first Aluminium) embed **silver metal** jacks, momentary buttons, and screws, instead. Obviously, all proposed models are providing exactly the same features!
 
 ---
 
