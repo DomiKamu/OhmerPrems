@@ -167,7 +167,7 @@ Outputs provided by the _VX_ expander module:
 - OSCillators frequency modulation: by external FM/PM, by internal LFO 1, by internal LFO 2. Per oscillator, and per program.
 - Frequency response: 10 octaves, from 16.352Hz (C0) to 15804.416Hz (B9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
-- DAC resolution: 12-bit.
+- DAC resolutions: 12-bit (original), 16-bit (maximum).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 5 (MIX, A, B, C, D).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
@@ -193,11 +193,11 @@ Outputs provided by the _VX_ expander module:
 
 ### DISCLAIMER: VCV RACK 2 "PRESET" LIMITATIONS<a name="presetlimitations"></a>
 
-:warning: Due to **important amount of datas by using custom WAVE files as USER waveforms** (each waveform represents **4096 bytes**, twice in json files, because all numerical values for every sample are hex-coded as plain text), by this way, the "100 kilobytes limit recommendation" for json serialization - as indicated by VCV Rack manual - can be reached very quickly). The absence of "patch storage" for preset files (.vcvm) is really problematic - unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific functions or "flags" to distinguish preset save file versus regular patch save file!
+:warning: Due to **important amount of datas by using custom WAVE files (as USER waveforms)**, each waveform represents **8192 bytes** in json files, because all hex values for every sample are hex-coded as plain text. By this way, the "100 kilobytes limit recommendation" for json serialization, as indicated by VCV Rack manual, can be reached very quickly. The absence of dedicated "patch storage" for preset files (.vcvm) and module selection files (.vcvs) is really problematic. Unfortunately, it's a bad VCV Rack 2 limitation (I guess). Also, VCV Rack 2 doesn't provide specific C++ functions/methods (or flags/variables) to distinguish a preset save file versus a regular patch save file.
 
-To be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file (including autosave, occuring every 15-second), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods).
+However, in order to be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file as 8192-byte hexadecimal string, including autosave (occuring every 15 seconds), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods only designed for regular .vcv patch files).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. From 9 (and more) imported waveforms, the WARNING (orange) LED at the bottom of the module (WARN./ERR. section, below the joystick) is **blinking orange** (twice per second) to inform you it's risky about important amount of datas stored to json file (.vcv patch file, .vcvm preset file, .vcvs module selection file, or autosave file). Do not forget you'll can clear (free) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), then browsing to unused waveform. In this case, the module's right click menu offers a command to clear (free) the current user waveform slot (grayed if the slot isn't used).
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. From the 9th imported waveforms, the **WARN./ERR.** large LED at the bottom of the module (located below the joystick) is **blinking orange**, twice per second, to inform you it's risky about important amount of datas stored to json file (.vcv patch file, .vcvm preset file, .vcvs module selection file, or autosave). Do not forget you'll can clear (free) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), then browsing to unused waveform by rotating the **DATA ENTRY** continuous encoder. When applicable, the module's right click menu offers a specific menu entry to clear (free) the current user waveform slot (the menu entry is grayed/disabled if the slot is already unused/clear).
 
 ---
 
@@ -241,8 +241,8 @@ They're exactly 6 contexts. Each context is represented by the red LED above its
 
 Contexts are:
 
-- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D context, when its corresponding LED above the button glows red.
-- **MIX**, covers all the aspects of the MIX ENVelope feature, when the LED above the MIX button glows red.
+- **A**, **B**, **C**, and **D**, for related oscillator A, B, C, or D context, when its corresponding LED above the button is lit (glows red).
+- **MIX**, covers all the aspects of the MIX ENVelope feature, when the LED above the MIX button is lit (glows red).
 - **PROGRAM**, concerns program selection and settings for selected program, when **all LED of the group are off**.
 
 Any oscillator-based context (A, B, C, or D) permits:
@@ -255,7 +255,10 @@ The MIX context permits to edit (or to view) all the parameters concerning the M
 
 Program is a kind of _synthesizer preset_, identified either by a number (from **01** to **16**) also by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth and mode (TZ FM, or PM), LFO 1 settings, and LFO 2 settings.
 
-To select a context (except PROGRAM), press the related button (A, B, C, D, or MIX) when its LED is off: _Vektor_ is switched to the new context, and its LED glows red.
+To select a context (except PROGRAM), press the related button (A, B, C, D, or MIX) when its LED is off: _Vektor_ is switched to the new context, and its LED glows red (lit).
+
+_Animation showing how-to select oscillator A context, from PROGRAM:_
+![](_img/ContextDemo.gif)
 
 To select the PROGRAM context, press the button **where the LED is already glowing red**, by this way, all LED of the group are turned off, indicating the _Vektor_ module now is switched to PROGRAM context.
 
