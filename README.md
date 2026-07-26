@@ -3,10 +3,10 @@
 *OhmerPrems* is both Premium (**full version** modules for customers only, or as "Free/Trial" otherwise) and some free modules for everyone, for VCV Rack 2.
 
 *OhmerPrems* plugin is a set of 7 modules (4 are fully operational), plus 5 as _expander_ modules:
-- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but ready for bases of usage).
+- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but ready for bases of this sequencer usage & good starting!).
 - **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). [**Vektor User's Manual** incl. **VX** expander](docs/modules/Vektor/Manual.md) (_Vektor_ module is available as [**pre-release v2.6.13 BETA**](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13), planned as future stable release v2.6.13 during second week of August 2026).
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
-- **6OP-DX** is a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**still under development**).
+- **6OP-DX** is a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers, still under development**).
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit mini-display shows **-** **-**).
@@ -26,7 +26,7 @@ Lastest stable version **v2.6.12** is available from [_Releases_](https://github
 ----
 ## **FranKe module**
 
-[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for bases of module usage, however).
+[Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for bases of this sequencer usage & good starting, however).
 
 Developed to OhmerPrems member (since 2019), needs for his specific projects, FranKe is a **16-step 8-track 64-pattern analog step-sequencer**, who are using versatile tracks: a track can have one role (from possible three, can be changed anytime you'll want):
 - as melodic track, who are using quantized notes, octaves, accidentals, and velocities.
@@ -49,7 +49,7 @@ Following animation is showing **all 8 models** (GUI theme variants) of _Vektor_
 ![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
 ----
-## **Work-in-Progress (postponed for weeks, no delay) module: 6OP-DX** (No sound to outputs at the moment, hidden panels on MacBook. Not yet published!)
+## **Work-in-Progress (postponed development) module: 6OP-DX** (panels display issues on many  MacBook. Not yet published!)
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
