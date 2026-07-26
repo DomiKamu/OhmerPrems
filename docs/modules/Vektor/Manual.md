@@ -318,7 +318,7 @@ Allowed character set for **.vktProgram** filenames (also used for program names
 - Plus (+)
 - Underscore (_)
 - Equals sign (=)
-- Period (.) - **please avoid it as leading character** (Linux and MacOS X operating systems consider these files as hidden!)
+- Period (.) - **please avoid it as leading character**, because Linux and MacOS X operating systems consider these files as hidden!
 - Round brackets (parentheses)
 - Square brackets
 - Exclamation mark (!)
