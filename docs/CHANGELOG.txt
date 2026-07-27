@@ -2,7 +2,7 @@
 CHANGELOG
 ==============================================================================================================================
 
-Pre-Release v2.6.13 BETA (July 25th, 2026) for VCV Rack 2.
+Pre-Release v2.6.13 BETA (July 27th, 2026) for VCV Rack 2.
 
 - Introducing Vektor module, 16HP polyphonic digital waveform-based quad-VCO, using Vector Synthesis (VS).
 - Introducing VX, 3HP right-side expander for Vektor, to bring discrete LFO, joystick and MIX ENVelope outputs with gate.
@@ -12,6 +12,8 @@ Pre-Release v2.6.13 BETA (July 25th, 2026) for VCV Rack 2.
 - FranKe module: added "Random" tag, due to Turing Machine track(s), plus possible random voltages from modulation track(s).
 - FranKe module: fixed module description (previous mentions "99-pattern" by error, instead of "64-pattern").
 - KlokSpid MkII: frequency display routine was rewrote from scratch, initial may cause crashes on rack open (via autosave).
+- KlokSpid MkII, KX: two new "models" (panel/theme variants): Cobalt, and Oxide "Signature".
+- All modules: using different panel display algorithm: now loaded on demand (instead of preloaded as SvgPanel pointers).
 
 ------------------------------------------------------------------------------------------------------------------------------
 
