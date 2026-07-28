@@ -2,7 +2,7 @@
 
 *OhmerPrems* is a commercial plugin designed for VCV Rack 2, it embeds both **Premium** modules (**full version** modules for customers who have a valid license keyfile, or as "Free/Trial" with limitations, otherwise), and also some free modules for everyone (license keyfile is not required to run them as full version). Source code is closed (not published).
 
-:warning: Please check both **Free version** and **Full version** topics, by clicking [this link!](#freevsfull).
+:warning: Please check both **Free version** and **Full version** topics, by following [this link](#freevsfull) (near bottom of this page).
 
 *OhmerPrems* plugin is a set of 7 modules (4 are fully operational), plus 5 as _expander_ modules:
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
