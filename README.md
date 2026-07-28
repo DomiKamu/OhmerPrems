@@ -290,11 +290,11 @@ To become *OhmerPrems* member, simply send me **15 euros** via PayPal.Me. If req
 ## Summer 2026: please consider the 15 euros fee remains very fair! (this fee will not change during 2026, however).
 
 **Very important: don't forget to indicate:**
-- your first and last name (personal name only, company name or nickname isn't accepted).
-- your email address (preferabely used to access to VCV Library), required to send your personal license key, instructions, and possible future communications about updates. Your email address stays strictly private!
-- also in the body of the message, please specify **OhmerPrems member** (or something similar) to avoid possible confusions!
+- your first and last name (personal name only, **company name or nickname aren't accepted**).
+- your email address (preferabely used to access to VCV Library, or a reliable permanent email address), required to send your personal license key, instructions to install it, and possible future communications about important updates. Your name and email address stays strictly private!
+- also in the body of the message, please specify **OhmerPrems** (or something similar), to avoid possible confusions!
 
-New subscription requires 24 hours max. (generally less, couple of hours, sometimes after... minutes!) after PayPal notification. Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**. Thanks for your understanding!
+New subscription requires 24 hours max. (generally less, couple of hours, sometimes delivered after... minutes!), after PayPal payment notification. Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**. Thanks for your understanding!
 
 ----
 
