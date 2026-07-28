@@ -2,6 +2,8 @@
 
 *OhmerPrems* is a commercial plugin designed for VCV Rack 2, it embeds both **Premium** modules (**full version** modules for customers who have a valid license keyfile, or as "Free/Trial" with limitations, otherwise), and also some free modules for everyone (license keyfile is not required to run them as full version). Source code is closed (not published).
 
+:warning: Please check both **Free version** and **Full version** topics, by clicking [this link!](#freevsfull).
+
 *OhmerPrems* plugin is a set of 7 modules (4 are fully operational), plus 5 as _expander_ modules:
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
 - **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). [**Vektor User's Manual** incl. **VX** expander](docs/modules/Vektor/Manual.md) (_Vektor_ module is available as [**pre-release v2.6.13 BETA**](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13), planned as future stable release v2.6.13 during second week of August 2026).
@@ -261,17 +263,18 @@ QuadPercs module is available from OhmerPrems plugin, as both:
 
 Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz up to 192kHz engine's samplerates.
 
-Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 instruments!**, from 44.1kHz up to 192kHz engine's samplerates.
+Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 drum kits!**, from 44.1kHz up to 192kHz engine's samplerates.
 
-KordZ module remains unfinished. Presentation coming later...
+Finally, the _KordZ_ module remains unfinished. Concise presentation coming later...
 
 ----
 
-## Free version
+## Free version<a name="freevsfull"></a>
 
-Free *OhmerPrems* plugin is available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page from this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file), but also from VCV Library for lastest stable release, for automatic installation / updates.
 
-Without a personal license keyfile, some modules (FranKe, FroeZe / FroeZe-X / FroeZe-SX, and QuadPercs) work as "free" limited trial (features limitations), instead of full version (see below).
+Unlike by VCV Store where you'll must buy to test, at least free/trial *OhmerPrems* plugin is available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page from this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file). Also, lastest stable plugin release is available from VCV Library, for assisted installation or update.
+
+Without a personal license keyfile, some modules (FranKe, FroeZe / FroeZe-X / FroeZe-SX, and QuadPercs) work as "Free/Trial" with features limitations, instead of full version (see below).
 
 ----
 
