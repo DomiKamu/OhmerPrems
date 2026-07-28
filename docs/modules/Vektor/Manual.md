@@ -340,8 +340,8 @@ To load a program (right click context menu method):
 
 To load a program (file drag and drop method):
 - Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the LED above glows red**.
-- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
-- Drag the relevant **.vktProgram** file, then drop it over the module.
+- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the **.vktProgram** file is stored.
+- Drag the relevant **.vktProgram** file, then drop it anywhere over the module.
 
 :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error cause is shown on the OLED display (press any momentary button to acknowledge the error condition).
 
@@ -432,7 +432,7 @@ To load a saved mix envelope (right click context menu method):
 To load a saved mix envelope (file drag and drop method):
 - Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
-- Drag the relevant **.vktMixEnv** file, then drop it over the module, that's all.
+- Drag the relevant **.vktMixEnv** file, then drop it anywhere over the module.
 
  :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
@@ -481,10 +481,11 @@ To import a custom WAVE file to USER WAVEFORM slot (right click context menu met
 
 To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
 - Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D**. If not, press the relevant oscillator context button **only if its LED above is off**.
+- By rotating DATA ENTRY continuous encoder, select the slot number (from 000 to 031).
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the WAVE file is.
-- Drag the relevant **.wav** file, then drop it anywhere over the module.
+- Drag the relevant **.wav** file, then drop it anywhere over the module, the imported waveform is immediately active.
 
-:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error cause is displayed, until you press any button (to acknowledge the error condition).
+:warning: In case of file operation failure, the **WARN./ERR.** large LED (below the joystick) is **blinking red** (twice per second), and a related error cause is displayed, until you press any button (to acknowledge the error condition).
 
 :warning: You'll cannot import a WAVE file over built-in ROM waveform (labelled **032. SINE** to **127. WHITE NOISE**), otherwise this generate an error condition.
 
