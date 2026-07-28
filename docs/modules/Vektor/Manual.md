@@ -328,19 +328,19 @@ Allowed character set for **.vktProgram** filenames (also used for program names
 - At (@)
 - Tilde (~)
 
-To save a program:
-- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the LED above glows red**.
+To save the current program settings to a **.vktProgram** file:
+- Be sure the _Vektor_ module's context is set to **PROGRAM**. If not, click the context button **where the LED above glows red**.
 - Do a right-mouse click over the module. From the menu, select **Program #xx**, then **Save to .vktProgram file** (xx is the current program number).
-- From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button.
+- From **Save As** dialog, choose the path where you'd like to save the file, then enter its filename, then click _Save_ button.
 
-To load a program (right click context menu method):
-- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the LED above glows red**.
+To load a saved program file to current program (right click context menu method):
+- Be sure the _Vektor_ module's context is set to **PROGRAM**. If not, click the context button **where the LED above glows red**.
 - Do a right-mouse click over the module. From the menu, select **Program #xx**, then **Open from .vktProgram file** (xx is the current program number).
-- From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
+- From **Open** dialog, browse the path where the **.vktProgram** file is stored, select its filename, then click _Open_ button.
 
-To load a program (file drag and drop method):
-- Be sure the _Vektor_ module's context is PROGRAM. If not, click the context button **where the LED above glows red**.
-- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the **.vktProgram** file is stored.
+To load a saved program file to current program (file drag and drop method):
+- Be sure the _Vektor_ module's context is set to **PROGRAM**. If not, click the context button **where the LED above glows red**.
+- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), browse the folder where the **.vktProgram** file is stored.
 - Drag the relevant **.vktProgram** file, then drop it anywhere over the module.
 
 :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error cause is shown on the OLED display (press any momentary button to acknowledge the error condition).
@@ -415,23 +415,23 @@ They're 4 rates:
 
 :warning: When enabled, the MIX ENVelope is **always retriggered** on every new incoming "high gate" (in particular for polyphony). This behavior is normal.
 
-Current MIX ENVelope can be saved to **.vktMixEnv** file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved and recalled.
+Current MIX ENVelope settings can be saved to **.vktMixEnv** file, then loaded later to any program of you choice! Only point positions, rates and loop settings are saved and recalled (the ON/OFF state of the MIX ENVelope - for current program - is never saved/recalled to/from **.vktMixEnv** file).
 
-:warning: The ON/OFF state of the MIX ENVelope is never saved or recalled (stay unchanged if you load an envelope file). Please remember you'll can enable (or disable) the MIX ENVelope quickly by pressing the **ENV** (toggle) button, located just above the MIX output jack.
-
-To save the current MIX ENVelope to a **.vktMixEnv** file:
+To save the current MIX ENVelope settings to a **.vktMixEnv** file:
 - Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
 - Do a right-mouse click over the module. From the menu, select **MIX ENVelope**, then **Save to .vktMixEnv file** command.
-- From **Save As** dialog, select the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
+- From **Save As** dialog, choose the path where you'd like to save the file, then enter its filename, then click _Save_ button. Unlike programs, filenames for mix envelope is restricted only by the operating system you are using (like any document).
 
-To load a saved mix envelope (right click context menu method):
+To load a saved MIX ENVelope settings to current program (right click context menu method):
+- First, select the related program (from **PROGRAM** context) where the settings will be loaded.
 - Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
 - Do a right-mouse click over the module. From the menu, select **MIX ENVelope**, then **Open from .vktMixEnv file** command.
-- From **Open** dialog, select the path where the file is located, select its filename, then click _Open_ button.
+- From **Open** dialog, browse the path where the **.vktMixEnv** file is stored, select its filename, then click _Open_ button.
 
-To load a saved mix envelope (file drag and drop method):
+To load a saved MIX ENVelope settings to current program (file drag and drop method):
+- First, select the related program (from **PROGRAM** context) where the settings will be loaded.
 - Be sure the _Vektor_ module's context is set to **MIX**. If not, press the MIX context button **only if its LED above is off**.
-- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the file is.
+- From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), browse the folder where the **.vktMixEnv** file is stored.
 - Drag the relevant **.vktMixEnv** file, then drop it anywhere over the module.
 
  :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
