@@ -302,13 +302,13 @@ To select a different program:
 - Rotate clockwise the **DATA ENTRY** continuous encoder to select next program (cycle to 01 if the current program number was 16).
 - Rotate counter-clockwise the **DATA ENTRY** continuous encoder to select previous program (cycle to 16 if the current program number was 01).
 
-Also, you'll can control the program select (similar to _MIDI Program Change_) in realtime, by applying a voltage to **PROG.** input jack (can be done by an analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V voltage). Voltage must fit into +1V ~ +8.5V range (each 0.5V step selects next program, from **01** to **16**). The **PROG.** input jack, of course, is working whatever the current module's context!
+Also, you'll can control the program select (similar to _MIDI Program Change_) in realtime, by applying control voltage to **PROG.** input jack (can be done by any analog sequencer, such FranKe, or any module capable to deliver unipolar 0V/+10V voltage). Voltage must fit into +1V ~ +8.5V range (each +0.5V step selects next program, from **01** to **16**). The **PROG.** input jack is operating whatever the current module's context!
 
 :warning: **Applied voltages on PROG. input jack below +1V (including negative voltages) are ignored, to avoid unwanted program changes! Also, any voltage above +8.5V always selects program #16.**
 
-Obviously, all programs are fully editable (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file with related name, and loaded later (to any program number of your choice) from saved **.vktProgram** file.
+All programs are fully editable, each can be saved to external **.vktProgram** (_Vektor PROGRAM file_) with related name, and when needed, loaded later (to any program number of your choice) from saved **.vktProgram** file.
 
-:information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
+:information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters are specified as filename, the new program name is "truncated to fit in display" to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new displayed program name. However, the filename itself is not affected.
 
 Allowed character set for **.vktProgram** filenames (also used for program names) is:
 - Any latin letters: A..Z, a..z (lowercase letters are automatically converted to uppercase letters, for displayed program name)
