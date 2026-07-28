@@ -398,10 +398,10 @@ The MIX ENVelope is always composed by 5 points (forming 4 vectors):
 
 To edit the position of a particular point:
 - Press the L (left-side) related button (L1 for point #1, to L5 for point #5): the "pill" along the button blinks.
-- Move the joystick to set the X and Y positions for this point.
-- Press the same L button to complete (or press another L button to edit another point, or select another context).
+- Move the joystick to set the X and Y positions for this particular point.
+- Press the same L button to complete, or press another L button (to edit another point), or select another context.
 
-:information_source: as soon as you start to edit a point, the position of the joystick is saved (then restored to previously saved when you complete the edition of the position of the point).
+:information_source: As soon as you start to edit a point, the position of the joystick is saved, then restored when you complete the edition of the point.
 
 They're 4 rates:
 - RATE 1 is the time (milliseconds) to run the first vector, between points #0 and #1.
