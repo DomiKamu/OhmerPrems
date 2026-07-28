@@ -49,11 +49,11 @@ Following animation is showing **all 8 models** (panel theme variants) of _Vekto
 ![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
 ----
-## **Work-in-Progress (postponed development) module: 6OP-DX** (panels display issues must be checked from many MacBook computers. NO SOUND ATM it's normal!)
+## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**: panels display issues, must be checked from many MacBook computers. NO SOUND at the moment, it's normal!
 
 ![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
 
-6OP-DX module is included as beta for panel testing purposes on MacBook computers (not visible panel texture issue). **This synth voice module doesn't output sound at the moment (synth part is not yet developed)**.
+6OP-DX module is now included as beta, mainly for panel testing purposes on MacBook computers (not visible panel texture major issue). **This synth voice module doesn't output sound at the moment, because synthesis part is not yet developed!**.
 
 Planned for future release, perhaps next v2.6.14, or later, no given delay at the moment. Thanks for your understandings!
 
