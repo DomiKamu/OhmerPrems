@@ -197,7 +197,7 @@ Outputs provided by the _VX_ expander module:
 
 However, in order to be 100% compatible vs. VCV Rack 2 presets feature (as requested by many end users), any imported .wav file to USER waveform slot is saved inside the patch/preset json file as 8192-byte hexadecimal string, including autosave (occuring every 15 seconds), instead of inside an external "patch storage" (via **onSave()** and **onAdd()** C++ methods only designed for regular .vcv patch files).
 
-**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. From the 9th imported waveforms, the **WARN./ERR.** large LED at the bottom of the module (located below the joystick) is **blinking orange**, twice per second, to inform you it's risky about important amount of datas stored to json file (.vcv patch file, .vcvm preset file, .vcvs module selection file, or autosave). Do not forget you'll can clear (free) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), then browsing to unused waveform by rotating the **DATA ENTRY** continuous encoder. When applicable, the module's right click menu offers a specific menu entry to clear (free) the current user waveform slot (the menu entry is grayed/disabled if the slot is already unused/clear).
+**So, please proceed with caution about the number of .wav files you'll import to USER waveform slots!**. From the 9th imported waveforms, the **WARN./ERR.** large LED at the bottom of the module (located below the joystick) is **blinking orange**, twice per second, to inform you it's risky about important amount of datas stored to json file (.vcv patch file, .vcvm preset file, .vcvs module selection file, or autosave). Do not forget you'll can clear (free) unused user waveform slots, by selecting any oscillator context (A, B, C, or D), then browsing to unused waveform by turning the **DATA ENTRY** continuous encoder. When applicable, the module's right click menu offers a specific menu entry to clear (free) the current user waveform slot (the menu entry is grayed/disabled if the slot is already unused/clear).
 
 ---
 
@@ -466,8 +466,8 @@ _Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D**) 
 
 ![](_img/oscPagesV4.png)
 
-- First page (home page) permits to select a waveform (by using DATA ENTRY continuous encoder), import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic), or free/clear an user waverform (if applicable).
-- Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible source (FM input jack, LFO 1, or LFO 2) for frequency modulation.
+- First page (home page) permits to select a waveform (by turning the **DATA ENTRY** continuous encoder), import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic), or free/clear an user waverform (if applicable).
+- Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible source (FM input jack, LFO 1, or LFO 2) of frequency modulation.
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), and nominal gain.
 
 By pressing the **PAGE** momentary button (top-right side of the module), you select the next page (or cycle to first/home if the page was the last). To return to first (home) page anytime, hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the **PAGE** button.
@@ -481,7 +481,7 @@ To import a custom WAVE file to USER WAVEFORM slot (right click context menu met
 
 To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
 - Be sure the _Vektor_ module's context is set to **A**, **B**, **C**, or **D**. If not, press the relevant oscillator context button **only if its LED above is off**.
-- By rotating DATA ENTRY continuous encoder, select the slot number (from 000 to 031).
+- By turning the **DATA ENTRY** continuous encoder, select the slot number (from 000 to 031).
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the WAVE file is.
 - Drag the relevant **.wav** file, then drop it anywhere over the module, the imported waveform is immediately active.
 
