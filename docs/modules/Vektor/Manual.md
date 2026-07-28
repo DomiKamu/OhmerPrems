@@ -450,7 +450,7 @@ Each oscillator is identified by a letter: **A**, **B**, **C**, and **D**. In th
 
 ![](_img/theDiamond.png)
 
-This scheme is always used by Vector Synthesis-based hardware synthesizers, such Sequential Circuits Prophet VS (1986), Yamaha SY22 series (1990), Korg Wavestation (1990), Korg wavestate (since 2004), Behringer Pro VS Mini (2025), and Victor (as Eurorack module).
+This scheme is always used by Vector Synthesis-based hardware synthesizers, such Sequential Circuits Prophet VS (1986), Yamaha SY22 series (1990), Korg Wavestation (1990), Korg wavestate (since 2004), Behringer Pro VS Mini (2025), and Behringer Victor as Eurorack hardware module.
 
 Every oscillator uses a **single-cycle waveform**. Can be a built-in ROM waveform (numbered from **032. SINE** to **127. WHITE NOISE**), or a "user" waveform (they're numbered from **000. USER #1** to **031. USER #32**, empty/unused by default, but can be filled regardling your needs by [importing external WAVE files](#waveformat) - per module instance!).
 
