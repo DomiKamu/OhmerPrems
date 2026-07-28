@@ -286,7 +286,7 @@ Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrad
 
 To become *OhmerPrems* member, simply send me **15 euros** via PayPal.Me. If required, please convert your local currency first, to fit with 15 (or more) euros (otherwise your payment will not be accepted and refurbished), via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
-**I precise you'll cannot buy a license keyfile via the VCV Store.**
+**I precise you'll cannot buy a license keyfile directly via the VCV Store!**
 
 :warning:
 ## Summer 2026: please consider the 15 euros fee remains very fair! (this fee will not change during 2026, however).
