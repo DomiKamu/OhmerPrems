@@ -102,7 +102,7 @@ NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** bu
 
 - 8 models (GUI/panel theme variants) are available, like many OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Possible models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Cobalt**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, **Oxide "Signature**, and **Titanium "Signature"**. All "Signature" models embed gold metal jacks, buttons, and screws (instead of silver for non-"Signature"). Obviously, all models provide exactly the same features. Touchscreen is identical for all models.
 
-![](_img/Models_rev.gif)
+![](_img/ModelsV2.gif)
 
 **KX expander** module inherits KlokSpid MkII model as soon as it placed along KlokSpid MkII module (left-side without space between them).
 
