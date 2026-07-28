@@ -466,7 +466,7 @@ _Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D**) 
 
 ![](_img/oscPagesV4.png)
 
-- First page (home page) permits to select a waveform (by turning the **DATA ENTRY** continuous encoder), import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic), or free/clear an user waverform (if applicable).
+- First page (home page) permits to select a waveform (by turning the **DATA ENTRY** continuous encoder), import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic), or free/clear the current user waveform slot (if applicable).
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible source (FM input jack, LFO 1, or LFO 2) of frequency modulation.
 - Third page is used to set up the pre-/post-joystick (used by discrete output only), and nominal gain.
 
