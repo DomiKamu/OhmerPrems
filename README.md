@@ -33,7 +33,7 @@ Developed to OhmerPrems member (since 2019), needs for his specific projects, Fr
 - as modulation track (CV OUT track) to offering voltages (-10V to +10V range, 0.01V steeping, or random inside same voltage range) for sequenced modulations.
 - as 16-bit Turing Machine track, useful for generative/random patches! (Turing Machine states are always saved and recalled).
 
-Following animation is showing **all 8 models** (GUI theme variants) of _FranKe_ module:
+Following animation is showing **all 8 models** (panel theme variants) of _FranKe_ module:
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
@@ -69,7 +69,7 @@ This module (and its left-side expander, **KX**) is **entirely free for everyone
 
 ![](docs/modules/KlokSpidMkII/_img/ModelsV2.gif)
 
-Like many OhmerPrems modules, KlokSpid MkII comes in 8 models (panel theme variants):
+Like many OhmerPrems modules (FranKe, Vektor), KlokSpid MkII comes in 8 models (panel theme variants):
 - _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Cobalt_
@@ -93,7 +93,7 @@ Below this is the _Creamy_ model - as presented from Rack's module browser (_Abs
 
 ![](docs/modules/FroeZe/_img/FroeZe_Header.png)
 
-FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (GUI theme), playing audio sequence (all outputs are direct-connected to the audio mixer). Per instrument track (AC to CL tracks, AC/accent isn't an instrument track), you can select drum machine and related drum kit by using both DM and KIT continuous encoders (wheels):
+FroeZe sequencer and its companion, FroeZe-X expander, _Absolute Night_ model (panel theme), playing audio sequence (all outputs are direct-connected to the audio mixer). Per instrument track (AC to CL tracks, AC/accent isn't an instrument track), you can select drum machine and related drum kit by using both DM and KIT continuous encoders (wheels):
 
 ![](docs/modules/FroeZe/_img/FroeZe_Patch.png)
 
@@ -142,7 +142,7 @@ FroeZe-X expander:
 
 More infos "on-the-fly" in [FroeZe/FroeZe-X/FroeZe-SX **Specifications & Quick Guide**](docs/modules/FroeZe/Manual.md) document.
 
-Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme variations):
+Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, FroeZe comes in 6 models (panel theme variants):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
@@ -158,7 +158,7 @@ Like other Ohmer and OhmerPrems modules, FroeZe comes in six models (GUI theme v
 
 However, you are able to _preview_ ANY sound, but by **disconnecting trigger input cable first** on related channel. While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine. It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free/Trial", to have a chance to listen all drum machines/drum kits sounds, at any engine's samplerate inside 44.1kHz to 192kHz range. When the channel input is patched, the preview feature is disabled for related channel.
 
-All six models (GUI theme variations): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed), _Dark "Signature"_, _Deepblue "Signature"_, and Titanium "Signature":
+All 6 models (panel theme variants): _Creamy_, _Stage Repro_, _Absolute Night_, _Absolute Night_ (bypassed/dimmed), _Dark "Signature"_, _Deepblue "Signature"_, and _Titanium "Signature"_:
 
 ![](docs/modules/QuadPercs/_img/QuadPercs_All_Models.png)
 
@@ -196,7 +196,7 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 
 QuadPercs can operate **from 44.1kHz to 192kHz** (Free version is limited at 44.1kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
 
-Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI theme variations):
+Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, QuadPercs comes in 6 models (panel theme variants):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
@@ -210,7 +210,7 @@ Like other Ohmer and OhmerPrems modules, QuadPercs comes in six models (GUI them
 
 KordZ module is entirely free (no more time limitation) for everyone (even for non-OhmerPrems members, doesn't require license keyfile), like KlokSpid MkII and KX modules!
 
-All six models (aka GUI themes, same than QuadPercs modules), reduced room brightness:
+All 6 models (panel theme variants, same than QuadPercs modules), reduced room brightness:
 
 ![](docs/modules/KordZ/_img/KordZ_All_Models.png)
 
@@ -226,7 +226,7 @@ The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%
 
 ![](docs/modules/KordZ/_img/KordZ_Dark_Room.png)
 
-Like other Ohmer and OhmerPrems modules, Kord comes in six models (GUI theme variations):
+Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, KordZ comes in 6 models (panel theme variants):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
