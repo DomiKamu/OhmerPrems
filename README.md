@@ -44,7 +44,7 @@ Following animation is showing **all 8 models** (GUI theme variants) of _FranKe_
 
 Vektor is a **16HP digital quad-oscillator VCO** module, using **Vector Synthesis** (VS). This module comes with **VX**, a 3HP "right-side" expander module, offering seven extra output jacks.
 
-Following animation is showing **all 8 models** (GUI theme variants) of _Vektor_ module (with its _VX_ expander):
+Following animation is showing **all 8 models** (panel theme variants) of _Vektor_ module (with its _VX_ expander):
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
@@ -63,16 +63,18 @@ At the moment, for unknown reason, the 6OP-DX panels are "hidden" on many MacBoo
 
 [Please click here to read **KlokSpid MkII/KX Specifications & User's Manual**](docs/modules/KlokSpidMkII/Manual.md)
 
-This module (and its left-side expander, **KX**) is **entirely free for everyone** (doesn't require a license keyfile), because it's the successor of (removed) *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin:
+This module (and its left-side expander, **KX**) is **entirely free for everyone** (doesn't require a license keyfile), because it's the successor of *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin:
 
-![](docs/modules/KlokSpidMkII/_img/Models_rev.gif)
+![](docs/modules/KlokSpidMkII/_img/ModelsV2.gif)
 
-Like free Open Source **Ohmer**, and some OhmerPrems modules, KlokSpid MkII comes in 6 models (GUI theme variations):
+Like many OhmerPrems modules, KlokSpid MkII comes in 8 models (panel theme variants):
 - _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
+- _Cobalt_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
 - _Dark "Signature"_
 - _Fort Knox "Signature"_
+- _Oxide "Signature"_
 - _Titanium "Signature"_
 
 **KX expander** (also free for everyone) module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
