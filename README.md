@@ -285,9 +285,9 @@ Without a personal license keyfile, some modules (FranKe, FroeZe / FroeZe-X / Fr
 
 ## Full version (OhmerPrems members only)
 
-A personal license keyfile is sent to OhmerPrems members (by email), including detailled instructions to install it. The presence of (valid) license keyfile unlocks (immediately) all modules to **full version** (unrestricted). However, Vektor module (and its expander, VX), KlokSpid MkII module (and its expander, KX), and KordZ always work as full version (whatever the license keyfile is present, or not), because these modules are free for everyone, without any limitation!
+A personal license keyfile is sent to OhmerPrems members (by email only), including detailled instructions to install it. The presence of (valid) license keyfile unlocks (immediately) all modules to **full version** (unrestricted). However, Vektor (and its expander, VX), KlokSpid MkII (and its expander, KX), future 6OP-DX, and KordZ modules always work as full version (whatever the license keyfile is installed, or not), because these modules are free for everyone, without any feature limitation!
 
-Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades and all future *OhmerPrems* modules (as full version), without any additional charge!
+Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades, including all future *OhmerPrems* modules, as full version, without any additional charge!
 
 To become *OhmerPrems* member, simply send me **15 euros** via PayPal.Me. If required, please convert your local currency first, to fit with 15 (or more) euros (otherwise your payment will not be accepted and refurbished), via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
