@@ -294,7 +294,7 @@ The greatest number of polyphony voices from these sources is always selected by
 
 ### PROGRAMS, IN DETAIL<a name="programs"></a>
 
-The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), per module instance. All first 15 (numbered from 01 to 15, and having an explicit name) are based on the real Prophet VS programs. Program numbered 16 is the **INIT** program (the settings was choosen by the developer).
+The _Vektor_ module can handle up to 16 programs (similar to _synthesizer presets_), per module instance. All first 15 (numbered from 01 to 15, and having an explicit name) are factory based on the real Prophet VS. Program numbered 16 is the **INIT** program (initial settings was choosen by the developer).
 
 To select a different program:
 - Be sure the PROGRAM context is selected first, **all context red LED must be off**. If not, simply press the button where the LED glows red, by doing this, the _Vektor_ module is switched to PROGRAM context (the OLED must display **PROGRAM** as header) !
@@ -306,7 +306,7 @@ Also, you'll can control the program select (similar to _MIDI Program Change_) i
 
 :warning: **Applied voltages on PROG. input jack below +1V (including negative voltages) are ignored, to avoid unwanted program changes! Also, any voltage above +8.5V always selects program #16.**
 
-Obviously, any program can be altered (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file, then possibly loaded later (to same or different program number).
+Obviously, all programs are fully editable (depending your needs), saved to external **.vktProgram** (_Vektor PROGRAM_) file with related name, and loaded later (to any program number of your choice) from saved **.vktProgram** file.
 
 :information_source: **Program name always follows the specified filename** when you save the current program, but with restrictive character set (see below). If more than 16 characters is specified as filename, the new program name is truncated to first seven characters, followed by three periods, then the last six characters of the filename. For example, ABCDEFGHIJKLMNOPQRST as filename gives "ABCDEF...OPQRST" as new program name. However, the filename itself is not affected.
 
