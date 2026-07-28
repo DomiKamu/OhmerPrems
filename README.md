@@ -274,7 +274,7 @@ Finally, the _KordZ_ module remains unfinished. Concise presentation coming late
 
 Unlike by VCV Store where you'll must to buy without the possibily to test before, at least free/trial *OhmerPrems* plugin is available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page from this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file).
 
-Also, lastest stable plugin release is available from VCV Library, for assisted installation or update. You'll can suscribe for the whole plugin, or per individual module(s):
+Also, lastest stable plugin release is available from VCV Library, for assisted installation or update. You'll can subscribe for the whole OhmerPrems plugin, or per module(s):
 
 - [Whole OhmerPrems plugin](https://library.vcvrack.com/OhmerPrems)
 - [Per module (all Ohmer/OhmerPrems are listed)](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=)
