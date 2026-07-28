@@ -3,7 +3,7 @@
 *OhmerPrems* is a commercial plugin designed for VCV Rack 2, it embeds both **Premium** modules (**full version** modules for customers who have a valid license keyfile, or as "Free/Trial" with limitations, otherwise), and also some free modules for everyone (license keyfile is not required to run them as full version). Source code is closed (not published).
 
 *OhmerPrems* plugin is a set of 7 modules (4 are fully operational), plus 5 as _expander_ modules:
-- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but ready for bases of this sequencer usage & good starting!).
+- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
 - **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). [**Vektor User's Manual** incl. **VX** expander](docs/modules/Vektor/Manual.md) (_Vektor_ module is available as [**pre-release v2.6.13 BETA**](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13), planned as future stable release v2.6.13 during second week of August 2026).
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
 - **6OP-DX** will be a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers, still under development**).
