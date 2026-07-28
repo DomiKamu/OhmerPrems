@@ -38,7 +38,7 @@ Following animation is showing **all 8 models** (GUI theme variants) of _FranKe_
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
 
 ----
-## **Vektor module**
+## **Vektor & VX modules**
 
 [Please click here to read the **Vektor User's Manual**](docs/modules/Vektor/Manual.md)
 
