@@ -343,9 +343,9 @@ To load a saved program file to current program (file drag and drop method):
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), browse the folder where the **.vktProgram** file is stored.
 - Drag the relevant **.vktProgram** file, then drop it anywhere over the module.
 
-:warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error cause is shown on the OLED display (press any momentary button to acknowledge the error condition).
+:warning: In case of file operation failure, the large **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error cause is shown on the OLED display (press any momentary button to acknowledge the error condition).
 
-All programs (and their relevant default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), VCV module selection file (.vcvs) and VCV Rack 2 autosave feature, every 15 seconds.
+All programs (also their relevant restorable default settings) are always saved along the VCV patch file (.vcv), VCV preset file (.vcvm), VCV module selection file (.vcvs) and VCV Rack 2 autosave feature (every 15 seconds).
 
 _Vektor_'s PROGRAM context have 4 pages:
 
@@ -434,7 +434,7 @@ To load a saved MIX ENVelope settings to current program (file drag and drop met
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), browse the folder where the **.vktMixEnv** file is stored.
 - Drag the relevant **.vktMixEnv** file, then drop it anywhere over the module.
 
- :warning: In case of file operation failure, the **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
+ :warning: In case of file operation failure, the large **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error information is displayed, until you press any button (to acknowledge the error condition).
 
 :information_source: To restore a displayed setting to its default value (factory, or by last saved program), hold **left Ctrl** key (**left Command** key on MacOS X computers), then press the relevant **L1 ~ L5** (left-side) momentary button!
 
@@ -485,7 +485,7 @@ To import a custom WAVE file to USER WAVEFORM slot (file drag and drop method):
 - From your operating system file browser (Explorer on Windows computers, Finder on MacOS X computers), open the folder where the WAVE file is.
 - Drag the relevant **.wav** file, then drop it anywhere over the module, the imported waveform is immediately active.
 
-:warning: In case of file operation failure, the **WARN./ERR.** large LED (below the joystick) is **blinking red** (twice per second), and a related error cause is displayed, until you press any button (to acknowledge the error condition).
+:warning: In case of file operation failure, the large **WARN./ERR.** LED (below the joystick) is **blinking red** (twice per second), and a related error cause is displayed, until you press any button (to acknowledge the error condition).
 
 :warning: You'll cannot import a WAVE file over built-in ROM waveform (labelled **032. SINE** to **127. WHITE NOISE**), otherwise this generate an error condition.
 
