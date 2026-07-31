@@ -67,9 +67,11 @@ I'm sorry again for this important delay. This module will be "free for everyone
 
 This module (and its left-side expander, **KX**) is **entirely free for everyone** (doesn't require a license keyfile), because it's the successor of *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin:
 
-![](docs/modules/KlokSpidMkII/_img/ModelsV2.gif)
+Following animation is showing **all 8 models** (panel theme variants) of _KlokSpid MkII_ module:
 
-Like many OhmerPrems modules (FranKe, Vektor), KlokSpid MkII comes in 8 models (panel theme variants):
+![](docs/modules/KlokSpidMkII/_img/ModelsV3.gif)
+
+Like FranKe and Vektor modules, KlokSpid MkII comes in 8 models (panel theme variants):
 - _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Cobalt_
