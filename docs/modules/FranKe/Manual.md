@@ -17,7 +17,7 @@
 - [**STEP-RECORDING**](#steprec)
 
 _All 8 models (panel theme variants) for FranKe module:_
-![](_img/AnimFranKeModelsV2.gif)
+![](_img/AnimFranKeModelsV3.gif)
 
 ---
 
