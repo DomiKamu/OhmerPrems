@@ -37,7 +37,7 @@ Developed to OhmerPrems member (since 2019), needs for his specific projects, Fr
 
 Following animation is showing **all 8 models** (panel theme variants) of _FranKe_ module:
 
-![](docs/modules/FranKe/_img/AnimFranKeModelsV2.gif)
+![](docs/modules/FranKe/_img/AnimFranKeModelsV3.gif)
 
 ----
 ## **Vektor & VX modules**
