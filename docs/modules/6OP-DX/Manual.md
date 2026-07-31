@@ -4,6 +4,6 @@
 ![](_img/6OP-DX_Cobalt_Presentation.png)
 
 
-This is a **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
+This will be the manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
-:warning: like the 6OP-DX module (as "Alpha" pre-release v2.6.10), this manual is under construction!
+:warning: This manual will be built for v2.6.14 or v2.6.15.
