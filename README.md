@@ -19,11 +19,9 @@
 
 ---
 
-Lastest stable version **v2.6.12** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.12) (Release sections), for manual installation or update. Also available from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole plugin, or selected modules).
+Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release sections), for manual installation or update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole plugin, or selected modules).
 
-**Pre-release v2.6.13 BETA** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release sections), for manual installation or update. This pre-release beta isn't available from VCV Library (until promoted as v2.6.13 stable).
-
-[CHANGELOG - v2.6.12 (stable) & v2.6.13 BETA](docs/CHANGELOG.txt)
+[CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
 --
 ----
 ## **FranKe module**
