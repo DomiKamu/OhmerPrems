@@ -2,7 +2,7 @@
 CHANGELOG
 ==============================================================================================================================
 
-Pre-Release v2.6.13 BETA (July 28th, 2026) for VCV Rack 2.
+Release v2.6.13 (August 1st, 2026) for VCV Rack 2.
 
 - Introducing Vektor module, 16HP polyphonic digital waveform-based quad-VCO, using Vector Synthesis technique.
 - Introducing VX, 3HP right-side expander for Vektor, to bring discrete LFO, joystick and MIX ENVelope outputs (with GATE).
@@ -12,9 +12,11 @@ Pre-Release v2.6.13 BETA (July 28th, 2026) for VCV Rack 2.
 - FranKe module: added "Random" tag, due to Turing Machine track(s), plus possible random voltages from modulation track(s).
 - FranKe module: fixed module description (previous mentions "99-pattern" by error, instead of "64-pattern").
 - FranKe module: fixed wrong LED color for CLK input jack, when set to receive BPM-CV (was green instead of yellow).
+- FranKe module: fixed wrong LED color for CYCLE output jacks (CV-OUT), when sending a trigger (was green instead of blue).
 - KlokSpid MkII: frequency display routine was rewrote from scratch, initial may cause crashes on rack open (via autosave).
 - KlokSpid MkII, KX: two new "models" (panel/theme variants): Cobalt, and Oxide "Signature".
 - All modules: fully reworked panel C++ code (now using on demand load, instead of preallocated/preloaded SvgPanel pointers).
+- Concerned modules: reworked Cobalt background color.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
