@@ -51,13 +51,13 @@ Following animation is showing **all 8 models** (panel theme variants) of _Vekto
 ![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
 
 ----
-## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**: panels display issues, must be checked from many MacBook computers. NO SOUND at the moment, it's normal!
+## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**.
 
-6OP-DX module is not yet included in the OhmerPrem plugin. Some MacBook users continue to suffer about hidden panel with combined zoom. **This synth voice module doesn't output sound at the moment, because synthesis part is not yet developed!**.
+The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin. Some MacBook users continue to suffer about missing panel SVG with some combined zoom levels. **This synth voice module doesn't output sound at the moment, because PM synthesis part is not yet developed!**.
 
-Planned for future release, perhaps next v2.6.14, or v2.6.15. No given delay at the moment. Thanks for your understandings!
+Planned for future release, perhaps next v2.6.14, or v2.6.15. No given delay at the moment. Thanks for your understanding and patience!
 
-I'm sorry again for this important delay. This module will be "free for everyone", meaning it works as full version, whatever you're owner of a license V2 keyfile, or not. 
+I'm sorry again for this important delay. This module will be "free for everyone", meaning it will work as full version, whatever you're owner of a license V2 keyfile, or not!
 
 ----
 
