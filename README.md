@@ -53,13 +53,11 @@ Following animation is showing **all 8 models** (panel theme variants) of _Vekto
 ----
 ## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**: panels display issues, must be checked from many MacBook computers. NO SOUND at the moment, it's normal!
 
-![](docs/modules/6OP-DX/_img/6OP-DX_Cobalt_Presentation.png)
+6OP-DX module is not yet included in the OhmerPrem plugin. Some MacBook users continue to suffer about hidden panel with combined zoom. **This synth voice module doesn't output sound at the moment, because synthesis part is not yet developed!**.
 
-6OP-DX module is now included as beta, mainly for panel testing purposes on MacBook computers (not visible panel texture major issue). **This synth voice module doesn't output sound at the moment, because synthesis part is not yet developed!**.
+Planned for future release, perhaps next v2.6.14, or v2.6.15. No given delay at the moment. Thanks for your understandings!
 
-Planned for future release, perhaps next v2.6.14, or later, no given delay at the moment. Thanks for your understandings!
-
-I'm sorry again for this important delay. This module is "free for everyone", meaning it works as full version, whatever you're owner of a license V2 keyfile, or not. 
+I'm sorry again for this important delay. This module will be "free for everyone", meaning it works as full version, whatever you're owner of a license V2 keyfile, or not. 
 
 ----
 
