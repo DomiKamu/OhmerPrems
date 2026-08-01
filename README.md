@@ -21,7 +21,7 @@
 
 Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
 
-[CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
+## [CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
 
 ---
 
@@ -52,7 +52,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ----
 
-## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**.
+## **6OP-DX module: W.I.P. (resuming development August 2026)**
 
 ![](docs/modules/6OP-DX/_img/main.png)
 
