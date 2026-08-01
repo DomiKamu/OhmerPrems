@@ -4,9 +4,9 @@
 
 :warning: Please check both **Free version** and **Full version** topics, by following [this link](#freevsfull) (near bottom of this page).
 
-*OhmerPrems* plugin is a set of 7 modules (4 are fully operational), plus 5 as _expander_ modules:
+*OhmerPrems* plugin is a set of 7 modules (5 are fully operational), plus 5 as _expander_ modules:
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
-- **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). [**Vektor User's Manual** incl. **VX** expander](docs/modules/Vektor/Manual.md) (_Vektor_ module is available as [**pre-release v2.6.13 BETA**](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13), planned as future stable release v2.6.13 during second week of August 2026).
+- **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). New module, available since **release v2.6.13**.
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
 - **6OP-DX** will be a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers, still under development**).
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
@@ -19,7 +19,7 @@
 
 ---
 
-Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release sections), for manual installation or update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole plugin, or selected modules).
+Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual installation or update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole plugin, or selected modules).
 
 [CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
 --
