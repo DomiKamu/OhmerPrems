@@ -50,6 +50,8 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV4.gif)
 
+These modules are "free for everyone", meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (future) 6OP-DX modules.
+
 ----
 
 ## **6OP-DX module: W.I.P. (resuming development August 2026)**
@@ -64,7 +66,7 @@ The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin. Why
 
 Please apologize again for this important delay!
 
-This module will be "free for everyone", meaning it will work as full version, whatever you're owner of a license V2 keyfile, or not!
+This module will be "free for everyone", meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and KordZ modules.
 
 ---
 
@@ -72,13 +74,15 @@ This module will be "free for everyone", meaning it will work as full version, w
 
 [Please click here to read **KlokSpid MkII/KX Specifications & User's Manual**](docs/modules/KlokSpidMkII/Manual.md)
 
-This module (and its left-side expander, **KX**) is **entirely free for everyone** (doesn't require a license keyfile), because it's the successor of *KlokSpid* module from freeware [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin:
+KlokSpid MkII is the successor of *KlokSpid* module, from Open Source [*Ohmer*](https://github.com/DomiKamu/Ohmer) plugin:
 
 Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII_ module:
 
 ![](docs/modules/KlokSpidMkII/_img/ModelsV3.gif)
 
 **KX expander** (also free for everyone) module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
+
+These modules are "free for everyone", meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) 6OP-DX modules.
 
 ---
 
@@ -199,7 +203,7 @@ QuadPercs can operate **from 44.1kHz up to 192kHz**, thanks to external pre-comp
 
 ## **KordZ module**
 
-KordZ module is free for everyone (even for non-OhmerPrems members, this module doesn't require license keyfile), like Vektor, VX, KlokSpid MkII, and KX modules!
+KordZ is a visual/decorative module for your rack. It displays played single note (unison) or chord (up to 3 notes) in coloured Circle of Fifth.
 
 All 6 models (panel themes), reduced room brightness:
 
@@ -224,6 +228,8 @@ KordZ module comes in 6 models (panel themes):
 - _Dark "Signature"_
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
+
+This module is "free for everyone", meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) 6OP-DX modules.
 
 ---
 
