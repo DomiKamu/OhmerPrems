@@ -6,7 +6,7 @@
 
 *OhmerPrems* plugin is a set of 7 modules (5 are fully operational), plus 5 as _expander_ modules:
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
-- **Vektor** is a 16HP polyphonic digital quad-oscillator VCO module, using Vector Synthesis (VS). New module, available since **release v2.6.13**.
+- **Vektor** is a 16HP polyphonic digital quad-oscillator (VCO) module, using Vector Synthesis (VS) technique. New module (introduced by **release v2.6.13**). [**Vektor User's Manual**](docs/modules/Vektor/Manual.md).
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
 - **6OP-DX** will be a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers, still under development**).
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
