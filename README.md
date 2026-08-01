@@ -19,7 +19,7 @@
 
 ---
 
-Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual installation or update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole plugin, or selected modules).
+Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
 
 [CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
 
@@ -54,11 +54,17 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**.
 
-The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin. Some MacBook users continue to suffer about missing panel SVG with some combined zoom levels. **This synth voice module doesn't output sound at the moment, because PM synthesis part is not yet developed!**.
+![](docs/modules/6OP-DX/_img/main.png)
 
-Planned for future release, perhaps next v2.6.14, or v2.6.15. No given delay at the moment. Thanks for your understanding and patience!
+The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin. Why?
+- Some MacBook users continue to suffer about missing panel SVG with some combined zoom levels.
+- This synth voice module doesn't output sound at the moment, because PM synthesis part is not yet developed!
 
-I'm sorry again for this important delay. This module will be "free for everyone", meaning it will work as full version, whatever you're owner of a license V2 keyfile, or not!
+6OP-DX is scheduled for future release, perhaps next v2.6.14 (or v2.6.15). **No given delay at the moment.**
+
+Please apologize again for this important delay!
+
+This module will be "free for everyone", meaning it will work as full version, whatever you're owner of a license V2 keyfile, or not!
 
 ---
 
