@@ -189,14 +189,6 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 
 QuadPercs can operate **from 44.1kHz up to 192kHz**, thanks to external pre-computed PCM sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
 
-QuadPercs comes in 6 models (panel themes):
-- _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
-- _Stage Repro_
-- _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
-- _Dark "Signature"_
-- _Deepblue "Signature"_
-- _Titanium "Signature"_
-
 ---
 
 ## **KordZ module**
