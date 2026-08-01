@@ -253,9 +253,9 @@ Any oscillator-based context (A, B, C, or D) permits:
 - to clear (free) the current user waveform slot, if used (command from right click menu, when applicable).
 - to access additional oscillator settings, like frequency on second page, and volume on third page, by pressing the **PAGE** button.
 
-The MIX context permits to edit (or to view) all the parameters concerning the MIX ENVelope and mix envelope loop feature.
+The MIX context permits to edit (or to view) all the parameters concerning the MIX ENVelope and its loop feature.
 
-Program is a kind of _synthesizer preset_, identified either by a number (from **01** to **16**) also by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth and mode (TZ FM, or PM), LFO 1 settings, and LFO 2 settings.
+A "Program" is like a _synthesizer preset/patch_, identified either by a number (from **01** to **16**) also by an explicit name (eg. **PIPE ORGAN**). Every program collects its name, all settings for the four oscillators (A, B, C, and D), the physical joystick position, the mix envelope, FM input depth and mode (TZ FM, or PM), LFO 1 settings, and LFO 2 settings.
 
 To select a context (except PROGRAM), press the related button (A, B, C, D, or MIX) when its LED is off: _Vektor_ is switched to the new context, and its LED glows red (lit).
 
