@@ -462,7 +462,7 @@ To select next or previous waveform, rotate the **DATA ENTRY** continuous encode
 
 :warning: The waveform **127. WHITE NOISE** is using constant frequency and cannot be "pitched", nor frequency modulated.
 
-_Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D**) have 3 pages:
+_Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D** - here's C) have 3 pages:
 
 ![](_img/oscPagesV5.png)
 
