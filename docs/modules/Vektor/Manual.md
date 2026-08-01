@@ -462,7 +462,7 @@ To select next or previous waveform, rotate the **DATA ENTRY** continuous encode
 
 :warning: The waveform **127. WHITE NOISE** is using constant frequency and cannot be "pitched", nor frequency modulated.
 
-_Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D** - here's C) have 3 pages:
+_Vektor_'s oscillator context (oscillator can be **A**, **B**, **C**, or **D**) have 3 pages:
 
 ![](_img/oscPagesV5.png)
 
@@ -554,6 +554,6 @@ As final words, any _Vektor_ module instance:
 - can be reset to factory settings (**Initialize** command, from right click menu / **Ctrl + I** / **Command + I** key shortcut).
 - can be bypassed (**Bypass** command, from right click menu / **Ctrl + E** / **Command + E** key shortcut).
 
-:warning: Randomize command (**Ctrl + R** / **Command + R** key shortcut) is not yet implemented, so using it have no effect at the moment. Will be implemented in future release.
+:warning: Randomize command (**Ctrl + R** / **Command + R** key shortcut) is not implemented, so using it have no effect!
 
 Thanks for reading, and have fun in Vector Synthesis with _Vektor_ and _VX_ modules! ;)
