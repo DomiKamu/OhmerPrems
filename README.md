@@ -22,8 +22,9 @@
 Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual installation or update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole plugin, or selected modules).
 
 [CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
---
-----
+
+---
+
 ## **FranKe module**
 
 [Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for bases of this sequencer usage & good starting, however).
@@ -37,7 +38,8 @@ Following animation is showing **all 8 models** (panel theme variants) of _FranK
 
 ![](docs/modules/FranKe/_img/AnimFranKeModelsV3.gif)
 
-----
+---
+
 ## **Vektor & VX modules**
 
 [Please click here to read the **Vektor User's Manual**](docs/modules/Vektor/Manual.md)
@@ -49,6 +51,7 @@ Following animation is showing **all 8 models** (panel theme variants) of _Vekto
 ![](docs/modules/Vektor/_img/AnimVektorModelsV4.gif)
 
 ----
+
 ## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**.
 
 The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin. Some MacBook users continue to suffer about missing panel SVG with some combined zoom levels. **This synth voice module doesn't output sound at the moment, because PM synthesis part is not yet developed!**.
@@ -57,7 +60,7 @@ Planned for future release, perhaps next v2.6.14, or v2.6.15. No given delay at 
 
 I'm sorry again for this important delay. This module will be "free for everyone", meaning it will work as full version, whatever you're owner of a license V2 keyfile, or not!
 
-----
+---
 
 ## **KlokSpid MkII & KX modules**
 
@@ -81,7 +84,7 @@ Like FranKe and Vektor modules, KlokSpid MkII comes in 8 models (panel theme var
 
 **KX expander** (also free for everyone) module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
 
-----
+---
 
 ## **FroeZe, FroeZe-X & FroeZe-SX modules**
 
@@ -150,7 +153,7 @@ Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, FroeZ
 - _Fort Knox "Signature"_
 - _Titanium "Signature"_
 
-----
+---
 
 ## **QuadPercs module**
 
@@ -204,7 +207,7 @@ Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, QuadP
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
 
-----
+---
 
 ## **KordZ module**
 
@@ -234,19 +237,21 @@ Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, KordZ
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
 
-----
+---
 
 "***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, all modules work as free version (with limitations, depending the module). Full version requires a personal license key (the license key is sent by email during OhmerPrems subscription).
 
 When installed, from VCV Rack module browser, QuadPercs and KordZ modules are listed (by brand: "Ohmer Modules"). QuadPercs module is also listed as "Drum" and "Quad" categories when you're browsing by tags, KordZ module as "Visual" and "Polyphonic".
 
+---
+
 ## HOW TO CHECK YOUR PERSONAL LICENSE KEYFILE INSTALLATION?
 
-Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), **QuadPercs**, or **6OP-DX** module, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (prior "stars") must be **six digits**, and **four digits as trailing** (after stars) - that meaning your license keyfile is valid for all OhmerPrems modules.
+Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), or **QuadPercs**, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (before "stars") must be **six digits**, and **four digits as trailing** (after stars) - that meaning your license keyfile is valid for all OhmerPrems modules.
 
-Otherwise, the same grayed menu entry indicates **Free** (or **Free/Demo**), followed by limitation summary (between brackets).
+Otherwise, the same grayed menu entry indicates **Free** (or **Free/Trial**), followed by limitation summary between brackets.
 
-Do not forget **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license keyfile is installed or not!
+Do not forget **Vektor**, its **VX** expander, **KlokSpid MkII**, its **KX** expander, (future **6OP-DX**), and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license keyfile is installed, or not!
 
 ![](docs/modules/QuadPercs/_img/OhmerPrems_Free_upd.png)
 
@@ -256,19 +261,16 @@ Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 indepen
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
-- free version (limited to **5** fully working drum machines, from 44.1kHz up to 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel is red instead of green.
-- full version (all 16 drum machines, from 44.1kHz up to 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels are always green.
+- free version (limited to **5** fully working drum machines, from 44.1kHz up to 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel glows red, instead of green.
+- full version (all 16 drum machines, from 44.1kHz up to 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels glow always green.
 
 Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz up to 192kHz engine's samplerates.
 
 Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 drum kits!**, from 44.1kHz up to 192kHz engine's samplerates.
 
-Finally, the _KordZ_ module remains unfinished. Concise presentation coming later...
-
-----
+---
 
 ## Free version<a name="freevsfull"></a>
-
 
 Unlike by VCV Store where you'll must to buy without the possibily to test before, at least free/trial *OhmerPrems* plugin is available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page from this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file).
 
@@ -279,7 +281,7 @@ Also, lastest stable plugin release is available from VCV Library, for assisted 
 
 Without a personal license keyfile, some modules (FranKe, FroeZe / FroeZe-X / FroeZe-SX, and QuadPercs) work as "Free/Trial" with features limitations, instead of full version (see below).
 
-----
+---
 
 ## Full version (OhmerPrems members only)
 
@@ -301,7 +303,7 @@ To become *OhmerPrems* member, simply send me **15 euros** via PayPal.Me. If req
 
 New subscription requires 24 hours max. (generally less, couple of hours, sometimes delivered after... minutes!), after PayPal payment notification. Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**. Thanks for your understanding!
 
-----
+---
 
 ## License Clauses
 
