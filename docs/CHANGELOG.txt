@@ -16,7 +16,7 @@ Release v2.6.13 (August 1st, 2026) for VCV Rack 2.
 - KlokSpid MkII: frequency display routine was rewrote from scratch, initial may cause crashes on rack open (via autosave).
 - KlokSpid MkII, KX: two new "models" (panel/theme variants): Cobalt, and Oxide "Signature".
 - All modules: fully reworked panel C++ code (now using on demand load, instead of preallocated/preloaded SvgPanel pointers).
-- Concerned modules: reworked Cobalt background color.
+- Vektor, VX, FranKe, KlokSpid MkII, KX: reworked Cobalt background color (previous theme was too "blue").
 
 ------------------------------------------------------------------------------------------------------------------------------
 
