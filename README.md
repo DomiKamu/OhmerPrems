@@ -46,7 +46,7 @@ Vektor is a **16HP digital quad-oscillator VCO** module, using **Vector Synthesi
 
 Following animation is showing **all 8 models** (panel theme variants) of _Vektor_ module (with its _VX_ expander):
 
-![](docs/modules/Vektor/_img/AnimVektorModelsV3.gif)
+![](docs/modules/Vektor/_img/AnimVektorModelsV4.gif)
 
 ----
 ## **Work-in-Progress (resuming development begin of August 2026) module: 6OP-DX**.
