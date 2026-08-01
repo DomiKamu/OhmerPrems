@@ -194,7 +194,7 @@ This module supports monophonic cables only (because polyphony is never required
 
 Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/paste) commands, from module's context-menu (right-click, keyboard shortcuts), are fully supported.
 
-QuadPercs can operate **from 44.1kHz to 192kHz** (Free version is limited at 44.1kHz, higher sample rate sounds are muted), thanks to external pre-computed sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
+QuadPercs can operate **from 44.1kHz up to 192kHz**, thanks to external pre-computed PCM sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
 
 Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, QuadPercs comes in 6 models (panel theme variants):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
@@ -210,7 +210,7 @@ Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, QuadP
 
 KordZ module is entirely free (no more time limitation) for everyone (even for non-OhmerPrems members, doesn't require license keyfile), like KlokSpid MkII and KX modules!
 
-All 6 models (panel theme variants, same than QuadPercs modules), reduced room brightness:
+All 6 models (panel theme variants, same than FroeZe, FroeZe-X, FroeZe-SX, and QuadPercs modules), reduced room brightness:
 
 ![](docs/modules/KordZ/_img/KordZ_All_Models.png)
 
