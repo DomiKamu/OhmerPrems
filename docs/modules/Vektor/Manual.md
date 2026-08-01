@@ -554,6 +554,8 @@ As final words, any _Vektor_ module instance:
 - can be reset to factory settings (**Initialize** command, from right click menu / **Ctrl + I** / **Command + I** key shortcut).
 - can be bypassed (**Bypass** command, from right click menu / **Ctrl + E** / **Command + E** key shortcut).
 
+:information_source: On initialize, the _Vektor_ module runs a self-test routine, during 2 seconds, this behavior is normal.
+
 :warning: Randomize command (**Ctrl + R** / **Command + R** key shortcut) is not implemented, so using it have no effect!
 
 Thanks for reading, and have fun in Vector Synthesis with _Vektor_ and _VX_ modules! ;)
