@@ -50,7 +50,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV4.gif)
 
-:information_source: These modules are "free for everyone", meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (future) 6OP-DX modules.
+:information_source: _Vektor_ and _VX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (future) 6OP-DX modules.
 
 ----
 
@@ -66,7 +66,7 @@ The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin. Why
 
 Please apologize again for this important delay!
 
-:information_source: This module will be "free for everyone", meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and KordZ modules.
+:information_source: _6OP-DX_ module will be **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and KordZ modules.
 
 ---
 
@@ -80,9 +80,9 @@ Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII
 
 ![](docs/modules/KlokSpidMkII/_img/ModelsV3.gif)
 
-**KX expander** (also free for everyone) module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
+**KX expander** module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
 
-:information_source: These modules are "free for everyone", meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) 6OP-DX modules.
+:information_source: _KlokSpid MkII_ and _KX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) 6OP-DX modules.
 
 ---
 
@@ -229,7 +229,7 @@ KordZ module comes in 6 models (panel themes):
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
 
-:information_source: This module is "free for everyone", meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) 6OP-DX modules.
+:information_source: _KordZ_ module is **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) 6OP-DX modules.
 
 ---
 
