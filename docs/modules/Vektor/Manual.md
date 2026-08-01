@@ -464,7 +464,7 @@ To select next or previous waveform, rotate the **DATA ENTRY** continuous encode
 
 _Vektor_'s oscillator context (can be oscillator **A**, **B**, **C**, or **D**) have 3 pages:
 
-![](_img/oscPagesV4.png)
+![](_img/oscPagesV5.png)
 
 - First page (home page) permits to select a waveform (by turning the **DATA ENTRY** continuous encoder), import an user waveform from an external compliant WAVE (.wav) file (explained below in this topic), or free/clear the current user waveform slot (if applicable).
 - Second page is used to set up oscillator transposition (**COARSE** by semitones, **FINE** by cents), and the possible source (FM input jack, LFO 1, or LFO 2) of frequency modulation.
