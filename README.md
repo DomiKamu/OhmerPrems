@@ -72,16 +72,6 @@ Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII
 
 ![](docs/modules/KlokSpidMkII/_img/ModelsV3.gif)
 
-Like FranKe and Vektor modules, KlokSpid MkII comes in 8 models (panel themes):
-- _Aluminium_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
-- _Stage Repro_
-- _Cobalt_
-- _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
-- _Dark "Signature"_
-- _Fort Knox "Signature"_
-- _Oxide "Signature"_
-- _Titanium "Signature"_
-
 **KX expander** (also free for everyone) module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
 
 ---
@@ -145,7 +135,7 @@ FroeZe-X expander:
 
 More infos "on-the-fly" in [FroeZe/FroeZe-X/FroeZe-SX **Specifications & Quick Guide**](docs/modules/FroeZe/Manual.md) document.
 
-Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, FroeZe comes in 6 models (panel themes):
+FroeZe (and FroeZe-X / FroeZe-SX expanders) comes in 6 models (panel themes):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
@@ -199,7 +189,7 @@ Both *Initialize*, *Randomize* and *Preset* (via .vcvm preset file, or via copy/
 
 QuadPercs can operate **from 44.1kHz up to 192kHz**, thanks to external pre-computed PCM sample tables - made by fabulous iZotope softwares suite - who permit to keep the sound quality at highest sample rates!
 
-Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, QuadPercs comes in 6 models (panel themes):
+QuadPercs comes in 6 models (panel themes):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
@@ -211,9 +201,9 @@ Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, QuadP
 
 ## **KordZ module**
 
-KordZ module is entirely free (no more time limitation) for everyone (even for non-OhmerPrems members, doesn't require license keyfile), like KlokSpid MkII and KX modules!
+KordZ module is free for everyone (even for non-OhmerPrems members, this module doesn't require license keyfile), like Vektor, VX, KlokSpid MkII, and KX modules!
 
-All 6 models (panel themes, same than FroeZe, FroeZe-X, FroeZe-SX, and QuadPercs modules), reduced room brightness:
+All 6 models (panel themes), reduced room brightness:
 
 ![](docs/modules/KordZ/_img/KordZ_All_Models.png)
 
@@ -229,7 +219,7 @@ The KordZ modules by night (VCV Rack 2's *Room brightness* feature sets to... 0%
 
 ![](docs/modules/KordZ/_img/KordZ_Dark_Room.png)
 
-Like other Ohmer Modules (free, Open Source), and some OhmerPrems modules, KordZ comes in 6 models (panel themes):
+KordZ module comes in 6 models (panel themes):
 - _Creamy_ (default/browser view if **Use dark panels if available** option is disabled from **View** menu)
 - _Stage Repro_
 - _Absolute Night_ (default/browser view if **Use dark panels if available** option is enabled from **View** menu)
