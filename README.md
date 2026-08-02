@@ -19,7 +19,7 @@
 
 ---
 
-Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. Will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems) for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
+Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. This release will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems), for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
 
 ## [CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
 
@@ -264,36 +264,36 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 ## Free version<a name="freevsfull"></a>
 
-Unlike by VCV Store where you'll must to buy without the possibily to test before, at least free/trial *OhmerPrems* plugin is available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) page from this GitHub repository (for **manual** installation and updates, by download/copy the **.vcvplugin** package file).
+Unlike via VCV Store where you'll must to buy without the ability to test prior to buy, free/trial *OhmerPrems* plugin is always available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) section from this GitHub repository (for **manual** installation/update, by download + copy the **.vcvplugin** package file).
 
-Also, lastest stable plugin release is available from VCV Library, for assisted installation or update. You'll can subscribe for the whole OhmerPrems plugin, or per module(s):
+Also, lastest stable plugin release is available from VCV Library, for assisted installation/update. You'll can subscribe for the whole OhmerPrems plugin, or per module(s):
 
 - [Whole OhmerPrems plugin](https://library.vcvrack.com/OhmerPrems)
 - [Per module (all Ohmer/OhmerPrems are listed)](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=)
 
-Without a personal license keyfile, some modules (FranKe, FroeZe / FroeZe-X / FroeZe-SX, and QuadPercs) work as "Free/Trial" with features limitations, instead of full version (see below).
+Without a personal license keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _FroeZe-SX_, and _QuadPercs_ modules run as "Free/Trial", with features limitations (instead of as full unrestricted version).
 
 ---
 
 ## Full version (OhmerPrems members only)
 
-A personal license keyfile is sent to OhmerPrems members (by email only), including detailled instructions to install it. The presence of (valid) license keyfile unlocks (immediately) all modules to **full version** (unrestricted). However, Vektor (and its expander, VX), KlokSpid MkII (and its expander, KX), future 6OP-DX, and KordZ modules always work as full version (whatever the license keyfile is installed, or not), because these modules are free for everyone, without any feature limitation!
+A personal license keyfile is sent to OhmerPrems members (by email exclusively), including detailled instructions to install it (by the body of email). The presence of valid license keyfile unlocks (immediately) all concerned modules to **full version**. However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _6OP-DX_, and _KordZ_ modules always work as full version, whatever the license keyfile is installed or not, because these modules are free for everyone, without any feature limitation!
 
-Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades, including all future *OhmerPrems* modules, as full version, without any additional charge!
+Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades, but also all future *OhmerPrems* modules, always as full version, without any additional charge!
 
-To become *OhmerPrems* member, simply send me **15 euros** via PayPal.Me. If required, please convert your local currency first, to fit with 15 (or more) euros (otherwise your payment will not be accepted and refurbished), via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
+To become *OhmerPrems* member, simply send me **15 euros** via PayPal.Me. If required, please convert your local currency first, to fit with 15 (or more) euros, otherwise your payment will not be accepted and refurbished. Payment via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
-**I precise you'll cannot buy a license keyfile directly via the VCV Store!**
+:warning: **You'll cannot buy a license keyfile directly via the VCV Store!**
 
 :warning:
-## Summer 2026: please consider the 15 euros fee remains very fair! (this fee will not change during 2026, however).
+## Summer 2026: please consider the 15 euros fee remains very fair! this fee will not change during 2026, however.
 
 **Very important: don't forget to indicate:**
 - your first and last name (personal name only, **company name or nickname aren't accepted**).
 - your email address (preferabely used to access to VCV Library, or a reliable permanent email address), required to send your personal license key, instructions to install it, and possible future communications about important updates. Your name and email address stays strictly private!
 - also in the body of the message, please specify **OhmerPrems** (or something similar), to avoid possible confusions!
 
-New subscription requires 24 hours max. (generally less, couple of hours, sometimes delivered after... minutes!), after PayPal payment notification. Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**. Thanks for your understanding!
+New subscription requires max. 24 hours for processing (generally less, often couple of hours, sometimes delivered after... few minutes!), after PayPal payment notification. Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**. Thanks for your understanding!
 
 ---
 
