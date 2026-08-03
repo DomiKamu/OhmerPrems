@@ -25,7 +25,7 @@ Lastest stable version **v2.6.13** is available directly from [_here_](https://g
 
 ---
 
-## **FranKe module**
+## **FranKe**
 
 [Please click here to read the **FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for bases of this sequencer usage & good starting, however).
 
@@ -40,7 +40,7 @@ Following animation is showing **all 8 models** (panel themes) of _FranKe_ modul
 
 ---
 
-## **Vektor & VX modules**
+## **Vektor (and VX expander)**
 
 [Please click here to read the **Vektor User's Manual**](docs/modules/Vektor/Manual.md)
 
@@ -54,7 +54,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ----
 
-## **6OP-DX module: W.I.P. (resuming development August 2026)**
+## **6OP-DX: Work In Progress (development resumed August 2026)**
 
 ![](docs/modules/6OP-DX/_img/main.png)
 
@@ -70,7 +70,7 @@ Please apologize again for this important delay!
 
 ---
 
-## **KlokSpid MkII & KX modules**
+## **KlokSpid MkII (and KX expander)**
 
 [Please click here to read **KlokSpid MkII/KX Specifications & User's Manual**](docs/modules/KlokSpidMkII/Manual.md)
 
@@ -86,7 +86,7 @@ Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII
 
 ---
 
-## **FroeZe, FroeZe-X & FroeZe-SX modules**
+## **FroeZe (and FroeZe-X / FroeZe-SX expanders)**
 
 :warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free/Trial", instead of as full version). Free/Trial version is limited to edit fourth first tracks (BD, SD, CH, and OH), and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 drum machines are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) may have more feature limitations (indicated in the Quick Guide).
 
@@ -155,7 +155,7 @@ FroeZe (and FroeZe-X / FroeZe-SX expanders) comes in 6 models (panel themes):
 
 ---
 
-## **QuadPercs module**
+## **QuadPercs**
 
 :warning: **No sound for particular drum machine + drum kit is meaning you don't have a license (V2) keyfile (while the module is running as "Free", instead of "Full"). Free version is limited to only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 (all other drum machines are muted, it's normal)**.
 
@@ -201,7 +201,7 @@ QuadPercs can operate **from 44.1kHz up to 192kHz**, thanks to external pre-comp
 
 ---
 
-## **KordZ module**
+## **KordZ**
 
 KordZ is a visual/decorative module for your rack. It displays played single note (unison) or chord (up to 3 notes) in coloured Circle of Fifth.
 
