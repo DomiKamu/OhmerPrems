@@ -19,6 +19,6 @@ By loading a factory preset, the default selected voice is **E.PIANO 1** (the mo
 
 You'll can choose either _Aluminium_ model (with genuine DX LCD), or _Dark "Signature"_ model (with OLED DX display), like shown at the top of this page. Of course, everything can be changed later, including model (panel theme) and emulated DX7 display! You'll can assume a factory preset as a good start point for your project.
 
-_Right click context menu, from Presets > Factory Presets:_
-
 ![](_img/factorypresets.png)
+
+---
