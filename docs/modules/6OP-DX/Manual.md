@@ -17,7 +17,7 @@ However, by using VCV Rack 2's **Presets** feature from right click menu, then *
 
 By loading a factory preset, the default selected voice is **E.PIANO 1** (the most used factory voice by numerous artists), from internal memory, indicated as **INT 11 E.PIANO 1** on the DX7-emulated display. 
 
-You'll can choose either _Aluminium_ model (with genuine DX LCD), or _Dark "Signature"_ model (with OLED DX display), like shown at the top of this page. Of course, everything can be changed later, including model (panel theme) and emulated DX7 display! You'll can assume a factory preset as a good start point for your project.
+You'll can choose either _Aluminium_ model (with genuine DX LCD), or _Dark "Signature"_ model (with OLED DX display), like shown at the top of this page. Of course, everything can be changed later, including model (panel theme) and DX7-emulated display! You'll can assume the following factory preset as a good start point for your project who are using 6OP-DX synth voice module.
 
 ![](_img/factorypresets.png)
 
