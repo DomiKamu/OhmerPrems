@@ -9,10 +9,12 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 ---
 
-The 6OP-DX offers three banks, named INT., C1./CART1, and C2./CART2:
-- INT (as internal memory), can hold 32 voices. Each operator are using sine waveforms only, like the real DX7 synthesizer.
-- C1 (CART1), as cartridge #1, can hold 32 voices. Each operator are using sine waveforms only, like the real DX7 synthesizer.
-- C2 (CART2), as cartridge #2, can hold 32 voices. Each operator may use additional waveforms (sine, triangle, sawtooth, ramp, or square).
+The 6OP-DX offers three banks, named INT., C1./CART1, and C2./CART2, each can hold 32 voices:
+- INT (as internal memory). Each operator is using sine waveform only, like the real DX7 synthesizer.
+- C1 (CART1), as cartridge #1. Each operator is using sine waveform only, like the real DX7 synthesizer.
+- C2 (CART2), as cartridge #2. Each operator may use custom waveform: sine, triangle, sawtooth, ramp, or square.
+
+:warning: Due to DX7 compatibility, when you import a SysEx file to CART2 (cartridge 2), affected voice(s) is/are automatically set to sine waveforms.
 
 ---
 
