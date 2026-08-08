@@ -2,7 +2,15 @@
 CHANGELOG
 ==============================================================================================================================
 
-Release v2.6.13 (August 1st, 2026) for VCV Rack 2.
+W.I.P. (not yet released) v2.6.14 (from August 1st, 2026)
+
+- Resumed the development around 6OP-DX synthesizer voice module (117HP).
+- Working on its User's Manual.
+- Will be published as pre-release v2.6.14 BETA as soon as synthesizer core is operational.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Release v2.6.13 (August 8th, 2026) for VCV Rack 2.
 
 - Introducing Vektor module, 16HP polyphonic digital waveform-based quad-VCO, using Vector Synthesis technique.
 - Introducing VX, 3HP right-side expander for Vektor, to bring discrete LFO, joystick and MIX ENVelope outputs (with GATE).
