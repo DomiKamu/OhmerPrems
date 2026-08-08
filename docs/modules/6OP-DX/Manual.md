@@ -9,6 +9,13 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 ---
 
+The 6OP-DX offers three banks, named INT., C1./CART1, and C2./CART2:
+- INT (as internal memory), can hold 32 voices. Each operator are using sine waveforms only, like the real DX7 synthesizer.
+- C1 (CART1), as cartridge #1, can hold 32 voices. Each operator are using sine waveforms only, like the real DX7 synthesizer.
+- C2 (CART2), as cartridge #2, can hold 32 voices. Each operator may use additional waveforms (sine, triangle, sawtooth, ramp, or square).
+
+---
+
 When you bring a new 6OP-DX module instance in your rack (from module browser), the internal memory (INT) and all two cartridges (CART 1, and CART2) are empty (filled by 3 banks x 32 INIT voices).
 
 However, by using VCV Rack 2's **Presets** feature from right click menu, then **Factory Presets**, you'll can load prefilled internal memory and first cartridge (INT, and C1/CART1), prefilled with official Yamaha DX7 soundbanks (SysEx), respectively **Rom1a** (to **INT**ernal memory), and **Rom1b** (to **CART**ridge 1). This is useful in case you'd like to use the official DX7 voices/presets quickly!
