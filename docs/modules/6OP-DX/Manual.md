@@ -9,8 +9,15 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 ---
 
-When you bring a new 6OP-DX module instance, from module browser, the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are empty (filled by 4 x 32 INIT voices).
+When you bring a new 6OP-DX module instance in your rack (from module browser), the internal memory (INT) and all two cartridges (CART 1, and CART2) are empty (filled by 3 x 32 INIT voices).
 
-However, by using **Factory Preset** from right click menu, you'll can open prefilled internal memory and three cartridges (C1, C2, and C3) by official Yamaha soundbanks (official SysEx), respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3), for ready-to-use synthesizer by using preloaded voices.
+However, by using VCV Rack 2's **Presets** feature, then **Factory Presets**, from right click context menu, you'll can load prefilled internal memory and first cartridge (INT, and C1), prefilled by official Yamaha DX7 soundbanks (SysEx), respectively **Rom1a** (to **INT**ernal memory), and **Rom1b** (to **CART**ridge 1). This is useful in case you'd like use official DX7 voices (sounds) quickly!
 
-The default selected voice is **E.PIANO 1** (the most factory voice used by artists), from internal memory, indicated as **INT 11 E.PIANO 1** on the DX display. You'll can choose either _Aluminium_ (with genuine DX LCD) or _Dark "Signature"_ model (with OLED DX display), like shown at the top of this page. Of course, all can be changed later!
+:warning: By loading a factory preset, please notice all 32 voices of **CART**ridge 2 returns to **INIT**!
+
+The default selected voice is **E.PIANO 1** (the most used factory voice by artists), from internal memory, indicated as **INT 11 E.PIANO 1** on the emulated DX display. 
+
+You'll can choose either _Aluminium_ model (with genuine DX LCD), or _Dark "Signature"_ model (with OLED DX display), like shown at the top of this page. Of course, everything can be changed later, including model (panel theme) and emulated DX7 display!
+
+_Right click context menu, from Presets > Factory Presets:_
+![](_img/factorypresets.png)
