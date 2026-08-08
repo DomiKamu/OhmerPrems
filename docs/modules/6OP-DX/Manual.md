@@ -1,6 +1,6 @@
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
-_Both **Factory Presets**, using identical banks and settings. Except models (panel theme) and DX display_
+_Both **Factory Presets**, using identical banks and settings. Except models (panel themes) and emulated DX display_
 ![](_img/main.png)
 
 This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
