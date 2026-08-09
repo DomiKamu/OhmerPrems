@@ -25,7 +25,7 @@ _The Yamaha DX7 synthesizer_:
 
 Unlike other synthesizers prior it, who are mostly analog synthesizers, like the Minimoog (Moog Music), the Prophet 5 (Sequential Circuits), or the Jupiter-8 (Roland), the Yamaha DX7 was an accessible pioneer about FM (Frequency Modulation) synthesis. In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
 
-The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by most recent audio interfaces.
+The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, one screen interface (no submenus or subpages), and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
