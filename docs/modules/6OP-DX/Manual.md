@@ -17,7 +17,7 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 This topic explains some unfamiliar terms, most of them are used by Yamaha company for DX family synthesizers:
 
-- **Voice** stands for synthesizer preset.
+- **Voice** stands for synthesizer preset (or patch).
 - **Bank** refers to internal memory, or a particular cartridge.
 - **SysEx** stands for MIDI System Exclusive files (.syx), can host a full 32-voice bank, or a single voice.
 
@@ -33,9 +33,9 @@ The 6OP-DX offers 4 soundbanks, named **INT**, **CART1**, **CART2**, and **CART3
 
 ---
 
-When you bring a new 6OP-DX module instance in your rack (from module browser), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are empty, the four banks are filled by 32 "INIT" voices.
+When you bring a fresh 6OP-DX module in your rack (from module browser), or after **Initialize** command from right click menu (or via **Ctrl+I** / **Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are empty: All banks are filled by 32 "INIT" voices.
 
-However, by using VCV Rack 2's **Presets** feature, from right click menu, then **Factory Presets**, you'll can load prefilled ready-to-play banks (INT, C1/CART1, C2/CART2, and C3/CART3) with official Yamaha DX7 soundbanks (from official DX7 SysEx), respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). This is useful in case you'd like to use the official DX7 voices/presets quickly, without sound design sessions!
+However, by using VCV Rack 2's **Presets** feature, from right click menu, then **Factory Presets**, you'll can load prefilled ready-to-play banks (INT, C1/CART1, C2/CART2, and C3/CART3) with official Yamaha DX7 soundbanks (from official DX7 SysEx), respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). This is useful in case you'd like to use 128 official DX7 voices/presets quickly, without sound design sessions, nor import operations!
 
 :warning: By loading a proposed factory preset, please notice all banks of 32 voices are replaced by Rom1a, Rom1b, Rom2a, and Rom2b. So, don't forget to save your stuff prior to open a VCV Rack preset file!
 
