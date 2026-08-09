@@ -18,10 +18,14 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 ### HISTORY<a name="history"></a>
 
-_From English Wikipedia_: The DX7 is a synthesizer introduced by Yamaha Corporation in 1983. It was the first successful digital synthesizer and is one of the best-selling synthesizers in history, selling more than 200,000 units.
+_From English Wikipedia_: The DX7 is a synthesizer introduced by the Japanese Yamaha Corporation in 1983. It was the first successful digital synthesizer and is one of the best-selling synthesizers in history, selling more than 200,000 units.
 
 _The Yamaha DX7 synthesizer_:
 ![](_img/theDX7synth.png)
+
+Unlike other synthesizers prior it, who are mostly analog synthesizers, like the Minimoog (Moog Music), the Prophet 5 (Sequential Circuits), or the Jupiter-8 (Roland), the Yamaha DX7 was an accessible pioneer about FM (Frequency Modulation) synthesis. In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
+
+The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by most recent audio interfaces.
 
 ---
 
