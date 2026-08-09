@@ -17,21 +17,23 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 ### TERMINOLOGY<a name="terminology"></a>
 
-This topic explains some unfamiliar terms, most of them are used by Yamaha company for DX family synthesizers:
+This topic explains some "unfamiliar" terms and accronyms. Most of them was used by Yamaha company for DX-family synthesizers:
 
-- **Voice** stands for synthesizer preset (or patch).
-- **Bank** refers to internal memory, or a particular cartridge.
-- **SysEx** stands for MIDI System Exclusive files (.syx), can host a full 32-voice bank, or a single voice.
+- **Voice** stands for synthesizer preset. Please do not confuse with VCV Rack 2 preset file!
+- **Bank** may refer to internal memory, or a specific cartridge.
+- **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
+- **VMEM** is a particular DX7 SysEx file format (defined by Yamaha) to store a whole 32-voice bank.
+- **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 
 ---
 
-The 6OP-DX offers 4 soundbanks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank holds 32 voices (a "voice" is a DX7 preset):
+The 6OP-DX offers four banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank holds 32 voices (a "voice" is a DX7 preset):
 - **INT** (as internal memory). Every operator is using sine waveform only (like the real DX7 synthesizer).
 - **CART1** (displayed **C1.**), as cartridge #1. Every operator is using sine waveform only (like the real DX7 synthesizer).
 - **CART2** (displayed **C2.**), as cartridge #2. Every operator is using sine waveform only (like the real DX7 synthesizer).
 - **CART3** (displayed **C3.**), as cartridge #3. Each operator may use custom waveform: sine (default), triangle, sawtooth, ramp, or square.
 
-:warning: Due to DX7 compatibility, when you import a SysEx file to cartridge #3 (CART3/C3.), affected voices are automatically set to **sine** waveform for all operators.
+:warning: Due to DX7 compatibility, when you import a SysEx file to cartridge #3 (CART3/C3.), affected voice(s) is/are automatically set to **sine** waveform, for all 6 operators.
 
 ---
 
