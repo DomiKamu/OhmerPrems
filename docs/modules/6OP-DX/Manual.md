@@ -1,11 +1,25 @@
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
+### TOPICS
+
+- [**TERMINOLOGY**](#terminology)
+
 _Factory Preset, preloaded Rom1a/Rom1b/Rom2a/Rom2b banks (4x32 voices), Aluminium model, DX7-emulated genuine LCD display:_
 ![](_img/main.png)
 
 This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
 :warning: This manual will be built for future v2.6.14. **As draft at the moment!**
+
+---
+
+### TERMINOLOGY<a name="terminology"></a>
+
+This topic explains some unfamiliar terms, most of them are used by Yamaha company for DX family synthesizers:
+
+- **Voice** stands for synthesizer preset.
+- **Bank** refers to internal memory, or a particular cartridge.
+- **SysEx** stands for MIDI System Exclusive files (.syx), can host a full 32-voice bank, or a single voice.
 
 ---
 
