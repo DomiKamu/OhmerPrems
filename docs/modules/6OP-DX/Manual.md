@@ -61,9 +61,11 @@ Second preset file (.vcvm) is using respectively **Rom3a** (to **INT**ernal memo
 
 By loading a proposed factory preset, the default selected voice is automatically switched to **INT 11 E.PIANO 1** (it's the most used factory voice by numerous artists), or **INT 11 E.ORGAN 1**, as indicated by the DX7-emulated display.
 
-The proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown at the top of this manual. Of course, everything can be changed later, including model (panel theme) and DX7-emulated display (genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and all other synthesizer settings. You'll can assume these factory presets as a good start point for your projects who are using one or many 6OP-DX synth voice module(s).
+The proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown below. Of course, everything can be changed later, including model (panel theme), the DX7-emulated display (may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and all other synthesizer settings and global preferences. You'll can assume these factory presets as a good start point for your projects who are using one or many 6OP-DX synth voice module(s).
 
-_Factory Presets, from right click context menu_:
+You'll can create your own User Presets (.vcvm files) and modules selections (.vcvs files), for later reuse.
+
+_Factory Presets, access from right click context menu_:
 ![](_img/factorypresetsV2.png)
 
 ---
