@@ -1,7 +1,7 @@
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
-_Both **Factory Presets**, using identical banks and settings. Except models (panel themes) and DX7-emulated displays:_
-![](_img/mainV2.png)
+_Factory Preset, preloaded Rom1a/Rom1b/Rom2a/Rom2b banks (4 x 32 voices), Aluminium model (panel theme), DX7-emulated genuine LCD display:_
+![](_img/main.png)
 
 This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
@@ -9,13 +9,13 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 ---
 
-The 6OP-DX offers 4 soundbanks, named INT., C1./CART1, C2./CART2, and C3./CART3. Each bank can hold 32 voices:
-- INT (as internal memory). Every operator is using sine waveform only (like the real DX7 synthesizer).
-- C1 (CART1), as cartridge #1. Every operator is using sine waveform only (like the real DX7 synthesizer).
-- C2 (CART2), as cartridge #2. Every operator is using sine waveform only (like the real DX7 synthesizer).
-- C3 (CART3), as cartridge #3. Each operator may use custom waveform: sine (default), triangle, sawtooth, ramp, or square.
+The 6OP-DX offers 4 soundbanks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank holds 32 voices (a "voice" is a DX7 preset):
+- **INT** (as internal memory). Every operator is using sine waveform only (like the real DX7 synthesizer).
+- **CART1** (displayed **C1.**), as cartridge #1. Every operator is using sine waveform only (like the real DX7 synthesizer).
+- **CART2** (displayed **C2.**), as cartridge #2. Every operator is using sine waveform only (like the real DX7 synthesizer).
+- **CART3** (displayed **C3.**), as cartridge #3. Each operator may use custom waveform: sine (default), triangle, sawtooth, ramp, or square.
 
-:warning: Due to DX7 compatibility, when you import a SysEx file to CART3 (cartridge #3), affected voices are automatically set to **sine** waveforms.
+:warning: Due to DX7 compatibility, when you import a SysEx file to cartridge #3 (CART3/C3.), affected voices are automatically set to **sine** waveform for all operators.
 
 ---
 
@@ -27,7 +27,7 @@ However, by using VCV Rack 2's **Presets** feature, from right click menu, then 
 
 By loading a proposed factory preset, the default selected voice is automatically set to **INT 11 E.PIANO 1** (the most used factory voice by numerous artists), as indicated by the DX7-emulated display. 
 
-You'll can choose either _Aluminium_ model (with genuine DX LCD), _Absolute Night_ model (with backlit DX LCD), or _Dark "Signature"_ model (with OLED DX display), like shown at the top of this page. Of course, everything can be changed later, including model (panel theme) and DX7-emulated display (genuine LCD, backlit LCD, or OLED retrofit). You'll can assume any factory preset as a good start point for your project who are using 6OP-DX synth voice module.
+Proposed factory preset is using _Aluminium_ model (panel theme), with genuine DX LCD, like shown at the top of this manual. Of course, everything can be changed later, including model (panel theme) and DX7-emulated display (genuine LCD, backlit LCD retrofit, or OLED retrofit). You'll can assume this factory preset as a good start point for your project who are using 6OP-DX synth voice module.
 
 ![](_img/factorypresets.png)
 
