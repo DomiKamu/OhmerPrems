@@ -63,6 +63,7 @@ By loading a proposed factory preset, the default selected voice is automaticall
 
 The proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown at the top of this manual. Of course, everything can be changed later, including model (panel theme) and DX7-emulated display (genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and all other synthesizer settings. You'll can assume these factory presets as a good start point for your projects who are using one or many 6OP-DX synth voice module(s).
 
-![](_img/factorypresets.png)
+_Factory Presets, from right click context menu_:
+![](_img/factorypresetsV2.png)
 
 ---
