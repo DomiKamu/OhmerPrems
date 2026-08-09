@@ -51,7 +51,7 @@ The 6OP-DX offers four banks, named **INT**, **CART1**, **CART2**, and **CART3**
 
 ---
 
-When you bring a fresh 6OP-DX module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by (32) "INIT" voices.
+When you bring a fresh 6OP-DX module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
 
 However, from right click menu, by using VCV Rack 2's **Presets**, then **Factory Presets**, you'll can load prefilled ready-to-play banks (INT, C1/CART1, C2/CART2, and C3/CART3) with official Yamaha DX7 soundbanks (SysEx files).
 
@@ -61,9 +61,9 @@ Second preset file (.vcvm) is using respectively **Rom3a** (to **INT**ernal memo
 
 By loading a proposed factory preset, the default selected voice is automatically switched to **INT 11 E.PIANO 1** (it's the most used factory voice by numerous artists), or **INT 11 E.ORGAN 1**, as indicated by the DX7-emulated display.
 
-The proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown below. Of course, everything can be changed later, including model (panel theme), the DX7-emulated display (may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and all other synthesizer settings and global preferences. You'll can assume these factory presets as a good start point for your projects who are using one or many 6OP-DX synth voice module(s).
+The two proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown below. Obviously, everything can be changed later, including model (panel theme), the DX7-emulated display (may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and all other synthesizer settings and global preferences. You'll can assume these factory presets can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort.
 
-You'll can create your own User Presets (.vcvm files) and modules selections (.vcvs files), for later reuse.
+Of course, you'll can create your own **User Presets** (.vcvm files) and modules selections (.vcvs files), for later reuse.
 
 _Factory Presets, access from right click context menu_:
 ![](_img/factorypresetsV2.png)
