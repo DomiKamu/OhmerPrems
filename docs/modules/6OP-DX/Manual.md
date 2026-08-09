@@ -22,12 +22,12 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **Voice** stands for synthesizer preset. Please do not confuse with VCV Rack 2 preset file!
 - **Bank** may refer to internal memory, or a specific cartridge.
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
-- **VMEM** is a particular DX7 SysEx file format (defined by Yamaha) to store a whole 32-voice bank.
+- **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 
 ---
 
-The 6OP-DX offers four banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank holds 32 voices (a "voice" is a DX7 preset):
+The 6OP-DX offers four banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank holds 32 voices:
 - **INT** (as internal memory). Every operator is using sine waveform only (like the real DX7 synthesizer).
 - **CART1** (displayed **C1.**), as cartridge #1. Every operator is using sine waveform only (like the real DX7 synthesizer).
 - **CART2** (displayed **C2.**), as cartridge #2. Every operator is using sine waveform only (like the real DX7 synthesizer).
@@ -37,15 +37,15 @@ The 6OP-DX offers four banks, named **INT**, **CART1**, **CART2**, and **CART3**
 
 ---
 
-When you bring a fresh 6OP-DX module in your rack (from module browser), or after **Initialize** command from right click menu (or via **Ctrl+I** / **Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are empty: All banks are filled by 32 "INIT" voices.
+When you bring a fresh 6OP-DX module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by (32) "INIT" voices.
 
-However, by using VCV Rack 2's **Presets** feature, from right click menu, then **Factory Presets**, you'll can load prefilled ready-to-play banks (INT, C1/CART1, C2/CART2, and C3/CART3) with official Yamaha DX7 soundbanks (from official DX7 SysEx), respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). This is useful in case you'd like to use 128 official DX7 voices/presets quickly, without sound design sessions, nor import operations!
+However, from right click menu, by using VCV Rack 2's **Presets**, then **Factory Presets**, you'll can load prefilled ready-to-play banks (INT, C1/CART1, C2/CART2, and C3/CART3) with official Yamaha DX7 soundbanks (SysEx files), respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). This is useful in case you'd like to use 128 official DX7 voices quickly, without sound design sessions, nor file operations!
 
-:warning: By loading a proposed factory preset, please notice all banks of 32 voices are replaced by Rom1a, Rom1b, Rom2a, and Rom2b. So, don't forget to save your stuff prior to open a VCV Rack preset file!
+:warning: By loading the proposed factory preset, please notice all banks of 32 voices are replaced by Rom1a, Rom1b, Rom2a, and Rom2b. So, don't forget to save your stuff prior to open a VCV Rack preset file!
 
-By loading a proposed factory preset, the default selected voice is automatically set to **INT 11 E.PIANO 1** (the most used factory voice by numerous artists), as indicated by the DX7-emulated display. 
+By loading the proposed factory preset, the default selected voice is automatically switched to **INT 11 E.PIANO 1** (it's the most used factory voice by numerous artists), as indicated by the DX7-emulated display. 
 
-Proposed factory preset is using _Aluminium_ model (panel theme), with genuine DX LCD, like shown at the top of this manual. Of course, everything can be changed later, including model (panel theme) and DX7-emulated display (genuine LCD, backlit LCD retrofit, or OLED retrofit). You'll can assume this factory preset as a good start point for your project who are using 6OP-DX synth voice module.
+The proposed factory preset is using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown at the top of this manual. Of course, everything can be changed later, including model (panel theme) and DX7-emulated display (genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit). You'll can assume this factory preset as a good start point for your projects who are using one or many 6OP-DX synth voice module(s).
 
 ![](_img/factorypresets.png)
 
