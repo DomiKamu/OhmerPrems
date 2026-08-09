@@ -1,6 +1,6 @@
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
-_Factory Preset, preloaded Rom1a/Rom1b/Rom2a/Rom2b banks (4 x 32 voices), Aluminium model (panel theme), DX7-emulated genuine LCD display:_
+_Factory Preset, preloaded Rom1a/Rom1b/Rom2a/Rom2b banks (4x32 voices), Aluminium model, DX7-emulated genuine LCD display:_
 ![](_img/main.png)
 
 This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
