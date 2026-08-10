@@ -61,8 +61,8 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 ![](docs/modules/6OP-DX/_img/mainV2.png)
 
 The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
-- Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors.
-- This synth voice module doesn't output sound at the moment, because PM synthesis part is not yet developed (I have a lot of feature to _prepare_ first, like envelope generators, internal LFO, matrix modulation, and so on).
+- Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules, not only 6OP-DX, surely a **graphic renderer issue in VCV Rack 2 v2.6.6**.
+- This synth voice module doesn't output sound at the moment, because PM synthesis part is not yet developed. Please consider I have a lot of features to implement first, prior sound output, like envelope generators, internal LFO, matrix modulation, and so on!
 
 6OP-DX is scheduled for future release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
 
