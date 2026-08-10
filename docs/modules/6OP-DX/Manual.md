@@ -76,9 +76,10 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - Modulation Matrix (via dedicated page, also from MENU button).
 - 8 assignable independent CV input jacks.
 - Intuitive graphic envelope editor.
-- Splittable "keyboard" response (from Preferences page).
-- Motorized potentiometers (speed can be adjusted from Preferences page).
-- Quick self-test feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
+- Learnable (by using external MIDI controller) OPerator BREAKPOINT.
+- "Keyboard" response range (from Preferences page).
+- Motorized potentiometers (adjustable from Preferences page).
+- Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
 ---
 ---
