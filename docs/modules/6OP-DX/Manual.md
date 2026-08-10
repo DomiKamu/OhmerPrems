@@ -23,7 +23,7 @@ _From English Wikipedia_: The DX7 is a synthesizer introduced by the Japanese Ya
 _The Yamaha DX7 synthesizer_:
 ![](_img/theDX7synth.png)
 
-Unlike other synthesizers prior it, who are mostly analog synthesizers, like the Minimoog (Moog Music), the Prophet 5 (Sequential Circuits), or the Jupiter-8 (Roland), the Yamaha DX7 was an accessible pioneer about FM (Frequency Modulation) synthesis. In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
+Unlike other synthesizers prior it, who are mostly analog synthesizers using substractive synthesis, like the Minimoog (Moog Music), the Prophet 5 (Sequential Circuits), or the Jupiter-8 (Roland), the Yamaha DX7 was the first accessible synthesizers using FM (Frequency Modulation) synthesis. In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
 
 The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
@@ -34,7 +34,7 @@ The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as poss
 This topic explains some "unfamiliar" terms and accronyms. Most of them was used by Yamaha company for DX-family synthesizers:
 
 - **Voice** stands for synthesizer preset. Please do not confuse with VCV Rack 2 preset file!
-- **Bank** may refer to internal memory, or a specific cartridge.
+- **Bank** may refer to internal memory or a specific cartridge, hosting 32 voices each.
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
