@@ -46,7 +46,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 117HP.
-- Available models (GUI theme variants): 8 (please watch the animation at the top of this page, for available models).
+- Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
 - Full DX7 SysEx files support (either VMEM 32-voice banks, and VCED single-voice), as import, and as export.
