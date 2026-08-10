@@ -1,7 +1,7 @@
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
 _Factory Preset, preloaded Rom1a/Rom1b/Rom2a/Rom2b banks (4x32 voices), Aluminium model, DX7-emulated genuine LCD display:_
-![](_img/main.png)
+![](_img/mainV2.png)
 
 This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
@@ -66,6 +66,6 @@ The two proposed factory presets are using _Aluminium_ model (panel theme), and 
 Of course, you'll can create your own **User Presets** (.vcvm files) and modules selections (.vcvs files), for later reuse.
 
 _Factory Presets, access from right click context menu_:
-![](_img/factorypresetsV2.png)
+![](_img/factorypresetsV3.png)
 
 ---
