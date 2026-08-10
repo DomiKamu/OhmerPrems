@@ -46,15 +46,15 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 117HP.
-- Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", Titanium "Signature").
+- Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
-- Full DX7 SysEx files support (either VMEM 32-voice banks, and VCED single-voice), as import, and as export.
+- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import and as export.
 - 32 algorithms (all come from the real DX7 synthesizer).
 - 6 operators (each can be enabled or disabled). Extended waveforms (sine, triangle, saw, ramp, square) for voices located in CART3/C3.
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
 - All synthesizer settings are accessible on single panel (no DX7 menus/submenus).
-- High resolution color OLED **touchscreen** display.
+- Large color OLED **touchscreen** display.
 - Two multipurpose continuous encoders (above the left-side of the touchscreen).
 - MONOPHONIC toggle button, with pink LED (above the center of the touchscreen).
 - Two multipurpose momentary buttons (above the right-side of the touchscreen).
