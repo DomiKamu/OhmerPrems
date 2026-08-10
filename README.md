@@ -9,6 +9,7 @@
 - **Vektor** is a 16HP polyphonic digital quad-oscillator (VCO) module, using Vector Synthesis (VS) technique. New module (introduced by **release v2.6.13**). [**Vektor User's Manual** (incl. VX expander)](docs/modules/Vektor/Manual.md)
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
 - **6OP-DX** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers vs. custom UI Scale factors - see below, and NO OUTPUT SOUND AT THE MOMENT**). Also, its [**User's Manual**](docs/modules/6OP-DX/Manual.md) is under construction, too.
+- **6OP-DX Kompakt** will be the "free player" of 6OP-DX, largely smaller (40HP estimation), without edit.
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit mini-display shows **-** **-**).
@@ -54,7 +55,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV4.gif)
 
-:information_source: _Vektor_ and _VX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (future) 6OP-DX modules.
+:information_source: _Vektor_ and _VX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (future) 6OP-DX Kompakt modules.
 
 ----
 
@@ -72,7 +73,7 @@ However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" b
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _6OP-DX_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
+:information_source: _6OP-DX Kompkt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, and KordZ modules). However, regular _6OP-DX_ module will need a license V2 keyfile in order to save / export sound design stuff.
 
 [**6OP-DX User's Manual**](docs/modules/6OP-DX/Manual.md) is also under construction (draft status).
 
@@ -90,7 +91,7 @@ Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII
 
 **KX expander** module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
 
-:information_source: _KlokSpid MkII_ and _KX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) 6OP-DX modules.
+:information_source: _KlokSpid MkII_ and _KX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) 6OP-DX Kompakt modules.
 
 ---
 
@@ -237,21 +238,21 @@ KordZ module comes in 6 models (panel themes):
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
 
-:information_source: _KordZ_ module is **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) 6OP-DX modules.
+:information_source: _KordZ_ module is **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) 6OP-DX Kompakt modules.
 
 ---
 
-"***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, some modules work as free/trial version (with limitations, depending the module), for evaluation purposes. Except free modules for everyone, other modules require a personal paid-once license key. The license key is sent by email exclusively to OhmerPrems member, after PayPal payment confirmation.
+"***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, some modules work as free/trial version (with limitations, depending the module), for evaluation purposes. Except "free modules for everyone", other modules require a personal (paid-once) license keyfile to work as full unlimited. The license key is sent by email exclusively to OhmerPrems member, after PayPal payment confirmation.
 
 ---
 
 ## HOW TO CHECK YOUR PERSONAL LICENSE KEYFILE INSTALLATION?
 
-Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), or **QuadPercs**, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (before "stars") must be **six digits**, and **four digits as trailing** (after stars) - that meaning your license keyfile is valid for all OhmerPrems modules.
+Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), **QuadPercs**, or **6OP-DX**, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (before "stars") must be **six digits**, then **four digits as trailing** after the stars - that meaning your license keyfile is valid for all OhmerPrems modules.
 
-Otherwise, the same grayed menu entry indicates **Free** (or **Free/Trial**), followed by limitation summary between brackets.
+Otherwise, the same grayed menu entry indicates **Free** (or **Free/Trial**), followed by limitation/restriction summary between brackets.
 
-Do not forget **Vektor**, its **VX** expander, **KlokSpid MkII**, its **KX** expander, (future **6OP-DX**), and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license keyfile is installed, or not!
+Do not forget **Vektor**, its **VX** expander, **6OP-DX Kompakt**, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license V2 keyfile is installed, or not!
 
 ![](docs/modules/QuadPercs/_img/OhmerPrems_Free_upd.png)
 
@@ -274,33 +275,33 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 Unlike via VCV Store where you'll must to buy without the ability to test prior to buy, free/trial *OhmerPrems* plugin is always available to everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) section from this GitHub repository (for **manual** installation/update, by download + copy the **.vcvplugin** package file).
 
-Also, lastest stable plugin release is available from VCV Library, for assisted installation/update. You'll can subscribe for the whole OhmerPrems plugin, or per module(s):
+Also, lastest stable plugin release is always available from VCV Library, for assisted installation (and updates). You'll can subscribe for the whole OhmerPrems plugin, or per favorite module(s):
 
 - [Whole OhmerPrems plugin](https://library.vcvrack.com/OhmerPrems)
 - [Per module (all Ohmer/OhmerPrems are listed)](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=)
 
-Without a personal license keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _FroeZe-SX_, and _QuadPercs_ modules run as "Free/Trial", with features limitations (instead of as full unrestricted version).
+Without a personal license keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _FroeZe-SX_, _6OP-DX_, and _QuadPercs_ modules run as "Free/Trial", with some features limitations (instead of as full unrestricted version).
 
 ---
 
 ## Full version (OhmerPrems members only)
 
-A personal license keyfile is sent to OhmerPrems members (by email exclusively), including detailled instructions to install it (by the body of email). The presence of valid license keyfile unlocks (immediately) all concerned modules to **full version**. However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _6OP-DX_, and _KordZ_ modules always work as full version, whatever the license keyfile is installed or not, because these modules are free for everyone, without any feature limitation!
+A personal license keyfile is sent to OhmerPrems members (by email exclusively), including detailled instructions to install it (by the body of email). The presence of valid license keyfile unlocks (immediately) all concerned modules to **full version**. However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _6OP-DX Kompakt_, and _KordZ_ modules always work as full version, whatever the license V2 keyfile is installed or not, because these modules are free for everyone, without any feature limitation!
 
-Obviously, all *OhmerPrems* members will benefit all **lifetime** updates/upgrades, but also all future *OhmerPrems* modules, always as full version, without any additional charge!
+All *OhmerPrems* members will benefit all **lifetime** updates/upgrades, but also all future *OhmerPrems* modules, always as full version, without any additional charge!
 
-To become *OhmerPrems* member, simply send me **15 euros** via PayPal.Me. If required, please convert your local currency first, to fit with 15 (or more) euros, otherwise your payment will not be accepted and refurbished. Payment via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
+To become *OhmerPrems* member, simply send **15 euros** via PayPal.Me. If required, please convert your local currency first, to fit with 15 (or a bit more) euros, otherwise your payment will not be accepted (and refurbished). Payment via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
-:warning: **You'll cannot buy a license keyfile directly via the VCV Store!**
+:warning: as often asked in private, **you'll cannot buy a license keyfile directly via the VCV Store!**
 
 ## Summer 2026: please consider the 15 euros fee remains very fair! this fee will not change during 2026, however.
 
-**Very important: don't forget to indicate:**
-- your first and last name (personal name only, **company name or nickname aren't accepted**).
-- your email address (preferabely used to access to VCV Library, or a reliable permanent email address), required to send your personal license key, instructions to install it, and possible future communications about important updates. Your name and email address stays strictly private!
-- also in the body of the message, please specify **OhmerPrems** (or something similar), to avoid possible confusions!
+**Very important: do not forget to indicate:**
+- your first and last name (personal name only, **company name / nickname aren't accepted**).
+- your email address (preferably used to access to your VCV Library account, or a reliable permanent email address), required to send your personal license key, instructions to install it, and possible future communications about major updates. Your name and email address stays strictly private, and I never spam!
+- also in the body of the message, please indicate **OhmerPrems** (or something similar), to avoid possible confusions!
 
-New subscription requires max. 24 hours for processing (generally less, often couple of hours, sometimes delivered after... few minutes!), after PayPal payment notification. Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**. Thanks for your understanding!
+New subscription requires max. 24 hours for processing (generally less, often couple of hours, sometimes delivered after... minutes!), after PayPal payment notification. Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**. Thanks for your understanding!
 
 ---
 
