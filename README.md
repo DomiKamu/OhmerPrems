@@ -58,7 +58,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ----
 
-## **6OP-DX: Work In Progress (development resumed August 2026)**
+## **6OP-DX: Work In Progress / currently in development!**
 
 ![](docs/modules/6OP-DX/_img/mainV2.png)
 
