@@ -13,6 +13,7 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 - [**HISTORY**](#history)
 - [**TERMINOLOGY**](#terminology)
+- [**6OP-DX MODULE TECHNICAL SPECIFICATIONS**](#techspecs)
 
 ---
 
@@ -40,6 +41,50 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 
 ---
+
+### 6OP-DX MODULE TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
+
+- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
+- Width: 117HP.
+- Available models (GUI theme variants): 8 (please watch the animation at the top of this page, for available models).
+- DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
+- Emulated DX7 v1.8 firmware.
+- Full DX7 SysEx files support (either VMEM 32-voice banks, and VCED single-voice), as import, and as export.
+- 32 algorithms (all come from the real DX7 synthesizer).
+- 6 operators (each can be enabled or disabled). Extended waveforms (sine, triangle, saw, ramp, square) for voices located in CART3/C3.
+- Polyphony: min. 1 channel/monophonic, max. 16 channels.
+- All synthesizer settings are accessible on single panel (no DX7 menus/submenus).
+- High resolution color OLED **touchscreen** display.
+- Two multipurpose continuous encoders (above the left-side of the touchscreen).
+- MONOPHONIC toggle button, with pink LED (above the center of the touchscreen).
+- Two multipurpose momentary buttons (above the right-side of the touchscreen).
+- LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
+- Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
+- FM mode: Phase Modulation (PM) only.
+- XXXX TBC ? Frequency response: 10 octaves, from 16.352Hz (C0) to 15804.416Hz (B9).
+- Band-limiting: up to Nyquist frequency (half of sample rate).
+- DAC resolution: advanced 16-bit (original 12-bit implemented later).
+- Operational sample rate: recommended 44100Hz/48000Hz, or higher.
+- Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
+- Output voltage ranges: -5V to +5V (10V peak-to-peak).
+- Stereo: none (all outputs are mono, but polyphonic).
+- Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
+- Voices: 32 per bank, all are fully customizable, including name. Any voice can be saved/loaded to/from external VCED SysEx file.
+- SysEx (and .6opdx) files can be imported via right click menu, or by drag and drop the file over the touchscreen.
+- Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
+- Global Preferences (via dedicated page, from MENU button).
+- Modulation Matrix (via dedicated page, also from MENU button).
+- 8 assignable independent CV input jacks.
+- Intuitive graphic envelope editor.
+- Splittable "keyboard" response (from Preferences page).
+- Motorized potentiometers (speed can be adjusted from Preferences page).
+- Quick self-test feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
+
+---
+---
+---
+
+## DRAFT
 
 The 6OP-DX offers four banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank holds 32 voices:
 - **INT** (as internal memory). Every operator is using sine waveform only (like the real DX7 synthesizer).
