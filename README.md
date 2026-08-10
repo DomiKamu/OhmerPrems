@@ -8,7 +8,7 @@
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
 - **Vektor** is a 16HP polyphonic digital quad-oscillator (VCO) module, using Vector Synthesis (VS) technique. New module (introduced by **release v2.6.13**). [**Vektor User's Manual** (incl. VX expander)](docs/modules/Vektor/Manual.md)
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
-- **6OP-DX** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers - see below, and NO OUTPUT SOUND AT THE MOMENT**). Also, its [**User's Manual**](docs/modules/6OP-DX/Manual.md) is under construction, too.
+- **6OP-DX** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers vs. custom UI Scale factors - see below, and NO OUTPUT SOUND AT THE MOMENT**). Also, its [**User's Manual**](docs/modules/6OP-DX/Manual.md) is under construction, too.
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit mini-display shows **-** **-**).
@@ -63,7 +63,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 ![](docs/modules/6OP-DX/_img/mainV2.png)
 
 The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
-- Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules, not only 6OP-DX, surely a **graphic renderer issue in VCV Rack 2 v2.6.6**.
+- Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules, not only 6OP-DX, surely a **graphic renderer issue in VCV Rack 2 v2.6.6**. Be sure to set **UI Scale** (from View menu) factor to **Auto** or **100%** for best results!
 - This synth voice module doesn't output sound at the moment, because PM synthesis part is not yet developed. Please consider I have a lot of features to implement first, prior sound output, like envelope generators, internal LFO, matrix modulation, and so on!
 
 6OP-DX is scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
