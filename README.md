@@ -8,7 +8,7 @@
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
 - **Vektor** is a 16HP polyphonic digital quad-oscillator (VCO) module, using Vector Synthesis (VS) technique. New module (introduced by **release v2.6.13**). [**Vektor User's Manual** (incl. VX expander)](docs/modules/Vektor/Manual.md)
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
-- **6OP-DX** will be a 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers, no sound at the moment, still under development**). [**6OP-DX User's Manual**](docs/modules/6OP-DX/Manual.md) is also under construction.
+- **6OP-DX** is **work in progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module (**Panel display issues on MacBook computers, no sound at the moment**). Also, the [**6OP-DX User's Manual**](docs/modules/6OP-DX/Manual.md) is under construction, too.
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 - **FroeZe-X** is a 12HP **right-side expander** for FroeZe sequencer. It brings additional outputs for ACcents, plus useful editing features.
 - **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit mini-display shows **-** **-**).
@@ -20,6 +20,8 @@
 ---
 
 Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. This release will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems), for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
+
+**Daily** Pre-release v2.6.14 ALPHA propose **W.I.P./in development** the 6OP-DX synth voice module. Downloads from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14)
 
 ## [CHANGELOG - v2.6.13 (stable)](docs/CHANGELOG.txt)
 
@@ -64,7 +66,7 @@ The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin v2.6
 
 6OP-DX is scheduled for future release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
 
-I'll plan to publish **pre-release v2.6.14 ALPHA** every day morning in France (UTC+2), as **Daily builds**. Final stable, when finished, will be v2.6.15 however.
+However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" builds)** every day morning in France (UTC+2). When this module is finished and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-release only).
 
 :information_source: _6OP-DX_ module will be **free for everyone**, meaning it will operate as full version, whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, and KordZ modules.
 
