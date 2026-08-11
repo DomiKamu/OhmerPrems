@@ -24,7 +24,9 @@ _From English Wikipedia_: The DX7 is a synthesizer introduced by the Japanese Ya
 _The Yamaha DX7 synthesizer_:
 ![](_img/theDX7synth.png)
 
-Unlike other synthesizers prior it, who are mostly analog synthesizers using substractive synthesis, like the Minimoog (Moog Music), the Prophet 5 (Sequential Circuits), or the Jupiter-8 (Roland), the Yamaha DX7 was the first accessible synthesizers using FM (Frequency Modulation) synthesis. In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
+Unlike other synthesizers prior it, who are mostly analog synthesizers using substractive synthesis, like the Minimoog (Moog Music), the Prophet 5 (Sequential Circuits), or the Jupiter-8 (Roland), the Yamaha DX7 was the first affordable synthesizer using FM (Frequency Modulation) synthesis.
+
+In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
 
 The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (without edit features), but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
@@ -67,15 +69,16 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
-- Stereo: none (all outputs are mono, but polyphonic).
+- Stereo: none (all outputs are mono).
+- Polyphonic outputs: yes (up to 16 channels).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Voices: 32 per bank. Any voice can be loaded from external VCED SysEx file.
-- SysEx (and .6opdx) files can be imported via right click menu, or by drag and drop the file over the touchscreen.
+- Voices: 32 per bank. Any individual voice can be imported from external VCED SysEx file.
+- SysEx (and .6opdx) files can be imported/opened via right click menu, or by drag and drop (over the touchscreen).
 - Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
 - Global Preferences (via dedicated page, from MENU button), but more restrictive.
 - Modulation Matrix (via dedicated page, also from MENU button).
 - 8 assignable independent CV input jacks.
-- "Keyboard" split and response range (from Preferences page).
+- "Keyboard" split and response range (adjustable from Preferences page).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
 ---
