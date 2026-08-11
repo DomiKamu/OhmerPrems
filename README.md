@@ -91,7 +91,7 @@ However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" b
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _6OP-DX Kompkt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, and KordZ modules). However, regular _6OP-DX_ module will need a license V2 keyfile in order to save / export sound design stuff.
+:information_source: _6OP-DX Kompakt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
 
 [**6OP-DX Kompakt User's Manual**](docs/modules/6OP-DX-Kompakt/Manual.md) is also under construction (as "draft" status).
 
