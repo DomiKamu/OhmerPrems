@@ -111,6 +111,6 @@ You'll can assume these factory presets can be a good start point for your proje
 Of course, you'll can create your own **User Presets** (.vcvm files) and modules selections (.vcvs files), for later reuse.
 
 _Factory Presets, access from right click context menu_:
-![](_img/factorypresetsV3.png)
+![](_img/factorypresets.png)
 
 ---
