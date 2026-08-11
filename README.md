@@ -20,7 +20,7 @@
 
 ---
 
-Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. This release will be available soon from [**VCV Library**](https://library.vcvrack.com/OhmerPrems), for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
+Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. This release is also available from [**VCV Library**](https://library.vcvrack.com/OhmerPrems), for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
 
 **Daily** Pre-release v2.6.14 ALPHA offers **W.I.P./in development** _6OP-DX_ synth voice module, for testing purposes only. **It doesn't output sound  at the moment!**
 
