@@ -61,7 +61,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
 - Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
 - FM mode: Phase Modulation (PM) only.
-- XXXX TBC ? Frequency response: 10 octaves, from 16.352Hz (C0) to 15804.416Hz (B9).
+- Frequency response: from 27.5Hz (DX7 A-1 / standard A0), to 8372.018Hz (DX7 C8 / standard C9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
 - DAC resolution: advanced 16-bit (original 12-bit implemented later).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
