@@ -1,9 +1,9 @@
 # 6OP-DX KOMPAKT USER'S MANUAL (UNDER CONSTRUCTION)
 
-_The module, Aluminium model, DX7-emulated genuine LCD display:_
+_The 6OP-DX Kompakt module, Aluminium model, DX7-emulated genuine LCD display:_
 ![](_img/main.png)
 
-This will be the User's Manual for _6OP-DX Kompakt_ module, **36HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, as "player".
+This will be the User's Manual for _6OP-DX Kompakt_ module, **34HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, as "player".
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
@@ -45,7 +45,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 ### 6OP-DX KOMPAKT MODULE TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
-- Width: 36HP.
+- Width: 34HP.
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
