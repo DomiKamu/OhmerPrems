@@ -5,7 +5,7 @@ _Factory Preset, preloaded Rom1a/Rom1b/Rom2a/Rom2b banks (4x32 voices), Aluminiu
 
 This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
-:warning: This manual will be built for future v2.6.14. **As draft at the moment and change many times everyday!**
+:warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
 ---
 
