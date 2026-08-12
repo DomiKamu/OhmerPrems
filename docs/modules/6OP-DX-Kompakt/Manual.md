@@ -14,7 +14,7 @@ This will be the User's Manual for _6OP-DX Kompakt_ module, **34HP** 6-operator 
 - [**HISTORY**](#history)
 - [**TERMINOLOGY**](#terminology)
 - [**INTRODUCTION & FIRST WORDS**](#intro)
-- [**MODULE SPECIFICATIONS**](#techspecs)
+- [**TECHNICAL SPECIFICATIONS**](#techspecs)
 
 ---
 
@@ -45,7 +45,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 ---
 
-### INTRODUCTION & FIRST WORDS<a name="terminology"></a>
+### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
 Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state by its dedicated button above the touchscreen, and the modulation matrix).
 
@@ -61,10 +61,11 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 
 ---
 
-### MODULE SPECIFICATIONS<a name="techspecs"></a>
+### TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 34HP.
+- Synthesis: Phase Modulation (PM).
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
@@ -79,8 +80,7 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - Two multipurpose momentary buttons (above the right-side of the touchscreen).
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
 - Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
-- FM mode: Phase Modulation (PM) only.
-- Frequency response: from 27.5Hz (DX7 A-1 / standard A0), to 8372.018Hz (DX7 C8 / standard C9).
+- Frequency response: from 27.5Hz (DX7 A-1 / international A0), to 8372.018Hz (DX7 C8 / international C9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
 - DAC resolution: advanced 16-bit high-resolution DAC (original 12-bit DAC will be implemented in the future).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
