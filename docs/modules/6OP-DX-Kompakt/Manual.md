@@ -65,13 +65,13 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 34HP.
-- Synthesis: Phase Modulation (PM).
+- Synthesis: Phase Modulation (PM), based on sine waveforms only.
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import only.
 - 32 algorithms (all come from the real DX7 synthesizer), but not selectable.
-- 6 operators (each can be enabled or disabled). Extended waveforms (sine, triangle, saw, ramp, square) for voices located in CART3/C3.
+- 6 operators (each can be enabled or disabled).
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
 - Simplified panel.
 - Large color OLED **touchscreen** display.
@@ -82,21 +82,22 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
 - Frequency response: from 27.5Hz (DX7 A-1 / international A0), to 8372.018Hz (DX7 C8 / international C9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
-- DAC resolution: advanced 16-bit high-resolution DAC (original 12-bit DAC will be implemented in the future).
+- DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented later).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono).
 - Polyphonic outputs: yes (up to 16 channels).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Voices: 32 per bank. Individual voice can be imported from external VCED SysEx file.
-- SysEx (and .6opdx) files can be imported/opened via right click menu, or by drag and drop (over the touchscreen).
+- Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from .6opdx binary file).
+- Individual voice can be imported from external VCED SysEx file.
+- SysEx and .6opdx files can be imported/load via right click menu, or by drag and drop (over the touchscreen).
 - Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
-- View DX7 settings for selected voice (the viewer displays up to 8 pages, browse by rotating the continuous encoder).
-- Global Preferences (via dedicated page, from MENU button), but more restrictive.
-- Modulation Matrix (via dedicated page, also from MENU button).
+- View DX7 settings for selected voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
+- Preferences (global preferences, via dedicated page, access from MENU button).
+- Modulation Matrix, access from MENU button.
 - 8 assignable independent CV input jacks.
-- "Keyboard" split and response range (adjustable from Preferences page).
+- "Keyboard" split and response range, adjustable from "Preferences".
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
 ---
@@ -105,13 +106,11 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 
 ## DRAFT
 
-The 6OP-DX Kompakt offers four banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank holds 32 voices:
-- **INT** (as internal memory). Every operator is using sine waveform only (like the real DX7 synthesizer).
-- **CART1** (displayed **C1.**), as cartridge #1. Every operator is using sine waveform only (like the real DX7 synthesizer).
-- **CART2** (displayed **C2.**), as cartridge #2. Every operator is using sine waveform only (like the real DX7 synthesizer).
-- **CART3** (displayed **C3.**), as cartridge #3. Each operator may use custom waveform: sine (default), triangle, sawtooth, ramp, or square.
-
-:warning: Due to DX7 compatibility, when you import a SysEx file to cartridge #3 (CART3/C3.), affected voice(s) is/are automatically set to **sine** waveform, for all 6 operators.
+The 6OP-DX offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
+- **INT** (as internal memory).
+- **CART1** (displayed **C1.**).
+- **CART2** (displayed **C2.**).
+- **CART3** (displayed **C3.**).
 
 ---
 
