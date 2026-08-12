@@ -72,7 +72,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - Stereo: none (all outputs are mono, but polyphonic).
 - Polyphonic outputs: yes (up to 16 channels).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Voices: 32 per bank, all are fully customizable, including name. Any individual voice can be exported/imported to/from external VCED SysEx file.
+- Voices: 32 per bank, all are fully customizable, including name. Individual voice can be exported/imported to/from VCED SysEx file.
 - SysEx (and .6opdx) files can be imported via right click menu, or by drag and drop (over the touchscreen).
 - Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
 - Global Preferences (via dedicated page, from MENU button).
