@@ -48,6 +48,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 117HP.
+- Synthesis: Phase Modulation (PM).
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
@@ -62,8 +63,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - Two multipurpose momentary buttons (above the right-side of the touchscreen).
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
 - Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
-- FM mode: Phase Modulation (PM) only.
-- Frequency response: from 27.5Hz (DX7 A-1 / standard A0), to 8372.018Hz (DX7 C8 / standard C9).
+- Frequency response: from 27.5Hz (DX7 A-1 / international A0), to 8372.018Hz (DX7 C8 / international C9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
 - DAC resolution: advanced 16-bit (original 12-bit DAC will be implemented later).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
