@@ -13,7 +13,8 @@ This will be the User's Manual for _6OP-DX Kompakt_ module, **34HP** 6-operator 
 
 - [**HISTORY**](#history)
 - [**TERMINOLOGY**](#terminology)
-- [**6OP-DX KOMPAKT MODULE TECHNICAL SPECIFICATIONS**](#techspecs)
+- [**INTRODUCTION & FIRST WORDS**](#intro)
+- [**MODULE SPECIFICATIONS**](#techspecs)
 
 ---
 
@@ -44,7 +45,23 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 ---
 
-### 6OP-DX KOMPAKT MODULE TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
+### INTRODUCTION & FIRST WORDS<a name="terminology"></a>
+
+Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state by its dedicated button above the touchscreen, and the modulation matrix).
+
+To use altered sounds, or make yours from scratch, please use _6OP-DX_ module instead, then save your sound design session to .6opdx file (or export as SysEx), then import the file to _6OP-DX Kompakt_ module.
+
+Also, you'll can use third party software/plugin (or a real DX7 synthesizer) like freeware Dexed (or paid chipsynth OPS7) to create SysEx file, then import it into _6OP-DX Kompakt_ module.
+
+So you'll can consider:
+- 6OP-DX (the big) as sound (voice) editor.
+- 6OP-DX Kompakt as player, for production in your racks.
+
+Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license keyfile isn't required).
+
+---
+
+### MODULE SPECIFICATIONS<a name="techspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 34HP.
@@ -65,7 +82,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - FM mode: Phase Modulation (PM) only.
 - Frequency response: from 27.5Hz (DX7 A-1 / standard A0), to 8372.018Hz (DX7 C8 / standard C9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
-- DAC resolution: advanced 16-bit (original 12-bit DAC will be implemented later).
+- DAC resolution: advanced 16-bit high-resolution DAC (original 12-bit DAC will be implemented in the future).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
@@ -75,6 +92,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - Voices: 32 per bank. Individual voice can be imported from external VCED SysEx file.
 - SysEx (and .6opdx) files can be imported/opened via right click menu, or by drag and drop (over the touchscreen).
 - Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
+- View DX7 settings for selected voice (the viewer displays up to 8 pages, browse by rotating the continuous encoder).
 - Global Preferences (via dedicated page, from MENU button), but more restrictive.
 - Modulation Matrix (via dedicated page, also from MENU button).
 - 8 assignable independent CV input jacks.
