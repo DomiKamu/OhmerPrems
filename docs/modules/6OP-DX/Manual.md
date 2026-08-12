@@ -13,7 +13,7 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 - [**HISTORY**](#history)
 - [**TERMINOLOGY**](#terminology)
-- [**6OP-DX MODULE TECHNICAL SPECIFICATIONS**](#techspecs)
+- [**MODULE SPECIFICATIONS**](#techspecs)
 
 ---
 
@@ -44,7 +44,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 ---
 
-### 6OP-DX MODULE TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
+### MODULE SPECIFICATIONS<a name="techspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 117HP.
