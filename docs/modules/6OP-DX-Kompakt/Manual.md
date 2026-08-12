@@ -70,12 +70,12 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import only.
-- 32 algorithms (all come from the real DX7 synthesizer), but not selectable.
-- 6 operators (each can be enabled or disabled).
+- 32 algorithms (all come from the real DX7 synthesizer), only for display.
+- 6 operators.
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
-- Simplified panel.
+- Simplified panel to be operational for production.
 - Large color OLED **touchscreen** display.
-- One multipurpose continuous encoder (above the left-side of the touchscreen).
+- Multipurpose continuous encoder (above the left-side of the touchscreen).
 - MONOPHONIC toggle button, with purple LED (above the center of the touchscreen).
 - Two multipurpose momentary buttons (above the right-side of the touchscreen).
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
