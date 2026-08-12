@@ -24,9 +24,13 @@ _From English Wikipedia_: The DX7 is a synthesizer introduced by the Japanese Ya
 _The Yamaha DX7 synthesizer_:
 ![](_img/theDX7synth.png)
 
-Unlike other synthesizers prior it, who are mostly analog synthesizers using substractive synthesis, like the Minimoog (Moog Music), the Prophet 5 (Sequential Circuits), or the Jupiter-8 (Roland), the Yamaha DX7 was the first affordable synthesizer using FM (Frequency Modulation) synthesis.
+Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (using substractive synthesis), like the Minimoog (Moog Music), the MS-20 (Korg), the ARP 2600 (ARP Instruments), the Prophet 5 (Sequential Circuits), the Jupiter-8 (Roland), and many more, the Yamaha DX7 becomes the first affordable synthesizer using FM (Frequency Modulation) synthesis during 1983.
+
+Frequency modulation synthesis (FM synthesis) was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier (by New England Digital Corp).
 
 In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
+
+The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
 The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
