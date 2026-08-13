@@ -1,4 +1,6 @@
-:warning: black/empty displays, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
+:warning:
+
+Empty displays, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
 
 ---
 
