@@ -1,3 +1,7 @@
+:warning: black/empty display, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
+
+---
+
 # VEKTOR USER'S MANUAL
 
 ### TOPICS
