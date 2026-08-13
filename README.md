@@ -2,11 +2,13 @@
 
 :warning:
 
-**If any module is looking as "dead" (empty display, all LED off, no extra menu entry in right click menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" grayed label at the bottom of the context menu!**
+**If any module is looking as "dead" (empty display, all LED off, no extra menu entry in right click menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" grayed label at the bottom of the context menu**, like following image (here's 6OP-DX Kompakt module, but applicable for others):
 
-It's an old (never fixed) VCV Rack & VCV Rack 2 issue, the culprit are VCV AUDIO (stereo), VCV AUDIO8, or/and VCV AUDIO16 modules in current rack. When they're badly configured, the DSP process is stucked (and potentially may crash VCV Rack 2 software/plugin). I encourage you to send an email to support@vcv.com. This **stucked DSP issue** affects ANY MODULE, ANY BRAND (including other VCV-branded modules), not specifically OhmerPrems modules.
+![](docs/modules/6OP-DX-Kompakt/_img/AUDIOxIssue.png)
 
-Also, if your current doesn't use any VCV AUDIO module, timing issues (visible on blinking displayed messages or LED) are possible!
+It's an old (never fixed) VCV Rack 1 & VCV Rack 2 issue. The culprit are in most situations VCV AUDIO (2-channel), VCV AUDIO8, or/and VCV AUDIO16 modules present in the current rack. When they're badly configured, the DSP process is "stucked" (this may potentially crash VCV Rack 2 application or plugin). I encourage you to send an email to support@vcv.com. This **stucked DSP issue** affects ANY MODULE, ANY BRAND (including other VCV-branded modules), not OhmerPrems modules specifically.
+
+Also, if your current rack doesn't use any VCV AUDIO module, timing issues (visible on erratic blinking displayed messages, or LED) are possible!
 
 ---
 
