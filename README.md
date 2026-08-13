@@ -2,7 +2,7 @@
 
 :warning:
 
-**If any module is looking as "dead" (empty display, all LED off, no extra menu entry in right click menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" at the bottom of the context menu.**
+**If any module is looking as "dead" (empty display, all LED off, no extra menu entry in right click menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" grayed label at the bottom of the context menu!**
 
 It's an old (never fixed) VCV Rack & VCV Rack 2 issue, the culprit are VCV AUDIO 2, VCV AUDIO 8, or/and VCV AUDIO 16 modules. When they're badly configured, the DSP process is stucked (and potentially can crash VCV Rack). I encourage you to send an email to support@vcv.com. This **stucked DSP issue** affects ANY MODULE, ANY BRAND (including other VCV-branded modules).
 
