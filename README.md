@@ -1,5 +1,11 @@
 # ![](docs/modules/FroeZe/_img/Logo_Ohmer.png)OhmerPrems for VCV Rack 2
 
+:warning:
+
+**If any module is looking as "dead" (empty display, all LED off, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" at the bottom of the context menu.** It's an old (never fixed) VCV Rack / VCV Rack 2 issue, in particular caused by VCV AUDIO 2, VCV AUDIO 8, or/and VCV AUDIO 16 modules. When badly configured, the DSP process is stucked (this fact may potentially crash VCV Rack). I encourage you to send an email to support@vcv.com. This stucked DSP issue affects ANY MODULE, ANY BRAND!
+
+---
+
 *OhmerPrems* is a commercial plugin designed for VCV Rack 2, it embeds both **Premium** modules (**full version** modules for customers who have a valid license keyfile, or as "Free/Trial" with limitations, otherwise), and also some free modules for everyone (license keyfile is not required to run them as full version). Source code is closed (not published).
 
 :warning: Please check both **Free version** and **Full version** topics, by following [this link](#freevsfull) (near bottom of this page).
