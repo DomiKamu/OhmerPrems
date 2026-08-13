@@ -1,3 +1,7 @@
+:warning: black display, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
+
+---
+
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
 _Factory Preset, preloaded Rom1a/Rom1b/Rom2a/Rom2b banks (4x32 voices), Aluminium model, DX7-emulated genuine LCD display:_
