@@ -1,5 +1,8 @@
-# KLOKSPID MKII: SPECIFICATIONS & USER'S MANUAL
+:warning: black/empty displays, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
 
+---
+
+# KLOKSPID MKII: SPECIFICATIONS & USER'S MANUAL
 
 ![](_img/Module_Layout_rev.png)
 
