@@ -1,3 +1,7 @@
+:warning: black display, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
+
+---
+
 # 6OP-DX KOMPAKT USER'S MANUAL (UNDER CONSTRUCTION)
 
 _The 6OP-DX Kompakt module, Aluminium model, DX7-emulated genuine LCD display:_
@@ -33,7 +37,7 @@ In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase 
 
 The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
-The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (without edit features), but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
@@ -51,14 +55,14 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state by its dedicated button above the touchscreen, and the modulation matrix).
+Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state, by its dedicated button above the touchscreen).
 
 To use altered sounds, or make yours from scratch, please use _6OP-DX_ module instead, then save your sound design session to .6opdx file (or export as SysEx), then import the file to _6OP-DX Kompakt_ module.
 
 Also, you'll can use third party software/plugin (or a real DX7 synthesizer) like freeware Dexed (or paid chipsynth OPS7) to create SysEx file, then import it into _6OP-DX Kompakt_ module.
 
 So you'll can consider:
-- 6OP-DX (the big) as sound (voice) editor.
+- 6OP-DX (the big) either as voice synthesizer and as voice (sound) editor.
 - 6OP-DX Kompakt as player, for production in your racks.
 
 Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license keyfile isn't required).
@@ -99,7 +103,7 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
 - View DX7 settings for selected voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
 - Preferences (global preferences, via dedicated page, access from MENU button).
-- Modulation Matrix, access from MENU button.
+- Modulation Matrix (not editable), access from MENU button.
 - 8 assignable independent CV input jacks.
 - "Keyboard" split and response range, adjustable from "Preferences".
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
@@ -128,11 +132,11 @@ Second preset file (.vcvm) is using respectively **Rom3a** (to **INT**ernal memo
 
 By loading a proposed factory preset, the default selected voice is automatically switched to **INT 11 E.PIANO 1** (it's the most used factory voice by numerous artists), or **INT 11 E.ORGAN 1**, as indicated by the DX7-emulated display.
 
-The two proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown below. Obviously, everything can be changed later, including model (panel theme), the DX7-emulated display (may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), global preferences, and the modulation matrix for current selected voice.
+Both proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown below. Obviously, everything can be changed later, including model (panel theme), the DX7-emulated display (may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and global preferences.
 
-You'll can assume these factory presets can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort.
+You'll can assume these factory presets can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort. For fresh 6OP-DX Kompakt module, simply import DX7 SysEx file(s), or load .6opdx file (cartridge file, with extended features).
 
-Of course, you'll can create your own **User Presets** (.vcvm files) and modules selections (.vcvs files), for later reuse.
+Of course, you'll can create your own VCV Rack 2 **User Presets** (.vcvm files), and VCV Rack 2 **modules selection** (.vcvs files), for later reuse.
 
 _Factory Presets, access from right click context menu_:
 ![](_img/factorypresets.png)
