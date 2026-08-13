@@ -1,5 +1,8 @@
-# FROEZE / FROEZE-X / FROEZE-SX: SPECIFICATIONS & QUICK GUIDE
+:warning: black/empty displays, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
 
+---
+
+# FROEZE / FROEZE-X / FROEZE-SX: SPECIFICATIONS & QUICK GUIDE
 
 ![](_img/FroeZe_Header.png)
 
