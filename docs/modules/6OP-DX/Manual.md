@@ -85,7 +85,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - SysEx and .6opdx files can be imported/loaded via right click menu, or by drag and drop (over the touchscreen).
 - Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
 - Preferences (global preferences, via dedicated page, access from MENU button).
-- Modulation Matrix, access from MENU button.
+- Modulation Matrix (via MENU button): per voice, up to 16 modulations, copy/paste operations via right click menu.
 - 8 assignable independent CV input jacks.
 - Intuitive graphic envelope editor.
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
