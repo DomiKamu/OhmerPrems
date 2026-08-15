@@ -102,12 +102,13 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from .6opdx binary file).
 - Individual voice can be imported from external VCED SysEx file.
 - SysEx and .6opdx files can be imported/load via right click menu, or by drag and drop (over the touchscreen).
-- Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
+- Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
+- 8 assignable independent CV input jacks.
+- TRF (transfer) input jack, to receive (synchronize) synthesizer datas from 6OP-DX module (all banks, all voices).
 - View DX7 settings for selected voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
 - Preferences (global preferences, via dedicated page, access from MENU button).
-- Modulation Matrix (not editable), access from MENU button.
-- 8 assignable independent CV input jacks.
-- "Keyboard" split and response range, adjustable from "Preferences".
+- Modulation Matrix (not editable, display only), access from MENU button.
+- "Keyboard" split & response range, adjustable from "Preferences".
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
 ---
