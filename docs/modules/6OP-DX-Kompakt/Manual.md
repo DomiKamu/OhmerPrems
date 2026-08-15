@@ -104,7 +104,7 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - SysEx and .6opdx files can be imported/load via right click menu, or by drag and drop (over the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable independent CV input jacks.
-- TRF (transfer) input jack, to receive (synchronize) synthesizer datas from 6OP-DX module (all banks, all voices).
+- TRF. (transfer) input jack, to synchronize & receive all synthesizer datas from 6OP-DX module.
 - View DX7 settings for selected voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
 - Preferences (global preferences, via dedicated page, access from MENU button).
 - Modulation Matrix (not editable, display only), access from MENU button.
