@@ -109,7 +109,7 @@ You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://g
 
 ## **6OP-DX Kompakt: Work In Progress / currently in development!**
 
-![](docs/modules/6OP-DX-Kompakt/_img/main.png)
+![](docs/modules/6OP-DX-Kompakt/_img/mainV2.png)
 
 The _6OP-DX Kompakt_ synth voice module is - in development - the little brother of 6OP-DX.
 
