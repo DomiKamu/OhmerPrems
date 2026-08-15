@@ -83,13 +83,17 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - Voices: 32 per bank, all are fully customizable (can be imported/exported from/to VMEM SysEx file, or loaded/saved from/to .6opdx binary file).
 - Individual voice can be exported/imported to/from VCED SysEx file.
 - SysEx and .6opdx files can be imported/loaded via right click menu, or by drag and drop (over the touchscreen).
-- Bank/voice select by voltage: supported via VOICE input jack (0V to +10V unipolar CV).
-- Preferences (global preferences, via dedicated page, access from MENU button).
-- Modulation Matrix (via MENU button): per voice, up to 16 modulations, copy/paste operations via right click menu.
+- Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable independent CV input jacks.
+- TRF. (transfer) output jack (left side of module), to synchronize & send all synthesizer datas to 6OP-DX Kompakt module.
+- Preferences (global preferences, via dedicated page, access from MENU button).
+- Modulation Matrix (via MENU button), per voice: up to 16 modulations.
+- Modulation sources: 20 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, LFO, EG1, EG2, EG3, EG4, EG5, EG6, PEG).
+- Modulation targets: 118 (near all DX7 OP parameters, plus EG BIAS).
+- Modulation ranges: -100% to +100% (RELative modulation), 0 to 100% (ABSolute/replace modulation). Modulation can be inverted.
 - Intuitive graphic envelope editor.
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
-- "Keyboard" split and response range, adjustable from "Preferences".
+- "Keyboard" split & response range, adjustable from "Preferences".
 - Mod key (default is left Control / left Command on MacOS X computers) can be customized from "Preferences".
 - Motorized potentiometers, adjustable from "Preferences".
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
