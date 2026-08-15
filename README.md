@@ -4,7 +4,7 @@
 
 **If any module is looking as "dead" (empty displays, all LED off, no extra menu entry in right click context menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" (grayed) label at the bottom of the context menu**, like following image (example here is the _6OP-DX Kompakt_ module, but it's applicable for other modules except _KV_ and _VX_):
 
-![](docs/modules/6OP-DX-Kompakt/_img/AUDIOxIssue.png)
+![](docs/modules/6OP-DX-Kompakt/_img/AUDIOxIssueV2.png)
 
 It's an old (never fixed) VCV Rack 2 issue, since beginning. The culprit are, in most situations, VCV AUDIO (2-channel audio input/ouput), VCV AUDIO8, or/and VCV AUDIO16 modules in the current rack. When they're badly configured, the DSP process is "stucked", it doesn't start, and potentially crash VCV Rack 2 (application, or as plugin from DAW). I encourage you to send an email to support@vcv.com. to report/confirm the VCV AUDIO weird bug. This **stucked DSP issue** affects all modules in the rack, any brand, including VCV-branded modules, not OhmerPrems modules specifically.
 
