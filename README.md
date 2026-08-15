@@ -8,9 +8,9 @@
 
 It's an old (never fixed) VCV Rack 2 issue, since beginning. The culprit are, in most situations, VCV AUDIO (2-channel audio input/ouput), VCV AUDIO8, or/and VCV AUDIO16 modules in the current rack. When they're badly configured, the DSP process is "stucked", it doesn't start, and potentially crash VCV Rack 2 (application, or as plugin from DAW). I encourage you to send an email to support@vcv.com. to report/confirm the VCV AUDIO weird bug. This **stucked DSP issue** affects all modules in the rack, any brand, including VCV-branded modules, not OhmerPrems modules specifically.
 
-This may occur when you open multiple applications who are using same audio interface, sharing the same audio driver and audio device. Also when you open a third-party match (eg. patch downloaded from PatchStorage).
+This may occur when you open multiple applications who are using same audio interface (sharing the same audio driver **AND** the audio device, in particular ASIO). Also, this problem is common when you open a third-party patch (made by another user), like downloaded patches from PatchStorage, VCV Community, and so on.
 
-Also, if your current rack doesn't embed any well-configured VCV AUDIO module, timing issues (visible on erratic blinking displayed messages/LED) are possible!
+Also, in case of your current rack doesn't embed any (fine configured) VCV AUDIO module (or any  VCV AUDIO), major timing issues are visible (erratic blinking displayed messages and LED)!
 
 ---
 
