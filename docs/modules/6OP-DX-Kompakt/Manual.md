@@ -52,6 +52,8 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
+- **.6opsynth** is a proprietary file format used to store all synthesizer settings, including OP ON/OFF switch states and modulation matrices.
+- **.6opcart** is a proprietary file format used to store a 32-voice cartridge/bank (including OP ON/OFF switch states and modulation matrices).
 
 ---
 
@@ -78,7 +80,7 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import only.
-- Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices).
+- Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - not supported by DX7 SysEx).
 - 32 algorithms (all come from the real DX7 synthesizer), only for display.
 - 6 operators.
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
