@@ -57,13 +57,9 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state, by its dedicated button above the touchscreen).
+Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state may be toggled on/off, by its dedicated button located above the touchscreen).
 
-To use altered sounds, the easiest way is to connect both **TRF.** (transfer) jacks, from _6OP-DX_ module (who permit to edit sounds and modulation matrices), as "sender", to _6OP-DX Kompakt_ module (probably the used module for production), as "receiver". These **TRF.** jacks are always located just below **CV8** input jack, left side of the modules. When connection is established, simply follow displayed instructions to do the data transfer!
-
-Of course, you'll can open a .6opdx file (cartridge file, with extended features), or import a SysEx file (more limited).
-
-Also, you'll can use third party software/plugin (or a real DX7 hardware synthesizer), like freeware **Dexed** (or paid **chipsynth OPS7**, by Plogue), or a DX7 librarian software, in order to create DX7 SysEx file, prior to import it into _6OP-DX Kompakt_ module.
+The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit sounds and modulation matrices). However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices including extensions), or import a DX7 SysEx file (but without featured extensions such operator ON/OFF switch states and modulation matrices).
 
 So you'll can consider:
 - 6OP-DX (the big) either as voice synthesizer and as voice (sound) editor, including modulation matrices (per voice).
