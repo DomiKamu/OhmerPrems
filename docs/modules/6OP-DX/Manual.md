@@ -1,5 +1,7 @@
 :warning: Empty displays, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
 
+:warning: **MacBook users:** in case the panel isn't displayed (look as missing texture), please set **UI Scale** setting to **Auto** or **100%**, and **Zoom** to 100% (both from **View** menu). It's a not a 6OP-DX specific graphic issue, this bug occurs on any big module (whatever the module brand).
+
 ---
 
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
