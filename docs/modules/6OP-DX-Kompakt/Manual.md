@@ -135,7 +135,7 @@ By loading a proposed factory preset, the default selected voice is automaticall
 
 Both proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown below. Obviously, everything can be changed later, including model (panel theme), the DX7-emulated display (may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and global preferences.
 
-You'll can assume these factory presets can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort. For fresh 6OP-DX Kompakt module, simply import DX7 SysEx file(s), or load .6opdx file (cartridge file, with extended features).
+You'll can assume these factory presets can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort. For fresh 6OP-DX Kompakt module, simply import DX7 SysEx file(s), or load .6opsynth / .6opcart file (full synthesizer file / cartridge file, both with extended features).
 
 Of course, you'll can create your own VCV Rack 2 **User Presets** (.vcvm files), and VCV Rack 2 **modules selection** (.vcvs files), for later reuse.
 
