@@ -78,6 +78,7 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import only.
+- Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices).
 - 32 algorithms (all come from the real DX7 synthesizer), only for display.
 - 6 operators.
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
@@ -97,13 +98,12 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - Stereo: none (all outputs are mono).
 - Polyphonic outputs: yes (up to 16 channels).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from .6opdx binary file).
+- Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from **.6opcart** binary file with extended featurs).
 - Individual voice can be imported from external VCED SysEx file.
-- SysEx and .6opdx files can be imported/load via right click menu, or by drag and drop (over the touchscreen).
+- DX7 SysEx, **.6opcart** and **.6opsynth** files can be imported/loaded via right click menu, or by drag and drop (over the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable independent CV input jacks.
-- TRF. (transfer) input jack, to synchronize & receive all synthesizer datas from 6OP-DX module.
-- View DX7 settings for selected voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
+- View DX7 settings for current voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
 - Preferences (global preferences, via dedicated page, access from MENU button).
 - Modulation Matrix (not editable, display only), access from MENU button.
 - "Keyboard" split & response range, adjustable from "Preferences".
