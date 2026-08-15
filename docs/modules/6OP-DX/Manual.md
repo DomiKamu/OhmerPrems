@@ -49,6 +49,8 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
+- **.6opsynth** is a proprietary file format used to store all synthesizer settings, including OP ON/OFF switch states and modulation matrices.
+- **.6opcart** is a proprietary file format used to store a 32-voice cartridge/bank (including OP ON/OFF switch states and modulation matrices).
 
 ---
 
