@@ -59,13 +59,15 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state, by its dedicated button above the touchscreen).
 
-To use altered sounds, or make yours from scratch, please use _6OP-DX_ module instead, then save your sound design session to .6opdx file (or export as SysEx), then import the file to _6OP-DX Kompakt_ module.
+To use altered sounds, the easiest way is to connect both **TRF.** (transfer) jacks, from _6OP-DX_ module (who permit to edit sounds and modulation matrices), as "sender", to _6OP-DX Kompakt_ module (probably the used module for production), as "receiver". These **TRF.** jacks are always located just below **CV8** input jack, left side of the modules. When connection is established, simply follow displayed instructions to do the data transfer!
 
-Also, you'll can use third party software/plugin (or a real DX7 synthesizer) like freeware Dexed (or paid chipsynth OPS7) to create SysEx file, then import it into _6OP-DX Kompakt_ module.
+Of course, you'll can open a .6opdx file (cartridge file, with extended features), or import a SysEx file (more limited).
+
+Also, you'll can use third party software/plugin (or a real DX7 hardware synthesizer), like freeware **Dexed** (or paid **chipsynth OPS7**, by Plogue), or a DX7 librarian software, in order to create DX7 SysEx file, prior to import it into _6OP-DX Kompakt_ module.
 
 So you'll can consider:
-- 6OP-DX (the big) either as voice synthesizer and as voice (sound) editor.
-- 6OP-DX Kompakt as player, for production in your racks.
+- 6OP-DX (the big) either as voice synthesizer and as voice (sound) editor, including modulation matrices (per voice).
+- 6OP-DX Kompakt as player, for production in your racks, mainly to save space.
 
 Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license keyfile isn't required).
 
