@@ -39,7 +39,7 @@ In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase 
 
 The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
-The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle, and modulation matrix), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
@@ -59,7 +59,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state may be toggled on/off, by its dedicated button located above the touchscreen).
+Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state may be toggled on/off, and modulation matrix for any voice).
 
 The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit sounds and modulation matrices). However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices including extensions), or import a DX7 SysEx file (but without featured extensions such operator ON/OFF switch states and modulation matrices).
 
@@ -106,8 +106,11 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable independent CV input jacks.
 - View DX7 settings for current voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
+- Modulation Matrix (via MENU button): each voice can use up to 16 customizable modulations.
+- Modulation sources: 20 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, LFO, EG1, EG2, EG3, EG4, EG5, EG6, PEG).
+- Modulation targets: 118 (near all DX7 OP parameters, plus EG BIAS).
+- Modulation ranges: -100% to +100% (RELative modulation), 0 to 100% (ABSolute/replace modulation). Modulation can be inverted.
 - Preferences (global preferences, via dedicated page, access from MENU button).
-- Modulation Matrix (not editable, display only), access from MENU button.
 - "Keyboard" split & response range, adjustable from "Preferences".
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
