@@ -109,9 +109,9 @@ So you'll can consider:
 - 8 assignable independent CV input jacks.
 - View DX7 settings for current voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
 - Modulation Matrix (via MENU button): each voice can use up to 16 customizable modulations.
-- Modulation sources: 20 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, LFO, EG1, EG2, EG3, EG4, EG5, EG6, PEG).
-- Modulation targets: 118 (near all DX7 OP parameters, plus EG BIAS).
-- Modulation ranges: -100% to +100% (RELative modulation), 0 to 100% (ABSolute/replace modulation). Modulation can be inverted.
+- Modulation sources: 13 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, LFO).
+- Modulation targets: 90 (near all DX7 OP parameters, plus EG BIAS).
+- Modulation ranges: -100% to +100% (RELative modulation), 0 to 100% (ABSolute modulation). Modulation can be inverted.
 - Preferences (global preferences, via dedicated page, access from MENU button).
 - "Keyboard" split & response range, adjustable from "Preferences".
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
