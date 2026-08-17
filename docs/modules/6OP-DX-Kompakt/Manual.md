@@ -47,7 +47,7 @@ The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest
 
 This topic explains some "unfamiliar" terms and accronyms. Most of them was used by Yamaha company for DX-family synthesizers:
 
-- **Voice** stands for synthesizer preset. Please do not confuse with VCV Rack 2 preset file!
+- **Voice** stands for "synthesizer preset" (please do not confuse with VCV Rack 2 preset file).
 - **Bank** may refer to internal memory or a specific cartridge, hosting 32 voices each.
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
@@ -114,6 +114,8 @@ So you'll can consider:
 - Modulation ranges: -100% to +100% (RELative modulation), 0 to 100% (ABSolute modulation). Modulation can be inverted.
 - Preferences (global preferences, via dedicated page, access from MENU button).
 - "Keyboard" split & response range, adjustable from "Preferences".
+- VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
+- VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
 
 ---
@@ -130,24 +132,19 @@ The 6OP-DX offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. E
 
 ---
 
-When you bring a fresh 6OP-DX Kompakt module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices, after a quick boot sequence.
+When you bring a fresh 6OP-DX module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
 
-However, from right click menu, by using VCV Rack 2's **Presets**, then **Factory Presets**, you'll can load prefilled ready-to-play banks (INT, C1/CART1, C2/CART2, and C3/CART3) with official Yamaha DX7 soundbanks (SysEx files).
+However, you can download (and extract anywhere you'd like) two whole synthesizer binary files with prefilled banks (**.6opsynth** files).
 
-First preset file (.vcvm) is using respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). Selected voice is E.PIANO 1, as INT11 (internal memory, voice number 11).
+First **.6opsynth** file is using respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). Selected voice is BASS 1, as INT 1 (internal memory, voice number 1).
 
-Second preset file (.vcvm) is using respectively **Rom3a** (to **INT**ernal memory), **Rom3b** (to **CART**ridge 1), **Rom4a** (to **CART**ridge 2), and **Rom4b** (to **CART**ridge 3). Selected voice is E.ORGAN 1, also as INT11.
+Second **.6opsynth** file is using respectively **Rom3a** (to **INT**ernal memory), **Rom3b** (to **CART**ridge 1), **Rom4a** (to **CART**ridge 2), and **Rom4b** (to **CART**ridge 3). Selected voice is FLUTE 1 (also as INT 1, the first voice of the bank).
 
-By loading a proposed factory preset, the default selected voice is automatically switched to **INT 11 E.PIANO 1** (it's the most used factory voice by numerous artists), or **INT 11 E.ORGAN 1**, as indicated by the DX7-emulated display.
+All modulation matrices are empty.
 
-Both proposed factory presets are using _Aluminium_ model (panel theme), and genuine DX LCD, exactly like shown below. Obviously, everything can be changed later, including model (panel theme), the DX7-emulated display (may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit), and global preferences.
+You'll can assume these factory **.6opsynth** files can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort.
 
-You'll can assume these factory presets can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort. For fresh 6OP-DX Kompakt module, simply import DX7 SysEx file(s), or load .6opsynth / .6opcart file (full synthesizer file / cartridge file, both with extended features).
-
-Of course, you'll can create your own VCV Rack 2 **User Presets** (.vcvm files), and VCV Rack 2 **modules selection** (.vcvs files), for later reuse.
-
-_Factory Presets, access from right click context menu_:
-![](_img/factorypresets.png)
+:warning: **Due to very large amount of saved datas (approx. 28 kbytes for full synthesizer), both 6OP-DX / Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation.
 
 ---
 
