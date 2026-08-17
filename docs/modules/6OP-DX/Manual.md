@@ -61,15 +61,15 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-The _6OP-DX_ if the control tower of FM synthesis in the OhmerPrems ecosystem!
+The _6OP-DX_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
 
-Despite its very huge size for an Eurorack module, yep 117HP wide, its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between menu, submenus and so on. Most DX7 parameters are potentiometers, some are momentary buttons.
+Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between menu, submenus, and so on. Most DX7 parameters are potentiometers, few of them are momentary buttons.
 
-This _6OP-DX_ module is mainly useful to "prepare" your DX7 soundbanks you'll need for your project. However, when your sound design session is completed (and saved, preferabely to **.6opsynth** file), you'll can replace the huge module by its compact variant, the _6OP-DX Kompakt_, instead, in order to save space in your racks. Of course, you'll can open **.6opsynth** file (made by 6OP-DX module) from _6OP-DX Kompakt_ module instances!
+This _6OP-DX_ module is mainly useful to "prepare" your DX7 synthesizers (soundbanks) you'll need in your project. When your sound design session is completed (and of course, saved, preferabely to **.6opsynth** whole synthesizer file), you'll can replace the huge module by its compact variant, the _6OP-DX Kompakt_, instead, in order to save space in your rack. Of course, you'll must open **.6opsynth** file (previously made by any _6OP-DX_ module) to _6OP-DX Kompakt_ module instance(s) to set-up it/them!
 
 ---
 
-:information_source: Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license V2 keyfile isn't required).
+:information_source: Do not forget both _6OP-DX_ and _6OP-DX Kompakt_ modules are **free for everyone** (license V2 keyfile isn't required).
 
 ---
 
