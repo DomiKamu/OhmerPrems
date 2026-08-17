@@ -1,6 +1,6 @@
 :warning:
 
-Empty display, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
+Empty display, all LED always turned off, no extra right click menu, module is looking "dead" -> [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
 
 ---
 
@@ -33,7 +33,7 @@ _The Yamaha DX7 synthesizer_:
 
 Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (using substractive synthesis), like the Minimoog (Moog Music), the MS-20 (Korg), the ARP 2600 (ARP Instruments), the Prophet 5 (Sequential Circuits), the Jupiter-8 (Roland), and many more, the Yamaha DX7 becomes the first affordable synthesizer using FM (Frequency Modulation) synthesis during 1983.
 
-Frequency modulation synthesis (FM synthesis) was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier (by New England Digital Corp).
+Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
 
 In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
 
@@ -52,22 +52,24 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
-- **.6opsynth** is a proprietary file format used to store all synthesizer settings, including OP ON/OFF switch states and modulation matrices.
-- **.6opcart** is a proprietary file format used to store a 32-voice cartridge/bank (including OP ON/OFF switch states and modulation matrices).
+- **.6opsynth** is a proprietary binary file format used to store all synthesizer settings, including OP ON/OFF states and modulation matrices.
+- **.6opcart** is a proprietary binary file format used to store a 32-voice cartridge/bank, including OP ON/OFF states and modulation matrices.
 
 ---
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-Due to its reduced size (regardling its big brother), the _6OP-DX Kompakt_ module doesn't permit to do sound design (voices can't be edited, except **MONOPHONIC** state may be toggled on/off, and modulation matrix for any voice).
+Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _6OP-DX Kompakt_ module doesn't permit to do sound design, so voices cannot be edited. However, **MONOPHONIC** state (per voice) may be toggled on or off, and modulation matrix can be edited for any voice (including copy/paste feature between voices).
 
-The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit sounds and modulation matrices). However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices including extensions), or import a DX7 SysEx file (but without featured extensions such operator ON/OFF switch states and modulation matrices).
+The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit sounds and modulation matrices). However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer, or compatible software (but without featured "extensions", such operator ON/OFF states and modulation matrices).
 
 So you'll can consider:
-- 6OP-DX (the big) either as voice synthesizer and as voice (sound) editor, including modulation matrices (per voice).
-- 6OP-DX Kompakt as player, for production in your racks, mainly to save space.
+- 6OP-DX (the huge module) either as voice synthesizer **AND** as voice (sound) editor, including modulation matrices (per voice).
+- 6OP-DX Kompakt as "player", for final production in your racks, mainly to save space because 6OP-DX module is huge!
 
-Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license keyfile isn't required).
+---
+
+:information_source: Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license V2 keyfile isn't required).
 
 ---
 
@@ -75,7 +77,7 @@ Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 34HP.
-- Synthesis: Phase Modulation (PM), based on sine waveforms only.
+- Synthesis: Phase Modulation (PM), based on sine waveforms only (like the original DX synthesizer).
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
