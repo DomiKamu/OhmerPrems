@@ -10,7 +10,7 @@ It's an old (never fixed) VCV Rack issue, since the beginning! The culprit are -
 
 This may occur when you open multiple applications who are using same audio interface (sharing the same audio driver **AND** the audio device, in particular non shareable ASIO). Also, this problem is common when you open a third-party patch (patch made by another user), like downloaded from any website like PatchStorage or VCV Community.
 
-Also, in case of your current rack doesn't embed any VCV AUDIO module (or non correctly configured), **major timing issues** are visible, in particular by erratic blinking items, such displayed messages, blinking LED, and so on.
+Also, in case of your current rack doesn't embed any VCV AUDIO module (or not correctly configured), **major timing issues** may be noticed, in particular erratic blinking items, such displayed messages, blinking LED, and so on.
 
 ---
 
