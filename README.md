@@ -6,11 +6,11 @@
 
 ![](docs/modules/6OP-DX-Kompakt/_img/AUDIOxIssue.png)
 
-It's an old (never fixed) VCV Rack issue, since the beginning! The culprit are - in most situations - VCV AUDIO (2-channel audio input/ouput), VCV AUDIO8, or/and VCV AUDIO16 modules in the current rack. When they're badly configured, the DSP core is "stucked" (it doesn't start), and potentially may crash VCV Rack 2 (application, or as plugin from DAW). I encourage you to send an email to support@vcv.com to report/confirm this VCV AUDIO module weird bug. This **stucked DSP issue** affects all modules in the rack, any brand (including VCV modules).
+It's an old (never fixed) VCV Rack issue, since the beginning! The culprit are - in most situations - VCV **AUDIO** (2-channel audio input/ouput module), VCV **AUDIO8**, or/VCV **AUDIO16** modules, and clones, in your current rack. When they're badly configured, the DSP core is "stucked" (it doesn't start), and potentially may crash VCV Rack 2 (application, or as plugin from DAW). I encourage you to send an email to support@vcv.com to report/confirm this VCV AUDIO module weird bug. This stucked DSP issue affects **all modules in the rack**, any brand, including VCV modules themselves.
 
-This may occur when you open multiple applications who are using same audio interface (sharing the same audio driver **AND** the audio device, in particular non shareable ASIO). Also, this problem is common when you open a third-party patch (patch made by another user), like downloaded from any website like PatchStorage or VCV Community.
+This may occur when you open multiple applications who are using same audio interface (sharing the same audio driver **AND** the same audio interface, in particular ASIO). Also, this problem is common when you open a third-party patch (patch made by another user), like downloaded from any website like PatchStorage or VCV Community, if the AUDIO module settings don't match your rig.
 
-Also, in case of your current rack doesn't embed any VCV AUDIO module (or not correctly configured), **major timing issues** may be noticed, in particular erratic blinking items, such displayed messages, blinking LED, and so on.
+Also, in case of your current rack doesn't embed any VCV AUDIO module (or preset but not configured), **major timing issues** can be noticed, in particular by erratic "blinking" items, such displayed messages, blinking LED, and so on.
 
 ---
 
