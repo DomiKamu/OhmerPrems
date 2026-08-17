@@ -151,7 +151,7 @@ _Factory Presets, access from right click context menu_:
 
 ---
 
-About modulation matrix, following DX7 parameters can't be modulated (they can't be selected as modulation target):
+:warning: Following DX7 parameters can't be modulated (they can't be selected as "target" from modulation matrix):
 
 - OP SWITCH (operator on/off toggle).
 - OP MODE (RATIO/FIXED toggle).
