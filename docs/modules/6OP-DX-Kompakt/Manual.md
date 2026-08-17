@@ -155,11 +155,12 @@ _Factory Presets, access from right click context menu_:
 
 - OP SWITCH (operator on/off toggle).
 - OP MODE (RATIO/FIXED toggle).
-- OP EG LEVEL L1, L2, L3, and L4 (EG RATEs only can be modulated).
-- OP BREAKPOINT (displayed BREAK POINT).
+- OP EG levels (L1, L2, L3, and L4).
+- OP BREAKPOINT (displayed "BREAK POINT=" in DX7-emulated LCD/OLED).
 - OP L. CURVE potentiometer.
 - OP R. CURVE potentiometer.
 - LFO KEY SYNC toggle.
 - OSC KEY SYNC toggle.
 - LFO WAVEFORM selector.
+- PITCH EG levels (L1, L2, L3, and L4).
 - OUTPUT LEVEL potentiometer.
