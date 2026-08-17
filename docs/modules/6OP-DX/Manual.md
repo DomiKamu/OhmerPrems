@@ -152,3 +152,15 @@ _Factory Presets, access from right click context menu_:
 ![](_img/factorypresetsV3.png)
 
 ---
+
+About modulation matrix, following DX7 parameters can't be modulated (they can't be selected as modulation target):
+
+- OP SWITCH (operator on/off toggle).
+- OP MODE (RATIO/FIXED toggle).
+- OP BREAKPOINT (displayed BREAK POINT).
+- OP L. CURVE potentiometer.
+- OP R. CURVE potentiometer.
+- LFO KEY SYNC toggle.
+- OSC KEY SYNC toggle.
+- LFO WAVEFORM selector.
+- OUTPUT LEVEL potentiometer.
