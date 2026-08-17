@@ -2,7 +2,7 @@
 
 :warning:
 
-**If any module is looking as "dead" (empty displays, all LED off, no extra menu entry in right click context menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" (grayed) label at the bottom of the context menu**, like following image (example here is the _6OP-DX Kompakt_ module, but it's applicable for all OhmerPrems modules, except _KV_ and _VX_):
+**If any module is looking as "dead" (empty displays, all LED off, no extra menu entry in right click context menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" (grayed) label at the bottom of the context menu**, like following image (example here is the _6OP-DX Kompakt_ module, but it's applicable for all OhmerPrems modules, except _KX_ and _VX_ expanders):
 
 ![](docs/modules/6OP-DX-Kompakt/_img/AUDIOxIssue.png)
 
