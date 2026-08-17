@@ -81,8 +81,6 @@ So you'll can consider:
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
-- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import only.
-- Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - not supported by DX7 SysEx).
 - 32 algorithms (all come from the real DX7 synthesizer), only for display.
 - 6 operators.
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
@@ -104,7 +102,9 @@ So you'll can consider:
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
 - Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from **.6opcart** binary file with extended featurs).
 - Individual voice can be imported from external VCED SysEx file.
-- DX7 SysEx, **.6opcart** and **.6opsynth** files can be imported/loaded via right click menu, or by drag and drop (over the touchscreen).
+- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice): import only.
+- Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
+- DX7 SysEx, **.6opcart** and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable independent CV input jacks.
 - View DX7 settings for current voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
