@@ -65,7 +65,9 @@ The _6OP-DX_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
 
 Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between menu, submenus, and so on. Most DX7 parameters are potentiometers, few of them are momentary buttons.
 
-This _6OP-DX_ module is mainly useful to "prepare" your DX7 synthesizers (soundbanks) you'll need in your project. When your sound design session is completed (and of course, saved, preferabely to **.6opsynth** whole synthesizer file), you'll can replace the huge module by its compact variant, the _6OP-DX Kompakt_, instead, in order to save space in your rack. Of course, you'll must open **.6opsynth** file (previously made by any _6OP-DX_ module) to _6OP-DX Kompakt_ module instance(s) to set-up it/them!
+This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer (soundbanks) you'll need in your project. When your sound design session is completed (and of course, saved, preferabely to **.6opsynth** whole synthesizer file), you'll can replace the huge module by its compact variant, the _6OP-DX Kompakt_, instead, in order to save space in your rack. Of course, you'll must open **.6opsynth** file (previously made by any _6OP-DX_ module) to _6OP-DX Kompakt_ module instance(s) to set-up it/them!
+
+Also, you'll can prepare your custom DX7 soundbank, then export it as _VMEM_ SysEx (32-voice soundbank) in order to import it from real DX7 synthesizer, or from another DX7-compatible software capable to import SysEx soundbank files, like free [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html).
 
 ---
 
