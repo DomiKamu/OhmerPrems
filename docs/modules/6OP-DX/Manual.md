@@ -1,6 +1,8 @@
-:warning: Empty displays, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
+:warning:
 
-:warning: **MacBook users:** in case the panel isn't displayed (look as missing texture), please set **UI Scale** setting to **Auto** or **100%**, and **Zoom** to 100% (both from **View** menu). It's a not a 6OP-DX specific graphic issue, this bug occurs on any big module (whatever the module brand).
+Empty displays, all LED always turned off, no extra right click menu, module is looking "dead" -> [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
+
+:warning: **MacBook users:** in case the panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a 6OP-DX specific graphic issue, this bug occurs on any large module, whatever the module brand!
 
 ---
 
@@ -19,6 +21,7 @@ This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm
 
 - [**HISTORY**](#history)
 - [**TERMINOLOGY**](#terminology)
+- [**INTRODUCTION & FIRST WORDS**](#intro)
 - [**MODULE SPECIFICATIONS**](#techspecs)
 
 ---
@@ -32,7 +35,7 @@ _The Yamaha DX7 synthesizer_:
 
 Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (using substractive synthesis), like the Minimoog (Moog Music), the MS-20 (Korg), the ARP 2600 (ARP Instruments), the Prophet 5 (Sequential Circuits), the Jupiter-8 (Roland), and many more, the Yamaha DX7 becomes the first affordable synthesizer using FM (Frequency Modulation) synthesis during 1983.
 
-Frequency modulation synthesis (FM synthesis) was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier (by New England Digital Corp).
+Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
 
 In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
 
@@ -51,8 +54,22 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
-- **.6opsynth** is a proprietary file format used to store all synthesizer settings, including OP ON/OFF switch states and modulation matrices.
-- **.6opcart** is a proprietary file format used to store a 32-voice cartridge/bank (including OP ON/OFF switch states and modulation matrices).
+- **.6opsynth** is a proprietary binary file format used to store all synthesizer settings, including OP ON/OFF states and modulation matrices.
+- **.6opcart** is a proprietary binary file format used to store a 32-voice cartridge/bank, including OP ON/OFF states and modulation matrices.
+
+---
+
+### INTRODUCTION & FIRST WORDS<a name="intro"></a>
+
+The _6OP-DX_ if the control tower of FM synthesis in the OhmerPrems ecosystem!
+
+Despite its very huge size for an Eurorack module, yep 117HP wide, its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between menu, submenus and so on. Most DX7 parameters are potentiometers, some are momentary buttons.
+
+This _6OP-DX_ module is mainly useful to "prepare" your DX7 soundbanks you'll need for your project. However, when your sound design session is completed (and saved, preferabely to **.6opsynth** file), you'll can replace the huge module by its compact variant, the _6OP-DX Kompakt_, instead, in order to save space in your racks. Of course, you'll can open **.6opsynth** file (made by 6OP-DX module) from _6OP-DX Kompakt_ module instances!
+
+---
+
+:information_source: Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license V2 keyfile isn't required).
 
 ---
 
@@ -60,7 +77,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
 - Width: 117HP.
-- Synthesis: Phase Modulation (PM), based on sine waveforms only.
+- Synthesis: Phase Modulation (PM), based on sine waveforms only (like the original DX synthesizer).
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
