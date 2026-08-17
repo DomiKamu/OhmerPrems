@@ -95,12 +95,12 @@ Also, you'll can prepare your custom DX7 soundbank, then export it as _VMEM_ Sys
 - Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
 - Frequency response: from 27.5Hz (DX7 A-1 / international A0), to 8372.018Hz (DX7 C8 / international C9).
 - Band-limiting: up to Nyquist frequency (half of sample rate).
-- DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented later).
-- Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono, but polyphonic).
 - Polyphonic outputs: yes (up to 16 channels).
+- Operational sample rate: recommended 44100Hz/48000Hz, or higher.
+- DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented in future release).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
 - Voices: 32 per bank, all are fully customizable (can be imported/exported from/to VMEM SysEx file, or loaded/saved from/to .6opdx binary file).
 - Individual voice can be exported/imported to/from VCED SysEx file.
@@ -108,11 +108,12 @@ Also, you'll can prepare your custom DX7 soundbank, then export it as _VMEM_ Sys
 - Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
 - DX7 SysEx, **.6opcart** and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
-- 8 assignable independent CV input jacks.
-- Modulation Matrix (via MENU button): each voice can use up to 16 customizable modulations.
+- 8 assignable CV input jacks (assigments via modulation matrix).
+- Modulation Matrix (via MENU button): each voice can use up to 24 customizable modulations.
 - Modulation sources: 13 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, LFO).
 - Modulation targets: 90 (near all DX7 OP parameters, plus EG BIAS).
-- Modulation ranges: -100% to +100% (RELative modulation), 0 to 100% (ABSolute modulation). Modulation can be inverted.
+- Modulation ranges: -100% to +100% (RELative modulation), or 0 to 100% (ABSolute modulation).
+- Modulation can be inverted and temporary disabled.
 - Preferences (global preferences, via dedicated page, access from MENU button).
 - Intuitive graphic envelope editor.
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
