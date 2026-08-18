@@ -1,8 +1,8 @@
 :warning:
 
-Empty displays, all LED always turned off, no extra right click menu, module is looking "dead" -> [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
+Empty displays, all LED always turned off, no extra right click menu, module is looking "dead", [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
 
-:warning: **MacBook users:** in case the panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a 6OP-DX specific graphic issue, this bug occurs on any large module, whatever the module brand!
+:warning: **MacBook users:** in case the main panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a 6OP-DX specific graphic issue, this bug occurs on any large module, whatever the module brand!
 
 ---
 
@@ -11,7 +11,7 @@ Empty displays, all LED always turned off, no extra right click menu, module is 
 _The 6OP-DX module, Aluminium model, DX7-emulated genuine LCD display:_
 ![](_img/mainV2.png)
 
-This will be the User's Manual for 6OP-DX module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
+This will be the User's Manual for 6OP-DX module, **117HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
@@ -54,8 +54,12 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
-- **.6opsynth** is a proprietary binary file format used to store all synthesizer settings, including OP ON/OFF states and modulation matrices.
-- **.6opcart** is a proprietary binary file format used to store a 32-voice cartridge/bank, including OP ON/OFF states and modulation matrices.
+
+Proprietary binary file formats (provided by both _6OP-DX_ and _6OP-DX Kompakt_ modules) are useful to store and recall DX7 synthesizer parameters, plus **extended features** (not supported by DX7 SysEx format):
+
+- **.6opsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, and all modulation matrices.
+- **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
+- **.6opvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 
 ---
 
@@ -63,11 +67,17 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 The _6OP-DX_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
 
-Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between menu, submenus, and so on. Most DX7 parameters are potentiometers, few of them are momentary buttons.
+Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between "pages", "subpages", submenus, and so on. Most DX7 parameters are potentiometers, few of them are momentary buttons to toggle a state (or to select a LFO waveform).
 
-This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer (soundbanks) you'll need in your project. When your sound design session is completed (and of course, saved, preferabely to **.6opsynth** whole synthesizer file), you'll can replace the huge module by its compact variant, the _6OP-DX Kompakt_, instead, in order to save space in your rack. Of course, you'll must open **.6opsynth** file (previously made by any _6OP-DX_ module) to _6OP-DX Kompakt_ module instance(s) to set-up it/them!
+This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer (soundbanks) you'll need in your project. When your sound design session is completed (and of course, saved, preferabely to **.6opsynth** whole synthesizer file, including extended features), you'll can replace the huge module by its compact variant, the _6OP-DX Kompakt_, instead, in order to save space in your rack. Of course, you'll must open **.6opsynth** file (previously made by any _6OP-DX_ module) to _6OP-DX Kompakt_ module instance(s) to set-up it/them! Please read [6OP-DX Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/6OP-DX/Manual.md) for more details about this thinner module!
 
-Also, you'll can prepare your custom DX7 soundbank, then export it as _VMEM_ SysEx (32-voice soundbank) in order to import it from real DX7 synthesizer (MIDI channel 1 only, MEMORY PROTECT must be disabled to import), or from another DX7-compatible software capable to import SysEx soundbank files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html), and possibly other softwares such SysEx Librarian (MacOS X) or MIDI-OX (Windows).
+Also, you'll can prepare your custom DX7 soundbank, then export it as _VMEM_ SysEx (32-voice soundbank), in order to import it from real DX7 synthesizer (the DX7 uses MIDI channel 1 only for SysEx transfers, also MEMORY PROTECT must be disabled prior to import), or from another DX7-compatible software capable to import SysEx soundbank files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html), and possibly other third-party softwares, such SysEx Librarian (MacOS X computers) or MIDI-OX (Windows computers).
+
+So you'll can consider:
+- 6OP-DX (the huge module) either as voice synthesizer **AND** as DX7 voice (sound) editor.
+- 6OP-DX Kompakt as "player", for final production in your racks, mainly to save space in your racks.
+
+:information_source: Both modules are able to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files.
 
 ---
 
