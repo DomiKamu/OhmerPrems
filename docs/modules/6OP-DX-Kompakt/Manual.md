@@ -9,7 +9,7 @@ Empty display, all LED always turned off, no extra right click menu, module is l
 _The 6OP-DX Kompakt module, Aluminium model, DX7-emulated genuine LCD display:_
 ![](_img/main.png)
 
-This will be the User's Manual for _6OP-DX Kompakt_ module, **34HP** 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, as "player".
+This will be the User's Manual for _6OP-DX Kompakt_ module, **34HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, as "player".
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
