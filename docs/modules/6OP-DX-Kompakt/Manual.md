@@ -9,7 +9,7 @@ Empty display, all LED always turned off, no extra right click menu, module is l
 _The 6OP-DX Kompakt module, Aluminium model, DX7-emulated genuine LCD display:_
 ![](_img/main.png)
 
-This will be the User's Manual for _6OP-DX Kompakt_ module, **34HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, as "player".
+This will be the User's Manual for _6OP-DX Kompakt_ module, **33HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, the compact form of _6OP-DX_ module.
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
@@ -69,22 +69,22 @@ The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP
 
 However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices, including "extensions"), a single-voice **.6opvoice** file (this load the file in the currently selected bank, selected voices, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer, or compatible software (but without featured "extensions", such operator ON/OFF states and modulation matrices).
 
-So you'll can consider:
+You'll can consider:
 - 6OP-DX (the huge module) either as voice synthesizer **AND** as DX7 voice (sound) editor.
-- 6OP-DX Kompakt as "player", for final production in your racks, mainly to save space in your racks.
+- 6OP-DX Kompakt, for final productions in your racks (mainly to save space in your racks).
 
-:information_source: Both modules are able to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files.
+:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the Kompakt can't edit DX7 synth parameters, and can't export to DX7 SysEx file, otherwise they're no more differences between each other!
 
 ---
 
-:information_source: Do not forget both _6OP-DX Kompakt_ and _6OP-DX_ modules are **free for everyone** (license V2 keyfile isn't required).
+:information_source: Do not forget both _6OP-DX_ and _6OP-DX Kompakt_ modules are **free for everyone** (license V2 keyfile isn't required).
 
 ---
 
 ### TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
-- Width: 34HP.
+- Width: 33HP.
 - Synthesis: Phase Modulation (PM), based on sine waveforms only (like the original DX synthesizer).
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
