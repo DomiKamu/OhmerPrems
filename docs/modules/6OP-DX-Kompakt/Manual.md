@@ -39,7 +39,7 @@ In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase 
 
 The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
-The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle, and modulation matrix), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle, and modulation matrices), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
