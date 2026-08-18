@@ -55,11 +55,11 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 
-Proprietary binary file formats (provided by both _6OP-DX_ and _6OP-DX Kompakt_ modules) are useful to store and recall DX7 synthesizer parameters, plus **extended features** (not supported by DX7 SysEx format):
+Proprietary binary file formats, provided by both _6OP-DX_ and _6OP-DX Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** who are not supported by DX7 SysEx formats:
 
-- **.6opsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, and all modulation matrices.
-- **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
 - **.6opvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
+- **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
+- **.6opsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, and all modulation matrices.
 
 ---
 
@@ -116,7 +116,7 @@ You'll can consider:
 - Individual voice can be exported/imported to/from VCED SysEx file.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import and as export.
 - Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
-- DX7 SysEx, **.6opcart** and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
+- DX7 SysEx, **.6opvoice**, **.6opcart**, and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
