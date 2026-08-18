@@ -63,11 +63,9 @@ Proprietary binary file formats, provided by both _6OP-DX Kompakt_ and _6OP-DX_ 
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _6OP-DX Kompakt_ module doesn't permit to do sound design on DX7 operators/LFO/pitch envelope/transpose/feedback, so the DX7 voice parameters cannot be edited. However, **MONOPHONIC** state may be toggled on or off, and modulation matrix can be edited, for any voice. A modulation matrix can be copied/pasted between voices.
+Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _6OP-DX Kompakt_ module doesn't permit to do sound design on DX7 operators/LFO/pitch envelope/transpose/feedback, so the DX7 voice parameters cannot be edited. However, **MONOPHONIC** state may be toggled on or off, and modulation matrix can be edited, for any voice. Any modulation matrix can be copied/pasted between voices (located in same or in different bank).
 
-The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit DX7 parameters for any voice), even if _6OP-DX Kompakt_ module is able to save to any proprietary format (full synthesizer, 32-voice cartridge, or single-voice file).
-
-However, depending your needs, you'll can open single-voice **.6opvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.6opcart** file (this load the file in the currently selected bank, for all 32 voices, including "extensions"), full synthesizer **.6opsynth** file (this load the file in all 4 banks, 32 voices per banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions", who are not supported by DX7 SysEx file formats).
+Depending your needs, you'll can open single-voice **.6opvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.6opcart** file (this load the file in the currently selected bank, affects all 32 voices of the bank, including "extensions"), full synthesizer **.6opsynth** file (this load the file in all 4 banks, affects all 32 voices in all banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions" in this case, because extented features are not supported by DX7 SysEx formats).
 
 You'll can consider:
 - 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
