@@ -109,9 +109,9 @@ You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://g
 
 ## **6OP-DX Kompakt: Work In Progress / currently in development!**
 
-![](docs/modules/6OP-DX-Kompakt/_img/main.png)
+![](docs/modules/6OP-DX-Kompakt/_img/mainV2.png)
 
-The _6OP-DX Kompakt_ synth voice module is - in development - the little brother of 6OP-DX.
+The _6OP-DX Kompakt_ synth voice module is - in development - the "little brother" of the huge _6OP-DX_ module. _Little_ because it's largely thinner than the 6OP-DX module (33HP, vs. 117HP), but it have near all features proposed by its big brother. Exceptions are the compact module cannot alter DX7 synthesizer parameters, and it doesn't export to DX7 SysEx files. Nothing else!
 
 6OP-DX Kompakt module is also scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
 
