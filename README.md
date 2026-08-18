@@ -30,7 +30,7 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 - **6OP-DX** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module. Its [**User's Manual**](docs/modules/6OP-DX/Manual.md) is under construction, too.
 
-- **6OP-DX Kompakt** is also a **Work In Progress** (parallel development) compact version of the _6OP-DX_ module, significantly thinner (34HP, instead of 117HP), but **without way to edit DX7 parameters** (except **MONOPHONIC** state toggle, and fully - editable - modulation matrices). Its [**User's Manual**](docs/modules/6OP-DX-Kompakt/Manual.md) is under construction, too!
+- **6OP-DX Kompakt** is also a **Work In Progress** (parallel development) compact version of the _6OP-DX_ module, significantly thinner (33HP, instead of 117), but **without way to edit "DX7" synth parameters** (except **MONOPHONIC** state toggle, and fully - editable - modulation matrices). Its [**User's Manual**](docs/modules/6OP-DX-Kompakt/Manual.md) is under construction, too!
 
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 
