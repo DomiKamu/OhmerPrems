@@ -67,7 +67,7 @@ Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _
 
 The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit DX7 parameters for any voice), even if _6OP-DX Kompakt_ module is able to save to any proprietary format (full synthesizer, 32-voice cartridge, or single-voice file).
 
-However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices, including "extensions"), a single-voice **.6opvoice** file (this load the file in the currently selected bank, selected voices, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer, or compatible software (but without featured "extensions", such operator ON/OFF states and modulation matrices).
+However, depending your needs, you'll can open single-voice **.6opvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.6opcart** file (this load the file in the currently selected bank, for all 32 voices, including "extensions"), full synthesizer **.6opsynth** file (this load the file in all 4 banks, 32 voices per banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions", who are not supported by DX7 SysEx file formats).
 
 You'll can consider:
 - 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
