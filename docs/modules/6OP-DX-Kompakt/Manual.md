@@ -134,7 +134,7 @@ You'll can consider:
 
 ## DRAFT
 
-The 6OP-DX offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
+The _6OP-DX Kompakt_ module offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
 - **INT** (as internal memory).
 - **CART1** (displayed **C1.**).
 - **CART2** (displayed **C2.**).
