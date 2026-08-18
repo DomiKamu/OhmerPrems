@@ -74,10 +74,10 @@ This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer (soundbank
 Also, you'll can prepare your custom DX7 soundbank, then export it as _VMEM_ SysEx (32-voice soundbank), in order to import it from real DX7 synthesizer (the DX7 uses MIDI channel 1 only for SysEx transfers, also MEMORY PROTECT must be disabled prior to import), or from another DX7-compatible software capable to import SysEx soundbank files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html), and possibly other third-party softwares, such SysEx Librarian (MacOS X computers) or MIDI-OX (Windows computers).
 
 You'll can consider:
-- 6OP-DX (the huge module) either as voice synthesizer **AND** as DX7 voice (sound) editor.
+- 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
 - 6OP-DX Kompakt, for final productions in your racks (mainly to save space in your racks).
 
-:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the Kompakt can't edit DX7 synth parameters, and can't export to DX7 SysEx file, otherwise they're no more differences between each other!
+:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export them to DX7 SysEx file, otherwise, they're no more signifiant differences between each other!
 
 ---
 
@@ -120,15 +120,15 @@ You'll can consider:
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 24 customizable modulations.
-- Modulation sources: 13 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, LFO).
-- Modulation targets: 90 (near all DX7 OP parameters, plus EG BIAS).
+- Modulation sources: 12 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
+- Modulation targets: 90 (DX7 parameters exclusively, EG BIAS).
 - Modulation ranges: -100% to +100% (RELative modulation), or 0 to 100% (ABSolute modulation).
-- Modulation can be inverted and temporary disabled.
+- Modulation can be inverted, and can be temporary disabled.
 - Preferences (global preferences, via dedicated page, access from MENU button).
-- Intuitive graphic envelope editor.
+- Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
-- "Keyboard" split & response range, adjustable from "Preferences".
-- Mod key (default is left Control / left Command on MacOS X computers) can be customized from "Preferences".
+- Optional pitch split point and response part (above or below split point), adjustable from "Preferences".
+- Mod key (default is left Control / left Command on MacOS X computers), can be changed from "Preferences".
 - Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
