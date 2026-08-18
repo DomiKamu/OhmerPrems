@@ -52,8 +52,12 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
-- **.6opsynth** is a proprietary binary file format used to store all synthesizer settings, including OP ON/OFF states and modulation matrices.
-- **.6opcart** is a proprietary binary file format used to store a 32-voice cartridge/bank, including OP ON/OFF states and modulation matrices.
+
+Proprietary binary file formats (provided by both _6OP-DX_ and _6OP-DX Kompakt_ modules) are useful to store and recall DX7 synthesizer parameters, plus **extended features** (not supported by DX7 SysEx format):
+
+- **.6opsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, and all modulation matrices.
+- **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
+- **.6opvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 
 ---
 
@@ -61,11 +65,15 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _6OP-DX Kompakt_ module doesn't permit to do sound design, so voices cannot be edited. However, **MONOPHONIC** state (per voice) may be toggled on or off, and modulation matrix can be edited for any voice (including copy/paste feature between voices).
 
-The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit sounds and modulation matrices). However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer, or compatible software (but without featured "extensions", such operator ON/OFF states and modulation matrices).
+The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit DX7 parameters per voice), even if _6OP-DX Kompakt_ module is able to save to any proprietary format, too.
+
+However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices, including "extensions"), a single-voice **.6opvoice** file (this load the file in the currently selected bank, selected voices, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer, or compatible software (but without featured "extensions", such operator ON/OFF states and modulation matrices).
 
 So you'll can consider:
-- 6OP-DX (the huge module) either as voice synthesizer **AND** as voice (sound) editor, including modulation matrices (per voice).
-- 6OP-DX Kompakt as "player", for final production in your racks, mainly to save space because 6OP-DX module is huge!
+- 6OP-DX (the huge module) either as voice synthesizer **AND** as DX7 voice (sound) editor.
+- 6OP-DX Kompakt as "player", for final production in your racks, mainly to save space in your racks.
+
+:information_source: Both modules are able to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files.
 
 ---
 
