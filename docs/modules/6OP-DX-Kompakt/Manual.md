@@ -9,7 +9,7 @@ Empty display, all LED always turned off, no extra right click menu, module is l
 _The 6OP-DX Kompakt module, Dark "Signature" model, DX7-emulated (backlit LCD retrofit) display:_
 ![](_img/mainV3.png)
 
-This will be the User's Manual for _6OP-DX Kompakt_ module, **33HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, the compact form of _6OP-DX_ module.
+This will be the User's Manual for _6OP-DX Kompakt_ module, **33HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice, it's the compact form of _6OP-DX_ module.
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
@@ -63,17 +63,17 @@ Proprietary binary file formats (provided by both _6OP-DX_ and _6OP-DX Kompakt_ 
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _6OP-DX Kompakt_ module doesn't permit to do sound design, so voices cannot be edited. However, **MONOPHONIC** state (per voice) may be toggled on or off, and modulation matrix can be edited for any voice (including copy/paste feature between voices).
+Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _6OP-DX Kompakt_ module doesn't permit to do sound design on DX7 operators/LFO/pitch envelope/transpose/feedback, so the DX7 voice parameters cannot be edited. However, **MONOPHONIC** state may be toggled on or off, and modulation matrix can be edited, for any voice. A modulation matrix can be copied/pasted between voices.
 
-The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit DX7 parameters per voice), even if _6OP-DX Kompakt_ module is able to save to any proprietary format, too.
+The best way is to open **.6opsynth** file (full synthesizer file), made by _6OP-DX_ module (who permit to edit DX7 parameters for any voice), even if _6OP-DX Kompakt_ module is able to save to any proprietary format (full synthesizer, 32-voice cartridge, or single-voice file).
 
 However, depending your needs, you'll can open a partial (cartridge-based) **.6opcart** file (this load the file in the currently selected bank, for 32 voices, including "extensions"), a single-voice **.6opvoice** file (this load the file in the currently selected bank, selected voices, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer, or compatible software (but without featured "extensions", such operator ON/OFF states and modulation matrices).
 
 You'll can consider:
-- 6OP-DX (the huge module) either as voice synthesizer **AND** as DX7 voice (sound) editor.
+- 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
 - 6OP-DX Kompakt, for final productions in your racks (mainly to save space in your racks).
 
-:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the Kompakt can't edit DX7 synth parameters, and can't export to DX7 SysEx file, otherwise they're no more differences between each other!
+:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export them to DX7 SysEx file, otherwise, they're no more signifiant differences between each other!
 
 ---
 
@@ -116,13 +116,14 @@ You'll can consider:
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 24 customizable modulations.
-- Modulation sources: 13 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, LFO).
-- Modulation targets: 90 (near all DX7 OP parameters, plus EG BIAS).
+- Modulation sources: 12 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
+- Modulation targets: 90 (DX7 parameters exclusively, EG BIAS).
 - Modulation ranges: -100% to +100% (RELative modulation), or 0 to 100% (ABSolute modulation).
-- Modulation can be inverted and temporary disabled.
+- Modulation can be inverted, and can be temporary disabled.
 - View DX7 parameters for current voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
 - Preferences (global preferences, via dedicated page, access from MENU button).
-- "Keyboard" split & response range, adjustable from "Preferences".
+- Optional pitch split point and response part (above or below split point), adjustable from "Preferences".
+- Mod key: not supported (feature reserved to _6OP-DX_ module only).
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
