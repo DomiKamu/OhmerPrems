@@ -114,7 +114,7 @@ You'll can consider:
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
-- Modulation sources: 13 (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8, and internal LFO).
+- Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
 - Modulation targets: 90 (DX7 parameters exclusively, EG BIAS).
 - Modulation ranges: -100% to +100% (RELative modulation), or 0 to 100% (ABSolute modulation).
 - Modulation can be inverted, and can be temporary disabled.
