@@ -188,7 +188,7 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 **Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustment (when held). Also, by the same principle, **left Alt** (**left Option** on MacOS X computers) is used to scroll the rack's view, when held!
 
-:information_source_ Mod. key can be changed from **Preferences** screen, but it's not recommended due to potential conflicts vs. VCV Rack 2 features.
+:information_source: Mod. key can be changed from **Preferences** screen, but it's not recommended (due to potential conflicts vs. VCV Rack 2 basic features).
 
 - By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. This feature isn't applicable for _6OP-DX Kompakt_ module.
 
