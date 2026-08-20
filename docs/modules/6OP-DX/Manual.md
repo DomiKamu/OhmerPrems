@@ -24,6 +24,10 @@ This will be the User's Manual for 6OP-DX module, **117HP** polyphonic 6-operato
 - [**INTRODUCTION & FIRST WORDS**](#intro)
 - [**MODULE SPECIFICATIONS**](#techspecs)
 
+...behind temporary draft section...
+
+- [**MOD. KEY**](#modkey)
+
 ---
 
 ### HISTORY<a name="history"></a>
@@ -123,7 +127,7 @@ You'll can consider:
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
 - Modulation targets: 90 (DX7 parameters exclusively, EG BIAS).
 - Modulation ranges: -100% to +100% (RELative modulation), or 0 to 100% (ABSolute modulation).
-- Modulation can be inverted, and can be temporary disabled.
+- Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
 - Preferences (global preferences, via dedicated page, access from MENU button).
 - Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
@@ -164,7 +168,7 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 ---
 
-:warning: Following DX7 parameters can't be modulated (they can't be selected as "target" from modulation matrix):
+:warning: Following DX7 parameters can't be modulated (they can't be choosen as possible target from modulation matrix editor):
 
 - OP SWITCH (operator on/off toggle).
 - OP MODE (RATIO/FIXED toggle).
@@ -177,3 +181,15 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 - LFO WAVEFORM selector.
 - PITCH EG levels (L1, L2, L3, and L4).
 - OUTPUT LEVEL potentiometer.
+
+---
+
+### MOD. KEY<a name="modkey"></a>
+
+**Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustment (when held). Also, by the same principle, **left Alt** (**left Option** on MacOS X computers) is used to scroll the rack's view, when held!
+
+:information_source_ Mod. key can be changed from **Preferences** screen, but it's not recommended due to potential conflicts vs. VCV Rack 2 features.
+
+- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. This feature isn't applicable for _6OP-DX Kompakt_ module.
+
+- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** page: when a modulation target is hovered by mouse cursor, the box and the modulation target name are displayed using yellow color: by "touching" (left-mouse clicking) the box, this jump to the next operator (same parameter), instead of next DX7 parameter in sequence. It's a way to reduce clicks number over the target "box"!
