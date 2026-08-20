@@ -192,7 +192,7 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 - By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the related DX7 parameter as modulation "target" in first available modulation "slot" (if, at least, one modulation is available). Please read [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign) topic below, for details.
 
-- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, its box and modulated target name are highlighted by yellow color (instead of cyan): by "touching" (left-mouse clicking) the box, this jump to the next operator (COARSE parameter), instead of next DX7 parameter (sequentially). It's a good way to reach the desired target (and reduce the amount of left-mouse clicks over the target "box").
+- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, its box and modulated target name are highlighted by yellow color (instead of cyan): by "touching" (left-mouse clicking) the box, this jump to the next operator (COARSE parameter), instead of next DX7 parameter (sequentially). It's a good way to reach the desired target (and drastically reduce the required amount of "left-mouse clicks" over the target box!)
 
 ---
 
