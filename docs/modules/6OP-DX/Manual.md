@@ -200,12 +200,12 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 :warning: **The following procedure is applicable to _6OP-DX_ module only (_6OP-DX Kompakt_ module doesn't embed DX7 potentiometers!)**
 
-To quickly assign a DX7 parameter as "target" of modulation:
+To quickly assign a DX7 parameter as "target" of a new modulation:
 
-- Place the mouse cursor over the DX7 parameter (potentiometer) you'll want to become as modulated (target).
+- Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to it become as modulated (target).
 - Press the mod. (modifier) key - by default: **Tab** key, and hold it.
 - Touch the potentiometer (left-mouse click).
 
-By doing this action, the module's logic creates a new modulation (except if the limit of modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. The added modulation is at the bottom of display. The choosen DX7 parameter is defined as modulation target. However, you'll must set the modulation source, the amount (via its fader), the behavior (by default ABSOLUTE, can be RELATIVE, or temporary DISABLED), and the **INV.** checkbox state as required.
+By doing this action, the module's logic creates a new modulation "slot" (ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically opened. Added modulation is always located at the bottom of the display (the lastest with the red cross touchable icon). The selected DX7 parameter is defined as modulation target, as expected. However, you'll must set the modulation source, the amount (via its fader), the behavior of the modulation (by default, **ABSOLUTE**, but can be **RELATIVE**, or temporary... **DISABLED**), and optionally the **INV.** checkbox state, all as required.
 
 :warning: Please remember all button-based DX7 parameters, **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (for all operators), and the **OUTPUT LEVEL** (master) potentiometer, cannot be selected as modulation target.
