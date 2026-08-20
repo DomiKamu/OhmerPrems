@@ -177,9 +177,10 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 ### MOD. KEY<a name="modkey"></a>
 
-**Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 software to do fine potentiometer adjustments, when held.
+**Mod. key** stands for **modifier key**, but also... as **modulation key**.
 
-:information_source: Mod. key can be changed from **Preferences** screen, instead of **Tab** key, mod. key can be **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key can be the **T** key.
+Default factory is the **Tab** key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustments, when held, also **Alt** keys (**Option** keys on MacOS X computers) are reserved by VCV Rack 2 core to scroll the view in the rack by moving the mouse cursor, and **left Shift** is used by VCV Rack 2 core to do coarse (high speed rotation) potentiometer adjustments.
+
+:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key may become **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key may be the **T** key.
 
 - Either _6OP-DX Kompakt_ and _6OP-DX_ module also may accept the mod. key usage from **Modulation Matrix** screen, over the **TARGET** box: when the target is hovered by mouse cursor, its box (and parameter name) are highlighted by **yellow** color, instead of cyan: by "touching" (left-mouse click) the box **while holding the mod. key**, this jump to the next _pertinent_ "group" (first operator COARSE, first LFO speed, first PITCH envelope RATE, P MOD SENS, TRANSPOSE, FEEDBACK, prior to cycle to EG BIAS, the first possible target), instead of browsing all 118 possible DX7 parameters, sequentially. So it's not the best way, but a better way to reach the desired target (and reduce the required amount of "left-mouse clicks" over the target box!)
-
