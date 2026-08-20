@@ -71,7 +71,7 @@ Proprietary binary file formats, provided by both _6OP-DX_ and _6OP-DX Kompakt_ 
 
 The _6OP-DX_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
 
-Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between "pages", "subpages", submenus, and so on. Most DX7 parameters are potentiometers, few of them are momentary buttons to toggle a state (on/off), or to select the LFO waveform.
+Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between ton of menus/submenus... Most DX7 parameters are potentiometers (few of them are momentary buttons to toggle a state (on/off), one to select the LFO waveform).
 
 This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer file(s) you'll need in your project (can be single-voice files, 32-voice cartridge files, or full synthesizer files). When your sound design session is completed (and of course, saved), you'll can replace the huge _6OP-DX_ module by its compact variant, the _6OP-DX Kompakt_, in order to save signifiant space in your rack. Of course, you'll must open appropriate file(s), either **.6opsynth** file (single-voice), **.6opcart** file (32-voice cartridge), or **.6opsynth** file (entire synthesizer), previously made by any _6OP-DX_ module. Please read [6OP-DX Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/6OP-DX/Manual.md) for more details about this thinner module!
 
@@ -81,7 +81,7 @@ You'll can consider:
 - 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
 - 6OP-DX Kompakt, for final productions in your racks (mainly to save space in your racks).
 
-:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx files, otherwise, they're no more signifiant differences between both modules!
+:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx files, otherwise, they're no more signifiant differences between both modules!
 
 ---
 
@@ -125,10 +125,10 @@ You'll can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
-- Modulation targets: 90 (DX7 parameters exclusively, EG BIAS).
-- Modulation ranges: -100% to +100% (RELative modulation), or 0 to 100% (ABSolute modulation).
+- Modulation targets: 90 (DX7 parameters exclusively, plus EG BIAS).
+- Modulation ranges: -100% to +100% (applying an offset), or 0 to 100% (absolute modulation, replace the parameter given by its potentiometer).
 - Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
-- Preferences (global preferences, via dedicated page, access from MENU button).
+- Preferences (global preferences, via dedicated screen). Access from MENU button.
 - Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
 - Optional pitch split point and response part (above or below split point), adjustable from "Preferences".
@@ -190,6 +190,6 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 :information_source: Mod. key can be changed from **Preferences** screen, but it's not recommended (due to potential conflicts vs. VCV Rack 2 basic features).
 
-- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. :warning: This feature isn't available for _6OP-DX Kompakt_ module!
+- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. :warning: **This feature isn't available for _6OP-DX Kompakt_ module!**
 
-- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** page: when a modulation target is hovered by mouse cursor, the box and the modulation target name are displayed using yellow color: by "touching" (left-mouse clicking) the box, this jump to the next operator (same parameter), instead of next DX7 parameter in sequence. It's a way to reduce clicks number over the target "box"!
+- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, the box and the modulation target name are displayed using yellow color: by "touching" (left-mouse clicking) the box, this jump to the next operator (same parameter), instead of next DX7 parameter in sequence. It's a way to reduce clicks number over the target "box"!
