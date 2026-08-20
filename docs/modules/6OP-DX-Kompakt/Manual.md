@@ -57,11 +57,11 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 
-Proprietary binary file formats, provided by both _6OP-DX Kompakt_ and _6OP-DX_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** who are not supported by DX7 SysEx formats:
+Proprietary binary file formats provided by both _6OP-DX Kompakt_ and _6OP-DX_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
 
 - **.6opvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 - **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
-- **.6opsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, and all modulation matrices.
+- **.6opsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, all modulation matrices, and global preferences.
 
 ---
 
