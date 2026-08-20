@@ -119,13 +119,14 @@ You'll can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
-- Modulation targets: 90 (DX7 parameters exclusively, plus EG BIAS).
+- Modulation targets: 118 (most DX7 parameters, plus EG BIAS).
 - Modulation ranges: -100% to +100% (applying an offset), or 0 to 100% (absolute modulation, replace the parameter given by its potentiometer).
 - Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
 - View DX7 parameters for current voice (via 8 screens, by rotating the continuous encoder). Access from MENU button.
-- Preferences (global preferences, via dedicated screen). Access from MENU button.
-- Optional pitch split point and response part (above or below split point), adjustable from "Preferences".
+- Global preferences (via dedicated screen). Access from MENU button.
+- Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
 - Mod key: not supported (feature reserved to _6OP-DX_ module only).
+- Touchscreen brightness: adjustable from "Preferences" screen.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
@@ -164,23 +165,21 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 - OP SWITCH (operator on/off toggle).
 - OP MODE (RATIO/FIXED toggle).
-- OP EG levels (L1, L2, L3, and L4).
-- OP BREAKPOINT (displayed "BREAK POINT=" in DX7-emulated LCD/OLED).
+- OP BREAKPOINT potentiometer (displayed "BREAK POINT=" in DX7-emulated LCD/OLED).
 - OP L. CURVE potentiometer.
 - OP R. CURVE potentiometer.
 - LFO KEY SYNC toggle.
 - OSC KEY SYNC toggle.
 - LFO WAVEFORM selector.
-- PITCH EG levels (L1, L2, L3, and L4).
-- OUTPUT LEVEL potentiometer.
+- OUTPUT master LEVEL potentiometer.
 
 ---
 
 ### MOD. KEY<a name="modkey"></a>
 
-**Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 software to do fine potentiometer adjustments (when held). Also, by the same principle, **left Alt** (**left Option** on MacOS X computers) is used to scroll the rack's view, when held!
+**Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 software to do fine potentiometer adjustments, when held.
 
-:information_source: Mod. key can be changed from **Preferences** screen, but it's not recommended (due to potential conflicts vs. VCV Rack 2 basic features).
+:information_source: Mod. key can be changed from **Preferences** screen, instead of **Tab** key, mod. key can be **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key can be the **T** key.
 
-- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, the box and the modulation target name are displayed using yellow color: by "touching" (left-mouse clicking) the box, this jump to the next operator (same parameter), instead of next DX7 parameter in sequence. It's a way to reduce clicks number over the target "box"!
+- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, its box and modulated target name are highlighted by yellow color (instead of cyan): by "touching" (left-mouse clicking) the box, this jump to the next operator (COARSE parameter), instead of next DX7 parameter (sequentially). It's an useful way to reduce number of mouse-clicks over the target "box"!
 
