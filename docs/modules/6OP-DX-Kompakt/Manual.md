@@ -1,15 +1,17 @@
 :warning:
 
-Empty display, all LED always turned off, no extra right click menu, module is looking "dead", [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
+Empty displays, all LED always turned off, no extra right click menu, module is looking "dead", [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
+
+:warning: **MacBook users:** in case the main panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a 6OP-DX specific graphic issue, this bug occurs on any large module, whatever the module brand!
 
 ---
 
-# 6OP-DX KOMPAKT USER'S MANUAL (UNDER CONSTRUCTION)
+# 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
-_The 6OP-DX Kompakt module, Dark "Signature" model, DX7-emulated (backlit LCD retrofit) display:_
-![](_img/mainV3.png)
+_The 6OP-DX module, Aluminium model, DX7-emulated genuine LCD display:_
+![](_img/mainV2.png)
 
-This will be the User's Manual for _6OP-DX Kompakt_ module, **33HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice. It's the compact form factor of the _6OP-DX_ module.
+This will be the User's Manual for 6OP-DX module, **117HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
@@ -20,7 +22,11 @@ This will be the User's Manual for _6OP-DX Kompakt_ module, **33HP** polyphonic 
 - [**HISTORY**](#history)
 - [**TERMINOLOGY**](#terminology)
 - [**INTRODUCTION & FIRST WORDS**](#intro)
-- [**TECHNICAL SPECIFICATIONS**](#techspecs)
+- [**MODULE SPECIFICATIONS**](#techspecs)
+
+...behind temporary draft section...
+
+- [**MOD. KEY**](#modkey)
 
 ---
 
@@ -39,7 +45,7 @@ In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase 
 
 The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
-The _6OP-DX Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle, and modulation matrices), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
@@ -53,7 +59,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 
-Proprietary binary file formats, provided by both _6OP-DX Kompakt_ and _6OP-DX_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** who are not supported by DX7 SysEx formats:
+Proprietary binary file formats, provided by both _6OP-DX_ and _6OP-DX Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** who are not supported by DX7 SysEx formats:
 
 - **.6opvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 - **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
@@ -63,15 +69,19 @@ Proprietary binary file formats, provided by both _6OP-DX Kompakt_ and _6OP-DX_ 
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-Due to its reduced size (regardling its big brother, the _6OP-DX_ module), the _6OP-DX Kompakt_ module doesn't permit to do sound design on DX7 operators/LFO/pitch envelope/transpose/feedback, so the DX7 voice parameters cannot be edited. However, **MONOPHONIC** state may be toggled on or off, and modulation matrix can be edited, for any voice. Any modulation matrix can be copied/pasted between voices (located in same or in different bank).
+The _6OP-DX_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
 
-Depending your needs, you'll can open single-voice **.6opvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.6opcart** file (this load the file in the currently selected bank, affects all 32 voices of the bank, including "extensions"), full synthesizer **.6opsynth** file (this load the file in all 4 banks, affects all 32 voices in all banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions" in this case, because extented features are not supported by DX7 SysEx formats).
+Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between "pages", "subpages", submenus, and so on. Most DX7 parameters are potentiometers, few of them are momentary buttons to toggle a state (on/off), or to select the LFO waveform.
+
+This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer file(s) you'll need in your project (can be single-voice files, 32-voice cartridge files, or full synthesizer files). When your sound design session is completed (and of course, saved), you'll can replace the huge _6OP-DX_ module by its compact variant, the _6OP-DX Kompakt_, in order to save signifiant space in your rack. Of course, you'll must open appropriate file(s), either **.6opsynth** file (single-voice), **.6opcart** file (32-voice cartridge), or **.6opsynth** file (entire synthesizer), previously made by any _6OP-DX_ module. Please read [6OP-DX Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/6OP-DX/Manual.md) for more details about this thinner module!
+
+Also, you'll can prepare your custom DX7 soundbank or single-voice, then export it as _VMEM_ SysEx (32-voice soundbank) or _VCED_ SysEx (single-voice), in order to import it to real DX7 synthesizer (the DX7 always uses MIDI channel 1 for SysEx transfers, also, MEMORY PROTECT must be disabled prior to import), or to another DX7-compatible software capable to interpret DX7 SysEx files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html).
 
 You'll can consider:
 - 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
 - 6OP-DX Kompakt, for final productions in your racks (mainly to save space in your racks).
 
-:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export them to DX7 SysEx file, otherwise, they're no more signifiant differences between each other!
+:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix (for each voice), save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx files, otherwise, they're no more signifiant differences between both modules!
 
 ---
 
@@ -79,20 +89,20 @@ You'll can consider:
 
 ---
 
-### TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
+### MODULE SPECIFICATIONS<a name="techspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
-- Width: 33HP.
+- Width: 117HP.
 - Synthesis: Phase Modulation (PM), based on sine waveforms only (like the original DX synthesizer).
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
-- 32 algorithms (all come from the real DX7 synthesizer), only for display.
-- 6 operators.
+- 32 algorithms (all come from the real DX7 synthesizer).
+- 6 operators (each can be enabled or disabled).
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
-- Simplified panel to be operational for production.
+- All synthesizer settings are accessible on single panel (no DX7 menus/submenus).
 - Large color OLED **touchscreen** display.
-- Multipurpose continuous encoder (above the left-side of the touchscreen).
+- Two multipurpose continuous encoders (above the left-side of the touchscreen).
 - MONOPHONIC toggle button, with purple LED (above the center of the touchscreen).
 - Two multipurpose momentary buttons (above the right-side of the touchscreen).
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
@@ -101,27 +111,29 @@ You'll can consider:
 - Band-limiting: up to Nyquist frequency (half of sample rate).
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
-- Stereo: none (all outputs are mono).
+- Stereo: none (all outputs are mono, but polyphonic).
 - Polyphonic outputs: yes (up to 16 channels).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented in future release).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from **.6opcart** binary file with extended featurs).
-- Individual voice can be imported from external VCED SysEx file.
-- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice): import only.
+- Voices: 32 per bank, all are fully customizable (can be imported/exported from/to VMEM SysEx file, or loaded/saved from/to .6opdx binary file).
+- Individual voice can be exported/imported to/from VCED SysEx file.
+- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import and as export.
 - Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
-- DX7 SysEx, **.6opvoice**, **.6opcart** and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
+- DX7 SysEx, **.6opvoice**, **.6opcart**, and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
 - Modulation targets: 90 (DX7 parameters exclusively, EG BIAS).
 - Modulation ranges: -100% to +100% (RELative modulation), or 0 to 100% (ABSolute modulation).
-- Modulation can be inverted, and can be temporary disabled.
-- View DX7 parameters for current voice (via 8 pages, by rotating the continuous encoder), access from MENU button.
+- Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
 - Preferences (global preferences, via dedicated page, access from MENU button).
+- Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
+- Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
 - Optional pitch split point and response part (above or below split point), adjustable from "Preferences".
-- Mod key: not supported (feature reserved to _6OP-DX_ module only).
+- Mod key (default is left Control / left Command on MacOS X computers), can be changed from "Preferences".
+- Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
@@ -132,7 +144,7 @@ You'll can consider:
 
 ## DRAFT
 
-The _6OP-DX Kompakt_ module offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
+The 6OP-DX offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
 - **INT** (as internal memory).
 - **CART1** (displayed **C1.**).
 - **CART2** (displayed **C2.**).
@@ -156,7 +168,7 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 ---
 
-:warning: Following DX7 parameters can't be modulated (they can't be selected as "target" from modulation matrix):
+:warning: Following DX7 parameters can't be modulated (they can't be choosen as possible target from modulation matrix editor):
 
 - OP SWITCH (operator on/off toggle).
 - OP MODE (RATIO/FIXED toggle).
@@ -169,3 +181,15 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 - LFO WAVEFORM selector.
 - PITCH EG levels (L1, L2, L3, and L4).
 - OUTPUT LEVEL potentiometer.
+
+---
+
+### MOD. KEY<a name="modkey"></a>
+
+**Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustment (when held). Also, by the same principle, **left Alt** (**left Option** on MacOS X computers) is used to scroll the rack's view, when held!
+
+:information_source_ Mod. key can be changed from **Preferences** screen, but it's not recommended due to potential conflicts vs. VCV Rack 2 features.
+
+- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. This feature isn't applicable for _6OP-DX Kompakt_ module.
+
+- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** page: when a modulation target is hovered by mouse cursor, the box and the modulation target name are displayed using yellow color: by "touching" (left-mouse clicking) the box, this jump to the next operator (same parameter), instead of next DX7 parameter in sequence. It's a way to reduce clicks number over the target "box"!
