@@ -190,6 +190,6 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 :information_source: Mod. key can be changed from **Preferences** screen, but it's not recommended (due to potential conflicts vs. VCV Rack 2 basic features).
 
-- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. This feature isn't applicable for _6OP-DX Kompakt_ module.
+- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. :warning: This feature isn't available for _6OP-DX Kompakt_ module!
 
 - Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** page: when a modulation target is hovered by mouse cursor, the box and the modulation target name are displayed using yellow color: by "touching" (left-mouse clicking) the box, this jump to the next operator (same parameter), instead of next DX7 parameter in sequence. It's a way to reduce clicks number over the target "box"!
