@@ -180,7 +180,7 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 - LFO KEY SYNC toggle.
 - OSC KEY SYNC toggle.
 - LFO WAVEFORM selector.
-- OUTPUT master LEVEL potentiometer.
+- OUTPUT LEVEL potentiometer (master output volume).
 
 ---
 
@@ -190,7 +190,7 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 :information_source: Mod. key can be changed from **Preferences** screen, instead of **Tab** key, the mod. key can be **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key may be the **T** key.
 
-- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the related DX7 parameter as target in first available modulation (if at least one modulation is available), then bring the **Modulation Matrix** screen, automatically. The lastest displayed modulation have its target automatically pre-defined! :warning: **This feature isn't available for _6OP-DX Kompakt_ module**, because this module doesn't have DX7 potentiometers!
+- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the related DX7 parameter as modulation "target" in first available modulation "slot" (if, at least, one modulation is available). Please read [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign) topic below, for details.
 
 - Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, its box and modulated target name are highlighted by yellow color (instead of cyan): by "touching" (left-mouse clicking) the box, this jump to the next operator (COARSE parameter), instead of next DX7 parameter (sequentially). It's a way to reduce number of mouse-clicks over the target "box"!
 
@@ -206,6 +206,6 @@ To quickly assign a DX7 parameter as "target" of modulation:
 - Press the mod. (modifier) key - by default: **Tab** key, and hold it.
 - Touch the potentiometer (left-mouse click).
 
-By doing this action, the **Modulation Matrix** screen is automatically opened. A new modulation slot was added at the bottom of the display, the DX7 parameter you've choosen is defined as target. However, you'll must set the modulation source, the modulation amount (via its fader), the behavior of the modulation (by default ABSOLUTE, can be RELATIVE, or temporary DISABLED), and the inverted checkbox state.
+By doing this action, the module's logic creates a new modulation (except if the limit of modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. The added modulation is at the bottom of display. The choosen DX7 parameter is defined as modulation target. However, you'll must set the modulation source, the amount (via its fader), the behavior (by default ABSOLUTE, can be RELATIVE, or temporary DISABLED), and the **INV.** checkbox state as required.
 
-Please remember all button-based DX7 parameters, **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (any operator), and the **OUTPUT LEVEL** (master) potentiometer, cannot be selected as modulation target.
+:warning: Please remember all button-based DX7 parameters, **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (for all operators), and the **OUTPUT LEVEL** (master) potentiometer, cannot be selected as modulation target.
