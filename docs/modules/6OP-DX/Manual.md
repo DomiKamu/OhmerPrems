@@ -200,10 +200,12 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 :warning: **The following procedure is applicable to _6OP-DX_ module only (_6OP-DX Kompakt_ module doesn't embed DX7 potentiometers!)**
 
+To quickly assign a DX7 parameter as "target" of modulation:
+
 - Place the mouse cursor over the DX7 parameter (potentiometer) you'll want to become as modulated (target).
 - Press the mod. (modifier) key - by default: **Tab** key, and hold it.
 - Touch the potentiometer (left-mouse click).
 
-By doing this action, the **Modulation Matrix** screen is automatically opened. The lastest displayed modulation doesn't have modulation source, is set by default as ABSOLUTE, not inverted, 100% amount, but the DX7 potentiometer you have choosen is the target.
+By doing this action, the **Modulation Matrix** screen is automatically opened. A new modulation slot was added at the bottom of the display, the DX7 parameter you've choosen is defined as target. However, you'll must set the modulation source, the modulation amount (via its fader), the behavior of the modulation (by default ABSOLUTE, can be RELATIVE, or temporary DISABLED), and the inverted checkbox state.
 
-Please remember the button-based DX7 parameters, also **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (any operator), and the **OUTPUT LEVEL** (master) potentiometer can't be selected as modulation target.
+Please remember all button-based DX7 parameters, **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (any operator), and the **OUTPUT LEVEL** (master) potentiometer, cannot be selected as modulation target.
