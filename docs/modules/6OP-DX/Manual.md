@@ -27,6 +27,7 @@ This will be the User's Manual for 6OP-DX module, **117HP** polyphonic 6-operato
 ...behind temporary draft section...
 
 - [**MOD. KEY**](#modkey)
+- [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign)
 
 ---
 
@@ -125,14 +126,15 @@ You'll can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
-- Modulation targets: 90 (DX7 parameters exclusively, plus EG BIAS).
+- Modulation targets: 118 (most DX7 parameters, plus EG BIAS).
 - Modulation ranges: -100% to +100% (applying an offset), or 0 to 100% (absolute modulation, replace the parameter given by its potentiometer).
 - Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
-- Preferences (global preferences, via dedicated screen). Access from MENU button.
+- Global preferences (via dedicated screen). Access from MENU button.
 - Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
-- Optional pitch split point and response part (above or below split point), adjustable from "Preferences".
+- Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
 - Mod key (default is left Control / left Command on MacOS X computers), can be changed from "Preferences".
+- Touchscreen brightness: adjustable from "Preferences" screen.
 - Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
@@ -172,24 +174,36 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 - OP SWITCH (operator on/off toggle).
 - OP MODE (RATIO/FIXED toggle).
-- OP EG levels (L1, L2, L3, and L4).
-- OP BREAKPOINT (displayed "BREAK POINT=" in DX7-emulated LCD/OLED).
+- OP BREAKPOINT potentiometer (displayed "BREAK POINT=" in DX7-emulated LCD/OLED).
 - OP L. CURVE potentiometer.
 - OP R. CURVE potentiometer.
 - LFO KEY SYNC toggle.
 - OSC KEY SYNC toggle.
 - LFO WAVEFORM selector.
-- PITCH EG levels (L1, L2, L3, and L4).
-- OUTPUT LEVEL potentiometer.
+- OUTPUT master LEVEL potentiometer.
 
 ---
 
 ### MOD. KEY<a name="modkey"></a>
 
-**Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustment (when held). Also, by the same principle, **left Alt** (**left Option** on MacOS X computers) is used to scroll the rack's view, when held!
+**Tab** key is the default factory "modifier" (mod) key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustment, when held.
 
-:information_source: Mod. key can be changed from **Preferences** screen, but it's not recommended (due to potential conflicts vs. VCV Rack 2 basic features).
+:information_source: Mod. key can be changed from **Preferences** screen, instead of **Tab** key, the mod. key can be **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key may be the **T** key.
 
-- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the parameter as target in first available modulation (if at least one modulation slot is available), then bring the **Modulation Matrix** screen automatically: the lastest displayed modulation have its target pre-defined. :warning: **This feature isn't available for _6OP-DX Kompakt_ module!**
+- By holding the mod. key, then touching a DX7 parameter (potentiometer), this add the related DX7 parameter as target in first available modulation (if at least one modulation is available), then bring the **Modulation Matrix** screen, automatically. The lastest displayed modulation have its target automatically pre-defined! :warning: **This feature isn't available for _6OP-DX Kompakt_ module**, because this module doesn't have DX7 potentiometers!
 
-- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, the box and the modulation target name are displayed using yellow color: by "touching" (left-mouse clicking) the box, this jump to the next operator (same parameter), instead of next DX7 parameter in sequence. It's a way to reduce clicks number over the target "box"!
+- Either _6OP-DX_ and _6OP-DX Kompakt_ module also can use the mod. key from **Modulation Matrix** screen: when a modulation target is hovered by mouse cursor, its box and modulated target name are highlighted by yellow color (instead of cyan): by "touching" (left-mouse clicking) the box, this jump to the next operator (COARSE parameter), instead of next DX7 parameter (sequentially). It's a way to reduce number of mouse-clicks over the target "box"!
+
+---
+
+### MODULATION MATRIX: FAST TARGET ASSIGNMENT<a name="fastassign"></a>
+
+:warning: The following procedure is applicable to _6OP-DX_ module only (_6OP-DX Kompakt_ module doesn't embed DX7 potentiometers!)
+
+- Place the mouse cursor over the DX7 parameter (potentiometer) you'll want to become as modulated (target).
+- Press and hold the mod. (modifier) key - it's the **Tab** by default, and hold it.
+- Touch the potentiometer (left-mouse click).
+
+The **Modulation Matrix** screen is automatically opened by this action. The lastest displayed modulation doesn't have modulation source, is set as ABSOLUTE, not inverted, 100%, but the DX7 potentiometer is the modulation target (modulated DX7 parameter).
+
+Please remember the button-based DX7 parameters, also **L. CURVE** and **R. CURVE** (any operator), and the **OUTPUT LEVEL** (master) potentiometer can't be assigned as modulation target.
