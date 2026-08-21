@@ -217,8 +217,8 @@ To do a quick assign of DX7 parameter as "target" into a new modulation slot:
 
 By doing this action, the module's logic adds a new modulation "slot" (operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. New modulation is always located at the bottom of the display (the lastest who have a red cross touchable icon). The selected DX7 parameter is defined as modulation target (instead of empty). However, you'll must define the modulation source, the amount (via its fader), the 'behavior' of the modulation (by default, **ABSOLUTE**, but can be **RELATIVE**, or temporary... **DISABLED**), and optionally the **INV.** checkbox state, all as required.
 
-In the event that the mouse cursor leaves the potentiometer, the mod. key is disarmed: by this way, you'll must release the mod. key, then press it again!
+In the event that the mouse cursor leaves the potentiometer, the mod. key is automatically disarmed: by this way, you'll must release the mod. key, then press it again over relevant DX7 potentiometer.
 
-The **fast blinking purple square** doesn't appear if the hovered DX7 potentiometer can't be modulated (can't be modulation target) when you press the mod. key.
+The **fast blinking purple square** doesn't appear if the hovered DX7 potentiometer can't be modulated (can't be modulation target), when you press the mod. key over it.
 
-:warning: Please remember all button-based DX7 parameters, envelopes **LEVEL**s, **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (for all operators), and the **OUTPUT LEVEL** (master) potentiometer, cannot be a modulation target!
+:warning: Please remember all button-based DX7 parameters, any envelopes **LEVEL**, **OP BREAKPOINT**, **OP L. CURVE** and **OP R. CURVE** potentiometers (for any operator), and the **OUTPUT LEVEL** (master) potentiometer, cannot become a modulation target!
