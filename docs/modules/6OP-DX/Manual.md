@@ -189,18 +189,18 @@ The _6OP-DX_ module can use the mod. key in two situations:
 
 ### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
 
-Following DX7 parameters are never accepted as possible modulation target:
+Following DX7 parameters are never proposed as possible modulation target:
 
 - OP SWITCH (operator on/off toggle).
 - OP MODE (RATIO/FIXED toggle).
-- OP EG LEVELs (L1, L2, L3, L4)
-- OP BREAKPOINT potentiometer (displayed "BREAK POINT=" in DX7-emulated LCD/OLED).
+- OP EG LEVELs (L1, L2, L3, L4).
+- OP BREAKPOINT potentiometer (displayed as "BREAK POINT=" on DX7-emulated LCD/OLED display).
 - OP L. CURVE potentiometer.
 - OP R. CURVE potentiometer.
 - LFO KEY SYNC toggle.
 - OSC KEY SYNC toggle.
 - LFO WAVEFORM selector.
-- PITCH EG LEVELs (L1, L2, L3, L4)
+- PITCH EG LEVELs (L1, L2, L3, L4).
 - OUTPUT LEVEL potentiometer (master output volume).
 
 ---
@@ -212,9 +212,11 @@ Following DX7 parameters are never accepted as possible modulation target:
 To do a quick assign of DX7 parameter as "target" into a new modulation slot:
 
 - Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to assign as modulation target.
-- Press & hold the mod. key: a **blinking purple square** surrounding the potentiometer confirms the DX7 parameter is valid.
+- Press & hold the mod. key: a **blinking purple square** surrounding the potentiometer confirms the selected DX7 parameter.
 - Touch the potentiometer (left-mouse button click) to create new modulation, by using it as modulation target.
 
 By doing this action, the module's logic adds a new modulation "slot" (operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. New modulation is always located at the bottom of the display (the lastest who have a red cross touchable icon). The selected DX7 parameter is defined as modulation target (instead of empty). However, you'll must define the modulation source, the amount (via its fader), the 'behavior' of the modulation (by default, **ABSOLUTE**, but can be **RELATIVE**, or temporary... **DISABLED**), and optionally the **INV.** checkbox state, all as required.
 
-:warning: Please remember all button-based DX7 parameters, **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (for all operators), and the **OUTPUT LEVEL** (master) potentiometer, cannot be selected as modulation target!
+In the event that the mouse cursor leaves the potentiometer, the mod. key is disarmed: by this way, you'll must release the mod. key, then press it again!
+
+:warning: Please remember all button-based DX7 parameters, envelopes **LEVEL**s, **BREAKPOINT**, **L. CURVE** and **R. CURVE** potentiometers (for all operators), and the **OUTPUT LEVEL** (master) potentiometer, cannot be a modulation target!
