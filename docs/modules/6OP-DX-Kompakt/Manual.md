@@ -72,9 +72,9 @@ Due to its reduced size (regardling its brother, the _6OP-DX_ module), the _6OP-
 
 Depending your needs, you'll can open single-voice **.6opvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.6opcart** file (this load the file in the currently selected bank, affects all 32 voices of the bank, including "extensions"), full synthesizer **.6opsynth** file (this load the file in all 4 banks, affects all 32 voices in all banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions" in this case, because extented features are not supported by DX7 SysEx formats).
 
-You'll can consider:
-- 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
-- 6OP-DX Kompakt, for final productions in your racks (mainly to save space in your racks).
+You can consider:
+- **6OP-DX** (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
+- **6OP-DX Kompakt** module, as voice synthesizer for final production in your rack (mainly to save space!).
 
 :information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export them to DX7 SysEx file, otherwise, they're no more signifiant differences between each other!
 
