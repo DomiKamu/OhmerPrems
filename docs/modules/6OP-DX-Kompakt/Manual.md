@@ -164,11 +164,11 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 ### MOD. KEY<a name="modkey"></a>
 
-**Mod. key** stands for **modifier key**, but also... as **modulation key**.
+**Mod. key** stands for **modifier key**, but also... considered as **modulation key** shortcut!
 
 Default factory is the **Tab** key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustments, when held, also **Alt** keys (**Option** keys on MacOS X computers) are reserved by VCV Rack 2 core to scroll the view in the rack by moving the mouse cursor, and **left Shift** is used by VCV Rack 2 core to do coarse (high speed rotation) potentiometer adjustments.
 
-:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key may become **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key may be the **T** key.
+:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key would be, as 2nd choice, **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key, as 3rd choice, would be the **T** letter key (unfortunately, **M** - for **M**odulation - is not possible, due to different mappings between localized keyboards).
 
 Either _6OP-DX_ and _6OP-DX Kompakt_ module may accept the mod. key usage from **Modulation Matrix** screen, over **SOURCE** and **TARGET** boxes: when the source or target is hovered by mouse cursor, its box (and parameter name) are highlighted by **yellow** color, instead of cyan: by "touching" (left-mouse click) the box **while holding the mod. key**, this jump to the next _pertinent_ "group" (e.g. for targets: EG BIAS, first operator COARSE, first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, prior to cycle to not set, the EG BIAS again, an so on), instead of browsing all 118 possible DX7 parameters, sequentially, who is a tedious and boring task. So it's not the best way, but it's a better way to reach the desired target (and reduce the required amount of "left-mouse clicks" over the target box!)
 
