@@ -173,11 +173,11 @@ You'll can assume these factory **.6opsynth** files can be a good start point fo
 
 ### MOD. KEY<a name="modkey"></a>
 
-**Mod. key** stands for **modifier key**, but also... as **modulation key**.
+**Mod. key** stands for **modifier key**, but also... considered as **modulation key** shortcut!
 
 Default factory is the **Tab** key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustments, when held, also **Alt** keys (**Option** keys on MacOS X computers) are reserved by VCV Rack 2 core to scroll the view in the rack by moving the mouse cursor, and **left Shift** is used by VCV Rack 2 core to do coarse (high speed rotation) potentiometer adjustments.
 
-:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key may become **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key may be the **T** key.
+:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key would be, as 2nd choice, **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key, as 3rd choice, would be the **T** letter key (unfortunately, **M** - for **M**odulation - is not possible, due to different mappings between localized keyboards).
 
 The _6OP-DX_ module can use the mod. key in two situations:
 
