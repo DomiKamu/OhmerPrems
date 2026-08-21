@@ -167,7 +167,7 @@ All modulation matrices are empty.
 
 You'll can assume these factory **.6opsynth** files can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort.
 
-:warning: **Due to very large amount of saved datas (approx. 28 kbytes for full synthesizer), both 6OP-DX / Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation.
+:warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both 6OP-DX and 6OP-DX Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
 
 ---
 
