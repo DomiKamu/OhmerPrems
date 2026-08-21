@@ -79,9 +79,9 @@ This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer file(s) yo
 
 Also, you'll can prepare your custom DX7 soundbank or single-voice, then export it as _VMEM_ SysEx (32-voice soundbank) or _VCED_ SysEx (single-voice), in order to import it to real DX7 synthesizer (the DX7 always uses MIDI channel 1 for SysEx transfers, also, MEMORY PROTECT must be disabled prior to import), or to another DX7-compatible software capable to interpret DX7 SysEx files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html).
 
-You'll can consider:
-- 6OP-DX (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor.
-- 6OP-DX Kompakt, for final productions in your racks (mainly to save space in your racks).
+You can consider:
+- **6OP-DX** (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
+- **6OP-DX Kompakt** module, as voice synthesizer for final production in your rack (mainly to save space!).
 
 :information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx files, otherwise, they're no more signifiant differences between both modules!
 
