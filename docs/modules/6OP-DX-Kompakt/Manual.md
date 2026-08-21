@@ -176,16 +176,16 @@ Either _6OP-DX_ and _6OP-DX Kompakt_ module may accept the mod. key usage from *
 
 ### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
 
-Following DX7 parameters are never proposed as possible modulation target:
+Following DX7 parameters cannot be possible modulation target:
 
-- OP SWITCH (operator on/off toggle).
-- OP MODE (RATIO/FIXED toggle).
-- OP EG LEVELs (L1, L2, L3, L4).
+- OP SWITCH (operator on/off toggle button).
+- OP MODE (RATIO/FIXED toggle button).
+- OP EG LEVELs (L1, L2, L3, L4) potentiometers.
 - OP BREAKPOINT potentiometer (displayed as "BREAK POINT=" on DX7-emulated LCD/OLED display).
 - OP L. CURVE potentiometer.
 - OP R. CURVE potentiometer.
-- LFO KEY SYNC toggle.
-- OSC KEY SYNC toggle.
-- LFO WAVEFORM selector.
-- PITCH EG LEVELs (L1, L2, L3, L4).
-- OUTPUT LEVEL potentiometer (master output volume).
+- LFO KEY SYNC toggle button.
+- OSC KEY SYNC toggle button.
+- LFO WAVEFORM selector button.
+- PITCH EG LEVELs (L1, L2, L3, L4) potentiometers.
+- OUTPUT LEVEL potentiometer (master volume).
