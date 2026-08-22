@@ -6,8 +6,8 @@ Empty display, all LED always turned off, no extra right click menu, module is l
 
 # 6OP-DX KOMPAKT USER'S MANUAL (UNDER CONSTRUCTION)
 
-_The 6OP-DX Kompakt module, Dark "Signature" model, DX7-emulated (backlit LCD retrofit) display:_
-![](_img/mainV3.png)
+_The 6OP-DX Kompakt module, Aluminium model, DX7-emulated (backlit LCD retrofit option) display:_
+![](_img/mainModule.png)
 
 This will be the User's Manual for _6OP-DX Kompakt_ module, **33HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice. It's the compact form factor of the _6OP-DX_ module.
 
