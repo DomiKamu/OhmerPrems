@@ -93,11 +93,11 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
 - Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules, not only 6OP-DX, I suspect it's a **graphic renderer bug caused by VCV Rack 2 v2.6.6**. So please be sure to set **UI Scale** (from **View** menu) factor to **Auto** (or **100%**) for more reliable graphical rendering (confirmed by three MacBook users)!
-- This synth voice module **doesn't output sound at the moment**, because PM synthesis part is not yet developed. Please consider I have a lot of features to implement first, prior to implement PM synthesis routines, like envelope generators, LFO, matrix modulation, and so on! 
+- This synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is not yet developed. Development of sound processors will start from Monday 24th, August 2026!
 
 6OP-DX is scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
 
-However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" builds)** every day morning in France (UTC+2). When this module is finished and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as daily pre-releases only).
+However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" builds)** every day morning in France (UTC+2). When this module is finished, fine tested, and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-releases ALPHA "Daily" only).
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
@@ -115,7 +115,9 @@ The _6OP-DX Kompakt_ synth voice module is - in development - the "little brothe
 
 6OP-DX Kompakt module is also scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
 
-However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" builds)** every day morning in France (UTC+2). When this module is finished and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-release only), exactly like _6OP-DX_ module (parallel development).
+Like the fatty 117HP _6OP-DX_ module, this synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is not yet developed. Development of sound processors will start from Monday 24th, August 2026 (parallel development vs. _6OP-DX_ module)!
+
+However, during development, I'll publish **Pre-release v2.6.14 ALPHA "Daily" builds**, normally everyday (morning in France / UTC+2). When this module is finished, fine tested, and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-releases ALPHA "Daily" only), exactly like _6OP-DX_ module (parallel development).
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
