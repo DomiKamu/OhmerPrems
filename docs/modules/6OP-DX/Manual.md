@@ -9,7 +9,7 @@ Empty displays, all LED always turned off, no extra right click menu, module is 
 # 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
 
 _The 6OP-DX module, Aluminium model, DX7-emulated genuine LCD display:_
-![](_img/mainV2.png)
+![](_img/mainModule.png)
 
 This will be the User's Manual for 6OP-DX module, **117HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
