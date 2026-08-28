@@ -4,8 +4,9 @@ CHANGELOG
 
 W.I.P. (not yet released) v2.6.14 (from August 1st, 2026)
 
-- Resumed the development around 6OP-DX synthesizer voice module (117HP).
-- Working on its User's Manual.
+- Resumed the development around DeXtral synthesizer voice module (117HP).
+- Parallel development of DeXtral Kompakt (33HP).
+- Working on their User's Manuals.
 - Will be published as pre-release v2.6.14 BETA as soon as synthesizer core is operational.
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -59,7 +60,7 @@ Release v2.6.8 (March 4th, 2026) for VCV Rack 2.
 
 Release v2.6.7 (February 28th, 2026) for VCV Rack 2.
 
-- New license keyfile (V2) for FroeZe, FroeZe-X, FroeZe-SX, QuadPercs, and (future/W.I.P.) 6OP-DX modules.
+- New license keyfile (V2) for FroeZe, FroeZe-X, FroeZe-SX, QuadPercs, and (developed later) FranKe modules.
 - KlokSpid MkII module: removed "Envelope generator" tag (same about KX expander module).
 - KlokSpid MkII module: removed wavetables (not developed, cancelled feature).
 - KlokSpid MkII module: removed "EXP/LOG" / "LOG/EXP" waveforms (not developed, cancelled feature).
