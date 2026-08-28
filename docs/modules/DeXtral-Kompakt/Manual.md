@@ -60,9 +60,9 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 
 Proprietary binary file formats provided by both _DeXtral Kompakt_ and _DeXtral_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
 
-- **.6opvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
-- **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
-- **.6opsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, all modulation matrices, and global preferences.
+- **.dexvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
+- **.dexcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
+- **.dexsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, all modulation matrices, and global preferences.
 
 ---
 
@@ -70,13 +70,13 @@ Proprietary binary file formats provided by both _DeXtral Kompakt_ and _DeXtral_
 
 Due to its reduced size (regardling its brother, the _DeXtral_ module), the _DeXtral Kompakt_ module doesn't permit to do sound design on DX7 operators/LFO/pitch envelope/transpose/feedback parameters, so the DX7 voice parameters cannot be edited. However, **MONOPHONIC** state may be toggled on or off. The modulation matrix (as extended feature) can be edited, for any voice. Any modulation matrix can be copied/pasted between voices (located in same, or in different bank).
 
-Depending your needs, you'll can open single-voice **.6opvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.6opcart** file (this load the file in the currently selected bank, affects all 32 voices of the bank, including "extensions"), full synthesizer **.6opsynth** file (this load the file in all 4 banks, affects all 32 voices in all banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions" in this case, because extented features are not supported by DX7 SysEx formats).
+Depending your needs, you'll can open single-voice **.dexvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.dexcart** file (this load the file in the currently selected bank, affects all 32 voices of the bank, including "extensions"), full synthesizer **.dexsynth** file (this load the file in all 4 banks, affects all 32 voices in all banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions" in this case, because extented features are not supported by DX7 SysEx formats).
 
 You can consider:
 - **DeXtral** (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
 - **DeXtral Kompakt** module, as voice synthesizer for final production in your rack (mainly to save space!).
 
-:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export them to DX7 SysEx file, otherwise, they're no more signifiant differences between each other!
+:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.dexvoice** files, save/load 32-voice cartridge **.dexcart** files, and save/load full synthesizer **.dexsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export them to DX7 SysEx file, otherwise, they're no more signifiant differences between each other!
 
 ---
 
@@ -111,11 +111,11 @@ You can consider:
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented in future release).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from **.6opcart** binary file with extended featurs).
+- Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from **.dexcart** binary file with extended featurs).
 - Individual voice can be imported from external VCED SysEx file.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice): import only.
-- Full DeXtral files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
-- DX7 SysEx, **.6opvoice**, **.6opcart** and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
+- Full DeXtral files support (**.dexsynth** for entire synthesizer, **.dexcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
+- DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
@@ -148,15 +148,15 @@ The _DeXtral Kompakt_ module offers 4 banks, named **INT**, **CART1**, **CART2**
 
 When you bring a fresh DeXtral Kompakt module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
 
-However, you can download (and extract anywhere you'd like) two whole synthesizer binary files with prefilled banks (**.6opsynth** files).
+However, you can download (and extract anywhere you'd like) two whole synthesizer binary files with prefilled banks (**.dexsynth** files).
 
-First **.6opsynth** file is using respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). Selected voice is BASS 1, as INT 1 (internal memory, voice number 1).
+First **.dexsynth** file is using respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). Selected voice is BASS 1, as INT 1 (internal memory, voice number 1).
 
-Second **.6opsynth** file is using respectively **Rom3a** (to **INT**ernal memory), **Rom3b** (to **CART**ridge 1), **Rom4a** (to **CART**ridge 2), and **Rom4b** (to **CART**ridge 3). Selected voice is FLUTE 1 (also as INT 1, the first voice of the bank).
+Second **.dexsynth** file is using respectively **Rom3a** (to **INT**ernal memory), **Rom3b** (to **CART**ridge 1), **Rom4a** (to **CART**ridge 2), and **Rom4b** (to **CART**ridge 3). Selected voice is FLUTE 1 (also as INT 1, the first voice of the bank).
 
 All modulation matrices are empty.
 
-You'll can assume these factory **.6opsynth** files can be a good start point for your projects who are using one or many DeXtral Kompakt synth voice module(s), without effort.
+You'll can assume these factory **.dexsynth** files can be a good start point for your projects who are using one or many DeXtral Kompakt synth voice module(s), without effort.
 
 :warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both DeXtral and DeXtral Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
 
