@@ -9,7 +9,7 @@ Empty displays, all LED always turned off, no extra right click menu, module is 
 # DEXTRAL USER'S MANUAL (UNDER CONSTRUCTION)
 
 _The DeXtral module, Aluminium model, DX7-emulated genuine LCD display:_
-![](_img/mainModule.png)
+![](_img/mainModuleV2.png)
 
 This will be the User's Manual for DeXtral module, **117HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
