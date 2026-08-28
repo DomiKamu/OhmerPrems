@@ -111,12 +111,10 @@ You can consider:
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented in future release).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Voices: 32 per bank (can be imported from VMEM SysEx file, or opened from **.dexcart** binary file with extended featurs).
-- Individual voice can be imported from external VCED SysEx file.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice): import only.
 - Full DeXtral files support (**.dexsynth** for entire synthesizer, **.dexcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
-- DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
-- Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
+- DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files can be imported/loaded by drag and drop (drop the file on the touchscreen).
+- Bank+voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
