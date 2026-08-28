@@ -2,9 +2,9 @@
 
 :warning:
 
-**If any module is looking as "dead" (empty displays, all LED off, no extra menu entry in right click context menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" (grayed) label at the bottom of the context menu**, like following image (example here is the _6OP-DX Kompakt_ module, but it's applicable for all OhmerPrems modules, except _KX_ and _VX_ expanders):
+**If any module is looking as "dead" (empty displays, all LED off, no extra menu entry in right click context menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" (grayed) label at the bottom of the context menu**, like following image (example here is the _DeXtral Kompakt_ module, but it's applicable for all OhmerPrems modules, except _KX_ and _VX_ expanders):
 
-![](docs/modules/6OP-DX-Kompakt/_img/AudioModuleIssue.png)
+![](docs/modules/DeXtral-Kompakt/_img/AudioModuleIssue.png)
 
 It's an old (never fixed) VCV Rack issue, since the beginning! The culprit are - in most situations - VCV **AUDIO** (2-channel audio input/ouput module), VCV **AUDIO8**, or/and VCV **AUDIO16** modules (also clones) in your current rack. When they're badly configured, the DSP core is "stucked" (it doesn't start), and potentially may crash VCV Rack 2 (application, or as plugin from DAW). I encourage you to send an email to support@vcv.com to report/confirm this VCV AUDIO module weird bug. This stucked DSP issue affects **all modules in the rack**, any brand, including... VCV-branded modules themselves.
 
@@ -28,9 +28,9 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 - **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
 
-- **6OP-DX** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module. Its [**User's Manual**](docs/modules/6OP-DX/Manual.md) is under construction, too.
+- **DeXtral** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module. Its [**User's Manual**](docs/modules/DeXtral/Manual.md) is under construction, too.
 
-- **6OP-DX Kompakt** is also a **Work In Progress** (parallel development) compact version of the _6OP-DX_ module, significantly thinner (33HP, instead of 117), but **without way to edit "DX7" synth parameters** (except **MONOPHONIC** state toggle, and fully - editable - modulation matrices). Its [**User's Manual**](docs/modules/6OP-DX-Kompakt/Manual.md) is under construction, too!
+- **DeXtral Kompakt** is also a **Work In Progress** (parallel development) compact version of the _DeXtral_ module, significantly thinner (33HP, instead of 117), but **without way to edit "DX7" synth parameters** (except **MONOPHONIC** state toggle, and fully - editable - modulation matrices). Its [**User's Manual**](docs/modules/DeXtral-Kompakt/Manual.md) is under construction, too!
 
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 
@@ -50,7 +50,7 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. This release is also available from [**VCV Library**](https://library.vcvrack.com/OhmerPrems), for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
 
-**Daily** Pre-release v2.6.14 ALPHA offers **W.I.P./in development** _6OP-DX_ synth voice module, for testing purposes only. **It doesn't output sound  at the moment!**
+**Daily** Pre-release v2.6.14 ALPHA offers **W.I.P./in development** _DeXtral_ & _DeXtral Kompakt_ synth voice modules, for testing purposes only. **It doesn't output sound  at the moment!**
 
 Download & manual install/update from [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14) section.
 
@@ -83,47 +83,47 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV4.gif)
 
-:information_source: _Vektor_ and _VX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (future) 6OP-DX and 6OP-DX Kompakt modules.
+:information_source: _Vektor_ and _VX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (in development) DeXtral and DeXtral Kompakt modules.
 
 ---
 
-## **6OP-DX: Work In Progress - currently in development!**
+## **DeXtral: Work In Progress - currently in development!**
 
-![](docs/modules/6OP-DX/_img/mainModule.png)
+![](docs/modules/DeXtral/_img/mainModule.png)
 
-The _6OP-DX_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
-- Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules, not only 6OP-DX, I suspect it's a **graphic renderer bug caused by VCV Rack 2 v2.6.6**. So please be sure to set **UI Scale** (from **View** menu) factor to **Auto** (or **100%**) for more reliable graphical rendering (confirmed by three MacBook users)!
+The _DeXtral_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
+- Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules (not only DeXtral), I suspect it's a **graphic renderer bug caused by VCV Rack 2 v2.6.6**. So please be sure to set **UI Scale** (from **View** menu) factor to **Auto** (or **100%**) for more reliable graphical rendering (confirmed by three MacBook users)!
 - This synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is not yet developed. Development of sound processors will start from Monday 24th, August 2026!
 
-6OP-DX is scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
+_DeXtral_ module is scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
 
 However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" builds)** every day morning in France (UTC+2). When this module is finished, fine tested, and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-releases ALPHA "Daily" only).
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _6OP-DX_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like 6OP-DX Kompakt, Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
+:information_source: _DeXtral_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like DeXtral Kompakt, Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
 
-[**6OP-DX User's Manual**](docs/modules/6OP-DX/Manual.md) is also under construction (as "draft" status).
+[**DeXtral User's Manual**](docs/modules/DeXtral/Manual.md) is also under construction (as "draft" status).
 
 ---
 
-## **6OP-DX Kompakt: Work In Progress - currently in development!**
+## **DeXtral Kompakt: Work In Progress - currently in development!**
 
-![](docs/modules/6OP-DX-Kompakt/_img/mainModule.png)
+![](docs/modules/DeXtral-Kompakt/_img/mainModule.png)
 
-The _6OP-DX Kompakt_ synth voice module is - in development - the "little brother" of the huge _6OP-DX_ module. _Little_ because it's largely thinner than the 6OP-DX module (33HP, vs. 117HP), but it have near all features proposed by its big brother. Exceptions are the compact module cannot alter DX7 synthesizer parameters, and it doesn't export to DX7 SysEx files. Nothing else!
+The _DeXtral Kompakt_ synth voice module is - in development - the "little brother" of the huge _DeXtral_ module. _Little_ because it's largely thinner than the DeXtral module (33HP, vs. 117HP), but it have near all features proposed by its big brother. Exceptions are the compact module cannot alter DX7 synthesizer parameters, and it doesn't export to DX7 SysEx files. Nothing else!
 
-6OP-DX Kompakt module is also scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
+_DeXtral Kompakt_ module is also scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
 
-Like the fatty 117HP _6OP-DX_ module, this synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is not yet developed. Development of sound processors will start from Monday 24th, August 2026 (parallel development vs. _6OP-DX_ module)!
+Like the fatty 117HP _DeXtral_ module, this synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is not yet developed. Development of sound processors will start from Monday 24th, August 2026 (parallel development vs. _DeXtral_ module)!
 
-However, during development, I'll publish **Pre-release v2.6.14 ALPHA "Daily" builds**, normally everyday (morning in France / UTC+2). When this module is finished, fine tested, and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-releases ALPHA "Daily" only), exactly like _6OP-DX_ module (parallel development).
+However, during development, I'll publish **Pre-release v2.6.14 ALPHA "Daily" builds**, normally everyday (morning in France / UTC+2). When this module is finished, fine tested, and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-releases ALPHA "Daily" only), exactly like _DeXtral_ module (parallel development).
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _6OP-DX Kompakt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like 6OP-DX, Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
+:information_source: _DeXtral Kompakt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like DeXtral, Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
 
-[**6OP-DX Kompakt User's Manual**](docs/modules/6OP-DX-Kompakt/Manual.md) is also under construction (as "draft" status).
+[**DeXtral Kompakt User's Manual**](docs/modules/DeXtral-Kompakt/Manual.md) is also under construction (as "draft" status).
 
 ---
 
@@ -139,7 +139,7 @@ Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII
 
 **KX expander** module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
 
-:information_source: _KlokSpid MkII_ and _KX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) 6OP-DX and 6OP-DX Kompakt modules.
+:information_source: _KlokSpid MkII_ and _KX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) DeXtral and DeXtral Kompakt modules.
 
 ---
 
@@ -286,7 +286,7 @@ KordZ module comes in 6 models (panel themes):
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
 
-:information_source: _KordZ_ module is **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) 6OP-DX and 6OP-DX Kompakt modules.
+:information_source: _KordZ_ module is **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) DeXtral and DeXtral Kompakt modules.
 
 ---
 
@@ -300,7 +300,7 @@ Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), or **QuadPercs**, j
 
 Otherwise, the same grayed menu entry indicates **Free** (or **Free/Trial**), followed by limitation/restriction summary between brackets.
 
-Do not forget **Vektor**, its **VX** expander, **6OP-DX**, **6OP-DX Kompakt**, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license V2 keyfile is installed, or not!
+Do not forget **Vektor**, its **VX** expander, **DeXtral**, **DeXtral Kompakt**, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license V2 keyfile is installed, or not!
 
 ![](docs/modules/QuadPercs/_img/OhmerPrems_Free_upd.png)
 
@@ -336,7 +336,7 @@ Without a personal license (V2) keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _Froe
 
 A personal license keyfile is sent to OhmerPrems members (by email exclusively), including detailled instructions to install it (body of email). The presence of valid license keyfile unlocks (immediately) all concerned modules to **full version**. No need to download/install another package (full and free/trial are using the same binary code).
 
-However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _6OP-DX_ and _6OP-DX Kompakt_, and _KordZ_ modules always work as full version, whatever the license (V2) keyfile is installed, or not, because these modules are free for everyone, without any feature limitation!
+However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _DeXtral_ + _DeXtral Kompakt_, and _KordZ_ modules always work as full version, whatever the license (V2) keyfile is installed, or not, because these modules are free for everyone, without any feature limitation!
 
 All *OhmerPrems* members will benefit all **lifetime** updates/upgrades, but also they benefit all future *OhmerPrems* modules, always as full version, without any additional charge! It's a perpetual license scheme.
 
