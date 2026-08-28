@@ -2,16 +2,16 @@
 
 Empty displays, all LED always turned off, no extra right click menu, module is looking "dead", [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
 
-:warning: **MacBook users:** in case the main panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a 6OP-DX specific graphic issue, this bug occurs on any large module, whatever the module brand!
+:warning: **MacBook users:** in case the main panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a DeXtral specific graphic issue, this bug occurs on any large module, whatever the module brand!
 
 ---
 
-# 6OP-DX USER'S MANUAL (UNDER CONSTRUCTION)
+# DEXTRAL USER'S MANUAL (UNDER CONSTRUCTION)
 
-_The 6OP-DX module, Aluminium model, DX7-emulated genuine LCD display:_
+_The DeXtral module, Aluminium model, DX7-emulated genuine LCD display:_
 ![](_img/mainModule.png)
 
-This will be the User's Manual for 6OP-DX module, **117HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
+This will be the User's Manual for DeXtral module, **117HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
@@ -47,7 +47,7 @@ In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase 
 
 The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
-The _6OP-DX_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+The _DeXtral_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
@@ -61,7 +61,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 
-Proprietary binary file formats provided by both _6OP-DX_ and _6OP-DX Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
+Proprietary binary file formats provided by both _DeXtral_ and _DeXtral Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
 
 - **.6opvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 - **.6opcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
@@ -71,23 +71,23 @@ Proprietary binary file formats provided by both _6OP-DX_ and _6OP-DX Kompakt_ m
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-The _6OP-DX_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
+The _DeXtral_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
 
 Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between ton of menus/submenus... Most DX7 parameters are potentiometers (few of them are momentary buttons to toggle a state (on/off), one to select the LFO waveform).
 
-This _6OP-DX_ module is mainly useful to prepare your DX7 synthesizer file(s) you'll need in your project (can be single-voice files, 32-voice cartridge files, or full synthesizer files). When your sound design session is completed (and of course, saved), you'll can replace the huge _6OP-DX_ module by its compact variant, the _6OP-DX Kompakt_, in order to save signifiant space in your rack. Of course, you'll must open appropriate file(s), either **.6opsynth** file (single-voice), **.6opcart** file (32-voice cartridge), or **.6opsynth** file (entire synthesizer), previously made by any _6OP-DX_ module. Please read [6OP-DX Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/6OP-DX/Manual.md) for more details about this thinner module!
+This _DeXtral_ module is mainly useful to prepare your DX7 synthesizer file(s) you'll need in your project (can be single-voice files, 32-voice cartridge files, or full synthesizer files). When your sound design session is completed (and of course, saved), you'll can replace the huge _DeXtral_ module by its compact variant, the _DeXtral Kompakt_, in order to save signifiant space in your rack. Of course, you'll must open appropriate file(s), either **.6opsynth** file (single-voice), **.6opcart** file (32-voice cartridge), or **.6opsynth** file (entire synthesizer), previously made by any _DeXtral_ module. Please read [DeXtral Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/DeXtral-Kompakt/Manual.md) for more details about this thinner module!
 
 Also, you'll can prepare your custom DX7 soundbank or single-voice, then export it as _VMEM_ SysEx (32-voice soundbank) or _VCED_ SysEx (single-voice), in order to import it to real DX7 synthesizer (the DX7 always uses MIDI channel 1 for SysEx transfers, also, MEMORY PROTECT must be disabled prior to import), or to another DX7-compatible software capable to interpret DX7 SysEx files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html).
 
 You can consider:
-- **6OP-DX** (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
-- **6OP-DX Kompakt** module, as voice synthesizer for final production in your rack (mainly to save space!).
+- **DeXtral** (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
+- **DeXtral Kompakt** module, as voice synthesizer for final production in your rack (mainly to save space!).
 
-:information_source: Both _6OP-DX_ and _6OP-DX Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _6OP-DX Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx files, otherwise, they're no more signifiant differences between both modules!
+:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.6opvoice** files, save/load 32-voice cartridge **.6opcart** files, and save/load full synthesizer **.6opsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx files, otherwise, they're no more signifiant differences between both modules!
 
 ---
 
-:information_source: Do not forget both _6OP-DX_ and _6OP-DX Kompakt_ modules are **free for everyone** (license V2 keyfile isn't required).
+:information_source: Do not forget both _DeXtral_ and _DeXtral Kompakt_ modules are **free for everyone** (license V2 keyfile isn't required).
 
 ---
 
@@ -121,7 +121,7 @@ You can consider:
 - Voices: 32 per bank, all are fully customizable (can be imported/exported from/to VMEM SysEx file, or loaded/saved from/to .6opdx binary file).
 - Individual voice can be exported/imported to/from VCED SysEx file.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import and as export.
-- Full 6OP-DX files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
+- Full DeXtral files support (**.6opsynth** for entire synthesizer, **.6opcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
 - DX7 SysEx, **.6opvoice**, **.6opcart**, and **.6opsynth** files also can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank/voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
@@ -147,7 +147,7 @@ You can consider:
 
 ## DRAFT
 
-The 6OP-DX offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
+The DeXtral module can host 4 banks at the same time, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
 - **INT** (as internal memory).
 - **CART1** (displayed **C1.**).
 - **CART2** (displayed **C2.**).
@@ -155,7 +155,7 @@ The 6OP-DX offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. E
 
 ---
 
-When you bring a fresh 6OP-DX module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
+When you bring a fresh DeXtral module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
 
 However, you can download (and extract anywhere you'd like) two whole synthesizer binary files with prefilled banks (**.6opsynth** files).
 
@@ -165,9 +165,9 @@ Second **.6opsynth** file is using respectively **Rom3a** (to **INT**ernal memor
 
 All modulation matrices are empty.
 
-You'll can assume these factory **.6opsynth** files can be a good start point for your projects who are using one or many 6OP-DX synth voice module(s), without effort.
+You'll can assume these factory **.6opsynth** files can be a good start point for your projects who are using one or many DeXtral synth voice module(s), without effort.
 
-:warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both 6OP-DX and 6OP-DX Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
+:warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both DeXtral and DeXtral Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
 
 ---
 
@@ -179,13 +179,13 @@ Default factory is the **Tab** key, because **left Control** (**left Command** o
 
 :information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key would be, as 2nd choice, **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key, as 3rd choice, would be the **T** letter key (unfortunately, **M** - for **M**odulation - is not possible, due to different mappings between localized keyboards).
 
-The _6OP-DX_ module can use the mod. key in three situations:
+The _DeXtral_ module can use the mod. key in three situations:
 
 - By hovering a supported DX7 parameter (potentiometer), then by pressing/hold the mod. key, then touching the potentiometer, this add the related DX7 parameter as modulation "target" in first available modulation "slot" (if, at least, one modulation is available). Please read [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign) topic for more details...
 
-- Either _6OP-DX_ and _6OP-DX Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen, over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, its box (and parameter name inside) are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who is a tedious task. It's not the best way, but a better way to reach the desired target more quickly (and reduce the required amount of left-mouse button clicks over the target box!)
+- Either _DeXtral_ and _DeXtral Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen, over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, its box (and parameter name inside) are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who is a tedious task. It's not the best way, but a better way to reach the desired target more quickly (and reduce the required amount of left-mouse button clicks over the target box!)
 
-- Either _6OP-DX_ and _6OP-DX Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen (as touchscreen), over the **min./max. ranges fader** (when hovered by mouse cursor, the fader group is highlighted as **yellow** color, instead of cyan when the focus is lost): **while the mod. key (or left Ctrl / left Command) is held**, this will force the module's logic to edit the **min.** value, instead of the nearest (regardling mouse cursor position vs. mix. and max. settings), or the max. value in case of doubt!
+- Either _DeXtral_ and _DeXtral Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen (as touchscreen), over the **min./max. ranges fader** (when hovered by mouse cursor, the fader group is highlighted as **yellow** color, instead of cyan when the focus is lost): **while the mod. key (or left Ctrl / left Command) is held**, this will force the module's logic to edit the **min.** value, instead of the nearest (regardling mouse cursor position vs. mix. and max. settings), or the max. value in case of doubt!
 
 ---
 
@@ -209,7 +209,7 @@ Following DX7 parameters cannot be possible modulation target:
 
 ### MODULATION MATRIX: FAST TARGET ASSIGNMENT<a name="fastassign"></a>
 
-:warning: **The following procedure is applicable to _6OP-DX_ module only (_6OP-DX Kompakt_ module doesn't embed DX7 potentiometers!)**
+:warning: **The following procedure is applicable to _DeXtral_ module only (_DeXtral Kompakt_ module doesn't embed DX7 potentiometers!)**
 
 To do a quick assign of DX7 parameter as "target" into a new modulation slot:
 
