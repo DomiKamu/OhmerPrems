@@ -89,7 +89,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ## **DeXtral: Work In Progress - currently in development!**
 
-![](docs/modules/DeXtral/_img/mainModule.png)
+![](docs/modules/DeXtral/_img/mainModuleV2.png)
 
 The _DeXtral_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
 - Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules (not only DeXtral), I suspect it's a **graphic renderer bug caused by VCV Rack 2 v2.6.6**. So please be sure to set **UI Scale** (from **View** menu) factor to **Auto** (or **100%**) for more reliable graphical rendering (confirmed by three MacBook users)!
