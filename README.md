@@ -2,15 +2,15 @@
 
 :warning:
 
-**If any module is looking as "dead" (empty displays, all LED off, no extra menu entry in right click context menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" (grayed) label at the bottom of the context menu**, like following image (example here is the _DeXtral Kompakt_ module, but it's applicable for all OhmerPrems modules, except _KX_ and _VX_ expanders):
+**If any module is looking as "dead" (empty displays, all LED always off, no extra menu entry in right click context menu, and so on), please check the configuration of VCV AUDIOx module(s) in your rack. Except _KX_ and _VX_ expanders, by doing a right mouse click on the module, it's confirmed by "PLEASE CHECK AUDIOx MODULE(S)!" (grayed) label at the bottom of the context menu**, like following image (example here is the _DeXtral Kompakt_ module, but it's applicable for any OhmerPrems modules (except _KX_ and _VX_ expanders - who don't use right click context menu):
 
 ![](docs/modules/DeXtral-Kompakt/_img/AudioModuleIssueV2.png)
 
-It's an old (never fixed) VCV Rack issue, since the beginning! The culprit are - in most situations - VCV **AUDIO** (2-channel audio input/ouput module), VCV **AUDIO8**, or/and VCV **AUDIO16** modules (also clones) in your current rack. When they're badly configured, the DSP core is "stucked" (it doesn't start), and potentially may crash VCV Rack 2 (application, or as plugin from DAW). I encourage you to send an email to support@vcv.com to report/confirm this VCV AUDIO module weird bug. This stucked DSP issue affects **all modules in the rack**, any brand, including... VCV-branded modules themselves.
+It's an old (never fixed) VCV Rack issue, since the beginning! The culprit are - in most situations - VCV **AUDIO** (2-channel audio input/ouput module), VCV **AUDIO8**, or/and VCV **AUDIO16** modules installed in your current rack. When they're badly configured, the DSP core is "stucked" (it doesn't start), and potentially may crash VCV Rack 2 (application, or as plugin from DAW). I encourage you to send an email to support@vcv.com to report/confirm this bug. This "stucked DSP" issue affects **all modules in the rack**, any brand, including VCV-branded modules themselves.
 
-This may occur when you open multiple applications who are using same audio interface (sharing the same audio driver **AND** the same audio interface, in particular ASIO). Also, this problem is common when you open a third-party patch (patch made by another user), like downloaded from any website (PatchStorage, VCV Community forum, YouTube), if the AUDIO module settings don't match your hardware.
+This may occur when you open multiple applications who are using same audio interface (sharing the same audio driver **AND** the same audio interface/device, in particular ASIO on Windows platforms). Also, this problem is common when you open a third-party patch (patch made by another user), like downloaded from any website (PatchStorage, VCV Community forum, YouTube), if the AUDIO module settings don't match your audio interface.
 
-Also, in case of your current rack doesn't embed any VCV AUDIO module (or present but not configured), **major timing issues** can be noticed, in particular by erratic "blinking" items, such displayed messages or blinking LED.
+Also, in case of your current rack doesn't embed any VCV AUDIO module (or present, but not configured), **major timing issues** can be noticed, in particular by erratic "blinking" items, such displayed messages, lights/LED...
 
 ---
 
