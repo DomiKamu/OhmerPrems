@@ -6,8 +6,8 @@ Empty display, all LED always turned off, no extra right click menu, module is l
 
 # DEXTRAL KOMPAKT USER'S MANUAL (UNDER CONSTRUCTION)
 
-_The DeXtral Kompakt module, Aluminium model, DX7-emulated (backlit LCD retrofit option) display:_
-![](_img/mainModuleV2.png)
+_The DeXtral Kompakt module, Absolute Night model, DX7-emulated (backlit LCD retrofit) display:_
+![](_img/mainModule.png)
 
 This will be the User's Manual for _DeXtral Kompakt_ module, **33HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice. It's the compact form factor of the _DeXtral_ module.
 
@@ -80,7 +80,7 @@ You can consider:
 
 ---
 
-:information_source: Do not forget both _DeXtral_ and _DeXtral Kompakt_ modules are **free for everyone** (license V2 keyfile isn't required).
+:information_source: _DeXtral Kompakt_ module is **free for everyone** (license V2 keyfile isn't required).
 
 ---
 
