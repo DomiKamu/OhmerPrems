@@ -83,7 +83,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ![](docs/modules/Vektor/_img/AnimVektorModelsV4.gif)
 
-:information_source: _Vektor_ and _VX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (in development) DeXtral and DeXtral Kompakt modules.
+:information_source: _Vektor_ and _VX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like KlokSpid MkII/KX, KordZ, and (in development) DeXtral Kompakt modules.
 
 ---
 
@@ -119,7 +119,7 @@ However, during development, I'll publish **Pre-release v2.6.14 ALPHA "Daily" bu
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _DeXtral Kompakt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
+:information_source: _DeXtral Kompakt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, KordZ, and future DeXtral Kompakt modules).
 
 [**DeXtral Kompakt User's Manual**](docs/modules/DeXtral-Kompakt/Manual.md) is also under construction (as "draft" status).
 
@@ -137,7 +137,7 @@ Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII
 
 **KX expander** module inherits KlokSpid MkII model as soon as it placed along (left-side, without space) KlokSpid MkII module.
 
-:information_source: _KlokSpid MkII_ and _KX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) DeXtral and DeXtral Kompakt modules.
+:information_source: _KlokSpid MkII_ and _KX_ modules are **free for everyone**, meaning they work as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KordZ, and (future) DeXtral Kompakt modules.
 
 ---
 
