@@ -101,8 +101,6 @@ However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" b
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _DeXtral_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like DeXtral Kompakt, Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
-
 [**DeXtral User's Manual**](docs/modules/DeXtral/Manual.md) is also under construction (as "draft" status).
 
 ---
@@ -121,7 +119,7 @@ However, during development, I'll publish **Pre-release v2.6.14 ALPHA "Daily" bu
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _DeXtral Kompakt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like DeXtral, Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
+:information_source: _DeXtral Kompakt_ module will be **free for everyone**, meaning it will operate as full version (whatever you're owner of a license V2 keyfile, or not, exactly like Vektor & VX, KlokSpid MkII & KX, and KordZ modules).
 
 [**DeXtral Kompakt User's Manual**](docs/modules/DeXtral-Kompakt/Manual.md) is also under construction (as "draft" status).
 
@@ -145,7 +143,7 @@ Following animation is showing **all 8 models** (panel themes) of _KlokSpid MkII
 
 ## **FroeZe (and FroeZe-X / FroeZe-SX expanders)**
 
-:warning: **No sound (by Audio Engine) is meaning you don't have a license (V2) keyfile (the module is running as "Free/Trial", instead of as full version). Free/Trial version is limited to edit fourth first tracks (BD, SD, CH, and OH), and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 drum machines are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) may have more feature limitations (indicated in the Quick Guide).
+:warning: **No sound (by Audio Engine) is meaning you don't have a license V2 keyfile (the module is running as "Free/Trial", instead of as full version). Free/Trial version is limited to edit fourth first tracks (BD, SD, CH, and OH), and/or only Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808 drum machines are allowed (all other drum machines are muted).** Also, without license V2 keyfile, FroeZe module (and expanders) may have more feature limitations (indicated in the Quick Guide).
 
 [Please click here to read FroeZe/FroeZe-X/FroeZe-SX specifications & **Quick Guide**](docs/modules/FroeZe/Manual.md)
 
@@ -214,7 +212,7 @@ FroeZe (and FroeZe-X / FroeZe-SX expanders) comes in 6 models (panel themes):
 
 ## **QuadPercs**
 
-:warning: **No sound for particular drum machine + drum kit is meaning you don't have a license (V2) keyfile (while the module is running as "Free", instead of "Full"). Free version is limited to only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 (all other drum machines are muted, it's normal)**.
+:warning: **No sound for particular drum machine + drum kit is meaning you don't have a license V2 keyfile (while the module is running as "Free", instead of "Full"). Free version is limited to only Oberheim DMX, Drumulator, LinnDrum, Roland 707 and Roland 808 (all other drum machines are muted, it's normal)**.
 
 However, you are able to _preview_ ANY sound, but by **disconnecting trigger input cable first** on related channel. While the cable is disconnected, you can preview selected drum kit sound when you select another drum kit or another drum machine. It's a good way, for non-OhmerPrems members who are using QuadPercs as "Free/Trial", to have a chance to listen all drum machines/drum kits sounds, at any engine's samplerate inside 44.1kHz to 192kHz range. When the channel input is patched, the preview feature is disabled for related channel.
 
@@ -286,21 +284,21 @@ KordZ module comes in 6 models (panel themes):
 - _Deepblue "Signature"_
 - _Titanium "Signature"_
 
-:information_source: _KordZ_ module is **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) DeXtral and DeXtral Kompakt modules.
+:information_source: _KordZ_ module is **free for everyone**, meaning it works as full version, whatever you're owner of a license V2 keyfile, or not, like Vektor/VX, KlokSpid MkII/KX, and (future) DeXtral Kompakt modules.
 
 ---
 
-"***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, some modules work as free/trial version (with limitations, depending the module), for evaluation purposes. Except "free modules for everyone", other modules require a personal (paid-once) license keyfile to work as full unlimited. The license key is sent by email exclusively to OhmerPrems member, after PayPal payment confirmation.
+"***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, some modules work as free/trial version (with limitations, depending the module), for evaluation purposes. Except "free for everyone" modules, other modules require a personal (paid-once) license V2 keyfile to work as full unlimited. The license keyfile is delivered by email exclusively after PayPal payment confirmation.
 
 ---
 
 ## HOW TO CHECK YOUR PERSONAL LICENSE KEYFILE INSTALLATION?
 
-Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), or **QuadPercs**, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (before "stars") must be **six digits**, then **four digits as trailing** after the stars - that meaning your license keyfile is valid for all OhmerPrems modules.
+Over **DeXtral**, **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), or **QuadPercs**, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (before "stars") must be **six digits**, then **four digits as trailing** after the stars - that meaning your license keyfile is valid for all OhmerPrems modules. All are explained in the email body when you receive your personal license V2 keyfile!
 
 Otherwise, the same grayed menu entry indicates **Free** (or **Free/Trial**), followed by limitation/restriction summary between brackets.
 
-Do not forget **Vektor**, its **VX** expander, **DeXtral**, **DeXtral Kompakt**, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license V2 keyfile is installed, or not!
+Other modules such **Vektor**, its **VX** expander, **DeXtral Kompakt**, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license V2 keyfile is installed, or not!
 
 ![](docs/modules/QuadPercs/_img/OhmerPrems_Free_upd.png)
 
@@ -321,14 +319,14 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 ## Free version (trial)<a name="freevsfull"></a>
 
-Unlike via VCV Store where you'll must to buy without the ability to test it first, free/trial *OhmerPrems* plugin is always available for everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) section from this GitHub repository (designed for **manual** installation/update, by download + copy the **.vcvplugin** package file).
+Unlike via VCV Store where you'll must to buy without the ability to test it first (except if I'm wrong somewhere), free/trial *OhmerPrems* plugin is always available for everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) section from this GitHub repository (designed for **manual** installation/update, by download + copy the **.vcvplugin** package file).
 
 Also, lastest stable plugin release is always available from VCV Library, for assisted installation and updates. From VCV Library, you'll can subscribe for the whole OhmerPrems plugin, or per favorite module(s):
 
 - [Whole OhmerPrems plugin](https://library.vcvrack.com/OhmerPrems)
 - [Per module (all Ohmer and OhmerPrems are listed)](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=)
 
-Without a personal license (V2) keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _FroeZe-SX_, and _QuadPercs_ modules run as "Free/Trial", with some features limitations.
+Without a valid personal license V2 keyfile, _DeXtral_, _FranKe_, _FroeZe_ / _FroeZe-X_ / _FroeZe-SX_, and _QuadPercs_ modules run as "Free/Trial", with some feature limitations/restrictions.
 
 ---
 
@@ -336,7 +334,7 @@ Without a personal license (V2) keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _Froe
 
 A personal license keyfile is sent to OhmerPrems members (by email exclusively), including detailled instructions to install it (body of email). The presence of valid license keyfile unlocks (immediately) all concerned modules to **full version**. No need to download/install another package (full and free/trial are using the same binary code).
 
-However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _DeXtral_ + _DeXtral Kompakt_, and _KordZ_ modules always work as full version, whatever the license (V2) keyfile is installed, or not, because these modules are free for everyone, without any feature limitation!
+However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _DeXtral Kompakt_, and _KordZ_ modules always work as full version, whatever the license V2 keyfile is installed or not, because these modules are free for everyone, without any feature limitation!
 
 All *OhmerPrems* members will benefit all **lifetime** updates/upgrades, but also they benefit all future *OhmerPrems* modules, always as full version, without any additional charge! It's a perpetual license scheme.
 
@@ -363,9 +361,9 @@ Thanks for your understanding!
 
 All ***OhmerPrems*** modules (even free) remain under **proprietary license**.
 
-License (V2) keyfile for full version is granted for each OhmerPrems member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license keyfile can be used on ALL personal computers). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
+License V2 keyfile for full version of listed modules is granted for each OhmerPrems member, and of course, **cannot be shared, sold or distributed** to any third party (obviously, the license V2 keyfile can be used on ALL personal computers you're owning). Please read "LICENSE-FULL.txt" enclosed in your downloaded package for licensing conditions.
 
-All graphic materials, the "Ohmer" logo and related resources cannot be altered and/or used for derivative works and remains the proprietary of Dominique Camus (Ohmer Modules & OhmerPrems developer).
+All graphic materials, the "Ohmer" logo and related resources cannot be altered and/or used for derivative works and remains the proprietary of Dominique Camus, Ohmer Modules & OhmerPrems developer.
 
 All SVG graphics named **XB_*.svg** are designed by **Xavier Belmont** (ask him the permission if you'll want to use them in your developments). Thanks a lot, Xavier!
 
@@ -375,4 +373,4 @@ Thanks to **Paul Bacon** (author of excellent Bacon Music plugin, and working ha
 
 Big big big thanks to beta testers!
 
-Feature requests, suggestions, and bug reports are welcome on this GitHub repository (or via VCV Rack Community forum).
+Feature requests, suggestions, and bug reports are welcome on OhmerPrems GitHub repository (open an issue), or via VCV Rack Community forum.
