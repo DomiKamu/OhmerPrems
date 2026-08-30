@@ -146,10 +146,10 @@ You can consider:
 
 Without a valid license V2 keyfile, the _DeXtral_ module have following limitations/restrictions:
 
-- Sound desing sessions are saved along VCV Rack patch (.vcv) files, but not recalled (module returns to INIT).
-- Save and SysEx export are locked (grayed) from right click context menu.
+- Sound desing sessions are saved along VCV Rack patch (.vcv) files, but not recalled (module always returns to "INIT").
+- Save and SysEx export features are locked (grayed) from right click (context) menu.
 
-:information_source: As soon as you'll install your (valid) license V2 keyfile, your saved stuffs are recalled, and save/export features are enabled.
+:information_source: As soon as you'll install your (valid) license V2 keyfile, your saved stuffs can be restored, and save/export features can be used.
 
 ---
 ---
