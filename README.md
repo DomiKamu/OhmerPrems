@@ -315,7 +315,11 @@ Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), or **QuadPercs**, j
 
 Otherwise, the same grayed menu entry indicates **Free/Trial**, followed by limitation/restriction summary between brackets.
 
-![](docs/modules/QuadPercs/_img/OhmerPrems_Free_QPCS.png)
+![](docs/modules/QuadPercs/_img/OhmerPrems_Free.png)
+
+If your personal license V2 keyfile is correctly installed, the partial key of the license is displayed, instead:
+
+![](docs/modules/QuadPercs/_img/OhmerPrems_License.png)
 
 From **FranKe** module, the process is different: press the SETUP button (identified by a printed "gear" on the panel): the license status is visible on track 8 display. Press the same button (identified by a printed "exit" on the panel) to exit SETUP and return to production.
 
