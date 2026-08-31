@@ -23,7 +23,6 @@ This will be the User's Manual for DeXtral module, **117HP** polyphonic 6-operat
 - [**TERMINOLOGY**](#terminology)
 - [**INTRODUCTION & FIRST WORDS**](#intro)
 - [**MODULE SPECIFICATIONS**](#techspecs)
-- [**FREE/TRIAL LIMITATIONS**](#freetrial)
 
 ...below temporary draft section...
 
@@ -88,7 +87,7 @@ You can consider:
 
 ---
 
-:warning: _DeXtral_ module requires a valid license V2 keyfile in order to remove free/trial limitations.
+:information_source: _DeXtral Kompakt_ module is **free for everyone** (license V2 keyfile isn't required).
 
 ---
 
@@ -139,17 +138,6 @@ You can consider:
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
-
----
-
-### FREE/TRIAL LIMITATIONS<a name="freetrial"></a>
-
-Without a valid license V2 keyfile, the _DeXtral_ module have following limitations/restrictions:
-
-- Sound desing sessions are saved along VCV Rack patch (.vcv) files, but not recalled (module always returns to "INIT").
-- Save and SysEx export features are locked (grayed) from right click (context) menu.
-
-:information_source: As soon as you'll install your (valid) license V2 keyfile, your saved stuffs can be restored, and save/export features can be used.
 
 ---
 ---
