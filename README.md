@@ -352,7 +352,9 @@ To become *OhmerPrems* member, simply send **15 euros** via PayPal.Me. If requir
 
 :warning: as often asked in private message, **you'll cannot buy a license keyfile directly via the VCV Store**.
 
-## Summer 2026: please consider the 15 euros fee remains very fair! this fee will not change during 2026, however.
+---
+
+## Summer 2026: please consider 15 euros fee remains very fair! this fee will not change during 2026.
 
 **Very important: do not forget to indicate:**
 - your first and last name (personal name only, **company name and "nickname" aren't accepted**).
