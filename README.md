@@ -16,9 +16,9 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 ## **WHAT IS OHMERPREMS?**
 
-*OhmerPrems* is a commercial plugin, based on shareware concept, designed for VCV Rack 2. The plugin embeds both **Premium** modules (**full version** modules for customers who have a valid license V2 keyfile, or as "Trial" with limited features, otherwise), and also some free modules for everyone (license V2 keyfile is not required to run them as full version for these modules). Source code is not published (closed proprietary source code).
+*OhmerPrems* is a commercial plugin, based on shareware concept, designed for VCV Rack 2. The plugin embeds both **Premium** modules (**full version** modules for customers who have a valid license V2 keyfile, or as **Free/Trial** with limited features, otherwise). Also, some modules are free for everyone (license V2 keyfile is not required to operate them as full version). Source code is not published (closed proprietary source code).
 
-:warning: Please check both **Free version** and **Full version** topics, by following [this link](#freevsfull) (near bottom of this page).
+:warning: Please check both **Free/Trial version** and **Full version** topics, by following [this link](#freevsfull) (near bottom of this page).
 
 *OhmerPrems* plugin is a set of 7 modules (5 are fully operational), plus 5 as _expander_ modules:
 
@@ -290,7 +290,7 @@ KordZ module comes in 6 models (panel themes):
 
 ---
 
-"***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, some modules work as free/trial version (with limitations, depending the module), for evaluation purposes. Except "free for everyone" modules, other modules require a personal (paid-once) license V2 keyfile to work as full unlimited. The license V2 keyfile is delivered by email exclusively after PayPal payment confirmation.
+"***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, some modules operate as "free/trial" (with limitations, depending the module), for evaluation purposes. Except "free for everyone" modules, other modules require a personal (paid-once) license V2 keyfile to operate as full unlimited. The license V2 keyfile is delivered by email exclusively after PayPal payment confirmation.
 
 ---
 
@@ -321,16 +321,16 @@ Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Rol
 
 ---
 
-## Free version (trial)<a name="freevsfull"></a>
+## Free/Trial version<a name="freevsfull"></a>
 
 Unlike via VCV Store where you'll must to buy without the ability to test it first (except if I'm wrong somewhere), free/trial *OhmerPrems* plugin is always available for everyone, for Windows, MacOS X (Intel & ARM), and Linux platforms, and can be downloaded directly from ["Releases"](https://github.com/DomiKamu/OhmerPrems/releases) section from this GitHub repository (designed for **manual** installation/update, by download + copy the **.vcvplugin** package file).
 
-Also, lastest stable plugin release is always available from VCV Library, for assisted installation and updates. From VCV Library, you'll can subscribe for the whole OhmerPrems plugin, or per favorite module(s):
+Also, lastest stable plugin release is always available from VCV Library, for assisted installation or updates. From VCV Library, you'll can subscribe for the whole OhmerPrems plugin, or per favorite module(s):
 
 - [Whole OhmerPrems plugin](https://library.vcvrack.com/OhmerPrems)
 - [Per module (all Ohmer and OhmerPrems are listed)](https://library.vcvrack.com/?query=&brand=Ohmer+Modules&tag=&license=)
 
-Without a valid personal license V2 keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _FroeZe-SX_, and _QuadPercs_ modules run as "Trial", with some feature limitations.
+Without a valid personal license V2 keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _FroeZe-SX_, and _QuadPercs_ modules run as "Free/Trial", with some feature limitations.
 
 ---
 
@@ -338,7 +338,7 @@ Without a valid personal license V2 keyfile, _FranKe_, _FroeZe_ / _FroeZe-X_ / _
 
 A personal license keyfile is sent to OhmerPrems members (by email exclusively), including detailled instructions to install it (body of email). The presence of valid license keyfile unlocks (immediately) all concerned modules to **full version**. No need to download/install another package (full and free/trial are using the same binary code).
 
-However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its expander, _KX_), future _DeXtral_ / _DeXtral Kompakt_, and _KordZ_ modules always operate as full version, whatever the license V2 keyfile is installed or not, because these modules are free for everyone, without any feature limitation!
+However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ and its _KX_ expander), future _DeXtral_ / _DeXtral Kompakt_, and _KordZ_ modules always operate as full version, whatever the license V2 keyfile is installed or not, because these modules are free for everyone, without any feature limitation!
 
 All *OhmerPrems* members will benefit all **lifetime** updates/upgrades, but also they benefit all future *OhmerPrems* modules, always as full version, without any additional charge! It's a perpetual license scheme.
 
