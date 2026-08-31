@@ -317,9 +317,9 @@ Otherwise, the same grayed menu entry indicates **Free/Trial**, followed by limi
 
 ![](docs/modules/QuadPercs/_img/OhmerPrems_Free_QPCS.png)
 
-From **FranKe** module, press the SETUP button (identified by a printed gear on panel): the license status is displayed on track 8. Press the same button to exit SETUP.
+From **FranKe** module, the process is different: press the SETUP button (identified by a printed "gear" on the panel): the license status is visible on track 8 display. Press the same button (identified by a printed "exit" on the panel) to exit SETUP and return to production.
 
-Other modules such **DeXtral**, **DeXtral Kompakt**, **Vektor**, its **VX** expander, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **Licensed (full version for everyone)**, whatever a valid license V2 keyfile is installed, or not!
+Other modules such **DeXtral**, **DeXtral Kompakt**, **Vektor**, its **VX** expander, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **Licensed (full version for everyone)**, whatever a valid license V2 keyfile is installed, or not. These modules always operate as full without any restriction.
 
 ---
 
