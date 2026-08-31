@@ -304,7 +304,7 @@ From **FranKe** module, press the SETUP button (identified by a gear): the licen
 
 Other modules such **Vektor**, its **VX** expander, **DeXtral**, **DeXtral Kompakt**, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license V2 keyfile is installed or not!
 
-![](docs/modules/QuadPercs/_img/OhmerPrems_Free_upd.png)
+![](docs/modules/QuadPercs/_img/OhmerPrems_Free_QPCS.png)
 
 Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
 
