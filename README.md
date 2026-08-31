@@ -296,8 +296,8 @@ As first OhmerPrems module, QuadPercs is a 10HP **quad-channel drum** module, pr
 
 QuadPercs module is available from OhmerPrems plugin, as both:
 
-- free/trial version (limited to **5** fully working drum machines, from 44.1kHz up to 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel glows red, instead of green.
-- full version (all 16 drum machines, from 44.1kHz up to 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels glow always green.
+- **Free/Trial** (limited to **5** fully working drum machines, from 44.1kHz up to 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), **LED channel glows red** if the drum machine isn't allowed for free/trial (otherwise the channel's LED glows green).
+- **Licensed** (all 16 drum machines, from 44.1kHz up to 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal valid license V2 keyfile to remove all limitations. **LED channel glows always green**.
 
 Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz up to 192kHz engine's samplerates.
 
