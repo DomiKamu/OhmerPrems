@@ -290,6 +290,21 @@ KordZ module comes in 6 models (panel themes):
 
 ---
 
+## QuadPercs
+
+As first OhmerPrems module, QuadPercs is a 10HP **quad-channel drum** module, providing 4 independent drum machine channels, each having its own (sample-based) drum machine, and its related instrument (drum kit).
+
+QuadPercs module is available from OhmerPrems plugin, as both:
+
+- free/trial version (limited to **5** fully working drum machines, from 44.1kHz up to 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel glows red, instead of green.
+- full version (all 16 drum machines, from 44.1kHz up to 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels glow always green.
+
+Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz up to 192kHz engine's samplerates.
+
+Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 drum kits!**, from 44.1kHz up to 192kHz engine's samplerates.
+
+---
+
 "***OhmerPrems***" subdirectory hosts either free/full version (built package is strictly identical), but without personal license key, some modules operate as "free/trial" (with limitations, depending the module), for evaluation purposes. Except "free for everyone" modules, other modules require a personal (paid-once) license V2 keyfile to operate as full unlimited. The license V2 keyfile is delivered by email exclusively after PayPal payment confirmation.
 
 ---
@@ -298,26 +313,13 @@ KordZ module comes in 6 models (panel themes):
 
 Over **FroeZe** (and **FroeZe-SX**, **FroeZe-X** expanders), or **QuadPercs**, just do a right-mouse click to bring its contextual menu. At the bottom of this menu, if the grayed entry indicates **License (V2):** (followed by your partial license key - most digits are masked by 4-star characters) - first (before "stars") must be **six digits**, then **four digits as trailing** after the stars - that meaning your license keyfile is valid for all OhmerPrems modules. All are explained in the email body when you receive your personal license V2 keyfile!
 
-Otherwise, the same grayed menu entry indicates **Trial**, followed by limitation/restriction summary between brackets.
-
-From **FranKe** module, press the SETUP button (identified by a gear): the license status is displayed on track 8. Press the same button to exit SETUP.
-
-Other modules such **Vektor**, its **VX** expander, **DeXtral**, **DeXtral Kompakt**, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **License: full version (for everyone)**, whatever a valid license V2 keyfile is installed or not!
+Otherwise, the same grayed menu entry indicates **Free/Trial**, followed by limitation/restriction summary between brackets.
 
 ![](docs/modules/QuadPercs/_img/OhmerPrems_Free_QPCS.png)
 
-Hi! I'm enjoyed to present you my first *OhmerPrems* module: **QuadPercs**
+From **FranKe** module, press the SETUP button (identified by a printed gear on panel): the license status is displayed on track 8. Press the same button to exit SETUP.
 
-Basically, QuadPercs is a 10HP **quad-channel drum** module, providing 4 independent drum machine channels, each having its own (sample-based) drum machine, and its related instrument.
-
-QuadPercs module is available from OhmerPrems plugin, as both:
-
-- free version (limited to **5** fully working drum machines, from 44.1kHz up to 192kHz engine's samplerates) to any who want to evaluate the module (they're no other limitation). Other drum machines can be selected, but are muted (no audio output), LED channel glows red, instead of green.
-- full version (all 16 drum machines, from 44.1kHz up to 192kHz engine's samplerates), reserved to *OhmerPrems* members exclusively, requires a personal license key to remove all limitations. LED channels glow always green.
-
-Free version: Oberheim DMX, Drumulator, LinnDrum, Roland 707, and Roland 808, for a total of 102 instruments, from 44.1kHz up to 192kHz engine's samplerates.
-
-Full version: Oberheim DMX, Drumulator, Korg KR-55, Korg Minipops, LinnDrum, Roland R8, Roland 606, Roland 626, Roland 707, Roland 808, Roland 909, Yamaha RX5, Yamaha RY-30, Casio RZ-1, Alesis SR-16, and E-MU XL-7, for a **total of 369 drum kits!**, from 44.1kHz up to 192kHz engine's samplerates.
+Other modules such **DeXtral**, **DeXtral Kompakt**, **Vektor**, its **VX** expander, **KlokSpid MkII**, its **KX** expander, and **KordZ** modules always mention **Licensed (full version for everyone)**, whatever a valid license V2 keyfile is installed, or not!
 
 ---
 
