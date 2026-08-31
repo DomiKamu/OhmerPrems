@@ -1,224 +1,118 @@
 :warning:
 
-Empty displays, all LED always turned off, no extra right click menu, module is looking "dead", [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
-
-:warning: **MacBook users:** in case the main panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a DeXtral specific graphic issue, this bug occurs on any large module, whatever the module brand!
+Empty displays, all LED always off, no extra right click menu, module is looking "dead": [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md)
 
 ---
 
-# DEXTRAL USER'S MANUAL (UNDER CONSTRUCTION)
+# KLOKSPID MKII USER'S MANUAL
 
-_The DeXtral module, Aluminium model, DX7-emulated genuine LCD display:_
-![](_img/mainModuleV2.png)
+![](_img/Module_Layout_rev.png)
 
-This will be the User's Manual for DeXtral module, **117HP** polyphonic 6-operator algorithm-based FM (PM, phase modulation) synthesizer voice.
 
-:warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
+**KlokSpid MkII** is a **16HP** versatile clock source module. It's the successor of _2017 KlokSpid_ module (free & open source [Ohmer plugin](https://github.com/DomiKamu/Ohmer)).
 
----
+Typically, KlokSpid MkII is:
 
-### TOPICS
+- Totally free: all features are available for everyone, including non-OhmerPrems members. Same fact concerning KX expander module. Both modules don't require a license keyfile.
 
-- [**HISTORY**](#history)
-- [**TERMINOLOGY**](#terminology)
-- [**INTRODUCTION & FIRST WORDS**](#intro)
-- [**MODULE SPECIFICATIONS**](#techspecs)
+- "CPU-controlled"-like versatile **clock generator** (standalone, master clock mode), **clock modulator** (also named **Ext. CLK mode**, or slave mode, when **CLK** input is connected to another clocking source), **low-frequency oscillator** (aka **LFO**, capable from **1 BPM or 0.02Hz**, upto **500Hz**), clocked **envelope generators (EXPonential/LOGarithmic and LOGarithmic/EXPonential built-in envelope generators)**, and **custom wavetables** to bring no limit concerning curves! It offers 8 independent programmable outputs, 8 inputs (five of them, CV4 to CV8, are always CV inputs, but first three, CLK/CV1, RUN/CV2, and CV3/RESET, are versatile inputs). The main part of KlokSpid MkII module is a large **touchscreen** (like smartphone/tablet), an **info display** located below the continuous encoder, who display tempo (or frequency), external clock mode, and the current menu page name while you're browsing menu system. The module can be controlled either by touchscreen (left mouse button clicks, on most cases) and/or by **continuous encoder** moves + **SET** + **Cancel/Exit** buttons _combo_. They're three _triple-character 14-segment_ tiny white displays just above first, second, and third input jacks, who can display respectively their current roles, such **CLK** or **CV1** above 1st jack, **RUN** or **CV2** above 2nd jack, and **CV3"** or **RST** (RESET)" above 3rd jack.
 
-...below temporary draft section...
+- 8 independent programmable outputs. Please notice, by default, when you add a new KlokSpid MkII instance in your rack (or after a **reset to factory**), only outputs 1 to 4 are enabled (all 1-4 are default, with identical settings: 1ms pulse, 10V as voltage amplitude, 0V for voltage offset, amplitude above offset, in-phase, x1 as ratio **modifier**). Also, outputs 5-8 have their LED lit as red, because these outputs are turned off / disabled, in order to save CPU/resources (despite KlokSpid MkII is fair vs. CPU). Obvisouly, any output you'll need can be enabled, depending your needs. The fastest way is to connect it, by this way, the output will switch automatically from **OFF** to **x1** modifier. Otherwise, do a left-mouse button click **over its LED**, then select **Modifier** menu item, then select the output modifier you'll need from (multipage) list.
 
-- [**MOD. KEY**](#modkey)
-- [**MODULATION MATRIX: NOT SUPPORTED TARGETS**](#notsupptargs)
-- [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign)
+- For any output, they're existing three special "service" modifiers, also named **utility modifiers**, such **GATE** who send a continous +5V / +10V high-state gate while the clock is running (0V when stopped), **START** who fire (once) a short 1ms +5V / +10V trigger when clock is starting, or **STOP** who fire (once) a short 1ms +5V / +10V trigger when clock is stopped. These utility modifiers may be useful to control external modules. As indicated in previous section, **OFF** modifier simply shutdown/disable the output - in this case, it simply delivers "constant 0V" on its jack, all internal processing for the output are bypassed. Unused output(s) can be turned off if you want, depending your computer performances, patch complexity, your needs... About clocking modules, major usages are, in general, 1 to 4 outputs, rarely more, it's the main reason why the extra outputs 5-8 are, natively, disabled. However, OFF output is automatically switched to x1 as soon as you connect a cable on its jack!
 
----
+- 8 inputs: **CLK** is designed, by default, to receive pulses (or gates) from external clock source module. When patched (and "CLK" is set as external clock input - its default role setting - as indicated above the jack by a _triple-character 14-segment_ tiny display), the module becomes **slave** (clock modulator), because the clock frequency/tempo is imposed by the external source clock. In case you're using KlokSpid MkII module as standalone (**master**, also clock generator) in your rack, "CLK" input can be turned to **bipolar -5V/+5V** or **unipolar 0V/10V** "CV1" input. On the same principle, **RUN** input can be turned to **bipolar -5V/+5V** or **unipolar 0V/10V** "CV2" input. Native CV3 (by default: bipolar -5V/+5V CV input) can become **unipolar 0V/+10V** CV, or **RESET** (pulse-based) input. Finally, CV4 to CV8 inputs (default **bipolar -5V/+5V**, optionally **unipolar 0V/10V** or **bipolar -10V/+10V**) are CV sources only. Use **Select Input...** second menu item (from _home_ menu) by touchscreen, or do a **left-mouse click over its LED**, to access a particular input to be configured, or press SET (blue) button to enable the menu system, then turn continuous encoder and use SET / Cancel/Exit buttons to browse menus.
 
-### HISTORY<a name="history"></a>
+- **In your mind, PLEASE never associate CV1 with output 1, CV2 with output 2,... CV8 with output 8. Anyway!** Any valid CV source/input (see below) can be assigned to modulate particular parameter(s), for **any** output(s) you'll want! Said differently by a simple example: CV4 can modulate the waveform morph on output 2, and, at the same time, it can modulate phase shift on output 7 (and so on). On the same time, CV2 (if assigned as bipolar or unipolar CV, instead of RUN) can modulate the voltage offset on output 1. Please notice, by default (fresh module added in the rack, or after a **Factory Reset** / Initialize / Ctrl+I / Command+I on MacOS X), CV aren't assigned, so you'll must assign them explicitly (regardling your needs).
 
-_From English Wikipedia_: The DX7 is a synthesizer introduced by the Japanese Yamaha Corporation in 1983. It was the first successful digital synthesizer and is one of the best-selling synthesizers in history, selling more than 200,000 units.
+- **Not valid CV** possible scenarios: "CLK" input, when set as external clock input: in this case, the first input isn't assumed as valid CV, because the input jack is, in this case, assigned to receive clocking pulses (or BPM CV voltage) from another module. "RUN" input, when set as "RUN/STOP toggle" or "RUN while hi-gate": in both cases, the second input handles the transport (kind of remote), by this way, this input isn't assumed as valid CV, too. Native "CV3" remains a valid CV input as long as it stays unassigned as "RESET" input. Not valid CV inputs are indicated by red color checkboxes (instead of blue, for valid), or by flashing red boxes from _View CV Assign. Matrix_ information page, or as red blinking "Not a CV" in certain boxes.
 
-_The Yamaha DX7 synthesizer_:
-![](_img/theDX7synth.png)
+- Voltages required for **CLK**, **RUN** and **RESET** inputs (internal, or KX expander): minimum +2V rising edge to trigger, maximum +0.1V falling edge to release. Pulse/trigger or gate signal is highly recommended to trigger CLK, RUN, or RESET. Exception for CLK input, if **Ext. CLK mode** is set as **BPM CV**, though.
 
-Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (using substractive synthesis), like the Minimoog (Moog Music), the MS-20 (Korg), the ARP 2600 (ARP Instruments), the Prophet 5 (Sequential Circuits), the Jupiter-8 (Roland), and many more, the Yamaha DX7 becomes the first affordable synthesizer using FM (Frequency Modulation) synthesis during 1983.
+- Output waveform can be either **PULSE** (default), **TRIANGLE** (including ramp/saw down and ramp/saw up, via _Tilt_ parameter, who can be modulated by any valid CV), **SINE** (including half sine, and humps), and **SAMPLE & HOLD**.
 
-Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
+- KlokSpid MkII module can be controlled either by continuous encoder + **SET** (blue) button + **Cancel/Exit** button _"combo"_ (on the module's chassis), and/or by "touchscreen"-like, at you convenience! However, some controls (like arrows to select previous/next page, or notes rotations in output-related _Quantizer_ page) are usable by touchscreen only (continuous encoder isn't supported). Also, in some situations, the page may don't have a clickable "RETURN" menu entry/box, as example, Input and Output selectors (both having 8 boxes), also from _home_ menu to disable it (who permit to change the BPM tempo or frequency). In this situation, the only way is to press "Cancel/Exit" button. In general, you can combine touchscreen actions and encoder+buttons actions.
 
-In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
+- The continuous encoder permits to select next or previous selectable "blue items", such menu items, boxes, checkboxes, buttons, piano keys in Quantizer page... - **selected item is always highlighted by yellow color, so you cannot miss it ;)** - also can be used to increase/decrease a parameter value (by moving the horizontal slider). **SET** button (the blue button seating over the continuous encoder) permits to validate the selected (yellow) menu/box item, check/uncheck a selected checkbox, activate the parameter slider (parameter edit mode), or entering in the menu system. **Cancel/Exit** button leaves a parameter edit, return to previous menu, cancel BPM/Hz edit, cancel Ext. CLK mode edit, and, from home menu, it disables the menu system (the whole menu becomes gray, instead of blue - see animation below)... Please notice both input and output selection screens (who have eight clickable boxes) don't have a touchscreen control to go back, so please use the **Cancel/Exit** button. Most parameters are immediately validated, even when you click **Cancel/Exit** button, or top-left box/menu on most pages.
 
-The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
+**ANIMATION: HOW TO DISABLE MENU SYSTEM (to change BPM, frequency, or Ext. CLK sync mode)**
 
-The _DeXtral_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+![](_img/How-To_disable_menu_rev.gif)
 
----
+NOTE: if the module is already into "deep menu", simply press **Cancel/Exit** button many times to return to _home_ menu, until it displays the menu as gray in touchscreen, and the info display is showing  **CLOCK xxxx** (master clock mode) or **Ext. CLK xxxx** (slave clock mode), **blue color**. When done, you'll can change BPM or frequency (master clock mode), or external clock mode (slave clock mode) by moving the continuous encoder.
 
-### TERMINOLOGY<a name="terminology"></a>
+- On displays/menus, colorscheme is: blue = selectable item (editable item for CLOCK BPM, CLOCK Hz, or Ext. CLK mode). Yellow = current selection/active menu item/selected box/button/checkbox, while editing CLOCK tempo/frequency (master clock), while editing Ext. CLK mode, parameter currently edited by horizontal slider, current piano key (quantizer)... Gray = disabled/locked item (depending the context).
 
-This topic explains some "unfamiliar" terms and accronyms. Most of them was used by Yamaha company for DX-family synthesizers:
+- At bottom left of touchscreen (only from _home menu_), a small indicator icon is showing the module mode. White MASTER stands the module acts as master/standalone clock/LFO/envelope generator, when CLK input jack isn't connected. Others are only when KlokSpid MkII is acting as "slave", when "CLK" input jack is connected, such yellow "BPM CV", blue "PULSES" or blue "PPQN" (depending selected external clock sync mode you'll want to use). Also, fast blinking red "SYNC" indicator is visible during sync operations.
 
-- **Voice** stands for "synthesizer preset" (please do not confuse with VCV Rack 2 preset file).
-- **Bank** may refer to internal memory or a specific cartridge, hosting 32 voices each.
-- **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
-- **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
-- **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
+- **Prefer frequency (Hz) rather than BPM** option, from context menu (MISCELLANOUS section), when enabled, forces to display and edit master frequency, in Hz (whatever the frequency/tempo setting). This option is useful to use the module as LFO. When this option is disabled, the BPM tempo is used/displayed while its value is into 1 - 900 BPM range (beyond 900 BPM, the frequency in Hertz is always used and displayed).
 
-Proprietary binary file formats provided by both _DeXtral_ and _DeXtral Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
+- As master clock, while editing BPM, possible values are into 1 to 900 range (equivalent frequency, in Hz, is indicated at the bottom-right on touchscreen while BPM unit is indicated in the info display, it will be useful to know the equivalent frequency whithout using calculator for conversion). Above 900 BPM (15Hz), the BPM display is replaced by frequency (Hz), instead. From 15Hz to 25Hz, the stepping during edit is 0.1Hz (while moving the continuous encoder). From 25Hz to 500Hz, the stepping is 1Hz. **Minimum tempo is 1 BPM (0.01666Hz, but displayed as 0.02Hz), maximum frequency is 500Hz**. Tempo/frequency can be set by moving the continuous encoder **while the info display is blue**. While editing, the tempo or frequency value is yellow. Pressing **SET** button validates the value immediately (otherwise, the value is automatically validated after 1/**3**/5-second timeout). Pressing **Cancel/Exit** button while editing (yellow) will restore the previous registered value. While **Prefer frequency (Hz) rather than BPM** option is enabled (from module's context menu), minimum frequency is **0.02Hz** (50-second beat duration).
 
-- **.dexvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
-- **.dexcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
-- **.dexsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, all modulation matrices, and global preferences.
+![](_img/MASTER_white_icon_rev.png)
 
----
+- **HINT**: while modifying the CLOCK BPM (or frequency) by turning the continuous encoder, **doing a right mouse click on yellow BPM (or Hz) readout** returns immediately to default BPM 120 (or 2Hz). Holding SHIFT key while moving the continuous encoder changes the value faster. While editing the **CLOCK BPM**, **Frequency Hz**, or **Ext. CLK** mode (slave clock), the edited parameter is automatically saved after 3-second timeout (yellow readout returns to blue color when validated). Auto-validation delay can be changed from **Global Settings** menu (this setting may accept short 2 second, default normal 3 seconds, or long 5 seconds). By clicking **Cancel/Exit** button during the edit delay, this will restore the previous registered setting.
 
-### INTRODUCTION & FIRST WORDS<a name="intro"></a>
+- As external clock mode (slave clock), possible **Ext. CLK** sync modes are by received consecutive **Pulses** (or gates), by **PPQN** (they're 13 possible PPQN settings, from 2 upto 192 - see animation below), or by **BPM CV** to be compatible behind some clock source modules who provide **BPM by voltage**, such [ImpromptuModular CLOCKED](https://github.com/MarcBoule/ImpromptuModular) is capable to provide (merci Marc!). **KlokSpid MkII can operates from 1 BPM (or 0.02Hz), upto 500Hz** (the frequency is automatically limited to minimum 1 BPM / 0.02Hz, or maximum 500Hz, if required).
 
-The _DeXtral_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
+![](_img/Slave_mode_icons_rev.png)
 
-Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between ton of menus/submenus... Most DX7 parameters are potentiometers (few of them are momentary buttons to toggle a state (on/off), one to select the LFO waveform).
+**ANIMATION: SELECTING EXTERNAL CLOCK SYNC MODE (UNCOMMENTED)**
 
-This _DeXtral_ module is mainly useful to prepare your DX7 synthesizer file(s) you'll need in your project (can be single-voice files, 32-voice cartridge files, or full synthesizer files). When your sound design session is completed (and of course, saved), you'll can replace the huge _DeXtral_ module by its compact variant, the _DeXtral Kompakt_, in order to save signifiant space in your rack. Of course, you'll must open appropriate file(s), either **.dexsynth** file (single-voice), **.dexcart** file (32-voice cartridge), or **.dexsynth** file (entire synthesizer), previously made by any _DeXtral_ module. Please read [DeXtral Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/DeXtral-Kompakt/Manual.md) for more details about this thinner module!
+![](_img/Ext_CLK_modes_anim_rev.gif)
 
-Also, you'll can prepare your custom DX7 soundbank or single-voice, then export it as _VMEM_ SysEx (32-voice soundbank) or _VCED_ SysEx (single-voice), in order to import it to real DX7 synthesizer (the DX7 always uses MIDI channel 1 for SysEx transfers, also, MEMORY PROTECT must be disabled prior to import), or to another DX7-compatible software capable to interpret DX7 SysEx files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html).
+- A lot of pre-built modifier ratios (exactly 87 ratios, to be precise), including many **exotic/even/prime/fractional** and of course, **most common** dividers and multipliers, from slowest **/16384** (by using this modifier, KlokSpid MkII may become an **extremely slow LFO** source: at 1 BPM, divided by 16384, beat will occur every... 11 days, 9 hours, and 4 minutes), upto fastest **x192** who permits to control modules who need/accept 192 PPQN as high-resolution clock. These pre-built ratios can be _picked_, in realtime, by any valid CV source, thanks to **CV Ratio** modifiers (from output **Modifier** menu, these modifiers are located in lastest page). Please consider custom ratio isn't supported by KlokSpid MkII module (it's a developer choice). Please notice by using high multiplier values, the related outputs hosting the BPM/frequency multiplier permits to enter into the full audio domain (until 22,050Hz), but **not recommended for audio output** because the bandwidth is not limited (harmonics over Nyquist frequency).
 
-You can consider:
-- **DeXtral** (the huge module) either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
-- **DeXtral Kompakt** module, as voice synthesizer for final production in your rack (mainly to save space!).
+- CV input can be manually set as **bipolar -5V/+5V** (it's the default setting for all CV inputs for this module), or optionally be set as **unipolar 0V/10V** or **bipolar -10V/+10V**, depending your needs, via input on-screen menu (Select Input, choose the relevant input by clicking its box). Also, CV1, CV2, and CV3 can be changed "on-the-fly" via context menu (**INPUT ROLES** section). The menu can be opened quickly by doing a left mouse button click over relevant input LED!
 
-:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.dexvoice** files, save/load 32-voice cartridge **.dexcart** files, and save/load full synthesizer **.dexsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx files, otherwise, they're no more signifiant differences between both modules!
+- For some parameters who can be modulated by CV, in case of input isn't set-up as CV source, this will be notified as red color on display. As example, if you select **CV1** (indicated as **CLK**) to modulate Amplitude parameter, the **CLK** checkbox is red (and the CV indicator at top-right of touchscreen indicates **red blinking "Not a CV"** message). Simply set **CLK** role to become **CV1** (either bipolar -5V/+5V, or unipolar 0V/+10V, depending the source, and your needs), otherwise, select another CV input.
 
----
+**KlokSpid MkII can't use multiple CV sources to modulate the same output-specific parameter! in this case, simply use a mixer module (like VCV Mix) upstream the CV input jack, to "mix" your CV signals.** Said differently, by example, you cannot modulate output 5 Phase Shift parameter by using CV4 and CV7 at the same time - you are able to choose only one.
 
-:information_source: _DeXtral Kompakt_ module is **free for everyone** (license V2 keyfile isn't required).
+- Output voltage supports customizable **Amplitude** setting (minimum 0.2V, maximum 10V, resolution 0.05V), this setting can be modulated by any valid CV source.
 
----
+- Each output can receive a particular modifier ratio, _'morphable'_ waveform (depending waveform shape, 'morph' have specific alternate names, such _P-Width_ for pulse, _Tilt_ for triangle, _Deform_ for sine, _Density_ for sample & hold, _Attack_ for exp/log & log/exp envelope generators, and _Morph_ for wavetables), voltage amplitude (default 10V, resolution 0.05V), voltage offset (default 0V, resolution +/-0.05V, amplitude can be above offset - default, or spread around offset, by unchecking/checking **Bipolar around offset** checkbox), phase shift (from -180° to +180° - except S&H and CONSTANT don't have phase shift, due to the nature of these signals). Except quantizer, all user-defined (or default) settings may be modulated by any valid CV source of your choice.
 
-### MODULE SPECIFICATIONS<a name="techspecs"></a>
+- Before output the voltage to relevant jack, it may crosses (or bypass) **euclidean sequencer** (user-defined settings, all can be modulated by CV), then crosses (or bypass) pitch-based **Quantizer** (voltage can be _pre-offset_ by **KX** expander **OFS.1** or **OFS.2** CV-like input prior pitch/voltage quantization), **either the clock is running or stopped** (when the clock is stopped, output may have a voltage other than 0V, depending "V-Offset" setting, then optional _pre-offset_, then pitch quantization). Each output may have its own (independent) euclidean sequencer and pitch-based quantizer.
 
-- Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
-- Width: 117HP.
-- Synthesis: Phase Modulation (PM), based on sine waveforms only (like the original DX synthesizer).
-- Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
-- DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
-- Emulated DX7 v1.8 firmware.
-- 32 algorithms (all come from the real DX7 synthesizer).
-- 6 operators (each can be enabled or disabled).
-- Polyphony: min. 1 channel/monophonic, max. 16 channels.
-- All synthesizer settings are accessible on single panel (no DX7 menus/submenus).
-- Large color OLED **touchscreen** display.
-- Two multipurpose continuous encoders (above the left-side of the touchscreen).
-- MONOPHONIC toggle button, with purple LED (above the center of the touchscreen).
-- Two multipurpose momentary buttons (above the right-side of the touchscreen).
-- LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
-- Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
-- Frequency response: from 27.5Hz (DX7 A-1 / international A0), to 8372.018Hz (DX7 C8 / international C9).
-- Band-limiting: up to Nyquist frequency (half of sample rate).
-- Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
-- Output voltage ranges: -5V to +5V (10V peak-to-peak).
-- Stereo: none (all outputs are mono, but polyphonic).
-- Polyphonic outputs: yes (up to 16 channels).
-- Operational sample rate: recommended 44100Hz/48000Hz, or higher.
-- DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented in future release).
-- Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import and as export.
-- Full DeXtral files support (**.dexsynth** for entire synthesizer, **.dexcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
-- DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files can be imported/loaded by drag and drop (drop the file on the touchscreen).
-- Bank+voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
-- 8 assignable CV input jacks (assigments via modulation matrix).
-- Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
-- Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
-- Modulation targets: 118 (most DX7 parameters, plus EG BIAS).
-- Modulation ranges: -100% to +100% (applying an offset), or 0 to 100% (absolute modulation, replace the parameter given by its potentiometer).
-- Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
-- Global preferences (via dedicated screen). Access from MENU button.
-- Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
-- Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
-- Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
-- Mod key (default is left Control / left Command on MacOS X computers), can be changed from "Preferences".
-- Touchscreen brightness: adjustable from "Preferences" screen.
-- Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
-- VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
-- VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
-- Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
+- An option from context menu permits to output the module's master phase (**M.PHASE**) to output 8 (ramp up signal shape, 0V to +10V, based on master tempo, frequency, or slave clock). May be useful for rack debugging features, time reference in your rack... When you enable this option, the previous output settings are saved, then restored as soon as you disable this option.
 
----
----
----
+- RUN input: when set as **HI-GATE** (default setting), the clock runs while a high gate voltage is applied on RUN input jack. When set as **RUN/STOP**, the input acts as transport toggle, everytime the jack receives a pulse (trigger), at least +0.2V rising front.
 
-## DRAFT
+- RESET input: when the CV3 input is set as **RESET**, incoming +0.2V (rising front) pulse/gate will reset the module's master phase, and also all 8-outputs dedicated phases.
 
-The DeXtral module can host 4 banks at the same time, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
-- **INT** (as internal memory).
-- **CART1** (displayed **C1.**).
-- **CART2** (displayed **C2.**).
-- **CART3** (displayed **C3.**).
+- All embedded LED on module's chassis are RGB.
+
+- **HINT**: Input and output LED are "finger sensitive" (clickable, like momentary buttons), either by left or right mouse button. By left mouse click over LED, the menu system jumps directly to related input configuration (input role and voltage ranges), or to related output setting (base) menu. By doing a right mouse click over LED, this will open a scope to monitor the evolution of input/output voltage (use "Cancel/Exit" button to return and resume to previous situation before scope display (scope feature is not yet implemented).
+
+- Transport (START/STOP button) - LED is **off** when clock is stopped, **green** while clock is running and controlled by button on module's chassis, **cyan** while clock is running and controlled by "RUN" input jack (either via held gate or toggle by incoming pulses), **blinking red** during sync operation against source clocking module - while slave. For your information, during sync operation, KlokSpid MkII uses "last known BPM/frequency" during this degraded situation, until new stable frequency is established!
+
+- Input LED color scheme: **cyan** for pulse/gate-based inputs (CLK, RUN, and CV3 when set as RESET input). **Gradient green** for CV-compliant voltage (voltage into allowed range). **Red** in case of undervoltage/overvoltage (in this case, the voltage is limited/clipped to allowed boundaries, regardling CV polarity setting). **Yellow** for CLK input only, during slave mode and sync mode set as "BPM CV".
+
+- Output LED color scheme: **red** while output is disabled (its modifier is set to "OFF", as explained above). **Gradient green** for regular output usage. **Cyan** for _service voltage_ (modifier is set to an "utility": GATE, START, or STOP). **Gradient purple** is used by output LED 8 exclusively, while output 8 sends the module's master phase (aka **M.PHASE**) - this option can be enabled/disabled from context menu (MISCELLANEOUS section).
+
+- While **Output 8: master phase (M.PHASE) 0V/+10V ramp up @ tempo/freq.** option is enabled (from context menu), the output 8 can't be selected/edited, either from _Select Output_ page (its box is grayed) or by left mouse button click over its LED. If output 8 is the current/selected output when you enable this option from context menu, the output 7 becomes current/selected output, instead. Previous output 8 settings are restored when you disable this option.
+
+- READY FOR NEXT BETA 14 (FULLY OPERATIONAL): all settings for current (last selected) output can be copied to another output, by single operation, simply by using **COPY** menu item from output menu. When the copy is done, the "target" output becomes current (last selected) output, except if output 8, set as M.PHASE, was the target: in this case, "source" is staying current output.
+
+- **ANIMATION: HOW TO "COPY" OUTPUT SETTINGS, TO ANOTHER OUTPUT**
+
+![](_img/COPY_feature_rev.gif)
+
+- All settings for current output can be erased and restored to default settings (other outputs aren't affected), by using **DEFAULTS** from output-related menu. **BE CAREFUL** - please do not confuse with **Initialize** command (from context menu), or **Ctrl**+**I** (**Command**+**I** on MacOS systems) keystrokes, or from **Global Settings** / **Factory Reset** touchscreen menus: this will reset the module entirely (full reset), all customizations (except model) are lost! During 'factory reset', the module is playing a short "LEDs sequence" animation (approx. during 1.5 seconds).
+
+- KlokSpid MkII comes with a little brother, **KX** expander (3HP, left-side module). KX brings discrete **CLK**, **RUN**, and **RESET** pulse/gate-based inputs (exactly like KlokSpid MkII internal inputs can do). But, as soon as you place the KX expander along KlokSpid MkII module (left side only), **all internal "CLK", "RUN" and "RESET" (RST)** inputs, if applicable, become respectively **CV1**, **CV2**, and **CV3** inputs (bipolar -5V/+5V, except if one was previously set as unipolar 0V/+10V, in this case it stays unchanged), because **CLK**, **RUN** and **RESET** are now handled by jacks on KX expander module. Please take attention about _triple-character 14-segment_ tiny displays just above three first input jacks, on KlokSpid MkII module's chassis. Another two inputs, below "QUANT." label on panel, are **OFS.1** and **OFS.2** special inputs: _OFS_ stands for... "offset", or more precisely, **pre-offset**, both are discrete CV inputs (bipolar -5V/+5V only) but exclusively dedicated to **output quantizers** (per output, a quantizer can be enabled and set). When assigned, **OFS.1** or **OFS.2 CV** inputs can increase/decrease the output voltage prior quantization (please notice the process is ignored if quantizer is disabled - aka no active note on its piano). You can access to OFS.1/OFS.2 assignments (by checkboxes), either by using **KX Expander** menu item (from home menu, below **Global Settings** - the **KX Expander** menu item is displayed while KX expander module is connected to KlokSpid MkII module). Another way is using a shortcut: by **doing a left mouse clicking over OFS.1 LED, or OFS.2 LED**.
+
+- From home menu, **View Assign CV Matrix** displays in a grid how CV are assigned, for every output (except OFS.1 and OFS.2 from KX expander aren't reported here). **Green pill** indicates a valid voltage applied on CV input jack, **red pill** indicates under-/overvoltage (voltage is clipped), **gray pill** indicates assigned CV, but its associated jack is not connected, and **blinking red square** indicates the input is not a valid CV (concerns internal **CLK**, **RUN**, and **RST** inputs only).
+
+- 8 models (GUI/panel theme variants) are available, like many OhmerPrems modules: compliant with **Prefer dark panels if available** feature (from **View** menu, since VCV Rack v2.4.0). Possible models are **Aluminium** (it's the default model if _Prefer dark panels if available_ option is disabled), **Stage Repro**, **Cobalt**, **Absolute Night** (it's the default model if _Prefer dark panels if available_ option is enabled), **Dark "Signature"**, **Fort Knox "Signature"**, **Oxide "Signature**, and **Titanium "Signature"**. All "Signature" models embed gold metal jacks, buttons, and screws (instead of silver for non-"Signature"). Obviously, all models provide exactly the same features. Touchscreen is identical for all models.
+
+![](_img/ModelsV3.gif)
+
+**KX expander** module inherits KlokSpid MkII model as soon as it placed along KlokSpid MkII module (left-side without space between them).
 
 ---
 
-When you bring a fresh DeXtral module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
+**ANIMATION: KLOKSPID MKII & DAW SYNC (VCV RACK 2 PRO ONLY, AS VST PLUGIN FROM BITWIG STUDIO)**
 
-However, you can download (and extract anywhere you'd like) two whole synthesizer binary files with prefilled banks (**.dexsynth** files).
-
-First **.dexsynth** file is using respectively **Rom1a** (to **INT**ernal memory), **Rom1b** (to **CART**ridge 1), **Rom2a** (to **CART**ridge 2), and **Rom2b** (to **CART**ridge 3). Selected voice is BASS 1, as INT 1 (internal memory, voice number 1).
-
-Second **.dexsynth** file is using respectively **Rom3a** (to **INT**ernal memory), **Rom3b** (to **CART**ridge 1), **Rom4a** (to **CART**ridge 2), and **Rom4b** (to **CART**ridge 3). Selected voice is FLUTE 1 (also as INT 1, the first voice of the bank).
-
-All modulation matrices are empty.
-
-You'll can assume these factory **.dexsynth** files can be a good start point for your projects who are using one or many DeXtral synth voice module(s), without effort.
-
-:warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both DeXtral and DeXtral Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
-
----
-
-### MOD. KEY<a name="modkey"></a>
-
-**Mod. key** stands for **modifier key**, but also... considered as **modulation key** shortcut!
-
-Default factory is the **Tab** key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustments, when held, also **Alt** keys (**Option** keys on MacOS X computers) are reserved by VCV Rack 2 core to scroll the view in the rack by moving the mouse cursor, and **left Shift** is used by VCV Rack 2 core to do coarse (high speed rotation) potentiometer adjustments.
-
-:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key would be, as 2nd choice, **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key, as 3rd choice, would be the **T** letter key (unfortunately, **M** - for **M**odulation - is not possible, due to different mappings between localized keyboards).
-
-The _DeXtral_ module can use the mod. key in three situations:
-
-- By hovering a supported DX7 parameter (potentiometer), then by pressing/hold the mod. key, then touching the potentiometer, this add the related DX7 parameter as modulation "target" in first available modulation "slot" (if, at least, one modulation is available). Please read [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign) topic for more details...
-
-- Either _DeXtral_ and _DeXtral Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen, over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, its box (and parameter name inside) are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who is a tedious task. It's not the best way, but a better way to reach the desired target more quickly (and reduce the required amount of left-mouse button clicks over the target box!)
-
-- Either _DeXtral_ and _DeXtral Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen (as touchscreen), over the **min./max. ranges fader** (when hovered by mouse cursor, the fader group is highlighted as **yellow** color, instead of cyan when the focus is lost): **while the mod. key (or left Ctrl / left Command) is held**, this will force the module's logic to edit the **min.** value, instead of the nearest (regardling mouse cursor position vs. mix. and max. settings), or the max. value in case of doubt!
-
----
-
-### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
-
-Following DX7 parameters cannot be possible modulation target:
-
-- OP SWITCH (operator on/off toggle button).
-- OP MODE (RATIO/FIXED toggle button).
-- OP EG LEVELs (L1, L2, L3, L4) potentiometers.
-- OP BREAKPOINT potentiometer (displayed as "BREAK POINT=" on DX7-emulated LCD/OLED display).
-- OP L. CURVE potentiometer.
-- OP R. CURVE potentiometer.
-- LFO KEY SYNC toggle button.
-- OSC KEY SYNC toggle button.
-- LFO WAVEFORM selector button.
-- PITCH EG LEVELs (L1, L2, L3, L4) potentiometers.
-- OUTPUT LEVEL potentiometer (master volume).
-
----
-
-### MODULATION MATRIX: FAST TARGET ASSIGNMENT<a name="fastassign"></a>
-
-:warning: **The following procedure is applicable to _DeXtral_ module only (_DeXtral Kompakt_ module doesn't embed DX7 potentiometers!)**
-
-To do a quick assign of DX7 parameter as "target" into a new modulation slot:
-
-- Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to assign as modulation target.
-- Press & hold the mod. key: a **fast blinking purple square** surrounding the potentiometer confirms the selected DX7 parameter.
-- Touch the potentiometer (left-mouse button click) to create new modulation, by using it as modulation target.
-
-By doing this action, the module's logic adds a new modulation "slot" (operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. New modulation is always located at the bottom of the display (the lastest who have a red cross touchable icon). The selected DX7 parameter is defined as modulation target (instead of empty). However, you'll must define the modulation source, the amount (via its fader), the 'behavior' of the modulation (by default, **ABSOLUTE**, but can be **RELATIVE**, or temporary... **DISABLED**), and optionally the **INV.** checkbox state, all as required.
-
-In the event that the mouse cursor leaves the potentiometer, the mod. key is automatically disarmed: by this way, you'll must release the mod. key, then press it again over relevant DX7 potentiometer.
-
-The **fast blinking purple square** doesn't appear if the hovered DX7 potentiometer can't be modulated (can't be modulation target), when you press the mod. key over it.
-
-:warning: Please remember all button-based DX7 parameters, any envelopes **LEVEL**, **OP BREAKPOINT**, **OP L. CURVE** and **OP R. CURVE** potentiometers (for any operator), and the **OUTPUT LEVEL** (master) potentiometer, cannot become a modulation target!
+![](_img/DAW_sync_24_PPQN_rev.gif)
