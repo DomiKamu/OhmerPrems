@@ -20,17 +20,13 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 :warning: Please check both **Free/Trial version** and **Full version** topics, by following [this link](#freevsfull) (near bottom of this page).
 
-*OhmerPrems* plugin is a set of 7 modules (5 are fully operational), plus 5 as _expander_ modules:
-
-- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
-
-- **Vektor** is a 16HP polyphonic digital quad-oscillator (VCO) module, using Vector Synthesis (VS) technique. New module (introduced by **release v2.6.13**). [**Vektor User's Manual** (incl. VX expander)](docs/modules/Vektor/Manual.md)
-
-- **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
+*OhmerPrems* plugin is a set of 7 modules (5 are fully operational), plus 5 as _expander_ modules (sorted alphabetically):
 
 - **DeXtral** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module, mainly accurate for DX7 sound design. Its [**User's Manual**](docs/modules/DeXtral/Manual.md) is under construction, too, during module development.
 
 - **DeXtral Kompakt** is also a **Work In Progress** (parallel development) compact version of the _DeXtral_ module, significantly thinner (33HP, instead of 117), but **without possibility to edit DX7 synth parameters** (except **MONOPHONIC** state toggle, and fully - editable - modulation matrices). Its [**User's Manual**](docs/modules/DeXtral-Kompakt/Manual.md) is under construction, too, during module development.
+
+- **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
 
 - **FroeZe** is a 68HP 64-step 16-track 128-pattern drum-based sequencer module (triggers, or direct-audio outputs by using 15x internal QuadPercs engines). [**FroeZe Specifications & Quick Guide** (incl. expanders)](docs/modules/FroeZe/Manual.md)
 
@@ -38,13 +34,17 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 - **FroeZe-SX** is a 14HP **left-side expander** for FroeZe sequencer. It brings 15 additional CV inputs (one per instrument track) for **track-based SWING**. NOTE: by using at least one CV - can be enabled by left mouse button click over relevant box(es) on expander's touchscreen - the FroeZe's internal **%SWING CV** input jack becomes disabled (its LED is red, and its two-digit mini-display shows **-** **-**).
 
-- **QuadPercs** is a 10HP quad-channel drum machine module.
-
-- **KordZ** is a 16HP mono-/polyphonic notes/intervals/triads *visual/display* module (V/Oct. based).
-
 - **KlokSpid MkII**, the versatile 16HP clocking source and LFO. [**KlokSpid MkII Specifications & User's Manual** (incl. KX expander)](docs/modules/KlokSpidMkII/Manual.md)
 
 - **KX** is a 3HP **left-side expander** for KlokSpid MkII. It brings discrete **CLK**, **RUN**, and **RESET** inputs. Also, it adds two dedicated CV inputs, exclusively for outputs' quantizers, as pre-offsets.
+
+- **KordZ** is a 16HP mono-/polyphonic notes/intervals/triads *visual/display* module (V/Oct. based).
+
+- **QuadPercs** is a 10HP quad-channel drum machine module.
+
+- **Vektor** is a 16HP polyphonic digital quad-oscillator (VCO) module, using Vector Synthesis (VS) technique. New module (introduced by **release v2.6.13**). [**Vektor User's Manual** (incl. VX expander)](docs/modules/Vektor/Manual.md)
+
+- **VX** is a 3HP **right-side expander** for Vektor. It brings 7 discrete outputs (LFO, joystick position, MIX ENVelope).
 
 ---
 
