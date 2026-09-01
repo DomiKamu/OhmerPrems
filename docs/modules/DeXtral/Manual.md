@@ -181,9 +181,9 @@ The _DeXtral_ module can use the mod. key in three situations:
 
 - By hovering a supported DX7 parameter (potentiometer), then by pressing/hold the mod. key, then touching the potentiometer, this add the related DX7 parameter as modulation "target" in first available modulation "slot" (if, at least, one modulation is available). Please read [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign) topic for more details...
 
-- Either _DeXtral_ and _DeXtral Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen, over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, its box (and parameter name inside) are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who is a tedious task. It's not the best way, but a better way to reach the desired target more quickly (and reduce the required amount of left-mouse button clicks over the target box!)
+- The module accepts the **mod. key**, can be also **left Control** (**left Command** on MacOS X computer) from **Modulation Matrix** screen, over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, its box (and parameter name inside) are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who become a tedious and boring task. It's not the best way, of course, but a better way to reach the desired target more quickly (by reducing the required amount of left-mouse button clicks over the target box, in particular).
 
-- Either _DeXtral_ and _DeXtral Kompakt_ module accepts the **mod. key** (can be also **left Control** / **left Command** on MacOS X computer) usage from **Modulation Matrix** screen (as touchscreen), over the **min./max. ranges fader** (when hovered by mouse cursor, the fader group is highlighted as **yellow** color, instead of cyan when the focus is lost): **while the mod. key (or left Ctrl / left Command) is held**, this will force the module's logic to edit the **min.** value, instead of the nearest (regardling mouse cursor position vs. mix. and max. settings), or the max. value in case of doubt!
+- The module accepts the **mod. key**, can be also **left Control** (**left Command** on MacOS X computer) from **Modulation Matrix** screen, over the amount fader (when the amount fader is hovered by mouse cursor, it will be highlighted as **yellow** color, instead of cyan): by "touching" the fader (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this reset the setting to +100% (if action is ABSOLUTE), or 0%/centered (if action is OFFSET).
 
 ---
 
@@ -207,15 +207,15 @@ Following DX7 parameters cannot be possible modulation target:
 
 ### MODULATION MATRIX: FAST TARGET ASSIGNMENT<a name="fastassign"></a>
 
-:warning: **The following procedure is applicable to _DeXtral_ module only (_DeXtral Kompakt_ module doesn't embed DX7 potentiometers!)**
+:warning: **The following procedure is applicable to _DeXtral_ module only!**
 
 To do a quick assign of DX7 parameter as "target" into a new modulation slot:
 
-- Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to assign as modulation target.
+- Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to assign as new modulation target.
 - Press & hold the mod. key: a **fast blinking purple square** surrounding the potentiometer confirms the selected DX7 parameter.
-- Touch the potentiometer (left-mouse button click) to create new modulation, by using it as modulation target.
+- Touch the potentiometer (left-mouse button click) to create new modulation, by using the selected DX7 parameter as modulation target.
 
-By doing this action, the module's logic adds a new modulation "slot" (operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. New modulation is always located at the bottom of the display (the lastest who have a red cross touchable icon). The selected DX7 parameter is defined as modulation target (instead of empty). However, you'll must define the modulation source, the amount (via its fader), the 'behavior' of the modulation (by default, **ABSOLUTE**, but can be **RELATIVE**, or temporary... **DISABLED**), and optionally the **INV.** checkbox state, all as required.
+By doing this action, the module's firmware creates a new modulation "slot" (operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. New modulation is always located at the bottom of the display (the lastest who have a red cross touchable icon). The selected DX7 parameter is defined as modulation target (instead of empty), modulation action is set to **ABSOLUTE**, amount is set to 100% (but the fader is grayed while the modulation source is not set). Then you'll must define the modulation source, then the amount via the fader, and adjust the action of the modulation (by default, **ABSOLUTE**, but can be **RELATIVE**, or temporary... **DISABLED**).
 
 In the event that the mouse cursor leaves the potentiometer, the mod. key is automatically disarmed: by this way, you'll must release the mod. key, then press it again over relevant DX7 potentiometer.
 
