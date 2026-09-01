@@ -168,11 +168,7 @@ Default factory is the **Tab** key, because **left Control** (**left Command** o
 
 :information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key would be, as 2nd choice, **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key, as 3rd choice, would be the **T** letter key (unfortunately, **M** - for **M**odulation - is not possible, due to different mappings between localized keyboards).
 
-The _DeXtral Kompakt_ module can use the mod. key in two situations:
-
-- The module accepts the **mod. key**, can be also **left Control** (**left Command** on MacOS X computer) from **Modulation Matrix** screen, over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, its box (and parameter name inside) are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who become a tedious and boring task. It's not the best way, of course, but a better way to reach the desired target more quickly (by reducing the required amount of left-mouse button clicks over the target box, in particular).
-
-- The module accepts the **mod. key**, can be also **left Control** (**left Command** on MacOS X computer) from **Modulation Matrix** screen, over the amount fader (when the amount fader is hovered by mouse cursor, it will be highlighted as **yellow** color, instead of cyan): by "touching" the fader (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this reset the setting to +100% (if action is ABSOLUTE), or 0%/centered (if action is OFFSET).
+From **Modulation Matrix** screen, both _DeXtral_ and _DeXtral Kompakt_ modules accept the **mod. key**, but also **left Control** (**left Command** on MacOS X computer), over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, the box and parameter's name are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, second operator COARSE... first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who become a tedious and boring task. It's not the best way, of course, but a better way to reach the desired target more quickly (by reducing the required amount of left-mouse button clicks over the target box, in particular).
 
 ---
 
@@ -180,6 +176,7 @@ The _DeXtral Kompakt_ module can use the mod. key in two situations:
 
 Following DX7 parameters cannot be possible modulation target:
 
+- MONOPHONIC toggle switch.
 - OP SWITCH (operator on/off toggle button).
 - OP MODE (RATIO/FIXED toggle button).
 - OP EG LEVELs (L1, L2, L3, L4) potentiometers.
