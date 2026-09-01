@@ -20,7 +20,7 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 :warning: Please check both **Free/Trial version** and **Full version** topics, by following [this link](#freevsfull) (near bottom of this page).
 
-*OhmerPrems* plugin is a set of 8 modules (5 are fully operational), plus 5 as _expander_ (sorted alphabetically by module names):
+*OhmerPrems* plugin is a set of 8 modules (5 are operational), plus 5 as _expander_ (sorted alphabetically by names):
 
 - **DeXtral** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module, mainly accurate for DX7 sound design. Its [**User's Manual**](docs/modules/DeXtral/Manual.md) is under construction, too, during module development.
 
