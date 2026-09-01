@@ -162,7 +162,7 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 ### MOD. KEY<a name="modkey"></a>
 
-**Mod. key** stands for **modifier key**, but also... considered as **modulation key** shortcut!
+**Mod. key** stands for **modifier key**.
 
 Default factory is the **Tab** key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustments, when held, also **Alt** keys (**Option** keys on MacOS X computers) are reserved by VCV Rack 2 core to scroll the view in the rack by moving the mouse cursor, and **left Shift** is used by VCV Rack 2 core to do coarse (high speed rotation) potentiometer adjustments.
 
