@@ -26,7 +26,6 @@ This will be the User's Manual for DeXtral module, **117HP** polyphonic 6-operat
 
 ...below temporary draft section...
 
-- [**MOD. KEY**](#modkey)
 - [**MODULATION MATRIX: NOT SUPPORTED TARGETS**](#notsupptargs)
 - [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign)
 
@@ -43,9 +42,9 @@ Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (usi
 
 Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
 
-In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
+When the DX7 was introduced, the sales department of Yamaha marketed it as a FM synthesizer, likely for marketing reasons, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a variant very close to FM.
 
-The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
+The Yamaha DX7 was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
 The _DeXtral_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
@@ -169,22 +168,6 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 ---
 
-### MOD. KEY<a name="modkey"></a>
-
-**Mod. key** stands for **modifier key**, but also... considered as **modulation key** shortcut!
-
-Default factory is the **Tab** key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustments, when held, also **Alt** keys (**Option** keys on MacOS X computers) are reserved by VCV Rack 2 core to scroll the view in the rack by moving the mouse cursor, and **left Shift** is used by VCV Rack 2 core to do coarse (high speed rotation) potentiometer adjustments.
-
-:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key would be, as 2nd choice, **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key, as 3rd choice, would be the **T** letter key (unfortunately, **M** - for **M**odulation - is not possible, due to different mappings between localized keyboards).
-
-The _DeXtral_ module can use the mod. key in two situations:
-
-- By hovering a supported DX7 parameter (potentiometer), then by pressing/hold the mod. key, then touching the potentiometer, this add the related DX7 parameter as modulation "target" in first available modulation "slot" (if, at least, one modulation is available). Please read [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign) topic for more details...
-
-- From **Modulation Matrix** screen, both _DeXtral_ and _DeXtral Kompakt_ modules accept the **mod. key**, but also **left Control** (**left Command** on MacOS X computer), over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, the box and parameter's name are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, second operator COARSE... first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who become a tedious and boring task. It's not the best way, of course, but a better way to reach the desired target more quickly (by reducing the required amount of left-mouse button clicks over the target box, in particular).
-
----
-
 ### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
 
 Following DX7 parameters cannot be possible modulation target:
@@ -200,24 +183,23 @@ Following DX7 parameters cannot be possible modulation target:
 - OSC KEY SYNC toggle button.
 - LFO WAVEFORM selector button.
 - PITCH EG LEVELs (L1, L2, L3, L4) potentiometers.
-- OUTPUT LEVEL potentiometer (master volume).
 
 ---
 
 ### MODULATION MATRIX: FAST TARGET ASSIGNMENT<a name="fastassign"></a>
 
-:warning: **The following procedure is applicable to _DeXtral_ module only!**
+:warning: **The fast target assignment procedure is applicable to _DeXtral_ module only!**
 
 To do a quick assign of DX7 parameter as "target" into a new modulation slot:
 
 - Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to assign as new modulation target.
-- Press & hold the mod. key: a **fast blinking purple square** surrounding the potentiometer confirms the selected DX7 parameter.
+- Press & hold the **Tab** key: a **fast blinking purple square** surrounding the potentiometer confirms the selected DX7 parameter.
 - Touch the potentiometer (left-mouse button click) to create new modulation, by using the selected DX7 parameter as modulation target.
 
-By doing this action, the module's firmware creates a new modulation "slot" (operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. New modulation is always located at the bottom of the display (the lastest who have a red cross touchable icon). The selected DX7 parameter is defined as modulation target (instead of empty), modulation action is set to **ABSOLUTE**, amount is set to 100% (but the fader is grayed while the modulation source is not set). Then you'll must define the modulation source, then the amount via the fader, and adjust the action of the modulation (by default, **ABSOLUTE**, but can be **RELATIVE**, or temporary... **DISABLED**).
+By doing this action, the module's firmware creates a new modulation "slot" (operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. New modulation is always located at the bottom of the display (the lastest who have a red cross touchable icon). The selected DX7 parameter is defined as modulation target (instead of empty), modulation behavior is set to **ABSOLUTE** by default, amount is set to 100% (but the fader stays grayed while the modulation source is not set). Then, you'll must define the modulation source, then the amount via the fader, and adjust the behavior of the modulation, if required (choices are **ABSOLUTE**, **RELATIVE**, or **DISABLED**).
 
-In the event that the mouse cursor leaves the potentiometer, the mod. key is automatically disarmed: by this way, you'll must release the mod. key, then press it again over relevant DX7 potentiometer.
+In case of the mouse cursor "leaves" the potentiometer area, the Tab key action is automatically disarmed (no more fast blinking purple square): by this way, you'll must release the Tab key, then press it again over relevant DX7 potentiometer.
 
-The **fast blinking purple square** doesn't appear if the hovered DX7 potentiometer can't be modulated (can't be modulation target), when you press the mod. key over it.
+The **fast blinking purple square** doesn't appear if the hovered DX7 potentiometer can't be modulated (can't be modulation target), when you press the Tab key over it.
 
-:warning: Please remember all button-based DX7 parameters, any envelopes **LEVEL**, **OP BREAKPOINT**, **OP L. CURVE** and **OP R. CURVE** potentiometers (for any operator), and the **OUTPUT LEVEL** (master) potentiometer, cannot become a modulation target!
+:warning: Please remember all button-based DX7 parameters (**MONOPHONIC** toggle, **OP SWITCH** toggles, **OP MODE** toggles, **LFO KEY SYNC** toggle, **OSC KEY SYNC** toggle, **LFO WAVEFORM** toggle, any envelope **LEVEL**s, **OP BREAKPOINT**, **OP L. CURVE**, and **OP R. CURVE** potentiometers (for any operator), and **PITCH LEVEL**s cannot become a modulation target!
