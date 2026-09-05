@@ -24,7 +24,6 @@ This will be the User's Manual for _DeXtral Kompakt_ module, **33HP** polyphonic
 
 ...below temporary draft section...
 
-- [**MOD. KEY**](#modkey)
 - [**MODULATION MATRIX: NOT SUPPORTED TARGETS**](#notsupptargs)
 
 ---
@@ -40,9 +39,9 @@ Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (usi
 
 Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
 
-In fact, the Yamaha DX7 is using a very close FM variant, named **PM** (**Phase Modulation**).
+When the DX7 was introduced, the sales department of Yamaha marketed it as a FM synthesizer, likely for marketing reasons, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a variant very close to FM.
 
-The DX7 synthesizer was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
+The Yamaha DX7 was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
 The _DeXtral Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle, and modulation matrices), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
@@ -160,18 +159,6 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 ---
 
-### MOD. KEY<a name="modkey"></a>
-
-**Mod. key** stands for **modifier key**.
-
-Default factory is the **Tab** key, because **left Control** (**left Command** on MacOS X computers) are used by VCV Rack 2 core to do fine potentiometer adjustments, when held, also **Alt** keys (**Option** keys on MacOS X computers) are reserved by VCV Rack 2 core to scroll the view in the rack by moving the mouse cursor, and **left Shift** is used by VCV Rack 2 core to do coarse (high speed rotation) potentiometer adjustments.
-
-:information_source: Mod. key can be changed from **Preferences** screen. Instead of default **Tab** key, mod. key would be, as 2nd choice, **left Control** (**left Command** on MacOS X computers) but it's not recommended due to potential conflict vs. VCV Rack 2 _fine potentiometer adjust_ feature. Other possible key, as 3rd choice, would be the **T** letter key (unfortunately, **M** - for **M**odulation - is not possible, due to different mappings between localized keyboards).
-
-From **Modulation Matrix** screen, both _DeXtral_ and _DeXtral Kompakt_ modules accept the **mod. key**, but also **left Control** (**left Command** on MacOS X computer), over **SOURCE** and **TARGET** boxes: when the source or target box is hovered by mouse cursor, the box and parameter's name are highlighted as **yellow** color (instead of cyan): by "touching" the box (left-mouse button click) **while the mod. key (or left Control / left Command) is held**, this jump to the next pertinent "group" (e.g. for targets: EG BIAS, first operator COARSE, second operator COARSE... first LFO speed, first PITCH envelope RATE1, P MOD SENS, TRANSPOSE, FEEDBACK, then cycle to "not set", then EG BIAS again, an so on), instead of browsing all 90 possible DX7 parameters, sequentially, who become a tedious and boring task. It's not the best way, of course, but a better way to reach the desired target more quickly (by reducing the required amount of left-mouse button clicks over the target box, in particular).
-
----
-
 ### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
 
 Following DX7 parameters cannot be possible modulation target:
@@ -187,4 +174,3 @@ Following DX7 parameters cannot be possible modulation target:
 - OSC KEY SYNC toggle button.
 - LFO WAVEFORM selector button.
 - PITCH EG LEVELs (L1, L2, L3, L4) potentiometers.
-- OUTPUT LEVEL potentiometer (master volume).
