@@ -174,3 +174,4 @@ Following DX7 parameters cannot be possible modulation target:
 - OSC KEY SYNC toggle button.
 - LFO WAVEFORM selector button.
 - PITCH EG LEVELs (L1, L2, L3, L4) potentiometers.
+- FEEDBACK.
