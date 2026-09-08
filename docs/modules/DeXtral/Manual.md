@@ -124,14 +124,16 @@ You can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
-- Modulation targets: 118 (most DX7 parameters, plus EG BIAS).
-- Modulation ranges: -100% to +100% (applying an offset), or 0 to 100% (absolute modulation, replace the parameter given by its potentiometer).
-- Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
+- Modulation targets: 90 (most DX7 parameters, plus EG BIAS).
+- Modulation amounts: both min. & max. (max. is always higher than min.), using dual fader to set-up, -100% to +100%.
+- Amount behaviors: absolute (replacing the parameter), relative (applying an offset around the parameter), disabled (ignored modulation).
+- Default amount (on added modulation): min. 0% max. +100%, as absolute modulation.
+- Amounts reset by right-mouse button click over fader: 0% ~ +100% (absolute), or 0% ~ 0% (relative). No effect while disabled.
+- [Fast target assignment](#fastassign) to new modulation, by holding the Tab key first. **Not applicable for DeXtral Kompakt!**
 - Global preferences (via dedicated screen). Access from MENU button.
 - Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
 - Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
-- Mod key (default is left Control / left Command on MacOS X computers), can be changed from "Preferences".
 - Touchscreen brightness: adjustable from "Preferences" screen.
 - Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
