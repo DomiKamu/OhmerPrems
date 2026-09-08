@@ -117,9 +117,11 @@ You can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
-- Modulation targets: 118 (most DX7 parameters, plus EG BIAS).
-- Modulation ranges: -100% to +100% (applying an offset), or 0 to 100% (absolute modulation, replace the parameter given by its potentiometer).
-- Modulation effect can be inverted (via. INV. checkbox), and can be temporary disabled.
+- Modulation targets: 91 (most DX7 parameters, plus EG BIAS).
+- Modulation amounts: both min. & max. (max. is always higher than min.), using dual fader to set-up, -100% to +100%.
+- Amount behaviors: absolute (replacing the parameter), relative (applying an offset around the parameter), disabled (ignored modulation).
+- Default amount (on added modulation): min. 0% max. +100%, as absolute modulation.
+- Amounts reset by right-mouse button click over fader: 0% ~ +100% (absolute), or 0% ~ 0% (relative). No effect while disabled.
 - View DX7 parameters for current voice (via 8 screens, by rotating the continuous encoder). Access from MENU button.
 - Global preferences (via dedicated screen). Access from MENU button.
 - Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
