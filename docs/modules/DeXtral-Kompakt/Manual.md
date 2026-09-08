@@ -117,7 +117,7 @@ You can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
-- Modulation targets: 90 (most DX7 parameters, plus EG BIAS).
+- Modulation targets: 91 (most DX7 parameters, EG BIAS).
 - Modulation amounts: both min. & max. (max. is always higher than min.), using dual fader to set-up, -100% to +100%.
 - Amount behaviors: absolute (replacing the parameter), relative (applying an offset around the parameter), disabled (ignored modulation).
 - Default amount (on added modulation): min. 0% max. +100%, as absolute modulation.
@@ -163,7 +163,7 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 ### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
 
-Following DX7 parameters cannot be possible modulation target:
+Following DX7 parameters cannot be a possible modulation target:
 
 - MONOPHONIC toggle switch.
 - OP SWITCH (operator on/off toggle button).
@@ -176,4 +176,3 @@ Following DX7 parameters cannot be possible modulation target:
 - OSC KEY SYNC toggle button.
 - LFO WAVEFORM selector button.
 - PITCH EG LEVELs (L1, L2, L3, L4) potentiometers.
-- FEEDBACK.
