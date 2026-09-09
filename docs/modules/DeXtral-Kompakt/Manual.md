@@ -56,6 +56,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **SysEx** stands for MIDI System Exclusive files (.syx extension), can host a whole 32-voice bank (VMEM), or a single voice (VCED).
 - **VMEM** is a particular DX7 SysEx _packed_ file format (defined by Yamaha) to store a whole 32-voice bank.
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
+- **Jack** refers to connector who receive a patch cord. Also named **"port"** in VCV Rack environment.
 
 Proprietary binary file formats provided by both _DeXtral Kompakt_ and _DeXtral_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
 
@@ -116,13 +117,13 @@ You can consider:
 - Bank+voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
-- Modulation sources: 12, via input jacks (VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, CV8).
+- Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
 - Modulation targets: 91 (most DX7 parameters, EG BIAS).
-- Modulation amounts: both min. & max. (max. is always higher than min.), using dual fader to set-up, -100% to +100%.
-- Amount behaviors: absolute (replacing the parameter), relative (applying an offset around the parameter), disabled (ignored modulation).
-- Default amount (on added modulation): min. 0% max. +100%, as absolute modulation.
+- Modulation amounts: both min. & max. (max. is always higher than min.), using dual-fader to set min. & max. amounts, -100% to +100%.
+- Modulation behaviors: ABSOLUTE (replacing the parameter), RELATIVE (applying an offset around the parameter), DISABLED (ignored modulation).
+- Default amounts: min. 0% max. +100% for absolute modulations (full parameter), min. 0% max. 0% for relative modulations (no effect).
 - Amounts reset by right-mouse button click over fader: 0% ~ +100% (absolute), or 0% ~ 0% (relative). No effect while disabled.
-- View DX7 parameters for current voice (via 8 screens, by rotating the continuous encoder). Access from MENU button.
+- View DX7 parameters for current voice (via 8 pages, by rotating the continuous encoder). Access from MENU button.
 - Global preferences (via dedicated screen). Access from MENU button.
 - Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
 - Mod key: not supported (feature reserved to _DeXtral_ module only).
