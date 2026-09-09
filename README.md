@@ -22,9 +22,9 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 *OhmerPrems* plugin is a set of 8 modules (5 are operational), plus 5 as _expander_ (sorted alphabetically by names):
 
-- **DeXtral** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) synthesizer voice module, mainly accurate for DX7 sound design. Its [**User's Manual**](docs/modules/DeXtral/Manual.md) is under construction, too, during module development.
+- **DeXtral** is a **Work In Progress** 117HP 6-operator 32-algorithm phase modulation (PM) polyphonic synthesizer voice module, mainly accurate for DX7 sound design. Its [**User's Manual**](docs/modules/DeXtral/Manual.md) is under construction, too (during module development).
 
-- **DeXtral Kompakt** is also a **Work In Progress** (parallel development) compact version of the _DeXtral_ module, significantly thinner (33HP, instead of 117), but **without possibility to edit DX7 synth parameters** (except **MONOPHONIC** state toggle, and fully - editable - modulation matrices). Its [**User's Manual**](docs/modules/DeXtral-Kompakt/Manual.md) is under construction, too, during module development.
+- **DeXtral Kompakt** is a **Work In Progress** (parallel development) compact version of the _DeXtral_ module, significantly thinner (33HP, instead of 117), but **without way to edit DX7 synth parameters** (except **MONOPHONIC** state toggle, and modulation matrices). Its [**User's Manual**](docs/modules/DeXtral-Kompakt/Manual.md) is under construction, too (during module development).
 
 - **FranKe** is a 80HP 16-step 8-track 64-pattern analog sequencer module. [**FranKe User's Manual**](docs/modules/FranKe/Manual.md) (this long manual remains under construction, but it's ready for basic usage of this sequencer and good starting point!).
 
