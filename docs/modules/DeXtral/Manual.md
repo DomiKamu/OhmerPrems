@@ -125,7 +125,7 @@ You can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
-- Modulation targets: 91 (most DX7 parameters, EG BIAS).
+- Modulation targets: 119 (most DX7 parameters, plus EG BIAS). [List of not supported targets, below](#notsupptargs)
 - Modulation amounts: both min. & max. (max. is always higher than min.), using dual-fader to set min. & max. amounts, -100% to +100%.
 - Modulation behaviors: ABSOLUTE (replacing the parameter), RELATIVE (applying an offset around the parameter), DISABLED (ignored modulation).
 - Default amounts: min. 0% max. +100% for absolute modulations (full parameter), min. 0% max. 0% for relative modulations (no effect).
@@ -173,19 +173,17 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 ### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
 
-Following DX7 parameters cannot be a possible modulation target:
+Following DX7 parameters can't become a possible modulation target:
 
 - MONOPHONIC toggle switch.
 - OP SWITCH (operator on/off toggle button).
 - OP MODE (RATIO/FIXED toggle button).
-- OP EG LEVELs (L1, L2, L3, L4) potentiometers.
 - OP BREAKPOINT potentiometer (displayed as "BREAK POINT=" on DX7-emulated LCD/OLED display).
 - OP L. CURVE potentiometer.
 - OP R. CURVE potentiometer.
 - LFO KEY SYNC toggle button.
 - OSC KEY SYNC toggle button.
 - LFO WAVEFORM selector button.
-- PITCH EG LEVELs (L1, L2, L3, L4) potentiometers.
 
 ---
 
