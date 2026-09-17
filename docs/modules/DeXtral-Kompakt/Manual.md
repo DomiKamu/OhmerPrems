@@ -164,7 +164,7 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 ### MODULATION MATRIX: NOT SUPPORTED TARGETS<a name="notsupptargs"></a>
 
-Following DX7 parameters cannot be a possible modulation target:
+Following DX7 parameters can't become a possible modulation target:
 
 - MONOPHONIC toggle switch.
 - OP SWITCH (operator on/off toggle button).
