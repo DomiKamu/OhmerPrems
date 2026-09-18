@@ -26,6 +26,7 @@ This will be the User's Manual for DeXtral module, **117HP** 6-operator algorith
 
 ...below temporary draft section...
 
+- [**HOW THE MODULATIONS ARE WORKING?**](#howmodwork)
 - [**MODULATION MATRIX: NOT SUPPORTED TARGETS**](#notsupptargs)
 - [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign)
 
@@ -168,6 +169,20 @@ All modulation matrices are empty.
 You'll can assume these factory **.dexsynth** files can be a good start point for your projects who are using one or many DeXtral synth voice module(s), without effort.
 
 :warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both DeXtral and DeXtral Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
+
+---
+
+### HOW THE MODULATIONS ARE WORKING?<a name="howmodwork"></a>
+
+Due to optimizations (in order to reduce CPU load), the modulations process is, basically:
+
+- All declared modulations are processed every 8 DSP frames (instead of realtime).
+- Only declared modulations who have source, target and behavior as ABSOLUTE or RELATIVE are processed.
+- Modulation source is not processed if the related input jack is not connected.
+- ABSOLUTE modulations (same source and target, ABSOLUTE): only the lastest declared (who have the greater slot number) will be used.
+- RELATIVE modulations (same source and target, RELATIVE): all are used (and cumulated).
+- ABSOLUTE modulation is always processed before RELATIVE modulation(s), for same source and target.
+- **In the early releases**, only the **first channel** is processed for (possible) polyphonic VEL, AFT, or RETRIG. input jacks.
 
 ---
 
