@@ -174,15 +174,15 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 ### HOW THE MODULATIONS ARE WORKING?<a name="howmodwork"></a>
 
-Due to optimizations (in order to reduce CPU load), the modulations process is, basically:
+Due to optimized algorithms (in order to limit CPU load), the modulations process is:
 
-- All declared modulations are processed every 8 DSP frames (instead of realtime).
-- Only declared modulations who have source, target and behavior as ABSOLUTE or RELATIVE are processed.
-- Modulation source is not processed if the related input jack is not connected.
-- ABSOLUTE modulations (same source and target, ABSOLUTE): only the lastest declared (who have the greater slot number) will be used.
+- All "active" modulations are processed every 8 DSP frames (instead of realtime).
+- Active modulation have source, target and behavior as ABSOLUTE or RELATIVE, and related source jack must be connected.
+- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest declared (who have the greatest slot number) will be used.
 - RELATIVE modulations (same source and target, RELATIVE): all are used (and cumulated), from top to bottom.
 - ABSOLUTE modulation ((same source and target) is always processed before RELATIVE modulation(s).
 - **In the early releases**, only the **first channel** is processed from (possible) polyphonic VEL, AFT, or RETRIG. input jacks.
+- In accordance vs. **VCV MIDI-CV** module specs, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphony.
 
 ---
 
