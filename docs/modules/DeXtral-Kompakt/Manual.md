@@ -171,9 +171,9 @@ Due to optimizations (in order to reduce CPU load), the modulations process is, 
 - Only declared modulations who have source, target and behavior as ABSOLUTE or RELATIVE are processed.
 - Modulation source is not processed if the related input jack is not connected.
 - ABSOLUTE modulations (same source and target, ABSOLUTE): only the lastest declared (who have the greater slot number) will be used.
-- RELATIVE modulations (same source and target, RELATIVE): all are used (and cumulated).
-- ABSOLUTE modulation is always processed before RELATIVE modulation(s), for same source and target.
-- **In the early releases**, only the **first channel** is processed for (possible) polyphonic VEL, AFT, or RETRIG. input jacks.
+- RELATIVE modulations (same source and target, RELATIVE): all are used (and cumulated), from top to bottom.
+- ABSOLUTE modulation ((same source and target) is always processed before RELATIVE modulation(s).
+- **In the early releases**, only the **first channel** is processed from (possible) polyphonic VEL, AFT, or RETRIG. input jacks.
 
 ---
 
