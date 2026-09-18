@@ -182,6 +182,7 @@ Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations 
 Following DX7 parameters can't become a possible modulation target:
 
 - MONOPHONIC toggle switch.
+- GLISSANDO potentiometer (**not yet designed**).
 - OP SWITCH (operator on/off toggle button).
 - OP MODE (RATIO/FIXED toggle button).
 - OP BREAKPOINT potentiometer (displayed as "BREAK POINT=" on DX7-emulated LCD/OLED display).
