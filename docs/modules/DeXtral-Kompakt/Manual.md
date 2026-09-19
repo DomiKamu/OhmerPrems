@@ -145,12 +145,14 @@ Following inputs are **mandatory** in order to output sounds:
 
 Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
 
-- **VEL.**: unipolar 0V to +10V, polyphonic. Default is DX7 0-100, can be extended to 0-127 (from "Preferences" screen).
+- **VEL.**: unipolar 0V to +10V, polyphonic. Default is DX7 (0 to 100), can be extended to 127 from "Preferences" screen.
 - **AFT.**: unipolar 0V to +10V, polyphonic. Channel aftertouch.
 - **MW**: unipolar 0V to +10V, monophonic. Modulation wheel.
 - **PB**: bipolar -5V to +5V, monophonic. Pitchbender wheel.
 - **RETRIG.**: unipolar 0V to +10V, polyphonic.
 - **CV1** to **CV8**: bipolar -5V to +5V, monophonic.
+
+:warning: **In the early DeXtral Kompakt releases**, only the **first channel** is processed from potential polyphonic input jacks (VEL., AFT., RETRIG.).
 
 ---
 ---
