@@ -152,13 +152,14 @@ Following inputs are **mandatory** in order to output sounds:
 - **V/OCT**: -5V (international **A0**, DX7 convention **A-1**) to +5.583V (international **G9**, DX7 convention **G8**).
 - **GATE**: 0V or +10V, polyphonic (threshold is +1V to open gate).
 
+Please notice the **RETRIG.** input is optional. It will be used together with **OSC KEY SYNC** and/or **LFO KEY SYNC** (when enabled). Unipolar 0V to +10V, polyphonic (threshold is +1V, like GATE).
+
 Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
 
 - **VEL.**: unipolar 0V to +10V, polyphonic. Default is DX7 (0 to 100), can be extended to 127 from "Preferences" screen.
 - **AFT.**: unipolar 0V to +10V, polyphonic. Channel aftertouch.
 - **MW**: unipolar 0V to +10V, monophonic. Modulation wheel.
 - **PB**: bipolar -5V to +5V, monophonic. Pitchbender wheel.
-- **RETRIG.**: unipolar 0V to +10V, polyphonic.
 - **CV1** to **CV8**: bipolar -5V to +5V, monophonic.
 
 :warning: **In the early DeXtral releases**, only the **first channel** is processed from potential polyphonic input jacks (VEL., AFT., RETRIG.).
@@ -198,11 +199,11 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations process is:
 
 - All "active" modulations are processed every 8 DSP frames (instead of realtime).
-- Active modulation have defined source, target and behavior as ABSOLUTE or RELATIVE, and connected source jack.
-- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest declared (who have the greatest slot number) will be used, other are ignored due to conflict situation.
+- Active modulation have defined source, target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack.
+- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest declared (who have the greatest slot number) will be used, other are ignored due to conflict situation (ABSOLUTE always supersedes the potentiometer setting).
 - RELATIVE modulations (same source and target, RELATIVE): all are used (and cumulated), from top to bottom.
 - ABSOLUTE modulation (same source and target) is always processed before RELATIVE modulation(s).
-- **In the early releases**, only the **first channel** is processed from (possible) polyphonic VEL, AFT, or RETRIG. input jacks.
+- **In the early releases**, only the **first channel** is processed from (possible) polyphonic **VEL.** (velocity) and **AFT.** (aftertouch) input jacks.
 - In accordance vs. **VCV MIDI-CV** module specs, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphony.
 
 ---
