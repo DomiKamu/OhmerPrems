@@ -23,6 +23,7 @@ This will be the User's Manual for DeXtral module, **117HP** 6-operator algorith
 - [**TERMINOLOGY**](#terminology)
 - [**INTRODUCTION & FIRST WORDS**](#intro)
 - [**MODULE SPECIFICATIONS**](#techspecs)
+- [**INPUT VOLTAGE RANGES**](#inputvoltrngs)
 
 ...below temporary draft section...
 
@@ -141,6 +142,24 @@ You can consider:
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
+
+---
+
+### INPUT VOLTAGE RANGES<a name="inputvoltrngs"></a>
+
+Following inputs are **mandatory** in order to output sounds:
+
+- **V/OCT**: -5V (international **A0**, DX7 convention **A-1**) to +5.583V (international **G9**, DX7 convention **G8**).
+- **GATE**: 0V or +10V, polyphonic (threshold is +1V to open gate).
+
+Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
+
+- **VEL.**: unipolar 0V to +10V, polyphonic. Default is DX7 0-100, can be extended to 0-127 (from "Preferences" screen).
+- **AFT.**: unipolar 0V to +10V, polyphonic. Channel aftertouch.
+- **MW**: unipolar 0V to +10V, monophonic. Modulation wheel.
+- **PB**: bipolar -5V to +5V, monophonic. Pitchbender wheel.
+- **RETRIG.**: unipolar 0V to +10V, polyphonic.
+- **CV1** to **CV8**: bipolar -5V to +5V, monophonic.
 
 ---
 ---
