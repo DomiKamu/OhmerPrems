@@ -152,7 +152,7 @@ Following inputs are **mandatory** in order to output sounds:
 - **V/OCT**: -5V (international **A0**, DX7 convention **A-1**) to +5.583V (international **G9**, DX7 convention **G8**).
 - **GATE**: 0V or +10V, polyphonic (threshold is +1V to open gate).
 
-Please notice the **RETRIG.** input is optional. It will be used together with **OSC KEY SYNC** and/or **LFO KEY SYNC** (when enabled). Unipolar 0V to +10V, polyphonic (threshold is +1V, like GATE).
+Please notice the **RETRIG.** input is highly recommended, because it will be used together with **OSC KEY SYNC** and/or **LFO KEY SYNC** (when enabled) in order to synchronize operators & LFO phases. Unipolar 0V to +10V, polyphonic (threshold is +1V, like GATE), working as trigger.
 
 Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
 
