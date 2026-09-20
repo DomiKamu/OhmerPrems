@@ -163,7 +163,7 @@ Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations 
 
 - All "active" modulations are processed every 8 DSP frames (instead of realtime).
 - Active modulation stands for assigned modulation who have valid source, valid target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack. Otherwise the existing modulation is assumed as not active (bypassed).
-- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest declared (who have the greatest slot number) will be used, other are ignored due to conflict situation (ABSOLUTE always supersedes the potentiometer setting).
+- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest assignment (who have the highest slot number) will be used, other are ignored due to conflict situation (please keep in mind ABSOLUTE always replaces the potentiometer setting).
 - ABSOLUTE modulation (same source and target) is always processed before RELATIVE modulation(s).
 - RELATIVE modulations (same source and target, RELATIVE): all are used (cumulated), from top to bottom. Reference is the lone assigned ABSOLUTE, or the related DX7 potentiometer if no assigned as ABSOLUTE.
 - **In the early releases**, only the **first channel** is processed from (possible) polyphonic **VEL.** (velocity) and **AFT.** (aftertouch) input jacks.
