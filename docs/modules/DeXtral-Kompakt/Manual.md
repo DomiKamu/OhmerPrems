@@ -22,10 +22,10 @@ This will be the User's Manual for _DeXtral Kompakt_ module, **33HP** 6-operator
 - [**INTRODUCTION & FIRST WORDS**](#intro)
 - [**TECHNICAL SPECIFICATIONS**](#techspecs)
 - [**INPUT VOLTAGE RANGES**](#inputvoltrngs)
+- [**HOW THE MODULATIONS ARE WORKING?**](#howmodwork)
 
 ...below temporary draft section...
 
-- [**HOW THE MODULATIONS ARE WORKING?**](#howmodwork)
 - [**MODULATION MATRIX: NOT SUPPORTED TARGETS**](#notsupptargs)
 
 ---
@@ -156,6 +156,20 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 :warning: **In the early DeXtral Kompakt releases**, only the **first channel** is processed from potential polyphonic input jacks (VEL., AFT., RETRIG.).
 
 ---
+
+### HOW THE MODULATIONS ARE WORKING?<a name="howmodwork"></a>
+
+Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations process is:
+
+- All "active" modulations are processed every 8 DSP frames (instead of realtime).
+- Active modulation stands for assigned modulation who have valid source, valid target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack. Otherwise the existing modulation is assumed as not active (bypassed).
+- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest declared (who have the greatest slot number) will be used, other are ignored due to conflict situation (ABSOLUTE always supersedes the potentiometer setting).
+- ABSOLUTE modulation (same source and target) is always processed before RELATIVE modulation(s).
+- RELATIVE modulations (same source and target, RELATIVE): all are used (cumulated), from top to bottom. Reference is the lone assigned ABSOLUTE, or the related DX7 potentiometer if no assigned as ABSOLUTE.
+- **In the early releases**, only the **first channel** is processed from (possible) polyphonic **VEL.** (velocity) and **AFT.** (aftertouch) input jacks.
+- In accordance to **VCV MIDI-CV** module, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphony.
+
+---
 ---
 ---
 
@@ -182,20 +196,6 @@ All modulation matrices are empty.
 You'll can assume these factory **.dexsynth** files can be a good start point for your projects who are using one or many DeXtral Kompakt synth voice module(s), without effort.
 
 :warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both DeXtral and DeXtral Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
-
----
-
-### HOW THE MODULATIONS ARE WORKING?<a name="howmodwork"></a>
-
-Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations process is:
-
-- All "active" modulations are processed every 8 DSP frames (instead of realtime).
-- Active modulation have defined source, target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack.
-- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest declared (who have the greatest slot number) will be used, other are ignored due to conflict situation (ABSOLUTE always supersedes the potentiometer setting).
-- RELATIVE modulations (same source and target, RELATIVE): all are used (and cumulated), from top to bottom.
-- ABSOLUTE modulation (same source and target) is always processed before RELATIVE modulation(s).
-- **In the early releases**, only the **first channel** is processed from (possible) polyphonic **VEL.** (velocity) and **AFT.** (aftertouch) input jacks.
-- In accordance vs. **VCV MIDI-CV** module specs, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphony.
 
 ---
 
