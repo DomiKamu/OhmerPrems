@@ -152,7 +152,7 @@ Following inputs are **mandatory** in order to output sounds:
 - **V/OCT**: -5V (international **A0**, DX7 convention **A-1**) to +5.583V (international **G9**, DX7 convention **G8**).
 - **GATE**: 0V or +10V, polyphonic (threshold is +1V to open gate).
 
-Please notice the **RETRIG.** input is highly recommended, because it will be used together with **OSC KEY SYNC** and/or **LFO KEY SYNC** (when enabled) in order to synchronize operators & LFO phases. Unipolar 0V to +10V, polyphonic (threshold is +1V, like GATE), working as trigger.
+:warning: The **RETRIG.** (polyphonic) input is highly recommended, because it will be used together along **OSC KEY SYNC** and/or **LFO KEY SYNC** (when enabled) DX7 parameters, in order to restart (sync.) oscillators and LFO phases. Unipolar 0V to +10V, polyphonic (threshold is +1V, like GATE), working as trigger.
 
 Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
 
@@ -161,8 +161,6 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 - **MW**: unipolar 0V to +10V, monophonic. Modulation wheel.
 - **PB**: bipolar -5V to +5V, monophonic. Pitchbender wheel.
 - **CV1** to **CV8**: bipolar -5V to +5V, monophonic.
-
-:warning: **In the early DeXtral releases**, only the **first channel** is processed from potential polyphonic input jacks (VEL., AFT., RETRIG.).
 
 ---
 
@@ -175,8 +173,8 @@ Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations 
 - ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest assignment (who have the highest slot number) will be used, other are ignored due to conflict situation (please keep in mind ABSOLUTE always replaces the potentiometer setting).
 - ABSOLUTE modulation (same source and target) is always processed before RELATIVE modulation(s).
 - RELATIVE modulations (same source and target, RELATIVE): all are used (cumulated), from top to bottom. Reference is the lone assigned ABSOLUTE, or the related DX7 potentiometer if no assigned as ABSOLUTE.
-- **In the early releases**, only the **first channel** is processed from (possible) polyphonic **VEL.** (velocity) and **AFT.** (aftertouch) input jacks.
-- In accordance to **VCV MIDI-CV** module, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphony.
+- Two inputs may be polyphonic (up to 16 channels): **VEL.** (velocity), and **AFT.** (aftertouch).
+- In accordance to **VCV MIDI-CV** module, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphonic voltages.
 
 ---
 ---
@@ -213,6 +211,7 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 Following DX7 parameters can't become a possible modulation target:
 
 - MONOPHONIC toggle switch.
+- PORTAMENTO toggle switch (**not yet designed/implemented**).
 - GLISSANDO potentiometer (**not yet designed/implemented**).
 - OP SWITCH (operator on/off toggle buttons).
 - OP MODE (RATIO/FIXED toggle buttons).
