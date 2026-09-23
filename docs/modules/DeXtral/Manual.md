@@ -147,7 +147,7 @@ You can consider:
 
 ### INPUT VOLTAGE RANGES<a name="inputvoltrngs"></a>
 
-Following inputs are **mandatory** in order to output sounds:
+Following inputs are **mandatory** in order the synthesizer generates sounds:
 
 - **V/OCT**: -5V (international **A0**, DX7 convention **A-1**) to +5.583V (international **G9**, DX7 convention **G8**).
 - **GATE**: 0V or +10V, polyphonic (threshold is +1V to open gate).
@@ -170,9 +170,9 @@ Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations 
 
 - All "active" modulations are processed every 8 DSP frames (instead of realtime).
 - Active modulation stands for assigned modulation who have valid source, valid target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack. Otherwise the existing modulation is assumed as not active (bypassed).
-- ABSOLUTE modulations (same source, same target): only the first assignment (who have the lowest slot number, from top to bottom) will be used, other absolutes are ignored due to conflictual situation (please keep in mind an ABSOLUTE modulation always overrides the potentiometer setting).
-- ABSOLUTE modulation (same source, same target) is always processed before RELATIVE modulation(s).
-- RELATIVE modulations (same source, same target, RELATIVE): all are used (cumulative), from top to bottom. Reference is the lone considered ABSOLUTE, or the related DX7 potentiometer if no assigned as ABSOLUTE.
+- ABSOLUTE modulations (same source, same target): only the first active assignment (who have the lowest slot number, from top to bottom) will be used, other absolutes are ignored (due to conflictual situation - please keep in mind an ABSOLUTE modulation always overrides the potentiometer setting).
+- ABSOLUTE modulation (same source, same target, ABSOLUTE as behavior) is always processed before any RELATIVE modulation(s).
+- RELATIVE modulations (same source, same target, RELATIVE): all are used (cumulative), from top to bottom. Reference is the lone considered ABSOLUTE, otherwise it's the related DX7 potentiometer.
 - Two inputs may be polyphonic (up to 16 channels): **VEL.** (velocity), and **AFT.** (aftertouch).
 - In accordance to **VCV MIDI-CV** module, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphonic voltages.
 
@@ -226,11 +226,11 @@ Following DX7 parameters can't become a possible modulation target:
 
 ### MODULATION MATRIX: FAST TARGET ASSIGNMENT<a name="fastassign"></a>
 
-To do a quick assign of DX7 parameter as "target" into a new modulation slot:
+To do a **fast assignment** of DX7 parameter as "target" into a new modulation slot (from _DeXtral_ module exclusively):
 
 - Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to assign as new modulation target.
 - Press & hold the **Tab** key: a **fast blinking purple square** surrounding the potentiometer confirms the selected DX7 parameter.
-- Touch the potentiometer (left-mouse button click) to create new modulation, by using the selected DX7 parameter as modulation target.
+- Touch the potentiometer (left-mouse button click) to create the new modulation, by using the selected DX7 parameter as modulation target.
 
 By doing this action, the module's firmware adds a new modulation "slot" (this operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. Added modulation is always located at the bottom of the display (the lastest who have a touchable red cross icon). The selected DX7 parameter is defined as modulation target (instead of empty if you had used the touchable green "+" icon), modulation behavior is set to **ABSOLUTE** by default, minimum amount is set to 0%, maximum amount to 100% (but the fader stays grayed while the modulation source is not defined). Then, you'll must define the modulation source (one of the input jack at the left side of the module), adjust the behavior of the modulation as required (choices are **ABSOLUTE**, **RELATIVE**, or **DISABLED**), then the min. and max. amounts of the modulation (via the dual-fader).
 
