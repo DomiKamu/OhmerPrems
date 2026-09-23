@@ -138,7 +138,7 @@ You can consider:
 
 ### INPUT VOLTAGE RANGES<a name="inputvoltrngs"></a>
 
-Following inputs are **mandatory** in order to output sounds:
+Following inputs are **mandatory** in order the synthesizer generates sounds:
 
 - **V/OCT**: -5V (international **A0**, DX7 convention **A-1**) to +5.583V (international **G9**, DX7 convention **G8**).
 - **GATE**: 0V or +10V, polyphonic (threshold is +1V to open gate).
@@ -161,9 +161,9 @@ Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations 
 
 - All "active" modulations are processed every 8 DSP frames (instead of realtime).
 - Active modulation stands for assigned modulation who have valid source, valid target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack. Otherwise the existing modulation is assumed as not active (bypassed).
-- ABSOLUTE modulations (same source, same target): only the first assignment (who have the lowest slot number, from top to bottom) will be used, other absolutes are ignored due to conflictual situation (please keep in mind an ABSOLUTE modulation always overrides the potentiometer setting).
-- ABSOLUTE modulation (same source, same target) is always processed before RELATIVE modulation(s).
-- RELATIVE modulations (same source, same target, RELATIVE): all are used (cumulative), from top to bottom. Reference is the lone considered ABSOLUTE, or the raw DX7 parameter if no assigned as ABSOLUTE.
+- ABSOLUTE modulations (same source, same target): only the first active assignment (who have the lowest slot number, from top to bottom) will be used, other absolutes are ignored (due to conflictual situation - please keep in mind an ABSOLUTE modulation always overrides the raw DX7 parameter).
+- ABSOLUTE modulation (same source, same target, ABSOLUTE as behavior) is always processed before any RELATIVE modulation(s).
+- RELATIVE modulations (same source, same target, RELATIVE): all are used (cumulative), from top to bottom. Reference is the lone considered ABSOLUTE, otherwise it's the raw DX7 parameter.
 - Two inputs may be polyphonic (up to 16 channels): **VEL.** (velocity), and **AFT.** (aftertouch).
 - In accordance to **VCV MIDI-CV** module, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphonic voltages.
 
