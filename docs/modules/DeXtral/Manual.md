@@ -236,6 +236,6 @@ By doing this action, the module's firmware adds a new modulation "slot" (this o
 
 In case of the mouse pointer "leaves" the potentiometer area, the Tab key action is automatically disarmed (no more fast blinking purple square). So retry the process explained just above!
 
-The **fast blinking purple square** doesn't appear if the hovered DX7 potentiometer can't be modulated when you press the Tab key over it (concerns all switches, and operator-related BREAKPOINT / L.CURVE / R.CURVE potentiometers).
+The **fast blinking purple square** doesn't appear if the hovered DX7 potentiometer can't be modulated when you press the Tab key over it (this concerns all switches, and operator-related BREAKPOINT / L.CURVE / R.CURVE potentiometers).
 
 :warning: Please read [MODULATION MATRIX: NOT SUPPORTED TARGETS](#notsupptargs) above, concerning non supported modulation targets!
