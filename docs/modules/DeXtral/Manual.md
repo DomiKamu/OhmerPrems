@@ -170,9 +170,9 @@ Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations 
 
 - All "active" modulations are processed every 8 DSP frames (instead of realtime).
 - Active modulation stands for assigned modulation who have valid source, valid target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack. Otherwise the existing modulation is assumed as not active (bypassed).
-- ABSOLUTE modulations (same source and target, all ABSOLUTE): only the lastest assignment (who have the highest slot number) will be used, other are ignored due to conflict situation (please keep in mind ABSOLUTE always replaces the potentiometer setting).
-- ABSOLUTE modulation (same source and target) is always processed before RELATIVE modulation(s).
-- RELATIVE modulations (same source and target, RELATIVE): all are used (cumulated), from top to bottom. Reference is the lone assigned ABSOLUTE, or the related DX7 potentiometer if no assigned as ABSOLUTE.
+- ABSOLUTE modulations (same source, same target): only the first assignment (who have the lowest slot number, from top to bottom) will be used, other absolutes are ignored due to conflictual situation (please keep in mind an ABSOLUTE modulation always overrides the potentiometer setting).
+- ABSOLUTE modulation (same source, same target) is always processed before RELATIVE modulation(s).
+- RELATIVE modulations (same source, same target, RELATIVE): all are used (cumulative), from top to bottom. Reference is the lone considered ABSOLUTE, or the related DX7 potentiometer if no assigned as ABSOLUTE.
 - Two inputs may be polyphonic (up to 16 channels): **VEL.** (velocity), and **AFT.** (aftertouch).
 - In accordance to **VCV MIDI-CV** module, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphonic voltages.
 
