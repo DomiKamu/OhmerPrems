@@ -121,10 +121,10 @@ You can consider:
 - Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
 - Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
 - Modulation targets: 119 (most DX7 parameters, plus EG BIAS). [List of not supported targets, below](#notsupptargs)
-- Modulation amounts: both min. & max. (max. is always higher than min.), using dual-fader to set min. & max. amounts, -100% to +100%.
+- Modulation amount: using fader to set the amount from -100% to +100%.
 - Modulation behaviors: ABSOLUTE (replacing the parameter), RELATIVE (applying an offset around the parameter), DISABLED (ignored modulation).
-- Default amounts: min. 0% max. +100% for absolute modulations (full parameter), min. 0% max. 0% for relative modulations (no effect).
-- Amounts reset by right-mouse button click over fader: 0% ~ +100% (absolute), or 0% ~ 0% (relative). No effect while disabled.
+- Default amount: min. 0% max. +100% for absolute modulations (full parameter), min. 0% max. 0% for relative modulations (no applied offset).
+- Amount reset by right-mouse button click over fader: 0% ~ +100% (absolute), or 0% ~ 0% (relative). No effect while disabled.
 - View DX7 parameters for current voice (via 8 pages, by rotating the continuous encoder). Access from MENU button.
 - Global preferences (via dedicated screen). Access from MENU button.
 - Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
@@ -147,7 +147,7 @@ Following inputs are **mandatory** in order the synthesizer generates sounds:
 
 Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
 
-- **VEL.**: unipolar 0V to +10V, can be polyphonic. Default is DX7 (0 to 100), can be extended to 127 from "Preferences" screen.
+- **VEL.**: unipolar 0V to +10V, can be polyphonic. Default is DX7 velocity range (0 to 100).
 - **AFT.**: unipolar 0V to +10V, can be polyphonic. Channel aftertouch.
 - **MW**: unipolar 0V to +10V, monophonic. Modulation wheel.
 - **PB**: bipolar -5V to +5V, monophonic. Pitchbender wheel.
