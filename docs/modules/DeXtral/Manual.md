@@ -112,7 +112,7 @@ You can consider:
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
 - Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
 - Frequency response: from 27.5Hz (DX7 A-1 / international A0), to 8372.018Hz (DX7 C8 / international C9).
-- Band-limiting: up to Nyquist frequency (half of sample rate).
+- Band-limiting: min. 0.001Hz, up to [Nyquist–Shannon frequency](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) (half of VCV Rack engine's sample rate).
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono, but polyphonic).
@@ -129,15 +129,15 @@ You can consider:
 - Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
 - Modulation targets: 119 (most DX7 parameters, plus **EG BIAS**). [List of not supported targets, below](#notsupptargs)
 - Modulation amount: by using fader, to set from -100% (left) to +100% (right).
-- Modulation behaviors: **ACTIVE** (enabled, applying an offset/amount around the parameter), or **BYPASSED** (the modulation is ignored).
+- Modulation behaviors: **ENABLED** (can apply an offset/amount around the parameter), or **BYPASSED** (the modulation is ignored).
 - Default modulation amount: 0% (no applied offset).
-- Amount reset by right-mouse button click over fader (when active): 0% (no applied offset).
-- [Fast target assignment](#fastassign) to new modulation, by holding the Tab key first. **Not applicable for DeXtral Kompakt!**
+- Amount reset by right-mouse button click over the fader (only when enabled): 0% (no applied modulation amount).
+- [Fast target assignment](#fastassign) to create new modulation (**Not applicable for DeXtral Kompakt module!**)
 - Global preferences (via dedicated screen). Access from MENU button.
 - Intuitive graphic envelope editor (OP AMP envelopes, PITCH envelope).
 - Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
 - Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
-- Touchscreen brightness: adjustable from "Preferences" screen.
+- Touchscreen brightness: adjustable from "Preferences" screen (by turning left continuous encoder).
 - Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
