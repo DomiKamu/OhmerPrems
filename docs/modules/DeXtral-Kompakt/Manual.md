@@ -118,13 +118,13 @@ You can consider:
 - DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank+voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
-- Modulation Matrix (via MENU button): each voice can use up to 28 customizable modulations.
+- Modulation Matrix (via MENU button): each voice can host up to 28 modulation slots.
 - Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
-- Modulation targets: 119 (most DX7 parameters, plus EG BIAS). [List of not supported targets, below](#notsupptargs)
-- Modulation amount: using fader to set the amount from -100% to +100%.
-- Modulation behaviors: ABSOLUTE (replacing the parameter), RELATIVE (applying an offset around the parameter), DISABLED (ignored modulation).
-- Default amount: min. 0% max. +100% for absolute modulations (full parameter), min. 0% max. 0% for relative modulations (no applied offset).
-- Amount reset by right-mouse button click over fader: 0% ~ +100% (absolute), or 0% ~ 0% (relative). No effect while disabled.
+- Modulation targets: 119 (most DX7 parameters, plus **EG BIAS**). [List of not supported targets, below](#notsupptargs)
+- Modulation amount: by using fader, to set from -100% (left) to +100% (right).
+- Modulation behaviors: **ACTIVE** (enabled, applying an offset/amount around the parameter), or **BYPASSED** (the modulation is ignored).
+- Default modulation amount: 0% (no applied offset).
+- Amount reset by right-mouse button click over fader (when active): 0% (no applied offset).
 - View DX7 parameters for current voice (via 8 pages, by rotating the continuous encoder). Access from MENU button.
 - Global preferences (via dedicated screen). Access from MENU button.
 - Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
@@ -141,9 +141,9 @@ You can consider:
 Following inputs are **mandatory** in order the synthesizer generates sounds:
 
 - **V/OCT**: -5V (international **A0**, DX7 convention **A-1**) to +5.583V (international **G9**, DX7 convention **G8**).
-- **GATE**: 0V or +10V, polyphonic (threshold is +1V to open gate).
+- **GATE**: 0V or +10V, polyphonic (threshold is +1V to "open the gate").
 
-:warning: The **RETRIG.** (polyphonic) input is highly recommended, because it will be used together along **OSC KEY SYNC** and/or **LFO KEY SYNC** (when enabled) DX7 parameters, in order to restart (sync.) oscillators and LFO phases. Unipolar 0V to +10V, polyphonic (threshold is +1V, like GATE), working as trigger.
+:warning: The **RETRIG.** (polyphonic) input is highly recommended, because it will be used together along **OSC KEY SYNC** and/or **LFO KEY SYNC** (when enabled) DX7 parameters, in order to restart (sync.) respectively oscillators and LFO phases. Unipolar 0V to +10V, polyphonic (threshold is +1V, like GATE), acting as trigger.
 
 Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
 
@@ -157,15 +157,14 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 
 ### HOW THE MODULATIONS ARE WORKING?<a name="howmodwork"></a>
 
-Due to optimized C/C++ algorithms (in order to limit CPU load), the modulations process is:
+Due to optimized C/C++ algorithms (in order to reduce CPU load), the modulations process is:
 
-- All "active" modulations are processed every 8 DSP frames (instead of realtime).
-- Active modulation stands for assigned modulation who have valid source, valid target, behavior set as ABSOLUTE or RELATIVE, and connected source input jack. Otherwise the existing modulation is assumed as not active (bypassed).
-- ABSOLUTE modulations (same source, same target): only the first active assignment (who have the lowest slot number, from top to bottom) will be used, other absolutes are ignored (due to conflictual situation - please keep in mind an ABSOLUTE modulation always overrides the raw DX7 parameter).
-- ABSOLUTE modulation (same source, same target, ABSOLUTE as behavior) is always processed before any RELATIVE modulation(s).
-- RELATIVE modulations (same source, same target, RELATIVE): all are used (cumulative), from top to bottom. Reference is the lone considered ABSOLUTE, otherwise it's the raw DX7 parameter.
-- Two inputs may be polyphonic (up to 16 channels): **VEL.** (velocity), and **AFT.** (aftertouch).
-- In accordance to **VCV MIDI-CV** module, **MW** (modwheel input), **PB** (pitchbender input), and **CV1** to **CV8** inputs don't support polyphonic voltages.
+- Active modulation stands for assigned modulation who have defined source, defined target, behavior set as **ACTIVE**, and connected source input jack. Otherwise the modulation is ignored.
+- All active modulations are processed every 8 DSP frames (instead of realtime).
+- Modulations are always relative to raw DX7 parameter (kind of offset). All are used when ACTIVE (cumulative), from top to bottom.
+- In accordance with **VCV MIDI-CV** module: **VEL.** (velocity), **AFT.** (aftertouch), and **MW** (modwheel) inputs support polyphonic voltages.
+- In accordance with **VCV MIDI-CV** module: **PB** (pitchbender), and **CV1** to **CV8** inputs don't support polyphonic voltages.
+- Except for **PB**, and **CV1 to CV8**, it's highly recommended to use the same source module (to avoid possible polyphony channel disagrees).
 
 ---
 ---
