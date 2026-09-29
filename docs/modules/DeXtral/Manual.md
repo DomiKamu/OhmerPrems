@@ -125,7 +125,7 @@ You can consider:
 - DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank+voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
-- Modulation Matrix (via MENU button): each voice can host up to 28 modulation slots.
+- Modulation Matrix (access via MENU button): each voice can host up to 16 modulation assignments (slots).
 - Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
 - Modulation targets: 119 (most DX7 parameters, plus **EG BIAS**). [List of not supported targets, below](#notsupptargs)
 - Modulation amount: by using fader, to set from -100% (left) to +100% (right).
@@ -231,7 +231,7 @@ To do a **fast assignment** of DX7 parameter as "target" into a new modulation s
 - Press & hold the **Tab** key: a **fast blinking purple square** surrounding the potentiometer confirms the selected DX7 parameter.
 - Touch the potentiometer (left-mouse button click) to create the new modulation, by using the selected DX7 parameter as modulation target.
 
-By doing this action, the module's firmware adds a new modulation "slot" (this operation is ignored if the limit of existing modulations - 28 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. Added modulation is always located at the bottom of the display (the lastest who have a touchable red cross icon). The selected DX7 parameter is defined as modulation target (instead of empty if you had used the touchable green "+" icon), modulation behavior is set to **ACTIVE** by default, amount is set to 0%, but the fader stays grayed while the modulation source is not defined. Then, you'll must define the modulation source (one of the input jack at the left side of the module), adjust the behavior of the modulation as required (choices are **ACTIVE**, or **BYPASSED**), then the amount of the modulation (via the fader).
+By doing this action, the module's firmware adds a new modulation "slot" (this operation is ignored if the limit of existing modulations - 16 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. Added modulation is always located at the bottom of the display (the lastest who have a touchable red cross icon). The selected DX7 parameter is defined as modulation target (instead of empty if you had used the touchable green "+" icon), modulation behavior is set to **ACTIVE** by default, amount is set to 0%, but the fader stays grayed while the modulation source is not defined. Then, you'll must define the modulation source (one of the input jack at the left side of the module), adjust the behavior of the modulation as required (choices are **ACTIVE**, or **BYPASSED**), then the amount of the modulation (via the fader).
 
 In case of the mouse pointer "leaves" the potentiometer area, the Tab key action is automatically disarmed (no more fast blinking purple square). So retry the process explained just above!
 
