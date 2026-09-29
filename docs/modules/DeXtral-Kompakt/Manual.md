@@ -118,7 +118,7 @@ You can consider:
 - DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank+voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
 - 8 assignable CV input jacks (assigments via modulation matrix).
-- Modulation Matrix (via MENU button): each voice can host up to 28 modulation slots.
+- Modulation Matrix (access via MENU button): each voice can host up to 16 modulation assignments (slots).
 - Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
 - Modulation targets: 119 (most DX7 parameters, plus **EG BIAS**). [List of not supported targets, below](#notsupptargs)
 - Modulation amount: by using fader, to set from -100% (left) to +100% (right).
