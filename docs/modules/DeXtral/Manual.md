@@ -44,7 +44,7 @@ Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (usi
 
 Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
 
-When the DX7 was introduced, the sales department of Yamaha marketed it as a FM synthesizer, likely for marketing reasons, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a variant very close to FM.
+When the DX7 was introduced during 1983, the sales department of Yamaha marketed it as a **FM synthesizer**, probably for marketing reasons, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a very close variant to FM, but more stable (in particular at high frequencies).
 
 The Yamaha DX7 was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
