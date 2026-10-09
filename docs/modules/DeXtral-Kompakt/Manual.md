@@ -41,7 +41,7 @@ Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (usi
 
 Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
 
-When the DX7 was introduced, the sales department of Yamaha marketed it as a FM synthesizer, likely for marketing reasons, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a variant very close to FM.
+When the DX7 was introduced during 1983, the sales department of Yamaha marketed it as a **FM synthesizer**, probably for marketing reasons, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a very close variant to FM, but more stable (in particular at high frequencies).
 
 The Yamaha DX7 was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
@@ -105,7 +105,7 @@ You can consider:
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
 - Input jacks: 16 (V/OCT, GATE, VELocity, AFTertouch, PB/pitch wheel, MW/modulation wheel, RETRIGger, VOICE, CV1 to CV8).
 - Frequency response: from 27.5Hz (DX7 A-1 / international A0), to 8372.018Hz (DX7 C8 / international C9).
-- Band-limiting: min. 0.001Hz, up to [Nyquist–Shannon frequency](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) (half of VCV Rack engine's sample rate).
+- Band-limiting: up to [Nyquist–Shannon frequency](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) (half of VCV Rack engine's sample rate).
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
 - Stereo: none (all outputs are mono).
