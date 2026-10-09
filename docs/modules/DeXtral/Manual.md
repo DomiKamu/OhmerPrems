@@ -167,9 +167,9 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 
 Due to optimized C/C++ algorithms (in order to reduce CPU load), the modulations process is:
 
-- Active modulation stands for assigned modulation who have defined source, defined target, behavior set as **ACTIVE**, and connected source input jack. Otherwise the modulation is ignored.
-- Active modulation(s) for related DX7 parameter (potentiometer) glows its purple small LED (located top-right side of the potentiometer).
-- All active modulations are processed every 8 DSP frames (instead of realtime). Related
+- Active modulation stands for assigned modulation who have defined source, defined target, behavior set as **ACTIVE**, and connected source input jack. Otherwise the modulation is ignored (not processed by the module's firmware).
+- Active modulation(s) for related DX7 parameter (potentiometer) **glows its purple small LED** located top-right side of the potentiometer.
+- All active modulations are processed every 8 DSP frames (instead of realtime).
 - Modulations are always relative to raw DX7 parameter (kind of offset). All are used when ACTIVE (cumulative), from top to bottom.
 - In accordance with **VCV MIDI-CV** module: **VEL.** (velocity), **AFT.** (aftertouch), and **MW** (modwheel) inputs support polyphonic voltages.
 - In accordance with **VCV MIDI-CV** module: **PB** (pitchbender), and **CV1** to **CV8** inputs don't support polyphonic voltages.
