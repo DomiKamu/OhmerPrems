@@ -63,7 +63,7 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 - **Jack** refers to connector who receive a patch cord. Also named **"port"** in VCV Rack environment.
 
-Proprietary binary file formats provided by both _DeXtral_ and _DeXtral Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
+Proprietary binary file formats provided by both _DeXtral_ and _DeXtral Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (features who are not supported by native DX7 SysEx):
 
 - **.dexvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 - **.dexcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
@@ -140,7 +140,7 @@ You can consider:
 - Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
-- Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
+- Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** from right click menu, or **Ctrl+I** / **Cmd+I**).
 
 ---
 
