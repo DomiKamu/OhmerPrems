@@ -23,6 +23,7 @@ This will be the User's Manual for _DeXtral Kompakt_ module, **33HP** 6-operator
 - [**TECHNICAL SPECIFICATIONS**](#techspecs)
 - [**INPUT VOLTAGE RANGES**](#inputvoltrngs)
 - [**HOW THE MODULATIONS ARE WORKING?**](#howmodwork)
+- [**POLYPHONY AND OUTPUTS**](#polyoutputs)
 
 ...below temporary draft section...
 
@@ -168,6 +169,14 @@ Due to optimized C/C++ algorithms (in order to reduce CPU load), the modulations
 - In accordance with **VCV MIDI-CV** module: **VEL.** (velocity), **AFT.** (aftertouch), and **MW** (modwheel) inputs support polyphonic voltages.
 - In accordance with **VCV MIDI-CV** module: **PB** (pitchbender), and **CV1** to **CV8** inputs don't support polyphonic voltages.
 - Except for **PB**, and **CV1 to CV8**, it's highly recommended to use the same source module (to avoid possible polyphony channel disagrees).
+
+---
+
+### POLYPHONY AND OUTPUTS<a name="polyoutputs"></a>
+
+The main (master) synthesizer output is always monophonic (one "polyphonic" channel), also mono (the real DX7 wasn't stereo).
+
+All other outputs; like **OP EG ENVELOPE**, **OP EG WAVEFORM**, **P.EG** and **LFO**) can be polyphonic, up to 16 polyphonic channels, the number of channels is depending the polyphony applied on either **V/OCT**, **GATE**, **VEL**, **AFT** and **RETRIG.** input jacks (always the greatest number, if source are from different modules).
 
 ---
 ---
