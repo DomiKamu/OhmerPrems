@@ -85,7 +85,7 @@ You can consider:
 - **DeXtral**, the huge module, either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
 - **DeXtral Kompakt** module, as voice synthesizer for final production in your racks (mainly to save space!).
 
-:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.dexvoice** files, save/load 32-voice cartridge **.dexcart** files, and save/load full synthesizer **.dexsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters (except voice names), and cannot export to DX7 SysEx files.
+:information_source: _DeXtral_ module is capable to create/edit the modulation matrix, for each voice, save/load single-voice **.dexvoice** files, save/load 32-voice cartridge **.dexcart** files, and save/load full synthesizer **.dexsynth** files.
 
 ---
 
