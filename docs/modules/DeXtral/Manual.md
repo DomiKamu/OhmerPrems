@@ -24,6 +24,7 @@ This will be the User's Manual for DeXtral module, **117HP** 6-operator algorith
 - [**INTRODUCTION & FIRST WORDS**](#intro)
 - [**MODULE SPECIFICATIONS**](#techspecs)
 - [**INPUT VOLTAGE RANGES**](#inputvoltrngs)
+- [**PREFERENCES**](#prefs)
 - [**HOW THE MODULATIONS ARE WORKING?**](#howmodwork)
 - [**POLYPHONY AND OUTPUTS**](#polyoutputs)
 
@@ -161,6 +162,24 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 - **MW**: unipolar 0V to +10V, monophonic. Modulation wheel.
 - **PB**: bipolar -5V to +5V, monophonic. Pitchbender wheel.
 - **CV1** to **CV8**: bipolar -5V to +5V, monophonic.
+
+---
+
+### PREFERENCES<a name="prefs"></a>
+
+To access global Preferences screen:
+
+- Press the **MENU** button, located above right side of the touchscreen.
+
+![](_img/MenuButton.png)
+
+- From the OSD drop menu, touch **Preferences...**.
+
+![](_img/PreferencesMenu.png)
+
+- This is the display PREFERENCES screen (here showing default settings).
+
+![](_img/PreferencesScreen.png)
 
 ---
 
