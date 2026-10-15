@@ -66,7 +66,7 @@ Proprietary binary file formats provided by both _DeXtral Kompakt_ and _DeXtral_
 - **.dexcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
 - **.dexsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, all modulation matrices, and global preferences.
 
-:warning: DeXtral Kompakt module is able to open these files, but doesn't save them!
+:warning: DeXtral Kompakt module is able to open **.dexvoice**, **.dexcart**, and **.dexsynth** files, but cannot save to these formats!
 
 ---
 
@@ -80,7 +80,7 @@ You can consider:
 - **DeXtral**, the huge module, either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
 - **DeXtral Kompakt** module, as voice synthesizer for final production in your racks (mainly to save space!).
 
-:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice you'd like, load single-voice **.dexvoice** files, load 32-voice cartridge **.dexcart** files, and load full synthesizer **.dexsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx file.
+:information_source: _DeXtral Kompakt_ module is capable to create/edit the modulation matrix, for each voice, can import DX7 SysEx files, load single-voice **.dexvoice** files, load 32-voice cartridge **.dexcart** files, and load full synthesizer **.dexsynth** files. However, like a "player", this compact module cannot edit DX7 synthesizer parameters, cannot save voice/cart/synth files, and cannot export to DX7 SysEx files.
 
 ---
 
