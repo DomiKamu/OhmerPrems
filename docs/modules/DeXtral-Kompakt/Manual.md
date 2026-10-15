@@ -22,6 +22,7 @@ This will be the User's Manual for _DeXtral Kompakt_ module, **33HP** 6-operator
 - [**INTRODUCTION & FIRST WORDS**](#intro)
 - [**TECHNICAL SPECIFICATIONS**](#techspecs)
 - [**INPUT VOLTAGE RANGES**](#inputvoltrngs)
+- [**PREFERENCES**](#prefs)
 - [**HOW THE MODULATIONS ARE WORKING?**](#howmodwork)
 - [**POLYPHONY AND OUTPUTS**](#polyoutputs)
 
@@ -159,6 +160,24 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 
 ---
 
+### PREFERENCES<a name="prefs"></a>
+
+To access global Preferences screen:
+
+- Press the **MENU** button, located above right side of the touchscreen.
+
+![](_img/MenuButton.png)
+
+- From the OSD drop menu, touch **Preferences...**.
+
+![](_img/PreferencesMenu.png)
+
+- This is the display PREFERENCES screen (here showing default settings).
+
+![](_img/PreferencesScreen.png)
+
+---
+
 ### HOW THE MODULATIONS ARE WORKING?<a name="howmodwork"></a>
 
 Due to optimized C/C++ algorithms (in order to reduce CPU load), the modulations process is:
@@ -176,7 +195,7 @@ Due to optimized C/C++ algorithms (in order to reduce CPU load), the modulations
 
 The main (master) synthesizer output is always monophonic (one "polyphonic" channel), also mono (the real DX7 wasn't stereo).
 
-All other outputs; like **OP EG ENVELOPE**, **OP EG WAVEFORM**, **P.EG** and **LFO**) can be polyphonic, up to 16 polyphonic channels, the number of channels is depending the polyphony applied on either **V/OCT**, **GATE**, **VEL**, **AFT** and **RETRIG.** input jacks (always the greatest number, if source are from different modules).
+All other outputs, like **OP EG ENVELOPE**, **OP EG WAVEFORM**, **P.EG** and **LFO**, can be polyphonic, up to 16 polyphonic channels, the number of channels is depending the polyphony applied on either **V/OCT**, **GATE**, **VEL**, **AFT** and **RETRIG.** input jacks (always the greatest number, if source are from different modules).
 
 ---
 ---
