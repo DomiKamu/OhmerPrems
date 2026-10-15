@@ -162,19 +162,21 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 
 ### PREFERENCES<a name="prefs"></a>
 
-To access global Preferences screen:
+To access global **Preferences** screen:
 
 - Press the **MENU** button, located above right side of the touchscreen.
 
 ![](_img/MenuButton.png)
 
-- From the OSD drop menu, touch **Preferences...**.
+- From the OSD drop menu, select then touch **Preferences...** menu entry.
 
 ![](_img/PreferencesMenu.png)
 
 - This is the display PREFERENCES screen (here showing default settings).
 
 ![](_img/PreferencesScreen.png)
+
+:information_source: When completed, press the **FINISH** button.
 
 ---
 
