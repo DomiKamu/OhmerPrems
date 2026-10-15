@@ -45,7 +45,7 @@ When the DX7 was introduced during 1983, the sales department of Yamaha marketed
 
 The Yamaha DX7 was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
-The _DeXtral Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, except **MONOPHONIC** state toggle, and modulation matrices), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+The _DeXtral Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, the modulation matrices), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
@@ -60,11 +60,13 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 - **Jack** refers to connector who receive a patch cord. Also named **"port"** in VCV Rack environment.
 
-Proprietary binary file formats provided by both _DeXtral Kompakt_ and _DeXtral_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (who are not supported by DX7 SysEx):
+Proprietary binary file formats provided by both _DeXtral Kompakt_ and _DeXtral_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (features who are not supported by native DX7 SysEx):
 
 - **.dexvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 - **.dexcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
 - **.dexsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, all modulation matrices, and global preferences.
+
+:warning: DeXtral Kompakt module is able to open these files, but doesn't save them!
 
 ---
 
@@ -78,7 +80,7 @@ You can consider:
 - **DeXtral**, the huge module, either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
 - **DeXtral Kompakt** module, as voice synthesizer for final production in your racks (mainly to save space!).
 
-:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice, save/load single-voice **.dexvoice** files, save/load 32-voice cartridge **.dexcart** files, and save/load full synthesizer **.dexsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters (except voice names), and cannot export them to DX7 SysEx file.
+:information_source: Both _DeXtral_ and _DeXtral Kompakt_ modules are capable to create/edit the modulation matrix, for each voice you'd like, load single-voice **.dexvoice** files, load 32-voice cartridge **.dexcart** files, and load full synthesizer **.dexsynth** files. However, the _DeXtral Kompakt_ module cannot edit DX7 synthesizer parameters, and cannot export to DX7 SysEx file.
 
 ---
 
@@ -133,7 +135,7 @@ You can consider:
 - Motorized potentiometers: none.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
-- Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** command, from right click menu).
+- Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** from right click menu, or **Ctrl+I** / **Cmd+I**).
 
 ---
 
