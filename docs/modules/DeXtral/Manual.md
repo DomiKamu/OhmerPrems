@@ -181,7 +181,7 @@ To access global **Preferences** screen:
 
 ![](_img/PreferencesMenu.png)
 
-- This is the **PREFERENCES** screen (here showing the default global settings).
+- This is the **PREFERENCES** screen (here showing the default factory _DeXtral_ global settings).
 
 ![](_img/PreferencesScreen.png)
 
