@@ -170,15 +170,15 @@ To access global **Preferences** screen:
 
 - Press the **MENU** button, located above right side of the touchscreen.
 
-![](_img/MenuButton.png)
+![](_img/MenuButtonDK.png)
 
 - From the OSD drop menu, select then touch **Preferences...** menu entry.
 
-![](_img/PreferencesMenu.png)
+![](_img/PreferencesMenuDK.png)
 
-- This is the **PREFERENCES** screen (here showing the default global settings).
+- This is the **PREFERENCES** screen (here showing the default factory _DeXtral Kompakt_ global settings).
 
-![](_img/PreferencesScreen.png)
+![](_img/PreferencesScreenDK.png)
 
 :information_source: When completed, press the **FINISH** button (same than **MENU** button ;).
 
