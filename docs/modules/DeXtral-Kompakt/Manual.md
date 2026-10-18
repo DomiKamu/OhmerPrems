@@ -186,11 +186,11 @@ The "preferences" are global module settings. To access to **Preferences** scree
 
 **DX7 MkI 12-bit DAC**, when enabled, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems more bitcrushed). When unchecked, the module's firmware selects an enhanced DAC, instead.
 
-:warning: The MarkI 12-bit DAC feature is not implemented in early versions of DeXtral and DeXtral Kompakt modules, though. It's the reason why this setting is grayed (can't be changed).
+:warning: The DX7 MarkI 12-bit DAC feature is not implemented in early versions of _DeXtral_ and _DeXtral Kompakt_ modules, however. It's the reason why this setting is grayed (can't be changed) at the moment, until feature implementation!
 
 **Enhanced velocities (0~127)**, when enabled, permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
 
-The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, permit to set-up related operator output. When checked, the amplitude envelope is sent to the relevant OP OUTPUT. When unchecked, the operator sine waveform (prior PM modulation, normalized into -10V ~ +10V voltage range) is sent to the relevant OP OUTPUT.
+The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, permit to set-up related operator discrete output. When checked, the amplitude envelope is sent to the relevant OP OUTPUT. When unchecked, the operator sine waveform (prior PM modulation, normalized into -10V ~ +10V voltage range) is sent to the relevant OP OUTPUT.
 
 **Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or the DX7 "C3" convention (when checked). The module's firmware adjusts the octave number automatically for played notes, displays, and MIDI learning features.
 
