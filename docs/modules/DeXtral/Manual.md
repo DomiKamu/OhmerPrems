@@ -197,9 +197,9 @@ To access global **Preferences** screen:
 
 The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, permit to set-up related operator output. When checked, the amplitude envelope is sent to the relevant OP OUTPUT. When unchecked, the operator sine waveform (prior PM modulation, normalized into -10V ~ +10V voltage range) is sent to the relevant OP OUTPUT.
 
-**Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or Yamaha C3 conntion (when checked). The module's firmware adjusts the octave automatically for played notes, displays and MIDI learning features.
+**Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or the DX7 "C3" convention (when checked). The module's firmware adjusts the octave number automatically for played notes, displays, and MIDI learning features.
 
-:information_source: Just for your information, Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1).
+:information_source: Just for your information, Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1). From DAW, when you play C4 note, the plugin shows... C3 on its keyboard.
 
 ...To Be Continued...
 
