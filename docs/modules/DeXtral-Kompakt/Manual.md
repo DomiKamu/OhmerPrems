@@ -39,15 +39,19 @@ _From English Wikipedia_: The DX7 is a synthesizer introduced by the Japanese Ya
 _The Yamaha DX7 synthesizer_:
 ![](_img/theDX7synth.png)
 
-Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (using substractive synthesis), like the Minimoog (Moog Music), the MS-20 (Korg), the ARP 2600 (ARP Instruments), the Prophet 5 (Sequential Circuits), the Jupiter-8 (Roland), and many more, the Yamaha DX7 becomes the first affordable synthesizer using FM (Frequency Modulation) synthesis during 1983.
+Unlike other synthesizers prior the DX7, who are mostly analog synthesizers (using substractive synthesis), like the Minimoog (Moog Music), the MS-20 (Korg), the ARP 2600 (ARP Instruments), the Prophet 5 (Sequential Circuits), the Jupiter-8 (Roland), and many more, the Yamaha DX7 becomes the first affordable synthesizer using FM (Frequency Modulation) synthesis, during 1983.
 
-Frequency modulation (FM) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967. The first synthesizer who have used the FM synthesis was the Synclavier, manufactured by New England Digital Corp.
+**Frequency modulation** (**FM**) synthesis was developed mainly by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) since 1967.
 
-When the DX7 was introduced during 1983, the sales department of Yamaha marketed it as a **FM synthesizer**, probably for marketing reasons, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a very close variant to FM, but more stable (in particular at high frequencies).
+The first synthesizer who have used the FM synthesis was the [Synclavier](https://en.wikipedia.org/wiki/Synclavier), manufactured by New England Digital Corp from 1977, via an optional FM synthesis module.
+
+When the DX7 was introduced during 1983, the sales department of Yamaha marketed it as a **FM synthesizer**, but the engine underneath relies on **PM** (accronym of **Phase Modulation**), a very close variant to FM, but who have more stable harmonic structure, and easier to control, in particular stacked operators, and less chaotic feedback loops.
+
+:information_source: The Yamaha DX7 synthesizer uses sine waveforms exclusively, it's the reason why PM and FM are very close.
 
 The Yamaha DX7 was used by many famous artists, like Phil Collins, Michael Jackson, Elton John, George Michael, Sade, A-ha, Prince, Tina Turner, Whitney Houston, Chicago, Billy Ocean, Harold Faltermeyer (Beverly Hills Cop theme, Top Gun Anthem), Genesis, Bon Jovi, Madonna, Stevie Wonder, Level 42, Queen, Berlin (Take My Breath Away), Brian Eno, and more!
 
-The _DeXtral Kompakt_ module for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer (but without edit features, the modulation matrices), by using modernized technologies, in particular powerful CPUs, and improved sound quality offered by the most recent audio interfaces.
+Both _DeXtral_ and _DeXtral Kompakt_ modules for VCV Rack 2 will attempt to recreate - as closest as possible - the essence of the DX7 synthesizer, but by using modernized technologies, in particular powerful CPUs, more memory, and improved sound quality offered by the most recent audio interfaces.
 
 ---
 
