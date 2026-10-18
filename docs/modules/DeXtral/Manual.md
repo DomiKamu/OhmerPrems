@@ -171,7 +171,7 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 
 ### PREFERENCES<a name="prefs"></a>
 
-To access global **Preferences** screen:
+The "preferences" are global module settings. To access to **Preferences** screen:
 
 - Press the **MENU** button, located above right side of the touchscreen.
 
@@ -199,9 +199,15 @@ The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbo
 
 **Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or the DX7 "C3" convention (when checked). The module's firmware adjusts the octave number automatically for played notes, displays, and MIDI learning features.
 
-:information_source: Just for your information, Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1). From DAW, when you play C4 note, the plugin shows... C3 on its keyboard.
+:information_source: Just for information, Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1). From DAW, when you play C4 note, the plugin shows... C3 as green color on its virtual keyboard.
 
-...To Be Continued...
+**KEYBOARD SPLIT & RESPONSE "PART"** section is useful to define a custom **split point** (note on attached MIDI controller). The checkbox alongside indicated note, by default C4 (or C3 if the middle C follows the DX7 convention), when enabled, activate the split mode. LOWER or UPPER option button indicates if lower keys below the split point are used (keys above the split point are filtered/ignored), or if upper keys above the split point are used (keys below the split point are, in this case, filtered/ignored). You can choose the note either by touching left and right arrows (to choose previous or next note), or by using learning via a MIDI controller.
+
+This feature is useful in case you'd like emulate the DX1 synthesizer as split mode (two timbres), by using two DeXtral / DeXtral Kompakt module, one responding on lower keys, other responding on upper keys.
+
+You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it.
+
+The DeXtral module is using motorized potentiometers (all DX7 parameters, except OUTPUT LEVEL potentiometer near main output jack), so you can adjust the potentiometer rotation speed by turning the labelled **MOTORZ** continuous encoder (above left side of the touchscreen). During adjustment by the encoder, a _speed demonstration_ is executed by OP1 EG potentiometers moves, in order to give you an idea about the choosen motor speed setting.
 
 ---
 
