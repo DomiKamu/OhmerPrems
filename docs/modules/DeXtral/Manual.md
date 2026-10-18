@@ -199,7 +199,7 @@ The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbo
 
 **Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or Yamaha C3 conntion (when checked). The module's firmware adjusts the octave automatically for played notes, displays and MIDI learning features.
 
-:information_source: just for your information, freeware Dexed VST/CLAP/AU plugin is using C3 (Yamaha DX7 convention).
+:information_source: Just for your information, Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1).
 
 ...To Be Continued...
 
