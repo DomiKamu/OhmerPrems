@@ -181,11 +181,11 @@ To access global **Preferences** screen:
 
 ![](_img/PreferencesMenu.png)
 
-- This is the display PREFERENCES screen (here showing default settings).
+- This is the **PREFERENCES** screen (here showing the default global settings).
 
 ![](_img/PreferencesScreen.png)
 
-:information_source: When completed, press the **FINISH** button.
+:information_source: When completed, press the **FINISH** button (same than **MENU** button ;).
 
 ---
 
@@ -205,9 +205,9 @@ Due to optimized C/C++ algorithms (in order to reduce CPU load), the modulations
 
 ### POLYPHONY AND OUTPUTS<a name="polyoutputs"></a>
 
-The main (master) synthesizer output is always monophonic (one "polyphonic" channel), also mono (the real DX7 wasn't stereo).
+The main (master) synthesizer output is always monophonic (one channel), also "mono" (the real DX7 synthesizer wasn't stereo).
 
-All other outputs, like **OP EG ENVELOPE**, **OP EG WAVEFORM**, **P.EG** and **LFO**, can be polyphonic, up to 16 polyphonic channels, the number of channels is depending the polyphony applied on either **V/OCT**, **GATE**, **VEL**, **AFT** and **RETRIG.** input jacks (always the greatest number, if source are from different modules).
+All other outputs, like **OP EG ENVELOPE**, **OP EG WAVEFORM**, **P.EG** and **LFO**, can be polyphonic (up to 16 channels), the number of channels is depending the polyphony applied on either **V/OCT**, **GATE**, **VEL.**, **AFT.** and **RETRIG.** input jacks (always the greatest number, if sources come from different modules).
 
 ---
 ---
