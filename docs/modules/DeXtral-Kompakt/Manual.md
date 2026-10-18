@@ -182,6 +182,22 @@ To access global **Preferences** screen:
 
 :information_source: When completed, press the **FINISH** button (same than **MENU** button ;).
 
+**Pot. tooltips** is potentiometers custom tooltips display. Not applicable for _DeXtral Kompakt_ module (the setting is grayed, can't be changed).
+
+**DX7 MkI 12-bit DAC**, when enabled, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems more bitcrushed). When unchecked, the module's firmware selects an enhanced DAC, instead.
+
+:warning: The MarkI 12-bit DAC feature is not implemented in early versions of DeXtral and DeXtral Kompakt modules, though. It's the reason why this setting is grayed (can't be changed).
+
+**Enhanced velocities (0~127)**, when enabled, permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
+
+The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, permit to set-up related operator output. When checked, the amplitude envelope is sent to the relevant OP OUTPUT. When unchecked, the operator sine waveform (prior PM modulation, normalized into -10V ~ +10V voltage range) is sent to the relevant OP OUTPUT.
+
+**Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or Yamaha C3 conntion (when checked). The module's firmware adjusts the octave automatically for played notes, displays and MIDI learning features.
+
+:information_source: just for your information, freeware Dexed VST/CLAP/AU plugin is using C3 (Yamaha DX7 convention).
+
+...To Be Continued...
+
 ---
 
 ### HOW THE MODULATIONS ARE WORKING?<a name="howmodwork"></a>
