@@ -166,21 +166,19 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 
 ### PREFERENCES<a name="prefs"></a>
 
-The "preferences" are global module settings. To access to **Preferences** screen:
+The "preferences" are global module's settings. To access the **Preferences** screen:
 
-- Press the **MENU** button, located above right side of the touchscreen.
+- Press the labelled **MENU** button (this momentary button is located above right side of the touchscreen).
 
 ![](_img/MenuButtonDK.png)
 
-- From the OSD drop menu, select then touch **Preferences...** menu entry.
+- From the OSD drop-down menu, select then touch **Preferences...** menu entry.
 
 ![](_img/PreferencesMenuDK.png)
 
-- This is the **PREFERENCES** screen (here showing the default factory _DeXtral Kompakt_ global settings).
+Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral Kompakt_ global settings).
 
 ![](_img/PreferencesScreenDKv2.png)
-
-:information_source: When completed, press the **FINISH** button (same than **MENU** button ;).
 
 **Pot. tooltips** is potentiometers custom tooltips display. Not applicable for _DeXtral Kompakt_ module (the setting is grayed, can't be changed).
 
@@ -204,7 +202,9 @@ You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** 
 
 ![](_img/BrightEncoderDK.png)
 
-:warning: The _DeXtral Kompakt_ module doesn't use motorized potentiometer, so the setting is just displayed "for information" (as example, after you've loaded a **.dexsynth** file made by the _DeXtral_ module, you can see the motorization setting).
+:warning: The _DeXtral Kompakt_ module doesn't use motorized potentiometer (**LEVEL** potentiometer isn't motorized), so the setting is just displayed "for information" (as example, after you've loaded a **.dexsynth** file made by the _DeXtral_ module, you can see the motorization setting).
+
+:information_source: When done, to exit Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch **LEVEL** potentiometer.
 
 ---
 
