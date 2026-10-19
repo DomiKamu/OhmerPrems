@@ -185,27 +185,33 @@ Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral_ 
 
 ![](_img/PreferencesScreen.png)
 
-**Pot. tooltips** is potentiometers custom tooltips display. When checked, a custom tooltip shows the DX7 parameter when the mouse cursor flies over related potentiometer. This feature is useful when the module can't be seen entirely (too low screen resolution, or when using important zoom factor who hide the module's touchscreen).
+Settings description:
 
-**DX7 MkI 12-bit DAC**, when enabled, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems a bit more _bitcrushed_). When unchecked, the module's firmware selects an enhanced (high-resolution) DAC, instead.
+**Pot. tooltips** checkbox allows to display custom tooltip when the mouse cursor flies over related DX7 potentiometer. This feature is useful when the module can't be seen entirely (screen resolution less than 1920x1080, or by using important zoom factor who hide the touchscreen).
+
+**DX7 MkI 12-bit DAC** checkbox, when checked, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems a bit more _bitcrushed_). When unchecked (factory default), the module's firmware is using an enhanced (high-resolution) DAC, instead.
 
 :warning: The DX7 MarkI 12-bit DAC emulation is not implemented in early versions of _DeXtral_ and _DeXtral Kompakt_ modules. It's the reason why this setting is grayed (cannot be changed) at the moment, until implemented feature!
 
-**Enhanced velocities (0~127)**, when enabled, permits to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
+**Enhanced velocities (0~127)** checkbox, when checked (factory default), permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
 
-The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, permit to set-up related operator discrete output. When checked, the amplitude envelope is sent to the relevant OP OUTPUT. When unchecked, the operator sine waveform (prior PM modulation, normalized into -10V ~ +10V voltage range) is sent to the relevant OP OUTPUT.
+The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, by default unchecked, one checkbox per operator, permit to set-up operator discrete output. When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V). When unchecked, the operator sine waveform (prior PM modulation/feedback) is sent to the relevant OP OUTPUT (-10V ~ +10V). Amplitude envelope or sine waveform can be used as source voltage for other module.
 
-**Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or the DX7 "C3" convention (when checked). The module's firmware adjusts the octave number automatically for played notes, displays, and MIDI learning features.
+**Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz) as **international C4** (when unchecked, default factor), or the Yamaha **DX7 "C3" convention**, when checked. The module's firmware adjusts the octave number automatically for played notes, for displays, and MIDI learning features (OP BREAKPOINT, split point).
 
-:information_source: Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1). From DAW, when you play C4 note from your MIDI controller, Dexed plugin shows... C3 as green color on its virtual keyboard.
+:information_source: Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1). From your DAW, when you play C4 note from your MIDI controller, Dexed plugin highlights C3 (as green color) on its virtual keyboard, instead of C4.
 
-**KEYBOARD SPLIT & RESPONSE "PART"** section is useful to define a custom **split point** (note on attached MIDI controller). The checkbox alongside indicated note, by default C4 (or C3 if the middle C follows the DX7 convention), when enabled, activate the split mode. LOWER or UPPER option button indicates if lower keys below the split point are used (keys above the split point are filtered/ignored), or if upper keys above the split point are used (keys below the split point are, in this case, filtered/ignored). You can choose the note either by touching left and right arrows (to choose previous or next note), or by using learning via a MIDI controller.
+**KEYBOARD SPLIT & RESPONSE "PART"** section is useful to define a custom **split point** (on attached MIDI controller). The checkbox alongside indicated note, by default C4 (or C3 if the middle C follows the DX7 convention, see above), when checked, activate the **split mode**. In this case, **LOWER** option button indicates if lower keys (notes) below the split point are considered (keys above the split point are filtered/ignored), or **UPPER** option button if upper keys above the split point are processed (keys below the split point are, in this case, filtered/ignored). You can choose the note either by touching left and right arrows (to select previous or next semitone), or by using learning feature via your attached MIDI controller.
 
-This feature is useful in case you'd like emulate the DX1 synthesizer as split mode (two timbres), by using two DeXtral / DeXtral Kompakt module, one responding on lower keys, other responding on upper keys.
+This feature may be useful in case you'd like reproduce the DX1 synthesizer as "split mode" (bitimbrality), by using two DeXtral / DeXtral Kompakt instances, one replying on lower keys, other replying on upper keys.
 
-You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it.
+You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it:
 
-The DeXtral module is using motorized potentiometers. All DX7 parameters based on potentiometer (except **LEVEL** near main output jack) are motorized, so you can adjust the rotation speed by using the labelled **MOTORZ** continuous encoder (above left side of the touchscreen). During adjustment by the continuous encoder, a _speed demonstration_ is run by OP1 EG potentiometers moves, in order to give you an idea about the choosen motorization speed. The setting is saved along autosave, .vcv patch files, and **.dexsynth** (entire synthesizer) files.
+![](_img/BrightEncoder.png)
+
+The DeXtral module is using motorized potentiometers. All DX7 parameters based on potentiometer (except **LEVEL** near main output jack) are motorized, so you can adjust the rotation speed by using the labelled **MOTORZ** (motorized) continuous encoder above left side of the touchscreen. During adjustment by the encoder, a _speed demonstration_ is run by OP1 EG potentiometers moves, in order to give you an idea about the choosen motorization speed. The motorization setting is saved along autosave, .vcv patch files, and **.dexsynth** (entire synthesizer) files.
+
+![](_img/MotorzEncoder.png)
 
 :information_source: When done, to exit Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch any potentiometer!
 
