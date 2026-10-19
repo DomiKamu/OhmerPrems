@@ -272,4 +272,4 @@ Following DX7 parameters can't become a possible modulation target:
 - LFO KEY SYNC parameter.
 - OSC KEY SYNC parameter.
 - LFO WAVEFORM parameter.
-- EG BIAS toggle (**not yet designed/implemented**).
+- EG BIAS (**not yet designed/implemented**), and global settings from "Preferences".
