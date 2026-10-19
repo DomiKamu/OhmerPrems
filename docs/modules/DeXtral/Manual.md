@@ -171,21 +171,19 @@ Following inputs are optional. They can be used as **modulation sources** (must 
 
 ### PREFERENCES<a name="prefs"></a>
 
-The "preferences" are global module settings. To access to **Preferences** screen:
+The "preferences" are global module's settings. To access the **Preferences** screen:
 
-- Press the **MENU** button, located above right side of the touchscreen.
+- Press the labelled **MENU** button (this momentary button is located above right side of the touchscreen).
 
 ![](_img/MenuButton.png)
 
-- From the OSD drop menu, select then touch **Preferences...** menu entry.
+- From the OSD drop-down menu, select then touch **Preferences...** menu entry.
 
 ![](_img/PreferencesMenu.png)
 
-- This is the **PREFERENCES** screen (here showing the default factory _DeXtral_ global settings).
+Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral_ global settings).
 
 ![](_img/PreferencesScreen.png)
-
-:information_source: When completed, press the **FINISH** button (same than **MENU** button ;).
 
 **Pot. tooltips** is potentiometers custom tooltips display. When checked, a custom tooltip shows the DX7 parameter when the mouse cursor flies over related potentiometer. This feature is useful when the module can't be seen entirely (too low screen resolution, or when using important zoom factor who hide the module's touchscreen).
 
@@ -207,7 +205,9 @@ This feature is useful in case you'd like emulate the DX1 synthesizer as split m
 
 You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it.
 
-The DeXtral module is using motorized potentiometers (all DX7 parameters, except OUTPUT LEVEL potentiometer near main output jack), so you can adjust the potentiometer rotation speed by turning the labelled **MOTORZ** continuous encoder (above left side of the touchscreen). During adjustment by the encoder, a _speed demonstration_ is executed by OP1 EG potentiometers moves, in order to give you an idea about the choosen motor speed setting.
+The DeXtral module is using motorized potentiometers. All DX7 parameters based on potentiometer (except **LEVEL** near main output jack) are motorized, so you can adjust the rotation speed by using the labelled **MOTORZ** continuous encoder (above left side of the touchscreen). During adjustment by the continuous encoder, a _speed demonstration_ is run by OP1 EG potentiometers moves, in order to give you an idea about the choosen motorization speed. The setting is saved along autosave, .vcv patch files, and **.dexsynth** (entire synthesizer) files.
+
+:information_source: When done, to exit Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch any potentiometer!
 
 ---
 
