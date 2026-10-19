@@ -182,9 +182,9 @@ Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral K
 
 **Pot. tooltips** is potentiometers custom tooltips display. Not applicable for _DeXtral Kompakt_ module (the setting is grayed, can't be changed).
 
-**DX7 MkI 12-bit DAC**, when enabled, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems more bitcrushed). When unchecked, the module's firmware selects an enhanced DAC, instead.
+**DX7 MkI 12-bit DAC**, when enabled, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems a bit more _bitcrushed_). When unchecked, the module's firmware selects an enhanced (high-resolution) DAC, instead.
 
-:warning: The DX7 MarkI 12-bit DAC feature is not implemented in early versions of _DeXtral_ and _DeXtral Kompakt_ modules, however. It's the reason why this setting is grayed (can't be changed) at the moment, until feature implementation!
+:warning: The DX7 MarkI 12-bit DAC emulation is not implemented in early versions of _DeXtral_ and _DeXtral Kompakt_ modules. It's the reason why this setting is grayed (cannot be changed) at the moment, until implemented feature!
 
 **Enhanced velocities (0~127)**, when enabled, permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
 
@@ -192,7 +192,7 @@ The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbo
 
 **Middle C = C3 (DX7 convention)**, permits to define the **middle C** (261.64Hz) as international C4 (when unchecked), or the DX7 "C3" convention (when checked). The module's firmware adjusts the octave number automatically for played notes, displays, and MIDI learning features.
 
-:information_source: Just for information, Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1). From DAW, when you play C4 note, the plugin shows... C3 as green color on its virtual keyboard.
+:information_source: Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1). From DAW, when you play C4 note from your MIDI controller, Dexed plugin shows... C3 as green color on its virtual keyboard.
 
 **KEYBOARD SPLIT & RESPONSE "PART"** section is useful to define a custom **split point** (note on attached MIDI controller). The checkbox alongside indicated note, by default C4 (or C3 if the middle C follows the DX7 convention), when enabled, activate the split mode. LOWER or UPPER option button indicates if lower keys below the split point are used (keys above the split point are filtered/ignored), or if upper keys above the split point are used (keys below the split point are, in this case, filtered/ignored). You can choose the note either by touching left and right arrows (to choose previous or next note), or by using learning via a MIDI controller.
 
