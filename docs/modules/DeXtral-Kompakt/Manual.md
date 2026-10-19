@@ -192,7 +192,6 @@ Settings description:
 
 The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, by default unchecked, one checkbox per operator, permit to set-up operator discrete output. When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V). When unchecked, the operator sine waveform (prior PM modulation/feedback) is sent to the relevant OP OUTPUT (-10V ~ +10V). Amplitude envelope or sine waveform can be used as source voltage for other module.
 
-_Discrete OPerator outputs are located at the right side of DeXtral Kompakt module:_
 ![](_img/OutLedsWfDK.png)
 
 **Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz) as **international C4** (when unchecked, default factor), or the Yamaha **DX7 "C3" convention**, when checked. The module's firmware adjusts the octave number automatically for played notes, for displays, and MIDI learning features (OP BREAKPOINT, split point).
