@@ -178,7 +178,7 @@ The "preferences" are global module settings. To access to **Preferences** scree
 
 - This is the **PREFERENCES** screen (here showing the default factory _DeXtral Kompakt_ global settings).
 
-![](_img/PreferencesScreenDK.png)
+![](_img/PreferencesScreenDKv2.png)
 
 :information_source: When completed, press the **FINISH** button (same than **MENU** button ;).
 
@@ -200,9 +200,11 @@ The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbo
 
 This feature is useful in case you'd like emulate the DX1 synthesizer as split mode (two timbres), by using two DeXtral / DeXtral Kompakt module, one responding on lower keys, other responding on upper keys.
 
-You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it.
+You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it:
 
-The _DeXtral Kompakt_ module doesn't use motorized potentiometer, so the setting is just displayed "for information" (as example, after you've loaded a **.dexsynth** file made by the _DeXtral_ module).
+![](_img/BrightEncoderDK.png)
+
+:warning: The _DeXtral Kompakt_ module doesn't use motorized potentiometer, so the setting is just displayed "for information" (as example, after you've loaded a **.dexsynth** file made by the _DeXtral_ module, you can see the motorization setting).
 
 ---
 
