@@ -128,7 +128,7 @@ You can consider:
 - 8 assignable CV input jacks (assigments via modulation matrix).
 - Modulation Matrix (access via MENU button): each voice can host up to 16 modulation assignments (slots).
 - Modulation sources: 12, via input jacks: VEL., AFT., MW, PB, CV1, CV2, CV3, CV4, CV5, CV6, CV7, and CV8.
-- Modulation targets: 119 (most DX7 parameters, plus **EG BIAS**). [List of not supported targets, below](#notsupptargs)
+- Modulation targets: 118 (most DX7 parameters). [List of not supported targets, below](#notsupptargs)
 - Modulation amount: by using fader, to set from -100% (left) to +100% (right).
 - Modulation behaviors: **ENABLED** (can apply an offset/amount around the parameter), or **BYPASSED** (the modulation is ignored).
 - Default modulation amount: 0% (no applied offset).
@@ -272,3 +272,4 @@ Following DX7 parameters can't become a possible modulation target:
 - LFO KEY SYNC parameter.
 - OSC KEY SYNC parameter.
 - LFO WAVEFORM parameter.
+- EG BIAS toggle (**not yet designed/implemented**).
