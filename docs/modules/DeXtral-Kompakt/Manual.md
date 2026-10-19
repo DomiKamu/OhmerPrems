@@ -182,7 +182,7 @@ Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral K
 
 Settings description:
 
-**Pot. tooltips** setting is not applicable for _DeXtral Kompakt_ module (this setting is grayed, and cannot be changed), just here "for information" and to keep consistency vs. _DeXtral_ module's Preference screen.
+**Pot. tooltips** setting is not applicable for _DeXtral Kompakt_ module (this setting is grayed, and cannot be changed), just here "for information" and to keep consistency vs. _DeXtral_ module's _Preferences_ screen!
 
 **DX7 MkI 12-bit DAC** checkbox, when checked, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems a bit more _bitcrushed_). When unchecked (factory default), the module's firmware is using an enhanced (high-resolution) DAC, instead.
 
@@ -204,7 +204,7 @@ You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** 
 
 ![](_img/BrightEncoderDK.png)
 
-:warning: The _DeXtral Kompakt_ module doesn't use motorized potentiometer (**LEVEL** potentiometer isn't motorized), so the setting is just displayed "for information" (as example, after you've loaded a **.dexsynth** file made by the _DeXtral_ module, you can see the motorization setting).
+:warning: The _DeXtral Kompakt_ module doesn't use motorized potentiometer (**LEVEL** potentiometer isn't motorized), so the setting is just displayed "for information" (like _Pot. tooltips_ global setting, explained above).
 
 :information_source: When done, to exit Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch **LEVEL** potentiometer.
 
