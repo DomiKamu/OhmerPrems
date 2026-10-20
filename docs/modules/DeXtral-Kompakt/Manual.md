@@ -186,18 +186,20 @@ Settings description:
 
 **Enhanced velocities (0~127)** checkbox, when checked (factory default), permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
 
-The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, all are by default unchecked define the role of operator discrete output.
+The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, set the role of **operator's discrete output**.
 
-When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V normalized). Instead, when unchecked, the operator sine waveform (prior phase modulation) is sent to the relevant OP OUTPUT (-10V ~ +10V normalized). Amplitude envelope or sine waveform can be used as source voltage for other module.
+When checked (default factory), the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V normalized). Instead, when unchecked, the operator sine waveform (prior phase modulation) is sent to the relevant OP OUTPUT (-10V ~ +10V normalized). Amplitude envelope or sine waveform can be used as source voltage for other module.
 
-Whatever the given role to individual OP OUTPUT, RGB LED along the output jack indicates the operator behavior, following this colorscheme:
+Whatever the given role to individual OP OUTPUT, RGB LED along each output jack indicates the operator behavior, following this colorscheme:
 
 - Green LED if the operator is enabled (by its ON/OFF switch), and the operator is a carrier (outputs sound).
 - Red LED if the operator is a carrier, but disabled by its ON/OFF switch.
-- White LED if the operator is enabled (by its ON/OFF switch), and the operator is a modulator (modulates other operators).
+- White LED if the operator is enabled (by its ON/OFF switch), and the operator is a modulator.
 - LED is turned off if the operator is a modulator, but disabled by its ON/OFF switch.
 
-:warning: ON/OFF switches are not physically provided by _DeXtral Kompakt_ module, but states are encoded inside loaded **.dexsynth** files (made by _DeXtral_).
+:information_source: Carrier and modulator operators are defined by the algorithm.
+
+:warning: ON/OFF switches are not physically provided by _DeXtral Kompakt_ module, but state of every operator (on, or off) is included inside loaded **.dexsynth** files (made by _DeXtral_).
 
 **Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz @ ratio 1, no detune) as **international C4** (when unchecked), or by following the **DX7 "C3" convention** (defined by Yamaha), when checked. The module's firmware adjusts the octave shift automatically only for displays (OP BREAK POINT) and MIDI learning features (OP BREAKPOINT, split point). Unchecked by default to follow international C4 (like VCV Rack 2 does).
 
