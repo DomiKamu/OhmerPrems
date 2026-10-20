@@ -1,17 +1,15 @@
 :warning:
 
-Empty displays, all LED always turned off, no extra right click menu, module is looking "dead", [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
-
-:warning: **MacBook users:** in case the main panel isn't displayed (look as missing panel texture), please set **UI Scale** setting to **Auto** (or **100%**), and **Zoom** level to **100%**, from **View** menu. It's a not a DeXtral specific graphic issue, this bug occurs on any large module, whatever the module brand!
+Empty display, all LED always turned off, no extra right click menu, module is looking "dead", [**PLEASE CLICK HERE!**](https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md) (top of page).
 
 ---
 
-# DEXTRAL USER'S MANUAL (UNDER CONSTRUCTION)
+# DEXTRAL KOMPAKT USER'S MANUAL (UNDER CONSTRUCTION)
 
-_The DeXtral module, Aluminium model, DX7-emulated genuine LCD display **(please click the image to enlarge)**:_
-![](_img/mainModule.png)
+_The DeXtral Kompakt module, Absolute Night model, DX7-emulated (backlit LCD retrofit) display:_
+![](_img/mainModuleV2.png)
 
-This will be the User's Manual for DeXtral module, **117HP** 6-operator algorithm-based FM (PM, phase modulation) polyphonic synthesizer voice.
+This will be the User's Manual for _DeXtral Kompakt_ module, **33HP** 6-operator algorithm-based FM (PM, phase modulation) polyphonic synthesizer voice. **It's the compact form factor of the _DeXtral_ module!**
 
 :warning: This manual will be built for future v2.6.15. **As draft at the moment, and may change many times everyday!**
 
@@ -22,7 +20,7 @@ This will be the User's Manual for DeXtral module, **117HP** 6-operator algorith
 - [**HISTORY**](#history)
 - [**TERMINOLOGY**](#terminology)
 - [**INTRODUCTION & FIRST WORDS**](#intro)
-- [**MODULE SPECIFICATIONS**](#techspecs)
+- [**TECHNICAL SPECIFICATIONS**](#techspecs)
 - [**INPUT VOLTAGE RANGES**](#inputvoltrngs)
 - [**PREFERENCES**](#prefs)
 - [**HOW THE MODULATIONS ARE WORKING?**](#howmodwork)
@@ -31,7 +29,6 @@ This will be the User's Manual for DeXtral module, **117HP** 6-operator algorith
 ...below temporary draft section...
 
 - [**MODULATION MATRIX: NOT SUPPORTED TARGETS**](#notsupptargs)
-- [**MODULATION MATRIX: FAST TARGET ASSIGNMENT**](#fastassign)
 
 ---
 
@@ -69,29 +66,27 @@ This topic explains some "unfamiliar" terms and accronyms. Most of them was used
 - **VCED** is a particular DX7 SysEx file format (defined by Yamaha) to store a single voice.
 - **Jack** refers to connector who receive a patch cord. Also named **"port"** in VCV Rack environment.
 
-Proprietary binary file formats provided by both _DeXtral_ and _DeXtral Kompakt_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (features who are not supported by native DX7 SysEx):
+Proprietary binary file formats provided by both _DeXtral Kompakt_ and _DeXtral_ modules, are useful to store and recall DX7 synthesizer parameters, plus **extended features** (features who are not supported by native DX7 SysEx):
 
 - **.dexvoice** can be used to store a single-voice, including OP ON/OFF states, and its modulation matrix.
 - **.dexcart** can be used to store a 32-voice cartridge (soundbank), including OP ON/OFF states, and all modulation matrices.
 - **.dexsynth** can be used to store **all synthesizer settings**, including OP ON/OFF states, all modulation matrices, and global preferences.
 
+:warning: DeXtral Kompakt module is able to open **.dexvoice**, **.dexcart**, and **.dexsynth** files, but cannot save to these formats!
+
 ---
 
 ### INTRODUCTION & FIRST WORDS<a name="intro"></a>
 
-The _DeXtral_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
+Due to its reduced size (regardling its brother, the _DeXtral_ module), the _DeXtral Kompakt_ module doesn't permit to do sound design on DX7 operators/LFO/pitch envelope/transpose/feedback parameters, so the DX7 voice parameters cannot be edited. However, **MONOPHONIC** state may be toggled on or off. The modulation matrix (as extended feature) can be edited, for any voice. Any modulation matrix can be copied/pasted between voices (located in same bank, or in different bank). Also, voice names can be edited.
 
-Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between ton of menus/submenus... Most DX7 parameters are potentiometers (few of them are momentary buttons to toggle a state (on/off), one to select the LFO waveform).
-
-This _DeXtral_ module is mainly useful to prepare your DX7 synthesizer file(s) you'll need in your project (can be single-voice files, 32-voice cartridge files, or full synthesizer files). When your sound design session is completed (and of course, saved), you'll can replace the huge _DeXtral_ module by its compact variant, the _DeXtral Kompakt_, in order to save signifiant space in your rack. Of course, you'll must open appropriate file(s), either **.dexsynth** file (single-voice), **.dexcart** file (32-voice cartridge), or **.dexsynth** file (entire synthesizer), previously made by any _DeXtral_ module. Please read [DeXtral Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/DeXtral-Kompakt/Manual.md) for more details about this thinner module!
-
-Also, you'll can prepare your custom DX7 soundbank or single-voice, then export it as _VMEM_ SysEx (32-voice soundbank) or _VCED_ SysEx (single-voice), in order to import it to real DX7 synthesizer (the DX7 always uses MIDI channel 1 for SysEx transfers, also, MEMORY PROTECT must be disabled prior to import), or to another DX7-compatible software capable to interpret DX7 SysEx files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html).
+Depending your needs, you'll can open single-voice **.dexvoice** file (this load the file in the currently selected bank/voice, including "extensions"), 32-voice cartridge **.dexcart** file (this load the file in the currently selected bank, affects all 32 voices of the bank, including "extensions"), full synthesizer **.dexsynth** file (this load the file in all 4 banks, affects all 32 voices in all banks, including "extensions"), or import a DX7 SysEx file made by a real DX7 synthesizer or DX7-compatible software (but without featured "extensions" in this case, because extented features are not supported by DX7 SysEx formats).
 
 You can consider:
 - **DeXtral**, the huge module, either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
 - **DeXtral Kompakt** module, as voice synthesizer for final production in your racks (mainly to save space!).
 
-:information_source: _DeXtral_ module is capable to create/edit the modulation matrix, for each voice, save/load single-voice **.dexvoice** files, save/load 32-voice cartridge **.dexcart** files, and save/load full synthesizer **.dexsynth** files.
+:information_source: _DeXtral Kompakt_ module is capable to create/edit the modulation matrix, for each voice, can import DX7 SysEx files, load single-voice **.dexvoice** files, load 32-voice cartridge **.dexcart** files, and load full synthesizer **.dexsynth** files. However, like a "player", this compact module cannot edit DX7 synthesizer parameters, cannot save voice/cart/synth files, and cannot export to DX7 SysEx files.
 
 ---
 
@@ -99,20 +94,20 @@ You can consider:
 
 ---
 
-### MODULE SPECIFICATIONS<a name="techspecs"></a>
+### TECHNICAL SPECIFICATIONS<a name="techspecs"></a>
 
 - Designed to operate in VCV Rack 2 (v2.6.6, or higher), "Free" and "Pro" editions.
-- Width: 117HP.
+- Width: 33HP.
 - Synthesis: Phase Modulation (PM), based on sine waveforms only (like the original DX synthesizer).
 - Available models (panel themes): 8 (Aluminium, Stage Repro, Cobalt, Absolute Night, Dark "Signature", Fort Knox "Signature", Oxide "Signature", and Titanium "Signature").
 - DX7-emulated display, may be genuine LCD, yellow-backlit LCD retrofit, or OLED retrofit (via right click menu).
 - Emulated DX7 v1.8 firmware.
-- 32 algorithms (all come from the real DX7 synthesizer).
-- 6 operators (each can be enabled or disabled).
+- 32 algorithms (all come from the real DX7 synthesizer), only for display.
+- 6 operators.
 - Polyphony: min. 1 channel/monophonic, max. 16 channels.
-- All synthesizer settings are accessible on single panel (no DX7 menus/submenus).
+- Simplified panel to be operational for production.
 - Large color OLED **touchscreen** display.
-- Two multipurpose continuous encoders (above the left-side of the touchscreen).
+- Multipurpose continuous encoder (above the left-side of the touchscreen).
 - MONOPHONIC toggle button, with purple LED (above the center of the touchscreen).
 - Two multipurpose momentary buttons (above the right-side of the touchscreen).
 - LFO waveforms: triangle, sawtooth (down), sawtooth up (ramp), square, sine, sample & hold.
@@ -121,12 +116,12 @@ You can consider:
 - Band-limiting: up to [Nyquist–Shannon frequency](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) (half of VCV Rack engine's sample rate).
 - Output jacks: 9 (MASTER output, OP1, OP2, OP3, OP4, OP5, OP6, P.EG, LFO).
 - Output voltage ranges: -5V to +5V (10V peak-to-peak).
-- Stereo: none (all outputs are mono, but polyphonic).
+- Stereo: none (all outputs are mono).
 - Polyphonic outputs: yes (up to 16 channels).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
 - DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented in future release).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
-- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice), as import and as export.
+- Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice): import only.
 - Full DeXtral files support (**.dexsynth** for entire synthesizer, **.dexcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
 - DX7 SysEx, **.dexvoice**, **.dexcart** and **.dexsynth** files can be imported/loaded by drag and drop (drop the file on the touchscreen).
 - Bank+voice select by voltage: supported via discrete VOICE input jack (0V to +10V unipolar CV).
@@ -138,12 +133,12 @@ You can consider:
 - Modulation behaviors: **ENABLED** (can apply an offset/amount around the parameter), or **BYPASSED** (the modulation is ignored).
 - Default modulation amount: 0% (no applied offset).
 - Amount reset by right-mouse button click over the fader (only when enabled): 0% (no applied modulation amount).
-- [Fast target assignment](#fastassign) to create new modulation (**Not applicable for DeXtral Kompakt module!**)
+- View DX7 parameters for current voice (via 8 pages, by rotating the continuous encoder). Access from MENU button.
 - Global preferences (via dedicated screen). Access from MENU button.
-- Learnable (by using V/OCT and GATE attached to an external MIDI controller) OPerator BREAKPOINT setting (per operator).
 - Optional pitch split point, and virtual keyboard response part (above or below split point), adjustable from "Preferences" screen.
-- Touchscreen brightness: adjustable from "Preferences" screen (by turning left continuous encoder).
-- Motorized potentiometers, adjustable from "Preferences". OUTPUT LEVEL potentiometer isn't motorized.
+- Mod key: not yet supported (this feature reserved to _DeXtral_ module only).
+- Touchscreen brightness: adjustable from "Preferences" screen (by turning the continuous encoder).
+- Motorized potentiometers: none.
 - VCV Rack 2 Presets (.vcvm) support: Not supported (due to very huge amount of saved datas).
 - VCV Rack 2 Modules Selections (.vcvs) support: Not supported (due to very huge amount of saved datas).
 - Quick boot feature: on first installation in the rack, on full reset to factory (**Initialize** from right click menu, or **Ctrl+I** / **Cmd+I**).
@@ -162,7 +157,7 @@ Following inputs are **mandatory** in order the synthesizer generates sounds:
 Following inputs are optional. They can be used as **modulation sources** (must be assigned from modulation matrix):
 
 - **VEL.**: unipolar 0V to +10V, can be polyphonic. Default is DX7 velocity range (0 to 100).
-- **AFT.**: unipolar 0V to +10V, polyphonic. Channel aftertouch.
+- **AFT.**: unipolar 0V to +10V, can be polyphonic. Channel aftertouch.
 - **MW**: unipolar 0V to +10V, monophonic. Modulation wheel.
 - **PB**: bipolar -5V to +5V, monophonic. Pitchbender wheel.
 - **CV1** to **CV8**: bipolar -5V to +5V, monophonic.
@@ -175,19 +170,19 @@ The "preferences" are global module's settings. To access the **Preferences** sc
 
 - Press the labelled **MENU** button (this momentary button is located above right side of the touchscreen).
 
-![](_img/MenuButton.png)
+![](_img/MenuButtonDK.png)
 
 - From the OSD drop-down menu, select then touch **Preferences...** menu entry.
 
-![](_img/PreferencesMenu.png)
+![](_img/PreferencesMenuDK.png)
 
-Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral_ global settings).
+Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral Kompakt_ global settings).
 
-![](_img/PreferencesScreenV2.png)
+![](_img/PreferencesScreenDK.png)
 
 Settings description:
 
-**Pot. tooltips** checkbox allows to display custom tooltip when the mouse cursor flies over related DX7 potentiometer. This feature is useful when the module can't be seen entirely (screen resolution less than 1920x1080, or by using important zoom factor who hide the touchscreen).
+**Pot. tooltips** setting is not applicable for _DeXtral Kompakt_ module (this setting is grayed, and cannot be changed), just here "for information" and to keep consistency vs. _DeXtral_ module's _Preferences_ screen!
 
 **Enhanced velocities (0~127)** checkbox, when checked (factory default), permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
 
@@ -197,10 +192,10 @@ When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT
 
 Whatever the given role to individual OP OUTPUT, a coloured LED indicates the operator type via this colorscheme:
 
-- Green LED when the operator is enabled (by its ON/OFF switch), and the operator is a carrier (outputs sound).
-- Red LED when the operator is a carrier, but disabled by its ON/OFF switch.
-- White LED when the operator is enabled (by its ON/OFF switch), and the operator is a modulator.
-- LED is off when the operator is a modulator, but disabled by its ON/OFF switch.
+- Green LED if the operator is enabled (by its ON/OFF switch), and the operator is a carrier (outputs sound).
+- Red LED if the operator is a carrier, but disabled by its ON/OFF switch.
+- White LED if the operator is enabled (by its ON/OFF switch), and the operator is a modulator.
+- LED is turned off if the operator is a modulator, but disabled by its ON/OFF switch.
 
 **Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz) as **international C4** (when unchecked, default factor), or the Yamaha **DX7 "C3" convention**, when checked. The module's firmware adjusts the octave number automatically for played notes, for displays, and MIDI learning features (OP BREAKPOINT, split point).
 
@@ -212,13 +207,11 @@ This feature may be useful in case you'd like reproduce the DX1 synthesizer as "
 
 You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it:
 
-![](_img/BrightEncoder.png)
+![](_img/BrightEncoderDK.png)
 
-The DeXtral module is using motorized potentiometers. All DX7 parameters based on potentiometer (except **LEVEL** near main output jack) are motorized, so you can adjust the rotation speed by using the labelled **MOTORZ** (motorized) continuous encoder above left side of the touchscreen. During adjustment by the encoder, a _speed demonstration_ is run by OP1 EG potentiometers moves, in order to give you an idea about the choosen motorization speed. The motorization setting is saved along autosave, .vcv patch files, and **.dexsynth** (entire synthesizer) files.
+:warning: The _DeXtral Kompakt_ module doesn't use motorized potentiometer (**LEVEL** potentiometer isn't motorized), so the setting is just displayed "for information" (like _Pot. tooltips_ global setting, explained above).
 
-![](_img/MotorzEncoder.png)
-
-:information_source: When done, to exit Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch any potentiometer!
+:information_source: When done, to exit Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch **LEVEL** potentiometer.
 
 ---
 
@@ -226,8 +219,7 @@ The DeXtral module is using motorized potentiometers. All DX7 parameters based o
 
 Due to optimized C/C++ algorithms (in order to reduce CPU load), the modulations process is:
 
-- Active modulation stands for assigned modulation who have defined source, defined target, behavior set as **ACTIVE**, and connected source input jack. Otherwise the modulation is ignored (not processed by the module's firmware).
-- Active modulation(s) for related DX7 parameter (potentiometer) **glows its purple small LED** located top-right side of the potentiometer.
+- Active modulation stands for assigned modulation who have defined source, defined target, behavior set as **ACTIVE**, and connected source input jack. Otherwise the modulation is ignored.
 - All active modulations are processed every 8 DSP frames (instead of realtime).
 - Modulations are always relative to raw DX7 parameter (kind of offset). All are used when ACTIVE (cumulative), from top to bottom.
 - In accordance with **VCV MIDI-CV** module: **VEL.** (velocity), **AFT.** (aftertouch), and **MW** (modwheel) inputs support polyphonic voltages.
@@ -248,7 +240,7 @@ All other outputs, like **OP EG ENVELOPE**, **OP EG WAVEFORM**, **P.EG** and **L
 
 ## DRAFT
 
-The DeXtral module can host 4 banks at the same time, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
+The _DeXtral Kompakt_ module offers 4 banks, named **INT**, **CART1**, **CART2**, and **CART3**. Each bank hosts 32 voices:
 - **INT** (as internal memory).
 - **CART1** (displayed **C1.**).
 - **CART2** (displayed **C2.**).
@@ -256,7 +248,7 @@ The DeXtral module can host 4 banks at the same time, named **INT**, **CART1**, 
 
 ---
 
-When you bring a fresh DeXtral module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
+When you bring a fresh DeXtral Kompakt module in your rack (from module browser), or after **Initialize** command from right click menu, or via **Ctrl+I** keys shortcut (**Command+I** on MacOS X computers), the internal memory (INT) and all three cartridges (CART 1, CART2, and CART3) are filled by "INIT" voices.
 
 However, you can download (and extract anywhere you'd like) two whole synthesizer binary files with prefilled banks (**.dexsynth** files).
 
@@ -266,7 +258,7 @@ Second **.dexsynth** file is using respectively **Rom3a** (to **INT**ernal memor
 
 All modulation matrices are empty.
 
-You'll can assume these factory **.dexsynth** files can be a good start point for your projects who are using one or many DeXtral synth voice module(s), without effort.
+You'll can assume these factory **.dexsynth** files can be a good start point for your projects who are using one or many DeXtral Kompakt synth voice module(s), without effort.
 
 :warning: **Due to very large amount of saved datas (approx. 300 kilobytes in "json", for full synthesizer), both DeXtral and DeXtral Kompakt modules don't support VCV Rack 2 Presets (.vcvm files) nor modules selections (.vcvs files).** Unfortunately it's due to VCV Rack 2 technical limitation. Both modules are using binary packed files to hold datas in saves, instead!
 
@@ -277,32 +269,16 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 Following DX7 parameters can't become a possible modulation target:
 
 - Current ALGORITHM.
-- MONOPHONIC toggle switch.
-- PORTAMENTO toggle switch (**not yet designed/implemented**).
+- MONOPHONIC state.
+- PORTAMENTO state (**not yet designed/implemented**).
 - GLISSANDO parameter (**not yet designed/implemented**).
-- OP SWITCH (operator on/off toggle buttons).
-- OP MODE (RATIO/FIXED toggle buttons).
-- OP BREAKPOINT potentiometers (displayed as "BREAK POINT=" on DX7-emulated LCD/OLED display).
-- OP L. CURVE potentiometers.
-- OP R. CURVE potentiometers.
-- LFO KEY SYNC toggle button.
-- OSC KEY SYNC toggle button.
-- LFO WAVEFORM selector button.
+- OP SWITCH states (for all six operators).
+- OP MODE (RATIO/FIXED).
+- OP BREAKPOINT parameters.
+- OP L. CURVE parameters.
+- OP R. CURVE parameters.
+- LFO KEY SYNC parameter.
+- OSC KEY SYNC parameter.
+- LFO WAVEFORM parameter.
 - EG BIAS (**not yet designed/implemented**).
 - Global settings (from "Preferences").
-
----
-
-### MODULATION MATRIX: FAST TARGET ASSIGNMENT<a name="fastassign"></a>
-
-To do a **fast assignment** of DX7 parameter as "target" into a new modulation slot (from _DeXtral_ module exclusively):
-
-- Place the mouse cursor over the DX7 parameter (related potentiometer) you'll want to assign as new modulation target.
-- Press & hold the **Tab** key: the **fast blinking purple small LED** (alongside the potentiometer) confirms the selected DX7 parameter.
-- Touch the potentiometer (left-mouse button click) to create the new modulation, by using the selected DX7 parameter as modulation target.
-
-By doing this action, the module's firmware adds a new modulation "slot" (this operation is ignored if the limit of existing modulations - 16 - was previously reached), then the **Modulation Matrix** screen is automatically invoked. Added modulation is always located at the bottom of the display (the lastest who have a touchable red cross icon). The selected DX7 parameter is defined as modulation target (instead of empty if you had used the touchable green "+" icon), modulation behavior is set to **ACTIVE** by default, amount is set to 0%, but the fader stays grayed while the modulation source is not defined. Then, you'll must define the modulation source (one of the input jack at the left side of the module), adjust the behavior of the modulation as required (choices are **ACTIVE**, or **BYPASSED**), then the amount of the modulation (via the fader).
-
-In case of the mouse pointer "leaves" the potentiometer area, the Tab key action is automatically disarmed (no more fast blinking LED), so please retry the process explained just above!
-
-:warning: Please read [MODULATION MATRIX: NOT SUPPORTED TARGETS](#notsupptargs) above, concerning non supported modulation targets!
