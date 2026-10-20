@@ -178,19 +178,17 @@ The "preferences" are global module's settings. To access the **Preferences** sc
 
 Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral Kompakt_ global settings).
 
-![](_img/PreferencesScreenDKv2.png)
+![](_img/PreferencesScreenDK.png)
 
 Settings description:
 
 **Pot. tooltips** setting is not applicable for _DeXtral Kompakt_ module (this setting is grayed, and cannot be changed), just here "for information" and to keep consistency vs. _DeXtral_ module's _Preferences_ screen!
 
-**DX7 MkI 12-bit DAC** checkbox, when checked, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems a bit more _bitcrushed_). When unchecked (factory default), the module's firmware is using an enhanced (high-resolution) DAC, instead.
-
-:warning: The DX7 MarkI 12-bit DAC emulation is not implemented in early versions of _DeXtral_ and _DeXtral Kompakt_ modules. It's the reason why this setting is grayed (cannot be changed) at the moment, until implemented feature!
-
 **Enhanced velocities (0~127)** checkbox, when checked (factory default), permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
 
-The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, by default unchecked, one checkbox per operator, permit to set-up operator discrete output. When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V). When unchecked, the operator sine waveform (prior PM modulation/feedback) is sent to the relevant OP OUTPUT (-10V ~ +10V). Amplitude envelope or sine waveform can be used as source voltage for other module.
+The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, all are by default unchecked define the role of operator discrete output.
+
+When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V normalized). Instead, when unchecked, the operator sine waveform (prior phase modulation) is sent to the relevant OP OUTPUT (-10V ~ +10V normalized). Amplitude envelope or sine waveform can be used as source voltage for other module.
 
 ![](_img/OutLedsWfDK.png)
 
@@ -265,15 +263,17 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 Following DX7 parameters can't become a possible modulation target:
 
-- MONOPHONIC toggle switch.
-- PORTAMENTO toggle switch (**not yet designed/implemented**).
-- GLISSANDO potentiometer (**not yet designed/implemented**).
-- OP SWITCH (operator on/off parameters).
-- OP MODE (RATIO/FIXED parameters).
+- Current ALGORITHM.
+- MONOPHONIC state.
+- PORTAMENTO state (**not yet designed/implemented**).
+- GLISSANDO parameter (**not yet designed/implemented**).
+- OP SWITCH states (for all six operators).
+- OP MODE (RATIO/FIXED).
 - OP BREAKPOINT parameters.
 - OP L. CURVE parameters.
 - OP R. CURVE parameters.
 - LFO KEY SYNC parameter.
 - OSC KEY SYNC parameter.
 - LFO WAVEFORM parameter.
-- EG BIAS (**not yet designed/implemented**), and global settings from "Preferences".
+- EG BIAS (**not yet designed/implemented**).
+- Global settings (from "Preferences").
