@@ -190,7 +190,12 @@ The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbo
 
 When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V normalized). Instead, when unchecked, the operator sine waveform (prior phase modulation) is sent to the relevant OP OUTPUT (-10V ~ +10V normalized). Amplitude envelope or sine waveform can be used as source voltage for other module.
 
-![](_img/OutLedsWfDK.png)
+Whatever the given role to individual OP OUTPUT, a coloured LED indicates the operator type via this colorscheme:
+
+- Green LED if the operator is enabled (by its ON/OFF switch), and the operator is a carrier (outputs sound).
+- Red LED if the operator is a carrier, but disabled by its ON/OFF switch.
+- White LED if the operator is enabled (by its ON/OFF switch), and the operator is a modulator.
+- LED is turned off if the operator is a modulator, but disabled by its ON/OFF switch.
 
 **Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz) as **international C4** (when unchecked, default factor), or the Yamaha **DX7 "C3" convention**, when checked. The module's firmware adjusts the octave number automatically for played notes, for displays, and MIDI learning features (OP BREAKPOINT, split point).
 
