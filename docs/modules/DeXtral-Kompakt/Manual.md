@@ -190,20 +190,24 @@ The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbo
 
 When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V normalized). Instead, when unchecked, the operator sine waveform (prior phase modulation) is sent to the relevant OP OUTPUT (-10V ~ +10V normalized). Amplitude envelope or sine waveform can be used as source voltage for other module.
 
-Whatever the given role to individual OP OUTPUT, a coloured LED indicates the operator type via this colorscheme:
+Whatever the given role to individual OP OUTPUT, RGB LED along the output jack indicates the operator behavior, following this colorscheme:
 
 - Green LED if the operator is enabled (by its ON/OFF switch), and the operator is a carrier (outputs sound).
 - Red LED if the operator is a carrier, but disabled by its ON/OFF switch.
 - White LED if the operator is enabled (by its ON/OFF switch), and the operator is a modulator (modulates other operators).
 - LED is turned off if the operator is a modulator, but disabled by its ON/OFF switch.
 
-**Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz @ ratio 1, no detune) as **international C4** (when unchecked), or by following the **DX7 "C3" convention** (defined by Yamaha), when checked. The module's firmware adjusts the octave shift automatically for for displays, and for MIDI learning features (OP BREAKPOINT, split point). Unchecked by default to use international C4, like VCV Rack 2 does.
+:warning: ON/OFF switches are not physically provided by _DeXtral Kompakt_ module, but states are encoded inside loaded **.dexsynth** files (made by _DeXtral_).
 
-:information_source: Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1, no detune). From your DAW, when you play C4 note from your MIDI controller, Dexed plugin highlights C3 (as green color) on its virtual keyboard, instead of C4.
+**Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz @ ratio 1, no detune) as **international C4** (when unchecked), or by following the **DX7 "C3" convention** (defined by Yamaha), when checked. The module's firmware adjusts the octave shift automatically only for displays (OP BREAK POINT) and MIDI learning features (OP BREAKPOINT, split point). Unchecked by default to follow international C4 (like VCV Rack 2 does).
 
-**KEYBOARD SPLIT & RESPONSE "PART"** section is useful to define a custom **split point** (on attached MIDI controller). The checkbox alongside indicated note, by default C4 (or C3 if the middle C follows the DX7 convention, see above), when checked, activate the **split mode**. In this case, **LOWER** option button indicates if lower keys (notes) below the split point are considered (keys above the split point are filtered/ignored), or **UPPER** option button if upper keys above the split point are processed (keys below the split point are, in this case, filtered/ignored). You can choose the note either by touching left and right arrows (to select previous or next semitone), or by using learning feature via your attached MIDI controller.
+:information_source: Dexed VST3/CLAP/AU plugin follows the DX7 convention (C3) for the middle C note (261.64Hz @ ratio 1, no detune). From your DAW, when you play C4 note from your MIDI controller, Dexed plugin highlights C3 (as green color) on its virtual keyboard (instead of C4).
 
-This feature may be useful in case you'd like reproduce the DX1 synthesizer as "split mode" (bitimbrality), by using two DeXtral / DeXtral Kompakt instances, one replying on lower keys, other replying on upper keys.
+**KEYBOARD SPLIT & RESPONSE "PART"** section is useful to set a custom **split point** (related to attached MIDI controller). The checkbox alongside indicated note, by default C4 (or C3 if the middle C follows the DX7 convention, as explained just above), when checked, activate the **split mode**. In this case, **LOWER** option button indicates if lower keys (notes) below the split point are processed (keys above the split point are ignored by the module), or _a contrario_, **UPPER** option button if upper keys above the split point are processed (in this case, keys below the split point are ignored by the module). You can choose the split point (note) either by touching left and right arrows surrounding LEARN button (to select previous or next semitone), or by using learning feature via your attached MIDI controller by touching the **LEARN** button.
+
+:warning: Learning feature is possible while both **V/OCT** and **GATE** input jacks are connected!
+
+This feature may be useful in case you'd like reproduce the DX1 synthesizer as "split mode" (bi-timbrality), by using two DeXtral / DeXtral Kompakt instances, one replying on lower keys, other replying on upper keys.
 
 You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** continuous encoder (above left side of the touchscreen). Counter-clockwise rotation reduces the touchscreen's brightness, clockwise rotation increases it:
 
@@ -211,7 +215,7 @@ You can adjust the touchscreen's brightness by turning the labelled **BRIGHT.** 
 
 :warning: The _DeXtral Kompakt_ module doesn't use motorized potentiometer (**LEVEL** potentiometer isn't motorized), so the setting is just displayed "for information" (like _Pot. tooltips_ global setting, explained above).
 
-:information_source: When done, to exit Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch **LEVEL** potentiometer.
+:information_source: When done, to exit the Preferences screen, press the labelled **FINISH** button (same than **MENU** button), or touch **LEVEL** potentiometer.
 
 ---
 
