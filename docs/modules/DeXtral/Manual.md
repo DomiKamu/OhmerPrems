@@ -183,21 +183,24 @@ The "preferences" are global module's settings. To access the **Preferences** sc
 
 Now it's the **PREFERENCES** screen (here showing the default factory _DeXtral_ global settings).
 
-![](_img/PreferencesScreen.png)
+![](_img/PreferencesScreenV2.png)
 
 Settings description:
 
 **Pot. tooltips** checkbox allows to display custom tooltip when the mouse cursor flies over related DX7 potentiometer. This feature is useful when the module can't be seen entirely (screen resolution less than 1920x1080, or by using important zoom factor who hide the touchscreen).
 
-**DX7 MkI 12-bit DAC** checkbox, when checked, the module's firmware selects the 12-bit DAC behavior of the DX7 MarkI synthesiser (the sound seems a bit more _bitcrushed_). When unchecked (factory default), the module's firmware is using an enhanced (high-resolution) DAC, instead.
-
-:warning: The DX7 MarkI 12-bit DAC emulation is not implemented in early versions of _DeXtral_ and _DeXtral Kompakt_ modules. It's the reason why this setting is grayed (cannot be changed) at the moment, until implemented feature!
-
 **Enhanced velocities (0~127)** checkbox, when checked (factory default), permit to use full velocity range (0 to 127), instead of limited 0~100 by the real DX7.
 
-The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, by default unchecked, one checkbox per operator, permit to set-up operator discrete output. When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V). When unchecked, the operator sine waveform (prior PM modulation/feedback) is sent to the relevant OP OUTPUT (-10V ~ +10V). Amplitude envelope or sine waveform can be used as source voltage for other module.
+The group of six checkboxes **OPERATOR OUTPUT: AMP. EG (ENVELOPE)**, one checkbox per operator, all are by default unchecked define the role of operator discrete output.
 
-![](_img/OutLedsWf.png)
+When checked, the amplitude envelope (AMP. EG) is sent to the relevant OP OUTPUT (0V ~ +10V normalized). Instead, when unchecked, the operator sine waveform (prior phase modulation) is sent to the relevant OP OUTPUT (-10V ~ +10V normalized). Amplitude envelope or sine waveform can be used as source voltage for other module.
+
+Whatever the given role to individual OP OUTPUT, a coloured LED indicates the operator type via this colorscheme:
+
+- Green LED when the operator is enabled (by its ON/OFF switch), and the operator is a carrier (outputs sound).
+- Red LED when the operator is a carrier, but disabled by its ON/OFF switch.
+- White LED when the operator is enabled (by its ON/OFF switch), and the operator is a modulator.
+- LED is off when the operator is a modulator, but disabled by its ON/OFF switch.
 
 **Middle C = C3 (DX7 convention)** checkbox permits to define the "name" of the **middle C** note (261.64Hz) as **international C4** (when unchecked, default factor), or the Yamaha **DX7 "C3" convention**, when checked. The module's firmware adjusts the octave number automatically for played notes, for displays, and MIDI learning features (OP BREAKPOINT, split point).
 
@@ -273,9 +276,10 @@ You'll can assume these factory **.dexsynth** files can be a good start point fo
 
 Following DX7 parameters can't become a possible modulation target:
 
+- Current ALGORITHM.
 - MONOPHONIC toggle switch.
 - PORTAMENTO toggle switch (**not yet designed/implemented**).
-- GLISSANDO potentiometer (**not yet designed/implemented**).
+- GLISSANDO parameter (**not yet designed/implemented**).
 - OP SWITCH (operator on/off toggle buttons).
 - OP MODE (RATIO/FIXED toggle buttons).
 - OP BREAKPOINT potentiometers (displayed as "BREAK POINT=" on DX7-emulated LCD/OLED display).
@@ -284,7 +288,8 @@ Following DX7 parameters can't become a possible modulation target:
 - LFO KEY SYNC toggle button.
 - OSC KEY SYNC toggle button.
 - LFO WAVEFORM selector button.
-- EG BIAS (**not yet designed/implemented**), and global settings from "Preferences".
+- EG BIAS (**not yet designed/implemented**).
+- Global settings (from "Preferences").
 
 ---
 
