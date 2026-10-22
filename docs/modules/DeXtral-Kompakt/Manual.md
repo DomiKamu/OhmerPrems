@@ -119,7 +119,7 @@ You can consider:
 - Stereo: none (all outputs are mono).
 - Polyphonic outputs: yes (up to 16 channels).
 - Operational sample rate: recommended 44100Hz/48000Hz, or higher.
-- DAC resolution: 24-bit high-resolution DAC (original 12-bit DAC will be implemented in future release).
+- Operational sample rate: minimum 44.1kHz, recommended 44.1kHz/48kHz (audio engines not yet tested vs. higher sample rates).
 - Banks: 4 (named INT, CART1/C1, CART2/C2, CART3/C3), each holds 32 voices.
 - Full DX7 SysEx files support (either for VMEM 32-voice banks, and VCED single-voice): import only.
 - Full DeXtral files support (**.dexsynth** for entire synthesizer, **.dexcart** for 32-voice cartridge, with extended features such modulation matrices and operator ON/OFF switch states - these features are not supported by DX7 SysEx).
@@ -192,10 +192,10 @@ When checked (default factory), the amplitude envelope (AMP. EG) is sent to the 
 
 Whatever the given role to individual OP OUTPUT, RGB LED along each output jack indicates the operator behavior, following this colorscheme:
 
-- Green LED if the operator is enabled (by its ON/OFF switch), and the operator is a carrier (outputs sound).
+- Green LED if the operator is enabled (by its ON/OFF switch), and the operator is a carrier (who feeds the audio directly to output bus).
 - Red LED if the operator is a carrier, but disabled by its ON/OFF switch.
-- White LED if the operator is enabled (by its ON/OFF switch), and the operator is a modulator.
-- LED is turned off if the operator is a modulator, but disabled by its ON/OFF switch.
+- White LED if the operator is enabled (by its ON/OFF switch), and the operator is a modulator, who modulates another operator(s).
+- LED is turned off is the operator is a modulator, but disabled by its ON/OFF switch.
 
 :information_source: Carrier and modulator operators are defined by the algorithm.
 
