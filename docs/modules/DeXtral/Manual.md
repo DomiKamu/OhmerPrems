@@ -81,21 +81,23 @@ Proprietary binary file formats provided by both _DeXtral_ and _DeXtral Kompakt_
 
 The _DeXtral_ module is the "control tower" of DX7 in the OhmerPrems ecosystem!
 
-Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between ton of menus/submenus... Most DX7 parameters are potentiometers (few of them are momentary buttons to toggle a state (on/off), one to select the LFO waveform).
+Despite its very huge size for an Eurorack module (117HP wide), its avantage is to propose all DX7 parameters behind your eyes, without need to navigate between ton of menus/submenus/pages... Most DX7 parameters are potentiometers (few of them are momentary buttons, to toggle a state on/off, and another one to select the LFO waveform).
 
 This _DeXtral_ module is mainly useful to prepare your DX7 synthesizer file(s) you'll need in your project (can be single-voice files, 32-voice cartridge files, or full synthesizer files). When your sound design session is completed (and of course, saved), you'll can replace the huge _DeXtral_ module by its compact variant, the _DeXtral Kompakt_, in order to save signifiant space in your rack. Of course, you'll must open appropriate file(s), either **.dexsynth** file (single-voice), **.dexcart** file (32-voice cartridge), or **.dexsynth** file (entire synthesizer), previously made by any _DeXtral_ module. Please read [DeXtral Kompakt User's Manual](https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/DeXtral-Kompakt/Manual.md) for more details about this thinner module!
 
 Also, you'll can prepare your custom DX7 soundbank or single-voice, then export it as _VMEM_ SysEx (32-voice soundbank) or _VCED_ SysEx (single-voice), in order to import it to real DX7 synthesizer (the DX7 always uses MIDI channel 1 for SysEx transfers, also, MEMORY PROTECT must be disabled prior to import), or to another DX7-compatible software capable to interpret DX7 SysEx files, like freeware [**Dexed**](https://asb2m10.github.io/dexed/), or commercial [**Arturia's DX7 V**](https://www.arturia.com/products/software-instruments/dx7-v/overview) / [**Plogue's chipsynth OPS7**](https://www.plogue.com/products/chipsynth-ops7.html).
 
 You can consider:
-- **DeXtral**, the huge module, either as voice synthesizer **AND** as full DX7 voice (sound) editor for sound design.
+- **DeXtral** (the huge module), either as voice synthesizer **AND** as full DX7 voice (sound) editor (for sound design sessions).
 - **DeXtral Kompakt** module, as voice synthesizer for final production in your racks (mainly to save space!).
 
 :information_source: _DeXtral_ module is capable to create/edit the modulation matrix, for each voice, save/load single-voice **.dexvoice** files, save/load 32-voice cartridge **.dexcart** files, and save/load full synthesizer **.dexsynth** files.
 
 ---
 
-:information_source: _DeXtral Kompakt_ module is **free for everyone** (license V2 keyfile isn't required).
+:information_source: _DeXtral_ module doesn't use Google's **Music Synthesizer for Android ([MSFA](https://github.com/google/music-synthesizer-for-android))** library. Also, it doesn't use IA-generated source code! All come from investigations and studies around my old Yamaha DX7 (firmware 1.8) hardware synthesizer.
+
+:warning: _DeXtral_ module requires a license V2 keyfile in order to save stuff (and export as DX7 SysEx). Without the license V2 keyfile, the module acts as "player", exactly like its little brother, _DeXtral Kompakt_ module.
 
 ---
 
