@@ -95,13 +95,13 @@ The _DeXtral_ synth voice module is not yet included in the OhmerPrem plugin v2.
 - Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules (not only DeXtral), I suspect it's an **issue caused by VCV Rack 2 v2.6.6 graphic engine**. So please be sure to set **UI Scale** (from **View** menu) factor to **Auto** (or **100%**) for more reliable graphical rendering (confirmed by three MacBook users)!
 - This synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is not yet developed. Development of sound processors will start from Monday 24th, August 2026!
 
-_DeXtral_ module is scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this important delay!
+_DeXtral_ module is scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this very important delay!
 
 However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" builds)** every day (or often) morning in France (UTC+2). When this module is finished, fine tested, and stable, the plugin version will be v2.6.15 (I assume v2.6.14 as pre-releases ALPHA "Daily" only).
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:information_source: _DeXtral_ module will be **free for everyone**, meaning it will operate as **full version**, whatever you're owner of a license V2 keyfile or not, exactly like Vektor / VX, KlokSpid MkII & KX, KordZ, and (future) DeXtral Kompakt modules.
+:warning: **The _DeXtral_ module requires a license V2 keyfile** in order to save your sound design sessions, and DX7 SysEx export ability. Otherwise, the module will work as "player" (exactly like the _DeXtral Kompakt_ module).
 
 [**DeXtral User's Manual**](docs/modules/DeXtral/Manual.md) is also under construction (as "draft" status).
 
