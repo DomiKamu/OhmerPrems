@@ -90,6 +90,8 @@ You can consider:
 
 ---
 
+:information_source: _DeXtral Kompakt_ module doesn't use Google's **Music Synthesizer for Android ([MSFA](https://github.com/google/music-synthesizer-for-android))** library. Also, it doesn't use IA-generated source code! All come from investigations and studies around my old Yamaha DX7 (firmware 1.8) hardware synthesizer.
+
 :information_source: _DeXtral Kompakt_ module is **free for everyone** (license V2 keyfile isn't required).
 
 ---
