@@ -93,7 +93,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 The _DeXtral_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
 - Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules (not only DeXtral), I suspect it's an **issue caused by VCV Rack 2 v2.6.6 graphic engine**. So please be sure to set **UI Scale** (from **View** menu) factor to **Auto** (or **100%**) for more reliable graphical rendering (confirmed by three MacBook users)!
-- This synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is not yet developed. Development of sound processors will start from Monday 24th, August 2026!
+- This synth voice module **DOESN'T OUTPUT SOUND AT THE MOMENT**, because PM synthesis part is in development.
 
 _DeXtral_ module is scheduled for future stable release v2.6.15, **but no given delay at the moment**. Please apologize again for this very important delay!
 
@@ -101,7 +101,7 @@ However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" b
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:warning: **The _DeXtral_ module requires a license V2 keyfile** in order to save your sound design sessions, and DX7 SysEx export ability. Otherwise, the module will work as "player" (exactly like the _DeXtral Kompakt_ module).
+:warning: **The _DeXtral_ module requires a license V2 keyfile** in order to save your sound design sessions, and DX7 SysEx export ability. Otherwise, the module will work as "player", exactly like the _DeXtral Kompakt_ module. However, the modulation matrix is always saved, whatever you're owner of license V2 keyfile, or not).
 
 [**DeXtral User's Manual**](docs/modules/DeXtral/Manual.md) is also under construction (as "draft" status).
 
