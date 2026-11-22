@@ -50,7 +50,7 @@ Also, in case of your current rack doesn't embed any VCV AUDIO module (or presen
 
 Lastest stable version **v2.6.13** is available directly from [_here_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.13) (Release section), for manual download + install/update. This release is also available from [**VCV Library**](https://library.vcvrack.com/OhmerPrems), for automatic installation/update (whole OhmerPrems plugin, or per selected modules).
 
-**Daily** Pre-release v2.6.14 ALPHA offers **W.I.P./in development** _DeXtral_ & _DeXtral Kompakt_ synth voice modules, for testing purposes only. **It doesn't output sound  at the moment!** (the 96 sound engines are implemented, but disabled, they need optimizations, also a working feedback, and minimalist amp. envelope generators).
+**Daily** Pre-release v2.6.14 ALPHA offers **W.I.P./in development** _DeXtral_ & _DeXtral Kompakt_ synth voice modules, for testing purposes only. **It doesn't output sound  at the moment!** (the 96 sound engines are implemented, but disabled, they need some optimizations, and minimalist - key on/ key off - amp. envelope generators).
 
 Download & manual install/update from [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14) section.
 
@@ -101,7 +101,7 @@ However, during development, I'll publish **Pre-release v2.6.14 ALPHA ("Daily" b
 
 You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://github.com/DomiKamu/OhmerPrems/releases/tag/v2.6.14), for manual download & install/update.
 
-:warning: **The _DeXtral_ module requires a license V2 keyfile** in order to save your sound design sessions, and DX7 SysEx export ability. Otherwise, the module will work as "player", exactly like the _DeXtral Kompakt_ module. However, the modulation matrix is always saved, whatever you're owner of license V2 keyfile, or not).
+:warning: **The _DeXtral_ module requires a license V2 keyfile** in order to save your sound design sessions, and DX7 SysEx export ability. Otherwise, the module will work as "player", exactly like the _DeXtral Kompakt_ module.
 
 [**DeXtral User's Manual**](docs/modules/DeXtral/Manual.md) is also under construction (as "draft" status).
 
