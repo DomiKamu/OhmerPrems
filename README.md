@@ -348,16 +348,15 @@ However, _Vektor_ (and its expander, _VX_), _KlokSpid MkII_ (and its _KX_ expand
 
 All *OhmerPrems* members will benefit all **lifetime** updates/upgrades, but also they benefit all future *OhmerPrems* modules, always as full version, without any additional charge! **It's a perpetual license scheme**.
 
-To become *OhmerPrems* member, simply send **15 euros** via PayPal.Me. If required, please convert your local currency first, to fit with 15 (or a bit more) euros, otherwise your payment will not be accepted (and refurbished). Payment via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
+To become *OhmerPrems* member, simply send **7.50 euros** via PayPal.Me (during Black Friday period, until December 1st, instead of 15 euros). If required, please convert your local currency first, to fit with 7.50 (or a bit more) euros, otherwise your payment will not be accepted (and refurbished). Payment only via [my "PayPal.Me" (Dominique CAMUS @DominiqueCAMUS - BARJAC)](https://www.paypal.com/paypalme/DominiqueCAMUS).
 
-
-Due to security measures, only payments via PayPal.Me are accepted.
-
-:warning: as often asked in private message, **you'll cannot buy a license keyfile directly via the VCV Store**.
+:warning: as often asked in private message, **you'll cannot buy a license keyfile directly from the VCV Store**.
 
 ---
 
-## Summer 2026: please consider 15 euros fee remains very fair! this fee will not change during 2026.
+## Black Friday: the license fee is temporary reduced to 7.50 euros (instead of 15 euros), until December 1st, 2026.
+
+## IGNORE THIS! Summer 2026: please consider 15 euros fee remains very fair! this fee will not change during 2026.
 
 **Very important: do not forget to indicate:**
 - your first and last name (personal name only, **company name and "nickname" aren't accepted**).
@@ -366,7 +365,7 @@ Due to security measures, only payments via PayPal.Me are accepted.
 
 New subscription requires max. 24 hours for processing, in general less, often couple of hours, sometimes delivered after... minutes, after PayPal payment notification. 
 
-Please consider **incomplete/not regular fee informations or/and payment less than 15 euros equivalent will be refurbished**.
+Please consider **incomplete/not regular fee informations or/and payment less than 7.50 euros equivalent will be refurbished**.
 
 Thanks for your understanding!
 
