@@ -95,9 +95,9 @@ You can consider:
 
 ---
 
-:information_source: _DeXtral_ module doesn't use Google's **Music Synthesizer for Android ([MSFA](https://github.com/google/music-synthesizer-for-android))** library. Also, it doesn't use IA-generated source code! All come from investigations and studies around my old Yamaha DX7 (firmware 1.8) hardware synthesizer.
+:information_source: _DeXtral_ module doesn't use Google's **Music Synthesizer for Android ([MSFA](https://github.com/google/music-synthesizer-for-android))** library. Also, it doesn't use IA-generated source code! All of my stuff are coming from long investigations and studies around my old Yamaha DX7 (firmware 1.8) hardware synthesizer.
 
-:warning: _DeXtral_ module requires a license V2 keyfile in order to save stuff (and export as DX7 SysEx). Without the license V2 keyfile, the module acts as "player", exactly like its little brother, _DeXtral Kompakt_ module.
+:warning: _DeXtral_ module requires a license V2 keyfile in order to save any stuff (and export as DX7 SysEx). Without the license V2 keyfile, the module acts as free/trial "player". Without a valid license V2 keyfile, all changes are lost between VCV Rack sessions!
 
 ---
 
