@@ -89,7 +89,7 @@ Following animation is showing **all 8 models** (panel themes) of _Vektor_ modul
 
 ## **DeXtral: Work In Progress - currently in development!**
 
-![](docs/modules/DeXtral/_img/mainModuleV2.png)
+![](docs/modules/DeXtral/_img/mainModule.png)
 
 The _DeXtral_ synth voice module is not yet included in the OhmerPrem plugin v2.6.13, but why?
 - Some MacBook users continue to suffer about missing panel SVG textures with some combined zoom levels & UI scale factors. This concern all large modules (not only DeXtral), I suspect it's an **issue caused by VCV Rack 2 v2.6.6 graphic engine**. So please be sure to set **UI Scale** (from **View** menu) factor to **Auto** (or **100%**) for more reliable graphical rendering (confirmed by three MacBook users)!
@@ -109,7 +109,7 @@ You'll can download fom [_Pre-release v2.6.14 ALPHA ("Daily" builds)_](https://g
 
 ## **DeXtral Kompakt: Work In Progress - currently in development!**
 
-![](docs/modules/DeXtral-Kompakt/_img/mainModule.png)
+![](docs/modules/DeXtral-Kompakt/_img/mainModuleV2.png)
 
 The _DeXtral Kompakt_ synth voice module is - in development - the "little brother" of the huge _DeXtral_ module. _Little_ because it's largely thinner than the DeXtral module (33HP, vs. 117HP), but it have near all features proposed by its big brother. Exceptions are the compact module cannot alter DX7 synthesizer parameters, and it doesn't export to DX7 SysEx files. Nothing else!
 
@@ -356,7 +356,7 @@ To become *OhmerPrems* member, simply send **7.50 euros** via PayPal.Me (during 
 
 ## Black Friday: the license fee is temporary reduced to 7.50 euros (instead of 15 euros), until December 1st, 2026.
 
-## IGNORE THIS! Summer 2026: please consider 15 euros fee remains very fair! this fee will not change during 2026.
+PLEASE IGNORE THIS -> Summer 2026: please consider 15 euros fee remains very fair! this fee will not change during 2026.
 
 **Very important: do not forget to indicate:**
 - your first and last name (personal name only, **company name and "nickname" aren't accepted**).
